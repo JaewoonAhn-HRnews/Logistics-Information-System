@@ -2,6 +2,51 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "76a83084c901",
+   "date": "2026-10-17",
+   "ts": "2026-10-17T03:57",
+   "title": "BWX Technologies: Navy, Army And AI To Fuel Demand (NYSE:BWXT)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWW9PWHI2M0dnQkkzS1VDRUJnX1paN0oxMEZGRVVKdllUeURualhURHpjck4wbG5DTHFKb01vNWdhdElFVFJUNXNnSWlqZU5SLWpIbnhlVno3M3VvVjJmV2ZyTU03N2lkX0NqZThnQXo5V3RxUzYybzQ4Z0p2ZldPWE81SmNvb1hoaDU1TS1NYnU0NW8?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [],
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "q": "military supply chain artificial intelligence"
+  },
+  {
+   "id": "e934ce6adaef",
+   "date": "2026-10-17",
+   "ts": "2026-10-17T00:03",
+   "title": "미 해군 군수지원함 정비 완료, HJ중공업 기술력 인정받아",
+   "source": "국제뉴스",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91dzNGNnZSeWRubzdtQ3NMa1REM3hKeXdxb09pRmtvZEdXN1p4WEM1d3p2amowMzlkRGpVUWYxYzI0dzUwdFRsODJVRlRXRm92bHJiSnlUZlp6WEV2WTVGXzlfRlNodVZKN3JETGFB?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "q": "국방 MRO"
+  },
+  {
    "id": "54a495ea066c",
    "date": "2026-10-16",
    "ts": "2026-10-16T09:00",
@@ -64,6 +109,79 @@
    "q": "seed"
   },
   {
+   "id": "16cc54d53862",
+   "date": "2026-10-15",
+   "ts": "2026-10-15T09:10",
+   "title": "HJ중공업, 미 해군 함정 MRO 마무리…군수지원함 정비 후 출항",
+   "source": "중앙신문",
+   "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQMTlpeVE2WTB1SnFlNktWWHFjbXNmM2VyWFVVVWtOQ2NTN28zdk11QkY0WkpXZ2ZVVDYzeTlOdTZrdHFDVHdPMU53allKZHptbF9FVGF5bG1RRElEb2FYWGs0czVsU3lLblhZQXdGajR3d3U5clZqRERZMlh2UGVSbndvenlicEQ4YmRWb0FPQVpvb3BtX3pYREtGaFJtLTlrLXV1c0dfMEZjZVdfcXRyS2VyTFJ2R3ZNajZHejhsdmdsVGtZV3pCdjVfbjJfOEY1VWZsUHZiME1pQ24xSktrM0FwaWpNcGJWbTRXNmwtQUlVdWdOV2F2b3Q1cHlyVnZCeG9ualJ4bmcyZllJcmhIenhtT3pRNDBnd3hicHQ5dmF6WG40dUZOTUNSWVQ2OTAwOW0yeWtiTm9YLTY2WlBOYTR5OGREbktOaUhlRF9XbVg3alg5RVgtNEpR?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "q": "국방 MRO"
+  },
+  {
+   "id": "8e542ab5d695",
+   "date": "2026-10-15",
+   "ts": "2026-10-15T00:19",
+   "title": "GM Defense Unveils Autonomous Silverado 3500HD for Army Logistics Trials in 2027",
+   "source": "Glitchwire",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVEwyWnhOTVI1SzR6eGpCQlJtVjNHRk1Rd1FPeWEyRmNweWpVcUI1QzBqWmZER1QwSUd0Qk5UamMwM0ZSdXp3SzV2WlVXYl9mV090WUhYUmVVUjVQWGpyWGVkYXJjcy04T2prM3dDcS01NFFTVFZ3UktwMTBZS3dFdDRDdkFRTE9oMEp6V0dySDJYWFFsbmFxczlzVm5ON2FTTW4zNDdodGVib1Mxenc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "자율주행 보급"
+   ],
+   "ents": [],
+   "axes": [],
+   "score": 4.0,
+   "also": [
+    {
+     "source": "Dealroom",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObXJqdGJubXJvMkJuSzdnTm4zb0oyV1hMRDdLM0NWZXRDNGotRDRJbGdnbUtZdHUyVzdYaHVrekw1SER4T0ZOV2sxbzRHSUJMcWoyTVhYd1NyTTRnNVdGOGJ3bF9neElfRXpIaHI4ZGZFX0ZFLTlfWjF2dVN3WlMzcDlOUG1nd0I0OGpSYTJOS3F0RnBsc1RZZ2tKWXVhYzJQcnhlN0NMN0pGWFowWWt4Y3I3QzAwYVV1OXFr?oc=5",
+     "title": "GM Defense unveils autonomous Silverado 3500HD prototype for US Army logistics trials"
+    }
+   ],
+   "origin": "rss",
+   "q": "military logistics AI"
+  },
+  {
+   "id": "f2459b291e5c",
+   "date": "2026-10-14",
+   "ts": "2026-10-14T21:00",
+   "title": "A new St. Paul hub will bring military supply-chain, maintenance and training tools closer to users.",
+   "source": "Stock Titan",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcGYwdmNDMG91TEY3N3JrWGN4eTdHdkVUbUZQelVOM0M4RlZIU1ZtYlFUSkQzekQxZ25mOGEzWUxKeFktcVJRbmdjMEhJY3l1U3pZTHB2UkJhSHNERy1NOVZwZUVocFpFTVJpb2FxejNpNGtqelEtd0FDVWlhNWJ4b1lZdHJONTZQa19mSjZhMVExZ1dYMnpESG1nN2JrQW5jQXdLb3M1bkNZWm9ralMtSFJtT1VZdw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "q": "military logistics AI"
+  },
+  {
    "id": "737505b386ac",
    "date": "2026-10-14",
    "ts": "2026-10-14T09:00",
@@ -94,6 +212,28 @@
    "q": "seed"
   },
   {
+   "id": "f090dae86d4f",
+   "date": "2026-10-14",
+   "ts": "2026-10-14T05:16",
+   "title": "Arrive Ai Inc. Announces Formation of Arrive Ai Defense Division to Bring Autonomous Delivery Infrastructure and Intelligent Logistics Technologies to Defense, Military, Diplomatic and National Security Sectors",
+   "source": "www.marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVXEySzQza3pGa2lSU2FxZXNycldQSC1DZGpuUFQwV3hmSURhbG1HVGlwTG9BQ1JUS1lwR0RSZFFEVXJPcjVlZUlkZm5Cd0l1UGo4ZXFYQ19EVFFGYV9yWGk0dHIxMnBFcEFtZjVaUF9KYWx6VjJoNUhHZVFsWnZYakdmdEhRTjFWaVlqWF9RaWw4WExuaFRkQnRIQ1BRQ3VBN1YwRFpUZmd3XzN0enJET213TWpvd285aVQ1X1FqTWlLQmJ0Qlg2b3dISmJnSVFFTzBrOU82dGJSbTduZkk2bmE3b3MzTG8?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "자율주행 보급"
+   ],
+   "ents": [],
+   "axes": [],
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "q": "military logistics AI"
+  },
+  {
    "id": "29b5a49705c8",
    "date": "2026-10-13",
    "ts": "2026-10-13T09:00",
@@ -116,6 +256,183 @@
    "also": [],
    "origin": "seed",
    "q": "seed"
+  },
+  {
+   "id": "f29cfd77df07",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T23:47",
+   "title": "KAI, 해병대 상륙기동헬기(MUH-1) 성과기반군수지원(PBL) 계약 체결",
+   "source": "디펜스투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2WVNRZFZiREdBdmtHRTYwRXVlWmRHcjRSQW5odm1vOTkzdWttdnZITjBTM2JXVk03aEdrd211T19KSGJ6cDBLb0NpRWlBMFU1ZWJJV1RjMzNKMjZnYVp5UjF0UWNvYVdxUkNlcmN3?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "성과기반군수지원"
+   ],
+   "ents": [
+    "해병대",
+    "KAI"
+   ],
+   "axes": [],
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "q": "성과기반군수지원 PBL"
+  },
+  {
+   "id": "965e26dd9f71",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T22:26",
+   "title": "KAI, 1,145억 원 규모 해병대 헬기 지원 계약…5년간 정비 신뢰도 높인다",
+   "source": "국제뉴스",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90TFVCYWVZX3d3aGxDdmNKSDhabE12YkxOdWhaRmFzMUVobG1NQ1Z2ZEZzamtrdmJaMmcxdkF4RWFVSlhDX25yMzdiZEszZUU1MmNJYllZQWh1RkJxN1p3QjZGbmdwYW1nRXFHQS1n?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "cats": [
+    "ram",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [
+    "해병대",
+    "KAI"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "q": "성과기반군수지원 PBL"
+  },
+  {
+   "id": "153764dab8a6",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T22:13",
+   "title": "Arrive AI Launches Defense Division to Power the Next Generation of Autonomous Military Logistics",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbDRXcmFEOG5aVGlJZHh2SmVXRGprOWVhWHVKc0l6YkhRWEFjNEhRYXExZnZ0NGZFV3lGeUx2TEJkWTJPdERfVGtzUy03TG43TlpJUHpDc2t4RGpRaTZHMFV2UnRlZUM2SjhPdmJ5SUhlTlhidTV0dmozR3hIZkJROUZmWUNCQmhmRnNXbzI3cTZSeldna0xKVTVJQkQ2T2t6?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "자율주행 보급"
+   ],
+   "ents": [],
+   "axes": [],
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "q": "military logistics AI"
+  },
+  {
+   "id": "edc4770c8079",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T16:00",
+   "title": "GM Defense Unveils Autonomous Military Silverado for Battlefield Logistics",
+   "source": "OECD AI Policy Observatory",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wZmZlR096cXlMZ0IwdFRfUEV0cHNBaDQ4NGoySzVBQTNrWTBsa0VRbjRkdHJDYjVBWUdldldHWFRnVUJCcldOZExNNEFiSzZVQVllajZSYw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "자율주행 보급"
+   ],
+   "ents": [],
+   "axes": [],
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "q": "military logistics AI"
+  },
+  {
+   "id": "c8f17fe2f7f4",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T01:51",
+   "title": "AI May Reshape Military Workforce, Key Questions Unresolved",
+   "source": "Legis1",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zXzhLMldiSlhVTlhDY1NFOGI5Umlnb2V3MjRuQl9SQ090d080OXpCTFZaWThObVdjLXBOYkU5S1p2WHZ0SkdfYU84SURvd3FhN3hjVjhUVzQ0a0FlQ1ZtODJDWlAtYzBPNXpldzNySnlQQWc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "ai",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "q": "military logistics AI"
+  },
+  {
+   "id": "44475e39f570",
+   "date": "2026-10-11",
+   "ts": "2026-10-11T13:11",
+   "title": "Rugged Thermal Cameras Market Forecast to 2035: Predictive Maintenance and Defense Demand Drive Growth",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdUtwOWlZZWF2NFFpcVVIR1BXb3pvVS05VmQ4X1FRNGRVSl8weUFLOVFCUk5TdzBTcVNhZk1QUUs0V3dIX1VGWGtTYUtrckFCaEJnUGgxWDV3MWRRZTBiakFkc1dVMndRMjdwR3lFVEJ2bmtGZU9xdEVtUmRUMFhEeUcyLUxQRmJHX0J4T1hBS0hMVkJmT1h3LS11V0M3bWxtUDBfUk5IZjVySmJCcjFzTXhJZHZpRU5NWlRUSUI0VGlyaUUzRE00ZERGMA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "cats": [
+    "ram",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "예측정비"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "q": "defense predictive maintenance"
+  },
+  {
+   "id": "3fc5609676cc",
+   "date": "2026-10-11",
+   "ts": "2026-10-11T11:31",
+   "title": "F-35A 암호장치까지 '부품 돌려막기'… 공군 핵심장비 30개 품목 '동류전용'",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8ybUNVaTBicldkTXpYbFpoUDY4d1lhTUNFQ3lrMGczeTVUYVRoTXh5MEpwMzZKRkhLbXN2OFBnS2xSYjFBSnF6SHFfZDVlQVdQZHZwNzdGODExTFJD?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "q": "성과기반군수지원 PBL"
   },
   {
    "id": "aa4e5d879134",
