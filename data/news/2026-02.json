@@ -1,0 +1,63 @@
+{
+ "month": "2026-02",
+ "articles": [
+  {
+   "id": "2913541793bc",
+   "date": "2026-02-24",
+   "ts": "2026-02-24T09:00",
+   "title": "DX KOREA 2026, 특별관 중심 전시 강화…AI 기반 전력지원체계관 운영",
+   "source": "서울신문",
+   "url": "https://m.seoul.co.kr/news/2026/02/24/20260224500124",
+   "lang": "ko",
+   "summary": "제7회 대한민국방위산업전 DX KOREA 2026이 9월 16~19일 킨텍스에서 열리며, AI 기반 지원관에 병영생활·민군기술협력·방산 스타트업·드론·정비(MRO)·훈련 등 7개 특별 테마관을 구성한다.",
+   "cats": [
+    "ai",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "MRO",
+    "유무인 복합"
+   ],
+   "ents": [
+    "DX KOREA"
+   ],
+   "axes": [],
+   "score": 6.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "8b3a9b8c7900",
+   "date": "2026-02-16",
+   "ts": "2026-02-16T09:00",
+   "title": "Lockheed Martin to handle logistics and mission planning software for F-35 jet fighter-bomber",
+   "source": "Military Aerospace",
+   "url": "https://militaryaerospace.com/computers/article/55357534/lockheed-martin-lockheed-martin-to-handle-logistics-and-mission-planning-software-for-f-35-jet-fighter-bomber",
+   "lang": "en",
+   "summary": "미 해군이 F-35 군수·임무계획용 하드웨어 개발·설치를 록히드 마틴에 4,760만 달러로 발주. 노후·사이버 취약점이 있는 ALIS를 클라우드 기반 ODIN으로 전환하는 작업을 포함하며 2026년 12월 완료 예정이다.",
+   "cats": [
+    "sys",
+    "log",
+    "policy"
+   ],
+   "kw": [
+    "클라우드",
+    "사이버보안",
+    "ALIS·ODIN"
+   ],
+   "ents": [
+    "해군",
+    "Lockheed Martin",
+    "F-35"
+   ],
+   "axes": [],
+   "score": 7.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "month": "2026-06",
+ "articles": [
+  {
+   "id": "8d49bfc9dec5",
+   "date": "2026-06-17",
+   "ts": "2026-06-17T09:00",
+   "title": "육군 MRO 혁신 가속화…AI·디지털로 미래 전장 대비",
+   "source": "굿모닝충청",
+   "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=447627",
+   "lang": "ko",
+   "summary": "육군·한남대·방산진흥회 '민·군 협력 육군 MRO 세미나 2026'(240여 명). 사후정비 중심 운영, 숙련 정비인력 부족, 데이터 분산을 한계로 짚고 예지정비, AI 디지털 교관, 디지털 트윈 정비훈련, 통합 데이터 허브 구축을 해법으로 제시했다.",
+   "cats": [
+    "sys",
+    "ai",
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "디지털 트윈",
+    "예측정비",
+    "MRO",
+    "정비인력"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [
+    "ram",
+    "manpower"
+   ],
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}

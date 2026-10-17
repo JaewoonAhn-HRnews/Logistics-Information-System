@@ -1,0 +1,68 @@
+{
+ "month": "2026-03",
+ "articles": [
+  {
+   "id": "a7542c83dc9d",
+   "date": "2026-03-26",
+   "ts": "2026-03-26T09:00",
+   "title": "DX KOREA 2026, 'AI 국방 MRO'로 군수 패러다임 바꾼다",
+   "source": "아시아투데이",
+   "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260326010008127",
+   "lang": "ko",
+   "summary": "DX KOREA 2026이 'AI 기반 국방 MRO 테마관'을 운영. AI·빅데이터·디지털 트윈 기반 예지정비(PHM)와 수명주기관리를 중심으로 로봇, AR/VR 원격정비, 3D 프린팅 부품, 글로벌 MRO 협력을 선보이며 9월 킨텍스 개최를 예고했다.",
+   "cats": [
+    "ai",
+    "ram",
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "빅데이터",
+    "디지털 트윈",
+    "예측정비",
+    "MRO",
+    "3D 프린팅"
+   ],
+   "ents": [
+    "DX KOREA"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "86127dde6218",
+   "date": "2026-03-05",
+   "ts": "2026-03-05T09:00",
+   "title": "Artificial Intelligence Assisted Maintenance making strides in FY26",
+   "source": "U.S. Army",
+   "url": "https://www.army.mil/article/290606/artificial_intelligence_assisted_maintenance_making_strides_in_fy26",
+   "lang": "en",
+   "summary": "미 육군 CECOM 통합군수지원센터가 AI 정비 지원 도구 AIAM을 정식 가동하고 육군 Vantage 데이터 플랫폼으로 이전. 타 군으로 이용 대상을 넓히고 Tobyhanna 정비창과 협력해 창정비 수준까지 지원을 확대한다.",
+   "cats": [
+    "sys",
+    "ai",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "창정비"
+   ],
+   "ents": [
+    "육군",
+    "미 육군"
+   ],
+   "axes": [],
+   "score": 7.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "month": "2026-09",
+ "articles": [
+  {
+   "id": "88a710e39a0a",
+   "date": "2026-09-23",
+   "ts": "2026-09-23T09:00",
+   "title": "U.S. TRANSCOM deploys randomised AI to secure military logistics",
+   "source": "AI News",
+   "url": "https://www.artificialintelligence-news.com/news/us-transcom-deploys-randomised-ai-to-secure-military-logistics/",
+   "lang": "en",
+   "summary": "미 수송사령부(TRANSCOM)가 적의 예측 모델이 수송 패턴을 읽지 못하도록 무작위성을 넣은 AI 물류 체계를 도입 중. IoT 센서·디지털 트윈·블록체인을 함께 쓰며, 데이터 부족과 합성 데이터 품질, 컴퓨팅 자원이 과제로 남아 검증된 데이터 계층을 구축하고 있다.",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "디지털 트윈"
+   ],
+   "ents": [
+    "TRANSCOM"
+   ],
+   "axes": [],
+   "score": 4.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "ffee82a23554",
+   "date": "2026-09-20",
+   "ts": "2026-09-20T09:00",
+   "title": "AI·유무인 전력으로 대전환…스마트 정예강군 키운다",
+   "source": "한국경제",
+   "url": "https://www.hankyung.com/article/2026092057271",
+   "lang": "ko",
+   "summary": "국방부가 2040년까지 3단계로 군을 AI 기반 유무인 복합전력으로 재편할 계획. 병역자원 감소에 대응해 병 인원을 줄이고 기술 숙련 부사관을 늘리며, AI 적용 기반으로 데이터 관리·보안 체계 개선과 국방첨단전력사업법 제정을 추진한다.",
+   "cats": [
+    "ai",
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "정비인력",
+    "유무인 복합",
+    "사이버보안"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "score": 6.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "b4fd7c1834f3",
+   "date": "2026-09-09",
+   "ts": "2026-09-09T09:00",
+   "title": "\"AI가 군수 부품 찾고 잔반도 줄인다\" 국방부, 병력 감소 시대 'AI 급양·군수 행정' 도입",
+   "source": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/news/202609091101324398",
+   "lang": "ko",
+   "summary": "국방부 '2026년 제3차 국방 AI 활용 아이디어 경연대회'(223건 접수) 시상. 최우수 '계약 사전점검 AI 에이전트', 우수 'AI 급양참모'(급식량 예측)와 777사령부의 '수리부속 상호융통 중개 AI'가 선정됐으며, 우수 아이디어는 국방 정책·R&D 과제와 연계된다.",
+   "cats": [
+    "ai",
+    "parts",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "생성형 AI·에이전트",
+    "수리부속",
+    "병력 감소"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [
+    "parts",
+    "manpower"
+   ],
+   "score": 9.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "d451b86f22cd",
+   "date": "2026-09-08",
+   "ts": "2026-09-08T09:00",
+   "title": "[기고] AI 시대, 국방부가 전투기보다 먼저 바꿔야 할 것",
+   "source": "뉴스핌",
+   "url": "https://www.newspim.com/news/view/20260907000879",
+   "lang": "ko",
+   "summary": "덕성여대 박정인 연구교수 기고. 한국군은 지휘체계가 완전히 통합되지 않았고 데이터가 군별로 흩어져 있으며 획득·책임 체계가 AI 속도를 따라가지 못한다고 지적. AI 에이전트로 반복 업무를 자동화하되 교란·사이버 공격 환경에서 검증하고 책임 체계를 갖춰야 한다고 주장했다.",
+   "cats": [
+    "ai",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "생성형 AI·에이전트",
+    "사이버보안"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [],
+   "score": 4.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "month": "2026-08",
+ "articles": [
+  {
+   "id": "54ae9cdaf7f4",
+   "date": "2026-08-08",
+   "ts": "2026-08-08T09:00",
+   "title": "전쟁도 AI 시대… 육군, 스마트 군수혁신 본격 시동",
+   "source": "굿모닝충청",
+   "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=450300",
+   "lang": "ko",
+   "summary": "육군이 세종 육군종합보급창에서 군수 정책설명회를 열고 제1보급단 스마트 물류센터(3D 비전카메라·팔레타이징 로봇·무인지게차·AGV)를 공개. 2031년까지 3개 보급단을 1등급 센터로 높이고, K2 전차 성과기반군수지원(PBL) 등 7대 군수혁신 과제를 제시했다.",
+   "cats": [
+    "ai",
+    "log",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "스마트 물류",
+    "성과기반군수지원"
+   ],
+   "ents": [
+    "육군",
+    "K2 전차"
+   ],
+   "axes": [],
+   "score": 6.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "fd51d0a973de",
+   "date": "2026-08-01",
+   "ts": "2026-08-01T09:00",
+   "title": "DoD building AI tools to predict, mitigate risks to sustainment supply chain",
+   "source": "Federal News Network",
+   "url": "https://federalnewsnetwork.com/army/2026/08/dod-building-ai-tools-to-predict-mitigate-risks-to-sustainment-supply-chain/",
+   "lang": "en",
+   "summary": "미 국방부가 DIU를 통해 '합동 군수지속 결정 도구(JDST)' 시제품을 개발 중. 인도태평양사령부·DLA·미 육군 유럽아프리카사령부·북부사령부가 시험하며, 여러 군의 물류 데이터를 모아 AI로 공급망 취약 지점을 사전에 찾아내는 것이 목표다. (게시일은 URL 기준 2026년 8월)",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망"
+   ],
+   "ents": [
+    "국방부",
+    "육군",
+    "미 국방부",
+    "DLA",
+    "미 육군",
+    "DIU"
+   ],
+   "axes": [],
+   "score": 5.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}

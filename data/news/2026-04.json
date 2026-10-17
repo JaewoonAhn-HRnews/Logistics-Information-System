@@ -1,0 +1,86 @@
+{
+ "month": "2026-04",
+ "articles": [
+  {
+   "id": "594f1747f63c",
+   "date": "2026-04-30",
+   "ts": "2026-04-30T09:00",
+   "title": "\"10여년 후 병력 반토막\"…軍, AI로 전장 재편한다",
+   "source": "한국경제",
+   "url": "https://www.hankyung.com/article/202604309027i",
+   "lang": "ko",
+   "summary": "국방부가 민간 AI를 빠르게 도입하는 'AX 스프린트'에 2027년까지 400억원·20개 과제를 투입. 병력은 2019년 56.3만 명에서 2025년 7월 45만 명으로 줄었고 2040년 35만 명 수준이 예상되며, 장비 수명 예측 등 반복 업무 자동화가 포함됐다.",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "병력 감소",
+    "국방 AX"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [
+    "ram",
+    "manpower"
+   ],
+   "score": 7.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "db59d9779f62",
+   "date": "2026-04-24",
+   "ts": "2026-04-24T09:00",
+   "title": "[국방 AI 리더스 포럼] 국방 AI, '전력의 핵심'으로···민간 기술-군 접목 본격화",
+   "source": "전자신문",
+   "url": "https://www.etnews.com/20260424000187",
+   "lang": "ko",
+   "summary": "국방 AI 리더스 포럼에서 윌로그 배성훈 대표가 AI 공급망 관리로 물류 병목을 사전에 예측하고 대체 공급망을 자동 추천하는 방식을 제시, 군수 체계가 사후 대응형에서 예측·지능형으로 바뀌어야 한다고 강조했다.",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "score": 5.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "6a211476055c",
+   "date": "2026-04-14",
+   "ts": "2026-04-14T09:00",
+   "title": "DLA Troop Support begins journey to predictive data with AI integration",
+   "source": "Defense Logistics Agency",
+   "url": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/4459715/dla-troop-support-begins-journey-to-predictive-data-with-ai-integration/",
+   "lang": "en",
+   "summary": "미 국방물류청(DLA) 국장이 급식·의료·피복·건설장비 4개 공급망의 디지털화·AI 도입을 주문. 디지털 채택 준비팀(DART)으로 수작업·스프레드시트 의존을 줄이고, 2026년 9월까지 계획 지원 정확도 85% 달성을 목표로 한다.",
+   "cats": [
+    "ai",
+    "log",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "공급망"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "score": 4.5,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}

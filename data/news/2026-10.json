@@ -1,0 +1,180 @@
+{
+ "month": "2026-10",
+ "articles": [
+  {
+   "id": "54a495ea066c",
+   "date": "2026-10-16",
+   "ts": "2026-10-16T09:00",
+   "title": "Gallatin AI Raises $50M to Expand Military Logistics AI",
+   "source": "The Defense Post",
+   "url": "https://thedefensepost.com/2026/10/16/gallatin-ai-logistics-expansion-funding",
+   "lang": "en",
+   "summary": "미국 군수 AI 스타트업 Gallatin AI가 시리즈 A로 5,000만 달러를 유치(10월 8일 발표). 미 육군·공군이 군수 계획, 준비태세 평가, 보급 관리에 쓰는 AI 플랫폼 'Navigator' 확장과 엔지니어링 인력 확충에 투입한다.",
+   "cats": [
+    "sys",
+    "ai",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "육군",
+    "공군",
+    "미 육군",
+    "Gallatin AI"
+   ],
+   "axes": [],
+   "score": 7.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "dce24f065be4",
+   "date": "2026-10-16",
+   "ts": "2026-10-16T09:00",
+   "title": "UK Keeps Leidos on Military Logistics Duty Through 2029",
+   "source": "The Defense Post",
+   "url": "https://thedefensepost.com/2026/10/16/leidos-uk-military-logistics-extension/",
+   "lang": "en",
+   "summary": "영국 국방부가 Leidos의 군수 물자 공급 프로그램(LCST) 계약을 2029년 6월까지 1년 연장. Leidos는 NATO 재고번호 7만여 개를 관리하고 전 세계 600여 곳에 배송하며, 연장 기간에 공급망 가시성·디지털 시스템·회복력 개선을 추진한다.",
+   "cats": [
+    "parts",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "재고관리",
+    "공급망"
+   ],
+   "ents": [
+    "국방부",
+    "Leidos"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "score": 8.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "737505b386ac",
+   "date": "2026-10-14",
+   "ts": "2026-10-14T09:00",
+   "title": "\"군대에서도 내 AI 비서 쓴다\"…'모두의 AI' 3사, 장병 AI 제안",
+   "source": "지디넷코리아",
+   "url": "https://zdnet.co.kr/view/?no=20261014150631",
+   "lang": "ko",
+   "summary": "SK텔레콤·KT·카카오가 '국방 AX 네트워크 세미나'에서 국방부 통합 플랫폼 '장병e음'에 AI 에이전트를 연결하는 방안을 제시. 카카오는 군 폐쇄망 전용 AI 플랫폼과 내부 개발 도구 필요성을 강조하며, SI 방식 발주·개발에 약 2년이 걸리는 문제를 지적했다.",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "생성형 AI·에이전트",
+    "국방 AX"
+   ],
+   "ents": [
+    "국방부",
+    "KT",
+    "SK텔레콤",
+    "카카오"
+   ],
+   "axes": [],
+   "score": 6.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "29b5a49705c8",
+   "date": "2026-10-13",
+   "ts": "2026-10-13T09:00",
+   "title": "방위사업청 '창설 20주년·예산 20조' 발판, 세계 4대 방산 강국 장벽 넘어선다",
+   "source": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/news/202610130855078553",
+   "lang": "ko",
+   "summary": "방위사업청 국정감사 업무보고: 올해 방위력개선비 19조9,653억원, 2027년 정부안 22조7,224억원(+13.8%). 국방첨단전력사업법 하반기 국회 통과 추진, 신속시범사업 기간 2년→1년 단축, KF-21 양산 1호기 전력화 계획을 밝혔다.",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "방위사업청",
+    "국정감사",
+    "KF-21"
+   ],
+   "axes": [],
+   "score": 3.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "aa4e5d879134",
+   "date": "2026-10-07",
+   "ts": "2026-10-07T09:00",
+   "title": "AI-driven maintenance and logistics could decide mission success – Armscor",
+   "source": "defenceWeb",
+   "url": "https://defenceweb.co.za/joint/logistics/ai-driven-maintenance-and-logistics-could-decide-mission-success-armscor/",
+   "lang": "en",
+   "summary": "남아공 Armscor 물류 엔지니어가 AAD 2026 심포지엄에서 AI 예측정비·스마트 물류로 장비 가동률을 높이고 비용을 줄일 수 있다고 발표. 정비는 사후→예방→상태기반→예측→처방형으로 발전 중이며, 데이터 소유권·인프라·기술인력 부족·노후 플랫폼이 도입 장애로 꼽혔다.",
+   "cats": [
+    "sys",
+    "ai",
+    "ram",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "예측정비",
+    "상태기반정비",
+    "가동률·준비태세",
+    "스마트 물류"
+   ],
+   "ents": [],
+   "axes": [
+    "ram",
+    "manpower"
+   ],
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  },
+  {
+   "id": "c4d21b8610c9",
+   "date": "2026-10-06",
+   "ts": "2026-10-06T09:00",
+   "title": "소버린 AI와 첨단 하드웨어의 융합…육군, 유·무인 복합전투 고도화 박차",
+   "source": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/news/202610061313116317",
+   "lang": "ko",
+   "summary": "군이 무인·자율체계에 '소버린 AI'를 도입하는 로드맵에 착수. 2027년 상반기까지 용산·판교·대전·부산·양재 5곳에 국방 AI 거점을 만들고, GPS 교란 상황에서도 드론·로봇이 움직일 수 있도록 전술 메시망·3D 지형 매핑을 추진한다.",
+   "cats": [
+    "ai",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "유무인 복합"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "score": 4.0,
+   "also": [],
+   "origin": "seed",
+   "q": "seed"
+  }
+ ]
+}
