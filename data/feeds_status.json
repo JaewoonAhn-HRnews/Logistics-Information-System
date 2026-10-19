@@ -1,0 +1,329 @@
+{
+ "sources": {
+  "defensenews": {
+   "id": "defensenews",
+   "ok": true,
+   "n": 25,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "breakingdefense": {
+   "id": "breakingdefense",
+   "ok": true,
+   "n": 15,
+   "mode": "rss",
+   "kept": 1,
+   "at": "2026-10-20 07:04",
+   "total_kept": 1,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "defensescoop": {
+   "id": "defensescoop",
+   "ok": true,
+   "n": 10,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "defenseone": {
+   "id": "defenseone",
+   "ok": true,
+   "n": 21,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "fnn": {
+   "id": "fnn",
+   "ok": true,
+   "n": 15,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "dla": {
+   "id": "dla",
+   "ok": true,
+   "n": 100,
+   "mode": "gnews",
+   "kept": 6,
+   "at": "2026-10-20 07:04",
+   "total_kept": 6,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "armymil": {
+   "id": "armymil",
+   "ok": true,
+   "n": 100,
+   "mode": "gnews",
+   "kept": 10,
+   "at": "2026-10-20 07:04",
+   "total_kept": 10,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "natdef": {
+   "id": "natdef",
+   "ok": true,
+   "n": 52,
+   "mode": "gnews",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "govconwire": {
+   "id": "govconwire",
+   "ok": true,
+   "n": 100,
+   "mode": "gnews",
+   "rss_err": "HTTPError: HTTP Error 403: Forbidden",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "gao": {
+   "id": "gao",
+   "ok": true,
+   "n": 25,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "ukdes": {
+   "id": "ukdes",
+   "ok": true,
+   "n": 20,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "ukmod": {
+   "id": "ukmod",
+   "ok": true,
+   "n": 20,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "ukdj": {
+   "id": "ukdj",
+   "ok": true,
+   "n": 10,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "eda": {
+   "id": "eda",
+   "ok": true,
+   "n": 11,
+   "mode": "gnews",
+   "kept": 2,
+   "at": "2026-10-20 07:04",
+   "total_kept": 2,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "defis": {
+   "id": "defis",
+   "ok": true,
+   "n": 37,
+   "mode": "gnews",
+   "kept": 2,
+   "at": "2026-10-20 07:04",
+   "total_kept": 2,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "nspa": {
+   "id": "nspa",
+   "ok": true,
+   "n": 9,
+   "mode": "gnews",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "defindeu": {
+   "id": "defindeu",
+   "ok": true,
+   "n": 10,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "mnd": {
+   "id": "mnd",
+   "ok": true,
+   "n": 100,
+   "mode": "gnews",
+   "rss_err": "HTTPError: HTTP Error 404: Not Found",
+   "kept": 3,
+   "at": "2026-10-20 07:04",
+   "total_kept": 3,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "dapa": {
+   "id": "dapa",
+   "ok": true,
+   "n": 100,
+   "mode": "gnews",
+   "rss_err": "RemoteDisconnected: Remote end closed connection without response",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "kookbang": {
+   "id": "kookbang",
+   "ok": true,
+   "n": 16,
+   "mode": "gnews",
+   "kept": 1,
+   "at": "2026-10-20 07:04",
+   "total_kept": 1,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "d2b": {
+   "id": "d2b",
+   "ok": true,
+   "n": 3,
+   "mode": "gnews",
+   "kept": 1,
+   "at": "2026-10-20 07:04",
+   "total_kept": 1,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "krit": {
+   "id": "krit",
+   "ok": true,
+   "n": 46,
+   "mode": "gnews",
+   "kept": 1,
+   "at": "2026-10-20 07:04",
+   "total_kept": 1,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "kida": {
+   "id": "kida",
+   "ok": true,
+   "n": 38,
+   "mode": "gnews",
+   "kept": 1,
+   "at": "2026-10-20 07:04",
+   "total_kept": 1,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "etnewsdef": {
+   "id": "etnewsdef",
+   "ok": true,
+   "n": 100,
+   "mode": "gnews",
+   "kept": 2,
+   "at": "2026-10-20 07:04",
+   "total_kept": 2,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "thedefensepost": {
+   "id": "thedefensepost",
+   "ok": false,
+   "n": 0,
+   "mode": null,
+   "rss_err": "XML 파싱 실패: not well-formed (invalid token): line 69, column 239",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": null
+  },
+  "defenceweb": {
+   "id": "defenceweb",
+   "ok": false,
+   "n": 0,
+   "mode": null,
+   "rss_err": "TimeoutError: The read operation timed out",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": null
+  },
+  "amr": {
+   "id": "amr",
+   "ok": true,
+   "n": 10,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "audefence": {
+   "id": "audefence",
+   "ok": true,
+   "n": 51,
+   "mode": "gnews",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "armytech": {
+   "id": "armytech",
+   "ok": true,
+   "n": 10,
+   "mode": "rss",
+   "kept": 0,
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "gnews-queries": {
+   "id": "gnews-queries",
+   "ok": true,
+   "mode": "gnews",
+   "n": 1576,
+   "queries": 67,
+   "queries_ok": 67,
+   "kept": 55,
+   "at": "2026-10-20 07:04",
+   "total_kept": 55,
+   "last_ok": "2026-10-20 07:04"
+  },
+  "samgov": {
+   "id": "samgov",
+   "mode": "api",
+   "ok": false,
+   "n": 0,
+   "kept": 0,
+   "err": "SAM_API_KEY 미등록(선택 사항)",
+   "at": "2026-10-20 07:04",
+   "total_kept": 0,
+   "last_ok": null
+  }
+ },
+ "updated": "2026-10-20 07:04",
+ "last_run": {
+  "raw": 2630,
+  "relevant": 85,
+  "new": 75,
+  "days": 30
+ }
+}

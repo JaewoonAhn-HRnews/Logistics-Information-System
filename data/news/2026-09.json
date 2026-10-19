@@ -2,6 +2,501 @@
  "month": "2026-09",
  "articles": [
   {
+   "id": "ed7f26d9cb1a",
+   "date": "2026-09-30",
+   "ts": "2026-09-30T16:00",
+   "title": "Ministers welcome first Annual Defence Readiness Report",
+   "source": "European Defence Agency",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSmRqRnFTQk5qcE5KWFVMQXFERTI3RXNGQWUwc2RDak1XWWtOLUdiX0d0UG1GeUZ4QUFVMXpyb1F1cDVEeTVmeEdmMUhHbWt6OHRvcmQydGtFRXlKSXp4RGtuV1Vpa0VaYnR1RTVMQ3FPUjk5VTRJbEdtN0FqamN2SUtjcnpVTGtSd0U4Z0U5X0xBbFFONS1CYk9EdzIzY2ZTb1I4aE5qSEdtZkdLbFl6MWtfa213UXpU?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "eda",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy"
+  },
+  {
+   "id": "2d552826f81d",
+   "date": "2026-09-30",
+   "ts": "2026-09-30T16:00",
+   "title": "軍 무기체계에 '인증 국방반도체' 우선 적용…양산·정비계약도 반영",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ITUs3dFRIWk9aSURTb0U1UFphbUZJRV81SXVEMFZZZTFTTXQ0SHppVzRxd3RpWndNMHFidzJNTU5ERTZJTHB6WWJ6Qjk0MlhRckduc1ZXbTI4Vm10SEpLU0F3bEhZUVk?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 정비 인공지능",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "04896cba9d1a",
+   "date": "2026-09-30",
+   "ts": "2026-09-30T16:00",
+   "title": "Gastops technology to be evaluated by Royal Canadian Navy for predictive maintenance",
+   "source": "MRO Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQldKRktGdGRpQmMzRkdhSXhmYXRGbHlYek9obDlob196YUxrU25GWjc0ZDFiNWtUaTktdTEwWXkwem5QWUVVYkNSVHhpRnZPc09YR0dBZFNPSnBILUJ0d0JqRVdrZFRsRHBJdG5SU1JROVZLWENFUDlQNnA4VFNLeVRmZkxWeTFOWmpSZEFkaFFOV3FkWXJYMVhWdDdzaU93cVdhU3JTVDJaekFrMkx5bkVNOWhyWjhpVzNHem9IZldkUQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "defense predictive maintenance",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "예측정비"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "873bac10be50",
+   "date": "2026-09-30",
+   "ts": "2026-09-30T08:21",
+   "title": "Army Reservists bolster Joint Force readiness at DLA Distribution Susquehanna",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9td3Bub2pQRTNIN2tkTnlUbTQ3Tnd6T3dWdFY3TDJDTXd4WUhfSHJRb3JzWkRRalZjX0pMV2xnRko4eTRoTHpTNGdPVlREaUpxaFduZ0JmcGtITkY0VU5wamdNVkNLVEU?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5150fbe62790",
+   "date": "2026-09-29",
+   "ts": "2026-09-29T16:00",
+   "title": "Indian Navy Commanders’ Conference 2026 Begins in Delhi: Maritime Security, AI and Operational Readiness in Focus",
+   "source": "www.nationpathindia.com",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVEtZdHNXNGJtaTlCR3JuSUp0Wm5Gd1ZsLTgtRS05ek1JOGFRcjkxc1hqV29ZZXludjBQWFZfYm1mdU0zekhKMWxGT01pSnBLVXFGN1AtZHhURC02OEtsUlRqdW05RW44aG02WFgxVnBtemRCTjctZG1WQlMxTXdfRHc3MHpQU28?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Navy readiness maintenance AI ships",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "964f5fffd972",
+   "date": "2026-09-29",
+   "ts": "2026-09-29T15:02",
+   "title": "Ceremony marks Air Force birthday with focus on logistics, future readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQM1prQlFhbnZrWXN4NkxqNkswMUxHWEQzUnhwbUhuMWtLRGNSVm1pSXlBR3N0enM2Yk03dlRWU0gxNEJZWlRrYUtqTDhpX0dYRnFpLTRFc3U2S0lpZC1jUERVb3NFdGxnNVFTN2o0bmx4SjNINjFvVnBEZlc2SnBZNzRRNVdTdmpXM29XN3UtMEN1MTZad0dNM2NvTFozRThSbnY0YWRacDFnRktjTmIxSlpHa1ZTQnJMZDdNakY2RHV5OHZoanRaRUdPV0Q1YnBfY2JSazFHYlRYbDRa?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "30e1dd018dd1",
+   "date": "2026-09-29",
+   "ts": "2026-09-29T11:56",
+   "title": "[현장] K-방산, 반짝 판매 넘어 ‘후속 사업 연계’봐야…국회서 금융·군수·공급망 지원책 논의",
+   "source": "팝콘뉴스",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qdE1MS0xPcUxkRk9WMmlhRDJiYnZVVk1NVWVVVjJoekRxSmV2bURHUXhHd3dHbkFTazdpMV9sdEZjWTl0am41WmZPaC1CUjVVUmZXLXZoQ0xKaXdpeThsSFpJRTBrd2ZFd1IyU0VR0gFyQVVfeXFMT1lNYXZuRHRFU3RHc0tNZ1ZSUmlFUU5zZUZJSWNnZmZwRnJ5Mnp0QmNhSElMUHYxdFppVktUdWg2OFl1UlQ5d0EwR3dUUjJyVER3OGxIX3lLYUUxMlJsWFdNWmZqWUZYTTg4WGotRllhdHR3?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "방위사업청 군수 사업",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c58c2f58385a",
+   "date": "2026-09-28",
+   "ts": "2026-09-28T16:00",
+   "title": "나우로보틱스가 방산에 뛰어든다…국방 로봇·군수 MRO까지 확대",
+   "source": "디지틀조선일보",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcUJYNHJicUM4TzNUZVN6MHdBWVpQNW1nSldBemZmT0NVMUxIdnVEd3VCeFQ4dUk5VEFIeGI1UHNZcXo4VFZzV0FCc1Z6NUctdFdMeEhjaGhaOU42dVZNMDltclg0MFZ1cERNaVZRSEl5c2hLWlR4WUFSVnlqUHcxZ3NSek40QXfSAXtBVV95cUxOZ0pCZEdpbzFNWEEwTkpfSmV0OFpYSkFTVVVNWUphczNhOFFjRUVKa2k0REdWXzBUV3RYbENES2xGVER2RVZqMHlxTGMtcXNZeTRLSHNYRHMwR3luQ2lwNV9qenZyX2pMVWJHZnA2blZvUTI0bmgzWm1wUFk?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2cd9c8a99be9",
+   "date": "2026-09-28",
+   "ts": "2026-09-28T16:00",
+   "title": "[Tech & Now] 나우로보틱스, 방산 진출 본격화…국방 로봇·군수 MRO까지 사업 확대",
+   "source": "www.ebn.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUMGc2b21JMDFJTjN2YkVRZlpBTGY1YXhlWWpoOEVXU0ZFV1MtckhOWnFVdVZ4aENGVV8zclJnWjlPZFdMNFRJS1ppc1k0ZHNtUEEwQThhS1R4aERHb0lUa2N5T05oVlct?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f5d6dbe0d61f",
+   "date": "2026-09-25",
+   "ts": "2026-09-25T16:00",
+   "title": "Directorate of Public Works :: Joint Readiness Training Center and Fort Polk",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeFZLM2ZUVXUxa2lWWHNpamp0ZV9DMUZlVTdKaDl1Y1d2VHNpWTZWZGZINFBEWWRFY0kwcE5sR0RjaXhmUml4a1hhWWd3TjBEeWpEbG94LW9Hb0VIaEo5OFM4MWp5V1h1R0Y3RjBXYjdKdWZWWmlaRVZmbmJFNEQ4bVhjc1ZNbTZhazNJalptQW9iY3dDMGpILVhBTWpTajNn?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a00f0c178a7d",
+   "date": "2026-09-25",
+   "ts": "2026-09-25T16:00",
+   "title": "Pentagon pays $16.6 million to keep nuke inventory online",
+   "source": "The Defence Blog",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYzdsZXZUMUNJNlB6THNGdkdOTHZ3M2Z3R2xMY0wyYzBzblJKUmZBeC1oNGQ0Y0JOTzRKdDJJWU9hMS13c283Q3h6VXc2MHVHdHYxY0xlNDY5RkgwREIzeTdieW95SW1zVEFKa3JXeHkwcEVOejU3ZHVyN2ltc3pydTJQdS1xM1BnY0HSAY8BQVVfeXFMUEJHVXpJRDdmSFI2ZWhmSjlTdERVTmN1WGR6c2ZDVlU0T0EwektUNW1hX1FrYl9zOTBENzNXeUN5NHRRY0k2aFpPWnVKT09XblpDNUxyZFNqYlRTSEV2SC00cy1DZ1ZaeGw0dDBZVVlSa1dEcFV1TFczUWNGSnRPdnlVVzA2bzlvMUVab01CZzg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "weapon system sustainment contract awarded",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3b118e84b493",
+   "date": "2026-09-25",
+   "ts": "2026-09-25T16:00",
+   "title": "Maintenance Mindset: Could mass affordability change the reliability paradigm for defense manufacturing?",
+   "source": "Plant Services",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPc0xUSURoazV6TFl3TlE0REN6al9McGxGWWtPLUJ3YVdmTFMwbGZLelN5SlBFbm43UUlZU2hLZkhMSnJJeDZBLWxxR01kZGl5T0pIM2NrRjF1dzIySDJjNnJhTWNSejQtNnlZRmdPc0lCeUVUMEpDZk9SRm1RWXdUMVFNeUdBUmxrQks3VDZEZ2RzZXgxQlJJZjlxZVZIMTVNRnhrVnlrY2dGNXZDc0xwaUt3aFVfNE9aRERzUC0yY1d0MWRCZ01tVHRMUUtXZjZuWGxFUDFDWllVX0E1MnlXbF9zckNJaFpCelBLZHdyYVkwMnlSM1ZBWE5SQ0pWdw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "GAO weapon system sustainment",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0e940ef70d6c",
+   "date": "2026-09-24",
+   "ts": "2026-09-24T16:00",
+   "title": "Logistics on Location: From Parts to Readiness (emblem, open caption)",
+   "source": "7th Army Training Command (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdkpIUmpSOXJLMmpTb0xQTVhlUHZRTjBXY3N5QXgtUDFTVnZNRE5wQ3lLVEp4NTVEYzB2cFFQVm5OZWhUMWNvUTNVb1BjeEs3NlRTV2kwTFhhQXJIdTNEbEx0VkRGMy11bzBHOW8wTDJkaG5xcEkwaE1Lc1V4N3F5TWhYbmR6VUp5Q2h6LXh3TlpaTnVCeV9XUGwwY3hmcmpYeXc2OEtn?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "parts",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "091dec4f69ce",
+   "date": "2026-09-23",
+   "ts": "2026-09-23T16:00",
+   "title": "Army Sustainment Command enables Southern Border mission",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOWlhb3FYQkw3TERJLU1pTnZYWEFJUnNBaTBkTmpuU0Rpck9iNnFZejcySmpzSVNBOFU5bWhfS1RxaEoxVXNFckNoNmZQSmNVdXNIdWc3UFV3TW5ELVVWWHNlZ2drQ1h0cFFqVVFDQnZZTVYzZW40NXhlRWFvbzhBWkYzUGZVWnBfOVg3dnp4bWFrLXBNTDhr0gGcAUFVX3lxTE13NnQ2allOT0h5NDBCbUFqdGNOazNZMklsay16Mm9LMVlzX3QwZTY3WlV2MV9BZk05RHJrUWNVR2FfVjV2LURVOGh3YWpFRFBKU2RrOGhSWTYwWGdGSUI3SmFsS29Ja01hd3pORFhNOUFGY0hBM3BXM2NpY25LajB1UWlvOWZNSFZ5dUdBVFV6N2FaT2I5aWI0YndnbQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "61d7beaac4ba",
+   "date": "2026-09-23",
+   "ts": "2026-09-23T16:00",
+   "title": "Master the Intangibles: Building Readiness Through the Basics",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOEhMbjdxaUxFSXJYWEQ4bGxPVG5qb0dOYktEWEtlUDR0OVFGazBEWHdVZERld3RfelFDb3JFYW5oekJJc05hUWJyZ20wdGlyVGtGdWppM0o0ZlN3U0F6T0g2bmVPaFhjMHdPQWtpYWdnbW5PRFhfV1o5aDhBeDRJVnF3N1FsdWdKSWZ5bzMyY0RSNUJrOW9WaEFYaGzSAaIBQVVfeXFMUE1jWm9LZFJGbEZYYmpvLTRnNkk3YVZPcW5jc2hWbVMwZ2lQVEt5NzU2V0JFeGs5REs5VmEtT2pfOV9wa2N1eTVQOWp3eURTWXNwZ0htY2VGeklCTk1lcEFzMnpCVnczaHhZMHZTZFFUbWVWcmFWdTF6d2tZLUhFdlZHQTRibWR5OGV5a2N1LVYyOXNRWUVUc0tDcTB4aklDc25B?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9fd22b2b05cb",
+   "date": "2026-09-23",
+   "ts": "2026-09-23T16:00",
+   "title": "Military Readiness Funding Proposal Lacks Statutory Basis",
+   "source": "Legis1",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nLXVVTm9uNGxaNTFRUl9XOEJaNnN4M2R0VmUtb2ZtWnZUZHNXR0lRR0xwUUREb01XUEdfbElmYm1FbWd2U190UTJLSW1uQlRGcWFLU0ZEUlN2NjlmaS1OV1ZzSmtfd0M5UDJILUV5bVVjN0k?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "88a710e39a0a",
    "date": "2026-09-23",
    "ts": "2026-09-23T09:00",
@@ -30,6 +525,227 @@
    "domains": [
     "lis",
     "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8a9a9e3a8a01",
+   "date": "2026-09-22",
+   "ts": "2026-09-22T16:00",
+   "title": "AT A GLANCE MODERNIZATION READINESS",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3lkdjMxb243VEJnNGxkZWVBd25lZGpkSm52QlZqakUzdl9HYzJubHZEYzFjeFl0M19VTlVMYmNWRmFQMEN6WGUyb3RYUXdmZzFNWFJQSUxhTEh2ZGFuQ0JFYTZBTnp5ZXZKYnA5N0hCbEo3VzFMN3FvLWRHZkNTd25Gdll2TzZLNEdhY3BB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a60eed4a50af",
+   "date": "2026-09-22",
+   "ts": "2026-09-22T16:00",
+   "title": "전쟁에 막히는 윤활유 공급망…군수 물자도 국산화 넓혀야 [훈령에 막힌 윤활유 국산화 ②]",
+   "source": "이투데이",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82eFV5eXNpVTJrRjFSdFhoUDJOUTI1TTd4ZFJ3aW9jTTNwNnY5Rnl3TWpKdXBpdFFjWkdpdkNBSHJmaVVSYTdySVFEaFU2eDdwcHdQYQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "방위사업청 군수 사업",
+   "cats": [
+    "parts",
+    "log"
+   ],
+   "kw": [
+    "공급망",
+    "국산화"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "aa7966166b4e",
+   "date": "2026-09-21",
+   "ts": "2026-09-21T16:00",
+   "title": "194th DSSB Soldiers Purify Water, Strengthen Sustainment Readiness in South Korea",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNajRhcTZLM25haXZCOGNja05sQU4wY3FMY21MT0Z0aFFBNV94cVVqZzZjNHZzOTBsb2VfUXBxZHhIWFNmdUE5V0N2NEMxVWROVVltR3hmS3U0ak1aMDMzUkstaGhPUkp2X3hiQ3hkU2I2amtjaVp5a2wxREo0UHNFS1hHMkhKZEZabTFVTWIzaHhTMjY2QlRCQ1hjaFVSSWdlZlg5WTVuV1BCcW9oSVluT2FEQnNDdknSAbwBQVVfeXFMT09GeGVUdXhycnU2WmdmbWJmdTBwa0tGRGc4aFR1SVpfMzh1QUVRTVA3RUhwRVRtSi1ET1VWenV6ZjBrRzNfYWVwUVVFejl3U2N2Q1pjbGRsbXhzS19weHhDb19LZ2Rsc3k4ZG9jT0xwVFQ5Tm9xeW1FbGFtbzlQckU2bktycUdCY19fNE1Qb0hURXFfM3FxT0U0dEhMVjhRcUtJY0pjXzFEaVBuY3ljRl9ObFE3NVVGckhsR3I?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2208ce38e984",
+   "date": "2026-09-21",
+   "ts": "2026-09-21T16:00",
+   "title": "Finnish pilot completes first F-35 flight in Europe, marking new phase in aircraft, maintenance and weapons sharing with NATO allies",
+   "source": "Defence Industry Europe",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVTdfek40ajFPMUJpZkNrV2xkbG82Sm1ndEctRW9uVjk5a01XRm1TREJ5VnBoMFZ0Y3U4YlozNHdMSGdfMnY5WWNrVGtvcW9SMnlkN0xUdS04UEV2U0djaUdTU25qa0p2bzRKMWhQdC0tWEkzMmVkakxKVnoyajQ2dFdSSFluSVNHcVZPWW9xRmp0a3NLYWJ2S2NsMjAyVHcteDFfOE9DSmV3SGEwX3lxTFc5akhPVkNKNnpvM0NGZ0JDcDdCajVVcG5xcXd6NHZtU1I3Smp3aktZOWoyNUVjal9vODFnNlBOUXozaTRhdjg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defis",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "db1212bc8477",
+   "date": "2026-09-21",
+   "ts": "2026-09-21T16:00",
+   "title": "네이버클라우드 “군이 AI 통제권 확보”…국방 AX 협력 모델 제시 : 네이버 블로그",
+   "source": "Naver Blog",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWl9yNWZrQWdfMXlvekJyQWVsdUNVMnBKa3NfY2txV09WeUttRzhEVS1nMXJ4OHAwWmxsVUJtMHBhczdoSTRXUlhVWDROd19qdVp6VDVnY2VZeTFvVDFjYjZEbDJfMGNrUTk3cEtsVVNEVmUzY3gtZlp2TnpndURrbFB3Zl8yVFJfaWxDNXFaUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 AX 인공지능 전환",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "클라우드",
+    "국방 AX"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "51e17d2a5f11",
+   "date": "2026-09-21",
+   "ts": "2026-09-21T16:00",
+   "title": "The Elmet Group Secures $450 Million Department Of War Investment And Up To $2 Billion DLA Contract To Expand U.S. Tungsten Supply Chain",
+   "source": "Pulse 2.0",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ24ySFJ2MmxURV95ejJieEIyUjdpWGRnaGpJV0RDbG9SdHA3T0NyT2lBQUM1Z1p2andIbHNtVWgxQWZpdkU3VWVJa2F1dWlkdERoUnlvbEc2aDdjSW85cjRGMXR5ekpLWUhmcFRIU25wdHBydnlKZld6VnVlQjVYdGk4Mm1MbDZWUl9jemNCQ3RRbVlwUDBBNDBKWG44Tm1NeWc5a3FlWUJyMHVvS3k1MVNSQ3BCYmNuYlN0eWpRWkJrdEx1dWw3UU9jTUY3ZGtodV9CVEJRRFR2eE9Gb2JOa2lPdzExRFpI0gHuAUFVX3lxTFBQbmJSQURjSVZ4dEp3WEY1b3R6NmdKN2lhX3VsdE9Kd3hPMXhFajA0QnJqaXlxMzZHV1I2d2tudjRtdVRRTTJ1OUNYMEhrR1RHb2NTb2lBcFpiVWw3NmdpekNKY3R3TWVOWGhoQzlRazIybDBvTHJSNEsyblo0Qk1penI2cXNNVml3Znl5ejBBZ09xTlhjU1FxdTR4UWtUYlF6VmY0am91d2d4anZodjlrWGI4eVhyNkpURnpqUjNWX2djeU45cFdnMWlMQV9obXcyNWgwT19nWmdib05veWNwYXJhbko0NFBfS2RxdHc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "Defense Logistics Agency AI",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "미 국방부",
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8224dde35651",
+   "date": "2026-09-21",
+   "ts": "2026-09-21T16:00",
+   "title": "Over 1 million parts lost, valued at $85 million: the F-35 supply chain falters again, this time with a stealth component diverted to Hong Kong",
+   "source": "Zona Militar",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQXzVLLVRLSVF2bnRVSUdsOURSbHRrTy1vMVdORjdwVjhhMFNIOGFrejhPRDctRUZUVl8yM0VKMkZZUVpGWWF6MVdBYXVVbVhqWnpET2VFemJFMkw2N2p3RVhxZHdmYUlZRnk0ZXluOVJrY19iUjAwRE1qSDhad1VLTmZXQ1c5cjZzT05RNjRua0RGWlVRVHN5SjlMZUM2UDFORVhIeTVGS0lvbnBVYkZINF9wQjd1WjBidGtLV1l6TVdKM01aM0hOdWZ3NTlPbU1TZ1puRUdHaEdBWm1pVzNfVXBGaWxELVVnQUpUR05ydUlqTWNpSUVnaFFjYzZnUG9sRU9qelNmLTRFTzNPaFV5Vg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "parts",
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis"
    ],
    "kind": "news"
   },
