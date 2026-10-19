@@ -69,6 +69,49 @@ def classify(text):
     return cats, kws, ents, axes
 
 
+_KR_STRIP = re.compile(r"미\s?(육군|해군|공군|해병대|국방부|군)|주한미군|북한|North Korea[n]?")
+
+
+def classify_region(text, lang="ko", hint=None):
+    """지역 하나를 고릅니다: (id, {id: 점수})."""
+    sc = {}
+    for rid, _name, terms in T.REGIONS:
+        t = _KR_STRIP.sub(" ", text) if rid == "kr" else text
+        sc[rid] = sum(w for term, w in terms if has(t, term))
+    if lang == "ko":
+        sc["kr"] += 1.5
+    if hint in sc:
+        sc[hint] += 2.5
+    best = max(sc, key=lambda k: (sc[k], k == hint, k == "us"))
+    if sc[best] <= 0:
+        best = hint or ("kr" if lang == "ko" else "etc")
+    return best, sc
+
+
+def classify_domains(text):
+    hits = []
+    for d in T.DOMAINS:
+        n = len(any_has(text, d["kw"]))
+        if n:
+            hits.append((n, d["id"]))
+    hits.sort(key=lambda x: -x[0])
+    return [h[1] for h in hits]
+
+
+def classify_kind(text):
+    for kid, _n, terms in T.KINDS:
+        if any_has(text, terms):
+            return kid
+    return "news"
+
+
+def full_classify(text, lang="ko", hint=None):
+    cats, kws, ents, axes = classify(text)
+    region, _ = classify_region(text, lang, hint)
+    return {"cats": cats, "kw": kws, "ents": ents, "axes": axes, "region": region,
+            "domains": classify_domains(text), "kind": classify_kind(text)}
+
+
 def relevance(text):
     """국방 맥락 + 주제 키워드 기반 관련성 점수(0~10)."""
     ctx = len(any_has(text, T.DEFENSE_CONTEXT))
@@ -84,11 +127,14 @@ def relevance(text):
     return round(min(s, 10.0), 1), ctx
 
 
-def is_relevant(text):
+def is_relevant(text, ctx_assumed=False, min_score=4.0):
+    """국방 맥락(또는 국방 전문 수집원) + 핵심 주제 + 분야 1개 이상 + 점수 기준."""
     s, ctx = relevance(text)
+    if ctx_assumed:
+        s += 1.0
     cats, _, _, _ = classify(text)
     core = {"sys", "ram", "parts", "mro", "log"}
-    return ctx > 0 and bool(set(cats) & core) and s >= 4.0
+    return (ctx > 0 or ctx_assumed) and bool(set(cats) & core) and bool(classify_domains(text)) and s >= min_score
 
 
 # ---------- 정규화·중복 ----------

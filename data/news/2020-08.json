@@ -23,7 +23,12 @@
    "score": 7.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
   }
  ]
 }

@@ -33,7 +33,14 @@
    "score": 10.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
+   "kind": "news"
   }
  ]
 }

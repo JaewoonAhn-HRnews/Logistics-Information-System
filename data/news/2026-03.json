@@ -34,7 +34,14 @@
    "score": 10.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
+   "kind": "news"
   },
   {
    "id": "86127dde6218",
@@ -62,7 +69,13 @@
    "score": 7.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news"
   }
  ]
 }

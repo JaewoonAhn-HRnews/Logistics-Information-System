@@ -31,7 +31,14 @@
    "score": 10.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "lis",
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
   },
   {
    "id": "0fc79698dd12",
@@ -54,7 +61,12 @@
    "score": 8.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
   },
   {
    "id": "221cacb2d225",
@@ -79,7 +91,12 @@
    "score": 8.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
   }
  ]
 }

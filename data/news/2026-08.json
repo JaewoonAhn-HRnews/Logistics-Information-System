@@ -28,7 +28,13 @@
    "score": 6.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
+   "kind": "news"
   },
   {
    "id": "fd51d0a973de",
@@ -59,7 +65,13 @@
    "score": 5.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news"
   }
  ]
 }

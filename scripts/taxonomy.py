@@ -6,6 +6,10 @@
 - KEYWORDS   : 추이·연계망 분석에 쓰는 표준 키워드(동의어 → 표준어)
 - ENTITIES   : 기관·체계·기업 개체(온톨로지 노드)
 - PROJECT_AXES : 과제 연계 분석 축(RAM·수리부속·정비인력)
+- REGIONS    : 지역(미국·유럽·한국·그외) 판정어와 가중치
+- DOMAINS    : 분야(군수통합정보체계·무기체계·소요예측)
+- REGION_QUERIES : 지역×분야별 Google News 검색어
+- 개별 사이트(뉴스레터·RSS·공식 보도자료)는 data/sources.json 에서 관리
 """
 
 QUERIES_KO = [
@@ -39,6 +43,107 @@ QUERIES_EN = [
     "aircraft readiness maintenance data military",
 ]
 
+# ---------- 지역 ----------
+# (id, 이름, [(판정어, 가중치)...]). 점수가 가장 높은 지역 하나로 분류. 동점·무신호는 언어·수집원 힌트로 결정.
+def _w(terms, w):
+    return [(t, w) for t in terms]
+
+REGIONS = [
+    ("us", "미국", _w(["미국", "미 국방부", "미 육군", "미 해군", "미 공군", "미 해병", "미군", "미 의회", "펜타곤", "주한미군",
+                      "U.S.", "United States", "American", "Pentagon", "DoD", "Department of Defense", "Department of War", "DLA",
+                      "Defense Logistics Agency", "TRANSCOM", "DIU", "INDOPACOM", "Space Force", "GAO", "Congress",
+                      "U.S. Army", "US Army", "U.S. Navy", "US Navy", "U.S. Air Force", "USAF", "Marine Corps", "USMC",
+                      "Army Futures Command", "Army Materiel Command", "NAVSUP", "NAVAIR", "AFSC", "CECOM", "Tobyhanna",
+                      "GCSS", "ALIS", "ODIN", "Advana", "Lockheed", "Boeing", "Northrop", "RTX", "Raytheon", "General Dynamics",
+                      "Palantir", "Anduril", "Leidos", "SAIC", "Booz Allen", "CACI", "Gallatin", "SAM.gov", "Pete Hegseth", "Hegseth"], 2)
+           + _w(["Army", "Navy", "Air Force", "Marines", "F-35", "F-16", "F-15", "Apache", "Black Hawk", "Abrams", "Stryker"], 1)),
+    ("eu", "유럽", _w(["유럽", "영국", "독일", "프랑스", "이탈리아", "스페인", "폴란드", "네덜란드", "노르웨이", "스웨덴", "핀란드", "덴마크",
+                      "체코", "루마니아", "에스토니아", "우크라이나", "나토", "NATO", "EU", "European", "Europe", "UK", "U.K.", "British",
+                      "Britain", "Ministry of Defence", "MOD", "MoD", "DE&S", "Royal Navy", "Royal Air Force", "RAF", "British Army",
+                      "Germany", "German", "Bundeswehr", "France", "French", "Italy", "Italian", "Spain", "Spanish", "Poland", "Polish",
+                      "Netherlands", "Dutch", "Norway", "Norwegian", "Sweden", "Swedish", "Finland", "Finnish", "Denmark", "Danish",
+                      "Czech", "Romania", "Estonia", "Ukraine", "Ukrainian", "EDA", "NSPA", "OCCAR", "Airbus", "BAE Systems", "BAE",
+                      "Rheinmetall", "Leonardo", "Thales", "Saab", "KNDS", "MBDA", "Babcock", "QinetiQ", "Hensoldt", "Brussels"], 2)),
+    ("kr", "한국", _w(["한국", "대한민국", "우리 군", "국군", "합참", "방위사업청", "방사청", "국방부", "육군", "해군", "공군", "해병대",
+                      "군수사령부", "국방기술품질원", "국방과학연구소", "국방기술진흥연구소", "국방전자조달", "KAI", "한국항공우주",
+                      "한화", "LIG", "현대로템", "대한항공", "HJ중공업", "HD현대", "한화오션", "KF-21", "K2", "K9", "FA-50", "수리온",
+                      "MUH-1", "Korea", "Korean", "ROK", "Seoul", "Hanwha", "Hyundai Rotem", "DAPA"], 2)),
+    ("etc", "그외", _w(["일본", "호주", "인도", "대만", "싱가포르", "이스라엘", "캐나다", "사우디", "아랍에미리트", "UAE", "튀르키예", "터키",
+                       "남아공", "중국", "필리핀", "인도네시아", "브라질", "뉴질랜드", "베트남", "태국", "말레이시아",
+                       "Japan", "Japanese", "JSDF", "Self-Defense", "Australia", "Australian", "ADF", "India", "Indian", "Taiwan",
+                       "Taiwanese", "Singapore", "Israel", "Israeli", "IDF", "Canada", "Canadian", "Saudi", "Emirates", "Turkey",
+                       "Türkiye", "Turkish", "South Africa", "Armscor", "China", "Chinese", "PLA", "Philippines", "Philippine",
+                       "Indonesia", "Brazil", "New Zealand", "Vietnam", "Thailand", "Malaysia", "Africa"], 2)),
+]
+REGION_NAME = {r[0]: r[1] for r in REGIONS}
+
+# ---------- 분야 ----------
+DOMAINS = [
+    {"id": "lis", "name": "군수통합정보체계",
+     "desc": "군수정보체계·ERP·데이터 플랫폼·클라우드·공급망 가시성",
+     "kw": ["군수통합정보체계", "군수정보체계", "정보체계", "정보시스템", "정보화", "데이터 허브", "데이터 플랫폼", "통합 플랫폼",
+            "클라우드", "ERP", "전산", "가시성", "디지털 전환", "디지털화", "장병e음", "플랫폼", "군수 계획", "보급 관리", "군수 행정",
+            "에이전트", "공급망", "스마트 물류", "물류센터", "디지털 트윈", "디지털트윈", "IoT",
+            "logistics information system", "information system", "ERP", "GCSS", "ALIS", "ODIN", "Advana", "Vantage", "Navy ERP",
+            "data platform", "data fabric", "cloud", "enterprise system", "IT system", "software", "digital system", "digitization",
+            "digitalisation", "digitalization", "visibility", "data", "decision tool", "decision support", "supply chain",
+            "logistics planning", "digital twin", "IoT", "AI platform"]},
+    {"id": "wpn", "name": "무기체계",
+     "desc": "무기체계 정비·MRO·후속군수·가동률·예지정비",
+     "kw": ["무기체계", "정비", "MRO", "창정비", "야전정비", "후속군수", "성과기반", "PBL", "가동률", "예지정비", "예측정비", "상태기반",
+            "신뢰도", "가용도", "수명주기", "준비태세", "전투기", "헬기", "함정", "잠수함", "전차", "장갑차", "자주포", "항공기", "군수지원함",
+            "KF-21", "F-35", "K2", "K9", "FA-50", "수리온", "MUH-1",
+            "weapon system", "weapons system", "aircraft", "fighter", "helicopter", "ship", "vessel", "warship", "submarine",
+            "tank", "armored", "armoured", "platform", "fleet", "sustainment", "maintenance", "MRO", "depot", "overhaul",
+            "readiness", "predictive maintenance", "condition-based", "CBM", "PHM", "performance-based logistics", "PBL",
+            "F-35", "F-16", "Apache", "Black Hawk", "Abrams", "Stryker", "frigate", "destroyer"]},
+    {"id": "fcst", "name": "소요예측",
+     "desc": "수리부속·물자 수요예측, 재고·단종, 정비인력 소요",
+     "kw": ["소요예측", "수요예측", "소요 예측", "수요 예측", "예측", "수리부속", "부품", "재고", "단종", "상호융통", "소요인력", "정비인력",
+            "인력 소요", "병력 감소", "급식량",
+            "demand forecast", "demand forecasting", "forecast", "forecasting", "predictive analytics", "predictive logistics",
+            "demand planning", "spare parts", "spares", "inventory", "obsolescence", "DMSMS", "workforce planning",
+            "manpower", "prediction", "predictive model"]},
+]
+DOMAIN_NAME = {d["id"]: d["name"] for d in DOMAINS}
+
+# 기사 유형
+KINDS = [
+    ("contract", "사업·계약", ["계약", "수주", "입찰", "발주", "낙찰", "사업 착수", "사업 선정", "조달계획", "협약", "MOU",
+                            "contract", "awarded", "awards", "award", "order", "task order", "solicitation", "RFP", "RFI", "tender",
+                            "IDIQ", "OTA", "prototype agreement", "raises", "funding", "Series A", "Series B", "selected"]),
+    ("policy", "정책·보고서", ["예산", "국정감사", "국감", "업무보고", "로드맵", "전략", "계획 발표", "보고서", "감사", "법안",
+                           "budget", "GAO", "report", "audit", "strategy", "roadmap", "policy", "hearing", "testimony", "NDAA"]),
+]
+KIND_NAME = {"contract": "사업·계약", "policy": "정책·보고서", "news": "뉴스"}
+
+# 지역×분야별 Google News 검색어: (검색어, 언어, 지역 힌트)
+REGION_QUERIES = [
+    # 미국
+    ("Army enterprise business systems logistics", "en", "us"), ("GCSS-Army modernization", "en", "us"),
+    ("Navy ERP supply logistics", "en", "us"), ("Advana logistics data Pentagon", "en", "us"),
+    ("DLA AI demand forecasting", "en", "us"), ("Defense Logistics Agency contract", "en", "us"),
+    ("Air Force predictive maintenance CBM+", "en", "us"), ("Army aviation predictive maintenance", "en", "us"),
+    ("Navy readiness maintenance AI ships", "en", "us"), ("Marine Corps logistics AI", "en", "us"),
+    ("weapon system sustainment contract awarded", "en", "us"), ("contested logistics Pentagon AI", "en", "us"),
+    ("GAO weapon system sustainment", "en", "us"), ("F-35 sustainment spare parts", "en", "us"),
+    # 유럽
+    ("UK MOD logistics digital", "en", "eu"), ("DE&S support contract", "en", "eu"), ("British Army predictive maintenance", "en", "eu"),
+    ("NATO NSPA logistics", "en", "eu"), ("European Defence Agency logistics", "en", "eu"), ("Bundeswehr logistics digital", "en", "eu"),
+    ("Rheinmetall maintenance digital", "en", "eu"), ("European defence spare parts supply chain", "en", "eu"),
+    ("Royal Navy maintenance AI", "en", "eu"), ("Europe military mobility logistics", "en", "eu"),
+    # 한국
+    ("방위사업청 군수 사업", "ko", "kr"), ("후속군수지원 계약", "ko", "kr"), ("성과기반군수지원 계약", "ko", "kr"),
+    ("수리부속 국산화 사업", "ko", "kr"), ("군수사령부 AI", "ko", "kr"), ("국방 군수 데이터", "ko", "kr"),
+    ("국방 정비 사업 착수", "ko", "kr"), ("함정 MRO 한국", "ko", "kr"), ("국방전자조달 입찰 정비", "ko", "kr"),
+    # 그외
+    ("Australian Defence sustainment contract", "en", "etc"), ("Australian Defence logistics AI", "en", "etc"),
+    ("Japan Self-Defense Forces maintenance logistics", "en", "etc"), ("Indian Army predictive maintenance", "en", "etc"),
+    ("Indian Air Force spares logistics", "en", "etc"), ("Israel IDF logistics AI", "en", "etc"),
+    ("Canada DND logistics system", "en", "etc"), ("Singapore defence maintenance AI", "en", "etc"),
+    ("Taiwan military logistics maintenance", "en", "etc"),
+]
+
 # 관련성 판정: 국방 맥락어 1개 이상 + 주제어 1개 이상
 DEFENSE_CONTEXT = [
     "국방", "군수", "육군", "해군", "공군", "해병", "합참", "방위사업청", "방사청", "방산", "무기체계", "전력지원",
@@ -66,7 +171,7 @@ CATEGORIES = [
             "maintenance", "repair", "overhaul", "depot", "maintainer", "technician", "workforce"]},
     {"id": "log", "name": "물류·보급·공급망", "color": 5,
      "kw": ["물류", "보급", "공급망", "수송", "탄약", "급양", "보급창", "물류센터", "PBL", "성과기반",
-            "logistics", "supply chain", "supply", "transport", "distribution", "warehouse", "fuel", "contested logistics"]},
+            "logistics", "supply chain", "resupply", "warehouse", "contested logistics", "sustainment"]},
     {"id": "policy", "name": "정책·예산·획득", "color": 6,
      "kw": ["예산", "국정감사", "국감", "방위사업청", "방사청", "획득", "법안", "정책", "업무보고", "계획", "로드맵", "국방부 장관",
             "budget", "policy", "acquisition", "congress", "strategy", "roadmap", "GAO"]},

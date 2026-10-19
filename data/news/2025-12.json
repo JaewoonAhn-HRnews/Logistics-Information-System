@@ -26,7 +26,12 @@
    "score": 4.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy"
   }
  ]
 }

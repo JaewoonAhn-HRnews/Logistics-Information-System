@@ -18,10 +18,11 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 import taxonomy as T  # noqa: E402
-from common import DATA, DB, NEWS, classify, load_json, relevance, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
+from common import DATA, DB, NEWS, classify, full_classify, load_json, relevance, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
 
 CAT_NAME = {c["id"]: c["name"] for c in T.CATEGORIES}
 AXIS_NAME = {a["id"]: a["name"] for a in T.PROJECT_AXES}
+SRC_REGION = {s["id"]: s["region"] for s in load_json(DATA / "sources.json", {"sources": []})["sources"]}
 ENT_TYPE = {e: t for e, t, _ in T.ENTITIES}
 
 
@@ -34,10 +35,12 @@ def load_all():
         changed = False
         for a in d.get("articles", []):
             text = f"{a.get('title', '')} {a.get('summary', '')}"
-            c, k, e, x = classify(text)
-            sc = relevance(text)[0]
-            if (a.get("cats"), a.get("kw"), a.get("ents"), a.get("axes"), a.get("score")) != (c, k, e, x, sc):
-                a.update(cats=c, kw=k, ents=e, axes=x, score=sc)
+            c = full_classify(text, a.get("lang", "ko"), a.get("hint") or SRC_REGION.get(a.get("src")))
+            if a.get("src") == "samgov":
+                c["kind"] = "contract"
+            c["score"] = relevance(text)[0]
+            if any(a.get(k) != v for k, v in c.items()):
+                a.update(c)
                 changed = True
         if changed:
             save_json(p, d)
@@ -45,9 +48,11 @@ def load_all():
     added = load_json(DB / "added.json", {"articles": []}).get("articles", [])
     for a in added:
         a.setdefault("origin", "manual")
-        if not a.get("cats"):
-            c, k, e, x = classify(f"{a.get('title', '')} {a.get('summary', '')}")
-            a.update(cats=c, kw=k, ents=e, axes=x)
+        c = full_classify(f"{a.get('title', '')} {a.get('summary', '')}", a.get("lang", "ko"), a.get("hint"))
+        for k, v in c.items():
+            if k == "region" and a.get("region"):
+                continue  # 직접 입력한 지역 유지
+            a[k] = v
         a.setdefault("also", [])
         a.setdefault("score", 5.0)
         a.setdefault("ts", a["date"] + "T09:00")
@@ -78,6 +83,10 @@ def summarize(items):
     ents = Counter(e for a in items for e in a.get("ents", []))
     axes = Counter(x for a in items for x in a.get("axes", []))
     srcs = Counter(a.get("source", "") for a in items)
+    regions = Counter(a.get("region", "etc") for a in items)
+    doms = Counter(d for a in items for d in a.get("domains", []))
+    kinds = Counter(a.get("kind", "news") for a in items)
+    rd = Counter(f"{a.get('region', 'etc')}:{d}" for a in items for d in a.get("domains", []))
     top = sorted(items, key=weight, reverse=True)[:8]
     return {
         "n": len(items),
@@ -89,6 +98,7 @@ def summarize(items):
         "axes": dict(axes),
         "sources": srcs.most_common(8),
         "top": [a["id"] for a in top],
+        "regions": dict(regions), "domains": dict(doms), "kinds": dict(kinds), "rd": dict(rd),
     }
 
 
@@ -114,6 +124,11 @@ def brief_text(unit_label, s, prev, by_id):
         pct = round(diff / prev["n"] * 100)
         head += f", 직전 대비 {'+' if diff >= 0 else ''}{diff}건({'+' if pct >= 0 else ''}{pct}%)"
     parts.append(head + ".")
+    rg = s.get("regions", {})
+    if rg:
+        parts.append("지역별 " + " · ".join(f"{T.REGION_NAME[r]} {rg[r]}" for r in ("us", "eu", "kr", "etc") if rg.get(r)) + "건.")
+    if s.get("kinds", {}).get("contract"):
+        parts.append(f"신규 사업·계약 관련 {s['kinds']['contract']}건.")
     cats = list(s["cats"].items())[:3]
     if cats:
         parts.append("주요 주제는 " + ", ".join(f"{CAT_NAME.get(c, c)}({n})" for c, n in cats) + ".")
@@ -292,6 +307,9 @@ def main():
         "w_total": series(axis_w, "week", lambda s: s["n"] if s else 0),
         "m_cats": {c["id"]: series(axis_m, "month", lambda s, cid=c["id"]: (s or {}).get("cats", {}).get(cid, 0)) for c in T.CATEGORIES},
         "w_cats": {c["id"]: series(axis_w, "week", lambda s, cid=c["id"]: (s or {}).get("cats", {}).get(cid, 0)) for c in T.CATEGORIES},
+        "m_regions": {r[0]: series(axis_m, "month", lambda s, rid=r[0]: (s or {}).get("regions", {}).get(rid, 0)) for r in T.REGIONS},
+        "m_rd": {f"{r[0]}:{d['id']}": series(axis_m, "month", lambda s, k=f"{r[0]}:{d['id']}": (s or {}).get("rd", {}).get(k, 0))
+                 for r in T.REGIONS for d in T.DOMAINS},
         "m_axes": {x["id"]: series(axis_m, "month", lambda s, xid=x["id"]: (s or {}).get("axes", {}).get(xid, 0)) for x in T.PROJECT_AXES},
         "kw_month": kw_by_month,
         "kw_week": kw_by_week,
@@ -315,6 +333,9 @@ def main():
             "cats": [{"id": c["id"], "name": c["name"], "color": T.PALETTE[c["color"]], "kw": c["kw"]} for c in T.CATEGORIES],
             "axes": [{"id": a["id"], "name": a["name"], "kw": a["kw"]} for a in T.PROJECT_AXES],
             "keywords": [[k, syn] for k, syn in T.KEYWORDS],
+            "regions": [{"id": r[0], "name": r[1], "terms": [t for t, _ in r[2]]} for r in T.REGIONS],
+            "domains": [{"id": d["id"], "name": d["name"], "desc": d["desc"], "kw": d["kw"]} for d in T.DOMAINS],
+            "kinds": [{"id": k, "name": n, "kw": kw} for k, n, kw in T.KINDS],
             "entities": [[e, t, syn] for e, t, syn in T.ENTITIES],
             "queries": {"ko": T.QUERIES_KO, "en": T.QUERIES_EN},
         },

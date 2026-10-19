@@ -25,7 +25,13 @@
    "score": 4.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "us",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
+   "kind": "news"
   },
   {
    "id": "ffee82a23554",
@@ -56,7 +62,10 @@
    "score": 6.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [],
+   "kind": "news"
   },
   {
    "id": "b4fd7c1834f3",
@@ -90,7 +99,13 @@
    "score": 9.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "fcst",
+    "lis"
+   ],
+   "kind": "contract"
   },
   {
    "id": "d451b86f22cd",
@@ -117,7 +132,13 @@
    "score": 4.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news"
   }
  ]
 }

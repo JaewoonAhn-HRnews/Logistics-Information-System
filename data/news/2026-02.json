@@ -27,7 +27,12 @@
    "score": 6.0,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
   },
   {
    "id": "8b3a9b8c7900",
@@ -57,7 +62,13 @@
    "score": 7.5,
    "also": [],
    "origin": "seed",
-   "q": "seed"
+   "q": "seed",
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "contract"
   }
  ]
 }
