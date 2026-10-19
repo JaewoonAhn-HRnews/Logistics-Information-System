@@ -12,7 +12,8 @@
   };
   const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 2600); };
 
-  let IDX, PER, TR, TAX, CAT = {}, AX = {};
+  let IDX, PER, TR, TAX, CAT = {}, AX = {}, RG = {}, DM = {};
+  let SRCS = [], FST = { sources: {} };
   let BASE = [];          // 서버 기사(월 파일)
   let ARTS = [];          // DB 반영 후 기사
   let BYID = {};
@@ -38,6 +39,10 @@
     TAX = IDX.taxonomy;
     TAX.cats.forEach(c => (CAT[c.id] = c));
     TAX.axes.forEach(a => (AX[a.id] = a));
+    (TAX.regions || []).forEach(r => (RG[r.id] = r));
+    (TAX.domains || []).forEach(d => (DM[d.id] = d));
+    const [sj, fj] = await Promise.all([j("data/sources.json", { sources: [] }), j("data/feeds_status.json", { sources: {} })]);
+    SRCS = sj.sources || []; FST = fj || { sources: {} };
     const files = await Promise.all(IDX.files.map(f => j("data/news/" + f, { articles: [] })));
     BASE = files.flatMap(f => f.articles || []);
     const [ad, ov, cl] = await Promise.all([j("data/db/added.json", null), j("data/db/overrides.json", null), j("data/db/changelog.json", null)]);
@@ -71,12 +76,20 @@
     return new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   }
   const hasAny = (t, arr) => arr.some(k => pat(k).test(t));
+  function guessRegion(text) {
+    let best = "", bs = 0;
+    for (const r of TAX.regions || []) { const n = r.terms.filter(t => pat(t).test(text)).length; if (n > bs) { bs = n; best = r.id; } }
+    return best || "etc";
+  }
   function classify(text) {
     return {
       cats: TAX.cats.filter(c => hasAny(text, c.kw)).map(c => c.id),
       kw: TAX.keywords.filter(([, s]) => hasAny(text, s)).map(([k]) => k),
       ents: TAX.entities.filter(([, , s]) => hasAny(text, s)).map(([e]) => e),
       axes: TAX.axes.filter(a => hasAny(text, a.kw)).map(a => a.id),
+      domains: (TAX.domains || []).map(d => [d.id, d.kw.filter(k => pat(k).test(text)).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1]).map(x => x[0]),
+      kind: (TAX.kinds || []).find(k => hasAny(text, k.kw))?.id || "news",
+      region: guessRegion(text),
     };
   }
 
@@ -116,11 +129,13 @@
   // ---------- cards ----------
   function card(a, o = {}) {
     if (!a) return "";
-    const cats = (a.cats || []).slice(0, 3).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name || c)}</span>`).join("");
+    const doms = (a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name || d)}</span>`).join("");
+    const kindT = a.kind === "contract" ? '<span class="tag-kind">사업·계약</span>' : a.kind === "policy" ? '<span class="tag-kind" style="color:var(--accent);background:var(--accent-soft)">정책·보고서</span>' : "";
+    const cats = kindT + doms + (a.cats || []).slice(0, 2).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name || c)}</span>`).join("");
     const axes = (a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name || x)}</span>`).join("");
     const also = (a.also || []).length ? `<div class="also">외 ${a.also.length}개 매체: ${a.also.slice(0, 4).map(x => esc(x.source)).join(", ")}${a.also.length > 4 ? " …" : ""}</div>` : "";
     return `<article class="card${a.pin ? " pin" : ""}${o.compact ? " compact" : ""}" data-id="${a.id}">
-      <div class="card-top"><span class="lang ${a.lang === "ko" ? "" : "en"}">${a.lang === "ko" ? "국내" : "해외"}</span><span class="src">${esc(a.source || "")}</span><span class="mono">${esc(a.date)}</span>${a.origin === "manual" ? '<span class="pill">직접 추가</span>' : ""}</div>
+      <div class="card-top">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name || a.region)}</span>` : ""}<span class="lang ${a.lang === "ko" ? "" : "en"}">${a.lang === "ko" ? "국문" : "영문"}</span><span class="src">${esc(a.source || "")}</span><span class="mono">${esc(a.date)}</span>${a.origin === "manual" ? '<span class="pill">직접 추가</span>' : ""}</div>
       <a class="card-title" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
       ${a.summary && !o.compact ? `<p class="card-sum">${esc(a.summary)}</p>` : ""}
       ${o.compact ? "" : `<div class="tags">${cats}${axes}</div>`}
@@ -143,7 +158,7 @@
       <div class="eyebrow">${a.lang === "ko" ? "국내" : "해외"} · ${esc(a.source)} · ${esc(a.date)}</div>
       <h2 style="font-size:20px">${esc(a.title)}</h2>
       ${a.summary ? `<p class="card-sum" style="font-size:14.5px">${esc(a.summary)}</p>` : '<p class="note">요약 없음(RSS 제목만 수집)</p>'}
-      <div class="tags">${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
+      <div class="tags">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name)}</span>` : ""}${(a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
       <div class="note">키워드: ${(a.kw || []).map(esc).join(" · ") || "—"}<br>기관·기업·체계: ${(a.ents || []).map(esc).join(" · ") || "—"}<br>관련도 점수: <span class="mono">${a.score ?? "—"}</span></div>
       ${(a.also || []).length ? `<div><h3>같은 내용을 보도한 매체</h3><ul class="plain">${a.also.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source)}</a></li>`).join("")}</ul></div>` : ""}
       <div class="controls" style="margin-top:0"><a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">원문 열기</a><button class="btn ghost" id="d-pin">${a.pin ? "중요 해제" : "중요 표시"}</button><button class="btn ghost" id="d-hide">이 기사 숨기기</button></div>
@@ -173,7 +188,7 @@
   }
 
   // ---------- router ----------
-  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "topics", "network", "project", "system", "search", "db", "about"];
+  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about"];
   const rendered = {};
   let cur = "home";
   function route() {
@@ -189,7 +204,7 @@
     setTimeout(() => Object.values(charts).forEach(c => c && !c.isDisposed() && c.resize()), 30);
   }
   function render(v, arg) {
-    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout }[v];
+    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout }[v];
     fn && fn();
     rendered[v] = true;
   }
@@ -238,6 +253,11 @@
         { name: "해외", type: "bar", stack: "a", data: TR.m_en.slice(-12), itemStyle: { color: teal(), borderRadius: [3, 3, 0, 0] }, barMaxWidth: 22 }],
     });
     $("#homeLatest").innerHTML = ARTS.slice(0, 6).map(a => card(a)).join("");
+    $("#homeRegions").innerHTML = REGION_IDS.map(r => {
+      const L = ARTS.filter(a => a.region === r), mx = Math.max(1, ...DOM_IDS.map(d => L.filter(a => (a.domains || []).includes(d)).length));
+      return `<a class="rtile" href="#${r}" style="--rc:${rc(r)}"><div class="code">${r.toUpperCase()}</div><h3>${esc(RG[r]?.name)}</h3><div class="v">${fmt(L.length)}<span class="note"> 건</span></div>
+        <div class="bars">${DOM_IDS.map(d => { const n = L.filter(a => (a.domains || []).includes(d)).length; return `<div class="bar"><span>${esc(DM[d].name)}</span><i style="width:${Math.max(3, n / mx * 100)}%"></i><b>${n}</b></div>`; }).join("")}</div></a>`;
+    }).join("");
   }
 
   // ---------- PERIOD ----------
@@ -280,6 +300,7 @@
           </div>
           ${s.ai ? `<div class="brief-head"><span class="pill ai">AI 브리핑</span>Claude가 기사 목록만 보고 작성</div><p class="brief ai">${esc(s.ai)}</p>` : ""}
           <div class="brief-head"><span class="pill">자동 정리</span>규칙 기반</div><p class="brief">${esc(s.brief)}</p>
+          ${s.regions ? `<div class="brief-head">지역별</div><div class="chips small" style="margin-top:6px">${REGION_IDS.map(r => `<a class="chip" href="#${r}"><span class="rbadge ${r}">${r.toUpperCase()}</span> ${esc(RG[r]?.name)}<span class="n">${s.regions[r] || 0}</span></a>`).join("")}</div>` : ""}
           ${s.rising?.length ? `<div class="brief-head">직전 기간보다 늘어난 키워드</div><div class="rise">${s.rising.map(([k, d, nw]) => `<span class="${nw ? "new" : ""}">${esc(k)} +${d}</span>`).join("")}</div>` : ""}
         </div>
         <div class="panel"><h2>${kind === "day" ? "달력" : kind === "year" ? "월별 기사 수" : "일자별 기사 수"}</h2>${kind === "day" ? `<div id="p-cal"></div>` : `<div class="chart" id="c-p-sub"></div>`}</div>
@@ -354,6 +375,149 @@
       series.push({ name: "기사 수", type: "line", data: tot, symbol: "circle", symbolSize: 6, itemStyle: { color: css("--ink") }, lineStyle: { width: 1.5 }, z: 5 });
       chart("c-p-sub", { legend: { type: "scroll", top: 0 }, grid: { left: 8, right: 16, top: 40, bottom: 8, containLabel: true }, xAxis: { type: "category", data: labels }, yAxis: { type: "value", minInterval: 1 }, series });
     }
+  }
+
+
+  // ---------- REGIONS ----------
+  const REGION_IDS = ["us", "eu", "kr", "etc"];
+  const DOM_IDS = ["lis", "wpn", "fcst"];
+  const rc = r => css("--r-" + r) || "#2563eb";
+  const REGION_INFO = {
+    us: { en: "United States", lede: "이 분야에서 가장 빠르게 움직이는 지역입니다. 미 육군 AI 정비 도구(AIAM)의 Vantage 데이터 플랫폼 이전, F-35 ALIS→ODIN 클라우드 전환, DLA 수요예측 정확도 목표(85%), 국방부 공급망 위험 예측 도구(JDST)처럼 정보체계·예측 사업이 활발합니다." },
+    eu: { en: "Europe · NATO", lede: "영국 DE&S·국방부, NATO 지원조달청(NSPA), EU 방위청(EDA)을 중심으로 공동조달, 군수 디지털화, 공급망 회복력 사업을 추적합니다." },
+    kr: { en: "Republic of Korea", lede: "2020년 6개 체계를 통합한 국방군수통합정보체계를 기반으로, 국방 AX, 수리부속 상호융통 AI, 성과기반군수지원(PBL) 확대, 스마트 물류센터 등 미국을 따라잡으려는 움직임을 모읍니다." },
+    etc: { en: "Rest of world · Global", lede: "호주·일본·인도·이스라엘·캐나다·싱가포르 등과, 특정 국가로 나누기 어려운 글로벌 시장·기술 기사를 모읍니다." },
+  };
+  const rstate = {};
+  const inDom = (a, d) => d === "all" ? true : d === "none" ? !(a.domains || []).length : (a.domains || []).includes(d);
+  function srcStatus(id) {
+    const st = FST.sources?.[id];
+    if (!st) return `<span class="stat"><i class="na"></i>다음 수집 때 확인</span>`;
+    const how = st.mode === "rss" ? "RSS" : st.mode === "gnews" ? "검색 대체" : st.mode === "api" ? "API" : "";
+    return st.ok ? `<span class="stat"><i class="ok"></i>정상 ${how} · 최근 ${st.n}건 중 관련 ${st.kept || 0}건 · 누적 ${st.total_kept || 0}건</span>`
+      : `<span class="stat"><i class="bad"></i>${esc(st.err || st.rss_err || "실패")}</span>`;
+  }
+  function srcCard(s) {
+    const sub = s.sub || {};
+    const btn = sub.url ? `<a class="main" href="${esc(sub.url)}" target="_blank" rel="noopener">${esc(sub.label || "가입")}</a>` : "";
+    const btn2 = sub.url2 ? `<a href="${esc(sub.url2)}" target="_blank" rel="noopener">${esc(sub.label2)}</a>` : "";
+    const auto = s.auto && (s.auto.rss || s.auto.gnews || s.auto.api);
+    const how = { newsletter: "뉴스레터 가입 권장", account: "계정·알림 설정 권장", api: "API 신청 시 자동 연결", paid: "유료", site: "사이트 방문", auto: "가입 불필요 · 자동 수집" }[sub.mode] || "";
+    return `<div class="srcc" style="--rc:${rc(s.region)}"><h3>${esc(s.name)} <span class="pill">${esc(s.type)}</span><span class="stars" title="추천도">${"★".repeat(s.rec || 1)}${"☆".repeat(3 - (s.rec || 1))}</span></h3>
+      <p>${esc(s.desc)}</p>
+      <div class="tags"><span class="rbadge ${s.region}">${esc(RG[s.region]?.name)}</span>${(s.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}<span class="tag-k">${esc(how)}</span></div>
+      ${auto ? srcStatus(s.id) : `<span class="stat"><i class="na"></i>자동 수집 없음 — 직접 구독</span>`}
+      <div class="acts">${btn}${btn2}<a href="${esc(s.url)}" target="_blank" rel="noopener">사이트</a></div></div>`;
+  }
+  function rRegion(rid, arg) {
+    const st = rstate[rid] = rstate[rid] || { d: "all", page: 0 };
+    if (arg && ["all", "lis", "wpn", "fcst", "none"].includes(arg) && arg !== st.d) { st.d = arg; st.page = 0; }
+    const sec = $("#v-" + rid), info = REGION_INFO[rid];
+    const L0 = ARTS.filter(a => a.region === rid);
+    const L = L0.filter(a => inDom(a, st.d));
+    const d30 = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
+    const srcs = SRCS.filter(x => x.region === rid);
+    const okSrc = srcs.filter(x => FST.sources?.[x.id]?.ok).length;
+    const contracts = L.filter(a => a.kind === "contract");
+    const tabs = [["all", "전체", "이 지역 모든 기사"]].concat(DOM_IDS.map(d => [d, DM[d].name, DM[d].desc]), [["none", "분야 미분류", "세 분야 키워드가 없는 기사"]]);
+    const dn = st.d === "all" ? "전체" : st.d === "none" ? "분야 미분류" : DM[st.d].name;
+    sec.style.setProperty("--rc", rc(rid));
+    sec.innerHTML = `
+      <div class="rhead"><div class="vhead"><div class="eyebrow" style="color:${rc(rid)}">REGION · ${esc(info.en)}</div><h1>${esc(RG[rid].name)}</h1><p class="lede">${esc(info.lede)}</p></div><div class="rcode">${rid.toUpperCase()}</div></div>
+      <div class="dtabs" id="r-tabs">${tabs.map(([k, l, d]) => `<button class="dtab ${st.d === k ? "on" : ""}" data-d="${k}"><span class="n">${L0.filter(a => inDom(a, k)).length}</span><span class="l">${esc(l)}</span><span class="d">${esc(d)}</span></button>`).join("")}</div>
+      <div class="kpis">
+        <div class="kpi"><div class="v">${fmt(L.length)}</div><div class="l">${esc(dn)} 기사</div></div>
+        <div class="kpi"><div class="v">${fmt(L.filter(a => a.date >= d30).length)}</div><div class="l">최근 30일</div></div>
+        <div class="kpi"><div class="v">${fmt(contracts.length)}</div><div class="l">사업·계약</div></div>
+        <div class="kpi"><div class="v">${okSrc}<span class="note"> / ${srcs.length}</span></div><div class="l">자동 수집 중인 소스</div></div>
+      </div>
+      <div class="grid-2">
+        <div class="panel"><h2>월별 기사 수(분야별)</h2><div class="chart" id="c-r-trend"></div></div>
+        <div class="panel"><h2>핵심 키워드 · ${esc(dn)}</h2><div class="chart" id="c-r-kw"></div></div>
+      </div>
+      <div class="grid-2">
+        <div class="panel"><h2>신규 사업·계약</h2><p class="note">계약·수주·입찰·투자 표현이 있는 기사</p><div class="cards" style="margin-top:10px">${contracts.slice(0, 8).map(a => card(a, { compact: true })).join("") || '<div class="empty">아직 없습니다.</div>'}</div></div>
+        <div class="panel"><h2>자주 나온 기관·기업·체계</h2><div class="chips" style="margin-top:10px">${topCount(L.flatMap(a => a.ents || []), 18).map(([e, n]) => `<span class="chip">${esc(e)}<span class="n">${n}</span></span>`).join("") || '<span class="note">—</span>'}</div>
+          <h3 style="margin-top:16px">주요 매체</h3><div class="chips small" style="margin-top:8px">${topCount(L.map(a => a.source), 10).map(([e, n]) => `<span class="chip">${esc(e)}<span class="n">${n}</span></span>`).join("")}</div></div>
+      </div>
+      <div class="panel"><div class="sec-head"><h2>${esc(RG[rid].name)} · ${esc(dn)} 기사 <span class="note mono">${L.length}건</span></h2><a class="more" href="#search">상세 검색 →</a></div><div class="cards" id="r-list"></div><div class="pager" id="r-pager"></div></div>
+      <div class="panel"><div class="sec-head"><h2>${esc(RG[rid].name)} 모니터링 소스</h2><a class="more" href="#sources">전체 소스 →</a></div><div class="srcgrid">${srcs.map(srcCard).join("")}</div></div>`;
+    $("#r-tabs", sec).onclick = e => { const b = e.target.closest(".dtab"); if (b) location.hash = `#${rid}/${b.dataset.d}`; };
+    const per = 20, pages = Math.max(1, Math.ceil(L.length / per)); st.page = Math.min(st.page, pages - 1);
+    const draw = () => {
+      $("#r-list", sec).innerHTML = L.slice(st.page * per, st.page * per + per).map(a => card(a)).join("") || '<div class="empty">아직 수집된 기사가 없습니다. 매일 자동 수집으로 쌓입니다.</div>';
+      $("#r-pager", sec).innerHTML = pages > 1 ? `<button class="navbtn" ${st.page ? "" : "disabled"} data-p="-1">‹</button><span class="mono">${st.page + 1} / ${pages}</span><button class="navbtn" ${st.page < pages - 1 ? "" : "disabled"} data-p="1">›</button>` : "";
+    };
+    $("#r-pager", sec).onclick = e => { const b = e.target.closest("button[data-p]"); if (b) { st.page += +b.dataset.p; draw(); } };
+    draw();
+    const ax = TR.months.map(m => m.slice(2).replace("-", "."));
+    const dpal = { lis: "#2563eb", wpn: "#d97706", fcst: "#059669" };
+    chart("c-r-trend", { xAxis: { type: "category", data: ax }, yAxis: { type: "value", minInterval: 1 },
+      series: DOM_IDS.filter(d => st.d === "all" || st.d === d).map(d => ({ name: DM[d].name, type: "bar", stack: "d", barMaxWidth: 18, itemStyle: { color: dpal[d] }, data: TR.m_rd?.[`${rid}:${d}`] || [] })) });
+    hbar("c-r-kw", topCount(L.flatMap(a => a.kw || []), 12), rc(rid));
+  }
+  function topCount(arr, n) { const c = {}; arr.forEach(x => { if (x) c[x] = (c[x] || 0) + 1; }); return Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, n); }
+
+  // ---------- COMPARE ----------
+  function rCompare() {
+    const cnt = (r, d) => ARTS.filter(a => a.region === r && (d ? (a.domains || []).includes(d) : true)).length;
+    let h = `<table><tr><th></th>${DOM_IDS.map(d => `<th>${esc(DM[d].name)}</th>`).join("")}<th>지역 전체</th></tr>`;
+    for (const r of REGION_IDS) {
+      const tot = cnt(r), mx = Math.max(1, ...DOM_IDS.map(d => cnt(r, d)));
+      h += `<tr style="--rc:${rc(r)}"><th class="rl"><span class="rbadge ${r}">${r.toUpperCase()}</span> ${esc(RG[r].name)}</th>${DOM_IDS.map(d => { const n = cnt(r, d); return `<td style="--lv:${n ? 12 + Math.round(n / mx * 55) : 0}" data-go="${r}/${d}"><b>${n}</b><span>${tot ? Math.round(n / tot * 100) : 0}%</span></td>`; }).join("")}<td class="tot"><b>${tot}</b><span>건</span></td></tr>`;
+    }
+    h += `</table>`;
+    $("#cmp-matrix").innerHTML = h;
+    $("#cmp-matrix").onclick = e => { const td = e.target.closest("td[data-go]"); if (td) location.hash = "#" + td.dataset.go; };
+    const ax = TR.months.map(m => m.slice(2).replace("-", "."));
+    chart("c-cmp-trend", { xAxis: { type: "category", data: ax }, yAxis: { type: "value", minInterval: 1 },
+      series: REGION_IDS.map(r => ({ name: RG[r].name, type: "line", smooth: true, symbolSize: 5, data: TR.m_regions?.[r] || [], itemStyle: { color: rc(r) } })) });
+    const dpal = { lis: "#2563eb", wpn: "#d97706", fcst: "#059669" };
+    chart("c-cmp-share", { tooltip: { trigger: "axis", valueFormatter: v => v + "%" }, xAxis: { type: "category", data: REGION_IDS.map(r => RG[r].name) }, yAxis: { type: "value", max: 100, axisLabel: { formatter: "{value}%" } },
+      series: DOM_IDS.map(d => ({ name: DM[d].name, type: "bar", stack: "s", barMaxWidth: 46, itemStyle: { color: dpal[d] },
+        data: REGION_IDS.map(r => { const t = DOM_IDS.reduce((s, x) => s + cnt(r, x), 0); return t ? Math.round(cnt(r, d) / t * 100) : 0; }) })) });
+    // 키워드 비중 차이
+    const share = r => { const L = ARTS.filter(a => a.region === r), c = {}; L.forEach(a => (a.kw || []).forEach(k => (c[k] = (c[k] || 0) + 1))); const n = Math.max(1, L.length); return [c, n]; };
+    const [cu, nu] = share("us"), [ck, nk] = share("kr");
+    const keys = [...new Set(Object.keys(cu).concat(Object.keys(ck)))];
+    const diff = keys.map(k => [k, Math.round(((cu[k] || 0) / nu - (ck[k] || 0) / nk) * 100)]).filter(x => x[1] !== 0).sort((a, b) => a[1] - b[1]);
+    const shown = diff.slice(0, 8).concat(diff.slice(-8)).filter((x, i, arr) => arr.findIndex(y => y[0] === x[0]) === i).sort((a, b) => a[1] - b[1]);
+    chart("c-cmp-gap", { tooltip: { trigger: "axis", axisPointer: { type: "shadow" }, valueFormatter: v => (v > 0 ? "+" : "") + v + "%p" }, legend: { show: false },
+      grid: { left: 8, right: 30, top: 10, bottom: 8, containLabel: true },
+      xAxis: { type: "value", axisLabel: { formatter: v => (v > 0 ? "+" : "") + v + "%p" } }, yAxis: { type: "category", data: shown.map(x => x[0]), axisLabel: { color: css("--ink-2"), fontSize: 12 } },
+      series: [{ type: "bar", barMaxWidth: 16, data: shown.map(x => ({ value: x[1], itemStyle: { color: x[1] > 0 ? rc("us") : rc("kr"), borderRadius: 3 } })), label: { show: true, position: "right", fontSize: 11, color: css("--muted"), formatter: p => (p.value > 0 ? "+" : "") + p.value } }] });
+    const usMore = diff.filter(x => x[1] > 0).slice(-4).reverse().map(x => x[0]), krMore = diff.filter(x => x[1] < 0).slice(0, 4).map(x => x[0]);
+    const ins = [];
+    ins.push(`누적 기사: 미국 <b>${nu === 1 && !cnt("us") ? 0 : cnt("us")}건</b>, 한국 <b>${cnt("kr")}건</b>, 유럽 <b>${cnt("eu")}건</b>, 그외 <b>${cnt("etc")}건</b>.`);
+    if (usMore.length) ins.push(`미국 기사에서 상대적으로 많이 다루는 주제: <b>${usMore.map(esc).join(", ")}</b>. 한국이 아직 덜 다루는 영역으로, 벤치마킹 후보입니다.`);
+    if (krMore.length) ins.push(`한국 기사에서 상대적으로 많이 다루는 주제: <b>${krMore.map(esc).join(", ")}</b>.`);
+    ins.push(`표본이 적은 초기에는 차이가 크게 보일 수 있습니다. 매일 수집이 쌓일수록 비교가 안정됩니다.`);
+    $("#cmp-ins").innerHTML = ins.map(x => `<li>${x}</li>`).join("");
+    const d90 = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
+    $("#cmp-contracts").innerHTML = REGION_IDS.map(r => { const L = ARTS.filter(a => a.region === r && a.kind === "contract" && a.date >= d90); return `<div style="--rc:${rc(r)}"><h3><span class="rbadge ${r}">${r.toUpperCase()}</span> ${esc(RG[r].name)} <span class="note mono">${L.length}건</span></h3><div class="cards" style="margin-top:8px">${L.slice(0, 4).map(a => card(a, { compact: true })).join("") || '<div class="empty">—</div>'}</div></div>`; }).join("");
+  }
+
+  // ---------- SOURCES ----------
+  let srcTab = "all";
+  const subKey = "lis-subscribed";
+  function rSources() {
+    const done = store.get(subKey, {});
+    const subs = SRCS.filter(s => ["newsletter", "account", "api"].includes(s.sub?.mode)).sort((a, b) => (b.rec || 0) - (a.rec || 0) || REGION_IDS.indexOf(a.region) - REGION_IDS.indexOf(b.region));
+    const autos = SRCS.filter(s => s.auto && (s.auto.rss || s.auto.gnews || s.auto.api));
+    const okN = autos.filter(s => FST.sources?.[s.id]?.ok).length;
+    const doneN = subs.filter(s => done[s.id]).length;
+    $("#src-kpis").innerHTML = [[SRCS.length, "추천 소스"], [`${okN}/${autos.length}`, "자동 수집 정상"], [subs.length, "가입 추천"], [`${doneN}/${subs.length}`, "내가 가입 완료"]]
+      .map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+    $("#src-prog").textContent = `${doneN} / ${subs.length} 완료`;
+    $("#src-sub").innerHTML = subs.map(s => `<label class="subitem ${done[s.id] ? "done" : ""}"><input type="checkbox" data-id="${s.id}" ${done[s.id] ? "checked" : ""}>
+      <span><span class="nm"><span class="rbadge ${s.region}">${s.region.toUpperCase()}</span> ${esc(s.name)}</span><br><span class="ds">${esc(s.sub.label)} · ${esc(s.desc.slice(0, 60))}${s.desc.length > 60 ? "…" : ""}</span></span>
+      <a class="btn ghost" href="${esc(s.sub.url)}" target="_blank" rel="noopener" style="padding:5px 10px;font-size:13px">열기</a></label>`).join("");
+    $("#src-sub").onchange = e => { const c = e.target.closest("input[data-id]"); if (!c) return; const d = store.get(subKey, {}); if (c.checked) d[c.dataset.id] = new Date().toISOString().slice(0, 10); else delete d[c.dataset.id]; store.set(subKey, d); rSources(); };
+    $("#src-tabs").innerHTML = [["all", "전체"]].concat(REGION_IDS.map(r => [r, RG[r].name])).map(([k, l]) => `<button class="chip ${srcTab === k ? "on" : ""}" data-t="${k}">${esc(l)}<span class="n">${SRCS.filter(s => k === "all" || s.region === k).length}</span></button>`).join("");
+    $("#src-tabs").onclick = e => { const b = e.target.closest(".chip"); if (b) { srcTab = b.dataset.t; rSources(); } };
+    const lr = FST.last_run, q = FST.sources?.["gnews-queries"];
+    $("#src-run").innerHTML = FST.updated ? `마지막 수집 ${esc(FST.updated)} · 원자료 ${fmt(lr?.raw)}건 → 관련 ${fmt(lr?.relevant)}건 → 신규 ${fmt(lr?.new)}건${q ? ` · 주제 검색어 ${q.queries_ok}/${q.queries}개 정상` : ""}` : "수집 상태는 다음 자동 수집 후 표시됩니다.";
+    $("#src-list").innerHTML = SRCS.filter(s => srcTab === "all" || s.region === srcTab).sort((a, b) => REGION_IDS.indexOf(a.region) - REGION_IDS.indexOf(b.region) || (b.rec || 0) - (a.rec || 0)).map(srcCard).join("");
   }
 
   // ---------- TOPICS ----------
@@ -511,14 +675,17 @@
     if (!$("#s-cat").options.length) {
       $("#s-cat").innerHTML = `<option value="">전체</option>` + TAX.cats.map(c => `<option value="${c.id}">${esc(c.name)}</option>`).join("");
       $("#s-axis").innerHTML = `<option value="">전체</option>` + TAX.axes.map(a => `<option value="${a.id}">${esc(a.name)}</option>`).join("");
-      ["s-q", "s-cat", "s-axis", "s-lang", "s-from", "s-to", "s-sort", "s-pin"].forEach(id => $("#" + id).addEventListener("input", () => { sPage = 0; drawSearch(); }));
+      $("#s-region").innerHTML = `<option value="">전체</option>` + REGION_IDS.map(r => `<option value="${r}">${esc(RG[r].name)}</option>`).join("");
+      $("#s-dom").innerHTML = `<option value="">전체</option>` + DOM_IDS.map(d => `<option value="${d}">${esc(DM[d].name)}</option>`).join("") + `<option value="none">분야 미분류</option>`;
+      ["s-q", "s-cat", "s-axis", "s-lang", "s-from", "s-to", "s-sort", "s-pin", "s-region", "s-dom", "s-kind"].forEach(id => $("#" + id).addEventListener("input", () => { sPage = 0; drawSearch(); }));
       $("#s-csv").onclick = csv;
     }
     drawSearch();
   }
   function searchRows() {
+    const rg = $("#s-region").value, dm = $("#s-dom").value, kd = $("#s-kind").value;
     const q = $("#s-q").value.trim().toLowerCase(), c = $("#s-cat").value, x = $("#s-axis").value, l = $("#s-lang").value, f = $("#s-from").value, t = $("#s-to").value, pin = $("#s-pin").checked;
-    let L = ARTS.filter(a => (!q || `${a.title} ${a.summary} ${a.source} ${(a.kw || []).join(" ")}`.toLowerCase().includes(q)) && (!c || (a.cats || []).includes(c)) && (!x || (a.axes || []).includes(x)) && (!l || (l === "ko" ? a.lang === "ko" : a.lang !== "ko")) && (!f || a.date >= f) && (!t || a.date <= t) && (!pin || a.pin));
+    let L = ARTS.filter(a => (!q || `${a.title} ${a.summary} ${a.source} ${(a.kw || []).join(" ")}`.toLowerCase().includes(q)) && (!c || (a.cats || []).includes(c)) && (!x || (a.axes || []).includes(x)) && (!l || (l === "ko" ? a.lang === "ko" : a.lang !== "ko")) && (!f || a.date >= f) && (!t || a.date <= t) && (!pin || a.pin) && (!rg || a.region === rg) && (!dm || (dm === "none" ? !(a.domains || []).length : (a.domains || []).includes(dm))) && (!kd || (a.kind || "news") === kd));
     const s = $("#s-sort").value;
     if (s === "old") L = L.slice().reverse(); else if (s === "score") L = L.slice().sort((a, b) => (b.score || 0) - (a.score || 0));
     return L;
@@ -534,7 +701,7 @@
   }
   function csv() {
     const L = searchRows(), q = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
-    const rows = [["날짜", "구분", "매체", "제목", "요약", "주제", "과제축", "키워드", "URL"]].concat(L.map(a => [a.date, a.lang === "ko" ? "국내" : "해외", a.source, a.title, a.summary, (a.cats || []).map(catName).join("|"), (a.axes || []).map(x => AX[x]?.name).join("|"), (a.kw || []).join("|"), a.url]));
+    const rows = [["날짜", "지역", "분야", "유형", "언어", "매체", "제목", "요약", "주제", "과제축", "키워드", "URL"]].concat(L.map(a => [a.date, RG[a.region]?.name || "", (a.domains || []).map(d => DM[d]?.name).join("|"), ({ contract: "사업·계약", policy: "정책·보고서" })[a.kind] || "뉴스", a.lang === "ko" ? "국문" : "영문", a.source, a.title, a.summary, (a.cats || []).map(catName).join("|"), (a.axes || []).map(x => AX[x]?.name).join("|"), (a.kw || []).join("|"), a.url]));
     const blob = new Blob(["﻿" + rows.map(r => r.map(q).join(",")).join("\n")], { type: "text/csv" });
     const u = URL.createObjectURL(blob), el = document.createElement("a"); el.href = u; el.download = `군수뉴스_${today()}.csv`; el.click(); setTimeout(() => URL.revokeObjectURL(u), 1000);
   }
@@ -564,7 +731,7 @@
         e.preventDefault();
         const a = { title: $("#f-title").value.trim(), url: $("#f-url").value.trim(), date: $("#f-date").value, source: $("#f-source").value.trim() || new URL($("#f-url").value).hostname, lang: $("#f-lang").value, summary: $("#f-summary").value.trim() };
         a.id = "m" + Math.abs([...a.title].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) | 0, 7)).toString(36);
-        a.ts = a.date + "T09:00"; Object.assign(a, classify(`${a.title} ${a.summary}`)); a.origin = "manual"; a.also = []; a.score = 5;
+        a.ts = a.date + "T09:00"; Object.assign(a, classify(`${a.title} ${a.summary}`)); if ($("#f-region").value) { a.region = $("#f-region").value; a.hint = a.region; } a.origin = "manual"; a.also = []; a.score = 5;
         if (BYID[a.id]) { toast("이미 있는 기사입니다."); return; }
         mutate(w => w.added.articles.unshift(a), "추가", a.id, a.title);
         e.target.reset(); $("#f-date").value = today(); toast("추가했습니다(로컬). GitHub에 저장하면 모두에게 반영됩니다.");

@@ -23,12 +23,19 @@
       <a href="#weekly" data-v="weekly"><span class="k">02</span>주간 정리</a>
       <a href="#monthly" data-v="monthly"><span class="k">03</span>월간 정리</a>
       <a href="#yearly" data-v="yearly"><span class="k">04</span>연간 정리</a>
+      <div class="nav-h">지역·분야</div>
+      <a href="#us" data-v="us"><span class="k">US</span>미국</a>
+      <a href="#eu" data-v="eu"><span class="k">EU</span>유럽</a>
+      <a href="#kr" data-v="kr"><span class="k">KR</span>한국</a>
+      <a href="#etc" data-v="etc"><span class="k">ETC</span>그외</a>
+      <a href="#compare" data-v="compare"><span class="k">CMP</span>지역 비교</a>
       <div class="nav-h">분석</div>
       <a href="#topics" data-v="topics"><span class="k">05</span>주제·키워드 추이</a>
       <a href="#network" data-v="network"><span class="k">06</span>키워드 연계망</a>
       <a href="#project" data-v="project"><span class="k">07</span>과제 연계 분석</a>
       <a href="#system" data-v="system"><span class="k">08</span>체계 이해</a>
       <div class="nav-h">자료</div>
+      <a href="#sources" data-v="sources"><span class="k">SRC</span>모니터링 소스</a>
       <a href="#search" data-v="search"><span class="k">09</span>기사 검색</a>
       <a href="#db" data-v="db"><span class="k">10</span><span>데이터 관리<span id="nav-db-n" class="num"></span></span></a>
       <a href="#about" data-v="about"><span class="k">11</span>자료·방법</a>
@@ -133,6 +140,10 @@
           </a>
         </div>
 
+        <div class="panel">
+          <div class="sec-head"><h2>지역별 동향</h2><a class="more" href="#compare">지역 비교 →</a></div>
+          <div class="regions" id="homeRegions"></div>
+        </div>
         <div class="grid-2 home-row">
           <div class="panel brief-panel">
             <div class="sec-head"><h2>오늘의 브리핑</h2><a class="more" href="#daily">일간 뉴스 →</a></div>
@@ -158,6 +169,36 @@
       <section class="view period" id="v-weekly" data-kind="week" hidden></section>
       <section class="view period" id="v-monthly" data-kind="month" hidden></section>
       <section class="view period" id="v-yearly" data-kind="year" hidden></section>
+
+      <!-- REGION VIEWS -->
+      <section class="view region" id="v-us" hidden></section>
+      <section class="view region" id="v-eu" hidden></section>
+      <section class="view region" id="v-kr" hidden></section>
+      <section class="view region" id="v-etc" hidden></section>
+
+      <!-- COMPARE -->
+      <section class="view" id="v-compare" hidden>
+        <div class="vhead"><div class="eyebrow">CMP · Region × domain</div><h1>지역 비교</h1><p class="lede">미국·유럽·한국·그외 지역을 군수통합정보체계·무기체계·소요예측 세 분야로 나눠 비교합니다. 칸을 누르면 해당 지역·분야 기사로 이동합니다.</p></div>
+        <div class="panel"><h2>지역 × 분야 기사 수</h2><p class="note">한 기사가 여러 분야에 걸칠 수 있습니다. 색이 진할수록 많이 다뤄졌습니다(지역 안 비중 %).</p><div class="matrix" id="cmp-matrix"></div></div>
+        <div class="grid-2">
+          <div class="panel"><h2>지역별 월간 기사 수</h2><div class="chart" id="c-cmp-trend"></div></div>
+          <div class="panel"><h2>지역별 분야 구성</h2><div class="chart" id="c-cmp-share"></div></div>
+        </div>
+        <div class="panel"><h2>미국 대비 한국: 키워드 비중 차이</h2><p class="note">각 지역 기사에서 키워드가 차지하는 비중(%)을 비교. 오른쪽으로 길수록 미국에서 더 많이 다루는 주제, 왼쪽은 한국에서 더 많이 다루는 주제입니다.</p><div class="chart tall" id="c-cmp-gap"></div><ul class="insights" id="cmp-ins" style="margin-top:12px"></ul></div>
+        <div class="panel"><h2>최근 90일 신규 사업·계약</h2><div class="grid-4" id="cmp-contracts"></div></div>
+      </section>
+
+      <!-- SOURCES -->
+      <section class="view" id="v-sources" hidden>
+        <div class="vhead"><div class="eyebrow">SRC · Monitoring sources</div><h1>모니터링 소스</h1><p class="lede">꾸준히 볼 만한 사이트를 지역별로 정리했습니다. <b>뉴스레터·계정이 필요한 곳</b>은 직접 가입하고 ‘가입함’에 체크하세요. 가입이 필요 없는 곳은 이 사이트가 매일 두 번 자동으로 수집합니다.</p></div>
+        <div class="kpis" id="src-kpis"></div>
+        <div class="panel"><div class="sec-head"><h2>가입 추천</h2><span class="note" id="src-prog"></span></div><p class="note">추천도 순. 체크 표시는 이 브라우저에만 저장됩니다.</p><div class="sublist" id="src-sub"></div></div>
+        <div class="panel">
+          <div class="sec-head"><h2>전체 소스와 자동 수집 상태</h2><div class="chips small" id="src-tabs"></div></div>
+          <p class="note" id="src-run"></p>
+          <div class="srcgrid" id="src-list"></div>
+        </div>
+      </section>
 
       <!-- 05 TOPICS -->
       <section class="view" id="v-topics" hidden>
@@ -223,6 +264,9 @@
         <div class="panel filters">
           <div class="field grow"><label for="s-q">검색어</label><input id="s-q" type="search" placeholder="제목·요약·매체"></div>
           <div class="field"><label for="s-cat">주제</label><select id="s-cat"></select></div>
+          <div class="field"><label for="s-region">지역</label><select id="s-region"></select></div>
+          <div class="field"><label for="s-dom">분야</label><select id="s-dom"></select></div>
+          <div class="field"><label for="s-kind">유형</label><select id="s-kind"><option value="">전체</option><option value="contract">사업·계약</option><option value="policy">정책·보고서</option><option value="news">뉴스</option></select></div>
           <div class="field"><label for="s-axis">과제 축</label><select id="s-axis"></select></div>
           <div class="field"><label for="s-lang">구분</label><select id="s-lang"><option value="">전체</option><option value="ko">국내</option><option value="en">해외</option></select></div>
           <div class="field"><label for="s-from">시작일</label><input id="s-from" type="date"></div>
@@ -264,7 +308,8 @@
               <div class="field span-2"><label for="f-url">URL *</label><input id="f-url" type="url" required placeholder="https://"></div>
               <div class="field"><label for="f-date">날짜 *</label><input id="f-date" type="date" required></div>
               <div class="field"><label for="f-source">매체</label><input id="f-source"></div>
-              <div class="field"><label for="f-lang">구분</label><select id="f-lang"><option value="ko">국내</option><option value="en">해외</option></select></div>
+              <div class="field"><label for="f-lang">언어</label><select id="f-lang"><option value="ko">국문</option><option value="en">영문</option></select></div>
+              <div class="field"><label for="f-region">지역</label><select id="f-region"><option value="">자동 판정</option><option value="us">미국</option><option value="eu">유럽</option><option value="kr">한국</option><option value="etc">그외</option></select></div>
               <div class="field span-2"><label for="f-summary">요약</label><textarea id="f-summary" rows="3"></textarea></div>
               <div class="span-2 note" id="f-auto">요약을 입력하면 주제·키워드가 자동으로 붙습니다.</div>
               <div class="span-2"><button class="btn" type="submit">추가</button></div>
@@ -287,7 +332,7 @@
         <div class="grid-2">
           <div class="panel prose">
             <h2>어떻게 모으나</h2>
-            <p>GitHub Actions가 매일 두 번(06:40, 17:40 KST) Google News RSS에서 국문·영문 검색어로 기사를 가져옵니다. 국방 맥락어(국방·군수·military 등)와 핵심 주제어(정보체계·예측정비·수리부속·정비·물류)가 모두 있는 기사만 남기고, 제목이 비슷한 기사는 하나로 묶어 ‘외 N개 매체’로 표시합니다.</p>
+            <p>GitHub Actions가 매일 두 번(06:40, 17:40 KST) ① ‘모니터링 소스’에 등록한 사이트의 RSS(없거나 실패하면 Google News 사이트 검색), ② 국문·영문·지역×분야별 검색어 약 70개, ③ (선택) SAM.gov 입찰공고 API에서 기사를 가져옵니다. 각 기사는 지역(미국·유럽·한국·그외), 분야(군수통합정보체계·무기체계·소요예측), 유형(사업·계약·정책·보고서·뉴스)으로 자동 분류됩니다. 국방 맥락어(국방·군수·military 등)와 핵심 주제어(정보체계·예측정비·수리부속·정비·물류)가 모두 있는 기사만 남기고, 제목이 비슷한 기사는 하나로 묶어 ‘외 N개 매체’로 표시합니다.</p>
             <h2>어떻게 정리하나</h2>
             <p>기사는 <span class="mono">data/news/YYYY-MM.json</span>에 월별로 쌓입니다. 정리 단계에서 일·주(ISO 주차)·월·연 단위로 건수, 주제, 키워드, 기관, 대표 기사, 직전 기간 대비 새로 등장한 키워드를 계산하고 브리핑 문장을 만듭니다.</p>
             <p>저장소 Secrets에 <span class="mono">ANTHROPIC_API_KEY</span>를 등록하면 최신 일·주·월·연 브리핑을 Claude가 작성해 ‘AI 브리핑’으로 함께 보여 줍니다. 등록하지 않으면 규칙 기반 브리핑만 나옵니다.</p>

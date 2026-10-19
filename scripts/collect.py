@@ -82,8 +82,15 @@ def parse_feed(xml_bytes, lang_default, meta):
     out = []
     try:
         root = ET.fromstring(xml_bytes)
-    except ET.ParseError as e:
-        raise ValueError(f"XML 파싱 실패: {e}") from e
+    except ET.ParseError:
+        # 흔한 오류(이스케이프 안 된 &, 제어문자) 보정 후 재시도
+        txt = xml_bytes.decode("utf-8", "replace")
+        txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", txt)
+        txt = re.sub(r"&(?!(?:[a-zA-Z][a-zA-Z0-9]*|#\d+|#x[0-9a-fA-F]+);)", "&amp;", txt)
+        try:
+            root = ET.fromstring(txt.encode("utf-8"))
+        except ET.ParseError as e:
+            raise ValueError(f"XML 파싱 실패: {e}") from e
     items = [el for el in root.iter() if _local(el.tag) in ("item", "entry")]
     for it in items:
         f = {}

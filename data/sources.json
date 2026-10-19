@@ -1,168 +1,722 @@
 {
  "note": "모니터링 소스 목록. auto가 있으면 매일 자동 수집(rss 우선, 실패 시 gnews 검색어로 대체). sub는 사람이 직접 가입하는 방법. min은 관련도 기준(전문지는 엄격하게).",
  "sources": [
-  {"id": "defensenews", "name": "Defense News", "region": "us", "type": "전문지", "rec": 3,
-   "url": "https://www.defensenews.com/", "domains": ["wpn", "lis"],
+  {
+   "id": "defensenews",
+   "name": "Defense News",
+   "region": "us",
+   "type": "전문지",
+   "rec": 3,
+   "url": "https://www.defensenews.com/",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "미 국방 전반·획득·예산. 평일 아침 'Early Bird Brief', 저녁 'Daily News Roundup', 주간 'Europe Brief'·'Asia Brief'.",
-   "sub": {"mode": "newsletter", "url": "https://link.defensenews.com/join/5ba/signup-newsletters", "label": "뉴스레터 가입"},
-   "auto": {"rss": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml", "gnews": "site:defensenews.com", "min": 5.5, "ctx": true}},
-  {"id": "breakingdefense", "name": "Breaking Defense", "region": "us", "type": "전문지", "rec": 3,
-   "url": "https://breakingdefense.com/", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://link.defensenews.com/join/5ba/signup-newsletters",
+    "label": "뉴스레터 가입"
+   },
+   "auto": {
+    "rss": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
+    "gnews": "site:defensenews.com",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "breakingdefense",
+   "name": "Breaking Defense",
+   "region": "us",
+   "type": "전문지",
+   "rec": 3,
+   "url": "https://breakingdefense.com/",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "펜타곤·군별 사업, 획득·지속지원(sustainment) 심층 기사.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://breakingdefense.com/feed/", "gnews": "site:breakingdefense.com", "min": 5.5, "ctx": true}},
-  {"id": "defensescoop", "name": "DefenseScoop", "region": "us", "type": "전문지", "rec": 3,
-   "url": "https://defensescoop.com/", "domains": ["lis", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://breakingdefense.com/feed/",
+    "gnews": "site:breakingdefense.com",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "defensescoop",
+   "name": "DefenseScoop",
+   "region": "us",
+   "type": "전문지",
+   "rec": 3,
+   "url": "https://defensescoop.com/",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
    "desc": "국방 IT·AI·데이터·클라우드 전문. 군수정보체계·ERP 현대화 소식이 많음. 일간 뉴스레터.",
-   "sub": {"mode": "newsletter", "url": "https://defensescoop.com/subscribe", "label": "뉴스레터 가입"},
-   "auto": {"rss": "https://defensescoop.com/feed/", "gnews": "site:defensescoop.com", "min": 5.0, "ctx": true}},
-  {"id": "defenseone", "name": "Defense One", "region": "us", "type": "전문지", "rec": 2,
-   "url": "https://www.defenseone.com/", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://defensescoop.com/subscribe",
+    "label": "뉴스레터 가입"
+   },
+   "auto": {
+    "rss": "https://defensescoop.com/feed/",
+    "gnews": "site:defensescoop.com",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "defenseone",
+   "name": "Defense One",
+   "region": "us",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://www.defenseone.com/",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "국방 정책·기술. 'The D Brief'(일간), 'Army Brief'(육군) 뉴스레터.",
-   "sub": {"mode": "newsletter", "url": "https://www.defenseone.com/f/the-dbrief-subscribe/", "label": "D Brief 가입",
-           "url2": "https://www.defenseone.com/f/defense-one-army-brief-newsletter/", "label2": "Army Brief 가입"},
-   "auto": {"rss": "https://www.defenseone.com/rss/all/", "gnews": "site:defenseone.com", "min": 5.5, "ctx": true}},
-  {"id": "fnn", "name": "Federal News Network (Defense)", "region": "us", "type": "전문지", "rec": 2,
-   "url": "https://federalnewsnetwork.com/category/defense-main/", "domains": ["lis", "fcst"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://www.defenseone.com/f/the-dbrief-subscribe/",
+    "label": "D Brief 가입",
+    "url2": "https://www.defenseone.com/f/defense-one-army-brief-newsletter/",
+    "label2": "Army Brief 가입"
+   },
+   "auto": {
+    "rss": "https://www.defenseone.com/rss/all/",
+    "gnews": "site:defenseone.com",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "fnn",
+   "name": "Federal News Network (Defense)",
+   "region": "us",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://federalnewsnetwork.com/category/defense-main/",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
    "desc": "DLA·군 ERP·데이터 현대화, 국방 인력 정책. 공급망 AI(JDST) 등 보도.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://federalnewsnetwork.com/category/defense-main/feed/", "gnews": "site:federalnewsnetwork.com defense", "min": 5.0, "ctx": true}},
-  {"id": "dla", "name": "DLA 국방물류청 뉴스", "region": "us", "type": "정부·군", "rec": 3,
-   "url": "https://www.dla.mil/About-DLA/News/", "domains": ["fcst", "lis"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://federalnewsnetwork.com/category/defense-main/feed/",
+    "gnews": "site:federalnewsnetwork.com defense",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "dla",
+   "name": "DLA 국방물류청 뉴스",
+   "region": "us",
+   "type": "정부·군",
+   "rec": 3,
+   "url": "https://www.dla.mil/About-DLA/News/",
+   "domains": [
+    "fcst",
+    "lis"
+   ],
    "desc": "미 국방물류청 공식 뉴스. 수요예측 AI, 공급망 리스크, 계약.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:dla.mil", "min": 4.0, "ctx": true}},
-  {"id": "armymil", "name": "Army.mil · Army Sustainment", "region": "us", "type": "정부·군", "rec": 2,
-   "url": "https://www.army.mil/ArmySustainment", "domains": ["wpn", "lis", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:dla.mil",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "armymil",
+   "name": "Army.mil · Army Sustainment",
+   "region": "us",
+   "type": "정부·군",
+   "rec": 2,
+   "url": "https://www.army.mil/ArmySustainment",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
    "desc": "미 육군 공식 뉴스와 군수 전문지 'Army Sustainment'(데이터 중심 지속지원, ERP).",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:army.mil sustainment OR logistics OR maintenance", "min": 4.0, "ctx": true}},
-  {"id": "natdef", "name": "National Defense Magazine (NDIA)", "region": "us", "type": "전문지", "rec": 2,
-   "url": "https://www.nationaldefensemagazine.org/", "domains": ["wpn", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:army.mil sustainment OR logistics OR maintenance",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "natdef",
+   "name": "National Defense Magazine (NDIA)",
+   "region": "us",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://www.nationaldefensemagazine.org/",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
    "desc": "미 방산협회 잡지. 예측정비·차량정비 AI·DLA 현대화 기사.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:nationaldefensemagazine.org", "min": 4.5, "ctx": true}},
-  {"id": "govconwire", "name": "GovConWire", "region": "us", "type": "조달·계약", "rec": 3,
-   "url": "https://www.govconwire.com/", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:nationaldefensemagazine.org",
+    "min": 4.5,
+    "ctx": true
+   }
+  },
+  {
+   "id": "govconwire",
+   "name": "GovConWire",
+   "region": "us",
+   "type": "조달·계약",
+   "rec": 3,
+   "url": "https://www.govconwire.com/",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "미 정부·국방 계약 수주 소식. 신규 사업·계약 흐름 파악용.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://www.govconwire.com/feed/", "gnews": "site:govconwire.com", "min": 4.5, "ctx": true}},
-  {"id": "gao", "name": "GAO 보고서", "region": "us", "type": "감사·연구", "rec": 2,
-   "url": "https://www.gao.gov/", "domains": ["wpn", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://www.govconwire.com/feed/",
+    "gnews": "site:govconwire.com",
+    "min": 4.5,
+    "ctx": true
+   }
+  },
+  {
+   "id": "gao",
+   "name": "GAO 보고서",
+   "region": "us",
+   "type": "감사·연구",
+   "rec": 2,
+   "url": "https://www.gao.gov/",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
    "desc": "미 회계감사원. F-35 등 무기체계 지속지원·수리부속 감사 보고서.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://www.gao.gov/rss/reports.xml", "gnews": "site:gao.gov sustainment", "min": 4.0, "ctx": true}},
-  {"id": "samgov", "name": "SAM.gov 입찰공고", "region": "us", "type": "조달·계약", "rec": 3,
-   "url": "https://sam.gov/", "domains": ["wpn", "lis", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://www.gao.gov/rss/reports.xml",
+    "gnews": "site:gao.gov sustainment",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "samgov",
+   "name": "SAM.gov 입찰공고",
+   "region": "us",
+   "type": "조달·계약",
+   "rec": 3,
+   "url": "https://sam.gov/",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
    "desc": "미 연방 조달 공식 포털. 무료 계정으로 저장검색(키워드: logistics, sustainment, spare parts 등) 이메일 알림. API 키를 등록하면 이 사이트가 매일 자동 수집.",
-   "sub": {"mode": "account", "url": "https://sam.gov/", "label": "무료 계정·알림 설정"},
-   "auto": {"api": "samgov", "secret": "SAM_API_KEY"}},
-
-  {"id": "ukdes", "name": "UK DE&S (국방장비지원청)", "region": "eu", "type": "정부·군", "rec": 3,
-   "url": "https://www.gov.uk/government/organisations/defence-equipment-and-support", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "account",
+    "url": "https://sam.gov/",
+    "label": "무료 계정·알림 설정"
+   },
+   "auto": {
+    "api": "samgov",
+    "secret": "SAM_API_KEY"
+   }
+  },
+  {
+   "id": "ukdes",
+   "name": "UK DE&S (국방장비지원청)",
+   "region": "eu",
+   "type": "정부·군",
+   "rec": 3,
+   "url": "https://www.gov.uk/government/organisations/defence-equipment-and-support",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "영국 국방장비 획득·지원 기관 공식 발표. 지원 계약, 군수 디지털화. gov.uk '이메일 받기'로 무료 알림.",
-   "sub": {"mode": "newsletter", "url": "https://www.gov.uk/email-signup?link=/government/organisations/defence-equipment-and-support", "label": "gov.uk 이메일 알림"},
-   "auto": {"rss": "https://www.gov.uk/government/organisations/defence-equipment-and-support.atom", "gnews": "site:gov.uk \"Defence Equipment and Support\"", "min": 4.0, "ctx": true}},
-  {"id": "ukmod", "name": "UK Ministry of Defence", "region": "eu", "type": "정부·군", "rec": 2,
-   "url": "https://www.gov.uk/government/organisations/ministry-of-defence", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://www.gov.uk/email-signup?link=/government/organisations/defence-equipment-and-support",
+    "label": "gov.uk 이메일 알림"
+   },
+   "auto": {
+    "rss": "https://www.gov.uk/government/organisations/defence-equipment-and-support.atom",
+    "gnews": "site:gov.uk \"Defence Equipment and Support\"",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "ukmod",
+   "name": "UK Ministry of Defence",
+   "region": "eu",
+   "type": "정부·군",
+   "rec": 2,
+   "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "영국 국방부 공식 발표·정책. gov.uk 이메일 알림 무료.",
-   "sub": {"mode": "newsletter", "url": "https://www.gov.uk/email-signup?link=/government/organisations/ministry-of-defence", "label": "gov.uk 이메일 알림"},
-   "auto": {"rss": "https://www.gov.uk/government/organisations/ministry-of-defence.atom", "min": 4.5, "ctx": true}},
-  {"id": "ukdj", "name": "UK Defence Journal", "region": "eu", "type": "전문지", "rec": 2,
-   "url": "https://ukdefencejournal.org.uk/", "domains": ["wpn"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://www.gov.uk/email-signup?link=/government/organisations/ministry-of-defence",
+    "label": "gov.uk 이메일 알림"
+   },
+   "auto": {
+    "rss": "https://www.gov.uk/government/organisations/ministry-of-defence.atom",
+    "min": 4.5,
+    "ctx": true
+   }
+  },
+  {
+   "id": "ukdj",
+   "name": "UK Defence Journal",
+   "region": "eu",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://ukdefencejournal.org.uk/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "영국·유럽 국방 뉴스. 주간 'Weekly Brief' 뉴스레터.",
-   "sub": {"mode": "newsletter", "url": "https://ukdefencejournal.org.uk/weekly-brief-newsletter", "label": "Weekly Brief 가입"},
-   "auto": {"rss": "https://ukdefencejournal.org.uk/feed/", "min": 5.5, "ctx": true}},
-  {"id": "eda", "name": "European Defence Agency", "region": "eu", "type": "정부·군", "rec": 2,
-   "url": "https://eda.europa.eu/news-and-events/news", "domains": ["lis", "wpn"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://ukdefencejournal.org.uk/weekly-brief-newsletter",
+    "label": "Weekly Brief 가입"
+   },
+   "auto": {
+    "rss": "https://ukdefencejournal.org.uk/feed/",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "eda",
+   "name": "European Defence Agency",
+   "region": "eu",
+   "type": "정부·군",
+   "rec": 2,
+   "url": "https://eda.europa.eu/news-and-events/news",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
    "desc": "EU 방위청. 공동조달·군수 협력·디지털화 프로젝트.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:eda.europa.eu", "min": 4.0, "ctx": true}},
-  {"id": "defis", "name": "EU 방위산업·우주총국(DG DEFIS)", "region": "eu", "type": "정부·군", "rec": 2,
-   "url": "https://defence-industry-space.ec.europa.eu/", "domains": ["wpn"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:eda.europa.eu",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "defis",
+   "name": "EU 방위산업·우주총국(DG DEFIS)",
+   "region": "eu",
+   "type": "정부·군",
+   "rec": 2,
+   "url": "https://defence-industry-space.ec.europa.eu/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "EU 방위산업 정책·EDF 과제 공모. 공식 뉴스레터 구독 가능.",
-   "sub": {"mode": "newsletter", "url": "https://ec.europa.eu/newsroom/defis_ext/user-subscriptions/8834/create", "label": "뉴스레터 가입"},
-   "auto": {"gnews": "European Defence Fund logistics OR maintenance", "min": 4.5, "ctx": true}},
-  {"id": "nspa", "name": "NATO NSPA (지원조달청)", "region": "eu", "type": "정부·군", "rec": 2,
-   "url": "https://www.nspa.nato.int/", "domains": ["wpn", "fcst"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://ec.europa.eu/newsroom/defis_ext/user-subscriptions/8834/create",
+    "label": "뉴스레터 가입"
+   },
+   "auto": {
+    "gnews": "European Defence Fund logistics OR maintenance",
+    "min": 4.5,
+    "ctx": true
+   }
+  },
+  {
+   "id": "nspa",
+   "name": "NATO NSPA (지원조달청)",
+   "region": "eu",
+   "type": "정부·군",
+   "rec": 2,
+   "url": "https://www.nspa.nato.int/",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
    "desc": "NATO 공동 군수지원·조달 기관. 무기체계 지원 파트너십, 입찰.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "NSPA \"NATO Support and Procurement Agency\"", "min": 4.0, "ctx": true}},
-  {"id": "defindeu", "name": "Defence Industry Europe", "region": "eu", "type": "전문지", "rec": 1,
-   "url": "https://defence-industry.eu/", "domains": ["wpn"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "NSPA \"NATO Support and Procurement Agency\"",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "defindeu",
+   "name": "Defence Industry Europe",
+   "region": "eu",
+   "type": "전문지",
+   "rec": 1,
+   "url": "https://defence-industry.eu/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "유럽 방산 계약·산업 뉴스.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://defence-industry.eu/feed/", "min": 5.5, "ctx": true}},
-
-  {"id": "mnd", "name": "국방부 보도자료(정책브리핑)", "region": "kr", "type": "정부·군", "rec": 3,
-   "url": "https://www.korea.kr/briefing/pressReleaseList.do", "domains": ["lis", "wpn", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://defence-industry.eu/feed/",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "mnd",
+   "name": "국방부 보도자료(정책브리핑)",
+   "region": "kr",
+   "type": "정부·군",
+   "rec": 3,
+   "url": "https://www.korea.kr/briefing/pressReleaseList.do",
+   "domains": [
+    "lis",
+    "wpn",
+    "fcst"
+   ],
    "desc": "국방부 공식 보도자료. 군수·정보화·AI 정책 발표.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"rss": "https://www.korea.kr/rss/dept_mnd.xml", "gnews": "site:korea.kr 국방부 군수 OR 정비 OR AI", "min": 4.0, "ctx": true}},
-  {"id": "dapa", "name": "방위사업청 보도자료(정책브리핑)", "region": "kr", "type": "정부·군", "rec": 3,
-   "url": "https://www.dapa.go.kr/", "domains": ["wpn", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "rss": "https://www.korea.kr/rss/dept_mnd.xml",
+    "gnews": "site:korea.kr 국방부 군수 OR 정비 OR AI",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "dapa",
+   "name": "방위사업청 보도자료(정책브리핑)",
+   "region": "kr",
+   "type": "정부·군",
+   "rec": 3,
+   "url": "https://www.dapa.go.kr/",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
    "desc": "방위사업청 공식 보도자료. 신규 사업·계약·후속군수지원.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"rss": "https://www.korea.kr/rss/dept_dapa.xml", "gnews": "site:korea.kr 방위사업청", "min": 4.0, "ctx": true}},
-  {"id": "kookbang", "name": "국방일보", "region": "kr", "type": "정부·군", "rec": 3,
-   "url": "https://kookbang.dema.mil.kr/", "domains": ["wpn", "lis", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "rss": "https://www.korea.kr/rss/dept_dapa.xml",
+    "gnews": "site:korea.kr 방위사업청",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "kookbang",
+   "name": "국방일보",
+   "region": "kr",
+   "type": "정부·군",
+   "rec": 3,
+   "url": "https://kookbang.dema.mil.kr/",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
    "desc": "국방부 발행 일간지. 각 군 군수·정비·보급 현장 소식이 가장 많음.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:kookbang.dema.mil.kr 군수 OR 정비 OR 보급 OR 수리부속", "min": 4.0, "ctx": true}},
-  {"id": "d2b", "name": "국방전자조달시스템(D2B)", "region": "kr", "type": "조달·계약", "rec": 3,
-   "url": "https://www.d2b.go.kr/", "domains": ["wpn", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:kookbang.dema.mil.kr 군수 OR 정비 OR 보급 OR 수리부속",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "d2b",
+   "name": "국방전자조달시스템(D2B)",
+   "region": "kr",
+   "type": "조달·계약",
+   "rec": 3,
+   "url": "https://www.d2b.go.kr/",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
    "desc": "군수품 조달계획·입찰공고·계약정보. 열람은 무료, 알림은 회원가입. 공공데이터포털 '방위사업청_군수품조달정보' API를 활용신청(무료·자동승인)하면 이 사이트에 자동 연결 가능.",
-   "sub": {"mode": "api", "url": "https://www.data.go.kr/data/15158418/openapi.do", "label": "API 활용신청(공공데이터포털)",
-           "url2": "https://www.d2b.go.kr/", "label2": "D2B 바로가기"},
-   "auto": {"gnews": "국방전자조달 OR 방위사업청 입찰 정비 OR 수리부속 OR 군수", "min": 4.0, "ctx": true}},
-  {"id": "krit", "name": "국방기술진흥연구소(KRIT)", "region": "kr", "type": "감사·연구", "rec": 2,
-   "url": "https://www.krit.re.kr/", "domains": ["wpn"],
+   "sub": {
+    "mode": "api",
+    "url": "https://www.data.go.kr/data/15158418/openapi.do",
+    "label": "API 활용신청(공공데이터포털)",
+    "url2": "https://www.d2b.go.kr/",
+    "label2": "D2B 바로가기"
+   },
+   "auto": {
+    "gnews": "국방전자조달 OR 방위사업청 입찰 정비 OR 수리부속 OR 군수",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "krit",
+   "name": "국방기술진흥연구소(KRIT)",
+   "region": "kr",
+   "type": "감사·연구",
+   "rec": 2,
+   "url": "https://www.krit.re.kr/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "국방기술 기획·부품 국산화·신속시범사업 공고.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "국방기술진흥연구소 부품 OR 국산화 OR 사업", "min": 4.0, "ctx": true}},
-  {"id": "kida", "name": "한국국방연구원(KIDA)", "region": "kr", "type": "감사·연구", "rec": 2,
-   "url": "https://www.kida.re.kr/", "domains": ["lis", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "국방기술진흥연구소 부품 OR 국산화 OR 사업",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "kida",
+   "name": "한국국방연구원(KIDA)",
+   "region": "kr",
+   "type": "감사·연구",
+   "rec": 2,
+   "url": "https://www.kida.re.kr/",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
    "desc": "국방정책·군수·인력 연구, '국방논단'.",
-   "sub": {"mode": "site", "url": "https://www.kida.re.kr/", "label": "사이트 방문"},
-   "auto": {"gnews": "한국국방연구원 군수 OR 인력 OR 정비", "min": 4.0, "ctx": true}},
-  {"id": "etnewsdef", "name": "전자신문 국방·AI", "region": "kr", "type": "전문지", "rec": 2,
-   "url": "https://www.etnews.com/", "domains": ["lis"],
+   "sub": {
+    "mode": "site",
+    "url": "https://www.kida.re.kr/",
+    "label": "사이트 방문"
+   },
+   "auto": {
+    "gnews": "한국국방연구원 군수 OR 인력 OR 정비",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "etnewsdef",
+   "name": "전자신문 국방·AI",
+   "region": "kr",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://www.etnews.com/",
+   "domains": [
+    "lis"
+   ],
    "desc": "국방 정보화·AI 사업(SI 발주, 국방 AX) 보도가 많은 IT 전문지.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:etnews.com 국방 AI OR 정보화 OR 군수", "min": 4.0, "ctx": true}},
-  {"id": "sheldon", "name": "쉘든의 밀리터리 (뉴스레터)", "region": "kr", "type": "뉴스레터", "rec": 1,
-   "url": "https://maily.so/sheldon", "domains": ["wpn"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:etnews.com 국방 AI OR 정보화 OR 군수",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "sheldon",
+   "name": "쉘든의 밀리터리 (뉴스레터)",
+   "region": "kr",
+   "type": "뉴스레터",
+   "rec": 1,
+   "url": "https://maily.so/sheldon",
+   "domains": [
+    "wpn"
+   ],
    "desc": "국내외 국방과학기술 동향 정리 뉴스레터(월·수·금). 무료 구독은 일부 공개 글, 전체는 유료 멤버십.",
-   "sub": {"mode": "newsletter", "url": "https://maily.so/sheldon", "label": "구독(무료·유료)"}},
-
-  {"id": "thedefensepost", "name": "The Defense Post", "region": "etc", "type": "전문지", "rec": 2,
-   "url": "https://thedefensepost.com/", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://maily.so/sheldon",
+    "label": "구독(무료·유료)"
+   }
+  },
+  {
+   "id": "thedefensepost",
+   "name": "The Defense Post",
+   "region": "etc",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://thedefensepost.com/",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "세계 국방 뉴스. 군수 AI 투자, 각국 군수 계약.",
-   "sub": {"mode": "newsletter", "url": "https://thedefensepost.com/contact/newsletter/", "label": "뉴스레터 가입"},
-   "auto": {"rss": "https://thedefensepost.com/feed/", "min": 5.5, "ctx": true}},
-  {"id": "defenceweb", "name": "defenceWeb", "region": "etc", "type": "전문지", "rec": 1,
-   "url": "https://www.defenceweb.co.za/", "domains": ["wpn"],
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://thedefensepost.com/contact/newsletter/",
+    "label": "뉴스레터 가입"
+   },
+   "auto": {
+    "rss": "https://thedefensepost.com/feed/",
+    "min": 5.0,
+    "ctx": true,
+    "gnews": "site:thedefensepost.com"
+   }
+  },
+  {
+   "id": "defenceweb",
+   "name": "defenceWeb",
+   "region": "etc",
+   "type": "전문지",
+   "rec": 1,
+   "url": "https://www.defenceweb.co.za/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "아프리카(남아공) 국방 뉴스. 예측정비·군수 발표 등.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://www.defenceweb.co.za/feed/", "min": 5.5, "ctx": true}},
-  {"id": "amr", "name": "Asian Military Review", "region": "etc", "type": "전문지", "rec": 1,
-   "url": "https://www.asianmilitaryreview.com/", "domains": ["wpn"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://www.defenceweb.co.za/feed/",
+    "min": 5.0,
+    "ctx": true,
+    "gnews": "site:defenceweb.co.za"
+   }
+  },
+  {
+   "id": "amr",
+   "name": "Asian Military Review",
+   "region": "etc",
+   "type": "전문지",
+   "rec": 1,
+   "url": "https://www.asianmilitaryreview.com/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "아시아·태평양 국방 산업·MRO.",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://www.asianmilitaryreview.com/feed/", "min": 5.5, "ctx": true}},
-  {"id": "audefence", "name": "호주 국방부(Defence)", "region": "etc", "type": "정부·군", "rec": 2,
-   "url": "https://www.defence.gov.au/news-events", "domains": ["wpn", "lis"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://www.asianmilitaryreview.com/feed/",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "audefence",
+   "name": "호주 국방부(Defence)",
+   "region": "etc",
+   "type": "정부·군",
+   "rec": 2,
+   "url": "https://www.defence.gov.au/news-events",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
    "desc": "호주 국방부 발표. 지속지원(sustainment) 계약, 군수 체계 현대화.",
-   "sub": {"mode": "auto", "label": "자동 수집"},
-   "auto": {"gnews": "site:defence.gov.au sustainment OR logistics OR maintenance", "min": 4.0, "ctx": true}},
-  {"id": "armytech", "name": "Army Technology", "region": "etc", "type": "전문지", "rec": 1,
-   "url": "https://www.army-technology.com/", "domains": ["wpn"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집"
+   },
+   "auto": {
+    "gnews": "site:defence.gov.au sustainment OR logistics OR maintenance",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "armytech",
+   "name": "Army Technology",
+   "region": "etc",
+   "type": "전문지",
+   "rec": 1,
+   "url": "https://www.army-technology.com/",
+   "domains": [
+    "wpn"
+   ],
    "desc": "세계 지상무기·군수 기술(Naval/Airforce Technology 자매지).",
-   "sub": {"mode": "auto", "label": "자동 수집(RSS)"},
-   "auto": {"rss": "https://www.army-technology.com/feed/", "min": 5.5, "ctx": true}},
-  {"id": "janes", "name": "Janes", "region": "etc", "type": "전문지", "rec": 1,
-   "url": "https://www.janes.com/", "domains": ["wpn", "fcst"],
+   "sub": {
+    "mode": "auto",
+    "label": "자동 수집(RSS)"
+   },
+   "auto": {
+    "rss": "https://www.army-technology.com/feed/",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "janes",
+   "name": "Janes",
+   "region": "etc",
+   "type": "전문지",
+   "rec": 1,
+   "url": "https://www.janes.com/",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
    "desc": "세계 국방 정보 데이터베이스. 심층 분석은 유료(기관 구독).",
-   "sub": {"mode": "paid", "url": "https://www.janes.com/", "label": "유료(기관 구독)"}}
+   "sub": {
+    "mode": "paid",
+    "url": "https://www.janes.com/",
+    "label": "유료(기관 구독)"
+   }
+  }
  ]
 }
