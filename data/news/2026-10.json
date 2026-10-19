@@ -1359,6 +1359,39 @@
    "kind": "news"
   },
   {
+   "id": "aa71391f47ae",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T11:25",
+   "title": "HAL to increase India’s fighter and helicopter engine output",
+   "source": "Asian Military Review",
+   "url": "https://www.asianmilitaryreview.com/2026/10/hal-to-increase-indias-fighter-and-helicopter-engine-output-foc/",
+   "lang": "en",
+   "summary": "India’s state-owned airframer Hindustan Aeronautics Limited (HAL) will increase annual production capacity of the Russian-origin AL-31FP engine from 30 to 50 units, and simultaneously establish a second production line for the Shakti helicopter engine. India’s Ministry of Defence (MoD) announced these developments on 6 October 2026. The production expansions are intended to increase engine availability […] The post HAL to increase India’s fighter",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "amr",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [
+    "영국 국방부"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "c8f17fe2f7f4",
    "date": "2026-10-12",
    "ts": "2026-10-12T01:51",
