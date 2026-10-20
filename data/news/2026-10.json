@@ -2,6 +2,39 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "27a9b29ff980",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T07:12",
+   "title": "My MEDPROS Medical Readiness Portal - U.S. Army",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE82N3FpazJzWGd0UU82eGxHWEtCTkRveDNGWWdvaS1iSnBJczZQMmlCVkxaZ0JMSmVXSHg4Yk9LOVJtTXh2SzBmNTg4QVFydw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "0f13fd9d0078",
    "date": "2026-10-20",
    "ts": "2026-10-20T06:41",
@@ -33,6 +66,69 @@
    "domains": [
     "wpn",
     "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8ad82faa638a",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T05:22",
+   "title": "Army provides maintainers new AI tools to speed maintenance and repairs",
+   "source": "Stars and Stripes",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFg1cVBDZE1haWcycnJIbWdPWFQ5VDJhNGI0WkxlSzk1T1JlRm1QamVlZlZyb3dzNHNvSUd5amZ5M05xTUk4bzgyUWFZQV9LbjVuTW5wNzE0elFYa280MTFhd1ktVGtWaVZsR3RUQ1lnalV4QTctWmtXbVJNV25BRlRuMEIzZHJDTThROXc3aktua0tULWdqNUllQ2M?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military supply chain artificial intelligence",
+   "cats": [
+    "ai",
+    "mro"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "eace6243e70d",
+   "date": "2026-10-19",
+   "ts": "2026-10-19T19:35",
+   "title": "HJ중공업, 미 해군 군수지원함 첫 MRO 마치고 출항",
+   "source": "서울경제TV",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pT0htb1d5SFZTQ0tIN3JPc1pyckdJS1AzMF9ockFBTGhHdGNYN2FzQUhQNm9aS1Y3U2pxcVBqaTVsQkowVXdreVd2WDgwRXZwSEtUTG5WdFFHZHR1R0JrTnEzNE0?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
    ],
    "kind": "news"
   },
@@ -153,6 +249,70 @@
    "region": "us",
    "domains": [
     "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a22d11306202",
+   "date": "2026-10-17",
+   "ts": "2026-10-17T15:32",
+   "title": "Singapore-Linked F-35 Deal Adds US$18.8 Million to Stealth Readiness Push",
+   "source": "Defence Security Asia",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPck00UDFDakxBX0RPVEFyTDF6UXdVOURpTzZvX2Fnc2RPVWRlUUpaNVZxSU13YWZhbGU0T2JocFpwRmwzalR2d0xnRlBPaWJBb2NFUHRpLXlHbnlGMWpDR3o2RGhGZGJlTGdKTlJNS0NMNFNxUVB4LW15dW5FaGM2eUpPYlZmcl9mVWFGZExCR0NOSUc4Zlg5OQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "weapon system sustainment contract awarded",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "60ac9044da40",
+   "date": "2026-10-17",
+   "ts": "2026-10-17T14:03",
+   "title": "USAG Hawaii DPW releases lead service line inventory public notification",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkVJWTBHUFVuLTBRQzhXUE9YSkx4eWNUTzBEV2NVMWRjNFR4WG43R3E2UjFRMUdBNVBCd0gwTE1GSmp3ck1XRlcyeWgtSHR6Z050N1RtOFdmT1VnY0JsdHNTSEQwOXdTb0l0ZVBUeFByckJmZUw4b0lnZVAwVDJHY3doMjIyQVpPM0g2R1hwMzFLdXRYZzZFM3l3M01fLTBqQlRsei1vNmJJT0cyRTM4YVRB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst"
    ],
    "kind": "news"
   },
