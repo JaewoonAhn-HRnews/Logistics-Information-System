@@ -2,6 +2,236 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "33fe03fea112",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T20:37",
+   "title": "HJ중공업, 첫 미 해군 함정 MRO 성공적 완수…후속 수주 기대",
+   "source": "해사신문",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBRmZaNFJ4MlZUTHBTY3BIVXFmZjhYZnkwY2J1dzA3QTRZZ1BXVjNKRUhqeHRuR2tSWlRHS3UtdG5FcmdPMFJDbEdpclF2NDExWTZpSUVobHRRQlVpeUFVVk54Q1U0Rnd0Vmh3?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "후속군수지원 계약",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "89dc8656f9df",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T20:06",
+   "title": "Gecko Robotics’ Contract More than Quadruples to $300 Million to Support U.S. Navy Readiness",
+   "source": "The Manila Times",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZWRlYWV4TzJjTG83UVlXNGY2Q1RRVzVkX3g1N3BUUjEtSVkwNFRERVBEZTZVWUYzemdLRngwU281TmZpRzFib19rUkQwZGY3UTRZQnJZbEwwRFJ6M1RuS0pXbmt3S0VfamhqV1UxRk96ZUhmTXN2WmNEbTgwSnNvQlp5MHNjLTJPVFYxb0Z1ZEpJNTVCOElobEgwMXNtazZFM096aGlRZUdPVHQtUDU5cVFyakFDLTJUbWgwOGVUZjkyTmNLX2dqWWlFVlRfcXQ5NGpubWU2cGVyNG9ERU1fT1FUN1c2cGVPZGRWZnJsLXlpeXl3angxclJ30gH6AUFVX3lxTFBlZGVhZXhPMmNMbzdRWVc0ZjZDVFFXNWRfeDU3cFRSMS1JWTA0VERFUERlNlVZRjN6Z0tGeDBTbzVOZmlHMWJvX2tSRDBkZjdRNFlCcllsTDBEUnozVG5LSldua3dLRV9qaGpXVTFGT3plSGZNc3ZaY0RtODBKc29CWnkwc2MtMk9UVjFvRnVkSkk1NUI4SWhsSDAxc21rNkUzT3poaVFlR09UdC1QNTlxUXJqQUMtMlRtaDA4ZVRmOTJOY0tfZ2pZaUVWVF9xdDk0am5tZTZwZXI0b0RFTV9PUVQ3VzZwZU9kZFZmcmwteWl5eXdqeDFyUnc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Navy readiness maintenance AI ships",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "da69481a36dd",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T16:24",
+   "title": "써로마인드, 40억 원 규모 군 차량 예측정비 AI 개발 착수 - 머니투데이",
+   "source": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CX05mM2djdjFMeVN0aXE5RktVTUwwSmdnazIyaEZ5Yzg3SVBMeVZMYWl3MEM4WWZ3NWttT2liRTk5b3RMZWI5Uzl4U1pScFdwUlRZZlBFbXRPSUNfLXlQemlvSXJtd2lUY3c4X2NNYV9RQdIBckFVX3lxTE5CX05mM2djdjFMeVN0aXE5RktVTUwwSmdnazIyaEZ5Yzg3SVBMeVZMYWl3MEM4WWZ3NWttT2liRTk5b3RMZWI5Uzl4U1pScFdwUlRZZlBFbXRPSUNfLXlQemlvSXJtd2lUY3c4X2NNYV9RQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 정비 인공지능",
+   "cats": [
+    "ai",
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "예측정비"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "89d2db6fe87b",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T15:27",
+   "title": "김병주 의원, 민·군 협력 함정 MRO 확대 촉구",
+   "source": "글로벌뉴스통신GNA",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPUDRROG9xRWtjZ3NRMUFpTVdmWVk2Q0drM0RjRzQ1bTlqTWRlUVQ1Z3daQXVYTTBoNmU4ek1OZElhVWYweEtHR0w0NWpSQ0xlSUVxTGQ1U2N5cHdnb25nbjZ3XzhocEMtY1VVNXVxdk91cW5y?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fc18f751526c",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T14:49",
+   "title": "가온아이, 국방사업부 신설…군 AI·클라우드 사업 본격화",
+   "source": "아이티데일리",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KcGw2Z3JLMHRKM3JFaEdkclItZVVUeExEYnVCbDJtN09GRnZUVzFZaTVJX0NTMV9wTEJyMkllY2FMaU9UNWN4ZXdueDgxS043YmxtLVhMVV8wWi1Pd3VGaFhOMmViYjh4?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 AX 인공지능 전환",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "509d1d278087",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T12:02",
+   "title": "해군 함정 늘어나는데…정비인력, 20년 뒤 절반으로 '뚝'",
+   "source": "뉴시스",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQtIBeEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "정비인력"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "97480107c96b",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T08:37",
+   "title": "[2026 국감] 해군 정비인력 2045년 절반 감소 전망…김병주 “민·군 함정 MRO 확대해야”",
+   "source": "포인트데일리",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WbUg0MlBBVnowU040d0F6b05weGxWVnVkc0QzVW50SHE4YV9TT0wtQVBtY0FFaWhfNnFiTGZlV2tWS1AyVGk4NDFSQmo2UEhuN1EyNGpfN2ZnS1BqX2lqenNfX2lFRW0yRmkxVlE2NzfSAXRBVV95cUxPU0pYb3RTVmx2cjh2aWUzQ01NWDVwSExCMWtjVFdhaDVKc3RuQVFnQ0JJNzNVZnMxWmVMT19EaEZYQ2w0SndhNkJ6NXRnelRyM1lOWGhpc2ZGQ1YtSkVveEhXcHRBWl9RbGNvWGYwNE1IN0ctYg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "MRO",
+    "정비인력"
+   ],
+   "ents": [
+    "해군",
+    "국정감사"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "policy"
+  },
+  {
    "id": "27a9b29ff980",
    "date": "2026-10-20",
    "ts": "2026-10-20T07:12",
