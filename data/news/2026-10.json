@@ -2,6 +2,74 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "93486f85cc29",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T07:02",
+   "title": "Army pilots AI-backed maintenance program to digitize manuals, streamline repairs",
+   "source": "DefenseScoop",
+   "url": "https://defensescoop.com/2026/10/20/army-pilots-ai-backed-maintenance-program/",
+   "lang": "en",
+   "summary": "Army officials said soldiers can query AIAM for repair references, document maintenance issues for their supervisors to vet, connect with civilian logistics assistance representatives for help and access parts inventory. The post Army pilots AI-backed maintenance program to digitize manuals, streamline repairs appeared first on DefenseScoop .",
+   "score": 7.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defensescoop",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ai",
+    "parts",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "재고관리"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ef62ab0876a9",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T00:30",
+   "title": "Gecko Robotics Wins Contract Expansion To Support US Navy Fleet Readiness",
+   "source": "Ocean News & Technology",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYW9jeGRyZHZGV0tBRFpRb0t5bV9hb3lWOFU4UFc1a1ZBNURsSklKU3FUcS1scGlnNDRlZTF4bHRDTVFJLTlSSUJZbXNCOFJIeTAzcFE4V0JCdFFwQ3VyTzhlSkhxOUE0azdiRS0ydXR1ZXFucHdnTjBPSEpKZzgyelhOZXR4Qm0zcEFNLUF4Nll3V0N1Z2l6MGlrQ3IyWUtUWXlzR3diM0hpcXNObWc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "Royal Navy maintenance AI",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "33fe03fea112",
    "date": "2026-10-20",
    "ts": "2026-10-20T20:37",
