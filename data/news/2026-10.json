@@ -2,6 +2,100 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "50faf54cb38b",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T21:11",
+   "title": "U.S. Navy Quadruples AI Robotics Deal To $300 Million To Boost Fleet Readiness",
+   "source": "Marine Insight",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa04zdGRhbkpWb3o5ZmVka0xSWEt6aUNqVmg4RmVyd0c3a2IzekpCNGNLOGNTdDdqa1hZWk5NQ0t1V1BvS0Z1d3ZvaWU3NDh2RW9fdzdsZTZfNnpBMWtWbWI1SUZlc3JLdGhGdTVoTlZ0WTZGZTlrVmxERno4T293dzVGeXZjbVd3djQzemZDM3kydTVXWGNqX3dCTmtWS05zV1kycW16YWEzSzg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "47ac7272f1d5",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T19:13",
+   "title": "Brave Rifles Return: 3rd Cavalry Regiment Uncases Colors, Reinforces Readiness in Korea",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMFlNaU9MUzVQVXM2UWZYVEgxZE5JN0pxX0NkWi1xRlJVRDhEeWdZUHY3WkdIVU52cXRacHkwMUg2WjVEWE1IRGhOV1RlaGtnRU4tdjZGZ3dwNjdUaktKd2FYMFRqSzBrdVZrdHBQQWZybmxvY0JmNTBLalFPbk9vZWRmOUs1dkl4NHVzV0ptVnE2VmsycHJxVWdGV05tQm9wMTFpZHgwTGJtWUd4R3l0T0NTOUFKWmJVcFozRzZ3bHYzejTSAcMBQVVfeXFMUDBZTWlPTFM1UFVzNlFmWFRIMWROSTdKcV9DZFotcUZSVUQ4RHlnWVB2N1pHSFVOdnF0WnB5MDFINlo1RFhNSERoTldUZWhrZ0VOLXY2Rmd3cDY3VGpLSndhWDBUakswa3VWa3RwUEFmcm5sb2NCZjUwS2pRT25Pb2VkZjlLNXZJeDR1c1dKbVZxNlZrMnBycVVnRldObUJvcDExaWR4MExibVlHeEd5dE9DUzlBSlpiVXBaM0c2d2x2M3o0?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3292c7b3f8ce",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T10:21",
+   "title": "HJ중공업, 미 해군 함정 첫 정비 완료··· 후속 수주가 관건",
+   "source": "그린포스트코리아",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZRURLcTRoV3ZUaDJMVW92d3ZNSWRfZkxzVmxSTHpTZTJWM2NjYkRoWmZwVzFMLTMtUDd6elU2WnNxRzVpTkdMM3ZGb0s5a2Nra3RzcFJlRzU4MHZaQldFSFZ5dVB3WXVyTlZ1T2s1VjYtckJpdWfSAXpBVV95cUxNWk91aGgtUWI3RzZlc05oQ182ZHNwYkp5ZjN0S0JrNXBiRUU5OHJLZTNIY2RETlc2MjVuVzE3RlhfYk0yQWsyUTdWeU9oLU5fTTBJMUFPTVkxWGNlMk9mNjlhbklWWm9WeU9OMjFtZ09aMkljdXdaUzc3UQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "93486f85cc29",
    "date": "2026-10-21",
    "ts": "2026-10-21T07:02",
