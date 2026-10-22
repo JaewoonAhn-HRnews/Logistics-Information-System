@@ -2,6 +2,356 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "5cd0e58459c7",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T21:57",
+   "title": "Pentagon, Lockheed agree to decade-long F-35 framework deal for hundreds of jets",
+   "source": "Breaking Defense",
+   "url": "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/",
+   "lang": "en",
+   "summary": "The tentative agreement, which still needs lawmakers’ blessing, covers production and sustainment over the next 10 years.",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "breakingdefense",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a831f60fa906",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T21:00",
+   "title": "Gallatin Awarded Air Force Phase II SBIR to Advance AI-Enabled Sustainment Decision Support",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUmYtOEw5OFN1RFJDR3JVbWhlZFFpTXJwa1JpQ1lKc2VjWWFRbjBPdU5IekFoMmdYSEJ2NG1YdWg4TlRESEhHMTEyUDk0eFB3NWxMNlRmenpEdVVUM2w2VENSOXFPanVkUXNGelhLVWJhbWRsWG5vZDl0b2l5RTRtTDFrbmpyR2NOdlh3RVFoVFBtaTA3LVZsZ3Jvam4?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "ai",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [
+    "Gallatin AI"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5f69f0f7e325",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T19:29",
+   "title": "US Defense and Lockheed Martin agree on 10-year F-35 production plan, saving billions and boosting readiness.",
+   "source": "Pluang",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRnJfNEZyRFZPbGNBSmdUcVo3b3dXcGlYd21nbU9sdXhVZE0yZGoxejBfcGt6aDRJQV9meENkdmg3cE9YbzM5bHdfZ3dUV2ZKdUJoRFFYNW1xUHVRc0diU3Q0U3hkWjFmQ3VZT05wUkVlekpxZDFPOUZjQ00zMHNBSFVaQTBRb3Q0YjNiR0lVdDQwVk9XTTZYVA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "Lockheed Martin",
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5c76afc2b0c1",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T19:24",
+   "title": "Lockheed Martin says 10-year framework covers 850 U.S. F-35 fighters, upgrades and sustainment",
+   "source": "Defence Industry Europe",
+   "url": "https://defence-industry.eu/lockheed-martin-says-10-year-framework-covers-850-u-s-f-35-fighters-upgrades-and-sustainment/",
+   "lang": "en",
+   "summary": "The arrangement is intended to give suppliers longer-term certainty and improve fleet readiness, but requires procurement authority and funding before a contract can be awarded.",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defindeu",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "Lockheed Martin",
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b8e769b9bdd1",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T18:47",
+   "title": "Cherokee Federal Company Books $99M Navy Contract for Fleet Readiness Support",
+   "source": "GovCon Wire",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdDVrQjh4ek0wb0JHOHRvVE9QQmZvTm5DQmU2RUNGZE5lTHQwZTlhMnZtZnpoSEg1VGY5ODU2V0FPM3JlVGhWRndNdTZtUjRoZy1Rdm5OXzFmQ0RJbzR3Nk9CclBDem91T2lrRlo0eTEwWlpYVkN0dUI3ZDVTN3V1UVlEM0w4cXBmSGFmYkpYV1dQVWZSMzVJ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "govconwire",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "98eb1d6d657f",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T17:09",
+   "title": "[설명] 정부는 근거 없는 공사비 인상을 막고, 분쟁이 발생한 정비사업 현장을 직접 찾아가 해결하고 있습니다.",
+   "source": "대한민국 정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQTFON1E2ZERTbDYxQWpyZnZ5Y1ZzVkRpekxvUnZGRTV5U0stWFM0QUVTOEtDbHBSbkNnemQ3Vy1Ld1pSTE1wRmxZVUZuZ0xsZWRxTGNIZDQ3SFloa05qaVFmc19yZXV4eFBORTdkd0ozaDFPZUpodHVSUXVidzM0RW9NSFFDV2VfTG91Zw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "mnd",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "204687dc614b",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T17:00",
+   "title": "Defence Readiness Bill due before end of this Parliament",
+   "source": "UK Defence Journal",
+   "url": "https://ukdefencejournal.org.uk/defence-readiness-bill-due-before-end-of-this-parliament/",
+   "lang": "en",
+   "summary": "Legislation giving the government the powers it needs to respond effectively during escalation towards war is being developed and will be brought forward before the end of this Parliament. The post Defence Readiness Bill due before end of this Parliament first appeared on UK Defence Journal .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukdj",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "098fd5eb9728",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T16:46",
+   "title": "Army Acquisition Executive holds “night court” challenging leaders to tackle sustainment concerns",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSVJXcGRnSDg1bldITXQxc0RRdkV5QVNBb1lmcGI5SjdMaWJyM1Y0SHN6YnFVUy14bU9MQ28yNGxUUEhEZTd2OEpqaEN3d0dCd2JGdExqb3kzYnByc2NTRVRkZWxjVHdLTmkxd1pxdFJUMkpqNDJCc3p0Q0ZVTHNmYUdGWjNITUdCOUVUeURjVjZ5TGpmZTZFdWxsZk9JV2RMUWU0WXFXTlBXeFE3UHJ5LXNMS1Ffdmo3T1hKa3U5blBwMjIyaUlYdWNpeUlJQmZa?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6e9dd8363d5b",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:43",
+   "title": "일산신도시 정비사업 추진현황 점검 - 포토 | 멀티미디어",
+   "source": "대한민국 정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wb1Jacktza3BQNElKMHdRLUNJVC01cjJhMkNLZzNMYXdYSVFPZHV3enF6bzJNdlFpYzRtd2E3TWx6cjlKMUVzczR0SFRmTC1wQ0FhbHFkQWtJbnRYbGl0VEZJYlBlQno1TVE?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "mnd",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6f450beaf71c",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:35",
+   "title": "101st CAB Tests VR-Based NeuroTrainer to Boost Cognitive Readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb2dFR255MElkUTVlY0xvSHhNVUZQbHExTG1hZmg0ZGVuYTBwdWN3ZTZRbnFLaEtyZUFpQVRScWxIZnc3TXNsNUQzSW5tSm83MjJXeUZhWmE5T0lnV2pjNE14eGpHV3M2d2tXQ3dBWG9Cc2tfeE8zc245M1luekJMMm1mWmEza3pFVEtnd2FSaUFuN0FaM1h5TGNiR3ZpeFMzV05RV0F4Tm82UdIBqgFBVV95cUxNb2dFR255MElkUTVlY0xvSHhNVUZQbHExTG1hZmg0ZGVuYTBwdWN3ZTZRbnFLaEtyZUFpQVRScWxIZnc3TXNsNUQzSW5tSm83MjJXeUZhWmE5T0lnV2pjNE14eGpHV3M2d2tXQ3dBWG9Cc2tfeE8zc245M1luekJMMm1mWmEza3pFVEtnd2FSaUFuN0FaM1h5TGNiR3ZpeFMzV05RV0F4Tm82UQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "426c58ee99d3",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:12",
+   "title": "Fort Drum ERDS: Leveraging Enterprise Logistics to Sustain Readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZE9NU1BHbXBIUlhHQXZlMEdCdGhEWEhObllua3FIZ0pNSS1RNUNJQ0VTdFVIMTB2cmxyTHBXcVltTk5IRkhUdDRtMjV4cEVqenl4dzJpamVlZnk2Zk5XN0xGNnB4dUVPRDZuY01qYXdJdGZxMlY2TW80aG50YklEZE4waUNVaVhFQWRoMGlCWU12TldjMDVTbnF3U2QxdHM2S280OXRB0gGrAUFVX3lxTE1Tbkpsa1Frb3J4U1czeElBVS1Gd1hGWlA3SEd4aHA0RFcyTFhQZzQ1NDg5UWJ3azFwSDMwR0lkOThaQlFRTVlUX2FFOWxqVFI3VUJySjhjZXB5MkdmS09PRzNuaTAyazJhM2RGTFViamVKWk5WX3B4eUYyaHoxNUNYUmROQy1lS29TWnJhdmpmSnBYTUFuREZBVXNzTzFlbVdKd2pDV2g0OFk2UQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "70734df1edff",
    "date": "2026-10-22",
    "ts": "2026-10-22T07:18",
@@ -216,6 +566,62 @@
    "kind": "news"
   },
   {
+   "id": "836cd4babddb",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T23:20",
+   "title": "A Magic Bullet Still Needs Zeroing — Avoiding Pitfalls in 3D Printing for Army Maintenance",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGRaX21kSzcxLUtzMV8zSDNERjI5dU40a2Rpdko4Rmx0MktaeUY0NGdNSl9NbG9ya3ZXUm14WXJoSmVSVHNFZDg4VmJ0T0hwTk1ZMS1SajZ3OWhaZnNpdGo1TDB6TWI2a1VzbTJycy1Md3J1OF9TSURJRzA1d1o2U3gxQXdtakdCVExvSTJpS1Q4OFBPeVdDenFYOVFIX0M5RVJaTFJNdHBWTnJ5YUFEbFUyNlZOTTdlMDh4N3U3ckxBRnFTcFFR0gHHAUFVX3lxTFBUZFpfbWRLNzEtS3MxXzNIM0RGMjl1TjRrZGl2SjhGbHQyS1p5RjQ0Z01KX01sb3JrdldSbXhZcmhKZVJUc0VkODhWYnRPSHBOTVkxLVJqNnc5aFpmc2l0ajVMMHpNYjZrVXNtMnJzLUx3cnU4X1NJRElHMDV3WjZTeDFBd21qR0JUTG9JMmlLVDg4UE95V0N6cVg5UUhfQzlFUlpMUk10cFZOcnlhQURsVTI2Vk5NN2UwOHg3dTdyTEFGcVNwUVE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "3D 프린팅"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a0502a056b0f",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T23:20",
+   "title": "Continuous Transformation in the Army Sustainment Enterprise: Evolving the HR Mindset for the LSCO Battlefield Using NGC2",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRXMxTFhEOF9COEF2ZEZfUEkxR0o1eDRCX3llTkdNYlpRNEtqTkRnWWNsd1c3SG9ldVRiUW5hR3pMSVdsaUU5bkZCb2RJdVh6bzJjenpOckFVYlNLaUlFN2k2TWozaGN0S19DUXhXZUxaT1N6MkRYVkpoR1F5ZGJDcVhtOTVFSFpFZnp0OEdzVmRUTlh0dUJkM0VYNFhkSkxaUHAzMzFONjAxRnRrYXpKZGlVNVdRYnpWTVEzME1RVmtYVGVFb2J1UDQwSTRFVWR4bkNKMXdhUWVTVHgyX2RLZ0RNZm9CcktDSHRHNTJMQXZ4Z9IB8gFBVV95cUxQRXMxTFhEOF9COEF2ZEZfUEkxR0o1eDRCX3llTkdNYlpRNEtqTkRnWWNsd1c3SG9ldVRiUW5hR3pMSVdsaUU5bkZCb2RJdVh6bzJjenpOckFVYlNLaUlFN2k2TWozaGN0S19DUXhXZUxaT1N6MkRYVkpoR1F5ZGJDcVhtOTVFSFpFZnp0OEdzVmRUTlh0dUJkM0VYNFhkSkxaUHAzMzFONjAxRnRrYXpKZGlVNVdRYnpWTVEzME1RVmtYVGVFb2J1UDQwSTRFVWR4bkNKMXdhUWVTVHgyX2RLZ0RNZm9CcktDSHRHNTJMQXZ4Zw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "e4c23602e678",
    "date": "2026-10-21",
    "ts": "2026-10-21T23:19",
@@ -231,6 +637,34 @@
    "hint": "us",
    "q": "",
    "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "174555cdc614",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T23:19",
+   "title": "What is MDO-Maintenance? — Wrenching Army Sustainment Back to Reality",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRndMUHZid2Rkb2drQU1kQ2VjZ1J1bjZnTGo3M0xTdWUzYy0zcnFxY09BNUNnREgtQ2Y3MkJIM2pLX01QNWJVdGRmbnFxNC0ySUZJU2lxVEtHV0R4RkxKTzNRUEhnMkhpMVhIN18zbzhUamZwcmVNMWtOZW45emgtX2NJeEZDekN6d1FCOUpYbld2N1BTSHhUNGFqU2t1Q0RNazBHOGlDMXNCQdIBqgFBVV95cUxPRndMUHZid2Rkb2drQU1kQ2VjZ1J1bjZnTGo3M0xTdWUzYy0zcnFxY09BNUNnREgtQ2Y3MkJIM2pLX01QNWJVdGRmbnFxNC0ySUZJU2lxVEtHV0R4RkxKTzNRUEhnMkhpMVhIN18zbzhUamZwcmVNMWtOZW45emgtX2NJeEZDekN6d1FCOUpYbld2N1BTSHhUNGFqU2t1Q0RNazBHOGlDMXNCQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro",
     "log"
    ],
    "kw": [],
@@ -285,7 +719,13 @@
    "lang": "en",
    "summary": "",
    "score": 3.0,
-   "also": [],
+   "also": [
+    {
+     "source": "U.S. Army Pacific (.mil)",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaVJ1YzZ4d1hyZHdhOHRCcTRMWklid3RGVmIxOWV3ekJoZDZMclpBWHRNNk9WZzNXdFZwVEdoZU5Sc3B3MGNDYVRCYVJkQlNHVW1qVWIzMkc5dGlfcG1FQW1ROG91RFMxcnZ3NmVSVnNBVlhjZlpBMnFXUjlROXBGMkZmNDRiWEJEb3IxcHowc0EtcnNJVGgyU3Q4MUNGaE5WbTNlclVFdzJTQTlUQ3FEZEhzM0FWekMtX0QtNW9lc0h6NkEyTG5YdkhvZnEzUXlMNHdvek9RdUVHU1ZiLWdF?oc=5",
+     "title": "3rd Cavalry Regiment Uncases Colors, Reinforces Readiness in Korea"
+    }
+   ],
    "origin": "rss",
    "src": "armymil",
    "hint": "us",
