@@ -2,6 +2,247 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "70734df1edff",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T07:18",
+   "title": "Hunter Battalion heads to the field for mission readiness exercise",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmZhRjlKb1ZFVF80SEdjdEVFVGJpMHVJVTR3LVNzYTZaX2ZpR2ZfRlpDRnczbUVTRGZwX3FCUl9LeDQ0eTBXS19EM0RBUkhZajVmenFGTkMyR015a3U2QjBUUVJ2eTZDWURWTFRZV0o4WmlmTFlNZ241ZUthRWJmOVRQSmxoUlFiYTM2eUl5anljMXdTdXE1N0FSOVhuemMxUndqMtIBqgFBVV95cUxNZkZNZXZhMnF6WWE0TW1MTTZBWkVXLVI4MVVZR2RSV2l4Q285UXZIcGJnM0Q0cHhjSU1idTNlNE9qbmtEbldBWHRMZWNzUkZDcVlKS0xlemtDR0xjSWRnUWwtZGY5SFhsSEE0UFFhbncwb202NWo2Rk9MS1l2WE5oVHVPdjNXUGdMN3NNVkJpaThFWUw0YlJaWGIxU0t3VzBRR2l3RDJRd1ZkQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bbd58fc33014",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T05:21",
+   "title": "Air Force starting to game out sustainment framework for CCA drones",
+   "source": "DefenseScoop",
+   "url": "https://defensescoop.com/2026/10/21/air-force-cca-drones-sustainment-plan/",
+   "lang": "en",
+   "summary": "Once the AI-enabled uncrewed systems are fielded, the Air Force will need its maintenance enterprise to help keep them flying and ready for combat. The post Air Force starting to game out sustainment framework for CCA drones appeared first on DefenseScoop .",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defensescoop",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ai",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "cf926a4ce53b",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T01:30",
+   "title": "Roads to Readiness: Military Mobility Infrastructure on NATO’s Eastern Flank",
+   "source": "GLOBSEC",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMVFrYmV3RWcxSnZxTmtCaXJVVWFDVVNOV2lzSVUzUnpSbGxJdnFfRXJ5SWZkU2dFa2F4eElFa0ZMczlyZXQyQlFqWTNEUlYzdzFzN0tqeFRHTFZCWDhTSmo0bF9JZE1ON3ZWcUFyYjZuMlFxYmdlcXVQY1Boek1NLXhsZGFnMzg4YnhnVDdBdmk4Vmo1eGRqZHRZczFZdkVJenZqaHNic1hHM1dhbGt1WjJSOHNZamc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "Europe military mobility logistics",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "19cfd3a8cf8b",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T01:14",
+   "title": "Modernizing Heavy Equipment Transporter Sustainment: Driving Predictive Maintenance and Readiness Gains Using TDAC’s Rugged DSC",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYnAzTmxJTFFuSDE3R2hrOWs5Z3dEMGp0TmZjMEFjazZyeWtQNFdMYnNpS1daUGQ4aTJIVlY5T0NreE1JRHNNdXcyWlNZSGIyQWhuQ3ozZVc4SU9LMHpiSWVDalVwT0FJRV9Uc0NvbXRQWjRtNkp0dEl3QmE5VjZ4YzNfSXA0TWpzTFRtT3RWQWk5THVsbXpSbGJaRFJ4ZHRFUng5bHRDSzI0eVM4dFJiY3BlVWRJamxDZGk1T0VtMWdLeU1MXzBkbUpJR3JGc2d0a0FlRHpFNDk5OUIyd2V5bjZjeldYQS03WmtpN3EyQ1hFelHSAfgBQVVfeXFMUHAxMTh2U0hJUXczX2RhQU5OVkY2eTZBUEY4ZFd1azR3MnZGSUhDZTJwamdtUThoaGVmeGQ0UFVNM01MX1lsZFlJaW9YQ0pkNUxBQ3cwb1EtSUtxMnVwSTRUdFFHOFRpbHhxMkpzdWFyV3dweXMzMlYzbGdtT3puYi1mSnFsSTZtTDJkOExBSk5SYTZvUHUxSFFva1EtQmNxVWc1aE4zYmt1b1JBWkVia0oxMUxjSWhaZTQxd3lwVHRrbnhGU2gtQ0NfZWszMjRQTWwzSWN3eXl5VzI3b0lDMFBtcTlOYl9vdkt5SlpxR2YyMF9lZ2ZLY1E?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 7.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "예측정비",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3dfb86bd3159",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T00:11",
+   "title": "Revolutionizing Army Readiness: The Portfolio Acquisition Executive and the Agile Sustainment and Ammunition Organization",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaUN0T3lkMWlHWi1iQjJJMTBVV2Y3b1FZSjdjM0dQSEpqVFlMeVVHTEg4aWtRQ1VjWDBWTU5FU2ZLVG9ncURzeWtHcmhIQ1NMbW93dml5b2ZYM3BKX0VORTh3Q3hvaElsT3k0UjNUaFNkSEVmTlZ0LU5HQ25ia1VCc0hQYncydkJQMWhlaFQ0MG5fX2JBMmVEVHNiN2pVeWp4OWhDUXVjTVBQUGxtelhOUW1aWEd6Ym1HNHpLSEdPVkJNNTdYWEN4cFBNaGZtZmQwTU9BWjhvLS1JbjJrYjhHdXR5aTJscV9NV0txb9IB8gFBVV95cUxPb3gyUWFobWRvV1dqLVlha25zQ0dBcElYaHBMUGo4d3F5bDJaSUdHdjd3ZXNCYTZyYWlJUWh0TmRfLWF3SFlqSE5CT3dIOW5TbHRxQ0hyc05SNkhjb0ZoMk9GeGgtZ0paWllsMFg5UF80MjZpeG5LTDlnc0tPWmVTdlU0akswY1NMcFJYMXdlMjNuTGdGcnpqanNsaW5kT1lPbGtIMkNITWk4bzJYSDk3V2NyQ09uMHo2MGpHQXpiQzBtenBrZHAzelhnRzlIYjF3dmVSVm4zM2xrQU5QWTI5aENUUzRsaWdKYkdfR2hoeWNQQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0c1ae8649ed9",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T23:20",
+   "title": "Modernizing Army Sustainment: Projecting Combat Power and Sustaining Lethality at the Speed of War",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdmppeGMxZjl4YmNYUzZpSERuWDNoX0lXMWxTNk1nUXZLeHhrQnJNV01nY1BqbUdoMTY2RnF2WFBfczExeVZKamg0UWcyVEJQWnUwdTg0aDVqQ245NHl1S0xudDFwOHVaamdXLXlodFYzV0czM0FZNlNmdUdPanVKWGdzUUVCdlJjR3lLQWFYaEdQU1plYzNNNDZqX28yVTZmMDR2dG1XZHl6b0d5TnpYbFpScU5SUHM5Z195UXM1bHJJMGhIbHNzTHNEb0lwbTY1RXlv0gHTAUFVX3lxTE92aml4YzFmOXhiY1hTNmlIRG5YM2hfSVcxbFM2TWdRdkt4eGtCck1XTWdjUGptR2gxNjZGcXZYUF9zMTF5VkpqaDRRZzJUQlBadTB1ODRoNWpDbjk0eXVLTG50MXA4dVpqZ1cteWh0VjNXRzMzQVk2U2Z1R09qdUpYZ3NRRUJ2UmNHeUtBYVhoR1BTWmVjM000NmpfbzJVNmYwNHZ0bVdkeXpvR3lOelhsWlJxTlJQczlnX3lRczVsckkwaEhsc3NMc0RvSXBtNjVFeW8?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d9d764fed5d2",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T23:20",
+   "title": "Forging the Future: The Meridian Transformation Surge and the Next Generation of Army Sustainment",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSWxrTDFJU1F3ZjZpX040VVlKM3JackwxaFN0dHV5RHdwVWtFSmdJREE0UmVmYkFhTExMYXhPWDlobm93UXRhbm5HUjYzTzRiM0xZTXdHR2w2eFZJdzNOVnJPSWdab0ppMU9xdEJuN2s0X2d5WFNfM3Uycnk5ZVBhcW5LT19EUW1ndEp3MWFKdU5OMDFLS0F1SWNKX2hwd3laVmlLOXZiYTVoU0I0M1YzQVZkcGp2d0hFQXVKU0lVc1B0SUVrRHpDRnRLVXhxMjJBTVHSAdIBQVVfeXFMT0lsa0wxSVNRd2Y2aV9ONFVZSjNyWnJMMWhTdHR1eUR3cFVrRUpnSURBNFJlZmJBYUxMTGF4T1g5aG5vd1F0YW5uR1I2M080YjNMWU13R0dsNnhWSXczTlZyT0lnWm9KaTFPcXRCbjdrNF9neVhTXzN1MnJ5OWVQYXFuS09fRFFtZ3RKdzFhSnVOTjAxS0tBdUljSl9ocHd5WlZpSzl2YmE1aFNCNDNWM0FWZHBqdndIRUF1SlNJVXNQdElFa0R6Q0Z0S1V4cTIyQU1R?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e4c23602e678",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T23:19",
+   "title": "THE ARMY’S OFFICIAL PROFESSIONAL BULLETIN ON SUSTAINMENT PB 700–26–04 Headquarters, Department of the Army • Approved fo",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fd29xaVNWMkJWcVdlNktuZHlaTnZoczhGTjVGa1JYR29ualpzdTFzYloxak56d0s3Nm16YWlGcFR1SmFaQnpQUDhZNzBONnI4NldHSDd2eF9wdjhOdlhMUkRhcUJITVdrR3JULTViVmNvcjFnSVExZQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "50faf54cb38b",
    "date": "2026-10-21",
    "ts": "2026-10-21T21:11",
