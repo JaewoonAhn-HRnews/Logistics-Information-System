@@ -2,6 +2,100 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "29b9341701a4",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T06:31",
+   "title": "Energy Action Month: Modern Technologies Strengthen Army Reserve Readiness and Energy Secu",
+   "source": "U.S. Army Reserve (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWDJSdU1remswdTZtLVZwX2JhU3BKYjI2MGZJSDRZRi1HbndkZE1TSXNUbUItdms2MmNldm5fOWdwWUs4UmwwWHZKRWtIcWdCb3BTRW5sY0NiYUhzc3NTT3ZDd2pwUTh4dmVaOHFfOWpGYUMwQ1FsX2FYSkNsYVA5Vk0xQ3o2eTNwdmtrVG9ZcWQyWWpCOEpIWjZkV0JQNUNFQ3ZOYTlsNEVqZU1oT3djaTJ6X1NpY2UwUlN1YmVTeU0tOUdyMlU1TktBOWlCUFQxWG9QaGhZRQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "af5b08841ed9",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T22:56",
+   "title": "Greece to Close 187 Military Camps Under Armed Forces Overhaul",
+   "source": "The Defense Post",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45dXRPS2hyYXlNSlB3OFdvcnpjTWhORkdIOEVKb21iSkhhYlVfU1IzZ3BjYmFlbDB5OGdkT1VuLThkRXROaG5fS1VqSGhqUmloNW0xWUJxNDZTMm1DZXhRc2ZpUEd0RFY3TGliYnBCRjdfODF5NlducGtn0gF6QVVfeXFMTjl1dE9LaHJheU1KUHc4V29yemNNaE5GR0g4RUpvbWJKSGFiVV9TUjNncGNiYWVsMHk4Z2RPVW4tOGRFdE5obl9LVWpIaGpSaWg1bTFZQnE0NlMybUNleFFzZmlQR3REVjdMaWJicEJGN184MXk2V25wa2c?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "thedefensepost",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a32fea397273",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T22:49",
+   "title": "Pentagon’s 850-Jet F-35 Framework Targets US and Allied Combat Readiness",
+   "source": "Defence Security Asia",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX3FwZk1VLWN3a2k3TmVPWGlvU3JMSW1nNGtRekZQakJwMUdHajV3VHRFbGU0RDVNeVlpNUs0bVFKdzI0MG96VER3WWhUTk1aLWZDR2ZjMzFyaWxvWWROcFZSVDgyQVRBU3daN0d5U18zekN0ck9sUF9GQjFGQ0VSeXJlX0RPcVhOdkhmdl9fZ2t1d3o4SFE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "5cd0e58459c7",
    "date": "2026-10-22",
    "ts": "2026-10-22T21:57",
@@ -64,6 +158,37 @@
     "wpn"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "84a103534394",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T19:37",
+   "title": "[설명] 민간 정비사업 용적률 1.2배 완화 관련 검토 방향 등은 정해진바 없습니다.",
+   "source": "대한민국 정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91WGxIaFY3SWhGdDh5ek9pY25TUEpWczA4X182eGV3T0hCZ250R1hlbW50OXgxVUkzU0QzMVB4YmhKc1Y4cG1BTkRzSUh0emNraTh3aERTS3Rmc2RreDNzLUVzRlNTcTZZdWloY1VERQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "mnd",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
   },
   {
    "id": "5f69f0f7e325",
@@ -907,6 +1032,41 @@
     "wpn"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "32a592ae26f1",
+   "date": "2026-10-20",
+   "ts": "2026-10-20T17:16",
+   "title": "김병주, 해군 정비인력 20년 뒤 절반..'민·군 협력 함정 MRO 확대 촉구",
+   "source": "열린뉴스통신",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqSm12V25sLWZMNjROVGxqTWo1b0NmcmU1MTZfMTBuMWlVN0RPcDhSRkx4dFpLa01PMy1NbEZYVUJvQ2o5ak51MWRfXzJPSlVwYlh2V3pqTGdBNEhRWnlsQ3pqVThtQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "정비인력"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
   },
   {
    "id": "da69481a36dd",
