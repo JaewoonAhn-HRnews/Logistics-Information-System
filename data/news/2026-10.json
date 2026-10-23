@@ -33,6 +33,35 @@
    "kind": "news"
   },
   {
+   "id": "53726d823436",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T04:14",
+   "title": "News - Modernizing Sustainment: GCSS-Army DISCOPS Capability Emphasizes Endurance",
+   "source": "DVIDS",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeDJYWTNNV2pISkZtWE9VQUd3TWVBWVdxVDJTc1hTYlYyYUtZNERLZ3EzR3YxZEs3eXFVSlhxQ0RjMi04aWQ4bWl1ejFPanFUSC1vVmZjX3pVYzNXaExxWlByOEttOW5DUkg4RmtTcEVxMFFITXRxMzVNN0Q2NE9jYW1lejRfbXNTbVRYZEFocVg1WEVES1AwdlhSVG9ZNmExTzl6ZEFpQkxsSl9HNmxB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "GCSS-Army",
+   "cats": [
+    "sys",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "af5b08841ed9",
    "date": "2026-10-22",
    "ts": "2026-10-22T22:56",
@@ -598,6 +627,67 @@
     "ram"
    ],
    "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bc86e56fa867",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T00:50",
+   "title": "HJ중공업, 조선·방산·MRO 필두로 ‘대담한 비상’… 함정 건조 역량 과시",
+   "source": "서울신문",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WWC1hd0FJaXVqVDdrc29pYllYUExBWDhhanJXRld4Y3VaUFBxejJ4VVQzeElnVFlUaEJNMGV0X3FqMm1oWHpaTzdLaW1wcnV2TzFKVVZmb3hnTTVKZjRhejhnc1BrdTZwTVFuOFN4ZFIyalBzcDRVN0xpaw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "04cbaedea524",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T00:50",
+   "title": "‘울산함’ 이어 美해군 MRO까지… HD현대중, 특수선 시장 평정 나선다",
+   "source": "서울신문",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56Yk9OSVk1TWt6S3dWeThsZWhIcFA5eXBtT2EzUWVWTG9iakNVbkxybktheGFGYThOUFB6b255cnRpREF5ZEl5eXgxVzNJcjVBZ2twWW4zUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
    "domains": [
     "wpn"
    ],
