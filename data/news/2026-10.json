@@ -31,6 +31,31 @@
    "kind": "news"
   },
   {
+   "id": "fc8b4e43bca6",
+   "date": "2026-10-24",
+   "ts": "2026-10-24T09:00",
+   "title": "59--Electronic Componen, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/3733dacd7fd84bdd8d01c1243dfbe2e8/view",
+   "lang": "en",
+   "summary": "Presolicitation · N0010427RNA26 · DEPT OF THE NAVY > NAVSUP · 마감 2026-12-07",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
    "id": "d63f85669ec4",
    "date": "2026-10-23",
    "ts": "2026-10-23T16:00",
@@ -58,6 +83,1180 @@
     "wpn"
    ],
    "kind": "news"
+  },
+  {
+   "id": "81a1b2ee7010",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Co2 Inspections And Replacement Parts",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/fc81c6598e3747b1a94df0fbf1ebb9e1/view",
+   "lang": "en",
+   "summary": "Award Notice · W912NW27PA002 · DEPT OF THE ARMY > AMC",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "867b897ecbef",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "49--Adapter,Test, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/ef5e5ad433a945e2b116b8278fa3774c/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038326QLB23 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "0b0f8b2cbc9a",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "28--Blower,Engine,Eaps, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/e8002a91a84546b2a3d7a56b50025eeb/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038326QLB21 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "5f406f5941b1",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "28--Parts Kit,Diesel Engine",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/e53a2af272044eb7a51cddb8be6b0173/view",
+   "lang": "en",
+   "summary": "Award Notice · SPE7L127T1293 · DEFENSE LOGISTICS AGENCY > DLA LAND",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "502d281ed31e",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "15--Spoiler,Wing,Aircra, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/dea6f993d5ad4f998cd6a37203a58a74/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QMA07 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e8cd30ebfd76",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Voyage Repair (Vr)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/dc905f0a16634658b6fe81a9a35c57a5/view",
+   "lang": "en",
+   "summary": "Solicitation · N6817127QN006 · DEPT OF THE NAVY > NAVSUP · 마감 2026-10-30",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "7b6ff8d04abd",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "66--Generator,Pulse, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d551c3aaec0f4316b40eea1bbb8b1631/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QBA02 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "8b27ec28760e",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "16--Hydraulic Winch, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d49efb02464a4223aec10fb307e2e2f3/view",
+   "lang": "en",
+   "summary": "Presolicitation · N0038326RFB39 · DEPT OF THE NAVY > NAVSUP · 마감 2026-10-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "c93881798b5c",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "58--Synthesizer,Electri, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/cddcf229eeb442ac9f3ec459d5bfe53f/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038326RNB31 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "fcb8e59c7b9f",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Anca Annual Preventative Maintenance",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/c871122e27cb45b4834a6c7996ba38fc/view",
+   "lang": "en",
+   "summary": "Award Notice · FA8125-27-P-0004 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "0f95ed147759",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Robmc Interpreter Equipment",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/c5e4111897cb40278e7fef226536d0ed/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W912GB27QA002 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-06",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "6f00733ae2dc",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "48--High Stage Precoole, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c12d3adbd6844949b5d90ee817d9250d/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QSA04 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e2794c47f7c0",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Multi-Ship Sustainment Partnership (Mssp) Single Award Indefinite Delivery Indefinite Quantity (Sa-Idiq) Contracts For Fleet Maintenance Availabilities And Incremental Selected Restricted Availabilities On Ddg-51 Class Ships Homeported In Norfolk, Va",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c09d24eb78fa40a295b89ce83ed66133/view",
+   "lang": "en",
+   "summary": "Solicitation · N0002426R4439 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-21",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "dce75be66868",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Export Variant (Xv) Second Generation Forward Looking Infrared (2Gf) Thermal Receiver Units (Trus) And Imager Assemblies Repair",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/bfc184c76a694b278b4d485eea18c70b/view",
+   "lang": "en",
+   "summary": "Sources Sought · W909MY27R2GFT · DEPT OF THE ARMY > AMC · 마감 2026-11-06",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "fb2668e05e25",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "16--Valve,Ecs, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/be657ad6c8be45bfb9fdf26b76ec5ba0/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038326QLB15 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "2d1610950e41",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Shipboard Fairbanks Morse Diesel Engine System Sustainment Plan (Ssp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/bda3584363ab4d34aaa954f74381210d/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0002427R4451 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-13",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f74b1793f8ed",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "29--Actuator,Electromec, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/b3d38c374fdb428f841960e693e07c5d/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QNA07 · DEPT OF THE NAVY > NAVSUP · 마감 2026-10-28",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "b31aeca9a371",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Integrated Or System Maintenance",
+   "source": "SAM.gov · Defense Health Agency (Dha)",
+   "url": "https://sam.gov/workspace/contract/opp/b3c2020750d3440e8f11b64f30ee8943/view",
+   "lang": "en",
+   "summary": "Justification · HT940826PE032 · DEFENSE HEALTH AGENCY (DHA) > DEFENSE HEALTH AGENCY",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f22cac2b470c",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Compressor Units And Spares",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/b33f729047f24f95afd8f99a2686bac4/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00174-26-RFPREQ-M3-0021 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-09",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5cb32833e6a4",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "58--Receiver-Transmitte, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/b257a8ad70714bcf9940eff5291b0c3d/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QMA01 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "14688b862022",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "61--Panel,Power Distrib, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/aad6214b9ead4906bae15171a320bdb0/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QFA04 · DEPT OF THE NAVY > NAVSUP · 마감 2026-10-26",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "eb0f51ae06f6",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "61--Controller,Electric, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/a6ccde0ab48c4a92b19519af34a76df3/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QPA04 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "a1e341c4f1f4",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Sources Sought For Grounds Maintenance And Landscaping Services, Mcbh, Oahu, Hawaii",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/81f02488b7004e2abf1992607d405ec8/view",
+   "lang": "en",
+   "summary": "Sources Sought · N6247827R2440 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-06",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "577d47915fc5",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "30--Parts Kit,Coupling,Rigid Shaft",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/81943314a8184c3ba38e834cf70a5094/view",
+   "lang": "en",
+   "summary": "Award Notice · SPE7L127T1182 · DEFENSE LOGISTICS AGENCY > DLA LAND",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "94fdc3c41b03",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Usace National Enterprise Dredging Center Scope Dredge To Budget Contract",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/7a6d98c39c264662970e5e3ebc055356/view",
+   "lang": "en",
+   "summary": "Special Notice · W912PM27RA006 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-09",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "b0877ba130d4",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Mather Fueling System Repairs",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/749571a8773e4c51bf2d53495be7c41d/view",
+   "lang": "en",
+   "summary": "Solicitation · PANNWD26P028176 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-20",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "ef8dc69ece80",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Support Sustainment Of Naval Weapon Systems And Platforms Operating Beyond Their Projected Service Lives.",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/739c7baa0449427184e8df9f9cda8a73/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0018927QW001 · DEPT OF THE NAVY > NAVSUP · 마감 2026-10-29",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f40e4d3e74d6",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Equipment Operations, Maintenance, And Repair Services At Joint Base Pearl Harbor Hickam, Hawaii (Jbphh).",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/5c3545667a69460ab16e46c1d7488177/view",
+   "lang": "en",
+   "summary": "Solicitation · N6247827R2535 · DEPT OF THE NAVY > NAVFAC · 마감 2026-12-07",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1cb1905e4e3e",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Security Gate Maintenance And Repair Services Aberdeen Test Center, Aberdeen Proving Ground, Md",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/5856f5b16fc74a97b80701719e94d1bd/view",
+   "lang": "en",
+   "summary": "Sources Sought · W91CRB27QA001  · DEPT OF THE ARMY > AMC · 마감 2026-11-02",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "73bfb1b1ab68",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Request For Information/Market Intelligence Notice:  Repair Electrical Distribution System Switchgear Stations & Addition Of Redundancy Cable  Use Of Progressive Design Build (Pdb) With Other Transaction Authority (Ota)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/541189d6ec7b40e2b7a0dcf9030d56ec/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA706027R0001 · DEPT OF THE AIR FORCE > AIR FORCE DISTRICT OF WASHINGTON · 마감 2026-11-30",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "321d4b1bfc49",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Range Maintenance And Repair Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/4df294fe62b2457d8a11e03cd173b717/view",
+   "lang": "en",
+   "summary": "Presolicitation · N4008527R0004 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-10",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "80b8be27f456",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Gutter Cleaning And Maintenance Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/495de4437b4e4c3fb1ba3283daf2ef5a/view",
+   "lang": "en",
+   "summary": "Sources Sought · 27-RFP-ROICC-0008 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-06",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "516af10259c1",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "16 - Fms Repair - Coupling,Drive Shaf",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/48b494a86ed546358367fb786575e4b4/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QF157  · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-07",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "4dd10685b16a",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Bullet Traps Operation And Maintenance/Lead Cleaning For Breach And Shooting Houses",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/479bd2473db843839563652959c85920/view",
+   "lang": "en",
+   "summary": "Sources Sought · N4008527R0025 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-10",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "354034faa4b5",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Pc2.5 Engine Overhaul Training",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/42b797c7697e4b23aca6f007f466913b/view",
+   "lang": "en",
+   "summary": "Special Notice · N5523627Q0006 · DEPT OF THE NAVY > NAVSEA · 마감 2026-10-26",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e46b1ac3ac5a",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Repair And Calibration Of Keysight Microwave Analyzers",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/3e898d45df624886946aacb6f405979f/view",
+   "lang": "en",
+   "summary": "Presolicitation · N32253-27-Q-0002 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-07",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "373cbf489f60",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "15--Limiter,Torque,Airc, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/36e90ab6360c45f096fa22aee8c4e051/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038326QBB24 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-20",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "0b783906a6bb",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "16--Actuator,Mechanical, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/34cc515db219460badce5a178483afb3/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QSA03 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "22773a7260e2",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Afhc Repair Quarters 82 And 86, Camp Zama, Japan",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/3416b6c2e44e461c862decfd39439938/view",
+   "lang": "en",
+   "summary": "Solicitation · W912HV26BA019 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-11",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "3b53ebfe29c9",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Small Business Set Aside For Mk68 Spare And Repair Parts Fabrication Iaw The Attached Navsea Drawing, Sow, And All Additional Attachments. Request Access To Drawings Through Sam. Provide Your Cage Code When Requesting Access In Sam.",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/33966a60006644c1963b0e6e21d46e50/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · N61331-27-Q-JC01 · DEPT OF THE NAVY > NAVSEA · 마감 2026-10-27",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "dd9660802628",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Lake Pontchartrain & Vicinity (Lpv), Foreshore Risk Reduction Repairs, Reach-1, 2, 3, & 4 Jefferson Parish, Louisiana (Ed 24-006)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/307779cfeeea4e0aa71216f4087e3999/view",
+   "lang": "en",
+   "summary": "Solicitation · W912P826BA009 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-10-29",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "5fc8664698ce",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Material Handling Equipment (Mhe) And Industrial Equipment (Ie) Maintenance And Repair Services",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/304d36dbc2ba40d694ace1625c8171d2/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W912PL27QA001 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bb6969d32869",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "15--Servovalve,Clutch, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/2ae229d93c144629abb76abe85cdc1ef/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327QBA01 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "6047196ef5d0",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "16--Inverter,Aircraft,M, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/102eebb4727d471da850ee8516dc51c8/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038327RNA01 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "66957c2c2461",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Shipboard Air Conditioning Plant System Sustainment Plan (Ssp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/04e70ec7a18d46cd84134125aeecf6ef/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0002427R4452 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-16",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
   },
   {
    "id": "53726d823436",
@@ -407,6 +1606,84 @@
     "wpn"
    ],
    "kind": "news"
+  },
+  {
+   "id": "c02e8c4fa3cc",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:00",
+   "title": "43--Parts Kit,Air Filter",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/f6bde2c673044d9c8a41be47504afda0/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · SPE7M127T1321 · DEFENSE LOGISTICS AGENCY > DLA MARITIME · 마감 2026-11-02",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "779763aa91e0",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:00",
+   "title": "14--Adapter Assembly,Mi, In Repair/Modification Of",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/f2d6410ebe3a46dab38f7ac3a3cf0835/view",
+   "lang": "en",
+   "summary": "Solicitation · N0038326QLB19 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "2d4f75dfb3a3",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:00",
+   "title": "Mississippi River Basin Bettendorf, Iowa Local Flood Protection Bettendorf, Iowa 2024 Event Pl84-99 Flood Repairs",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/f186044685634b6e834a24cb12f74a7f/view",
+   "lang": "en",
+   "summary": "Presolicitation · W912EK26BA019 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-10-28",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
   },
   {
    "id": "70734df1edff",
@@ -1058,7 +2335,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPUDRROG9xRWtjZ3NRMUFpTVdmWVk2Q0drM0RjRzQ1bTlqTWRlUVQ1Z3daQXVYTTBoNmU4ek1OZElhVWYweEtHR0w0NWpSQ0xlSUVxTGQ1U2N5cHdnb25nbjZ3XzhocEMtY1VVNXVxdk91cW5y?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 6.5,
    "also": [
     {
      "source": "열린뉴스통신",
@@ -1701,7 +2978,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -1737,6 +3014,11 @@
      "source": "글로벌이코노믹",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2xZYTdiNllJTjhQQnk0dTk1eXU5b0N2a1pmZFQ3cTRwenlNMnlRd0U0TmJ3SXVleS1PQVNlZ005N2FONXZZejlQckdjNFVWTEtmdm1jd0xEd1lqYjdkUGJnV2Y5cFRoSjNyQmZpMlhWa1BVdEg3dmRZUmNyYWZFRGNMWWxhQQ?oc=5",
      "title": "HJ중공업, 첫 美 해군 함정 MRO 완료…후속 수주 기반 확보"
+    },
+    {
+     "source": "디지털데일리",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RSG52WExpN0xHU08yYTZQaEhTRGZiUkdOOFNYYTd4UEVPcm90c2k5STNEejRIalZzdkhmUWxJSzBCLW54OXBJT0tjVzZwR0xpRHNyOUU1YWZRV1MxRDVfSVJR?oc=5",
+     "title": "HJ중공업, 첫 미 해군 함정 MRO 성공적 완수…\"후속 수주 힘쓰겠다\""
     }
    ],
    "origin": "rss",
@@ -2544,6 +3826,38 @@
    "kind": "news"
   },
   {
+   "id": "2e70b62e0362",
+   "date": "2026-10-09",
+   "ts": "2026-10-09T01:25",
+   "title": "Army maintenance mission ensures readiness of prepositioned medical devices in the Pacific",
+   "source": "Army Medical Logistics Command (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcHJ3eTgwQmgxNHItbjJZMWVncm1WdG5DcDBPNzZDdHV4ODJBb1UteUpmQkpza0hrOFpCTnJBdTd2bF9TUjFfcjV0ZndCUDZJYjY5ZU5JeW41RnIwYTZFWWsxMi1LU2taejUyeENqYklWZ1ptNUJtdkFINTBsOFZJcm11ajJkLUxIdjFhZnd4SWlTTE1pTzBoV252MllIbVZkVUFlQmszQngxYUxZelFscDZWaVdQLXh2NjBtdjFGSnphMlJx?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "e347ae6942c4",
    "date": "2026-10-08",
    "ts": "2026-10-08T16:00",
@@ -2552,7 +3866,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "뉴스1",
@@ -3005,6 +4319,38 @@
    "ents": [
     "DLA"
    ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5f0449ed9330",
+   "date": "2026-10-02",
+   "ts": "2026-10-02T16:00",
+   "title": "Logistics Readiness Center (LRC) :: Fort Benning",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XLXRpRVBRMDV5M1dZQWtiUDF4NGRZSVVIamNKYnR2LVl4SzNfMEpCWnU2VWJic2VObE5uZmRzMmhGRk8tdHlmRnRRNHk2Q1pVa2l4Yjk0OFkwUQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
    "axes": [
     "ram"
    ],
