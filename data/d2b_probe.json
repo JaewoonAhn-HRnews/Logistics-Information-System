@@ -1,13 +1,43 @@
 {
- "at": "2026-10-25 11:32",
+ "at": "2026-10-25 22:23",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>42994</dcsNo><demandYear>2026</demandYear><excutTy>구매</excutTy><orderPrearngeMt>202611</orderPrearngeMt><ornt>",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>일반경쟁</cntrctMth><dcsNo>43093</dcsNo><demandYear>2026</demandYear><excutTy>용역</excutTy><orderPrearngeMt>202611</orderPrearngeMt><ornt>",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "일반경쟁",
+     "dcsNo": "43093",
+     "demandYear": "2026",
+     "excutTy": "용역",
+     "orderPrearngeMt": "202611",
+     "ornt": "해군군수사령부",
+     "orntCode": "SCF",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "'26년 함정 기관실 청락도장 용역",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "43071",
+     "demandYear": "2026",
+     "excutTy": "용역",
+     "orderPrearngeMt": "202611",
+     "ornt": "해군제3함대사령부",
+     "orntCode": "SCR",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "0함대 추자도 작전기계실 신축건축공사감리(상주)용역",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
@@ -21,38 +51,6 @@
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
      "reprsntPrdlstNm": "링크,분리 가능형 1종 구매",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "budgetAmount": "2914272296",
-     "cntrctMth": "수의계약",
-     "dcsNo": "1001",
-     "demandYear": "2026",
-     "excutTy": "제조",
-     "orderPrearngeMt": "202611",
-     "ornt": "해상공중전력운영계약팀",
-     "orntCode": "EBH",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "26년 발칸 사격통제부 부품(방산)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "공개",
-     "bidMth": "총액제",
-     "budgetAmount": "4401600000",
-     "cntrctMth": "수의계약",
-     "dcsNo": "5301",
-     "demandYear": "2026",
-     "excutTy": "제조",
-     "orderPrearngeMt": "202611",
-     "ornt": "화력총괄계약팀",
-     "orntCode": "ELA",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "120mm자주박격포 조명통충전조립체",
      "spcifyPrcureAt": "N"
     }
    ]

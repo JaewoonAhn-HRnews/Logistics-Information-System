@@ -677,7 +677,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "51e17d2a5f11",
@@ -710,7 +711,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "8224dde35651",
@@ -743,7 +745,8 @@
     "wpn",
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "ffee82a23554",
