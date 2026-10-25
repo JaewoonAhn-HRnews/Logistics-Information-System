@@ -2137,7 +2137,7 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQtIBeEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQg?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.5,
+   "score": 6.0,
    "also": [
     {
      "source": "열린뉴스통신",
@@ -4228,7 +4228,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "cb5d2cb6fa06",
@@ -4260,7 +4261,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "05661165e908",
@@ -4294,7 +4296,8 @@
    "domains": [
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "1b888407d95f",
@@ -4325,7 +4328,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   }
  ]
 }

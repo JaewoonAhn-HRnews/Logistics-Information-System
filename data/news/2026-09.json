@@ -30,7 +30,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "desc_tried": true
   },
   {
    "id": "2d552826f81d",
@@ -58,7 +59,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "04896cba9d1a",
@@ -90,7 +92,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "873bac10be50",
@@ -123,7 +126,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "5150fbe62790",
@@ -156,7 +160,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "964f5fffd972",
@@ -188,7 +193,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "30e1dd018dd1",
@@ -217,7 +223,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "c58c2f58385a",
@@ -252,7 +259,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "f5d6dbe0d61f",
@@ -283,7 +291,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "a00f0c178a7d",
@@ -316,7 +325,8 @@
    "domains": [
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "3b118e84b493",
@@ -348,7 +358,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "0e940ef70d6c",
@@ -381,7 +392,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "091dec4f69ce",
@@ -408,7 +420,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "61d7beaac4ba",
@@ -439,7 +452,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "9fd22b2b05cb",
@@ -471,7 +485,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "88a710e39a0a",
@@ -534,7 +549,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "a60eed4a50af",
@@ -565,7 +581,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "aa7966166b4e",
@@ -597,7 +614,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "2208ce38e984",
@@ -626,7 +644,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "db1212bc8477",
