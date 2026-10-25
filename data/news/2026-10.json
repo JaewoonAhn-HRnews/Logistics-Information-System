@@ -2,6 +2,758 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "d67ac447dd88",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26년 발칸 사격통제부 부품(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 1001",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "fbeb75e2303d",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] '26년 ATS-II 기관제어장치 유지보수 정비",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 제조 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 42945",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2e3500bb4670",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 제주 야전정비지원센터 민간위탁 사업",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 지명경쟁 · 발주예정 2026.11 · 원가계산중 · 판단번호 0101",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "71c799c5c6d8",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26년 천호 포탑용 부품(구매)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 구매 · 제한경쟁 · 발주예정 2026.11 · 원가계산중 · 판단번호 1090",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d8a94109e473",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26-고속상륙정(LSF-I) 추진체계(MT-70P) 정비",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 0971",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d89628c723df",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26-전투함 가스터빈(LM500) 외주정비",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 0923",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "9272eb0e285b",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 천무유도탄 외주정비(방산)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 7771R",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "eb3a4ab5ff59",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26~27-M-장거리 무인 해상물류배송 기술 실증",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 협상에의한계약(전자) · 발주예정 2026.11 · 조달판단중 · 판단번호 41551",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "12b6d70dfb80",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 2026 화학자동경보기 수리부속(일반)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 구매 · 제한경쟁 · 발주예정 2026.11 · 원가계산중 · 판단번호 4071A",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5b02c5f301fa",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26년 비호 레이다부품 정비(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 2811J",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "33eb576bb6de",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26년 대포병탐지레이더 외주정비(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 0810P",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8923c2886567",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26년 비호복합 정비(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 2801J",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2b28dfa088ef",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 탐색레이다(검독수리-B Batch-II 17~18번함용)",
+   "source": "국방전자조달(D2B) · 함정총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 함정총괄계약팀 · 제조/구매 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 7322",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5edee6133c55",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 130mm유도로켓발사체계(검독수리-B B-II 17~18번함용)",
+   "source": "국방전자조달(D2B) · 함정총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 함정총괄계약팀 · 제조/구매 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 7324",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e33db02754a7",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 27-N-해군교전급분석모델 유지보수 및 성능개선",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 협상에의한계약(전자) · 발주예정 2026.11 · 조달판단중 · 판단번호 39156",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "64b232f2f1f5",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] K21 경구난차량 외주정비(사고장비)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 2871R",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "ram",
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "23568ca1ddf8",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 함정 전자전장비 부품(안테나)(구매)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 구매 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 2851G",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8ce9d4afcc64",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 40mm 노봉함포 포신장치 창정비 요소개발(용역)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 용역 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 5241",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d5dc3d838c09",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 230mm급 다련장 발사대 제어장치 부품류 외주정비",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 0230C",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1f65d570c0c3",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] K9자주포 포신,포미장치부품류(방산)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 2110",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "30126ea4e130",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 다발정비작업대(대함유도탄방어유도탄용)",
+   "source": "국방전자조달(D2B) · 유도무기총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 유도무기총괄계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 5301",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "97a3be0f7064",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] K9자주포 엔진제어장치조립체 외주정비",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 1606A",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "7b8d0f0efe8f",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 단파통신체계부품(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 2028",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "0cdf516b865b",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 26-30mm G/K 창정비",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 3715",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e16872192053",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T11:00",
+   "title": "[조달계획] 발전기, 교류식(정비대체장비)",
+   "source": "국방전자조달(D2B) · 함정총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 함정총괄계약팀 · 용역 · 일반경쟁 · 발주예정 2026.11 · 공고중 · 판단번호 AP333",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "974f38b867fd",
    "date": "2026-10-24",
    "ts": "2026-10-24T16:32",
@@ -28,7 +780,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "d63f85669ec4",
@@ -57,7 +810,224 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "0f95ed147759",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Robmc Interpreter Equipment",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/c5e4111897cb40278e7fef226536d0ed/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W912GB27QA002 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-06",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e2794c47f7c0",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Multi-Ship Sustainment Partnership (Mssp) Single Award Indefinite Delivery Indefinite Quantity (Sa-Idiq) Contracts For Fleet Maintenance Availabilities And Incremental Selected Restricted Availabilities On Ddg-51 Class Ships Homeported In Norfolk, Va",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c09d24eb78fa40a295b89ce83ed66133/view",
+   "lang": "en",
+   "summary": "Solicitation · N0002426R4439 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-21",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2d1610950e41",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Shipboard Fairbanks Morse Diesel Engine System Sustainment Plan (Ssp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/bda3584363ab4d34aaa954f74381210d/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0002427R4451 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-13",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f22cac2b470c",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Compressor Units And Spares",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/b33f729047f24f95afd8f99a2686bac4/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00174-26-RFPREQ-M3-0021 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-09",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "ef8dc69ece80",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Support Sustainment Of Naval Weapon Systems And Platforms Operating Beyond Their Projected Service Lives.",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/739c7baa0449427184e8df9f9cda8a73/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0018927QW001 · DEPT OF THE NAVY > NAVSUP · 마감 2026-10-29",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "80b8be27f456",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Gutter Cleaning And Maintenance Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/495de4437b4e4c3fb1ba3283daf2ef5a/view",
+   "lang": "en",
+   "summary": "Sources Sought · 27-RFP-ROICC-0008 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-06",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "354034faa4b5",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Pc2.5 Engine Overhaul Training",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/42b797c7697e4b23aca6f007f466913b/view",
+   "lang": "en",
+   "summary": "Special Notice · N5523627Q0006 · DEPT OF THE NAVY > NAVSEA · 마감 2026-10-26",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "66957c2c2461",
+   "date": "2026-10-23",
+   "ts": "2026-10-23T09:00",
+   "title": "Shipboard Air Conditioning Plant System Sustainment Plan (Ssp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/04e70ec7a18d46cd84134125aeecf6ef/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0002427R4452 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-16",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
   },
   {
    "id": "53726d823436",
@@ -86,7 +1056,8 @@
     "lis",
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "af5b08841ed9",
@@ -115,7 +1086,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "a32fea397273",
@@ -149,7 +1121,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "5cd0e58459c7",
@@ -213,7 +1186,8 @@
     "lis",
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "5f69f0f7e325",
@@ -247,7 +1221,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "5c76afc2b0c1",
@@ -315,7 +1290,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "204687dc614b",
@@ -374,7 +1350,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "426c58ee99d3",
@@ -406,7 +1383,59 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "0246e2ae81bc",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:00",
+   "title": "P-8 Radar Data Generation (Rdg) Tech Refresh Spares",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/e5b9431e937c44faabb2691efb07848a/view",
+   "lang": "en",
+   "summary": "Sources Sought · N6134027Q1004 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-12",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "11433d8c056e",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:00",
+   "title": "Adacore Gnat Pro Enterprise Software Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d97ee0f71b8f4111b3f71d318a739ba2/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · N6893627Q0004 · DEPT OF THE NAVY > NAVAIR · 마감 2026-10-26",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
   },
   {
    "id": "70734df1edff",
@@ -437,7 +1466,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "bbd58fc33014",
@@ -499,7 +1529,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "19cfd3a8cf8b",
@@ -533,7 +1564,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "bc86e56fa867",
@@ -564,7 +1596,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "04cbaedea524",
@@ -597,7 +1630,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "291433d83f24",
@@ -629,7 +1663,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "3dfb86bd3159",
@@ -662,7 +1697,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "0c1ae8649ed9",
@@ -689,7 +1725,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "d9d764fed5d2",
@@ -716,7 +1753,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "836cd4babddb",
@@ -745,7 +1783,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "a0502a056b0f",
@@ -772,7 +1811,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "e4c23602e678",
@@ -799,7 +1839,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "174555cdc614",
@@ -827,7 +1868,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "50faf54cb38b",
@@ -860,7 +1902,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "47ac7272f1d5",
@@ -897,7 +1940,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "93486f85cc29",
@@ -972,7 +2016,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "89dc8656f9df",
@@ -1012,7 +2057,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "da69481a36dd",
@@ -1047,7 +2093,8 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "89d2db6fe87b",
@@ -1058,7 +2105,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPUDRROG9xRWtjZ3NRMUFpTVdmWVk2Q0drM0RjRzQ1bTlqTWRlUVQ1Z3daQXVYTTBoNmU4ek1OZElhVWYweEtHR0w0NWpSQ0xlSUVxTGQ1U2N5cHdnb25nbjZ3XzhocEMtY1VVNXVxdk91cW5y?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 6.5,
    "also": [
     {
      "source": "열린뉴스통신",
@@ -1082,7 +2129,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "fc18f751526c",
@@ -1113,7 +2161,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "509d1d278087",
@@ -1147,7 +2196,8 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "0f13fd9d0078",
@@ -1188,7 +2238,8 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "8ad82faa638a",
@@ -1220,7 +2271,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "eace6243e70d",
@@ -1252,7 +2304,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "cadf60519c90",
@@ -1279,7 +2332,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "b23d1ac8e18d",
@@ -1312,7 +2366,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "3403c0e300e1",
@@ -1343,7 +2398,8 @@
    "domains": [
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "b9776ac3186c",
@@ -1701,7 +2757,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -2589,7 +3645,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "뉴스1",
@@ -2794,6 +3850,37 @@
     "ram"
    ],
    "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5442a88a036f",
+   "date": "2026-10-07",
+   "ts": "2026-10-07T16:00",
+   "title": "Europe's defence readiness. Is 2030 impossible to achieve?",
+   "source": "Defence24.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYm95eWliZHJfcHIycjBZdjJZNjhjaFg0d1hZYzNDM09zeUhhYlpVX0dXX0JVZHdja01iUU9JZGNfdWw2VHJ5UU84REo3X3FZM05pZTJXYVBFTHEyOVJxZG9mdFRwZ0EzbUFNOEFRWXU3a0UxcFlEUkNYN1V1cjF2NTV5SVdRMFlpbGFZSkhBWFBGbEZ5a2Fv?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defis",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
    "domains": [
     "wpn"
    ],

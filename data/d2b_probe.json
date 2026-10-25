@@ -1,19 +1,7 @@
 {
- "at": "2026-10-25 10:48",
+ "at": "2026-10-25 11:00",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
-  "getDmstcPrcurePlanInfoList": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  "getOutnatnPrcurePlanInfoList": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  "getFcltyPrcurePlanInfoList": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
-  },
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
@@ -185,22 +173,6 @@
      "progrsSttus": "집행계획"
     }
    ]
-  },
-  "getPrcurePlanInfoList": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  "getPrcurePlanList": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  "getOutnatnPrcurePlanJdgmntList": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  "getOutnatnPrcurePlanJdgmntDetail": {
-   "ok": false,
-   "err": "HTTPError: HTTP Error 400: Bad Request"
   }
  }
 }
