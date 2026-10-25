@@ -2137,7 +2137,7 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQtIBeEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQg?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 6.5,
    "also": [
     {
      "source": "열린뉴스통신",
@@ -2745,7 +2745,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -3455,7 +3455,8 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "3fc5609676cc",
@@ -3484,7 +3485,8 @@
    "domains": [
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "fc0405a716a4",
@@ -3513,7 +3515,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "fb39e8deb1b4",
@@ -3544,7 +3547,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "ddf41368986f",
@@ -3575,7 +3579,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "d00752009451",
@@ -3605,7 +3610,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "2e70b62e0362",
@@ -3637,7 +3643,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "e347ae6942c4",
@@ -3648,7 +3655,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "뉴스1",
@@ -3669,6 +3676,11 @@
      "source": "문화일보",
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YdklDU3cxN1pfbkdfVXZIZTVMaHZJRFpBRUVoU3dhUWhnWlo3RWctOXpWaWVUbWxIbzNnT3ZSRTc0ekxjV2lsUVVoNHpJWkN2?oc=5",
      "title": "KAI, 해병대 상륙기동헬기 PBL 사업 5년간 1145억 계약…“항공우주 플랫폼 글로벌 빅4 기업 도약”"
+    },
+    {
+     "source": "KNS뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16WjFZR3N5VnBXYTVwNGZLRlo1VWU3WUVvSzZMUjhsX3RZU21jX2JCQW9rQ0VUdXNlb3lSWkFpQ3ZNbW1fN2I0dzQ3RVIzam5jOVcxRWQzRklTSzJ0NmtsRDJxb2U?oc=5",
+     "title": "KAI, 8일 해병대 상륙기동헬기(MUH-1) 성과기반군수지원(PBL) 사업 계약"
     }
    ],
    "origin": "rss",
@@ -3691,7 +3703,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "3baeee03694d",
@@ -3725,7 +3738,8 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "be2402ba1de7",
@@ -3757,7 +3771,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "3d1bb607b6a9",
@@ -3794,7 +3809,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "386083059df4",
@@ -3825,7 +3841,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "8c01a76cb440",
@@ -3856,7 +3873,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "5442a88a036f",
@@ -3887,7 +3905,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "aa4e5d879134",
@@ -3955,7 +3974,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "bb6288470457",
@@ -3986,7 +4006,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "26987e5e7ed1",
@@ -4017,7 +4038,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "6b311e4cdea3",
@@ -4049,7 +4071,8 @@
     "wpn",
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "c4d21b8610c9",
@@ -4106,7 +4129,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "98f2d5deb416",
@@ -4139,7 +4163,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "5f0449ed9330",
@@ -4171,7 +4196,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "3537d534a20f",
