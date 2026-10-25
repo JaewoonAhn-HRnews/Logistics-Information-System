@@ -2137,8 +2137,14 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQtIBeEFVX3lxTFBOa05BLTJUbGhDTmNHN3Z5MHkxLXI0T1FjZDNINEV4RXJxTXliRXMwSmUzMHZMQTN1STZNemNkcmh1b3NsZVk0ZE04aWRGVGROd0QwaDNYZGtMZTZOSEdGdVhtZzlzLUhOMGxicXVtaDVHT3A1NFRNQg?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
-   "also": [],
+   "score": 6.5,
+   "also": [
+    {
+     "source": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqSm12V25sLWZMNjROVGxqTWo1b0NmcmU1MTZfMTBuMWlVN0RPcDhSRkx4dFpLa01PMy1NbEZYVUJvQ2o5ak51MWRfXzJPSlVwYlh2V3pqTGdBNEhRWnlsQ3pqVThtQQ?oc=5",
+     "title": "김병주, 해군 정비인력 20년 뒤 절반..'민·군 협력 함정 MRO 확대 촉구"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,
@@ -2405,7 +2411,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "6e1cae65854d",
@@ -2434,7 +2441,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "a22d11306202",
@@ -2467,7 +2475,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "76a83084c901",
@@ -2492,7 +2501,8 @@
    "q": "military supply chain artificial intelligence",
    "region": "us",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "511a67300c6b",
@@ -2556,7 +2566,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "ceca79c6b624",
@@ -2583,7 +2594,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "729cf81d1183",
@@ -2612,7 +2624,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "54a495ea066c",
@@ -2720,7 +2733,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "548400d7d27f",
@@ -2731,7 +2745,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -2794,7 +2808,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "b0260a2048bd",
@@ -2833,7 +2848,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "8e542ab5d695",
@@ -2866,7 +2882,8 @@
    "q": "military logistics AI",
    "region": "us",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "f2459b291e5c",
@@ -2891,7 +2908,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "737505b386ac",
@@ -3029,7 +3047,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "f090dae86d4f",
@@ -3056,7 +3075,8 @@
    "q": "military logistics AI",
    "region": "etc",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "fd3bb8c63f82",
@@ -3089,7 +3109,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "desc_tried": true
   },
   {
    "id": "df68a499edda",
@@ -3119,7 +3140,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "61b2f7c1c1a0",
@@ -3149,7 +3171,8 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "29b5a49705c8",
@@ -3211,7 +3234,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "desc_tried": true
   },
   {
    "id": "f29cfd77df07",
@@ -3242,7 +3266,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "965e26dd9f71",
@@ -3276,7 +3301,8 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "153764dab8a6",
@@ -3305,7 +3331,8 @@
    "q": "military logistics AI",
    "region": "etc",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "edc4770c8079",
@@ -3332,7 +3359,8 @@
    "q": "military logistics AI",
    "region": "etc",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "aa71391f47ae",
@@ -3394,7 +3422,8 @@
    "q": "military logistics AI",
    "region": "etc",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "44475e39f570",
@@ -3619,7 +3648,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "뉴스1",
