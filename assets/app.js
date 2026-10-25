@@ -239,7 +239,7 @@
       [fmt(nWeek), "이번 주"],
       [fmt(IDX.sources_n), "보도 매체"],
     ].map(([v, l]) => `<div class="hs"><b>${v}</b><span>${esc(l)}</span></div>`).join("");
-    const lat = ARTS.slice(0, 14);
+    const lat = ARTS.filter(a => a.origin !== "api").slice(0, 14);
     const tk = lat.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener"><span class="src">${esc(a.source)}</span>${esc(a.title)}</a>`).join("");
     $("#ticker").innerHTML = tk + tk;
     for (const ax of TAX.axes) { const el = $("#capn-" + ax.id); if (el) el.textContent = `관련 기사 ${fmt(ARTS.filter(a => (a.axes || []).includes(ax.id)).length)}건 →`; }
@@ -256,7 +256,7 @@
       series: [{ name: "국내", type: "bar", stack: "a", data: TR.m_ko.slice(-12), itemStyle: { color: accent() }, barMaxWidth: 22 },
         { name: "해외", type: "bar", stack: "a", data: TR.m_en.slice(-12), itemStyle: { color: teal(), borderRadius: [3, 3, 0, 0] }, barMaxWidth: 22 }],
     });
-    $("#homeLatest").innerHTML = ARTS.slice(0, 6).map(a => card(a)).join("");
+    $("#homeLatest").innerHTML = ARTS.filter(a => a.origin !== "api").slice(0, 6).map(a => card(a)).join("");
     $("#homeDaily").innerHTML = dailyFeed(7);
     $("#homeRegions").innerHTML = REGION_IDS.map(r => {
       const L = ARTS.filter(a => a.region === r), mx = Math.max(1, ...DOM_IDS.map(d => L.filter(a => (a.domains || []).includes(d)).length));
