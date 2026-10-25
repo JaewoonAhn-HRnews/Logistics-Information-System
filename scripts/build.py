@@ -236,6 +236,36 @@ def ai_brief(kind, label, items):
         return None
 
 
+def export_csv(arts, periods):
+    """구글 시트 등 외부 DB 연동용 CSV(UTF-8). data/export/ 에 매 정리 때 덮어씀."""
+    import csv
+    out = DATA / "export"
+    out.mkdir(parents=True, exist_ok=True)
+    DOM = {d["id"]: d["name"] for d in T.DOMAINS}
+    with open(out / "articles.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "날짜", "지역", "분야", "유형", "언어", "매체", "함께보도", "제목", "요약", "키워드", "기관·기업·체계",
+                    "과제축", "관련도", "수집방식", "URL"])
+        for a in arts:
+            w.writerow([a["id"], a["date"], T.REGION_NAME.get(a.get("region"), ""), "|".join(DOM.get(d, d) for d in a.get("domains", [])),
+                        T.KIND_NAME.get(a.get("kind", "news"), "뉴스"), "국문" if a.get("lang") == "ko" else "영문", a.get("source", ""),
+                        "|".join(x["source"] for x in a.get("also", [])), a.get("title", ""), a.get("summary", ""),
+                        "|".join(a.get("kw", [])), "|".join(a.get("ents", [])), "|".join(AXIS_NAME.get(x, x) for x in a.get("axes", [])),
+                        a.get("score", ""), a.get("origin", ""), a.get("url", "")])
+    UNIT = {"day": "일간", "week": "주간", "month": "월간", "year": "연간"}
+    with open(out / "summaries.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["단위", "기간", "기간명", "기사수", "국문", "영문", "미국", "유럽", "한국", "그외", "사업·계약", "AI 요약", "요약 작성",
+                    "자동 정리", "대표 기사", "핵심 키워드"])
+        for kind in ("year", "month", "week", "day"):
+            for k in sorted(periods[kind], reverse=True):
+                s = periods[kind][k]
+                rg = s.get("regions", {})
+                w.writerow([UNIT[kind], k, s.get("label", ""), s["n"], s["ko"], s["en"], rg.get("us", 0), rg.get("eu", 0), rg.get("kr", 0),
+                            rg.get("etc", 0), s.get("kinds", {}).get("contract", 0), s.get("ai", ""), s.get("ai_by", "") if s.get("ai") else "",
+                            s.get("brief", ""), " / ".join(x["t"] for x in s.get("digest", [])[:5]), "|".join(k2 for k2, _ in s.get("kw", [])[:10])])
+
+
 def main():
     arts, files = load_all()
     by_id = {a["id"]: a for a in arts}
@@ -405,6 +435,7 @@ def main():
     save_json(DATA / "index.json", index)
     save_json(DATA / "periods.json", periods, compact=True)
     save_json(DATA / "trends.json", trends, compact=True)
+    export_csv(arts, periods)
     print(f"기사 {len(arts)}건 · 일 {len(periods['day'])} · 주 {len(periods['week'])} · 월 {len(periods['month'])} · 연 {len(periods['year'])}")
 
 
