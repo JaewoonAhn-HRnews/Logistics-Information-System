@@ -221,6 +221,72 @@ def collect_sam(days, status):
     return raws
 
 
+# ---------- 국방전자조달(D2B) 조달계획 — 공공데이터포털 ----------
+D2B_BASE = "https://apis.data.go.kr/1690000/PrcurePlanInfoService"
+D2B_OPS = ["getDmstcPrcurePlanInfoList", "getOutnatnPrcurePlanInfoList", "getFcltyPrcurePlanInfoList",
+           "getDmstcPrcurePlanList", "getOutnatnPrcurePlanList", "getFcltyPrcurePlanList",
+           "getPrcurePlanInfoList", "getPrcurePlanList", "getOutnatnPrcurePlanJdgmntList", "getOutnatnPrcurePlanJdgmntDetail"]
+D2B_TERMS = ["정비", "수리", "부품", "수리부속", "예비", "군수", "정보체계", "정보시스템", "소프트웨어", "SW", "데이터", "AI",
+             "인공지능", "클라우드", "전산", "물류", "창정비", "성과기반", "PBL", "후속군수"]
+
+
+def _xml_items(b):
+    try:
+        root = ET.fromstring(b)
+    except ET.ParseError:
+        return None, None
+    code = (root.findtext(".//resultCode") or root.findtext(".//returnReasonCode") or "").strip()
+    items = [{_local(c.tag): (c.text or "").strip() for c in it} for it in root.iter() if _local(it.tag) == "item"]
+    return code, items
+
+
+def collect_d2b(days, status):
+    key = os.environ.get("D2B_API_KEY", "").strip()
+    st = {"id": "d2b-api", "mode": "api", "ok": False, "n": 0, "kept": 0}
+    if not key:
+        st["err"] = "D2B_API_KEY 미등록(선택 사항)"
+        status["d2b-api"] = st
+        return []
+    key = urllib.parse.unquote(key)
+    ops = [o.strip() for o in os.environ.get("D2B_OPS", "").split(",") if o.strip()] or D2B_OPS
+    probe, raws = {}, []
+    for op in ops:
+        q = urllib.parse.urlencode({"serviceKey": key, "pageNo": 1, "numOfRows": 100})
+        b, err = fetch(f"{D2B_BASE}/{op}?{q}", tries=1)
+        if not b:
+            probe[op] = {"ok": False, "err": (err or "")[:120]}
+            continue
+        code, items = _xml_items(b)
+        txt = b[:400].decode("utf-8", "replace").replace(key, "***").replace(urllib.parse.quote(key, safe=""), "***")
+        probe[op] = {"ok": items is not None and code in ("00", "0", "000", "INFO-000", ""), "code": code,
+                     "n": len(items or []), "head": txt, "sample": (items or [])[:3]}
+        for it in items or []:
+            vals = " ".join(v for v in it.values() if v)
+            name = next((v for k, v in it.items() if re.search(r"(prdlst|Prdlst|item|Item|bsns|Bsns).*(nm|Nm)$", k) and v), "") \
+                or next((v for k, v in it.items() if k.lower().endswith("nm") and re.search(r"[가-힣]", v)), "")
+            if not name or not any(t in vals for t in D2B_TERMS):
+                continue
+            org = next((v for k, v in it.items() if re.search(r"(ordr|Ordr|dmnd|Dmnd).*(instt|Instt|org|Org).*(nm|Nm)$", k) and v), "")
+            amt = next((v for k, v in it.items() if re.search(r"(bdgt|Bdgt|amt|Amt)", k) and v), "")
+            mon = next((v for k, v in it.items() if re.search(r"(Mt|mt|Ym|ym)", k) and re.match(r"^\d{6}", v or "")), "")
+            ident = next((v for k, v in it.items() if re.search(r"(no|No)$", k) and v), "")
+            summ = " · ".join(x for x in ["조달계획", org, ("발주예정 " + mon[:4] + "." + mon[4:6]) if mon else "",
+                                          ("예산 " + amt) if amt else "", ident] if x)
+            raws.append(dict(title=f"[조달계획] {name}", url="https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+                             source="국방전자조달(D2B)", summary=summ, dt=now_kst(), lang="ko", src="d2b-api", hint="kr",
+                             min=0, ctx=True, kind="contract", query="d2b:" + op))
+        time.sleep(0.5)
+    st["ok"] = any(v.get("ok") for v in probe.values())
+    st["n"] = sum(v.get("n", 0) for v in probe.values())
+    raws = raws[:40]
+    st["kept"] = len(raws)
+    if not st["ok"]:
+        st["err"] = "기능 이름 확인 필요(data/d2b_probe.json)"
+    status["d2b-api"] = st
+    save_json(DATA / "d2b_probe.json", {"at": now_kst().strftime("%Y-%m-%d %H:%M"), "base": D2B_BASE, "ops": probe})
+    return raws
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=3)
@@ -282,6 +348,7 @@ def main():
 
     # 3) SAM.gov
     raws += collect_sam(args.days, status)
+    raws += collect_d2b(args.days, status)
 
     cutoff = (now_kst() - timedelta(days=args.days)).date()
     seen, cand = set(), []
@@ -290,13 +357,13 @@ def main():
         if r["dt"].date() < cutoff:
             continue
         text = f"{r['title']} {r.get('summary', '')}"
-        if r.get("src") != "samgov" and not is_relevant(text, r.get("ctx", False), r.get("min", 4.0)):
+        if r.get("src") not in ("samgov", "d2b-api") and not is_relevant(text, r.get("ctx", False), r.get("min", 4.0)):
             continue
         k = norm_title(r["title"])
         if k in seen:
             continue
         seen.add(k)
-        cand.append(to_article(r, origin="api" if r.get("src") == "samgov" else "rss"))
+        cand.append(to_article(r, origin="api" if r.get("src") in ("samgov", "d2b-api") else "rss"))
         kept_by[r.get("src", "")] = kept_by.get(r.get("src", ""), 0) + 1
     n = merge(cand)
 

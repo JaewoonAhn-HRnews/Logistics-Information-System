@@ -44,7 +44,7 @@ def load_all():
                 changed.add(p)
                 continue
             c = full_classify(text, a.get("lang", "ko"), a.get("hint") or SRC_REGION.get(a.get("src")))
-            if a.get("src") == "samgov":
+            if a.get("src") in ("samgov", "d2b-api"):
                 c["kind"] = "contract"
             c["score"] = relevance(text)[0]
             if any(a.get(k) != v for k, v in c.items()):

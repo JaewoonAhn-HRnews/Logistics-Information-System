@@ -36,6 +36,8 @@ jobs:
         if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, '데이터 관리')
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          D2B_API_KEY: ${{ secrets.D2B_API_KEY }}
+          D2B_OPS: ${{ vars.D2B_OPS }}
         run: python scripts/collect.py --days "${{ github.event.inputs.days || (github.event_name == 'push' && '30') || '3' }}"
       - name: 일·주·월·연 정리
         env:
