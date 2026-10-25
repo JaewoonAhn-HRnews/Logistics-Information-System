@@ -417,7 +417,7 @@
       <div class="wb-core"><span>이번 주 핵심</span><b>${esc(b.core || "")}</b></div>
       <div class="wb-grid">${b.themes.map((t, i) => `<div class="wb-t"><div class="wb-t-top"><span class="wb-no">${String(i + 1).padStart(2, "0")}</span><span class="wb-cat">${esc(t.cat || "")}</span></div>
         <div class="wb-t-body"><div><div class="wb-h">${esc(t.head || "")}</div><ul>${(t.points || []).map(p => `<li>${esc(p)}</li>`).join("")}</ul></div><div class="wb-ico">${nIcon(t.icon)}</div></div>
-        <div class="wb-refs">관련 기사 ${(t.ids || []).map(id => `<a href="#" data-nc="${id}" title="${esc(BYID[id]?.title || "")}">${circ(nmap[id])}</a>`).join("")}</div></div>`).join("")}</div>
+        <div class="wb-refs">관련 기사 ${(t.ids || []).slice(0, 6).map(id => `<a href="#" data-nc="${id}" title="${esc(BYID[id]?.title || "")}">${circ(nmap[id])}</a>`).join("")}${(t.ids || []).length > 6 ? ` 외 ${(t.ids || []).length - 6}건` : ""}</div></div>`).join("")}</div>
       ${(b.recs || []).length ? `<div class="wb-recs"><div class="wb-recs-h">우리 군의 의사결정 과제 | 정책적 제언</div><div class="wb-recs-b">${b.recs.map((r, i) => `<div class="wb-r"><span>${i + 1}</span><div><b>${esc(r.t)}</b><p>${esc(r.d)}</p></div></div>`).join("")}</div></div>` : ""}
       <div class="wb-src">출처: 군수정보 인텔리전스 자동 수집 기사 ${b.n || s.n}건 · AI 정리(${esc(b.at || "")}) · 관련 기사 번호를 누르면 원문 정보가 열립니다</div>
     </div><div class="ig-actions"><button class="btn ghost" type="button" id="wb-save">주간 브리핑 이미지로 저장(PNG)</button></div></div>`;
