@@ -754,6 +754,38 @@
    "kind": "contract"
   },
   {
+   "id": "e0d419288a6e",
+   "date": "2026-10-25",
+   "ts": "2026-10-25T09:00",
+   "title": "48--Kit,Overhaul,Valve",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/c3b867ca765642d7a6c275de12ed0326/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · SPE7M427T1843 · DEFENSE LOGISTICS AGENCY > DLA MARITIME · 마감 2026-11-05",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "974f38b867fd",
    "date": "2026-10-24",
    "ts": "2026-10-24T16:32",
