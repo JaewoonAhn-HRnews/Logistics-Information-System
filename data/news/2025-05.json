@@ -1,0 +1,53 @@
+{
+ "month": "2025-05",
+ "articles": [
+  {
+   "id": "fbe3f1a014f6",
+   "date": "2025-05-29",
+   "ts": "2025-05-29T09:00",
+   "title": "C3 AI U.S. Air Force Rapid Sustainment Office Contract Award Increased to $450 Million",
+   "source": "Business Wire",
+   "url": "https://www.businesswire.com/news/home/20250529901436/en/C3-AI-U.S.-Air-Force-Rapid-Sustainment-Office-Contract-Award-Increased-to-$450-Million",
+   "lang": "en",
+   "summary": "미 공군 신속지속지원실(RSO)이 예측정비 플랫폼 PANDA(Predictive Analytics and Decision Assistant)를 맡은 C3 AI 계약 한도를 1억 달러에서 4.5억 달러로 증액(2029년 10월까지). B-1B·C-5·KC-135·C-17·C-130J 등 수백 대 항공기의 부품 상태를 감시하며, 무기체계·지상장비로 확대 예정. 가용도 최대 25% 향상은 회사 추정치.",
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "sys",
+    "ai",
+    "ram",
+    "parts",
+    "mro",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "빅데이터",
+    "예측정비",
+    "신뢰도·가용도"
+   ],
+   "ents": [
+    "공군",
+    "C3 AI",
+    "PANDA",
+    "RSO"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst",
+    "lis"
+   ],
+   "kind": "contract"
+  }
+ ]
+}

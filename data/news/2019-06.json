@@ -1,0 +1,43 @@
+{
+ "month": "2019-06",
+ "articles": [
+  {
+   "id": "42e0aa52266a",
+   "date": "2019-06-24",
+   "ts": "2019-06-24T09:00",
+   "title": "USAF Seeks New Strategy to Grow Predictive Maintenance Gains",
+   "source": "Air & Space Forces Magazine",
+   "url": "https://www.airandspaceforces.com/USAF-Seeks-New-Strategy-to-Grow-Predictive-Maintenance-Gains/",
+   "lang": "en",
+   "summary": "C3 AI 알고리즘이 약 7년치 정비 데이터로 E-3 조기경보기 비계획 정비를 약 3분의 1 줄였다. 공군은 각 시범사업을 하나의 전략·로드맵으로 묶고 성과 측정 방법을 찾겠다고 밝혔다.",
+   "score": 6.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "ai",
+    "ram",
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "예측정비"
+   ],
+   "ents": [
+    "공군",
+    "C3 AI"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy"
+  }
+ ]
+}

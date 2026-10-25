@@ -242,6 +242,15 @@ ENTITIES = [
     ("삼성SDS", "기업", ["삼성SDS"]),
     ("KCC정보통신", "기업", ["KCC정보통신"]),
     ("Lockheed Martin", "기업", ["Lockheed Martin", "록히드"]),
+    ("HJ중공업", "기업", ["HJ중공업", "HJ 중공업", "HJ重"]),
+    ("HD현대중공업", "기업", ["HD현대중공업", "HD현대중", "HD현대"]),
+    ("한화오션", "기업", ["한화오션", "Hanwha Ocean"]),
+    ("C3 AI", "기업", ["C3 AI", "C3.ai", "C3 AI's"]),
+    ("Gecko Robotics", "기업", ["Gecko Robotics"]),
+    ("GM Defense", "기업", ["GM Defense"]),
+    ("Arrive AI", "기업", ["Arrive AI", "Arrive Ai"]),
+    ("PANDA", "체계", ["PANDA", "Predictive Analytics and Decision Assistant"]),
+    ("RSO", "해외기관", ["Rapid Sustainment Office", "신속지속지원실"]),
     ("Leidos", "기업", ["Leidos"]),
     ("Palantir", "기업", ["Palantir", "팔란티어"]),
     ("Gallatin AI", "기업", ["Gallatin"]),
@@ -266,3 +275,8 @@ PROJECT_AXES = [
 ]
 
 PALETTE = ["#2563eb", "#0891b2", "#059669", "#d97706", "#dc2626", "#7c3aed", "#475569", "#db2777"]
+
+# 제외어: 하나라도 있으면 관련 없는 기사로 보고 수집·집계에서 뺍니다(재개발 '정비사업', 의료 준비태세 등).
+NEGATIVE = ["정비사업", "재개발", "재건축", "용적률", "신도시", "정비구역", "도시정비", "조합원",
+            "lead service line", "Medical Readiness", "MEDPROS", "Commendation Medal", "NeuroTrainer",
+            "Energy Action Month", "stock price", "shares of", "NYSE:", "NASDAQ:"]

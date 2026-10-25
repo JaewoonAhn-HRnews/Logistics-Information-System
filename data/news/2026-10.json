@@ -60,37 +60,6 @@
    "kind": "news"
   },
   {
-   "id": "29b9341701a4",
-   "date": "2026-10-23",
-   "ts": "2026-10-23T06:31",
-   "title": "Energy Action Month: Modern Technologies Strengthen Army Reserve Readiness and Energy Secu",
-   "source": "U.S. Army Reserve (.mil)",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWDJSdU1remswdTZtLVZwX2JhU3BKYjI2MGZJSDRZRi1HbndkZE1TSXNUbUItdms2MmNldm5fOWdwWUs4UmwwWHZKRWtIcWdCb3BTRW5sY0NiYUhzc3NTT3ZDd2pwUTh4dmVaOHFfOWpGYUMwQ1FsX2FYSkNsYVA5Vk0xQ3o2eTNwdmtrVG9ZcWQyWWpCOEpIWjZkV0JQNUNFQ3ZOYTlsNEVqZU1oT3djaTJ6X1NpY2UwUlN1YmVTeU0tOUdyMlU1TktBOWlCUFQxWG9QaGhZRQ?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "armymil",
-   "hint": "us",
-   "q": "",
-   "cats": [
-    "ram"
-   ],
-   "kw": [
-    "가동률·준비태세"
-   ],
-   "ents": [],
-   "axes": [
-    "ram"
-   ],
-   "region": "us",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
    "id": "53726d823436",
    "date": "2026-10-23",
    "ts": "2026-10-23T04:14",
@@ -247,37 +216,6 @@
    "kind": "contract"
   },
   {
-   "id": "84a103534394",
-   "date": "2026-10-22",
-   "ts": "2026-10-22T19:37",
-   "title": "[설명] 민간 정비사업 용적률 1.2배 완화 관련 검토 방향 등은 정해진바 없습니다.",
-   "source": "대한민국 정책브리핑",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91WGxIaFY3SWhGdDh5ek9pY25TUEpWczA4X182eGV3T0hCZ250R1hlbW50OXgxVUkzU0QzMVB4YmhKc1Y4cG1BTkRzSUh0emNraTh3aERTS3Rmc2RreDNzLUVzRlNTcTZZdWloY1VERQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 3.0,
-   "also": [],
-   "origin": "rss",
-   "src": "mnd",
-   "hint": "kr",
-   "q": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "정비인력"
-   ],
-   "ents": [],
-   "axes": [
-    "manpower"
-   ],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
    "id": "5f69f0f7e325",
    "date": "2026-10-22",
    "ts": "2026-10-22T19:29",
@@ -380,37 +318,6 @@
    "kind": "contract"
   },
   {
-   "id": "98eb1d6d657f",
-   "date": "2026-10-22",
-   "ts": "2026-10-22T17:09",
-   "title": "[설명] 정부는 근거 없는 공사비 인상을 막고, 분쟁이 발생한 정비사업 현장을 직접 찾아가 해결하고 있습니다.",
-   "source": "대한민국 정책브리핑",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQTFON1E2ZERTbDYxQWpyZnZ5Y1ZzVkRpekxvUnZGRTV5U0stWFM0QUVTOEtDbHBSbkNnemQ3Vy1Ld1pSTE1wRmxZVUZuZ0xsZWRxTGNIZDQ3SFloa05qaVFmc19yZXV4eFBORTdkd0ozaDFPZUpodHVSUXVidzM0RW9NSFFDV2VfTG91Zw?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 3.0,
-   "also": [],
-   "origin": "rss",
-   "src": "mnd",
-   "hint": "kr",
-   "q": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "정비인력"
-   ],
-   "ents": [],
-   "axes": [
-    "manpower"
-   ],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
    "id": "204687dc614b",
    "date": "2026-10-22",
    "ts": "2026-10-22T17:00",
@@ -463,68 +370,6 @@
    "kw": [],
    "ents": [],
    "axes": [],
-   "region": "us",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "6e9dd8363d5b",
-   "date": "2026-10-22",
-   "ts": "2026-10-22T09:43",
-   "title": "일산신도시 정비사업 추진현황 점검 - 포토 | 멀티미디어",
-   "source": "대한민국 정책브리핑",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wb1Jacktza3BQNElKMHdRLUNJVC01cjJhMkNLZzNMYXdYSVFPZHV3enF6bzJNdlFpYzRtd2E3TWx6cjlKMUVzczR0SFRmTC1wQ0FhbHFkQWtJbnRYbGl0VEZJYlBlQno1TVE?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 3.0,
-   "also": [],
-   "origin": "rss",
-   "src": "mnd",
-   "hint": "kr",
-   "q": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "정비인력"
-   ],
-   "ents": [],
-   "axes": [
-    "manpower"
-   ],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "6f450beaf71c",
-   "date": "2026-10-22",
-   "ts": "2026-10-22T09:35",
-   "title": "101st CAB Tests VR-Based NeuroTrainer to Boost Cognitive Readiness",
-   "source": "Army.mil",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb2dFR255MElkUTVlY0xvSHhNVUZQbHExTG1hZmg0ZGVuYTBwdWN3ZTZRbnFLaEtyZUFpQVRScWxIZnc3TXNsNUQzSW5tSm83MjJXeUZhWmE5T0lnV2pjNE14eGpHV3M2d2tXQ3dBWG9Cc2tfeE8zc245M1luekJMMm1mWmEza3pFVEtnd2FSaUFuN0FaM1h5TGNiR3ZpeFMzV05RV0F4Tm82UdIBqgFBVV95cUxNb2dFR255MElkUTVlY0xvSHhNVUZQbHExTG1hZmg0ZGVuYTBwdWN3ZTZRbnFLaEtyZUFpQVRScWxIZnc3TXNsNUQzSW5tSm83MjJXeUZhWmE5T0lnV2pjNE14eGpHV3M2d2tXQ3dBWG9Cc2tfeE8zc245M1luekJMMm1mWmEza3pFVEtnd2FSaUFuN0FaM1h5TGNiR3ZpeFMzV05RV0F4Tm82UQ?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 3.0,
-   "also": [],
-   "origin": "rss",
-   "src": "armymil",
-   "hint": "us",
-   "q": "",
-   "cats": [
-    "ram"
-   ],
-   "kw": [
-    "가동률·준비태세"
-   ],
-   "ents": [],
-   "axes": [
-    "ram"
-   ],
    "region": "us",
    "domains": [
     "wpn"
@@ -711,7 +556,9 @@
    "kw": [
     "MRO"
    ],
-   "ents": [],
+   "ents": [
+    "HJ중공업"
+   ],
    "axes": [],
    "region": "kr",
    "domains": [
@@ -742,7 +589,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HD현대중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -1020,36 +868,6 @@
    "kind": "news"
   },
   {
-   "id": "3292c7b3f8ce",
-   "date": "2026-10-21",
-   "ts": "2026-10-21T10:21",
-   "title": "HJ중공업, 미 해군 함정 첫 정비 완료··· 후속 수주가 관건",
-   "source": "그린포스트코리아",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZRURLcTRoV3ZUaDJMVW92d3ZNSWRfZkxzVmxSTHpTZTJWM2NjYkRoWmZwVzFMLTMtUDd6elU2WnNxRzVpTkdMM3ZGb0s5a2Nra3RzcFJlRzU4MHZaQldFSFZ5dVB3WXVyTlZ1T2s1VjYtckJpdWfSAXpBVV95cUxNWk91aGgtUWI3RzZlc05oQ182ZHNwYkp5ZjN0S0JrNXBiRUU5OHJLZTNIY2RETlc2MjVuVzE3RlhfYk0yQWsyUTdWeU9oLU5fTTBJMUFPTVkxWGNlMk9mNjlhbklWWm9WeU9OMjFtZ09aMkljdXdaUzc3UQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.5,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro",
-    "ind"
-   ],
-   "kw": [],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
    "id": "93486f85cc29",
    "date": "2026-10-21",
    "ts": "2026-10-21T07:02",
@@ -1086,38 +904,6 @@
    "kind": "news"
   },
   {
-   "id": "ef62ab0876a9",
-   "date": "2026-10-21",
-   "ts": "2026-10-21T00:30",
-   "title": "Gecko Robotics Wins Contract Expansion To Support US Navy Fleet Readiness",
-   "source": "Ocean News & Technology",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYW9jeGRyZHZGV0tBRFpRb0t5bV9hb3lWOFU4UFc1a1ZBNURsSklKU3FUcS1scGlnNDRlZTF4bHRDTVFJLTlSSUJZbXNCOFJIeTAzcFE4V0JCdFFwQ3VyTzhlSkhxOUE0azdiRS0ydXR1ZXFucHdnTjBPSEpKZzgyelhOZXR4Qm0zcEFNLUF4Nll3V0N1Z2l6MGlrQ3IyWUtUWXlzR3diM0hpcXNObWc?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "eu",
-   "q": "Royal Navy maintenance AI",
-   "cats": [
-    "ram",
-    "ind"
-   ],
-   "kw": [
-    "가동률·준비태세"
-   ],
-   "ents": [],
-   "axes": [
-    "ram"
-   ],
-   "region": "us",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
    "id": "33fe03fea112",
    "date": "2026-10-20",
    "ts": "2026-10-20T20:37",
@@ -1127,7 +913,13 @@
    "lang": "ko",
    "summary": "",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "그린포스트코리아",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZRURLcTRoV3ZUaDJMVW92d3ZNSWRfZkxzVmxSTHpTZTJWM2NjYkRoWmZwVzFMLTMtUDd6elU2WnNxRzVpTkdMM3ZGb0s5a2Nra3RzcFJlRzU4MHZaQldFSFZ5dVB3WXVyTlZ1T2s1VjYtckJpdWfSAXpBVV95cUxNWk91aGgtUWI3RzZlc05oQ182ZHNwYkp5ZjN0S0JrNXBiRUU5OHJLZTNIY2RETlc2MjVuVzE3RlhfYk0yQWsyUTdWeU9oLU5fTTBJMUFPTVkxWGNlMk9mNjlhbklWWm9WeU9OMjFtZ09aMkljdXdaUzc3UQ?oc=5",
+     "title": "HJ중공업, 미 해군 함정 첫 정비 완료··· 후속 수주가 관건"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "kr",
@@ -1140,7 +932,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -1159,7 +952,13 @@
    "lang": "en",
    "summary": "",
    "score": 4.0,
-   "also": [],
+   "also": [
+    {
+     "source": "Ocean News & Technology",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYW9jeGRyZHZGV0tBRFpRb0t5bV9hb3lWOFU4UFc1a1ZBNURsSklKU3FUcS1scGlnNDRlZTF4bHRDTVFJLTlSSUJZbXNCOFJIeTAzcFE4V0JCdFFwQ3VyTzhlSkhxOUE0azdiRS0ydXR1ZXFucHdnTjBPSEpKZzgyelhOZXR4Qm0zcEFNLUF4Nll3V0N1Z2l6MGlrQ3IyWUtUWXlzR3diM0hpcXNObWc?oc=5",
+     "title": "Gecko Robotics Wins Contract Expansion To Support US Navy Fleet Readiness"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "us",
@@ -1171,7 +970,9 @@
    "kw": [
     "가동률·준비태세"
    ],
-   "ents": [],
+   "ents": [
+    "Gecko Robotics"
+   ],
    "axes": [
     "ram"
    ],
@@ -1180,41 +981,6 @@
     "wpn"
    ],
    "kind": "contract"
-  },
-  {
-   "id": "32a592ae26f1",
-   "date": "2026-10-20",
-   "ts": "2026-10-20T17:16",
-   "title": "김병주, 해군 정비인력 20년 뒤 절반..'민·군 협력 함정 MRO 확대 촉구",
-   "source": "열린뉴스통신",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqSm12V25sLWZMNjROVGxqTWo1b0NmcmU1MTZfMTBuMWlVN0RPcDhSRkx4dFpLa01PMy1NbEZYVUJvQ2o5ak51MWRfXzJPSlVwYlh2V3pqTGdBNEhRWnlsQ3pqVThtQQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 6.5,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": null,
-   "q": "국방 MRO",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO",
-    "정비인력"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [
-    "manpower"
-   ],
-   "region": "kr",
-   "domains": [
-    "wpn",
-    "fcst"
-   ],
-   "kind": "news"
   },
   {
    "id": "da69481a36dd",
@@ -1261,7 +1027,13 @@
    "lang": "ko",
    "summary": "",
    "score": 4.0,
-   "also": [],
+   "also": [
+    {
+     "source": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqSm12V25sLWZMNjROVGxqTWo1b0NmcmU1MTZfMTBuMWlVN0RPcDhSRkx4dFpLa01PMy1NbEZYVUJvQ2o5ak51MWRfXzJPSlVwYlh2V3pqTGdBNEhRWnlsQ3pqVThtQQ?oc=5",
+     "title": "김병주, 해군 정비인력 20년 뒤 절반..'민·군 협력 함정 MRO 확대 촉구"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "kr",
@@ -1346,76 +1118,6 @@
    "kind": "news"
   },
   {
-   "id": "97480107c96b",
-   "date": "2026-10-20",
-   "ts": "2026-10-20T08:37",
-   "title": "[2026 국감] 해군 정비인력 2045년 절반 감소 전망…김병주 “민·군 함정 MRO 확대해야”",
-   "source": "포인트데일리",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WbUg0MlBBVnowU040d0F6b05weGxWVnVkc0QzVW50SHE4YV9TT0wtQVBtY0FFaWhfNnFiTGZlV2tWS1AyVGk4NDFSQmo2UEhuN1EyNGpfN2ZnS1BqX2lqenNfX2lFRW0yRmkxVlE2NzfSAXRBVV95cUxPU0pYb3RTVmx2cjh2aWUzQ01NWDVwSExCMWtjVFdhaDVKc3RuQVFnQ0JJNzNVZnMxWmVMT19EaEZYQ2w0SndhNkJ6NXRnelRyM1lOWGhpc2ZGQ1YtSkVveEhXcHRBWl9RbGNvWGYwNE1IN0ctYg?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 6.5,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": null,
-   "q": "국방 MRO",
-   "cats": [
-    "mro",
-    "policy"
-   ],
-   "kw": [
-    "MRO",
-    "정비인력"
-   ],
-   "ents": [
-    "해군",
-    "국정감사"
-   ],
-   "axes": [
-    "manpower"
-   ],
-   "region": "kr",
-   "domains": [
-    "wpn",
-    "fcst"
-   ],
-   "kind": "policy"
-  },
-  {
-   "id": "27a9b29ff980",
-   "date": "2026-10-20",
-   "ts": "2026-10-20T07:12",
-   "title": "My MEDPROS Medical Readiness Portal - U.S. Army",
-   "source": "Army.mil",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE82N3FpazJzWGd0UU82eGxHWEtCTkRveDNGWWdvaS1iSnBJczZQMmlCVkxaZ0JMSmVXSHg4Yk9LOVJtTXh2SzBmNTg4QVFydw?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "armymil",
-   "hint": "us",
-   "q": "",
-   "cats": [
-    "ram"
-   ],
-   "kw": [
-    "가동률·준비태세"
-   ],
-   "ents": [
-    "미 육군"
-   ],
-   "axes": [
-    "ram"
-   ],
-   "region": "us",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
    "id": "0f13fd9d0078",
    "date": "2026-10-20",
    "ts": "2026-10-20T06:41",
@@ -1425,7 +1127,13 @@
    "lang": "ko",
    "summary": "",
    "score": 6.5,
-   "also": [],
+   "also": [
+    {
+     "source": "포인트데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WbUg0MlBBVnowU040d0F6b05weGxWVnVkc0QzVW50SHE4YV9TT0wtQVBtY0FFaWhfNnFiTGZlV2tWS1AyVGk4NDFSQmo2UEhuN1EyNGpfN2ZnS1BqX2lqenNfX2lFRW0yRmkxVlE2NzfSAXRBVV95cUxPU0pYb3RTVmx2cjh2aWUzQ01NWDVwSExCMWtjVFdhaDVKc3RuQVFnQ0JJNzNVZnMxWmVMT19EaEZYQ2w0SndhNkJ6NXRnelRyM1lOWGhpc2ZGQ1YtSkVveEhXcHRBWl9RbGNvWGYwNE1IN0ctYg?oc=5",
+     "title": "[2026 국감] 해군 정비인력 2045년 절반 감소 전망…김병주 “민·군 함정 MRO 확대해야”"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,
@@ -1504,7 +1212,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -1667,37 +1376,6 @@
    "kind": "news"
   },
   {
-   "id": "60ac9044da40",
-   "date": "2026-10-17",
-   "ts": "2026-10-17T14:03",
-   "title": "USAG Hawaii DPW releases lead service line inventory public notification",
-   "source": "Army.mil",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkVJWTBHUFVuLTBRQzhXUE9YSkx4eWNUTzBEV2NVMWRjNFR4WG43R3E2UjFRMUdBNVBCd0gwTE1GSmp3ck1XRlcyeWgtSHR6Z050N1RtOFdmT1VnY0JsdHNTSEQwOXdTb0l0ZVBUeFByckJmZUw4b0lnZVAwVDJHY3doMjIyQVpPM0g2R1hwMzFLdXRYZzZFM3l3M01fLTBqQlRsei1vNmJJT0cyRTM4YVRB?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 3.0,
-   "also": [],
-   "origin": "rss",
-   "src": "armymil",
-   "hint": "us",
-   "q": "",
-   "cats": [
-    "parts"
-   ],
-   "kw": [
-    "재고관리"
-   ],
-   "ents": [],
-   "axes": [
-    "parts"
-   ],
-   "region": "us",
-   "domains": [
-    "fcst"
-   ],
-   "kind": "news"
-  },
-  {
    "id": "76a83084c901",
    "date": "2026-10-17",
    "ts": "2026-10-17T03:57",
@@ -1720,33 +1398,6 @@
    "q": "military supply chain artificial intelligence",
    "region": "us",
    "domains": [],
-   "kind": "news"
-  },
-  {
-   "id": "e934ce6adaef",
-   "date": "2026-10-17",
-   "ts": "2026-10-17T00:03",
-   "title": "미 해군 군수지원함 정비 완료, HJ중공업 기술력 인정받아",
-   "source": "국제뉴스",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91dzNGNnZSeWRubzdtQ3NMa1REM3hKeXdxb09pRmtvZEdXN1p4WEM1d3p2amowMzlkRGpVUWYxYzI0dzUwdFRsODJVRlRXRm92bHJiSnlUZlp6WEV2WTVGXzlfRlNodVZKN3JETGFB?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "score": 4.5,
-   "also": [],
-   "origin": "rss",
-   "q": "국방 MRO",
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
    "kind": "news"
   },
   {
@@ -1803,7 +1454,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -1943,198 +1595,21 @@
    "kind": "contract"
   },
   {
-   "id": "478aef0e36b5",
-   "date": "2026-10-16",
-   "ts": "2026-10-16T01:38",
-   "title": "3rd Corps Sustainment Command Soldier receives Army Commendation Medal after aiding wounded civilian",
-   "source": "Army.mil",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORXJQUWx4cGZ1VTI5T0ZoYjdfTjhuVEVBNkNJcEt4WHVpaGw4Ry10VXVkMmNpWUpMVjZjNDUwSUlINmdyWXp2clZuVy1XY0I5WkwyRjA1RnlJVk9iWV9CRkNpMGtBUldjNTFKRGVEWHZLdnBDOW5YeE5WV1ozb0dBazNiRnhIcTZkN3pXM0JYN1gyNDdhbnhqaExuRnpiYm5qVTFBaWFuTW1iZ1NoRUF4VzJ3ZzJ4dDlpQkRkODFfV29HU2JBMEFjenN3UlUzRDY1T3fSAdcBQVVfeXFMTTV5NXgtQy12MGNuT08zNVJWSVJpVDBMbW4wT1B5amRJQVpTVEdzN0QySGhENWhMaTJwTWNXemdLcl9sY1pWTW5Hazc5MWdUelI4Um1QX3luRERFU0hmWTFmb1V2aTU3MWozZjJFWFk2cUJKZU5QSk1nSEc4TDJyUHQtYm5PQV9EX2hKTy05ampsNG9sZVNvZ1N5VlZBelpQbnZYdFdZenQ0bmgwcnVMUmdyanRudFN4NE9CYVo5SlRJYnN2VGpzeW0ydHpIdS1fSTdteTNxTWc?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 3.5,
-   "also": [],
-   "origin": "rss",
-   "src": "armymil",
-   "hint": "us",
-   "q": "",
-   "cats": [
-    "log"
-   ],
-   "kw": [],
-   "ents": [],
-   "axes": [],
-   "region": "us",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "4ea4f2c5b44d",
+   "id": "548400d7d27f",
    "date": "2026-10-15",
-   "ts": "2026-10-15T16:28",
-   "title": "HJ 중공업, 첫 미 해군 함정 MRO 사업 완료···추가 정비까지 수행",
-   "source": "투데이코리아",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1sLUZtak9ZRXNoMWEtSHZsVlVlRnN6REtYZVRqU0ZDZS1rQ2pnQlBiWldvQXR3dUtXTm9nQkhHeWhCZnYyS0F4NWpWT1lCa2F0LWpMcGlFSHdwWG4zejI4am11ZW10bk12WDBlNmhmaHI?oc=5",
+   "ts": "2026-10-15T11:41",
+   "title": "HJ중공업, 미 해군 MRO 첫 실적 확보…후속 수주 노린다",
+   "source": "GIB 거제인터넷방송",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "f3bc5cc10844",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T15:29",
-   "title": "HJ중공업, 美 해군 첫 함정 MRO 성공…후속 수주 발판",
-   "source": "인사이트코리아",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DcjhLcl9sUmJ6QnVSXzBWYzZlaU5CN2pIR20yVlBEZGRlc0FGSExNOXN6SXZYelpvbUlfZzJBc2pTV1haSS1GZ2t2RjdfN2lUNXR3Y2w5dnVoODVMMm55TEF0Ukw4Si1qTDZyOEJBVHYyYUnSAXdBVV95cUxOM1R0TDloTm44TmlZU243UC1iWHNkclRJLUdNX29JM3A4LWRGNmJCcWhuaExya0lNcGNyc2M1Z0pZNUlmYk9JdWJDblVSczdvY0lXNEtiMmFzSkw1V2p4NVZsaTVEaTd3YXpVamlHWk5YZTg3UUVnMA?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro",
-    "ind"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
-   "id": "b5deb9530977",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T12:59",
-   "title": "HJ중공업, 첫 미 해군 함정 MRO 성공적 완수…4만 톤급 군수지원함 출항",
-   "source": "투어코리아",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4QklXeHZ2VGlXSzNfZmxmRWxkYjVXSlRzTUVvcUhoMnpKTGNUbDFqNlRlclhUT05yNmF2aENYN2cycDJZMGVPSERWeWZLV0J3MGhqY3ZERG1JS21QemNGTDdqSkprZnV1dER5cHhn?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "e4792855b722",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T12:51",
-   "title": "HJ중공업, 미 해군 함정 첫 정비 성공…후속 수주 발판",
-   "source": "데일리한국",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUmFDUUJlR2J4M29HSHVtZlZnOGI3WVlTMmxseGJfYlNjQS1EbXVHRmwyaDdYOS1CYU9FYzhielppYzRndWxIZjVKM3NnMklSTFNFbE5OcnF3WG5KSGs4UDJka2ljMER0VDJuVVI5WdIBc0FVX3lxTE0yVkhOVGxxTUIwZGpWTUdXeWhtaTlDa2RpT1ZtVHBUTC0xZGtKeTM4MnhpZkUzODRxaTZCTmEyd3pILVRtV0tvY1BNUTBvQlcxeWhNcHFDVmVEY0lVZXJycE5PcHpiMWRRNEs3NG90a0pkRXM?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.5,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro",
-    "ind"
-   ],
-   "kw": [],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
-   "id": "2b22a59bd64e",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T12:43",
-   "title": "‘K-방산 새 역사’… HJ중공업, 첫 미 해군 함정 MRO 성공 완수·출항",
-   "source": "스포츠동아",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GTzFsdmhhRkpLSE9uOWN4QTQ3X0FzQ19UelZLaEpQanU2aVJ4SlVQM2h1dTZwU0FOclBIcy12ZDhWVFNGV3Y0TEhXT0ZxWG1xTkF3R2xHQnhZeTVHYUd1ZG5ISWJtb3ZLYUE4M2FwR19SUQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "e187c9c28a8d",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T11:46",
-   "title": "HJ중공업, 첫 미 해군 함정 MRO 완수",
-   "source": "글로벌에픽",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FZXNMMGZac3Y0T3BEQS1yUGRXOU16ODdIM0lxOGVPb1BYNGlHOXhaeGhJUHZnTGZrem9seTN4UUFoblgyNHFfaTd4bjdfV25TWG5yc0ZwUURXd2EwbFZ4RnRpdDByT185d0RDX1k5TUE0eEFFT0I1emYyOA?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
+   "score": 4.0,
    "also": [
+    {
+     "source": "글로벌에픽",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FZXNMMGZac3Y0T3BEQS1yUGRXOU16ODdIM0lxOGVPb1BYNGlHOXhaeGhJUHZnTGZrem9seTN4UUFoblgyNHFfaTd4bjdfV25TWG5yc0ZwUURXd2EwbFZ4RnRpdDByT185d0RDX1k5TUE0eEFFT0I1emYyOA?oc=5",
+     "title": "HJ중공업, 첫 미 해군 함정 MRO 완수"
+    },
     {
      "source": "신아일보",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tbzUydjlyWUlTVmNGTXNzTVJua19pTFZQMlF6ckYwb0FzdVBVUzZUazJjaTIzNEhWc1BVOFI1YTBFdjYzY3QzX09PODRxNll5SE9VaWRlVWxSZHNTa0xhWWVZV21Td3Q1eFZzN3FnVGs?oc=5",
@@ -2149,39 +1624,18 @@
      "source": "핸드메이커",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yYnA3dmxzMWpCZmdDRmJjTjFNMmhOQm1TaHFxUzgxbF9fcDFTRm5Vb21IQjk5UTRJdlNKTGMwWTFkUTlqc1M2YTlpdkxkeWlHZnBoUVU1V3FsWDMwaWhEeUNBQ2ItaEnSAWtBVV95cUxOMmRXaXVZX1lXSjJBM2lid1dMYWtGakd6cmdtZDBDck50QnRqTU00VEphaDdBeUlBWTJub2FrZ0o5LUJNbE5wSlFHNUhFWDA2RHZwTVY5UmRtMzZPM2FlTkw1U09WRkRfUS1Kdw?oc=5",
      "title": "HJ중공업, 첫 미 해군 함정 MRO 성료"
+    },
+    {
+     "source": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUmFDUUJlR2J4M29HSHVtZlZnOGI3WVlTMmxseGJfYlNjQS1EbXVHRmwyaDdYOS1CYU9FYzhielppYzRndWxIZjVKM3NnMklSTFNFbE5OcnF3WG5KSGs4UDJka2ljMER0VDJuVVI5WdIBc0FVX3lxTE0yVkhOVGxxTUIwZGpWTUdXeWhtaTlDa2RpT1ZtVHBUTC0xZGtKeTM4MnhpZkUzODRxaTZCTmEyd3pILVRtV0tvY1BNUTBvQlcxeWhNcHFDVmVEY0lVZXJycE5PcHpiMWRRNEs3NG90a0pkRXM?oc=5",
+     "title": "HJ중공업, 미 해군 함정 첫 정비 성공…후속 수주 발판"
+    },
+    {
+     "source": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DcjhLcl9sUmJ6QnVSXzBWYzZlaU5CN2pIR20yVlBEZGRlc0FGSExNOXN6SXZYelpvbUlfZzJBc2pTV1haSS1GZ2t2RjdfN2lUNXR3Y2w5dnVoODVMMm55TEF0Ukw4Si1qTDZyOEJBVHYyYUnSAXdBVV95cUxOM1R0TDloTm44TmlZU243UC1iWHNkclRJLUdNX29JM3A4LWRGNmJCcWhuaExya0lNcGNyc2M1Z0pZNUlmYk9JdWJDblVSczdvY0lXNEtiMmFzSkw1V2p4NVZsaTVEaTd3YXpVamlHWk5YZTg3UUVnMA?oc=5",
+     "title": "HJ중공업, 美 해군 첫 함정 MRO 성공…후속 수주 발판"
     }
    ],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "548400d7d27f",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T11:41",
-   "title": "HJ중공업, 미 해군 MRO 첫 실적 확보…후속 수주 노린다",
-   "source": "GIB 거제인터넷방송",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
    "origin": "rss",
    "src": "gnews",
    "hint": "kr",
@@ -2194,7 +1648,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -2226,7 +1681,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -2234,220 +1690,6 @@
     "wpn"
    ],
    "kind": "contract"
-  },
-  {
-   "id": "7ee02712aaa5",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T10:49",
-   "title": "HJ중공업, 미 해군 함정 MRO 완벽 수행… 기술력 호평",
-   "source": "투데이에너지",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90eTNlY2pReThCRld4aFdzNWxoVlZzemJnT2pqblF2SG1ub1N5RVhXZk1fVmh0dEZEOV9rd0xjUjhpSGUtR011b2RuX1RUVWcxZWcxZTF0bnFvVk9uQjZXUVZVZ1pUZ3JEb1lCSFBB?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "b9776ac3186c",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T10:41",
-   "title": "HJ중공업, 美 해군 함정 첫 MRO ‘완주’…이제 전투함 겨눈다",
-   "source": "쿠키뉴스",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CMWVXNFBpaHBXSUx0NjJMWm9IVVhzaDRraDI1clRhRTJ2Q1hhT0NrdWh2dlVnUGNzcUsxakhWX0tUY0g2ZGdhUEhQRnZINWVrb0J0dTJrSnVLM0pqcjNHQU9oSQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "34da35912475",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T10:14",
-   "title": "HJ중공업, 첫 美해군 MRO 완료…추가 정비로 계약 규모도 확대",
-   "source": "www.ebn.co.kr",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vOUMxNEIwU1cyQ3Q0TFpEYjBoc0ZyLTdoaVVnYVR0OEM3eW5pSWNGMFFUeHI0TGFuR2VvMkU4bEVHUmNSUGJsUy1jdExYeERGNHp5bE9DazZ4WlpWT0k0X2hkdGxFbDdU?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "후속군수지원 계약",
-   "cats": [
-    "mro",
-    "ind"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
-   "id": "2cc0de7d3f1d",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T10:12",
-   "title": "HJ중공업, 미해군 함정 MRO 성공적으로 끝내…“조선업계 새로운 지평”",
-   "source": "매일경제",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DbUJfS2lrS2EwN0IwRWszVjJwQnBWSndCU01oQzZJRXd1WUNFaUNvNTc3bUtWbEhLT21hb3hkb05FVGlCblZaeWMtZXFWcnFDY0dhVnZn?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "b328e637342d",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T09:41",
-   "title": "HJ중공업, 미 해군 함정 정비 첫 성과… MRO 사업 확대 발판 마련",
-   "source": "Korea IT Times",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BUElfUk1BSENlbFlURWtmRm5Xc2FEVXVtVWxPRmhnVTlpUjZISWpVMmxfWk5JLUtSYXhzY3lpaDdpYnd5dFVZODZQYkVuTWdVVXdHa0V1WnczVWdYbXVuSXBsVWM5dlJLMzl4TGhQRHM?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "16cc54d53862",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T09:10",
-   "title": "HJ중공업, 미 해군 함정 MRO 마무리…군수지원함 정비 후 출항",
-   "source": "중앙신문",
-   "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQMTlpeVE2WTB1SnFlNktWWHFjbXNmM2VyWFVVVWtOQ2NTN28zdk11QkY0WkpXZ2ZVVDYzeTlOdTZrdHFDVHdPMU53allKZHptbF9FVGF5bG1RRElEb2FYWGs0czVsU3lLblhZQXdGajR3d3U5clZqRERZMlh2UGVSbndvenlicEQ4YmRWb0FPQVpvb3BtX3pYREtGaFJtLTlrLXV1c0dfMEZjZVdfcXRyS2VyTFJ2R3ZNajZHejhsdmdsVGtZV3pCdjVfbjJfOEY1VWZsUHZiME1pQ24xSktrM0FwaWpNcGJWbTRXNmwtQUlVdWdOV2F2b3Q1cHlyVnZCeG9ualJ4bmcyZllJcmhIenhtT3pRNDBnd3hicHQ5dmF6WG40dUZOTUNSWVQ2OTAwOW0yeWtiTm9YLTY2WlBOYTR5OGREbktOaUhlRF9XbVg3alg5RVgtNEpR?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "q": "국방 MRO",
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "ac5fbf76c94d",
-   "date": "2026-10-15",
-   "ts": "2026-10-15T09:02",
-   "title": "HJ중공업, 미군 4만t급 군수지원함 MRO사업 완료",
-   "source": "코리아리포트",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nSjdBTkJ4MWhDSzc5cTFXajJiNmlOUjhiekx1T3duTDl0YTVFQktkLVZPYzNEOEN5OWhqYkVGY1BMWjg2blNyYUsxUjd2MEF6eGNudjl4cHV3N1hmNHEyOVFGLWd1dDROc3Rib3V0Y1o?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
   },
   {
    "id": "8e542ab5d695",
@@ -2464,7 +1706,9 @@
    "kw": [
     "자율주행 보급"
    ],
-   "ents": [],
+   "ents": [
+    "GM Defense"
+   ],
    "axes": [],
    "score": 4.0,
    "also": [
@@ -2500,37 +1744,6 @@
    "origin": "rss",
    "q": "military logistics AI",
    "region": "etc",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "18a449c68420",
-   "date": "2026-10-14",
-   "ts": "2026-10-14T15:00",
-   "title": "정비사업 조합 위법행위 특별현장점검 실시",
-   "source": "대한민국 정책브리핑",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZDBKcXRBZmRwN1REQkxCMWFyaVA2eW9EeVUwazkzbTdvVHctY0c4WjRtY1pvT25Jam9UZ00ySXFEazllQmxDWHJOXzhjbnEwajZkTjhIcU1OWHpNbTA5bTJ2WjdtYkdaY1BKS1c4dzVTTmRUV05RNUtOR0ZpakNSOWFNdlVfc1NnNnF3bVpneFg0UQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 3.0,
-   "also": [],
-   "origin": "rss",
-   "src": "mnd",
-   "hint": "kr",
-   "q": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "정비인력"
-   ],
-   "ents": [],
-   "axes": [
-    "manpower"
-   ],
-   "region": "kr",
    "domains": [
     "wpn"
    ],
@@ -2581,7 +1794,63 @@
    "lang": "ko",
    "summary": "",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "코리아리포트",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nSjdBTkJ4MWhDSzc5cTFXajJiNmlOUjhiekx1T3duTDl0YTVFQktkLVZPYzNEOEN5OWhqYkVGY1BMWjg2blNyYUsxUjd2MEF6eGNudjl4cHV3N1hmNHEyOVFGLWd1dDROc3Rib3V0Y1o?oc=5",
+     "title": "HJ중공업, 미군 4만t급 군수지원함 MRO사업 완료"
+    },
+    {
+     "source": "중앙신문",
+     "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQMTlpeVE2WTB1SnFlNktWWHFjbXNmM2VyWFVVVWtOQ2NTN28zdk11QkY0WkpXZ2ZVVDYzeTlOdTZrdHFDVHdPMU53allKZHptbF9FVGF5bG1RRElEb2FYWGs0czVsU3lLblhZQXdGajR3d3U5clZqRERZMlh2UGVSbndvenlicEQ4YmRWb0FPQVpvb3BtX3pYREtGaFJtLTlrLXV1c0dfMEZjZVdfcXRyS2VyTFJ2R3ZNajZHejhsdmdsVGtZV3pCdjVfbjJfOEY1VWZsUHZiME1pQ24xSktrM0FwaWpNcGJWbTRXNmwtQUlVdWdOV2F2b3Q1cHlyVnZCeG9ualJ4bmcyZllJcmhIenhtT3pRNDBnd3hicHQ5dmF6WG40dUZOTUNSWVQ2OTAwOW0yeWtiTm9YLTY2WlBOYTR5OGREbktOaUhlRF9XbVg3alg5RVgtNEpR?oc=5",
+     "title": "HJ중공업, 미 해군 함정 MRO 마무리…군수지원함 정비 후 출항"
+    },
+    {
+     "source": "Korea IT Times",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BUElfUk1BSENlbFlURWtmRm5Xc2FEVXVtVWxPRmhnVTlpUjZISWpVMmxfWk5JLUtSYXhzY3lpaDdpYnd5dFVZODZQYkVuTWdVVXdHa0V1WnczVWdYbXVuSXBsVWM5dlJLMzl4TGhQRHM?oc=5",
+     "title": "HJ중공업, 미 해군 함정 정비 첫 성과… MRO 사업 확대 발판 마련"
+    },
+    {
+     "source": "매일경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DbUJfS2lrS2EwN0IwRWszVjJwQnBWSndCU01oQzZJRXd1WUNFaUNvNTc3bUtWbEhLT21hb3hkb05FVGlCblZaeWMtZXFWcnFDY0dhVnZn?oc=5",
+     "title": "HJ중공업, 미해군 함정 MRO 성공적으로 끝내…“조선업계 새로운 지평”"
+    },
+    {
+     "source": "www.ebn.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vOUMxNEIwU1cyQ3Q0TFpEYjBoc0ZyLTdoaVVnYVR0OEM3eW5pSWNGMFFUeHI0TGFuR2VvMkU4bEVHUmNSUGJsUy1jdExYeERGNHp5bE9DazZ4WlpWT0k0X2hkdGxFbDdU?oc=5",
+     "title": "HJ중공업, 첫 美해군 MRO 완료…추가 정비로 계약 규모도 확대"
+    },
+    {
+     "source": "쿠키뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CMWVXNFBpaHBXSUx0NjJMWm9IVVhzaDRraDI1clRhRTJ2Q1hhT0NrdWh2dlVnUGNzcUsxakhWX0tUY0g2ZGdhUEhQRnZINWVrb0J0dTJrSnVLM0pqcjNHQU9oSQ?oc=5",
+     "title": "HJ중공업, 美 해군 함정 첫 MRO ‘완주’…이제 전투함 겨눈다"
+    },
+    {
+     "source": "투데이에너지",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90eTNlY2pReThCRld4aFdzNWxoVlZzemJnT2pqblF2SG1ub1N5RVhXZk1fVmh0dEZEOV9rd0xjUjhpSGUtR011b2RuX1RUVWcxZWcxZTF0bnFvVk9uQjZXUVZVZ1pUZ3JEb1lCSFBB?oc=5",
+     "title": "HJ중공업, 미 해군 함정 MRO 완벽 수행… 기술력 호평"
+    },
+    {
+     "source": "스포츠동아",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GTzFsdmhhRkpLSE9uOWN4QTQ3X0FzQ19UelZLaEpQanU2aVJ4SlVQM2h1dTZwU0FOclBIcy12ZDhWVFNGV3Y0TEhXT0ZxWG1xTkF3R2xHQnhZeTVHYUd1ZG5ISWJtb3ZLYUE4M2FwR19SUQ?oc=5",
+     "title": "‘K-방산 새 역사’… HJ중공업, 첫 미 해군 함정 MRO 성공 완수·출항"
+    },
+    {
+     "source": "투어코리아",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4QklXeHZ2VGlXSzNfZmxmRWxkYjVXSlRzTUVvcUhoMnpKTGNUbDFqNlRlclhUT05yNmF2aENYN2cycDJZMGVPSERWeWZLV0J3MGhqY3ZERG1JS21QemNGTDdqSkprZnV1dER5cHhn?oc=5",
+     "title": "HJ중공업, 첫 미 해군 함정 MRO 성공적 완수…4만 톤급 군수지원함 출항"
+    },
+    {
+     "source": "투데이코리아",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1sLUZtak9ZRXNoMWEtSHZsVlVlRnN6REtYZVRqU0ZDZS1rQ2pnQlBiWldvQXR3dUtXTm9nQkhHeWhCZnYyS0F4NWpWT1lCa2F0LWpMcGlFSHdwWG4zejI4am11ZW10bk12WDBlNmhmaHI?oc=5",
+     "title": "HJ 중공업, 첫 미 해군 함정 MRO 사업 완료···추가 정비까지 수행"
+    },
+    {
+     "source": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91dzNGNnZSeWRubzdtQ3NMa1REM3hKeXdxb09pRmtvZEdXN1p4WEM1d3p2amowMzlkRGpVUWYxYzI0dzUwdFRsODJVRlRXRm92bHJiSnlUZlp6WEV2WTVGXzlfRlNodVZKN3JETGFB?oc=5",
+     "title": "미 해군 군수지원함 정비 완료, HJ중공업 기술력 인정받아"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "kr",
@@ -2593,7 +1862,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -2617,7 +1887,9 @@
    "kw": [
     "자율주행 보급"
    ],
-   "ents": [],
+   "ents": [
+    "Arrive AI"
+   ],
    "axes": [],
    "score": 4.0,
    "also": [],
@@ -2864,7 +2136,9 @@
     "AI",
     "자율주행 보급"
    ],
-   "ents": [],
+   "ents": [
+    "Arrive AI"
+   ],
    "axes": [],
    "score": 4.5,
    "also": [],
@@ -2889,7 +2163,9 @@
    "kw": [
     "자율주행 보급"
    ],
-   "ents": [],
+   "ents": [
+    "GM Defense"
+   ],
    "axes": [],
    "score": 4.0,
    "also": [],
@@ -3115,37 +2391,6 @@
    "kind": "news"
   },
   {
-   "id": "bf7f53f06427",
-   "date": "2026-10-08",
-   "ts": "2026-10-08T16:00",
-   "title": "\"K-조선 견인할 함정 MRO 역량 모으자\" 해군, 부산서 함정 MRO 세미나 개최",
-   "source": "국제신문",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVpjN1A5bDlCSVpLd1JyMFNkSzFqZk11ZUlLLVFiLU5Hbl8tbl83eW1xOEJfOUJfUmZTVzRzVVlCR2t4ME52RkI4ekVqNjVOWUFZcUh1S3J1OUlULXVWR1JkQmxzaVBCRzNhOS0xRXRtTkp4ZW9Fc1B6OWhNTVRyTTR5WUpZX2N3eTBwLUxn?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "krit",
-   "hint": "kr",
-   "q": "",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
    "id": "e347ae6942c4",
    "date": "2026-10-08",
    "ts": "2026-10-08T16:00",
@@ -3165,6 +2410,16 @@
      "source": "국제뉴스",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QdFhiU0dyeS1KWGFkNFFnZ2J6X3ZCdF9ndVFmX3ctaGVRaVlxNU1CUlRENGRKTFRkUzV3MHRiXzIzU01HYnN3cG5KdmJOZjhwc1d5OUtzRFhDUmEtRTU2OUZQOVhZaGJlWVEyZXR3?oc=5",
      "title": "KAI, 해병대 상륙기동헬기 성과기반군수지원 사업 계약 체결"
+    },
+    {
+     "source": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DNm5jbGVBY3U5c0RidkhDbVB3LVhZbDNNdDBrVmt4RHVoY08ybkFKTzZQLXdJdjJFakcyOFByOEhXcm9pY1dMdHlCb1hpY1lRdkF5WERfUzN3Y3g3NDUxVnlVaVA2c3c0a2dHdXhKYmbSAXRBVV95cUxQc0V3bjZueUF1U21DQXV3Nlg2SEhQTUY4UVdoSFExSEI1TDZqd3RFMEdTUDhzX0JhWFpIZE0zMC1VNW1ydUxjbVJkVE5aRThMV181TTRaVUtEU2d6eEpfMFpMWFlSMmZfeklPVk1vSmR3VGItMw?oc=5",
+     "title": "KAI, 방사청과 1,145억원 규모 ‘해병대 상륙기동헬기(MUH-1) PBL’ 계약"
+    },
+    {
+     "source": "문화일보",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YdklDU3cxN1pfbkdfVXZIZTVMaHZJRFpBRUVoU3dhUWhnWlo3RWctOXpWaWVUbWxIbzNnT3ZSRTc0ekxjV2lsUVVoNHpJWkN2?oc=5",
+     "title": "KAI, 해병대 상륙기동헬기 PBL 사업 5년간 1145억 계약…“항공우주 플랫폼 글로벌 빅4 기업 도약”"
     }
    ],
    "origin": "rss",
@@ -3186,76 +2441,6 @@
    "region": "kr",
    "domains": [
     "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
-   "id": "140392564a21",
-   "date": "2026-10-08",
-   "ts": "2026-10-08T16:00",
-   "title": "KAI, 방사청과 1,145억원 규모 ‘해병대 상륙기동헬기(MUH-1) PBL’ 계약",
-   "source": "이뉴스투데이",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DNm5jbGVBY3U5c0RidkhDbVB3LVhZbDNNdDBrVmt4RHVoY08ybkFKTzZQLXdJdjJFakcyOFByOEhXcm9pY1dMdHlCb1hpY1lRdkF5WERfUzN3Y3g3NDUxVnlVaVA2c3c0a2dHdXhKYmbSAXRBVV95cUxQc0V3bjZueUF1U21DQXV3Nlg2SEhQTUY4UVdoSFExSEI1TDZqd3RFMEdTUDhzX0JhWFpIZE0zMC1VNW1ydUxjbVJkVE5aRThMV181TTRaVUtEU2d6eEpfMFpMWFlSMmZfeklPVk1vSmR3VGItMw?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": null,
-   "q": "성과기반군수지원 PBL",
-   "cats": [
-    "log",
-    "policy",
-    "ind"
-   ],
-   "kw": [
-    "성과기반군수지원"
-   ],
-   "ents": [
-    "방위사업청",
-    "해병대",
-    "KAI"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract"
-  },
-  {
-   "id": "8bf63b084e45",
-   "date": "2026-10-08",
-   "ts": "2026-10-08T16:00",
-   "title": "KAI, 해병대 상륙기동헬기 PBL 사업 5년간 1145억 계약…“항공우주 플랫폼 글로벌 빅4 기업 도약”",
-   "source": "문화일보",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YdklDU3cxN1pfbkdfVXZIZTVMaHZJRFpBRUVoU3dhUWhnWlo3RWctOXpWaWVUbWxIbzNnT3ZSRTc0ekxjV2lsUVVoNHpJWkN2?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 4.5,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "후속군수지원 계약",
-   "cats": [
-    "sys",
-    "log",
-    "ind"
-   ],
-   "kw": [
-    "성과기반군수지원"
-   ],
-   "ents": [
-    "해병대",
-    "KAI"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn",
-    "lis"
    ],
    "kind": "contract"
   },
@@ -3315,7 +2500,8 @@
     "MRO"
    ],
    "ents": [
-    "해군"
+    "해군",
+    "HJ중공업"
    ],
    "axes": [],
    "region": "kr",
@@ -3334,7 +2520,13 @@
    "lang": "ko",
    "summary": "",
    "score": 4.0,
-   "also": [],
+   "also": [
+    {
+     "source": "국제신문",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVpjN1A5bDlCSVpLd1JyMFNkSzFqZk11ZUlLLVFiLU5Hbl8tbl83eW1xOEJfOUJfUmZTVzRzVVlCR2t4ME52RkI4ekVqNjVOWUFZcUh1S3J1OUlULXVWR1JkQmxzaVBCRzNhOS0xRXRtTkp4ZW9Fc1B6OWhNTVRyTTR5WUpZX2N3eTBwLUxn?oc=5",
+     "title": "\"K-조선 견인할 함정 MRO 역량 모으자\" 해군, 부산서 함정 MRO 세미나 개최"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "kr",

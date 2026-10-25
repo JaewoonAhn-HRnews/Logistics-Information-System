@@ -1,0 +1,46 @@
+{
+ "month": "2023-04",
+ "articles": [
+  {
+   "id": "3d01a8ad7482",
+   "date": "2023-04-25",
+   "ts": "2023-04-25T09:00",
+   "title": "Rapid Sustainment Office's CBM+ artificial intelligence toolkit earns Air Force System of Record designation",
+   "source": "U.S. Air Force",
+   "url": "https://www.af.mil/News/Article-Display/Article/3382513/rapid-sustainment-offices-cbm-artificial-intelligence-toolkit-earns-air-force-s/",
+   "lang": "en",
+   "summary": "PANDA가 RSO 최초로 공군 공식 운영 체계(System of Record)로 지정. 9개 주요사령부 16개 기종 군을 지원하고 예측정비 권고·센서 경보를 상시 3만 건 이상 생성하며, 미사일·지원장비·차량으로 확장 가능하다.",
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "ai",
+    "ram",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "예측정비",
+    "상태기반정비"
+   ],
+   "ents": [
+    "공군",
+    "PANDA",
+    "RSO"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "month": "2023-05",
+ "articles": [
+  {
+   "id": "83a89e5f4195",
+   "date": "2023-05-10",
+   "ts": "2023-05-10T09:00",
+   "title": "Air Force selects AI-enabled predictive maintenance program as system of record",
+   "source": "DefenseScoop",
+   "url": "https://defensescoop.com/2023/05/10/air-force-selects-ai-enabled-predictive-maintenance-program-as-system-of-record/",
+   "lang": "en",
+   "summary": "미 공군이 RSO의 AI 예측정비 도구 PANDA를 상태기반정비(CBM+) 공식 운영 체계로 지정. 정비 이력·기체 센서·정비/보급 기록을 통합하며, B-1 폭격기 대상 계통에서 비계획 고장 제거와 비계획 정비 인시 51% 감소를 보고했다.",
+   "score": 9.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "ai",
+    "ram",
+    "mro",
+    "log",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "예측정비",
+    "상태기반정비"
+   ],
+   "ents": [
+    "공군",
+    "PANDA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  }
+ ]
+}

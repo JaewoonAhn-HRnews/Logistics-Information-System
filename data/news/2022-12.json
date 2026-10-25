@@ -1,0 +1,44 @@
+{
+ "month": "2022-12",
+ "articles": [
+  {
+   "id": "d70039b4dc86",
+   "date": "2022-12-08",
+   "ts": "2022-12-08T09:00",
+   "title": "GAO: Military Readiness — Actions Needed to Further Implement Predictive Maintenance on Weapon Systems",
+   "source": "GAO",
+   "url": "https://gao.gov/products/gao-23-105556",
+   "lang": "en",
+   "summary": "미 회계감사원은 국방부가 2002년부터 예측정비를 추진했지만 각 군이 예측 결과로 부품을 정례 교체하지 않고 성과 지표도 부족하다고 지적하며 16개 권고. 국방부 무기체계 정비비는 연 900억 달러 규모.",
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "ram",
+    "parts",
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "예측정비",
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "policy"
+  }
+ ]
+}

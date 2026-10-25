@@ -127,8 +127,38 @@ def relevance(text):
     return round(min(s, 10.0), 1), ctx
 
 
+def is_noise(text):
+    return bool(any_has(text, getattr(T, "NEGATIVE", [])))
+
+
+def bigrams(s):
+    return {s[i:i + 2] for i in range(max(len(s) - 1, 1))}
+
+
+def same_story(a, b):
+    """같은 사건을 다룬 기사인지(제목 2-gram 유사도 + 공통 개체)."""
+    na, nb = norm_title(a["title"]), norm_title(b["title"])
+    if similar(na, nb):
+        return True
+    common = set(a.get("ents", [])) & set(b.get("ents", []))
+    if re.search(r"[가-힣]", a["title"]) and re.search(r"[가-힣]", b["title"]):
+        ga, gb = bigrams(na), bigrams(nb)
+        th, th_c = 0.42, 0.25
+    else:
+        stop = {"the", "and", "for", "with", "to", "of", "in", "on", "a", "an", "its", "new", "us", "u.s.", "army", "navy", "air", "force"}
+        tok = lambda t: {w for w in re.findall(r"[a-z0-9$.\-]+", t.lower()) if len(w) > 2 and w not in stop}
+        ga, gb = tok(a["title"]), tok(b["title"])
+        th, th_c = 0.5, 0.3
+    if not ga or not gb:
+        return False
+    j = len(ga & gb) / len(ga | gb)
+    return j >= th or (bool(common) and j >= th_c)
+
+
 def is_relevant(text, ctx_assumed=False, min_score=4.0):
     """국방 맥락(또는 국방 전문 수집원) + 핵심 주제 + 분야 1개 이상 + 점수 기준."""
+    if is_noise(text):
+        return False
     s, ctx = relevance(text)
     if ctx_assumed:
         s += 1.0

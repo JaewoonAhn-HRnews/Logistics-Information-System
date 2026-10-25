@@ -1,0 +1,160 @@
+{
+ "cases": [
+  {
+   "id": "panda",
+   "title": "PANDA 공군 항공기 예측정비",
+   "country": "us",
+   "org": "미 공군 신속지속지원실(RSO) · CBM+ 프로그램 사무소",
+   "vendor": "C3 AI",
+   "status": "운영(공식 운영 체계)",
+   "tags": [
+    "예측·분류 ML",
+    "상태기반정비(CBM+)",
+    "군수·정비"
+   ],
+   "domains": [
+    "wpn",
+    "fcst",
+    "lis"
+   ],
+   "axes": [
+    "ram",
+    "parts",
+    "manpower"
+   ],
+   "summary": "Predictive Analytics and Decision Assistant. 정비 이력·기체 센서/원격측정·정비·보급 기록을 한곳에 모아 AI로 부품 고장을 미리 예측하고 정비 권고를 내는 미 공군 예측정비 플랫폼.",
+   "problem": "노후 항공기의 비계획 정비와 부품 고장으로 가동률이 떨어지는 문제를 데이터 기반 고장 예측과 상태기반정비 권고로 개선.",
+   "flow": [
+    {
+     "k": "입력",
+     "v": "정비 이력 · 센서/원격측정 · 정비·보급 기록"
+    },
+    {
+     "k": "AI 처리",
+     "v": "고장 예측 ML(eRCM: 과거 고장 데이터 학습, SBA: 센서 기반 알고리즘)"
+    },
+    {
+     "k": "산출",
+     "v": "정비 권고 · 센서 경보 · 부품 수요 예측"
+    },
+    {
+     "k": "활용",
+     "v": "정비계획·부품 사전 주문·인력 운용"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "2018.7",
+     "what": "신속지속지원실(RSO) 창설(2년 시험 조직), CBM+ 담당"
+    },
+    {
+     "when": "2019",
+     "what": "국방혁신단(DIU)·C3 AI, E-3·C-5·F-16·F-35 등 920여 대 시제 운용"
+    },
+    {
+     "when": "2020.9",
+     "what": "RSO가 C3.ai를 전략 AI 플랫폼으로 선정, HH-60부터 적용"
+    },
+    {
+     "when": "2023.4~5",
+     "what": "공군 CBM+·예측정비 공식 운영 체계(System of Record) 지정 — RSO 최초"
+    },
+    {
+     "when": "2025.5",
+     "what": "계약 한도 1억 → 4.5억 달러 증액(2029.10까지)"
+    }
+   ],
+   "metrics": [
+    {
+     "v": "16개",
+     "l": "지원 기종 군(9개 주요사령부)",
+     "t": "실적",
+     "src": 0
+    },
+    {
+     "v": "30,000+",
+     "l": "상시 예측정비 권고·센서 경보",
+     "t": "실적",
+     "src": 0
+    },
+    {
+     "v": "−51%",
+     "l": "B-1 대상 계통 비계획 정비 인시",
+     "t": "실적",
+     "src": 1
+    },
+    {
+     "v": "≈ −1/3",
+     "l": "E-3 비계획 정비(약 7년치 데이터)",
+     "t": "실적",
+     "src": 4
+    },
+    {
+     "v": "80~90 / 1,000+",
+     "l": "비가동 90%를 일으키는 부품 수",
+     "t": "시제 분석",
+     "src": 3
+    },
+    {
+     "v": "최대 −40%",
+     "l": "비계획 정비(시제 운용 잠재효과)",
+     "t": "추정",
+     "src": 3
+    },
+    {
+     "v": "최대 +25%",
+     "l": "항공기 가용도(공군 전체 적용 시)",
+     "t": "회사 추정",
+     "src": 2
+    },
+    {
+     "v": "$4.5억",
+     "l": "계약 한도(2029.10까지)",
+     "t": "계약",
+     "src": 2
+    }
+   ],
+   "limits": [
+    "GAO(2022.12): 각 군이 예측 결과로 부품을 정례 교체하지 않고, 성과 지표·목표가 부족",
+    "공군 대상 권고 중 '정량 지표·목표 수립', '모니터링·보고 절차'는 미이행(2026.1 기준)",
+    "선행 투자, 과거 정비 데이터 디지털화, 시범사업 분산이 확산의 장애(2019)"
+   ],
+   "implications": [
+    "정비소요인력: B-1 비계획 정비 인시 51% 감소는 예측정비가 정비 인력 소요를 줄인다는 실측 근거",
+    "수리부속: 부품 80~90개가 비가동 90%를 차지 → 전 품목이 아닌 핵심 부품 우선 예측(F-35A 동류전용 문제와 연결)",
+    "한국: 예측 결과를 국방군수통합정보체계의 정비계획·조달과 연동해야 '예측만 하고 반영 못 하는' 단계를 피할 수 있음",
+    "적용 후보: 공군 F-15K·C-130 등 데이터가 축적된 노후 기종부터"
+   ],
+   "sources": [
+    {
+     "t": "U.S. Air Force — RSO CBM+ AI toolkit earns System of Record (2023)",
+     "u": "https://www.af.mil/News/Article-Display/Article/3382513/rapid-sustainment-offices-cbm-artificial-intelligence-toolkit-earns-air-force-s/"
+    },
+    {
+     "t": "DefenseScoop — Air Force selects AI-enabled predictive maintenance program as system of record (2023.5)",
+     "u": "https://defensescoop.com/2023/05/10/air-force-selects-ai-enabled-predictive-maintenance-program-as-system-of-record/"
+    },
+    {
+     "t": "Business Wire — C3 AI RSO contract increased to $450M (2025.5)",
+     "u": "https://www.businesswire.com/news/home/20250529901436/en/C3-AI-U.S.-Air-Force-Rapid-Sustainment-Office-Contract-Award-Increased-to-$450-Million"
+    },
+    {
+     "t": "C3 AI — USAF RSO selects C3.ai as strategic AI platform (2020.9, DIU 2019 결과 인용)",
+     "u": "https://c3.ai/united-states-air-force-rso-selects-c3-ai-as-strategic-ai-platform/"
+    },
+    {
+     "t": "Air & Space Forces — USAF Seeks New Strategy to Grow Predictive Maintenance Gains (2019.6)",
+     "u": "https://www.airandspaceforces.com/USAF-Seeks-New-Strategy-to-Grow-Predictive-Maintenance-Gains/"
+    },
+    {
+     "t": "GAO-23-105556 — Actions Needed to Further Implement Predictive Maintenance (2022.12)",
+     "u": "https://gao.gov/products/gao-23-105556"
+    },
+    {
+     "t": "AFLCMC — RSO CBM+ 프로그램",
+     "u": "https://www.aflcmc.af.mil/RSO-CBM-Plus/"
+    }
+   ]
+  }
+ ]
+}

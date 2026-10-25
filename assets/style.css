@@ -390,3 +390,92 @@ th { color: var(--muted); font-weight: 600; font-size: 12px; position: sticky; t
 @media (max-width: 900px) { .sublist, .srcgrid { grid-template-columns: 1fr; } .matrix td b { font-size: 16px; } .matrix table { border-spacing: 3px; font-size: 12px; } }
 @media (max-width: 560px) { .regions, .grid-4 { grid-template-columns: 1fr; } .dtabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .card-top { padding-right: 62px; } .matrix th.rl { vertical-align: middle; }
+
+/* ---------- daily feed ---------- */
+.dfeed { display: grid; gap: 0; margin-top: 8px; }
+.dday { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 18px; padding: 16px 0; border-top: 1px solid var(--line); }
+.dday:first-child { border-top: 0; }
+.dday .dd { display: grid; align-content: start; gap: 2px; }
+.dday .dd b { font-family: var(--font-mono); font-size: 26px; line-height: 1.1; color: var(--ink); }
+.dday .dd span { font-size: 12px; color: var(--muted); }
+.dday .dd a { font-size: 12px; margin-top: 6px; }
+.dday .rg { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
+.dsum { white-space: pre-line; font-size: 14.5px; color: var(--ink); line-height: 1.7; margin: 0; }
+.dsum-by { font-size: 11px; color: var(--muted); margin-top: 6px; }
+.dlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.dlist li { display: grid; grid-template-columns: auto 1fr; gap: 8px; align-items: baseline; }
+.dlist a { color: var(--ink); font-weight: 600; font-size: 14px; }
+.dlist p { margin: 2px 0 0; font-size: 13px; color: var(--ink-2); }
+.dlist .also { font-size: 11px; color: var(--muted); font-weight: 400; margin-left: 6px; }
+
+/* ---------- infographic ---------- */
+.ig-wrap { display: grid; gap: 10px; }
+.ig { color: #e6f1ff; border-radius: 12px; overflow: hidden; padding: 26px 28px; position: relative; isolation: isolate;
+  background: radial-gradient(900px 400px at 85% 0%, rgba(37,99,235,.35), transparent 60%), radial-gradient(700px 400px at 0% 100%, rgba(13,148,136,.28), transparent 60%), linear-gradient(160deg, #050c18, #0a1628 60%, #081320);
+  display: grid; gap: 18px; font-family: var(--font-body); }
+.ig::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .35; background-image: linear-gradient(rgba(94,234,212,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(94,234,212,.07) 1px, transparent 1px); background-size: 32px 32px; }
+.ig-top { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: flex-end; }
+.ig-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .18em; color: #5eead4; }
+.ig h2 { font-size: 26px; color: #f2f7ff; margin-top: 4px; letter-spacing: -.02em; }
+.ig-big { text-align: right; }
+.ig-big b { font-family: var(--font-mono); font-size: 54px; line-height: 1; color: #fff; display: block; }
+.ig-big span { font-size: 13px; color: #9fb3cc; }
+.ig-big .up { color: #4ade80; } .ig-big .down { color: #f87171; }
+.ig-row { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 14px; }
+.ig-card { background: rgba(8, 20, 38, .72); border: 1px solid rgba(148, 197, 255, .16); border-radius: 10px; padding: 14px 16px; display: grid; gap: 10px; align-content: start; }
+.ig-card h3 { font-size: 12px; font-family: var(--font-mono); letter-spacing: .12em; color: #8ea3bd; font-weight: 500; }
+.ig-reg { display: grid; grid-template-columns: 40px 1fr 30px; gap: 8px; align-items: center; font-size: 13px; }
+.ig-reg .c { font-family: var(--font-mono); font-weight: 600; font-size: 11px; padding: 1px 0; text-align: center; border-radius: 3px; color: #fff; }
+.ig-reg .bar { height: 10px; border-radius: 5px; background: rgba(255,255,255,.08); overflow: hidden; }
+.ig-reg .bar i { display: block; height: 100%; border-radius: 5px; }
+.ig-reg b { font-family: var(--font-mono); font-weight: 500; text-align: right; }
+.ig-dom { display: flex; gap: 10px; align-items: center; }
+.ig-donut { width: 112px; height: 112px; border-radius: 50%; flex: none; position: relative; }
+
+
+.ig-leg { display: grid; gap: 6px; font-size: 12.5px; }
+.ig-leg i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
+.ig-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; align-items: end; height: 96px; }
+.ig-days div { display: grid; gap: 4px; justify-items: center; align-content: end; height: 100%; font-size: 11px; color: #8ea3bd; }
+.ig-days i { width: 100%; max-width: 26px; border-radius: 4px 4px 1px 1px; background: linear-gradient(180deg, #5eead4, #2563eb); min-height: 2px; }
+.ig-days b { font-family: var(--font-mono); font-weight: 500; color: #cfe0f5; font-size: 11px; }
+.ig-kinds { display: flex; gap: 10px; flex-wrap: wrap; font-size: 12.5px; color: #b6c6dc; }
+.ig-kinds b { font-family: var(--font-mono); color: #fff; font-size: 16px; margin-right: 4px; }
+.ig-main { display: grid; grid-template-columns: 1.4fr 1fr; gap: 14px; }
+.ig-top5 { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: r; }
+.ig-top5 li { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; }
+.ig-top5 li::before { counter-increment: r; content: counter(r, decimal-leading-zero); font-family: var(--font-mono); font-size: 20px; font-weight: 600; color: #5eead4; line-height: 1.2; }
+.ig-top5 .t { font-size: 14px; font-weight: 600; color: #f2f7ff; line-height: 1.4; }
+.ig-top5 .m { font-size: 11.5px; color: #8ea3bd; margin-top: 3px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.ig-cloud { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+.ig-cloud span { color: #cfe0f5; line-height: 1.2; }
+.ig-sum { white-space: pre-line; font-size: 13.5px; line-height: 1.75; color: #dbe7f6; }
+.ig-foot { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10.5px; color: #6f86a3; letter-spacing: .06em; }
+.ig-actions { display: flex; gap: 8px; justify-content: flex-end; }
+@media (max-width: 900px) { .ig-row, .ig-main { grid-template-columns: 1fr; } .ig { padding: 20px 16px; } .ig-big b { font-size: 42px; } .dday { grid-template-columns: 1fr; gap: 8px; } .dday .dd { grid-template-columns: auto auto 1fr; align-items: baseline; gap: 10px; } }
+
+/* ---------- case study ---------- */
+.case { display: grid; gap: 16px; }
+.case-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: flex-start; }
+.case-head h2 { font-size: 22px; }
+.case-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.case-tags span { font-size: 12px; padding: 3px 10px; border-radius: 999px; font-weight: 600; color: #fff; background: #475569; }
+.case-tags span.ok { background: #15803d; } .case-tags span.ml { background: #4d7c0f; }
+.case-body { display: grid; grid-template-columns: 1.5fr 1fr; gap: 16px; }
+.case-flow { background: #0b1b33; border-radius: 10px; padding: 16px; display: grid; gap: 8px; color: #e6f1ff; }
+.case-flow .st { background: #13294b; border-radius: 8px; padding: 10px 12px; }
+.case-flow .st.ai { background: #4d7c0f; }
+.case-flow .st small { display: block; font-size: 11px; color: #a9bcd6; }
+.case-flow .st.ai small { color: #e2f5c7; }
+.case-flow .st b { font-size: 14.5px; }
+.case-flow .ar { text-align: center; color: #f59e0b; font-size: 16px; line-height: 1; }
+.case-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.cm { background: var(--surface-2); border-radius: 8px; padding: 12px; display: grid; gap: 4px; }
+.cm b { font-family: var(--font-mono); font-size: 20px; }
+.cm span { font-size: 12.5px; color: var(--ink-2); line-height: 1.4; }
+.cm em { font-style: normal; font-size: 10.5px; font-weight: 600; justify-self: start; padding: 0 6px; border-radius: 3px; background: color-mix(in srgb, var(--good) 15%, transparent); color: var(--good); }
+.cm em.est { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
+.case-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.case-imp { background: color-mix(in srgb, #84cc16 12%, var(--surface)); border-radius: 8px; padding: 14px 16px; }
+@media (max-width: 900px) { .case-body, .case-cols { grid-template-columns: 1fr; } .case-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.dday .dd .rbadge { color: #fff; font-size: 10px; } .ig-donut { width: 112px; height: 112px; flex: none; } .ig-donut svg { width: 112px; height: 112px; display: block; }

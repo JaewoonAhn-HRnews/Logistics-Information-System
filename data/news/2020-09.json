@@ -1,0 +1,50 @@
+{
+ "month": "2020-09",
+ "articles": [
+  {
+   "id": "c319f7f3d6c6",
+   "date": "2020-09-02",
+   "ts": "2020-09-02T09:00",
+   "title": "United States Air Force RSO Selects C3.ai as Strategic AI Platform",
+   "source": "C3 AI",
+   "url": "https://c3.ai/united-states-air-force-rso-selects-c3-ai-as-strategic-ai-platform/",
+   "lang": "en",
+   "summary": "미 공군 RSO가 C3.ai를 예측정비 전략 AI 플랫폼으로 선정, HH-60 헬기부터 적용. 앞서 E-3·C-5·F-16·F-35 등 920여 대 시제 운용에서 비계획 정비 최대 40% 감소, 부품 대기 지상 대기 최대 35% 감소 가능성과 부품 1,000여 개 중 80~90개가 비가동의 90%를 차지함을 확인(DIU 2019).",
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "sys",
+    "ai",
+    "ram",
+    "parts",
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "예측정비"
+   ],
+   "ents": [
+    "공군",
+    "DIU",
+    "C3 AI",
+    "F-35"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
+   "kind": "policy"
+  }
+ ]
+}

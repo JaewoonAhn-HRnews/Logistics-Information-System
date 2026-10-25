@@ -229,36 +229,13 @@
    "lang": "ko",
    "summary": "",
    "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": null,
-   "q": "국방 군수 AI",
-   "cats": [
-    "mro"
+   "also": [
+    {
+     "source": "www.ebn.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUMGc2b21JMDFJTjN2YkVRZlpBTGY1YXhlWWpoOEVXU0ZFV1MtckhOWnFVdVZ4aENGVV8zclJnWjlPZFdMNFRJS1ppc1k0ZHNtUEEwQThhS1R4aERHb0lUa2N5T05oVlct?oc=5",
+     "title": "[Tech & Now] 나우로보틱스, 방산 진출 본격화…국방 로봇·군수 MRO까지 사업 확대"
+    }
    ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news"
-  },
-  {
-   "id": "2cd9c8a99be9",
-   "date": "2026-09-28",
-   "ts": "2026-09-28T16:00",
-   "title": "[Tech & Now] 나우로보틱스, 방산 진출 본격화…국방 로봇·군수 MRO까지 사업 확대",
-   "source": "www.ebn.co.kr",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUMGc2b21JMDFJTjN2YkVRZlpBTGY1YXhlWWpoOEVXU0ZFV1MtckhOWnFVdVZ4aENGVV8zclJnWjlPZFdMNFRJS1ppc1k0ZHNtUEEwQThhS1R4aERHb0lUa2N5T05oVlct?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
    "origin": "rss",
    "src": "gnews",
    "hint": null,

@@ -11,6 +11,7 @@ import hashlib
 import itertools
 import json
 import os
+import re
 import sys
 import urllib.request
 from collections import Counter, defaultdict
@@ -18,7 +19,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 import taxonomy as T  # noqa: E402
-from common import DATA, DB, NEWS, classify, full_classify, load_json, relevance, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
+from common import DATA, DB, NEWS, classify, full_classify, is_noise, load_json, relevance, same_story, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
 
 CAT_NAME = {c["id"]: c["name"] for c in T.CATEGORIES}
 AXIS_NAME = {a["id"]: a["name"] for a in T.PROJECT_AXES}
@@ -28,23 +29,54 @@ ENT_TYPE = {e: t for e, t, _ in T.ENTITIES}
 
 def load_all():
     arts, files = [], []
+    stores = {}
     for p in sorted(NEWS.glob("*.json")):
-        d = load_json(p, {})
+        stores[p] = load_json(p, {})
         files.append(p.name)
-        # 분류 사전(taxonomy.py)을 고치면 과거 기사에도 소급 적용하고 파일에 반영
-        changed = False
+    # 1) 분류 소급 적용 + 제외어 기사 삭제
+    changed = set()
+    pool = []
+    for p, d in stores.items():
+        keep = []
         for a in d.get("articles", []):
             text = f"{a.get('title', '')} {a.get('summary', '')}"
+            if is_noise(text):
+                changed.add(p)
+                continue
             c = full_classify(text, a.get("lang", "ko"), a.get("hint") or SRC_REGION.get(a.get("src")))
             if a.get("src") == "samgov":
                 c["kind"] = "contract"
             c["score"] = relevance(text)[0]
             if any(a.get(k) != v for k, v in c.items()):
                 a.update(c)
-                changed = True
-        if changed:
+                changed.add(p)
+            keep.append(a)
+            pool.append((p, a))
+        d["articles"] = keep
+    # 2) 같은 사건 기사 묶기(먼저 나온 기사에 '함께 보도한 매체'로 합침)
+    pool.sort(key=lambda x: x[1].get("ts", x[1]["date"]))
+    heads, drop = [], set()
+    for p, a in pool:
+        h = next((h for h in reversed(heads[-80:]) if abs((to_date(h[1]["date"]) - to_date(a["date"])).days) <= 3
+                  and h[1].get("region") == a.get("region") and same_story(h[1], a)), None)
+        if h:
+            hb = h[1]
+            if a["source"] != hb["source"] and all(x["source"] != a["source"] for x in hb.get("also", [])):
+                hb.setdefault("also", []).append({"source": a["source"], "url": a["url"], "title": a["title"]})
+            for x in a.get("also", []):
+                if all(y["source"] != x["source"] for y in hb.get("also", [])) and x["source"] != hb["source"]:
+                    hb["also"].append(x)
+            hb["score"] = max(hb.get("score", 0), a.get("score", 0))
+            drop.add(id(a))
+            changed.add(p)
+            changed.add(h[0])
+        else:
+            heads.append((p, a))
+    for p, d in stores.items():
+        d["articles"] = [a for a in d["articles"] if id(a) not in drop]
+        if p in changed:
             save_json(p, d)
-        arts += [dict(a) for a in d.get("articles", [])]
+        arts += [dict(a) for a in d["articles"]]
     added = load_json(DB / "added.json", {"articles": []}).get("articles", [])
     for a in added:
         a.setdefault("origin", "manual")
@@ -77,6 +109,36 @@ def weight(a):
     return a.get("score", 0) + 1.5 * len(a.get("also", [])) + (5 if a.get("pin") else 0)
 
 
+def first_line(a, n=150):
+    sm = (a.get("summary") or "").strip()
+    if sm:
+        m = re.split(r"(?<=[.!?。])\s+|(?<=다\.)\s*", sm)
+        line = (m[0] if m and m[0] else sm).strip()
+        return line[:n] + ("…" if len(line) > n else "")
+    return ""
+
+
+def digest(items, k):
+    """대표 기사를 분야가 겹치지 않게 고른 요약 목록."""
+    ranked = sorted(items, key=weight, reverse=True)
+    out, used = [], set()
+    for d in ("lis", "wpn", "fcst"):
+        a = next((x for x in ranked if d in x.get("domains", []) and x["id"] not in used), None)
+        if a and len(out) < k:
+            out.append(a)
+            used.add(a["id"])
+    for a in ranked:
+        if len(out) >= k:
+            break
+        if a["id"] not in used:
+            out.append(a)
+            used.add(a["id"])
+    out.sort(key=weight, reverse=True)
+    return [{"id": a["id"], "t": a["title"], "s": first_line(a), "r": a.get("region", "etc"),
+             "d": (a.get("domains") or [""])[0], "k": a.get("kind", "news"), "src": a.get("source", ""),
+             "also": len(a.get("also", []))} for a in out]
+
+
 def summarize(items):
     cats = Counter(c for a in items for c in a.get("cats", []))
     kw = Counter(k for a in items for k in a.get("kw", []))
@@ -98,6 +160,7 @@ def summarize(items):
         "axes": dict(axes),
         "sources": srcs.most_common(8),
         "top": [a["id"] for a in top],
+        "digest": digest(items, 6),
         "regions": dict(regions), "domains": dict(doms), "kinds": dict(kinds), "rd": dict(rd),
     }
 
@@ -233,22 +296,21 @@ def main():
     # 선택: AI 브리핑(최신 기간만, 기사 구성이 바뀐 경우에만 다시 생성)
     cache = load_json(DATA / "ai_briefs.json", {})
     if os.environ.get("ANTHROPIC_API_KEY"):
-        for kind in ("day", "week", "month", "year"):
-            if not periods[kind]:
-                continue
-            k = max(periods[kind])
-            items = sorted(groups[kind][k], key=weight, reverse=True)
-            h = hashlib.sha1("|".join(sorted(a["id"] for a in items)).encode()).hexdigest()[:10]
-            ck = f"{kind}:{k}"
-            if cache.get(ck, {}).get("h") != h:
-                txt = ai_brief(kind, periods[kind][k]["label"], items)
-                if txt:
-                    cache[ck] = {"h": h, "text": txt, "at": now.strftime("%Y-%m-%d %H:%M")}
+        for kind, recent in (("day", 7), ("week", 4), ("month", 1), ("year", 1)):
+            for k in sorted(periods[kind])[-recent:]:
+                items = sorted(groups[kind][k], key=weight, reverse=True)
+                h = hashlib.sha1("|".join(sorted(a["id"] for a in items)).encode()).hexdigest()[:10]
+                ck = f"{kind}:{k}"
+                if cache.get(ck, {}).get("h") != h and not cache.get(ck, {}).get("manual"):
+                    txt = ai_brief(kind, periods[kind][k]["label"], items)
+                    if txt:
+                        cache[ck] = {"h": h, "text": txt, "at": now.strftime("%Y-%m-%d %H:%M")}
         save_json(DATA / "ai_briefs.json", cache)
     for ck, v in cache.items():
         kind, k = ck.split(":", 1)
         if k in periods.get(kind, {}):
             periods[kind][k]["ai"] = v["text"]
+            periods[kind][k]["ai_by"] = v.get("by", "Claude")
 
     # ---------- 추이 ----------
     months = sorted(groups["month"])

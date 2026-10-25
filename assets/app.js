@@ -13,7 +13,7 @@
   const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 2600); };
 
   let IDX, PER, TR, TAX, CAT = {}, AX = {}, RG = {}, DM = {};
-  let SRCS = [], FST = { sources: {} };
+  let SRCS = [], FST = { sources: {} }, CASES = [];
   let BASE = [];          // 서버 기사(월 파일)
   let ARTS = [];          // DB 반영 후 기사
   let BYID = {};
@@ -43,6 +43,7 @@
     (TAX.domains || []).forEach(d => (DM[d.id] = d));
     const [sj, fj] = await Promise.all([j("data/sources.json", { sources: [] }), j("data/feeds_status.json", { sources: {} })]);
     SRCS = sj.sources || []; FST = fj || { sources: {} };
+    CASES = (await j("data/cases.json", { cases: [] })).cases || [];
     const files = await Promise.all(IDX.files.map(f => j("data/news/" + f, { articles: [] })));
     BASE = files.flatMap(f => f.articles || []);
     const [ad, ov, cl] = await Promise.all([j("data/db/added.json", null), j("data/db/overrides.json", null), j("data/db/changelog.json", null)]);
@@ -253,6 +254,7 @@
         { name: "해외", type: "bar", stack: "a", data: TR.m_en.slice(-12), itemStyle: { color: teal(), borderRadius: [3, 3, 0, 0] }, barMaxWidth: 22 }],
     });
     $("#homeLatest").innerHTML = ARTS.slice(0, 6).map(a => card(a)).join("");
+    $("#homeDaily").innerHTML = dailyFeed(7);
     $("#homeRegions").innerHTML = REGION_IDS.map(r => {
       const L = ARTS.filter(a => a.region === r), mx = Math.max(1, ...DOM_IDS.map(d => L.filter(a => (a.domains || []).includes(d)).length));
       return `<a class="rtile" href="#${r}" style="--rc:${rc(r)}"><div class="code">${r.toUpperCase()}</div><h3>${esc(RG[r]?.name)}</h3><div class="v">${fmt(L.length)}<span class="note"> 건</span></div>
@@ -290,6 +292,7 @@
         <button class="navbtn" id="p-next" ${i <= 0 ? "disabled" : ""} aria-label="다음">›</button>
         <span class="note">기록이 있는 기간만 표시 · 전체 ${keys.length}개</span>
       </div>
+      ${kind === "week" ? igHTML(key, s) : ""}
       <div class="grid-2">
         <div class="panel">
           <h2>${esc(s.label)}</h2>
@@ -321,6 +324,7 @@
         <div class="cards" id="p-list"></div>
       </div>`;
     const go = k => { location.hash = `#${M.v}/${k}`; };
+    const igb = $("#ig-save", sec); if (igb) igb.onclick = () => saveIG(key);
     $("#p-sel", sec).onchange = e => go(e.target.value);
     $("#p-prev", sec).onclick = () => go(keys[i + 1]);
     $("#p-next", sec).onclick = () => go(keys[i - 1]);
@@ -378,6 +382,85 @@
   }
 
 
+
+  // ---------- DAILY FEED / INFOGRAPHIC / CASES ----------
+  const DOW = "일월화수목금토";
+  function digestList(dg, n) {
+    return `<ul class="dlist">${(dg || []).slice(0, n).map(x => { const a = BYID[x.id]; return `<li><span class="rbadge ${x.r}">${x.r.toUpperCase()}</span><div><a href="${esc(a?.url || "#")}" target="_blank" rel="noopener">${esc(x.t)}</a><span class="also">${esc(x.src)}${x.also ? ` 외 ${x.also}개 매체` : ""}</span>${x.s ? `<p>${esc(x.s)}</p>` : ""}</div></li>`; }).join("")}</ul>`;
+  }
+  function dailyFeed(n) {
+    const days = Object.keys(PER.day).sort().reverse().filter(d => PER.day[d].n > 0).slice(0, n);
+    if (!days.length) return '<div class="empty">아직 수집된 기사가 없습니다.</div>';
+    return days.map(d => {
+      const p = PER.day[d], dt = new Date(d + "T00:00:00Z");
+      const body = p.ai ? `<p class="dsum">${esc(p.ai)}</p><div class="dsum-by">AI 요약 · ${esc(p.ai_by || "Claude")} · 대표 기사 아래</div>${digestList(p.digest, 3)}` : digestList(p.digest, 4);
+      return `<div class="dday"><div class="dd"><b>${d.slice(5).replace("-", ".")}</b><span>${DOW[dt.getUTCDay()]}요일 · ${p.n}건</span>
+        <div class="rg">${REGION_IDS.filter(r => p.regions?.[r]).map(r => `<span class="rbadge ${r}">${r.toUpperCase()} ${p.regions[r]}</span>`).join("")}</div><a href="#daily/${d}">이날 기사 →</a></div><div>${body}</div></div>`;
+    }).join("");
+  }
+  function igHTML(key, s) {
+    const d0 = new Date(s.start + "T00:00:00Z");
+    const days = Array.from({ length: 7 }, (_, i) => { const d = new Date(d0.getTime() + i * 864e5).toISOString().slice(0, 10); return [d, PER.day[d]?.n || 0, "월화수목금토일"[i]]; });
+    const dmax = Math.max(1, ...days.map(x => x[1]));
+    const rtot = Math.max(1, s.n);
+    const dcol = { lis: "#3b82f6", wpn: "#f59e0b", fcst: "#10b981" };
+    const dsum = DOM_IDS.reduce((t, d) => t + (s.domains?.[d] || 0), 0) || 1;
+    let acc = 0;
+    const grad = DOM_IDS.map(d => { const a = acc; acc += (s.domains?.[d] || 0) / dsum * 360; return `${dcol[d]} ${a}deg ${acc}deg`; }).join(",");
+    const kmax = Math.max(1, ...(s.kw || []).map(x => x[1]));
+    const delta = s.prev_n ? s.n - s.prev_n : null;
+    const sum = s.ai || s.brief;
+    return `<div class="ig-wrap"><div class="ig" id="ig-card">
+      <div class="ig-top"><div><div class="ig-eyebrow">WEEKLY INFOGRAPHIC · DEFENSE LOGISTICS AI</div><h2>${esc(s.label)}</h2><div class="ig-eyebrow" style="color:#8ea3bd;letter-spacing:.06em;margin-top:4px">군수통합정보체계 · 무기체계 · 소요예측 주간 동향</div></div>
+        <div class="ig-big"><b>${s.n}</b><span>관련 기사${delta == null ? "" : ` · 전주 대비 <span class="${delta >= 0 ? "up" : "down"}">${delta >= 0 ? "+" : ""}${delta}</span>`}</span></div></div>
+      <div class="ig-row">
+        <div class="ig-card"><h3>REGION</h3>${REGION_IDS.map(r => { const n = s.regions?.[r] || 0; return `<div class="ig-reg"><span class="c" style="background:${rc(r)}">${r.toUpperCase()}</span><div class="bar"><i style="width:${n / rtot * 100}%;background:${rc(r)}"></i></div><b>${n}</b></div>`; }).join("")}
+          <div class="ig-kinds"><span><b>${s.kinds?.contract || 0}</b>사업·계약</span><span><b>${s.kinds?.policy || 0}</b>정책·보고서</span><span><b>${s.ko}</b>국문 · <b>${s.en}</b>영문</span></div></div>
+        <div class="ig-card"><h3>DOMAIN</h3><div class="ig-dom"><div class="ig-donut">${donutSVG(DOM_IDS.map(d => [s.domains?.[d] || 0, dcol[d]]), DOM_IDS.reduce((t, d) => t + (s.domains?.[d] || 0), 0))}</div>
+          <div class="ig-leg">${DOM_IDS.map(d => `<div><i style="background:${dcol[d]}"></i>${esc(DM[d].name)} <b class="mono">${s.domains?.[d] || 0}</b></div>`).join("")}</div></div></div>
+        <div class="ig-card"><h3>DAILY</h3><div class="ig-days">${days.map(([d, n, w]) => `<div><b>${n || ""}</b><i style="height:${n ? Math.max(6, n / dmax * 70) : 2}px"></i>${w}</div>`).join("")}</div></div>
+      </div>
+      <div class="ig-main">
+        <div class="ig-card"><h3>TOP NEWS</h3><ol class="ig-top5">${(s.digest || []).slice(0, 5).map(x => `<li><div><div class="t">${esc(x.t)}</div><div class="m"><span class="rbadge ${x.r}">${x.r.toUpperCase()}</span>${x.d ? `<span>${esc(DM[x.d]?.name || "")}</span>` : ""}<span>${esc(x.src)}${x.also ? ` 외 ${x.also}개 매체` : ""}</span>${x.k === "contract" ? '<span style="color:#fbbf24">사업·계약</span>' : ""}</div></div></li>`).join("")}</ol></div>
+        <div class="ig-card"><h3>KEYWORDS</h3><div class="ig-cloud">${(s.kw || []).slice(0, 14).map(([k, n]) => `<span style="font-size:${12 + Math.round(n / kmax * 14)}px;opacity:${.55 + n / kmax * .45}">${esc(k)}</span>`).join("")}</div>
+          <h3 style="margin-top:6px">SUMMARY</h3><div class="ig-sum">${esc(sum)}</div></div>
+      </div>
+      <div class="ig-foot"><span>군수정보 인텔리전스 · 자동 수집·분류</span><span>${s.ai ? "요약: " + esc(s.ai_by || "Claude") + " · " : ""}갱신 ${esc(IDX.updated)}</span></div>
+    </div><div class="ig-actions"><button class="btn ghost" type="button" id="ig-save">인포그래픽 이미지로 저장(PNG)</button></div></div>`;
+  }
+  function donutSVG(parts, total) {
+    const R = 44, C = 2 * Math.PI * R, sum = parts.reduce((t, p) => t + p[0], 0) || 1;
+    let off = 0;
+    const segs = parts.filter(p => p[0]).map(([v, col]) => { const len = v / sum * C; const el = `<circle cx="56" cy="56" r="${R}" fill="none" stroke="${col}" stroke-width="18" stroke-dasharray="${len} ${C - len}" stroke-dashoffset="${-off}" transform="rotate(-90 56 56)"/>`; off += len; return el; }).join("");
+    return `<svg viewBox="0 0 112 112" role="img" aria-label="분야 구성"><circle cx="56" cy="56" r="${R}" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="18"/>${segs}<text x="56" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="600" fill="#f2f7ff">${total}</text></svg>`;
+  }
+  async function saveIG(key) {
+    const el = $("#ig-card");
+    if (!el || !window.html2canvas) { toast("이미지 저장 도구를 불러오지 못했습니다. 잠시 후 다시 시도하세요."); return; }
+    const c = await html2canvas(el, { scale: 2, backgroundColor: "#06101e", useCORS: true });
+    const a = document.createElement("a"); a.href = c.toDataURL("image/png"); a.download = `주간인포그래픽_${key}.png`; a.click();
+  }
+  function caseHTML(c) {
+    return `<div class="panel case">
+      <div class="case-head"><div><div class="eyebrow">해외 사례 심층 · ${esc(RG[c.country]?.name || "")} · ${esc(c.org)}</div><h2>${esc(c.title)}</h2><p class="lede" style="margin-top:4px">${esc(c.summary)}</p></div>
+        <div class="case-tags"><span class="ok">${esc(c.status)}</span>${c.tags.map((t, i) => `<span class="${i === 0 ? "ml" : ""}">${esc(t)}</span>`).join("")}<span>${esc(c.vendor)}</span></div></div>
+      <div class="case-body">
+        <div style="display:grid;gap:14px;align-content:start">
+          <div><h3>목적 · 해결하려는 문제</h3><p class="note" style="font-size:14px;color:var(--ink-2)">${esc(c.problem)}</p></div>
+          <div><h3>핵심 수치</h3><p class="note">초록 = 실적·계약, 주황 = 추정치(회사·시제 분석). 출처 번호는 아래 목록.</p>
+            <div class="case-metrics" style="margin-top:8px">${c.metrics.map(m => `<div class="cm"><b>${esc(m.v)}</b><span>${esc(m.l)}</span><em class="${/추정/.test(m.t) ? "est" : ""}">${esc(m.t)} [${m.src + 1}]</em></div>`).join("")}</div></div>
+          <div><h3>연혁</h3><ol class="timeline">${c.timeline.map(t => `<li><div class="when">${esc(t.when)}</div><p>${esc(t.what)}</p></li>`).join("")}</ol></div>
+        </div>
+        <div class="case-flow"><div class="note" style="color:#a9bcd6;text-align:center">작동 개념</div>${c.flow.map((f, i) => `${i ? '<div class="ar">▼</div>' : ""}<div class="st ${/AI/.test(f.k) ? "ai" : ""}"><small>${esc(f.k)}</small><b>${esc(f.v)}</b></div>`).join("")}</div>
+      </div>
+      <div class="case-cols">
+        <div><h3>한계 · 감사 지적</h3><ul class="plain">${c.limits.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+        <div class="case-imp"><h3>과제 · 한국 시사점</h3><ul class="plain">${c.implications.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      </div>
+      <div><h3>출처</h3><ol class="plain" style="font-size:13px">${c.sources.map(x => `<li><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a></li>`).join("")}</ol></div>
+    </div>`;
+  }
+
   // ---------- REGIONS ----------
   const REGION_IDS = ["us", "eu", "kr", "etc"];
   const DOM_IDS = ["lis", "wpn", "fcst"];
@@ -425,6 +508,7 @@
     sec.innerHTML = `
       <div class="rhead"><div class="vhead"><div class="eyebrow" style="color:${rc(rid)}">REGION · ${esc(info.en)}</div><h1>${esc(RG[rid].name)}</h1><p class="lede">${esc(info.lede)}</p></div><div class="rcode">${rid.toUpperCase()}</div></div>
       <div class="dtabs" id="r-tabs">${tabs.map(([k, l, d]) => `<button class="dtab ${st.d === k ? "on" : ""}" data-d="${k}"><span class="n">${L0.filter(a => inDom(a, k)).length}</span><span class="l">${esc(l)}</span><span class="d">${esc(d)}</span></button>`).join("")}</div>
+      ${CASES.filter(c => c.country === rid).map(c => `<a class="panel" href="#system" style="display:flex;gap:14px;align-items:center;color:var(--ink);text-decoration:none;border-left:4px solid ${rc(rid)}"><span class="pill" style="background:#15803d;color:#fff">대표 사례</span><span><b>${esc(c.title)}</b> <span class="note">· ${esc(c.org)} · ${esc(c.vendor)}</span><br><span class="note">${esc(c.summary)}</span></span><span class="more" style="margin-left:auto;white-space:nowrap">사례 보기 →</span></a>`).join("")}
       <div class="kpis">
         <div class="kpi"><div class="v">${fmt(L.length)}</div><div class="l">${esc(dn)} 기사</div></div>
         <div class="kpi"><div class="v">${fmt(L.filter(a => a.date >= d30).length)}</div><div class="l">최근 30일</div></div>
@@ -653,6 +737,7 @@
       ["2026.04", "국방부 ‘AX 스프린트’: 2027년까지 400억원·20개 과제, 장비 수명 예측 등 포함", "https://www.hankyung.com/article/202604309027i", "한국경제"],
       ["2026.09", "국방 AI 아이디어 경연에서 ‘수리부속 상호융통 중개 AI’ 우수상", "https://www.fnnews.com/news/202609091101324398", "파이낸셜뉴스"],
     ];
+    $("#sys-cases").innerHTML = CASES.map(caseHTML).join("");
     $("#sys-tl").innerHTML = tl.map(([w, t, u, src]) => `<li><div class="when">${w}</div><p>${esc(t)} <a href="${u}" target="_blank" rel="noopener">${esc(src)}</a></p></li>`).join("");
     $("#sys-kpi").innerHTML = [["13,000+", "재고번호 품목"], ["8,500+", "거래단위 품목"], ["273,000+", "단가 품목"]].map(([v, l]) => `<div class="kpi"><div class="v" style="font-size:22px">${v}</div><div class="l">${l}</div></div>`).join("");
     $("#sys-global").innerHTML = [
