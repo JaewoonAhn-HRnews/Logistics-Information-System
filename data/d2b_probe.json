@@ -1,0 +1,206 @@
+{
+ "at": "2026-10-25 10:48",
+ "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
+ "ops": {
+  "getDmstcPrcurePlanInfoList": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  "getOutnatnPrcurePlanInfoList": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  "getFcltyPrcurePlanInfoList": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  "getDmstcPrcurePlanList": {
+   "ok": true,
+   "code": "00",
+   "n": 100,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>42994</dcsNo><demandYear>2026</demandYear><excutTy>구매</excutTy><orderPrearngeMt>202611</orderPrearngeMt><ornt>",
+   "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "42994",
+     "demandYear": "2026",
+     "excutTy": "구매",
+     "orderPrearngeMt": "202611",
+     "ornt": "해군군수사령부",
+     "orntCode": "SCF",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "링크,분리 가능형 1종 구매",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "budgetAmount": "2914272296",
+     "cntrctMth": "수의계약",
+     "dcsNo": "1001",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202611",
+     "ornt": "해상공중전력운영계약팀",
+     "orntCode": "EBH",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "26년 발칸 사격통제부 부품(방산)",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "budgetAmount": "4401600000",
+     "cntrctMth": "수의계약",
+     "dcsNo": "5301",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202611",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "120mm자주박격포 조명통충전조립체",
+     "spcifyPrcureAt": "N"
+    }
+   ]
+  },
+  "getOutnatnPrcurePlanList": {
+   "ok": true,
+   "code": "00",
+   "n": 100,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><armySe>3707부대</armySe><armySeCode>M9</armySeCode><budgetAmount>13406580</budgetAmount><fnctSe>기타</fnctSe><fnctSeCode>R</fnctSeCode><iemNo>1</iemNo><invntryNo>NSN</invntryNo><ornt>국제한도액전력운영계약팀</ornt><or",
+   "sample": [
+    {
+     "armySe": "3707부대",
+     "armySeCode": "M9",
+     "budgetAmount": "13406580",
+     "fnctSe": "기타",
+     "fnctSeCode": "R",
+     "iemNo": "1",
+     "invntryNo": "NSN",
+     "ornt": "국제한도액전력운영계약팀",
+     "orntCode": "EHN",
+     "prcureDemandNo": "M9C000262000010",
+     "prdlstKndSe": "기술용역",
+     "prdlstKndSeCode": "E",
+     "prdlstNm": "향백 국외기술용역 11차",
+     "progrsSttus": "판단완료",
+     "purchsRequstNo": "9REH6901-005",
+     "qy": "1",
+     "unit": "**",
+     "untpc": "13406580"
+    },
+    {
+     "armySe": "육군",
+     "armySeCode": "MB",
+     "budgetAmount": "59278",
+     "cmpntNo": "0",
+     "eqpmnCode": "32220723",
+     "eqpmnNm": "전원 공급기",
+     "fnctSe": "항공",
+     "fnctSeCode": "A",
+     "iemNo": "1",
+     "invntryNo": "6120015970036",
+     "ornt": "국제확정전력운영계약팀",
+     "orntCode": "EHG",
+     "prcureDemandNo": "MBNLMH26A00005",
+     "prdlstKndSe": "장비",
+     "prdlstKndSeCode": "A",
+     "prdlstNm": "POWER SUPPLY",
+     "progrsSttus": "1차공고중",
+     "purchsRequstNo": "BAAH6083-005",
+     "qy": "2",
+     "stndrdNo": "구매요구서",
+     "unit": "EA",
+     "untpc": "29639"
+    },
+    {
+     "armySe": "육군",
+     "armySeCode": "MB",
+     "budgetAmount": "649297.92",
+     "fnctSe": "항공",
+     "fnctSeCode": "A",
+     "iemNo": "1",
+     "invntryNo": "167037X002337",
+     "ornt": "국제확정전력운영계약팀",
+     "orntCode": "EHG",
+     "prcureDemandNo": "MBCLSI26A00002",
+     "prdlstKndSe": "물자",
+     "prdlstKndSeCode": "C",
+     "prdlstNm": "ACCURACY  JUMP PARACHUTE  SET",
+     "progrsSttus": "1차공고중",
+     "purchsRequstNo": "BACH6085-005",
+     "qy": "48",
+     "stndrdNo": "PRD 1670-3016",
+     "unit": "EA",
+     "untpc": "13527.04"
+    }
+   ]
+  },
+  "getFcltyPrcurePlanList": {
+   "ok": true,
+   "code": "00",
+   "n": 100,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-D-00부대 설계용역(B558)</cntrwkNm><cntrwkNo>2026-16458</cntrwkNo><cntrwkSe>설계용역 </cntrwkSe><orderPrearngeMt>202610</",
+   "sample": [
+    {
+     "bidMth": "총액제",
+     "budgetAmount": "0",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-D-00부대 설계용역(B558)",
+     "cntrwkNo": "2026-16458",
+     "cntrwkSe": "설계용역",
+     "orderPrearngeMt": "202610",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    },
+    {
+     "bidMth": "내역입찰(종합심사)",
+     "budgetAmount": "0",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-U-0000 신축공사 건설사업관리용역(E022)",
+     "cntrwkNo": "2026-16683",
+     "cntrwkSe": "감리용역",
+     "orderPrearngeMt": "202610",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    },
+    {
+     "bidMth": "총액제",
+     "budgetAmount": "578948000",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-D-00부대 지반조사용역(B562)",
+     "cntrwkNo": "2026-16581",
+     "cntrwkSe": "기타용역",
+     "orderPrearngeMt": "202610",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    }
+   ]
+  },
+  "getPrcurePlanInfoList": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  "getPrcurePlanList": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  "getOutnatnPrcurePlanJdgmntList": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  "getOutnatnPrcurePlanJdgmntDetail": {
+   "ok": false,
+   "err": "HTTPError: HTTP Error 400: Bad Request"
+  }
+ }
+}
