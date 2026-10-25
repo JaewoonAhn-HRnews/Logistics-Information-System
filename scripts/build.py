@@ -120,7 +120,8 @@ def first_line(a, n=150):
 
 def digest(items, k):
     """대표 기사를 분야가 겹치지 않게 고른 요약 목록."""
-    ranked = sorted(items, key=weight, reverse=True)
+    news = [x for x in items if x.get("origin") != "api"] or items
+    ranked = sorted(news, key=weight, reverse=True)
     out, used = [], set()
     for d in ("lis", "wpn", "fcst"):
         a = next((x for x in ranked if d in x.get("domains", []) and x["id"] not in used), None)

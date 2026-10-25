@@ -401,6 +401,7 @@
         <div class="rg">${REGION_IDS.filter(r => p.regions?.[r]).map(r => `<span class="rbadge ${r}">${r.toUpperCase()} ${p.regions[r]}</span>`).join("")}</div><a href="#daily/${d}">이날 기사 →</a></div><div>${body}</div></div>`;
     }).join("");
   }
+  const IG_ICON = {"lis": "<path d=\"M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zm0 0v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3\"/>", "wpn": "<path d=\"M12 2l2.2 6.6H21l-5.4 4 2 6.6L12 15.3 6.4 19.2l2-6.6L3 8.6h6.8z\"/>", "fcst": "<path d=\"M3 20h18M5 16l4-5 4 3 6-8\"/><path d=\"M15 6h4v4\"/>"};
   function igHTML(key, s) {
     const d0 = new Date(s.start + "T00:00:00Z");
     const days = Array.from({ length: 7 }, (_, i) => { const d = new Date(d0.getTime() + i * 864e5).toISOString().slice(0, 10); return [d, PER.day[d]?.n || 0, "월화수목금토일"[i]]; });
@@ -423,6 +424,8 @@
           <div class="ig-leg">${DOM_IDS.map(d => `<div><i style="background:${dcol[d]}"></i>${esc(DM[d].name)} <b class="mono">${s.domains?.[d] || 0}</b></div>`).join("")}</div></div></div>
         <div class="ig-card"><h3>DAILY</h3><div class="ig-days">${days.map(([d, n, w]) => `<div><b>${n || ""}</b><i style="height:${n ? Math.max(6, n / dmax * 70) : 2}px"></i>${w}</div>`).join("")}</div></div>
       </div>
+      <div class="ig-heads">${(s.digest || []).slice(0, 3).map((x, i) => { const a = BYID[x.id] || {}; const line = a.ai_sum || x.s || ""; return `<div class="ig-head" style="--rc:${rc(x.r)}"><div class="ig-head-top"><span class="ig-rank">${i + 1}</span><svg viewBox="0 0 24 24" class="ig-ico" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${IG_ICON[x.d] || IG_ICON.wpn}</svg><span class="rbadge ${x.r}">${x.r.toUpperCase()}</span>${x.d ? `<span class="ig-dn">${esc(DM[x.d]?.name || "")}</span>` : ""}</div><div class="ig-ht">${esc(x.t)}</div>${line ? `<div class="ig-hs">${esc(line)}</div>` : ""}<div class="ig-hm">${esc(x.src)}${x.also ? ` 외 ${x.also}개 매체` : ""}</div></div>`; }).join("")}</div>
+      ${(s.rising || []).length ? `<div class="ig-rise"><span class="ig-rise-l">전주 대비 늘어난 키워드</span>${s.rising.slice(0, 6).map(([k, d, nw]) => `<span class="ig-rk">${esc(k)} <b>▲${d}</b>${nw ? '<em>NEW</em>' : ""}</span>`).join("")}</div>` : ""}
       <div class="ig-main">
         <div class="ig-card"><h3>TOP NEWS</h3><ol class="ig-top5">${(s.digest || []).slice(0, 5).map(x => `<li><div><div class="t">${esc(x.t)}</div><div class="m"><span class="rbadge ${x.r}">${x.r.toUpperCase()}</span>${x.d ? `<span>${esc(DM[x.d]?.name || "")}</span>` : ""}<span>${esc(x.src)}${x.also ? ` 외 ${x.also}개 매체` : ""}</span>${x.k === "contract" ? '<span style="color:#fbbf24">사업·계약</span>' : ""}</div></div></li>`).join("")}</ol></div>
         <div class="ig-card"><h3>KEYWORDS</h3><div class="ig-cloud">${(s.kw || []).slice(0, 14).map(([k, n]) => `<span style="font-size:${12 + Math.round(n / kmax * 14)}px;opacity:${.55 + n / kmax * .45}">${esc(k)}</span>`).join("")}</div>

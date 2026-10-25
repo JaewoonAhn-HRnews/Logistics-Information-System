@@ -2097,42 +2097,6 @@
    "desc_tried": true
   },
   {
-   "id": "89d2db6fe87b",
-   "date": "2026-10-20",
-   "ts": "2026-10-20T15:27",
-   "title": "김병주 의원, 민·군 협력 함정 MRO 확대 촉구",
-   "source": "글로벌뉴스통신GNA",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPUDRROG9xRWtjZ3NRMUFpTVdmWVk2Q0drM0RjRzQ1bTlqTWRlUVQ1Z3daQXVYTTBoNmU4ek1OZElhVWYweEtHR0w0NWpSQ0xlSUVxTGQ1U2N5cHdnb25nbjZ3XzhocEMtY1VVNXVxdk91cW5y?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 6.5,
-   "also": [
-    {
-     "source": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqSm12V25sLWZMNjROVGxqTWo1b0NmcmU1MTZfMTBuMWlVN0RPcDhSRkx4dFpLa01PMy1NbEZYVUJvQ2o5ak51MWRfXzJPSlVwYlh2V3pqTGdBNEhRWnlsQ3pqVThtQQ?oc=5",
-     "title": "김병주, 해군 정비인력 20년 뒤 절반..'민·군 협력 함정 MRO 확대 촉구"
-    }
-   ],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news",
-   "desc_tried": true
-  },
-  {
    "id": "fc18f751526c",
    "date": "2026-10-20",
    "ts": "2026-10-20T14:49",
@@ -2214,6 +2178,16 @@
      "source": "포인트데일리",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WbUg0MlBBVnowU040d0F6b05weGxWVnVkc0QzVW50SHE4YV9TT0wtQVBtY0FFaWhfNnFiTGZlV2tWS1AyVGk4NDFSQmo2UEhuN1EyNGpfN2ZnS1BqX2lqenNfX2lFRW0yRmkxVlE2NzfSAXRBVV95cUxPU0pYb3RTVmx2cjh2aWUzQ01NWDVwSExCMWtjVFdhaDVKc3RuQVFnQ0JJNzNVZnMxWmVMT19EaEZYQ2w0SndhNkJ6NXRnelRyM1lOWGhpc2ZGQ1YtSkVveEhXcHRBWl9RbGNvWGYwNE1IN0ctYg?oc=5",
      "title": "[2026 국감] 해군 정비인력 2045년 절반 감소 전망…김병주 “민·군 함정 MRO 확대해야”"
+    },
+    {
+     "source": "글로벌뉴스통신GNA",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPUDRROG9xRWtjZ3NRMUFpTVdmWVk2Q0drM0RjRzQ1bTlqTWRlUVQ1Z3daQXVYTTBoNmU4ek1OZElhVWYweEtHR0w0NWpSQ0xlSUVxTGQ1U2N5cHdnb25nbjZ3XzhocEMtY1VVNXVxdk91cW5y?oc=5",
+     "title": "김병주 의원, 민·군 협력 함정 MRO 확대 촉구"
+    },
+    {
+     "source": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqSm12V25sLWZMNjROVGxqTWo1b0NmcmU1MTZfMTBuMWlVN0RPcDhSRkx4dFpLa01PMy1NbEZYVUJvQ2o5ak51MWRfXzJPSlVwYlh2V3pqTGdBNEhRWnlsQ3pqVThtQQ?oc=5",
+     "title": "김병주, 해군 정비인력 20년 뒤 절반..'민·군 협력 함정 MRO 확대 촉구"
     }
    ],
    "origin": "rss",
@@ -2757,7 +2731,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.0,
+   "score": 4.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -3645,7 +3619,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 4.0,
    "also": [
     {
      "source": "뉴스1",

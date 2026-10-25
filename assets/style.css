@@ -480,3 +480,18 @@ th { color: var(--muted); font-weight: 600; font-size: 12px; position: sticky; t
 @media (max-width: 900px) { .case-body, .case-cols { grid-template-columns: 1fr; } .case-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .dday .dd .rbadge { color: #fff; font-size: 10px; } .ig-donut { width: 112px; height: 112px; flex: none; } .ig-donut svg { width: 112px; height: 112px; display: block; }
 .ai-tag { font-size: 10.5px; font-weight: 600; padding: 0 6px; border-radius: 3px; background: color-mix(in srgb, #8b5cf6 15%, transparent); color: #8b5cf6; white-space: nowrap; vertical-align: 1px; }
+.ig-heads { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.ig-head { background: linear-gradient(160deg, rgba(14, 30, 56, .92), rgba(8, 20, 38, .85)); border: 1px solid rgba(148, 197, 255, .18); border-top: 3px solid var(--rc); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; }
+.ig-head-top { display: flex; gap: 8px; align-items: center; }
+.ig-rank { font-family: var(--font-mono); font-size: 26px; font-weight: 700; color: #5eead4; line-height: 1; }
+.ig-ico { width: 22px; height: 22px; color: #9cc9ff; }
+.ig-dn { font-size: 11px; color: #9fb3cc; }
+.ig-ht { font-size: 15px; font-weight: 700; color: #f2f7ff; line-height: 1.4; }
+.ig-hs { font-size: 13px; color: #c6d6ea; line-height: 1.6; }
+.ig-hm { font-size: 11px; color: #7f95b0; font-family: var(--font-mono); }
+.ig-rise { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.ig-rise-l { font-family: var(--font-mono); font-size: 11px; letter-spacing: .1em; color: #8ea3bd; margin-right: 4px; }
+.ig-rk { font-size: 12.5px; color: #dbe7f6; background: rgba(74, 222, 128, .1); border: 1px solid rgba(74, 222, 128, .3); padding: 3px 9px; border-radius: 999px; }
+.ig-rk b { color: #4ade80; font-family: var(--font-mono); font-weight: 600; margin-left: 2px; }
+.ig-rk em { font-style: normal; font-size: 9.5px; color: #fbbf24; margin-left: 4px; font-family: var(--font-mono); }
+@media (max-width: 900px) { .ig-heads { grid-template-columns: 1fr; } }

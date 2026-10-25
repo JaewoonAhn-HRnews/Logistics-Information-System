@@ -151,8 +151,10 @@ def same_story(a, b):
         th, th_c = 0.5, 0.3
     if not ga or not gb:
         return False
-    j = len(ga & gb) / len(ga | gb)
-    return j >= th or (bool(common) and j >= th_c)
+    inter = len(ga & gb)
+    j = inter / len(ga | gb)
+    contain = inter / min(len(ga), len(gb))  # 짧은 제목이 긴 제목에 거의 포함되면 같은 기사
+    return j >= th or (bool(common) and j >= th_c) or (min(len(ga), len(gb)) >= 8 and contain >= 0.8)
 
 
 def is_relevant(text, ctx_assumed=False, min_score=4.0):
