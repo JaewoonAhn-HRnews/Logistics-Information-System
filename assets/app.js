@@ -13,7 +13,7 @@
   const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 2600); };
 
   let IDX, PER, TR, TAX, CAT = {}, AX = {}, RG = {}, DM = {};
-  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {};
+  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {}, WB = {};
   let BASE = [];          // 서버 기사(월 파일)
   let ARTS = [];          // DB 반영 후 기사
   let BYID = {};
@@ -45,6 +45,7 @@
     SRCS = sj.sources || []; FST = fj || { sources: {} };
     CASES = (await j("data/cases.json", { cases: [] })).cases || [];
     SUMS = await j("data/article_sums.json", {});
+    WB = await j("data/weekly_briefs.json", {});
     const files = await Promise.all(IDX.files.map(f => j("data/news/" + f, { articles: [] })));
     BASE = files.flatMap(f => f.articles || []);
     const [ad, ov, cl] = await Promise.all([j("data/db/added.json", null), j("data/db/overrides.json", null), j("data/db/changelog.json", null)]);
@@ -160,6 +161,7 @@
     d.innerHTML = `<button class="ibtn x" id="dx" aria-label="닫기">✕</button>
       <div class="eyebrow">${a.lang === "ko" ? "국내" : "해외"} · ${esc(a.source)} · ${esc(a.date)}</div>
       <h2 style="font-size:20px">${esc(a.title)}</h2>
+      ${SUMS[id]?.p ? `<div>${newsCard(a, 1, true)}<div class="ig-actions" style="margin-top:6px"><button class="btn ghost" type="button" id="nc-save">뉴스 카드 이미지로 저장</button></div></div>` : ""}
       ${a.ai_sum ? `<div><h3>AI 요약 <span class="ai-tag">${a.ai_basis === "제목" ? "제목 기준" : "원문 발췌 기준"}</span></h3><p class="card-sum" style="font-size:14.5px">${esc(a.ai_sum)}</p></div>` : ""}
       ${a.summary ? `<div><h3>원문 발췌</h3><p class="card-sum" style="font-size:14px">${esc(a.summary)}</p></div>` : (a.ai_sum ? "" : '<p class="note">요약 없음(원문 발췌를 못 가져온 기사). 다음 정리 때 AI 요약이 추가됩니다.</p>')}
       <div class="tags">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name)}</span>` : ""}${(a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
@@ -171,6 +173,7 @@
       ${rel.length ? `<div><h3>관련 기사</h3><div class="cards">${rel.map(r => card(r[0], { compact: true })).join("")}</div></div>` : ""}`;
     d.hidden = false; $("#scrim").hidden = false;
     $("#dx").onclick = closeDrawer;
+    const ncs = $("#nc-save"); if (ncs) ncs.onclick = () => savePNG("#nc-card", `뉴스카드_${a.date}_${id}.png`, "#ffffff");
     $("#d-pin").onclick = () => { togglePin(id); openDrawer(id); };
     $("#d-hide").onclick = () => { mutate(w => { if (!w.overrides.hidden.includes(id)) w.overrides.hidden.push(id); }, "숨김", id, a.title); closeDrawer(); toast("숨겼습니다. 데이터 관리에서 되돌릴 수 있습니다."); };
     $("#d-save").onclick = () => { const v = $("#d-note").value.trim(); mutate(w => { if (v) w.overrides.notes[id] = v; else delete w.overrides.notes[id]; }, v ? "메모" : "메모 삭제", id, a.title); toast("메모를 저장했습니다(로컬)."); openDrawer(id); };
@@ -295,7 +298,7 @@
         <button class="navbtn" id="p-next" ${i <= 0 ? "disabled" : ""} aria-label="다음">›</button>
         <span class="note">기록이 있는 기간만 표시 · 전체 ${keys.length}개</span>
       </div>
-      ${kind === "week" ? igHTML(key, s) : ""}
+      ${kind === "week" ? briefHTML(key, s) + igHTML(key, s) : ""}
       <div class="grid-2">
         <div class="panel">
           <h2>${esc(s.label)}</h2>
@@ -321,6 +324,7 @@
           <h3 style="margin-top:16px">과제 축 연계</h3><div class="chips" style="margin-top:8px">${TAX.axes.map(a => `<a class="chip" href="#project">${esc(a.name)}<span class="n">${s.axes?.[a.id] || 0}</span></a>`).join("")}</div>
           <h3 style="margin-top:16px">주요 매체</h3><div class="chips small" style="margin-top:8px">${(s.sources || []).map(([x, n]) => `<span class="chip">${esc(x)}<span class="n">${n}</span></span>`).join("")}</div></div>
       </div>
+      ${(() => { const cards = items.filter(x => x.origin !== "api" && SUMS[x.id]?.p).sort((x, y) => (y.score || 0) - (x.score || 0)).slice(0, kind === "day" ? 12 : 9); return cards.length ? `<div class="panel"><div class="sec-head"><h2>뉴스 카드 <span class="note mono">${cards.length}건</span></h2><span class="note">기사별 핵심을 한 장으로 · AI 정리</span></div><div class="nc-grid">${cards.map((x, i) => newsCard(x, i + 1)).join("")}</div></div>` : ""; })()}
       <div class="panel">
         <div class="sec-head"><h2>기사 목록 <span class="note mono">${items.length}건</span></h2>
           <div class="chips small" id="p-filt"><button class="chip ${filt ? "" : "on"}" data-c="">전체</button>${Object.keys(s.cats).map(c => `<button class="chip ${filt === c ? "on" : ""}" data-c="${c}">${esc(catName(c))}<span class="n">${s.cats[c]}</span></button>`).join("")}</div></div>
@@ -328,6 +332,7 @@
       </div>`;
     const go = k => { location.hash = `#${M.v}/${k}`; };
     const igb = $("#ig-save", sec); if (igb) igb.onclick = () => saveIG(key);
+    const wbb = $("#wb-save", sec); if (wbb) wbb.onclick = () => savePNG("#wb-card", `주간브리핑_${key}.png`, "#ffffff");
     $("#p-sel", sec).onchange = e => go(e.target.value);
     $("#p-prev", sec).onclick = () => go(keys[i + 1]);
     $("#p-next", sec).onclick = () => go(keys[i - 1]);
@@ -385,6 +390,44 @@
   }
 
 
+
+
+  // ---------- NEWS CARDS / WEEKLY BRIEFING (light infographic) ----------
+  const NI = {"org": "<circle cx=\"12\" cy=\"4.5\" r=\"2.2\"/><path d=\"M8.5 10.5c0-2 1.6-3.4 3.5-3.4s3.5 1.4 3.5 3.4\"/><path d=\"M12 10.5v2.5M5 16v-2.5h14V16\"/><circle cx=\"5\" cy=\"18\" r=\"1.8\"/><circle cx=\"19\" cy=\"18\" r=\"1.8\"/><circle cx=\"12\" cy=\"18\" r=\"2.4\"/><path d=\"M12 15.6v-1M12 20.4v1M9.6 18h-1M15.4 18h-1\"/>", "network": "<path d=\"M3 7l9-4 9 4-9 4z\"/><path d=\"M3 11l9 4 4-1.8\"/><path d=\"M3 15l9 4 3-1.3\"/><circle cx=\"19\" cy=\"14\" r=\"1.8\"/><circle cx=\"19\" cy=\"20\" r=\"1.8\"/><circle cx=\"15.5\" cy=\"17\" r=\"1.8\"/><path d=\"M17.2 14.9l-.6.9M17.2 19.1l-.6-.9\"/>", "target": "<path d=\"M3 7V3h4M17 3h4v4M21 17v4h-4M7 21H3v-4\"/><circle cx=\"12\" cy=\"12\" r=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"1.6\" fill=\"currentColor\"/><path d=\"M12 5v2.5M12 16.5V19M5 12h2.5M16.5 12H19\"/>", "learn": "<circle cx=\"12\" cy=\"5\" r=\"2.6\"/><path d=\"M7.5 12.5c0-2.4 2-4.2 4.5-4.2s4.5 1.8 4.5 4.2\"/><path d=\"M3 13.5c3-.8 6 0 9 2 3-2 6-2.8 9-2v7c-3-.8-6 0-9 2-3-2-6-2.8-9-2z\"/><path d=\"M12 15.5v7\"/>", "policy": "<path d=\"M6 3h9l4 4v8\"/><path d=\"M15 3v4h4\"/><path d=\"M6 3v18h7\"/><path d=\"M9 9h6M9 12h6M9 15h3\"/><path d=\"M17 14l4 1.5v3c0 2-1.8 3.2-4 4-2.2-.8-4-2-4-4v-3z\"/><path d=\"M15.4 18.4l1.2 1.2 2.2-2.4\"/>", "shield": "<path d=\"M12 2.5l8 3v6c0 5-3.6 8.6-8 10-4.4-1.4-8-5-8-10v-6z\"/><rect x=\"8.5\" y=\"11\" width=\"7\" height=\"5.5\" rx=\"1\"/><path d=\"M10 11V9.5a2 2 0 014 0V11\"/>", "gear": "<circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1\"/>", "chart": "<path d=\"M3 21h18\"/><rect x=\"5\" y=\"12\" width=\"3\" height=\"6\"/><rect x=\"10.5\" y=\"8\" width=\"3\" height=\"10\"/><rect x=\"16\" y=\"4\" width=\"3\" height=\"14\"/><path d=\"M4 9l5-4 4 2 7-5\"/>", "truck": "<path d=\"M2 6h11v10H2zM13 9h5l3 3.5V16h-8\"/><circle cx=\"6\" cy=\"17.5\" r=\"1.8\"/><circle cx=\"17\" cy=\"17.5\" r=\"1.8\"/>", "plane": "<path d=\"M12 2c.8 0 1.4.8 1.4 2v5l7.6 4.5v2l-7.6-2.2V18l2.2 1.8V21L12 20l-3.6 1v-1.2l2.2-1.8v-4.7L3 15.5v-2L10.6 9V4c0-1.2.6-2 1.4-2z\"/>", "ship": "<path d=\"M3 15l2 5h14l2-5z\"/><path d=\"M6 15V10h12v5\"/><path d=\"M9 10V6h6v4M12 3v3\"/><path d=\"M2 21.5c2 0 2-1 4-1s2 1 4 1 2-1 4-1 2 1 4 1 2-1 4-1\"/>", "data": "<ellipse cx=\"12\" cy=\"5\" rx=\"8\" ry=\"2.6\"/><path d=\"M4 5v14c0 1.4 3.6 2.6 8 2.6s8-1.2 8-2.6V5\"/><path d=\"M4 12c0 1.4 3.6 2.6 8 2.6s8-1.2 8-2.6\"/>", "money": "<rect x=\"2.5\" y=\"6\" width=\"19\" height=\"12\" rx=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M6 9v.01M18 15v.01\"/>", "robot": "<rect x=\"5\" y=\"8\" width=\"14\" height=\"11\" rx=\"2.5\"/><circle cx=\"9.5\" cy=\"13\" r=\"1.4\"/><circle cx=\"14.5\" cy=\"13\" r=\"1.4\"/><path d=\"M12 8V4.5M10 4.5h4M9.5 16.5h5M3 12v3M21 12v3\"/>", "tank": "<path d=\"M3 14h18l-1.5 3.5h-15z\"/><circle cx=\"6.5\" cy=\"17.5\" r=\"1.4\"/><circle cx=\"12\" cy=\"17.5\" r=\"1.4\"/><circle cx=\"17.5\" cy=\"17.5\" r=\"1.4\"/><path d=\"M6 14v-3h9v3M10 11V9h4M14 10h7\"/>", "parts": "<circle cx=\"9\" cy=\"9\" r=\"4\"/><circle cx=\"9\" cy=\"9\" r=\"1.4\"/><path d=\"M9 3.5v1.5M9 13v1.5M3.5 9H5M13 9h1.5\"/><path d=\"M14 14l6.5 6.5M16 18.5l2.5-2.5\"/><circle cx=\"18\" cy=\"6\" r=\"2.5\"/>"};
+  const nIcon = k => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${NI[k] || NI.gear}</svg>`;
+  function newsCard(a, no, big) {
+    const c = SUMS[a.id];
+    if (!c || !c.p) return "";
+    return `<div class="nc ${big ? "big" : ""}" ${big ? 'id="nc-card"' : ""}>
+      <div class="nc-top"><span class="nc-no">${String(no || 1).padStart(2, "0")}</span><span class="nc-cat">${esc(c.c || "")}</span><span class="nc-ico">${nIcon(c.i)}</span></div>
+      <div class="nc-h">${esc(c.h || a.title)}</div>
+      <ul class="nc-p">${(c.p || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <div class="nc-f"><span class="rbadge ${a.region}">${esc(RG[a.region]?.name || "")}</span><span>${esc(a.source || "")} · ${esc(a.date)}</span>${big ? "" : `<a href="#" data-nc="${a.id}">자세히</a>`}</div>
+    </div>`;
+  }
+  document.addEventListener("click", e => { const x = e.target.closest("[data-nc]"); if (x) { e.preventDefault(); openDrawer(x.dataset.nc); } });
+  function briefHTML(key, s) {
+    const b = WB[key];
+    if (!b || !b.themes) return "";
+    const circ = n => "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"[n - 1] || n;
+    const nmap = {}; let nn = 0;
+    b.themes.forEach(t => (t.ids || []).forEach(id => { if (!nmap[id]) nmap[id] = ++nn; }));
+    return `<div class="wb-wrap"><div class="wb" id="wb-card">
+      <div class="wb-head"><h2>국방 군수·AI 주간 브리핑</h2><div class="wb-meta">${esc(s.start.replace(/-/g, ". "))}.–${esc(s.end.slice(5).replace("-", ". "))}. | ${esc(key.replace("-W", "년 ") + "주차")} · ${b.themes.length}개 주제 · ${b.n || s.n}개 기사</div></div>
+      <div class="wb-core"><span>이번 주 핵심</span><b>${esc(b.core || "")}</b></div>
+      <div class="wb-grid">${b.themes.map((t, i) => `<div class="wb-t"><div class="wb-t-top"><span class="wb-no">${String(i + 1).padStart(2, "0")}</span><span class="wb-cat">${esc(t.cat || "")}</span></div>
+        <div class="wb-t-body"><div><div class="wb-h">${esc(t.head || "")}</div><ul>${(t.points || []).map(p => `<li>${esc(p)}</li>`).join("")}</ul></div><div class="wb-ico">${nIcon(t.icon)}</div></div>
+        <div class="wb-refs">관련 기사 ${(t.ids || []).map(id => `<a href="#" data-nc="${id}" title="${esc(BYID[id]?.title || "")}">${circ(nmap[id])}</a>`).join("")}</div></div>`).join("")}</div>
+      ${(b.recs || []).length ? `<div class="wb-recs"><div class="wb-recs-h">우리 군의 의사결정 과제 | 정책적 제언</div><div class="wb-recs-b">${b.recs.map((r, i) => `<div class="wb-r"><span>${i + 1}</span><div><b>${esc(r.t)}</b><p>${esc(r.d)}</p></div></div>`).join("")}</div></div>` : ""}
+      <div class="wb-src">출처: 군수정보 인텔리전스 자동 수집 기사 ${b.n || s.n}건 · AI 정리(${esc(b.at || "")}) · 관련 기사 번호를 누르면 원문 정보가 열립니다</div>
+    </div><div class="ig-actions"><button class="btn ghost" type="button" id="wb-save">주간 브리핑 이미지로 저장(PNG)</button></div></div>`;
+  }
+  async function savePNG(sel, name, bg) {
+    const el = $(sel);
+    if (!el || !window.html2canvas) { toast("이미지 저장 도구를 불러오지 못했습니다."); return; }
+    const c = await html2canvas(el, { scale: 2, backgroundColor: bg || "#ffffff", useCORS: true });
+    const a = document.createElement("a"); a.href = c.toDataURL("image/png"); a.download = name; a.click();
+  }
 
   // ---------- DAILY FEED / INFOGRAPHIC / CASES ----------
   const DOW = "일월화수목금토";

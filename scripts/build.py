@@ -237,41 +237,49 @@ def ai_brief(kind, label, items):
         return None
 
 
+ICONS = ["org", "network", "target", "learn", "policy", "shield", "gear", "chart", "truck", "plane", "ship", "data", "money", "robot", "tank", "parts"]
+
+
+def _claude(prompt, max_tokens=3000):
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5-5"
+    body = json.dumps({"model": model, "max_tokens": max_tokens, "messages": [{"role": "user", "content": prompt}]}).encode()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    with urllib.request.urlopen(req, timeout=150) as r:
+        res = json.loads(r.read())
+    txt = "".join(b.get("text", "") for b in res.get("content", []))
+    m = re.search(r"\{.*\}", txt, re.S)
+    return json.loads(m.group(0)) if m else {}
+
+
 def ai_article_summaries(arts, limit=160):
-    """기사별 한국어 1~2문장 요약(Claude). data/article_sums.json에 캐시해 한 번만 생성."""
+    """기사별 요약 + 미니 인포그래픽 카드(분야 라벨·한 줄 제목·핵심 3줄·아이콘). data/article_sums.json에 캐시."""
     path = DATA / "article_sums.json"
     cache = load_json(path, {})
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if key:
-        model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5-5"
-        todo = [a for a in arts if a["id"] not in cache and a.get("src") not in ("samgov", "d2b-api")
-                and not re.search(r"[가-힣]{8,}", a.get("summary") or "")][:limit]
-        for i in range(0, len(todo), 20):
-            chunk = todo[i:i + 20]
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        todo = [a for a in arts if a.get("src") not in ("samgov", "d2b-api") and not cache.get(a["id"], {}).get("p")][:limit]
+        for i in range(0, len(todo), 15):
+            chunk = todo[i:i + 15]
             items = [{"id": a["id"], "title": a["title"], "source": a.get("source", ""), "date": a["date"], "text": (a.get("summary") or "")[:450]}
                      for a in chunk]
-            prompt = ("다음은 국방 군수·정비·군수정보체계 관련 기사 목록(JSON)입니다. 각 기사를 한국어 1~2문장(최대 120자)으로 요약하세요.\n"
-                      "규칙: 주어진 제목·본문 발췌에 있는 사실만 쓰고 추측하지 마세요. 본문 발췌(text)가 비어 있으면 제목을 자연스러운 한국어로 풀어 쓰는 정도로만 쓰세요. "
-                      "고유명사(기관·체계·기업)는 유지하세요.\n"
-                      '출력: JSON 객체 하나만. 형식 {"<id>": {"s": "요약", "b": "본문" 또는 "제목"}}\n\n' + json.dumps(items, ensure_ascii=False))
-            body = json.dumps({"model": model, "max_tokens": 3000, "messages": [{"role": "user", "content": prompt}]}).encode()
-            req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
-                "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+            prompt = ("다음은 국방 군수·정비·군수정보체계 관련 기사 목록(JSON)입니다. 기사마다 뉴스 카드용 정보를 한국어로 만드세요.\n"
+                      "필드: s=1~2문장 요약(최대 120자), c=분야 라벨 2~6자(예: 조직·투자, 획득·계약, 예측정비, 수리부속, 정비인력, 정보체계, 공급망, 정책·예산), "
+                      "h=핵심 한 줄 제목(최대 20자, 명사형으로 끝맺기), p=핵심 포인트 3개 배열(각 최대 26자, 명사형), "
+                      f"i=아이콘 하나({', '.join(ICONS)} 중), b=근거('본문' 또는 '제목').\n"
+                      "규칙: 주어진 제목·본문 발췌에 있는 사실만 쓰고 추측하지 마세요. 발췌가 없으면 제목에서 알 수 있는 범위로만 쓰고 포인트를 2개로 줄여도 됩니다. 고유명사·숫자는 유지하세요.\n"
+                      '출력: JSON 객체 하나만. {"<id>": {"s": "", "c": "", "h": "", "p": ["", "", ""], "i": "", "b": ""}}\n\n'
+                      + json.dumps(items, ensure_ascii=False))
             try:
-                with urllib.request.urlopen(req, timeout=120) as r:
-                    res = json.loads(r.read())
-                txt = "".join(b.get("text", "") for b in res.get("content", []))
-                m = re.search(r"\{.*\}", txt, re.S)
-                got = json.loads(m.group(0)) if m else {}
+                got = _claude(prompt, 4000)
                 now = now_kst().strftime("%Y-%m-%d %H:%M")
                 for a in chunk:
                     v = got.get(a["id"])
                     if isinstance(v, dict) and v.get("s"):
-                        cache[a["id"]] = {"s": v["s"].strip(), "b": v.get("b", ""), "at": now}
-                    elif isinstance(v, str) and v.strip():
-                        cache[a["id"]] = {"s": v.strip(), "b": "", "at": now}
+                        cache[a["id"]] = {"s": v["s"].strip(), "b": v.get("b", ""), "c": (v.get("c") or "")[:10], "h": (v.get("h") or "")[:30],
+                                          "p": [str(x)[:40] for x in (v.get("p") or [])][:3], "i": v.get("i") if v.get("i") in ICONS else "gear", "at": now}
             except Exception as e:  # noqa: BLE001
-                print(f"  ! 기사 요약 실패: {e}", file=sys.stderr)
+                print(f"  ! 기사 카드 생성 실패: {e}", file=sys.stderr)
                 break
         save_json(path, cache)
     n = 0
@@ -282,6 +290,46 @@ def ai_article_summaries(arts, limit=160):
             a["ai_basis"] = v.get("b", "")
             n += 1
     print(f"기사 요약 {n}건 적용")
+    return cache
+
+
+def ai_weekly_briefings(groups, periods, recent=3):
+    """주간 브리핑(첨부 양식): 이번 주 핵심 한 줄 + 주제 카드 6개 + 정책 제언 3개. data/weekly_briefs.json 캐시."""
+    import hashlib as _h
+    path = DATA / "weekly_briefs.json"
+    cache = load_json(path, {})
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        sums = load_json(DATA / "article_sums.json", {})
+        for k in sorted(periods["week"])[-recent:]:
+            items = [a for a in groups["week"][k] if a.get("origin") != "api"]
+            items = sorted(items, key=weight, reverse=True)[:40]
+            if len(items) < 3:
+                continue
+            h = _h.sha1("|".join(sorted(a["id"] for a in items)).encode()).hexdigest()[:10]
+            if cache.get(k, {}).get("h") == h or cache.get(k, {}).get("manual"):
+                continue
+            lines = [{"n": i + 1, "id": a["id"], "date": a["date"], "region": T.REGION_NAME.get(a.get("region"), ""), "title": a["title"],
+                      "summary": (sums.get(a["id"], {}).get("s") or a.get("summary") or "")[:200]} for i, a in enumerate(items)]
+            prompt = (f"다음은 '{periods['week'][k]['label']}' 국방 군수·정비·군수정보체계·AI 관련 기사 {len(lines)}건(JSON)입니다.\n"
+                      "이를 한 장짜리 '주간 브리핑 인포그래픽'으로 정리하세요. 출력은 JSON 객체 하나만.\n"
+                      '{"core": "이번 주 핵심 한 문장(최대 34자)", "themes": [{"no": 1, "cat": "분야 라벨(예: 조직·투자)", "head": "주제 제목(최대 18자)", '
+                      '"points": ["포인트(최대 28자)", "", ""], "icon": "아이콘", "refs": [기사 번호들]}], "recs": [{"t": "제언 제목(최대 12자)", "d": "설명(최대 30자)"}]}\n'
+                      f"규칙: themes는 4~6개, 비슷한 기사는 하나의 주제로 묶고 refs에 기사 번호(n)를 넣으세요. icon은 {', '.join(ICONS)} 중 하나. "
+                      "recs는 3개로, 우리 군(국방군수통합정보체계, 무기체계 신뢰도·수리부속·정비인력 예측) 관점의 의사결정 과제를 쓰세요. "
+                      "기사에 없는 사실은 쓰지 말고, 포인트는 명사형으로 짧게.\n\n" + json.dumps(lines, ensure_ascii=False))
+            try:
+                got = _claude(prompt, 3000)
+                if got.get("themes"):
+                    idmap = {l["n"]: l["id"] for l in lines}
+                    for t in got["themes"]:
+                        t["ids"] = [idmap[r] for r in t.get("refs", []) if isinstance(r, int) and r in idmap]
+                        if t.get("icon") not in ICONS:
+                            t["icon"] = "gear"
+                    got.update(h=h, at=now_kst().strftime("%Y-%m-%d %H:%M"), n=len(lines))
+                    cache[k] = got
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! 주간 브리핑 실패({k}): {e}", file=sys.stderr)
+        save_json(path, cache)
     return cache
 
 
@@ -485,6 +533,7 @@ def main():
     save_json(DATA / "index.json", index)
     save_json(DATA / "periods.json", periods, compact=True)
     save_json(DATA / "trends.json", trends, compact=True)
+    ai_weekly_briefings(groups, periods)
     export_csv(arts, periods)
     print(f"기사 {len(arts)}건 · 일 {len(periods['day'])} · 주 {len(periods['week'])} · 월 {len(periods['month'])} · 연 {len(periods['year'])}")
 
