@@ -110,7 +110,7 @@ def weight(a):
 
 
 def first_line(a, n=150):
-    sm = (a.get("summary") or "").strip()
+    sm = (a.get("ai_sum") or a.get("summary") or "").strip()
     if sm:
         m = re.split(r"(?<=[.!?。])\s+|(?<=다\.)\s*", sm)
         line = (m[0] if m and m[0] else sm).strip()
@@ -236,6 +236,54 @@ def ai_brief(kind, label, items):
         return None
 
 
+def ai_article_summaries(arts, limit=160):
+    """기사별 한국어 1~2문장 요약(Claude). data/article_sums.json에 캐시해 한 번만 생성."""
+    path = DATA / "article_sums.json"
+    cache = load_json(path, {})
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if key:
+        model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5-5"
+        todo = [a for a in arts if a["id"] not in cache and a.get("src") not in ("samgov", "d2b-api")
+                and not re.search(r"[가-힣]{8,}", a.get("summary") or "")][:limit]
+        for i in range(0, len(todo), 20):
+            chunk = todo[i:i + 20]
+            items = [{"id": a["id"], "title": a["title"], "source": a.get("source", ""), "date": a["date"], "text": (a.get("summary") or "")[:450]}
+                     for a in chunk]
+            prompt = ("다음은 국방 군수·정비·군수정보체계 관련 기사 목록(JSON)입니다. 각 기사를 한국어 1~2문장(최대 120자)으로 요약하세요.\n"
+                      "규칙: 주어진 제목·본문 발췌에 있는 사실만 쓰고 추측하지 마세요. 본문 발췌(text)가 비어 있으면 제목을 자연스러운 한국어로 풀어 쓰는 정도로만 쓰세요. "
+                      "고유명사(기관·체계·기업)는 유지하세요.\n"
+                      '출력: JSON 객체 하나만. 형식 {"<id>": {"s": "요약", "b": "본문" 또는 "제목"}}\n\n' + json.dumps(items, ensure_ascii=False))
+            body = json.dumps({"model": model, "max_tokens": 3000, "messages": [{"role": "user", "content": prompt}]}).encode()
+            req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
+                "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    res = json.loads(r.read())
+                txt = "".join(b.get("text", "") for b in res.get("content", []))
+                m = re.search(r"\{.*\}", txt, re.S)
+                got = json.loads(m.group(0)) if m else {}
+                now = now_kst().strftime("%Y-%m-%d %H:%M")
+                for a in chunk:
+                    v = got.get(a["id"])
+                    if isinstance(v, dict) and v.get("s"):
+                        cache[a["id"]] = {"s": v["s"].strip(), "b": v.get("b", ""), "at": now}
+                    elif isinstance(v, str) and v.strip():
+                        cache[a["id"]] = {"s": v.strip(), "b": "", "at": now}
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! 기사 요약 실패: {e}", file=sys.stderr)
+                break
+        save_json(path, cache)
+    n = 0
+    for a in arts:
+        v = cache.get(a["id"])
+        if v:
+            a["ai_sum"] = v["s"]
+            a["ai_basis"] = v.get("b", "")
+            n += 1
+    print(f"기사 요약 {n}건 적용")
+    return cache
+
+
 def export_csv(arts, periods):
     """구글 시트 등 외부 DB 연동용 CSV(UTF-8). data/export/ 에 매 정리 때 덮어씀."""
     import csv
@@ -245,13 +293,13 @@ def export_csv(arts, periods):
     with open(out / "articles.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["id", "날짜", "지역", "분야", "유형", "언어", "매체", "함께보도", "제목", "요약", "키워드", "기관·기업·체계",
-                    "과제축", "관련도", "수집방식", "URL"])
+                    "과제축", "관련도", "수집방식", "URL", "AI 요약"])
         for a in arts:
             w.writerow([a["id"], a["date"], T.REGION_NAME.get(a.get("region"), ""), "|".join(DOM.get(d, d) for d in a.get("domains", [])),
                         T.KIND_NAME.get(a.get("kind", "news"), "뉴스"), "국문" if a.get("lang") == "ko" else "영문", a.get("source", ""),
                         "|".join(x["source"] for x in a.get("also", [])), a.get("title", ""), a.get("summary", ""),
                         "|".join(a.get("kw", [])), "|".join(a.get("ents", [])), "|".join(AXIS_NAME.get(x, x) for x in a.get("axes", [])),
-                        a.get("score", ""), a.get("origin", ""), a.get("url", "")])
+                        a.get("score", ""), a.get("origin", ""), a.get("url", ""), a.get("ai_sum", "")])
     UNIT = {"day": "일간", "week": "주간", "month": "월간", "year": "연간"}
     with open(out / "summaries.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
@@ -268,6 +316,7 @@ def export_csv(arts, periods):
 
 def main():
     arts, files = load_all()
+    ai_article_summaries(arts)
     by_id = {a["id"]: a for a in arts}
     now = now_kst()
     today = now.date()

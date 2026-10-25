@@ -122,6 +122,71 @@ def parse_feed(xml_bytes, lang_default, meta):
     return out
 
 
+_META_RE = [re.compile(r'<meta[^>]+(?:property|name)=["\'](?:og:description|description|twitter:description)["\'][^>]*content=["\']([^"\']{40,})["\']', re.I),
+            re.compile(r'<meta[^>]+content=["\']([^"\']{40,})["\'][^>]*(?:property|name)=["\'](?:og:description|description|twitter:description)["\']', re.I)]
+
+
+def page_description(url):
+    """기사 원문 페이지의 소개 문구(og:description 등). Google 뉴스 링크는 실제 기사 주소를 찾아 한 번 더 시도."""
+    for _ in range(2):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
+                                                       "Accept-Language": "ko,en;q=0.8"})
+            with urllib.request.urlopen(req, timeout=8) as r:
+                final = r.geturl()
+                html_txt = r.read(400_000).decode(r.headers.get_content_charset() or "utf-8", "replace")
+        except Exception:  # noqa: BLE001
+            return ""
+        if "news.google.com" in final:
+            m = re.search(r'data-n-au="(https?://[^"]+)"', html_txt) or re.search(r'<a[^>]+href="(https?://(?!news\.google)[^"]+)"', html_txt)
+            if m:
+                url = html.unescape(m.group(1))
+                continue
+            return ""
+        for rx in _META_RE:
+            m = rx.search(html_txt)
+            if m:
+                d = strip_tags(html.unescape(m.group(1)))
+                if len(d) >= 40 and "Google News" not in d:
+                    return d[:450]
+        return ""
+    return ""
+
+
+def enrich(raws, limit=60):
+    """요약이 빈 기사에 원문 소개 문구를 채움(병렬, 실행당 최대 limit건)."""
+    from concurrent.futures import ThreadPoolExecutor
+    todo = [r for r in raws if not r.get("summary") and r.get("url")][:limit]
+    if not todo:
+        return 0
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for r, d in zip(todo, ex.map(lambda x: page_description(x["url"]), todo)):
+            if d:
+                r["summary"] = d
+    return sum(1 for r in todo if r.get("summary"))
+
+
+def backfill_descriptions(limit=40):
+    """이미 저장된 기사 중 요약이 빈 것을 최신순으로 원문 소개 문구 보강(한 기사당 1회만 시도)."""
+    stores = {p: load_json(p, {"articles": []}) for p in NEWS.glob("*.json")}
+    todo = sorted([(p, a) for p, d in stores.items() for a in d["articles"]
+                   if not a.get("summary") and not a.get("desc_tried") and a.get("url") and a.get("origin") == "rss"],
+                  key=lambda x: x[1].get("ts", ""), reverse=True)[:limit]
+    if not todo:
+        return
+    raws = [{"url": a["url"], "summary": ""} for _, a in todo]
+    enrich(raws, limit)
+    touched = set()
+    for (p, a), r in zip(todo, raws):
+        a["desc_tried"] = True
+        if r["summary"]:
+            a["summary"] = r["summary"]
+        touched.add(p)
+    for p in touched:
+        save_json(p, stores[p])
+    print(f"- 기존 기사 소개 문구 보강 {sum(1 for r in raws if r['summary'])}/{len(raws)}건")
+
+
 def to_article(raw, origin="rss"):
     text = f"{raw['title']} {raw.get('summary', '')}"
     c = full_classify(text, raw["lang"], raw.get("hint"))
@@ -174,7 +239,10 @@ def merge(articles):
 
 
 # ---------- SAM.gov ----------
-SAM_TERMS = ["logistics", "sustainment", "spare", "parts", "maintenance", "repair", "overhaul", "supply chain", "predictive", "depot", "erp", "readiness", "mro"]
+SAM_TERMS = ["sustainment", "logistics", "predictive", "maintenance services", "maintenance support", "depot", "overhaul", "supply chain",
+             "erp", "readiness", "mro", "availabilit", "life cycle", "lifecycle", "condition based", "fleet maintenance", "spares"]
+SAM_EXCLUDE = ["in repair/modification of", "landscap", "grounds maintenance", "dredg", "fueling", "custodial", "janitorial", "hvac",
+               "elevator", "roof", "paving", "medical", "dental", "food", "lodging", "laundry"]
 
 
 def collect_sam(days, status):
@@ -204,7 +272,9 @@ def collect_sam(days, status):
     for o in data.get("opportunitiesData") or []:
         path = (o.get("fullParentPathName") or "").upper()
         title = (o.get("title") or "").strip()
-        if "DEFENSE" not in path or o.get("noticeId") in seen or not any(t in title.lower() for t in terms):
+        tl = title.lower()
+        if "DEFENSE" not in path or "HEALTH" in path or o.get("noticeId") in seen or not any(t in tl for t in terms) \
+                or any(x in tl for x in SAM_EXCLUDE):
             continue
         seen.add(o.get("noticeId"))
         st["n"] += 1
@@ -215,7 +285,7 @@ def collect_sam(days, status):
         raws.append(dict(title=title.title(), url=o.get("uiLink") or "https://sam.gov/",
                          source="SAM.gov · " + (dept[1].title() if len(dept) > 1 else "DoD"), summary=summ, dt=dt, lang="en",
                          src="samgov", hint="us", min=0, ctx=True, kind="contract", query="sam"))
-    raws = raws[:60]
+    raws = raws[:15]
     st["kept"] = len(raws)
     status["samgov"] = st
     return raws
@@ -223,11 +293,10 @@ def collect_sam(days, status):
 
 # ---------- 국방전자조달(D2B) 조달계획 — 공공데이터포털 ----------
 D2B_BASE = "https://apis.data.go.kr/1690000/PrcurePlanInfoService"
-D2B_OPS = ["getDmstcPrcurePlanInfoList", "getOutnatnPrcurePlanInfoList", "getFcltyPrcurePlanInfoList",
-           "getDmstcPrcurePlanList", "getOutnatnPrcurePlanList", "getFcltyPrcurePlanList",
-           "getPrcurePlanInfoList", "getPrcurePlanList", "getOutnatnPrcurePlanJdgmntList", "getOutnatnPrcurePlanJdgmntDetail"]
-D2B_TERMS = ["정비", "수리", "부품", "수리부속", "예비", "군수", "정보체계", "정보시스템", "소프트웨어", "SW", "데이터", "AI",
-             "인공지능", "클라우드", "전산", "물류", "창정비", "성과기반", "PBL", "후속군수"]
+D2B_OPS = ["getDmstcPrcurePlanList", "getOutnatnPrcurePlanList", "getFcltyPrcurePlanList"]  # 2026.10.25 확인된 기능
+D2B_EXCLUDE = ["의무", "의료", "급식", "피복", "식자재", "사무용", "청소", "조경"]
+D2B_TERMS = ["정비", "수리", "부품", "수리부속", "예비품", "유지보수", "정보체계", "정보시스템", "소프트웨어", "데이터", "인공지능",
+             "클라우드", "전산", "물류", "창정비", "성과기반", "PBL", "후속군수", "오버홀", "MRO", "AI "]
 
 
 def _xml_items(b):
@@ -261,20 +330,17 @@ def collect_d2b(days, status):
         probe[op] = {"ok": items is not None and code in ("00", "0", "000", "INFO-000", ""), "code": code,
                      "n": len(items or []), "head": txt, "sample": (items or [])[:3]}
         for it in items or []:
-            vals = " ".join(v for v in it.values() if v)
-            name = next((v for k, v in it.items() if re.search(r"(prdlst|Prdlst|item|Item|bsns|Bsns).*(nm|Nm)$", k) and v), "") \
-                or next((v for k, v in it.items() if k.lower().endswith("nm") and re.search(r"[가-힣]", v)), "")
-            if not name or not any(t in vals for t in D2B_TERMS):
+            name = (it.get("reprsntPrdlstNm") or "").strip()
+            if not name or not any(t in name for t in D2B_TERMS) or any(x in name for x in D2B_EXCLUDE):
                 continue
-            org = next((v for k, v in it.items() if re.search(r"(ordr|Ordr|dmnd|Dmnd).*(instt|Instt|org|Org).*(nm|Nm)$", k) and v), "")
-            amt = next((v for k, v in it.items() if re.search(r"(bdgt|Bdgt|amt|Amt)", k) and v), "")
-            mon = next((v for k, v in it.items() if re.search(r"(Mt|mt|Ym|ym)", k) and re.match(r"^\d{6}", v or "")), "")
-            ident = next((v for k, v in it.items() if re.search(r"(no|No)$", k) and v), "")
-            summ = " · ".join(x for x in ["조달계획", org, ("발주예정 " + mon[:4] + "." + mon[4:6]) if mon else "",
-                                          ("예산 " + amt) if amt else "", ident] if x)
+            mon = it.get("orderPrearngeMt") or ""
+            kind_nm = {"getDmstcPrcurePlanList": "국내", "getOutnatnPrcurePlanList": "국외", "getFcltyPrcurePlanList": "시설"}.get(op, "")
+            summ = " · ".join(x for x in [f"{kind_nm} 조달계획".strip(), it.get("ornt", ""), it.get("excutTy", ""), it.get("cntrctMth", ""),
+                                          ("발주예정 " + mon[:4] + "." + mon[4:6]) if len(mon) >= 6 else "", it.get("progrsSttus", ""),
+                                          ("판단번호 " + it["dcsNo"]) if it.get("dcsNo") else ""] if x)
             raws.append(dict(title=f"[조달계획] {name}", url="https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
-                             source="국방전자조달(D2B)", summary=summ, dt=now_kst(), lang="ko", src="d2b-api", hint="kr",
-                             min=0, ctx=True, kind="contract", query="d2b:" + op))
+                             source="국방전자조달(D2B)" + (" · " + it["ornt"] if it.get("ornt") else ""), summary=summ, dt=now_kst(),
+                             lang="ko", src="d2b-api", hint="kr", min=0, ctx=True, kind="contract", query="d2b:" + op))
         time.sleep(0.5)
     st["ok"] = any(v.get("ok") for v in probe.values())
     st["n"] = sum(v.get("n", 0) for v in probe.values())
@@ -363,9 +429,20 @@ def main():
         if k in seen:
             continue
         seen.add(k)
-        cand.append(to_article(r, origin="api" if r.get("src") in ("samgov", "d2b-api") else "rss"))
+        cand.append(r)
+    # 이미 저장된 기사는 제외하고 새 기사만 원문 소개 문구 보강
+    have = set()
+    for pth in NEWS.glob("*.json"):
+        have |= {a["id"] for a in load_json(pth, {"articles": []})["articles"]}
+    fresh = [r for r in cand if make_id(r["title"], r["url"]) not in have]
+    print(f"- 원문 소개 문구 보강 {enrich(fresh)}건")
+    cand2 = []
+    for r in cand:
+        cand2.append(to_article(r, origin="api" if r.get("src") in ("samgov", "d2b-api") else "rss"))
         kept_by[r.get("src", "")] = kept_by.get(r.get("src", ""), 0) + 1
+    cand = cand2
     n = merge(cand)
+    backfill_descriptions()
 
     # 수집원 상태 누적 기록
     prev = load_json(DATA / "feeds_status.json", {"sources": {}})

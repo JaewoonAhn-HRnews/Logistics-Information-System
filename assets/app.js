@@ -13,7 +13,7 @@
   const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 2600); };
 
   let IDX, PER, TR, TAX, CAT = {}, AX = {}, RG = {}, DM = {};
-  let SRCS = [], FST = { sources: {} }, CASES = [];
+  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {};
   let BASE = [];          // 서버 기사(월 파일)
   let ARTS = [];          // DB 반영 후 기사
   let BYID = {};
@@ -44,6 +44,7 @@
     const [sj, fj] = await Promise.all([j("data/sources.json", { sources: [] }), j("data/feeds_status.json", { sources: {} })]);
     SRCS = sj.sources || []; FST = fj || { sources: {} };
     CASES = (await j("data/cases.json", { cases: [] })).cases || [];
+    SUMS = await j("data/article_sums.json", {});
     const files = await Promise.all(IDX.files.map(f => j("data/news/" + f, { articles: [] })));
     BASE = files.flatMap(f => f.articles || []);
     const [ad, ov, cl] = await Promise.all([j("data/db/added.json", null), j("data/db/overrides.json", null), j("data/db/changelog.json", null)]);
@@ -59,7 +60,8 @@
     const ids = new Set(BASE.map(a => a.id));
     ARTS = BASE.concat(added.filter(a => !ids.has(a.id))).map(a => {
       const e = ov.edits?.[a.id]; const x = e ? Object.assign({}, a, e) : Object.assign({}, a);
-      x.pin = pin.has(a.id); x.hidden = hid.has(a.id); x.note = ov.notes?.[a.id] || ""; return x;
+      x.pin = pin.has(a.id); x.hidden = hid.has(a.id); x.note = ov.notes?.[a.id] || "";
+      const sm = SUMS[a.id]; if (sm) { x.ai_sum = sm.s; x.ai_basis = sm.b || ""; } return x;
     });
     BYID = {}; ARTS.forEach(a => (BYID[a.id] = a));
     ARTS = ARTS.filter(a => !a.hidden).sort((a, b) => (b.ts || b.date).localeCompare(a.ts || a.date));
@@ -138,7 +140,7 @@
     return `<article class="card${a.pin ? " pin" : ""}${o.compact ? " compact" : ""}" data-id="${a.id}">
       <div class="card-top">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name || a.region)}</span>` : ""}<span class="lang ${a.lang === "ko" ? "" : "en"}">${a.lang === "ko" ? "국문" : "영문"}</span><span class="src">${esc(a.source || "")}</span><span class="mono">${esc(a.date)}</span>${a.origin === "manual" ? '<span class="pill">직접 추가</span>' : ""}</div>
       <a class="card-title" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
-      ${a.summary && !o.compact ? `<p class="card-sum">${esc(a.summary)}</p>` : ""}
+      ${!o.compact ? (a.ai_sum && !/[가-힣]{8,}/.test(a.summary || "") ? `<p class="card-sum">${esc(a.ai_sum)} <span class="ai-tag" title="${a.ai_basis === "제목" ? "원문 발췌가 없어 제목을 바탕으로 정리" : "원문 발췌를 바탕으로 정리"}">AI 요약${a.ai_basis === "제목" ? "·제목 기준" : ""}</span></p>` : a.summary ? `<p class="card-sum">${esc(a.summary)}</p>` : "") : ""}
       ${o.compact ? "" : `<div class="tags">${cats}${axes}</div>`}
       ${a.note ? `<div class="memo">메모: ${esc(a.note)}</div>` : ""}${o.compact ? "" : also}
       <div class="card-act"><button class="ibtn${a.pin ? " on" : ""}" data-act="pin" title="중요 표시" aria-label="중요 표시">★</button><button class="ibtn" data-act="more" title="상세" aria-label="상세">⋯</button></div>
@@ -158,7 +160,8 @@
     d.innerHTML = `<button class="ibtn x" id="dx" aria-label="닫기">✕</button>
       <div class="eyebrow">${a.lang === "ko" ? "국내" : "해외"} · ${esc(a.source)} · ${esc(a.date)}</div>
       <h2 style="font-size:20px">${esc(a.title)}</h2>
-      ${a.summary ? `<p class="card-sum" style="font-size:14.5px">${esc(a.summary)}</p>` : '<p class="note">요약 없음(RSS 제목만 수집)</p>'}
+      ${a.ai_sum ? `<div><h3>AI 요약 <span class="ai-tag">${a.ai_basis === "제목" ? "제목 기준" : "원문 발췌 기준"}</span></h3><p class="card-sum" style="font-size:14.5px">${esc(a.ai_sum)}</p></div>` : ""}
+      ${a.summary ? `<div><h3>원문 발췌</h3><p class="card-sum" style="font-size:14px">${esc(a.summary)}</p></div>` : (a.ai_sum ? "" : '<p class="note">요약 없음(원문 발췌를 못 가져온 기사). 다음 정리 때 AI 요약이 추가됩니다.</p>')}
       <div class="tags">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name)}</span>` : ""}${(a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
       <div class="note">키워드: ${(a.kw || []).map(esc).join(" · ") || "—"}<br>기관·기업·체계: ${(a.ents || []).map(esc).join(" · ") || "—"}<br>관련도 점수: <span class="mono">${a.score ?? "—"}</span></div>
       ${(a.also || []).length ? `<div><h3>같은 내용을 보도한 매체</h3><ul class="plain">${a.also.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source)}</a></li>`).join("")}</ul></div>` : ""}
@@ -489,7 +492,7 @@
     return `<div class="srcc" style="--rc:${rc(s.region)}"><h3>${esc(s.name)} <span class="pill">${esc(s.type)}</span><span class="stars" title="추천도">${"★".repeat(s.rec || 1)}${"☆".repeat(3 - (s.rec || 1))}</span></h3>
       <p>${esc(s.desc)}</p>
       <div class="tags"><span class="rbadge ${s.region}">${esc(RG[s.region]?.name)}</span>${(s.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}<span class="tag-k">${esc(how)}</span></div>
-      ${auto ? srcStatus(s.id) : `<span class="stat"><i class="na"></i>자동 수집 없음 — 직접 구독</span>`}
+      ${auto ? srcStatus(s.id === "d2b" && FST.sources?.["d2b-api"]?.ok ? "d2b-api" : s.id) : `<span class="stat"><i class="na"></i>자동 수집 없음 — 직접 구독</span>`}
       <div class="acts">${btn}${btn2}<a href="${esc(s.url)}" target="_blank" rel="noopener">사이트</a></div></div>`;
   }
   function rRegion(rid, arg) {
@@ -770,7 +773,7 @@
   function searchRows() {
     const rg = $("#s-region").value, dm = $("#s-dom").value, kd = $("#s-kind").value;
     const q = $("#s-q").value.trim().toLowerCase(), c = $("#s-cat").value, x = $("#s-axis").value, l = $("#s-lang").value, f = $("#s-from").value, t = $("#s-to").value, pin = $("#s-pin").checked;
-    let L = ARTS.filter(a => (!q || `${a.title} ${a.summary} ${a.source} ${(a.kw || []).join(" ")}`.toLowerCase().includes(q)) && (!c || (a.cats || []).includes(c)) && (!x || (a.axes || []).includes(x)) && (!l || (l === "ko" ? a.lang === "ko" : a.lang !== "ko")) && (!f || a.date >= f) && (!t || a.date <= t) && (!pin || a.pin) && (!rg || a.region === rg) && (!dm || (dm === "none" ? !(a.domains || []).length : (a.domains || []).includes(dm))) && (!kd || (a.kind || "news") === kd));
+    let L = ARTS.filter(a => (!q || `${a.title} ${a.summary} ${a.ai_sum || ""} ${a.source} ${(a.kw || []).join(" ")}`.toLowerCase().includes(q)) && (!c || (a.cats || []).includes(c)) && (!x || (a.axes || []).includes(x)) && (!l || (l === "ko" ? a.lang === "ko" : a.lang !== "ko")) && (!f || a.date >= f) && (!t || a.date <= t) && (!pin || a.pin) && (!rg || a.region === rg) && (!dm || (dm === "none" ? !(a.domains || []).length : (a.domains || []).includes(dm))) && (!kd || (a.kind || "news") === kd));
     const s = $("#s-sort").value;
     if (s === "old") L = L.slice().reverse(); else if (s === "score") L = L.slice().sort((a, b) => (b.score || 0) - (a.score || 0));
     return L;
