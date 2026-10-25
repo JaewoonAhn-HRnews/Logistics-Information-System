@@ -317,8 +317,15 @@ def ai_weekly_briefings(groups, periods, recent=3):
                       f"규칙: themes는 4~6개, 비슷한 기사는 하나의 주제로 묶고 refs에 기사 번호(n)를 넣으세요. icon은 {', '.join(ICONS)} 중 하나. "
                       "recs는 3개로, 우리 군(국방군수통합정보체계, 무기체계 신뢰도·수리부속·정비인력 예측) 관점의 의사결정 과제를 쓰세요. "
                       "기사에 없는 사실은 쓰지 말고, 포인트는 명사형으로 짧게.\n\n" + json.dumps(lines, ensure_ascii=False))
+            got = {}
+            for _try in range(2):
+                try:
+                    got = _claude(prompt, 6000)
+                    if got.get("themes"):
+                        break
+                except Exception as e:  # noqa: BLE001
+                    print(f"  ! 주간 브리핑 재시도({k}): {e}", file=sys.stderr)
             try:
-                got = _claude(prompt, 3000)
                 if got.get("themes"):
                     idmap = {l["n"]: l["id"] for l in lines}
                     for t in got["themes"]:
