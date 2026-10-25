@@ -174,7 +174,7 @@ def merge(articles):
 
 
 # ---------- SAM.gov ----------
-SAM_TERMS = ["logistics", "sustainment", "spare parts", "maintenance", "supply chain", "predictive", "depot", "ERP", "readiness"]
+SAM_TERMS = ["logistics", "sustainment", "spare", "parts", "maintenance", "repair", "overhaul", "supply chain", "predictive", "depot", "erp", "readiness", "mro"]
 
 
 def collect_sam(days, status):
@@ -185,35 +185,36 @@ def collect_sam(days, status):
         status["samgov"] = st
         return []
     today = now_kst().date()
-    frm = (today - timedelta(days=min(days, 30))).strftime("%m/%d/%Y")
+    frm = (today - timedelta(days=min(days, 7))).strftime("%m/%d/%Y")
     to = today.strftime("%m/%d/%Y")
+    # 개인 계정 API 키는 하루 호출 수가 적으므로(약 10회) 실행당 1회만 호출하고 키워드는 내려받은 뒤 거름
     raws, seen = [], set()
-    for term in SAM_TERMS:
-        q = urllib.parse.urlencode({"api_key": key, "postedFrom": frm, "postedTo": to, "limit": 100, "title": term})
-        b, err = fetch("https://api.sam.gov/opportunities/v2/search?" + q, tries=1)
-        if not b:
-            st["err"] = err
-            continue
+    q = urllib.parse.urlencode({"api_key": key, "postedFrom": frm, "postedTo": to, "limit": 1000})
+    b, err = fetch("https://api.sam.gov/opportunities/v2/search?" + q, tries=1)
+    data = {}
+    if not b:
+        st["err"] = err
+    else:
         try:
             data = json.loads(b)
+            st["ok"] = True
         except Exception as e:  # noqa: BLE001
             st["err"] = str(e)[:120]
+    terms = [t.lower() for t in SAM_TERMS]
+    for o in data.get("opportunitiesData") or []:
+        path = (o.get("fullParentPathName") or "").upper()
+        title = (o.get("title") or "").strip()
+        if "DEFENSE" not in path or o.get("noticeId") in seen or not any(t in title.lower() for t in terms):
             continue
-        st["ok"] = True
-        for o in data.get("opportunitiesData") or []:
-            path = (o.get("fullParentPathName") or "").upper()
-            if "DEFENSE" not in path or o.get("noticeId") in seen:
-                continue
-            seen.add(o.get("noticeId"))
-            st["n"] += 1
-            dept = (o.get("fullParentPathName") or "").split(".")
-            dt = parse_dt((o.get("postedDate") or "")[:10] + "T09:00:00+09:00") or now_kst()
-            summ = " · ".join(x for x in [o.get("type"), o.get("solicitationNumber"), " > ".join(dept[1:3]),
-                                          ("마감 " + o["responseDeadLine"][:10]) if o.get("responseDeadLine") else ""] if x)
-            raws.append(dict(title=(o.get("title") or "").strip().title(), url=o.get("uiLink") or "https://sam.gov/",
-                             source="SAM.gov · " + (dept[1].title() if len(dept) > 1 else "DoD"), summary=summ, dt=dt, lang="en",
-                             src="samgov", hint="us", min=0, ctx=True, kind="contract", query="sam:" + term))
-        time.sleep(1)
+        seen.add(o.get("noticeId"))
+        st["n"] += 1
+        dept = (o.get("fullParentPathName") or "").split(".")
+        dt = parse_dt((o.get("postedDate") or "")[:10] + "T09:00:00+09:00") or now_kst()
+        summ = " · ".join(x for x in [o.get("type"), o.get("solicitationNumber"), " > ".join(dept[1:3]),
+                                      ("마감 " + o["responseDeadLine"][:10]) if o.get("responseDeadLine") else ""] if x)
+        raws.append(dict(title=title.title(), url=o.get("uiLink") or "https://sam.gov/",
+                         source="SAM.gov · " + (dept[1].title() if len(dept) > 1 else "DoD"), summary=summ, dt=dt, lang="en",
+                         src="samgov", hint="us", min=0, ctx=True, kind="contract", query="sam"))
     raws = raws[:60]
     st["kept"] = len(raws)
     status["samgov"] = st
