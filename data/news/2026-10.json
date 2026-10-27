@@ -2,6 +2,70 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "c09dd479f199",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T05:21",
+   "title": "Modernizing Sustainment: GCSS-Army DISCOPS Capability Emphasizes Endurance",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ25SczV5YXV6end3VlVsZGk1ZmdPYUJpUDhhMmpkLXpNTGNZT3pndjI1RG9FdkZVM205aGhydkt3eXJyb1JnNzVzTFZjY3NSV3JLTDk5LWoyYTlpNHRkWkVZSElISW5QcmJWeG1ISkg0OHRlOVhXRUJLcldoeGRVQk1YLUZBYl9pblpTdEctcEJ5T0UyazgtcTZXZ3FsaDNqVVVRMm5fZUFMU19ELUFuVEdpONIBswFBVV95cUxOZ25SczV5YXV6end3VlVsZGk1ZmdPYUJpUDhhMmpkLXpNTGNZT3pndjI1RG9FdkZVM205aGhydkt3eXJyb1JnNzVzTFZjY3NSV3JLTDk5LWoyYTlpNHRkWkVZSElISW5QcmJWeG1ISkg0OHRlOVhXRUJLcldoeGRVQk1YLUZBYl9pblpTdEctcEJ5T0UyazgtcTZXZ3FsaDNqVVVRMm5fZUFMU19ELUFuVEdpOA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "sys",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a3fbcfc266ce",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T04:29",
+   "title": "Safety excellence in action: Picatinny Arsenal's Logistics Readiness Center awarded OSHA VPP Star status",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdTNPM1RKMUhtTmdRamJkOGxBYU1vR05OZUF3Vk9INGlTZTUxLXEwRlo0WUx0R21tZVllNGRFbW5jU1Fod2FPVWxrMTdORWhhOUFXTzJPX1ZqbEEzSXkxYzQ3X2NVR1lhdGV3VWZyMmRFVko3QW1XSlFJVWdCVXZuQlhKeTF5MkJEa2Z0My1fRG1xV3VOMjlYX1FEZ2RFM2JNUElwZkwyaVpWRVIweDIxNjRkNmR5SGc1LUdLZUtUMWRkSTIxSkFVWHVDYzAxUHpLeXBjMmJBUEZtQdIB2gFBVV95cUxOdTNPM1RKMUhtTmdRamJkOGxBYU1vR05OZUF3Vk9INGlTZTUxLXEwRlo0WUx0R21tZVllNGRFbW5jU1Fod2FPVWxrMTdORWhhOUFXTzJPX1ZqbEEzSXkxYzQ3X2NVR1lhdGV3VWZyMmRFVko3QW1XSlFJVWdCVXZuQlhKeTF5MkJEa2Z0My1fRG1xV3VOMjlYX1FEZ2RFM2JNUElwZkwyaVpWRVIweDIxNjRkNmR5SGc1LUdLZUtUMWRkSTIxSkFVWHVDYzAxUHpLeXBjMmJBUEZtQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
    "id": "592063a75951",
    "date": "2026-10-26",
    "ts": "2026-10-26T21:38",
@@ -145,6 +209,11 @@
      "source": "코리아이글뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4VW54cU9iM0lENnVycXRmUXA5MmIxZm5tUDRuaDYzdHR2QUNBdlN1aC1mMVR4TklESXVjeDhLV3JEd0tUWDVHZDZNdVdod0xEWVNCNVFKT3B6aURjblR6Wi1EaWdZQ1VfdmZSRTB4MmU5TlU?oc=5",
      "title": "창원시, 첨단항공엔진·함정 MRO 육성 본격화…K-방산 미래 이끈다"
+    },
+    {
+     "source": "시사코리아저널",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43cEtaMTQxMGkwOHd0RXN5aDYtRWJobjRUVjZ3Zks3ekgtaHpOV25LLXJPQ2FFWThwTkwwQU1lVS1qTld3UC1tY2FKXy1mZEtkQWF2VG1rRklzUXYzUm9vUWJKNmxRR01iR21N?oc=5",
+     "title": "창원시, 첨단항공엔진 · 함정MRO로 K-방산 미래 연다"
     }
    ],
    "origin": "rss",
@@ -293,6 +362,117 @@
    "q": "sam",
    "cats": [
     "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f1464939adb9",
+   "date": "2026-10-26",
+   "ts": "2026-10-26T09:00",
+   "title": "Icd-705 Controlled Spaces Modernization And Sustainment Program - (Progressive Design-Build (Pdb) Other Transaction Agreement (Ota)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/d000ad231a124c06a28d15cf93e062f0/view",
+   "lang": "en",
+   "summary": "Sources Sought · W912UM27S0TA1 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-17",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b42ee3a6fea9",
+   "date": "2026-10-26",
+   "ts": "2026-10-26T09:00",
+   "title": "Facility Readiness And Maintenance Execution (Frame) Request For Proposal (Rfp) - Draft",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/9f69ad8aabda4aea83ae2522c3a7853d/view",
+   "lang": "en",
+   "summary": "Special Notice · FA461027R0001 · DEPT OF THE AIR FORCE > SPACE SYSTEMS COMMAND · 마감 2027-01-31",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "4bc3d890a7d0",
+   "date": "2026-10-26",
+   "ts": "2026-10-26T09:00",
+   "title": "Fingerprint Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/5937b62625c54adb960f7be491dd88a9/view",
+   "lang": "en",
+   "summary": "Special Notice · N00174-26-SIMACQ-105-0004 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-16",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e7d63e925d0c",
+   "date": "2026-10-26",
+   "ts": "2026-10-26T09:00",
+   "title": "N6247826R2431 Facilities And Lighting Maintenance Services At Joint Base Pearl Harbor Hickam, Oahu, Hawaii",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/107ccfca0ae0478eb746ed17f8c755e3/view",
+   "lang": "en",
+   "summary": "Solicitation · N6247826R2431 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-04",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
    ],
    "kw": [],
    "ents": [],

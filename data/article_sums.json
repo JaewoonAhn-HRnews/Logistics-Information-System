@@ -1938,5 +1938,31 @@
   ],
   "i": "gear",
   "at": "2026-10-27 00:29"
+ },
+ "c09dd479f199": {
+  "s": "GCSS-Army의 DISCOPS(분산작전) 기능이 지속 지원 능력, 즉 작전 지속성을 강조하며 군수 지속지원 현대화를 다룬 기사입니다.",
+  "b": "제목",
+  "c": "정보체계",
+  "h": "GCSS-Army DISCOPS 지속지원 현대화",
+  "p": [
+   "GCSS-Army DISCOPS 기능",
+   "지속지원 체계 현대화",
+   "작전 지속성 강조"
+  ],
+  "i": "data",
+  "at": "2026-10-27 09:49"
+ },
+ "a3fbcfc266ce": {
+  "s": "Picatinny Arsenal의 군수준비센터가 OSHA VPP Star 인증을 받았습니다. 안전 우수성을 인정받은 사례입니다.",
+  "b": "제목",
+  "c": "조직·투자",
+  "h": "Picatinny 군수센터 OSHA VPP Star 인",
+  "p": [
+   "Picatinny Arsenal 군수준비센터",
+   "OSHA VPP Star 지위 획득",
+   "안전 우수성 인정"
+  ],
+  "i": "shield",
+  "at": "2026-10-27 09:49"
  }
 }
