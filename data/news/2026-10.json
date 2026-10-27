@@ -2,6 +2,335 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "d61a8a3de614",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T23:55",
+   "title": "[조달계획] '26~'27 제어장치, 서보식, 자동조종 장치용 외주정비",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 제조 · 제한경쟁 · 발주예정 2026.11 · 공고중 · 판단번호 43394",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bb18b3cde067",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T23:55",
+   "title": "[조달계획] 잠수함 능동다중소나 측정장비 정비",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 제조 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 43362",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "08770f6b019d",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T23:55",
+   "title": "[조달계획] DDG 헬기이송장치 외주정비",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 제조 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 43365",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "26315875f436",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T23:55",
+   "title": "[조달계획] (26G058-H)27~28년 국방급여정보체계 유지보수 용역",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 협상에의한계약(전자) · 발주예정 2026.11 · 조달판단중 · 판단번호 43611",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "a3d2ccbb1824",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T20:07",
+   "title": "Finland receives second batch of U.S. F-35 fighters following transatlantic delay ahead of 2027 operational readiness",
+   "source": "Army Recognition",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQMWVrVFdZb1BuVWI2bkt0ZFVWZTVUZjhVOGFxWjRfZUtnYnRaUlFubVdmVEltX3JHTHhwY2lqTzJ4cW5kVHBXeEhvOThNTTNMVFNwVlgzZDZHQXZ6N2hzZHVucFpCQXJXWDVvYjVNNmxoS2lrdEk0ZUpBSGE5a21yTDBGY3lzMU4tSWE4a3NtZEJWSU5EeDBCVk5tUmlSS19ITjhBVWNiRk5mWVFiNXBRX0t6YXB6bzFkY3hHWndxcm1hM193cWljSHVCUk9xZ1NqR2M2NElpTE80dzFjQnJJR2JMTXZoSGREajhHZGJoaERRQi1tR3VqbU5EZ2RnY1U3M0hn?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "0e27f0375f3b",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T14:44",
+   "title": "해군 함정기술연구소·모아소프트, AI 기반 신뢰도 분석 기술협력 강화",
+   "source": "세계비즈",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BZlBGSUdleFhYc0QtVW9uaFhqVENtTU5QRURvSGRGUWVoaWR4V3A0emRZRFRYaElGUloyUi1COHR3emdPZld2ZTBJdTllU0ZmdmwwUVk2elEzOGlQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "군수사령부 AI",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "신뢰도·가용도"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "16541a3b5434",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Sprra227R0702 Patriot Spares – Lockheed Martin Sole Source",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/a14f64829a0d446286b7468db54d4e77/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRRA227R0702 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2027-01-06",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA",
+    "Lockheed Martin"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "dc06cf8e123d",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "P7777 Acc Sarp Replacement Nas Jacksonville, Florida - Amag Symmetry Enterprise Video Surveillance System",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/7437e8f9f869493d8efd8c30273e6941/view",
+   "lang": "en",
+   "summary": "Sources Sought · N6945027SP7777-AMAG · DEPT OF THE NAVY > NAVFAC · 마감 2026-10-30",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "25f8e14c76d9",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Sole Source To L3Harris Forcex, Inc | Vampire Spares",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/50e37db47c624b7eac841a7c3408fee1/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRRA2-27-R-SP05 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-11-30",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "72159e2fded8",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Amendment 0004 Overhaul Of Radiator Gearbox",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/2b9e44922bba4ff4add93f5d2f6a2257/view",
+   "lang": "en",
+   "summary": "Special Notice · W58RGZ-26-B-0016 · DEPT OF THE ARMY > AMC · 마감 2026-11-30",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "dc225fb436de",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Pre-Solicitation Synopsis For The Overhaul Of The Ch-47 Swashplate, Controllable",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/04419d349dac4789b49c4403b8579876/view",
+   "lang": "en",
+   "summary": "Presolicitation · W58RGZ-27-R-A021 · DEPT OF THE ARMY > AMC · 마감 2026-11-11",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "c09dd479f199",
    "date": "2026-10-27",
    "ts": "2026-10-27T05:21",
@@ -63,6 +392,38 @@
     "wpn"
    ],
    "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "49c10631be66",
+   "date": "2026-10-26",
+   "ts": "2026-10-26T23:55",
+   "title": "RFAAP Siren Guide Strengthens Community Awareness, Safety and Readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNHZlY3k5ZXJQQURVTXBma1BadU9aWWh2Q3dmVVRnbUlpS3JRS0dvQTljc0RrRzdqRXBpWHVIRXZCTUJtRUVINTQ0cFlvM3VhX2Nia2t6XzRnQUtKRmhWdGxyNHhEME0zVld1MzFZa3BnMHBpRjhEREJJckNzVVdBTjJZdHZjaFA5YUN4WHVsbWloazR6dktuejdSUkRucTRfcEdWZkhtLTNTZ9IBrwFBVV95cUxNYXF4b2o4Sl9CbVFWY1RkVTBkSkVFNFdfRXNjcGluTVFkSV9uZG5sS0VVOXkxemV0c3RoMG0zY2FHWmZkbW00UVVaVmJYU1E4b0RTbU5nNDBJamdvNGhrNlVNRzhCQUNsNjMyRndLVjFFdHhDdkZuZm5OWHl4dUJMM25ZSnlMb3JNVmxmUTd5V2M4SnN2T251b3B6Qkd6azlSZWJOeGd5djJLeENQZnRV?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
    "desc_tried": true
   },
   {
@@ -158,6 +519,36 @@
     "ram"
    ],
    "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "f7d464f2d59c",
+   "date": "2026-10-26",
+   "ts": "2026-10-26T15:20",
+   "title": "경남 창원시, ‘항공엔진 특화단지·함정 MRO’ 날개 달고 미래 방산 육성 속도",
+   "source": "더경남뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RZUgtLWJKUi00Tkpkbm12SmNna0FRVnROc3hLZG5mRVRJN2duZDB6dHhNb19nQktMbXg5WVkzbnlNanhodG95XzZmVVZ2Z1BaUUxTMA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
    "domains": [
     "wpn"
    ],

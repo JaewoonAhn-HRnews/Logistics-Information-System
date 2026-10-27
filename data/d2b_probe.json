@@ -1,18 +1,179 @@
 {
- "at": "2026-10-27 09:49",
+ "at": "2026-10-27 23:55",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
-   "ok": false,
-   "err": "URLError: <urlopen error timed out>"
+   "ok": true,
+   "code": "00",
+   "n": 100,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>3144870000</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>7542H</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrear",
+   "sample": [
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "budgetAmount": "3144870000",
+     "cntrctMth": "수의계약",
+     "dcsNo": "7542H",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202611",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
+     "progrsSttus": "조달판단완료",
+     "progrsSttusCode": "22",
+     "reprsntPrdlstNm": "26년 155mm 고폭탄류 항력감소제 등(2차)",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "budgetAmount": "8063045520",
+     "cntrctMth": "수의계약",
+     "dcsNo": "4394",
+     "demandYear": "2026",
+     "excutTy": "용역",
+     "orderPrearngeMt": "202611",
+     "ornt": "함정총괄계약팀",
+     "orntCode": "EMA",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "고속전투주정 후속함 OTM 위성단말기",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "budgetAmount": "3251131598",
+     "cntrctMth": "수의계약",
+     "dcsNo": "4392",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202611",
+     "ornt": "함정총괄계약팀",
+     "orntCode": "EMA",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "고속전투주정 후속함 통신장비(TMMR)",
+     "spcifyPrcureAt": "N"
+    }
+   ]
   },
   "getOutnatnPrcurePlanList": {
-   "ok": false,
-   "err": "URLError: <urlopen error timed out>"
+   "ok": true,
+   "code": "00",
+   "n": 100,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><armySe>3707부대</armySe><armySeCode>M9</armySeCode><budgetAmount>13406580</budgetAmount><fnctSe>기타</fnctSe><fnctSeCode>R</fnctSeCode><iemNo>1</iemNo><invntryNo>NSN</invntryNo><ornt>국제한도액전력운영계약팀</ornt><or",
+   "sample": [
+    {
+     "armySe": "3707부대",
+     "armySeCode": "M9",
+     "budgetAmount": "13406580",
+     "fnctSe": "기타",
+     "fnctSeCode": "R",
+     "iemNo": "1",
+     "invntryNo": "NSN",
+     "ornt": "국제한도액전력운영계약팀",
+     "orntCode": "EHN",
+     "prcureDemandNo": "M9C000262000010",
+     "prdlstKndSe": "기술용역",
+     "prdlstKndSeCode": "E",
+     "prdlstNm": "향백 국외기술용역 11차",
+     "progrsSttus": "판단완료",
+     "purchsRequstNo": "9REH6901-005",
+     "qy": "1",
+     "unit": "**",
+     "untpc": "13406580"
+    },
+    {
+     "armySe": "육군",
+     "armySeCode": "MB",
+     "budgetAmount": "59278",
+     "cmpntNo": "0",
+     "eqpmnCode": "32220723",
+     "eqpmnNm": "전원 공급기",
+     "fnctSe": "항공",
+     "fnctSeCode": "A",
+     "iemNo": "1",
+     "invntryNo": "6120015970036",
+     "ornt": "국제확정전력운영계약팀",
+     "orntCode": "EHG",
+     "prcureDemandNo": "MBNLMH26A00005",
+     "prdlstKndSe": "장비",
+     "prdlstKndSeCode": "A",
+     "prdlstNm": "POWER SUPPLY",
+     "progrsSttus": "1차공고중",
+     "purchsRequstNo": "BAAH6083-005",
+     "qy": "2",
+     "stndrdNo": "구매요구서",
+     "unit": "EA",
+     "untpc": "29639"
+    },
+    {
+     "armySe": "육군",
+     "armySeCode": "MB",
+     "budgetAmount": "649297.92",
+     "fnctSe": "항공",
+     "fnctSeCode": "A",
+     "iemNo": "1",
+     "invntryNo": "167037X002337",
+     "ornt": "국제확정전력운영계약팀",
+     "orntCode": "EHG",
+     "prcureDemandNo": "MBCLSI26A00002",
+     "prdlstKndSe": "물자",
+     "prdlstKndSeCode": "C",
+     "prdlstNm": "ACCURACY  JUMP PARACHUTE  SET",
+     "progrsSttus": "1차공고중",
+     "purchsRequstNo": "BACH6085-005",
+     "qy": "48",
+     "stndrdNo": "PRD 1670-3016",
+     "unit": "EA",
+     "untpc": "13527.04"
+    }
+   ]
   },
   "getFcltyPrcurePlanList": {
-   "ok": false,
-   "err": "URLError: <urlopen error timed out>"
+   "ok": true,
+   "code": "00",
+   "n": 100,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-D-00부대 설계용역(B555)</cntrwkNm><cntrwkNo>2026-16855</cntrwkNo><cntrwkSe>설계용역 </cntrwkSe><orderPrearngeMt>202610</",
+   "sample": [
+    {
+     "bidMth": "총액제",
+     "budgetAmount": "0",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-D-00부대 설계용역(B555)",
+     "cntrwkNo": "2026-16855",
+     "cntrwkSe": "설계용역",
+     "orderPrearngeMt": "202610",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    },
+    {
+     "bidMth": "내역입찰(종합심사)",
+     "budgetAmount": "0",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-U-0000 신축공사 건설사업관리용역(E022)",
+     "cntrwkNo": "2026-16683",
+     "cntrwkSe": "감리용역",
+     "orderPrearngeMt": "202610",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    },
+    {
+     "bidMth": "총액제",
+     "budgetAmount": "694144000",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-F-정비대대 전기감리(D038)",
+     "cntrwkNo": "2026-16468",
+     "cntrwkSe": "감리용역",
+     "orderPrearngeMt": "202610",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    }
+   ]
   }
  }
 }
