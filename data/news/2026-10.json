@@ -2,6 +2,165 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "8a21a6daaefc",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T08:17",
+   "title": "Australia advances readiness for Submarine Rotational Force - West in 2027",
+   "source": "www1.defence.gov.au",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd2ZUVV96YVdMSDhEcm9fdVpDenFid1pXNnA5bVJCVUlmaUQ3bUtIdG5HRXRDbzZJYWhhV3BZSXhoVjFGY19KdW9NeWxBM3BXOFNPVGc1WFB0OHhFT2VBUy1IODltVUhGaUQ2dTY5NURJR09td1pxN25FYzdpMC1taDJzMm9sdW5kVkJoOFZTNE44Zk1INEFPQ2d3bS1iRy1FeVp1c3B0akdFRGdXMHpRbm5iVjVUVk1VX19jbnl5NFAycTA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "audefence",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "50e5322a01cb",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T06:23",
+   "title": "JUST IN: Iran War Teaching Navy to Prioritize Sustainment, EW for Uncrewed Systems",
+   "source": "National Defense Magazine",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaFdRcTI0SjZPd21VRGx6YUNtYkJtcklpaTdEN2dTUElKYVFBUERHeWtCOWtzWllrV2NNLTl3TVZPRFJoSXlaZkFQX3JWRFZweUdVdlVRdGFBdXFXSzBMTzFlQmxqQW1Gc1k3cURtMzE4RXVQR05MNk9CcFNxM0R5bmItTS1kTXZkT2lDNzFFWnUxclhoaWNHOHRnOG4zWGFaTFBGcFg3ODZHSThTWUotRVdnU2QwQ1dsQTFvUzJObGhTLWUzMEs3eXhqRzRfcHlBcTdj?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "natdef",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "5e4cc36cd270",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T02:46",
+   "title": "Lockheed Martin invests C$10 million in Canadian AI to improve Hercules fleet maintenance",
+   "source": "Defence Industry Europe",
+   "url": "https://defence-industry.eu/lockheed-martin-invests-c10-million-in-canadian-ai-to-improve-hercules-fleet-maintenance/",
+   "lang": "en",
+   "summary": "Lockheed Martin is investing C$10 million in Canadian-developed artificial intelligence to improve maintenance, training and workforce readiness for the Royal Canadian Air Force’s CC-130J Hercules fleet.",
+   "score": 7.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defindeu",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ai",
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세",
+    "정비인력"
+   ],
+   "ents": [
+    "Lockheed Martin"
+   ],
+   "axes": [
+    "ram",
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "946dc5c782cd",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T02:42",
+   "title": "Military drone outfit Anduril partners with Qualcomm to build laptops on US soil with new BlueChip venture — defense contractor targets a 100% domestic supply chain in the future",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPRnN2OUk5V0I1UnVMb1pTS0NORlE5Tm16WTdxWC0zQV9fRjNGTXNVb1d2bk5aUjFLdmJ1bzZoZnlPcDNUWnhXWXJGZ3lXOFBlcGNYckdNYmxHbnoycER1YWloMjBSUHlsbkJDWEk1RFV5aGNXVjJmMjN2a3d2c2M1SWJDUW9JZ2dNUXQ3ZUN2UkpnNnljelFRQURkVWRNNVRXcUxLWGxuMFlRY3dIX1BzTko4czhLUFU0aWQ0M3VwTXBaLURNWkdrVXFKd0NqUVFxTkc5enZ4QXhQR01fNzlBTjZ0MHI3Y3lRc25XbVMyeVdYSUJ6LXVpRzdvQklmdTJXTU9hOGd3ZG0xVjVXaWJnQWJsOV9tWWI0Ui1iOEZlZWE1MlROeEwzNW53LU1qa09zTVl6MWIxUlZaT0Q5YjZ4dGNR?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military supply chain artificial intelligence",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망",
+    "유무인 복합"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "5d5b71dfb8d1",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T01:29",
+   "title": "Pentagon says Poland will host PAC-3 missile maintenance facility as NATO strengthens air defences",
+   "source": "Business Upturn",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaE9oaEVoZ3JxM05vcDcxZFBYQW1CYk1QNm9SYXgtNGZEcVh0eWd4ZmJsLWRURGJaR3JhUW52RW1RTTNTS2VNdWtQWUM3UXRWSVd4N1JJbG1QdVZubHFuNVBKMzZwNVhuOUhYa3JtNmVGN0lqTmhpWTB3ZkFiNC1nWnRxcjZaVEhqaWZSWTBYRUhONndFbjV2OVA1NXNJOEQwUzJsVDJmcnlGcHFtWDRvTGtnQkstNFdGby12eWY5NVZwWHJRTHVVblZ3enhoYWpf?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defis",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "d61a8a3de614",
    "date": "2026-10-27",
    "ts": "2026-10-27T23:55",
@@ -321,6 +480,238 @@
    ],
    "kw": [
     "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "da541ab2c8f8",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Idiq Joc Total Small-Business Set-Aside For Electrical And Other Wiring Installation Projects At Various Government Facilities Located Within The Marine Corps Logistics Base Barstow, Marine Co",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/b81782d8dca84ee697258dff57fbfc12/view",
+   "lang": "en",
+   "summary": "Solicitation · N6247324R2610 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-03",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 해병대"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "b57a703995d5",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "43--Repair Overhaul Kit",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/99a028eeeb684a92a305a37e7b616efd/view",
+   "lang": "en",
+   "summary": "Award Notice · SPE7LX27U0040 · DEFENSE LOGISTICS AGENCY > DLA LAND",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "3bd4ee5d7b6b",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Uss St Louis (Lcs 19) Fy27 Docking Selected Restricted Availabilities (Dsra) Award Notice",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/90d1c01438e548d7973ff617c54a0438/view",
+   "lang": "en",
+   "summary": "Award Notice · N0002427C4405 · DEPT OF THE NAVY > NAVSEA",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "6a72db96100d",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "N6852027R1003: Naval Air Systems Command (Navair) Depot Maintenance System (Ndms) It Program/Project Functional Requirements And Software Lifecycle Support (Itpss) Request For Proposal (Rfp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/78071bfdd1384e21ae0150df27e87008/view",
+   "lang": "en",
+   "summary": "Special Notice · N6852027R1003 · DEPT OF THE NAVY · 마감 2026-11-09",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1aa4bbb759c3",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "F-35 Jpo Enterprise Data Science And Analytics Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/722a347c18cf4e9bbf866b7ce8f43f22/view",
+   "lang": "en",
+   "summary": "Sources Sought · N0001927R0054 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-10",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ai"
+   ],
+   "kw": [
+    "빅데이터"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "c00551d332cc",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "Ch-53 Fy27 Depot Mods",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/6b503cc19f8542fca69442fd4eed0912/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-26-RFPREQ-APM261-0497 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-12",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "10c00bce4a9a",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "N0001927R1025 E-6B Mercury Depot Maintenance Repair And Overhaul (Mro): Request For Proposal (Rfp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/4e82b79c2ad04fdb816559864b2e9b33/view",
+   "lang": "en",
+   "summary": "Solicitation · N0001927R1025 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-11",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "676993d7fff8",
+   "date": "2026-10-27",
+   "ts": "2026-10-27T09:00",
+   "title": "C-130 Np2000 Propeller Depot Level Repairable Items",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/3cb65fd3141344fdaba5878e6b9c1b9f/view",
+   "lang": "en",
+   "summary": "Sources Sought · 27-10272026 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-11",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
    ],
    "ents": [],
    "axes": [],
