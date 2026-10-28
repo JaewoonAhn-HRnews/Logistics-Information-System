@@ -2,6 +2,180 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "b799680efde6",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T00:27",
+   "title": "[조달계획] (26G056-H)AI 로봇 적용 실증 용역",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 협상에의한계약(전자) · 발주예정 2026.11 · 조달판단중 · 판단번호 43932",
+   "score": 0.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "ai",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "ce5016da091b",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T00:27",
+   "title": "[조달계획] 26년 비호 레이다 수리부속(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 2811A",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "191968dd4808",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Overhaul Of The Ah-64 Apache Housing Assy, Pitch M/R",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/8ca99ea8e87c47c095cca9d330db4305/view",
+   "lang": "en",
+   "summary": "Sources Sought · W58RGZ-27-R-A014 · DEPT OF THE ARMY > AMC · 마감 2026-11-12",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "918c7f29c929",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Fuel Injection Pump Overhaul",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/8ae87f843bd94c06991cf7fe1b815b63/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · N5005427Q0016 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-02",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8bb4e526b5a0",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Maintenance And Overhaul (M&O) Of Servocylinder",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/7b683ed95e28448ebcc4359806e50e0f/view",
+   "lang": "en",
+   "summary": "Presolicitation · W58RGZ-26-R-A006 · DEPT OF THE ARMY > AMC · 마감 2026-11-12",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1c25d47f2096",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Mq-25A Fy26 Spares Procurement",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/2140a8b1d92b4ff4865accc8e42540d1/view",
+   "lang": "en",
+   "summary": "Award Notice · N00019 · DEPT OF THE NAVY > NAVAIR",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "8a21a6daaefc",
    "date": "2026-10-28",
    "ts": "2026-10-28T08:17",
@@ -55,6 +229,39 @@
    "ents": [],
    "axes": [],
    "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "5c44976790e7",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T06:18",
+   "title": "Pentagon TF34 Parts Demand Constrains Commercial MRO Support for CF34 Engines, Lufthansa Technik Says",
+   "source": "Avi-Go",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KU05CU2x1WVAwdW5HYWJoeHZGOTd2NVdJY3FGakhpcTljZVRzNmJ0U21QVDJOQXI1WVM1QjNISDlxUTZCYS1ZNEc2aUg5SlEyWFgzNXFwYlhKanFZLWdvaHJoYWxSTUVESXNndDZrT1Z5VHM?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "European defence spare parts supply chain",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [],
+   "region": "eu",
    "domains": [
     "wpn"
    ],
