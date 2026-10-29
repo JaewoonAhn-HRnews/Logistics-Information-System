@@ -1,13 +1,29 @@
 {
- "at": "2026-10-29 10:13",
+ "at": "2026-10-30 00:33",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>43968</dcsNo><demandYear>2026</demandYear><excutTy>구매</excutTy><orderPrearngeMt>202611</orderPrearngeMt><ornt>",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>6660000</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>44154</dcsNo><demandYear>2026</demandYear><excutTy>구매</excutTy><orderPrear",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "budgetAmount": "6660000",
+     "cntrctMth": "수의계약",
+     "dcsNo": "44154",
+     "demandYear": "2026",
+     "excutTy": "구매",
+     "orderPrearngeMt": "202611",
+     "ornt": "해군제1수리창",
+     "orntCode": "HCC",
+     "progrsSttus": "공고중",
+     "progrsSttusCode": "24",
+     "reprsntPrdlstNm": "발열도가니 등 2품목(176)",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
@@ -26,32 +42,17 @@
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "cntrctMth": "일반경쟁",
-     "dcsNo": "43959",
+     "budgetAmount": "47299560",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "44164",
      "demandYear": "2026",
      "excutTy": "용역",
      "orderPrearngeMt": "202611",
-     "ornt": "해군군수사령부",
-     "orntCode": "SCF",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "'26년 해군 드론 유지보수 용역",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "budgetAmount": "15303200",
-     "cntrctMth": "수의계약",
-     "dcsNo": "43973",
-     "demandYear": "2026",
-     "excutTy": "구매",
-     "orderPrearngeMt": "202611",
-     "ornt": "제7001부대",
-     "orntCode": "SCN",
-     "progrsSttus": "공고의뢰중",
-     "progrsSttusCode": "23",
-     "reprsntPrdlstNm": "예방백신(스타마릴주) 구매",
+     "ornt": "육군본부",
+     "orntCode": "LCG",
+     "progrsSttus": "공고중",
+     "progrsSttusCode": "24",
+     "reprsntPrdlstNm": "26-육-279 '27년 상병건강검진 부분위탁 검사용역",
      "spcifyPrcureAt": "N"
     }
    ]

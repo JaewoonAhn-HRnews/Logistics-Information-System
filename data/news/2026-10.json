@@ -31,6 +31,89 @@
    "kind": "contract"
   },
   {
+   "id": "f79f27fc7467",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "W58Rgz-26-B-0004 Amendment 0005 Overhaul/Upgrade Landing Gear Fixed",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/dfae73196b1144e68a1bff72336e57ee/view",
+   "lang": "en",
+   "summary": "Special Notice · W58RGZ-26-B-0004  · DEPT OF THE ARMY > AMC · 마감 2026-11-30",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "0015410c7b25",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Sources Sought Notice – 8(A) Small Business Capability Inquiry: Personnel Readiness Assistance Team (Prat) Senior Personnel Analyst",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/be22b4f2ef3f48258a55aa8467e5de68/view",
+   "lang": "en",
+   "summary": "Sources Sought · 1301423460 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-04",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "0b10f0aeecbf",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "A-Stride Andersen Strategic Transformation In Rapid Infrastructure & Delivery Enterprise",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/58df667f435043e1a9c0c8f1b79623c5/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA5240-27-9-C001 · DEPT OF THE AIR FORCE > PACIFIC AIR FORCES",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
    "id": "7cad88727f60",
    "date": "2026-10-29",
    "ts": "2026-10-29T02:14",
