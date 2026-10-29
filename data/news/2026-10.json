@@ -2,6 +2,98 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "e336df9592c8",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T10:13",
+   "title": "[조달계획] '26년 해군 드론 유지보수 용역",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 용역 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 43959",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [
+    "유무인 복합"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "7cad88727f60",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T02:14",
+   "title": "Good management starts with knowing where your biggest challenges are",
+   "source": "Federal News Network (Defense)",
+   "url": "https://federalnewsnetwork.com/facilities-construction/2026/10/good-management-starts-with-knowing-where-your-biggest-challenges-are/",
+   "lang": "en",
+   "summary": "\"It can impact quality of life and wellbeing, but it could also have an impact on military readiness overall,\" said Kristy Williams.",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "fnn",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "61a1a2240c73",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T01:31",
+   "title": "Army taps AWS and WWT to boost AI-enabled cybersecurity initiative",
+   "source": "DefenseScoop",
+   "url": "https://defensescoop.com/2026/10/28/army-aws-wwt-ai-cybersecurity-project-griffin/",
+   "lang": "en",
+   "summary": "“Partnering with commercial industry is a national security imperative for the Army, as the private sector drives rapid innovation in superintelligence, cloud architecture and cyber operations capabilities,” Col. David Bergmann said. The post Army taps AWS and WWT to boost AI-enabled cybersecurity initiative appeared first on DefenseScoop .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defensescoop",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "클라우드",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "b799680efde6",
    "date": "2026-10-29",
    "ts": "2026-10-29T00:27",
@@ -62,6 +154,37 @@
     "fcst"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "12aa868cff62",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T14:05",
+   "title": "[창간22주년 특집: 바다와 도시를 잇다]② HJ중공업, 美 해군 4만t급 함정 정비 완수…글로벌 방산 경쟁력 입증",
+   "source": "업코리아",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54VU9lSVdXNXJOSndIZlo4M04xZ2R6YVRpY0F0dVBKZDJYQXJGdXJkWndqMkR4TzE1UDlrWVBTOFphbGxJZVp4TXJPbF9qQVM2MlZhMUhDMzdXSmljU1R4NmM3UFMwTGc0eWd2U0pR?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "후속군수지원 계약",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "해군",
+    "HJ중공업"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "191968dd4808",
@@ -172,6 +295,100 @@
    "region": "us",
    "domains": [
     "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "eac01c0e430f",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Overhaul B-1 Electro-Mechanical Actuators",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/fe284223457e4b30becd023a18ee036b/view",
+   "lang": "en",
+   "summary": "Solicitation · FA811827RB001 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-27",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "52d14183ccb8",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Notice Of Opportunity (Noo) U.S. Army Reserve, 88Th Readiness Division Energy Savings Performance Contract (Espc)",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/e480be86532e4635bd886018cbe4df79/view",
+   "lang": "en",
+   "summary": "Solicitation · SP060427R0400 · DEFENSE LOGISTICS AGENCY > DLA ENERGY · 마감 2026-11-09",
+   "score": 7.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA",
+    "미 육군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "12f12a00f215",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T09:00",
+   "title": "Sources Sought For The Overhaul Of The Starter, Engine Hydraulic Amendment 001 (Uh-60)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/cb0bf4448d904945acda9b06d867a558/view",
+   "lang": "en",
+   "summary": "Presolicitation · w58rgz26b0036 · DEPT OF THE ARMY > AMC · 마감 2026-11-12",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
    ],
    "kind": "contract"
   },
