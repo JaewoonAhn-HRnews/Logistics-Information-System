@@ -2,6 +2,102 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "5b14ec1b3f30",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T10:20",
+   "title": "[조달계획] 주둔지 경계용 CCTV 외주정비 용역",
+   "source": "국방전자조달(D2B) · 제2신속대응사단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제2신속대응사단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44248",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f42d3595cb7e",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T05:19",
+   "title": "Britain sets out £298 billion defence spending plan as government forecasts nearly 60,000 new jobs and industrial growth",
+   "source": "Defence Industry Europe",
+   "url": "https://defence-industry.eu/britain-sets-out-298-billion-defence-spending-plan-as-government-forecasts-nearly-60000-new-jobs-and-industrial-growth/",
+   "lang": "en",
+   "summary": "Britain plans to spend £298 billion on defence over the next four years, with the government forecasting nearly 60,000 new jobs from investment intended to strengthen military readiness and domestic industry.",
+   "score": 8.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defindeu",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram",
+    "parts"
+   ],
+   "kw": [
+    "가동률·준비태세",
+    "수요예측"
+   ],
+   "ents": [],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6220ea7f9dc1",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T19:45",
+   "title": "Europe's Refining Reversal: Energy Security - Defence Readiness and the Cost of Lost Industrial Capacity",
+   "source": "https://debuglies.com",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVHAxSTR3eEszbFhON3VEaUdjMGlYQW5RLWwyTjFiRmNmd2VHZUhOTk41WFhZeE9qWkpXZmptejFfRlk4SzAtaGIydTFJX1NfMFVaVk04dFdLQ1pHZVhKVndVT0ZEdWlZT2hFS0NGZmFsdG1IUzcwVk9Halg0UUQtdUNZQmxod1k3a28yR2N6WFB6R29qSThQY2dzTTBXWjBLdk9uRDZDRG9oQm1reHlud3FGaVlDRzRybTV1ODViS3JWVE9XbjM1akM3bXJZZ3M?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "Europe military mobility logistics",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "e336df9592c8",
    "date": "2026-10-29",
    "ts": "2026-10-29T10:13",
@@ -111,6 +207,199 @@
    "axes": [],
    "region": "us",
    "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "0f0c0364be8b",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Original Equipment Manufacturer (Oem) Curtiss-Wright High Pressure Air Compressors (Hpacs) Overhaul And Upgrade For A T-Ao Class Vessel",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/ffa9b6b4971f41c7baf801fafe44afdb/view",
+   "lang": "en",
+   "summary": "Award Notice · N0040627P0001 · DEPT OF THE NAVY > NAVSUP",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1098e543e70b",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Industry Day Announcement Supply Chain Illumination",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/e5d0ec9275b645b7919aec06190f77e7/view",
+   "lang": "en",
+   "summary": "Special Notice · EB-27-102926 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-16",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "59cfe24c457b",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Air Force Research Laboratory (Afrl) Enterprise Commercial Solutions Opening (Cso)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/cf03142c80c846d5a5740626c4bdc974/view",
+   "lang": "en",
+   "summary": "Special Notice · FA865226SC003 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2030-04-30",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "8f580c6f3628",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Industry Day Announcement - Area Maintenance Support Activity (Amsa) / Vehicle Maintenance Shop (Vms) Located In Joint Base Elmendorf-Richardson, Alaska",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/b7a62a19fb1640549c95641b3cbeb7cb/view",
+   "lang": "en",
+   "summary": "Special Notice · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-10-26",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "043e4178e2f9",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Amended Final Rfp - Landing Gear Collaborative Supply Chain Integration Ii",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/9d33363c35224829b616a1eef9ecb1e1/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRHA1-26-R-1003 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2027-03-01",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "84e4a230c047",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Fy27 Asl Interpretation Services For Usace Mvp",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/70994cb7994e46cba6b3f02f6a7fbe35/view",
+   "lang": "en",
+   "summary": "Solicitation · W912ES27QA005 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-13",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e6475dcaf8fa",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T09:00",
+   "title": "Mh-60R Airborne Low Frequency Sonar (Alfs) Weapon Replaceable Assemblies (Wra) Support And Sustainment",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/4c1137de64dc4f1c80fffadb9a716cf2/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · N0001926RFPREQAPM2990566 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-28",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
    "kind": "contract"
   },
   {
