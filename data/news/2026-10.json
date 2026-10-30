@@ -2,6 +2,67 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "d803a5e2896a",
+   "date": "2026-10-31",
+   "ts": "2026-10-31T00:20",
+   "title": "[조달계획] 26년 춘천병원 전산화단층활영기(CT) X-선 튜브 구매",
+   "source": "국방전자조달(D2B) · 국군의무사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군의무사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 공고의뢰중 · 판단번호 44382",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e8eca02f8c3f",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T13:08",
+   "title": "How Military Police Working Dogs Support Readiness in Korea",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMjd6czlBZDN4c2pGaXhtUHMwYTVRMEN0ZEEtYWMtRlFxX0k4YVBWbzVrUzByN1lJbWdEWGthaU11UElFb2tiQ2JZRkVZM2pkVnFzTzFKRGhPRE5Nd21OeU54UGx4QUNDMjd1MFozeElla0htUGh5S0p1TWZuM2hWT29Ja012Qm5mUnZyMEFISmFaY3RCT2cwU2RtclZlUW910gGgAUFVX3lxTE4yN3pzOUFkM3hzakZpeG1QczBhNVEwQ3RkQS1hYy1GUXFfSThhUFZvNWtTMHI3WUltZ0RYa2FpTXVQSUVva2JDYllGRVkzamRWcXNPMUpEaE9ETk13bU55TnhQbHhBQ0MyN3UwWjN4SWVrSG1QaHlLSnVNZm4zaFZPb0lrTXZCbmZSdnIwQUhKYVpjdEJPZzBTZG1yVmVRb3U?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "5b14ec1b3f30",
    "date": "2026-10-30",
    "ts": "2026-10-30T10:20",
@@ -28,6 +89,109 @@
    "domains": [
     "wpn"
    ],
+   "kind": "contract"
+  },
+  {
+   "id": "604c8b0d4e41",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Mux/Male Engineering Logistics Support (Els) Follow-On",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/e2776f2744b1458ea1fc972bf26a5e11/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-26-RFPREQ-WPM266-0012 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-14",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "ce9bf075ce6f",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "New Manufacture Of An/Sps-48E Serpentines",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/daf22df6bc4f48658924cf373e3a9635/view",
+   "lang": "en",
+   "summary": "Presolicitation · N0016427RLL20 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-13",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "f98e064df758",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Depot Consumable Parts Processing & Disposal (Demil)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/a35fa8b22e0744bc89c5e8c6d50cc171/view",
+   "lang": "en",
+   "summary": "Award Notice · FA857127D0001 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1e7052f0f55f",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Contractor Logistics Support Fy27-Fy28 Extension",
+   "source": "SAM.gov · Missile Defense Agency (Mda)",
+   "url": "https://sam.gov/workspace/contract/opp/2b69cf2f75b74fb383b22d57291694b3/view",
+   "lang": "en",
+   "summary": "Justification · 26-MDA-12447 · MISSILE DEFENSE AGENCY (MDA) > MISSILE DEFENSE AGENCY (MDA)",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
    "kind": "contract"
   },
   {
@@ -526,6 +690,96 @@
     "fcst"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "3f465e31b481",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T16:00",
+   "title": "KOMERI, 함정 MRO·부품국산화 추진",
+   "source": "한국해운신문",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95YlJpME1vWnJoWEd4LXhtWTdNMTZGcmJYbTJRYlhmX2lVUmtzV3ZsT25IN2VmV0dzQXpsN0J3UXJXd1Q1bDV3YkVaMm1oUE4zRGVkMXdHaE9ZSmFNNnRBbE95eW4xUkdEX0U2V1BuQTVkRk0?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 8.0,
+   "also": [
+    {
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yQlFEQlpjbXZUYnBLdEM2NEtMZmpPMkZ6OTRxSG1ZRldIeHNUd2FJcjhNRXB5VXhZS3p5NTVncURaSi1pZHhUd1ZkbXRfeWNTNUVhVzE5RU15Zk43UHIw?oc=5",
+     "title": "해군-KOMERI, 함정 MRO·부품국산화 추진"
+    },
+    {
+     "source": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TeTBwd1dTb1BKZFlUeGd4Z1hScEhrcXlLTW1XVTgtT0g1X0gzbzV3UUowOGx4TkN1azd3bnBvN2M1emhwYXdlQ0FUZE9ZcG83SDdnUG4xUElJSVNxY0g2T1lVZkV2MnhoMzZENU9R?oc=5",
+     "title": "KOMERI, 해군과 함정 MRO·부품 국산화 기술협력 확대 모색"
+    },
+    {
+     "source": "에너지신문",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMdEs0ZTlLNmVRTDYyb29VbXhQRVA0NF9ZWVVWLWhBak9uNXVicm9oQzlVTGtZVDNJNlBvZkk4OE9MRTNFTUhNQXkwbzZ5d29iRDR1WjFSNlpxQjcwdEpVZm85cl9GSk5INmF3QkJJS1Fidw?oc=5",
+     "title": "KOMERI, 해군과 함정 MRO·부품 국산화 협력 강화"
+    },
+    {
+     "source": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5RUFQdU02a0lhUndCY1JTQWsxel83LWNWcFVEcFJPdXlRekZjWTJ3WnR3UjBUQ0R5WnVzR29BZ1I3YVRnYjd4TFNDdWhtQjJLeXp1c2xtV2JrUjJjTHRYNmZac2dfdw?oc=5",
+     "title": "KOMERI·해군 군수사, 함정 MRO·핵심부품 국산화 협력 시동"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "국산화"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "e240a211d2f1",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T16:00",
+   "title": "ACC hosts joint leaders, industry partners to accelerate F-35 combat readiness",
+   "source": "ACC.af.mil",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVmtVeFRBSldXZW55YmlYaDdsYXgtUlZhNTBFd25VejdKanY4aVZIRC1NejQ0UzdrcENiRk41REJ4S0Z4bWhSa0Fvc2ZWeFlBZ1l0NnlPcXJoSzNjZDVNLVl6YUhiYUxUTG5vQjNaWVUwNm95bndzaHQwbk9nSm5QUENWTEpvYnp2dFVyZ09BcXR5V2liY1NBdVlHRFR3akJ5NmYxemE3VlFJaG1GZXJuMmV5MVNxRWQ3cmVjaTAzbGw2YWFJM0o2VC1YVG96ZWRJWmRYXw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "12aa868cff62",
