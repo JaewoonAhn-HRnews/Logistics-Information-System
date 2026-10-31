@@ -399,6 +399,29 @@
    "kind": "contract"
   },
   {
+   "id": "d13a2d923ce8",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Resource Enterprise Services (Res) Support Services",
+   "source": "SAM.gov · Washington Headquarters Services (Whs)",
+   "url": "https://sam.gov/workspace/contract/opp/5fd0cdf4ecbb4b19b0362ed5742f234a/view",
+   "lang": "en",
+   "summary": "Award Notice · HQ003426FE651 · WASHINGTON HEADQUARTERS SERVICES (WHS) > WASHINGTON HEADQUARTERS SERVICES",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
    "id": "e6ed81801746",
    "date": "2026-10-30",
    "ts": "2026-10-30T06:26",
@@ -491,6 +514,38 @@
     "ram"
    ],
    "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "8b51a1d13832",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T14:28",
+   "title": "삼성전자 “내년 HBM 완판…비메모리 가동률 100% 넘을 것”",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPWHpxUjN6MEpSMWYwQjQ0TXhFaWQ0ekVDME9uY3Y1Q3BWMGVQNkxYVkxCMGdJaWh0QXZ0TVhWc1V1Sm9Yb21BVUt2TXc?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
    "domains": [
     "wpn"
    ],
