@@ -2,6 +2,70 @@
  "month": "2026-10",
  "articles": [
   {
+   "id": "fa43c0efef55",
+   "date": "2026-10-31",
+   "ts": "2026-10-31T06:46",
+   "title": "Hintsteiner Defence Expands Mobile Maintenance Service and Spare Parts Logistics",
+   "source": "Militär Aktuell",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb2ZsRExVdk9aY3E2S3dpd1owQzBUaHRhSjh2Y0xHMGVRcW85S2dxNkxfX3pKRmJZR1JiRGw5bHlnLU13bEREV0xIdFI4azRFSkgyb3NfNlhhMWxFT3dVbmhBZ3kzVnBzQk45MDltTmVkd3ZTUHpHbFVXdWtVREtzcGRkbDFJUEtmY2NMUExYbnRmS3FiZ0lnTWhGWm55WXRZV3c1S1dhRlk4X2g2UXctbg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "defense predictive maintenance",
+   "cats": [
+    "parts",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a80e2cb3ff88",
+   "date": "2026-10-31",
+   "ts": "2026-10-31T00:52",
+   "title": "미 해군 보급함 정비, K-조선으로 몰린다…삼성중공업만 소외",
+   "source": "포쓰저널",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mZjBWUTY0X1FsY1dRblk1THRMWjlZd1pTZndrNU94bnZFcVl4UTBoX3pXM3JMLVExV3dyNHVXZERQb0NSVXBMdDV1dXEyQ1EtZ3pjUlQwTDB0S2hYa2diVW94SVY?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "d803a5e2896a",
    "date": "2026-10-31",
    "ts": "2026-10-31T00:20",
@@ -29,6 +93,38 @@
     "lis"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "577ca70a4b78",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T16:27",
+   "title": "[단독] 미 해군 보급함 14척 중 6척 한국서 정비…HD현대 3척 4000만 달러",
+   "source": "데일리안",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMmFIZ0lhQTY0RG5vcDhPWFhKbUFJOWhHNDVORjNPRjVLWmtfZWhydVI3ekNmcGtfOGdnZUVmMVplVmdURmotWXRhTFg5Q2pTR3NQdF9uZlBNV1RhVFpRQ3dwWG9LZXItd1Q3bGl4ejRlNWhoX3pCOFowNGw4NFBCdFpoWDlIZUdoSjNPekI1ZUZJLTZOOGMyMDhBWG50TWpudFBsOHJmbk1QaEx0ODRsRHFmU2lSRmh4cHNCUDQtWnc5ZFFQWVVzQjJpN3Jfbm9yNllRSkVCajFkdkRhU0FQbThic3laWnUyNmNQYTNn?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "해군",
+    "HD현대중공업"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "e8eca02f8c3f",
@@ -5336,7 +5432,7 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2c4TkVTdDNTNllTY2wtT0sxODN6X3RZcl82TFN4Wk0zOC1GZE1Xd3M2QnVtWFhkajh4elNLZ0RBelBmSzR4d1lzWi1vSkRzRHFsMkVrYnhtWUM1NUFoakpjSmVEODk3WmlleHdTTU5nQUxBT0dXbDcwMktMa3VYSUxmSUXSAZgBQVVfeXFMTTB2eG0ySUVpcDJGUExXN2IzNWZWU1FqclhOZ2J1UTJKMERubUNKTEgwVWw1OHdUclVOcl82eDFYc0dVODFFVWNrUzZzRXpVNzB2VW56NVN3YmtRdGxzdGZYcThIUmc3YXVOOF90bVZRLW1uNEE2VU5vUFl2WEthT0V4N2U3RTZ3NXNCRjk4Y3lXbm5Wa2RMaUg?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.0,
+   "score": 4.5,
    "also": [
     {
      "source": "데일리한국",
@@ -5384,7 +5480,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.0,
+   "score": 4.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -6335,7 +6431,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 4.0,
    "also": [
     {
      "source": "뉴스1",
