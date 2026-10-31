@@ -340,6 +340,23 @@ def ai_weekly_briefings(groups, periods, recent=3):
     return cache
 
 
+def _dtxt(d):
+    """구글 시트가 날짜를 숫자로 바꾸지 않도록 요일을 붙인 텍스트로 내보냄."""
+    from datetime import date as _d
+    y, m, dd = map(int, d.split("-"))
+    return f"{d}({'월화수목금토일'[_d(y, m, dd).weekday()]})"
+
+
+def _ktxt(kind, k):
+    if kind == "day":
+        return _dtxt(k)
+    if kind == "month":
+        return f"{k[:4]}년 {int(k[5:])}월"
+    if kind == "year":
+        return f"{k}년"
+    return k
+
+
 def export_csv(arts, periods):
     """구글 시트 등 외부 DB 연동용 CSV(UTF-8). data/export/ 에 매 정리 때 덮어씀."""
     import csv
@@ -351,7 +368,7 @@ def export_csv(arts, periods):
         w.writerow(["id", "날짜", "지역", "분야", "유형", "언어", "매체", "함께보도", "제목", "요약", "키워드", "기관·기업·체계",
                     "과제축", "관련도", "수집방식", "URL", "AI 요약"])
         for a in arts:
-            w.writerow([a["id"], a["date"], T.REGION_NAME.get(a.get("region"), ""), "|".join(DOM.get(d, d) for d in a.get("domains", [])),
+            w.writerow([a["id"], _dtxt(a["date"]), T.REGION_NAME.get(a.get("region"), ""), "|".join(DOM.get(d, d) for d in a.get("domains", [])),
                         T.KIND_NAME.get(a.get("kind", "news"), "뉴스"), "국문" if a.get("lang") == "ko" else "영문", a.get("source", ""),
                         "|".join(x["source"] for x in a.get("also", [])), a.get("title", ""), a.get("summary", ""),
                         "|".join(a.get("kw", [])), "|".join(a.get("ents", [])), "|".join(AXIS_NAME.get(x, x) for x in a.get("axes", [])),
@@ -365,7 +382,7 @@ def export_csv(arts, periods):
             for k in sorted(periods[kind], reverse=True):
                 s = periods[kind][k]
                 rg = s.get("regions", {})
-                w.writerow([UNIT[kind], k, s.get("label", ""), s["n"], s["ko"], s["en"], rg.get("us", 0), rg.get("eu", 0), rg.get("kr", 0),
+                w.writerow([UNIT[kind], _ktxt(kind, k), s.get("label", ""), s["n"], s["ko"], s["en"], rg.get("us", 0), rg.get("eu", 0), rg.get("kr", 0),
                             rg.get("etc", 0), s.get("kinds", {}).get("contract", 0), s.get("ai", ""), s.get("ai_by", "") if s.get("ai") else "",
                             s.get("brief", ""), " / ".join(x["t"] for x in s.get("digest", [])[:5]), "|".join(k2 for k2, _ in s.get("kw", [])[:10])])
 

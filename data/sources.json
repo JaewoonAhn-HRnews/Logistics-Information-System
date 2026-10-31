@@ -259,6 +259,75 @@
    }
   },
   {
+   "id": "nextgov",
+   "name": "Nextgov/FCW",
+   "region": "us",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://www.nextgov.com/",
+   "domains": [
+    "lis"
+   ],
+   "desc": "미 연방 IT·AI 전문지(Defense One 자매지). 국방·연방 AI 도입, 데이터·클라우드, 조달 정책. 일간 'Federal Tech Today' 뉴스레터.",
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://www.govexec.com/newsletters/",
+    "label": "뉴스레터 가입"
+   },
+   "auto": {
+    "rss": "https://www.nextgov.com/rss/all/",
+    "gnews": "site:nextgov.com defense OR military OR DLA",
+    "min": 5.0,
+    "ctx": false
+   }
+  },
+  {
+   "id": "crs",
+   "name": "의회조사국(CRS) 보고서 · Congress.gov",
+   "region": "us",
+   "type": "감사·연구",
+   "rec": 2,
+   "url": "https://www.congress.gov/crs-products",
+   "domains": [
+    "lis",
+    "wpn",
+    "fcst"
+   ],
+   "desc": "미 의회조사국 정책 보고서. 국방 AI·조달·공급망 리스크·무기체계 지속지원 쟁점 정리.",
+   "sub": {
+    "mode": "site",
+    "url": "https://www.congress.gov/crs-products",
+    "label": "사이트 방문"
+   },
+   "auto": {
+    "gnews": "site:congress.gov crs-product defense OR military OR \"supply chain\"",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
+   "id": "acqgov",
+   "name": "Acquisition.gov (연방 조달규정·지침)",
+   "region": "us",
+   "type": "조달·계약",
+   "rec": 1,
+   "url": "https://www.acquisition.gov/",
+   "domains": [
+    "lis"
+   ],
+   "desc": "미 연방 조달규정(FAR·DFARS)과 개정 지침. AI 계약 안전장치 등 조달 규칙 변화 확인용.",
+   "sub": {
+    "mode": "site",
+    "url": "https://www.acquisition.gov/",
+    "label": "사이트 방문"
+   },
+   "auto": {
+    "gnews": "site:acquisition.gov AI OR defense",
+    "min": 4.0,
+    "ctx": true
+   }
+  },
+  {
    "id": "samgov",
    "name": "SAM.gov 입찰공고",
    "region": "us",
