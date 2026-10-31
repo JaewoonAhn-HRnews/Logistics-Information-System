@@ -235,6 +235,30 @@
    }
   },
   {
+   "id": "meritalk",
+   "name": "MeriTalk",
+   "region": "us",
+   "type": "전문지",
+   "rec": 2,
+   "url": "https://www.meritalk.com/",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
+   "desc": "미 연방·국방 IT 전문지. CDAO·DLA 데이터·AI, GenAI.mil 등 국방 데이터 통합 소식.",
+   "sub": {
+    "mode": "newsletter",
+    "url": "https://www.meritalk.com/",
+    "label": "사이트(뉴스레터 구독)"
+   },
+   "auto": {
+    "rss": "https://www.meritalk.com/feed/",
+    "gnews": "site:meritalk.com defense OR DOD OR DLA",
+    "min": 5.0,
+    "ctx": true
+   }
+  },
+  {
    "id": "samgov",
    "name": "SAM.gov 입찰공고",
    "region": "us",

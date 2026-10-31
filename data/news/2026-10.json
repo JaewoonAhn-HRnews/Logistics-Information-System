@@ -4320,6 +4320,48 @@
    "desc_tried": true
   },
   {
+   "id": "eb45d37c7283",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T09:00",
+   "title": "DOD Officials Detail Push to Make Data Ready for Mission AI",
+   "source": "MeriTalk",
+   "url": "https://www.meritalk.com/articles/dod-officials-detail-push-to-make-data-ready-for-mission-ai/",
+   "lang": "en",
+   "summary": "구글 퍼블릭섹터 서밋(10.20)에서 DLA CIO 아다릴 로버츠와 국방부 CDAO 부국장 앤드루 메이프스가 미션 AI를 위한 데이터 준비 현황을 설명. DLA는 연 550억~600억 달러·약 130억 건 거래 규모의 공급망 데이터를 권위 있는 데이터 원천(authoritative data source)으로 정비해 분석·AI에 활용하려 하며, 일부 무기체계 부품은 조달·납품에 2~5년이 걸린다고 밝혔다. CDAO는 800개 데이터 원천·약 300만 사용자를 잇는 전사 데이터 체계를 운영하며 각 구성군이 데이터를 공유·개방해야 한다고 강조했고, GenAI.mil은 기존 데이터에 AI 모델을 가져가는 플랫폼으로 소개됐다.",
+   "score": 10.0,
+   "also": [],
+   "origin": "seed",
+   "src": "",
+   "hint": "us",
+   "q": "seed",
+   "cats": [
+    "sys",
+    "ai",
+    "parts",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망"
+   ],
+   "ents": [
+    "국방부",
+    "미 국방부",
+    "DLA"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "93486f85cc29",
    "date": "2026-10-21",
    "ts": "2026-10-21T07:02",
