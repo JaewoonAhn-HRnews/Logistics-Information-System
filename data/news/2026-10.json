@@ -195,6 +195,146 @@
    "kind": "contract"
   },
   {
+   "id": "cfeab678ee68",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "J&A Mission Partner Environment (Mpe) Engineering And Enterprise Operations & Maintenance (Eeo&M)",
+   "source": "SAM.gov · Defense Information Systems Agency (Disa)",
+   "url": "https://sam.gov/workspace/contract/opp/fa829affbe8646be99c9735d83c49303/view",
+   "lang": "en",
+   "summary": "Justification · 712775914 · DEFENSE INFORMATION SYSTEMS AGENCY (DISA) > DITCO-PAC",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2fe5265811c7",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Full & Open Brand Name Oem \"Curtiss-Wright Electro-Mechanical Corp\" - Low Pressure Air Compressor (Lpac) Maintenance Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/dc0d85b01b764196a7c3b8e398976dcd/view",
+   "lang": "en",
+   "summary": "Solicitation · N0040627Q0004 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-03",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "c54118a407ed",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Common Airborne Telemetry And Instrumentation Kit (Catik) Enterprise Production Contract",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/b623f655fd5d4453b0df0933de1fce30/view",
+   "lang": "en",
+   "summary": "Presolicitation · FA8128-27-R-B00X · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-16",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "308878065ba1",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T09:00",
+   "title": "Crrel Generator Maintenance Services",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/439ec97c517246ee85134d7256df5645/view",
+   "lang": "en",
+   "summary": "Solicitation · W913E527RA001 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-12",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e6ed81801746",
+   "date": "2026-10-30",
+   "ts": "2026-10-30T06:26",
+   "title": "The Fight Starts Here: ARTRANS Turns Army Readiness Into Deployable Capability",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1lsQ0VqcTJfRmJDa1pBRm94RG0zeGROUmEtNUlGZTRvQUVQUXl4Z2l4MnY0SWJpYVJxejhxX2Q5cmJlOTlaMkhnZVRXWnpSUEtmQzMwNmVLNW9uX2o5TktKcldIN1ZhaWYtLWg3ejZVcmw1Y0FEMm9iMU9BSS1TZ1NaMVBPNjFqQW05NVFHOURGaXF5NjJFeVJ4Y2lveXpod0dZbmFReXRYZ29FeXpiNEJHd9IBuAFBVV95cUxPT1BINGFjbkV2NjNfZDhlRklPN0p2TGxsUElTUUkyemk5Um81U0lZbnRjWXRrVDVrUFJRQk1raE43WDlSTnRSUDI0MHhjUlJsci1sTldtdHF5TDhtbXd2cTZfRS16a1VHdmY1M2dLWUc5aFl4OV9xLTlGN3M5dWkxYTB2cDlrSW56MzBiSF9jQXFvalFVUEdnSHpxaUFnSUlZa1J2R2M4WXRFZ3QzMjMyRUJBSjdtQWhi?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "f42d3595cb7e",
    "date": "2026-10-30",
    "ts": "2026-10-30T05:19",
@@ -700,7 +840,7 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95YlJpME1vWnJoWEd4LXhtWTdNMTZGcmJYbTJRYlhmX2lVUmtzV3ZsT25IN2VmV0dzQXpsN0J3UXJXd1Q1bDV3YkVaMm1oUE4zRGVkMXdHaE9ZSmFNNnRBbE95eW4xUkdEX0U2V1BuQTVkRk0?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 8.0,
    "also": [
     {
      "source": "뉴스1",
@@ -721,6 +861,11 @@
      "source": "열린뉴스통신",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5RUFQdU02a0lhUndCY1JTQWsxel83LWNWcFVEcFJPdXlRekZjWTJ3WnR3UjBUQ0R5WnVzR29BZ1I3YVRnYjd4TFNDdWhtQjJLeXp1c2xtV2JrUjJjTHRYNmZac2dfdw?oc=5",
      "title": "KOMERI·해군 군수사, 함정 MRO·핵심부품 국산화 협력 시동"
+    },
+    {
+     "source": "투데이에너지",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ocm9YVHc2TENHLTQ5N01nQmNSUTQtMHlmcUtaOUg3ZmxHbERaRmxlZUtJRm53ZXk0OVgxeUZlZHRCMHdGOGQ3Y3g0c3phTVoyYjBieXdMTUJ0ZUdac05Hc0FqTWlqSDRpajNsMnBn?oc=5",
+     "title": "KOMERI-해군 군수사령부, 함정 MRO·부품국산화 협력 강화"
     }
    ],
    "origin": "rss",
@@ -810,6 +955,36 @@
     "wpn"
    ],
    "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "e2425cb69ef8",
+   "date": "2026-10-28",
+   "ts": "2026-10-28T12:31",
+   "title": "Public Spend Forum secures $50M DLA Military Unique Sustainment Technology (MUST III) IDIQ",
+   "source": "OrangeSlices AI",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHI5aG1VRkdBTy11cXZsWEhRNHJIaHh5S2hkbVlXeVFLWk9CN2hKcUk2eGwxeGpEamNGMzg0aV80SDNyVWJUUnhPYUJ0Ylp3S0hUSThnWkhHZjZEVjhRMVRlZmxVV2NuYThrbndoSnljbjR1eU5HVHBoNm53UWF6c2UyM1NjWno5ZUNaQkdIa1hrTjVNOTJISGlscjRULU91alFVNV9YTWlnVHhPRVM0clhB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "Defense Logistics Agency AI",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
    "desc_tried": true
   },
   {
@@ -3730,6 +3905,38 @@
    "desc_tried": true
   },
   {
+   "id": "463444cb53a8",
+   "date": "2026-10-22",
+   "ts": "2026-10-22T09:46",
+   "title": "실적 주춤·신뢰도 하락… 위기의 K방산",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcFpyQ1E2dV9OLTFJdVJmXzdiOXpVM3VzcW56NnM0VlBCSkFmYk51MURzcU8zdWNvbUh2Y1EtRmdlYTduV1pyQlBJR0FiOVRBcTBDVTRMOXdTYXZwenhyXzFpRUJZQkxMZTBXUDNJYjY3b1ZQcHg1eW5FV1FxN1FxbzRtSWFWVDU3Mms5dUhLZw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "방위사업청 군수 사업",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "426c58ee99d3",
    "date": "2026-10-22",
    "ts": "2026-10-22T09:12",
@@ -4734,6 +4941,39 @@
    "desc_tried": true
   },
   {
+   "id": "18cbcfa66e30",
+   "date": "2026-10-19",
+   "ts": "2026-10-19T06:38",
+   "title": "H.R.10789 - 119th Congress (2025-2026): Protecting Florida's Offshore Military Readiness Act",
+   "source": "Congress.gov",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTc1o5TTJPQ2k5V0NsN1ZlQzNLenNYNWlHa0h6WWZrdklYWTlhcURTMmdFN0hpaDdDeUluYUtCRVFMdFZ3X2tOVHNLSlA2WkV5RUZxNExxbTV4NFU0cXdFQXBtUE5VYWlOMUU3Q3pR?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "crs",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "b23d1ac8e18d",
    "date": "2026-10-19",
    "ts": "2026-10-19T05:33",
@@ -4795,39 +5035,6 @@
    "region": "kr",
    "domains": [
     "fcst"
-   ],
-   "kind": "news",
-   "desc_tried": true
-  },
-  {
-   "id": "b9776ac3186c",
-   "date": "2026-10-18",
-   "ts": "2026-10-18T16:49",
-   "title": "HJ중공업, 美 해군 함정 첫 MRO ‘완주’…이제 전투함 겨눈다",
-   "source": "쿠키뉴스",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CMWVXNFBpaHBXSUx0NjJMWm9IVVhzaDRraDI1clRhRTJ2Q1hhT0NrdWh2dlVnUGNzcUsxakhWX0tUY0g2ZGdhUEhQRnZINWVrb0J0dTJrSnVLM0pqcjNHQU9oSQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "함정 MRO 한국",
-   "cats": [
-    "mro"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군",
-    "HJ중공업"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
    ],
    "kind": "news",
    "desc_tried": true
@@ -4952,40 +5159,6 @@
     "wpn"
    ],
    "kind": "news"
-  },
-  {
-   "id": "b3a9701253ae",
-   "date": "2026-10-16",
-   "ts": "2026-10-16T16:16",
-   "title": "[정비 신뢰로 미 해군 문을 열다]HJ중공업, 미 해군 함정 첫 MRO 성공 완료…추가 정비로 계약 규모도 확대",
-   "source": "전국뉴스",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44aTA5SzFPLWx2XzZYZjhtaHFBOUMya1Rzc0VNaUtpYW04QXUtQXozZXB2SDVad0ZNWHMtdXVwUjVjekVxaERIVnJvbElxdENsMVRaMnpmWVBnYjFXTl94NzVRcWpBQWhMT0NlYUdLVEQ?oc=5",
-   "lang": "ko",
-   "summary": "",
-   "score": 5.0,
-   "also": [],
-   "origin": "rss",
-   "src": "gnews",
-   "hint": "kr",
-   "q": "후속군수지원 계약",
-   "cats": [
-    "mro",
-    "ind"
-   ],
-   "kw": [
-    "MRO"
-   ],
-   "ents": [
-    "해군",
-    "HJ중공업"
-   ],
-   "axes": [],
-   "region": "kr",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "contract",
-   "desc_tried": true
   },
   {
    "id": "ceca79c6b624",
@@ -5155,6 +5328,54 @@
    "desc_tried": true
   },
   {
+   "id": "fc3e835b5933",
+   "date": "2026-10-15",
+   "ts": "2026-10-15T16:00",
+   "title": "HJ중공업, 美 해군 함정 첫 정비서 ‘합격점’… 계약 규모도 확대",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2c4TkVTdDNTNllTY2wtT0sxODN6X3RZcl82TFN4Wk0zOC1GZE1Xd3M2QnVtWFhkajh4elNLZ0RBelBmSzR4d1lzWi1vSkRzRHFsMkVrYnhtWUM1NUFoakpjSmVEODk3WmlleHdTTU5nQUxBT0dXbDcwMktMa3VYSUxmSUXSAZgBQVVfeXFMTTB2eG0ySUVpcDJGUExXN2IzNWZWU1FqclhOZ2J1UTJKMERubUNKTEgwVWw1OHdUclVOcl82eDFYc0dVODFFVWNrUzZzRXpVNzB2VW56NVN3YmtRdGxzdGZYcThIUmc3YXVOOF90bVZRLW1uNEE2VU5vUFl2WEthT0V4N2U3RTZ3NXNCRjk4Y3lXbm5Wa2RMaUg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [
+    {
+     "source": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUmFDUUJlR2J4M29HSHVtZlZnOGI3WVlTMmxseGJfYlNjQS1EbXVHRmwyaDdYOS1CYU9FYzhielppYzRndWxIZjVKM3NnMklSTFNFbE5OcnF3WG5KSGs4UDJka2ljMER0VDJuVVI5WdIBc0FVX3lxTE0yVkhOVGxxTUIwZGpWTUdXeWhtaTlDa2RpT1ZtVHBUTC0xZGtKeTM4MnhpZkUzODRxaTZCTmEyd3pILVRtV0tvY1BNUTBvQlcxeWhNcHFDVmVEY0lVZXJycE5PcHpiMWRRNEs3NG90a0pkRXM?oc=5",
+     "title": "HJ중공업, 미 해군 함정 첫 정비 성공…후속 수주 발판"
+    },
+    {
+     "source": "전국뉴스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44aTA5SzFPLWx2XzZYZjhtaHFBOUMya1Rzc0VNaUtpYW04QXUtQXozZXB2SDVad0ZNWHMtdXVwUjVjekVxaERIVnJvbElxdENsMVRaMnpmWVBnYjFXTl94NzVRcWpBQWhMT0NlYUdLVEQ?oc=5",
+     "title": "[정비 신뢰로 미 해군 문을 열다]HJ중공업, 미 해군 함정 첫 MRO 성공 완료…추가 정비로 계약 규모도 확대"
+    },
+    {
+     "source": "쿠키뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CMWVXNFBpaHBXSUx0NjJMWm9IVVhzaDRraDI1clRhRTJ2Q1hhT0NrdWh2dlVnUGNzcUsxakhWX0tUY0g2ZGdhUEhQRnZINWVrb0J0dTJrSnVLM0pqcjNHQU9oSQ?oc=5",
+     "title": "HJ중공업, 美 해군 함정 첫 MRO ‘완주’…이제 전투함 겨눈다"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "후속군수지원 계약",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "해군",
+    "HJ중공업"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
    "id": "548400d7d27f",
    "date": "2026-10-15",
    "ts": "2026-10-15T11:41",
@@ -5163,7 +5384,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -5677,7 +5898,13 @@
    ],
    "axes": [],
    "score": 4.0,
-   "also": [],
+   "also": [
+    {
+     "source": "경남일보",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRZVYtdEx3NDNGNFpVc2pneWNOSDNOVmxwbWw2a0xqbnd3RFlqTl8yb1dlT1kyal9qOW4tRWhib2txdG9JRmpTVER0SURLV0xOTmQ1SEpuUjZXVDMxUk1vUlV5TG9kZWxOVjlR?oc=5",
+     "title": "해병대 상륙기동헬기(MUH-1) 성과기반군수지원사업 계약"
+    }
+   ],
    "origin": "rss",
    "q": "성과기반군수지원 PBL",
    "region": "kr",
@@ -5840,6 +6067,41 @@
    "q": "military logistics AI",
    "region": "etc",
    "domains": [],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "d34b091a2b61",
+   "date": "2026-10-12",
+   "ts": "2026-10-12T01:08",
+   "title": "Inaugural military medical supply chain, industry meeting reinforces warfighter readiness through partnerships",
+   "source": "Defense Logistics Agency (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUEVlV2VEY1N2YVVyeVRDWXBGVUlraWJOcC1zN3B4WUowWVByR0QzY1hpUV9LbFhyWEpvNGFCWEE2eDZDak5CM1FTdnNkY0U3NkM1YlhJY1RuN0xGMUJjT0FvLXpfdk5mcmRXTlVsTTkwOFNtR1kzXzlrMXNILXB0cmlER2RyeE1HZk0wOXhwUnBBb1pRUE1Mb3R1T3R6QjUwSy1EQ0pjNE1OSmpFbTBTZEN2YXNXa3NvMU4zX3lqTWgzMVloSzRsSmtlX19uajNxa3lyUjRkUGFzTWRGdjZCRGJ3?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 7.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세",
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
    "kind": "news",
    "desc_tried": true
   },
@@ -6073,7 +6335,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "뉴스1",
@@ -6122,6 +6384,38 @@
     "wpn"
    ],
    "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "f3e4a7889281",
+   "date": "2026-10-08",
+   "ts": "2026-10-08T16:00",
+   "title": "Readiness bill coming due for Navy after marathon carrier deployment, No. 2 admiral says",
+   "source": "Military Times",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNV9pYXRQemlPRllGdEZsdkJVdEtqd0w0ZE1BeHdCcG1ldU4tVWxWVXhubkRRQV9oNzlVMmVuaEM4VmlMWlN3RXJaU1ZQcUktMmRhdEpnNGVmcUd2MTNnamM4N2FTVEw0Q3hRSE8zNHhTbzQzSDBuX2RodnJsNlVyMmJzZklUTHpfRGR2REQ5ZXczRWpqSVc1VDNsQTQxVFhZUlFDSU9tMUpvdURkY0pmRUhGbnRkMWlSTm5BRjIwbHFEN1Q3RWk5OXdlVU5FSFMxWU9EVWVqUmRQNEVoRnJ3SQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
    "desc_tried": true
   },
   {
