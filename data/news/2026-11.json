@@ -1,0 +1,455 @@
+{
+ "month": "2026-11",
+ "articles": [
+  {
+   "id": "d4e1ec067c97",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 일반공구류(230mm급다련장 3차양산 부대정비용)",
+   "source": "국방전자조달(D2B) · 화력총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 화력총괄계약팀 · 구매 · 제한경쟁 · 발주예정 2026.12 · 원가계산중 · 판단번호 2307",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "6d5445aab15c",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 12.7mm원격사격통제체계(검독수리-B B-II 13~16번함)",
+   "source": "국방전자조달(D2B) · 함정총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 함정총괄계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 원가계산중 · 판단번호 7321",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "a56e4d2a23d5",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 검독수리-B Batch-II(13~16번함) 소형전자전장비-II",
+   "source": "국방전자조달(D2B) · 함정총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 함정총괄계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 원가계산중 · 판단번호 8660",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "4dd3d579304f",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] K55자주포 부품류(방산)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 조달판단중 · 판단번호 3020A",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b32852588f61",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 230mm급 다련장 발사대 제어장치 부품류(방산)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 조달판단중 · 판단번호 0230B",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "3769ecede0b4",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 차기전자전장비 외주정비(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 원가계산중 · 판단번호 0511",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "ef74492e2028",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 76mm함포(검독수리-B B-ll 17~18번함용)",
+   "source": "국방전자조달(D2B) · 함정총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 함정총괄계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 조달판단중 · 판단번호 7320",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "452d57966f3b",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 27-D-계룡대 출입통제체계 유지보수",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 제한경쟁 · 발주예정 2026.12 · 조달판단중 · 판단번호 41411",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "0b641e7fcefc",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 26년 신궁 유도탄 수리부속 신관 부품(방산)",
+   "source": "국방전자조달(D2B) · 유도무기총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 유도무기총괄계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 원가계산중 · 판단번호 0723",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "dfd250d25ed2",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 천궁계열 다기능레이다 PBL 2차",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 원가계산중 · 판단번호 4600J",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "성과기반군수지원"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d61a8a3de614",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] '26~'27 제어장치, 서보식, 자동조종 장치용 외주정비",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 제조 · 제한경쟁 · 발주예정 2026.11 · 공고중 · 판단번호 43394",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bb18b3cde067",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] 잠수함 능동다중소나 측정장비 정비",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 제조 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 43362",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "08770f6b019d",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] DDG 헬기이송장치 외주정비",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 제조 · 일반경쟁 · 발주예정 2026.11 · 조달판단중 · 판단번호 43365",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "26315875f436",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T09:26",
+   "title": "[조달계획] (26G058-H)27~28년 국방급여정보체계 유지보수 용역",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 협상에의한계약(전자) · 발주예정 2026.11 · 조달판단중 · 판단번호 43611",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "9a9c9015ee7a",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T07:16",
+   "title": "KOMERI, 해군 군수사령부와 ‘함정 MRO·부품국산화’ 협력 맞손",
+   "source": "부산일보",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1OURVRmpxZFV2a0s1UUhXbENmMklfMkRaWjB6dzhPUWhRSXpBOVIxN3J2cmdIaHZhbXVmVHFGTjBPdVFKYmJVRzZTMnVuUnpIa0ViZmZiandxQ0dob01zTnJ6Q2FBSWFpeHRHMUVuYWlpdjZCWkV0b3FzNGs?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 8.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "국산화"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  }
+ ]
+}
