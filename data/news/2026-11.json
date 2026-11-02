@@ -2,6 +2,135 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "1f51e29d5f12",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:50",
+   "title": "한화시스템, 함정 자동화·무인화 기술 개발…콕핏형 IBS 국산화",
+   "source": "한국아이닷컴",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KVHBRY2JPQnRNc0NjdGpFR3VpSmZ4MkE2cndCNmRDQThSVUFZem1rRjluckJQVGZuTUtxdlU4MHJsRnRfczc0Z1NTb2xxcTQySjkxeEczX2tMLURxY09MZUpXSkJMcGVQLTBJ0gFvQVVfeXFMTXlVdHkwd1VXRFdSaGx0RU85OHZjM08tR1FTeFNQQURwUXV0SmFNWHF5WGxreEJjUE5lX2FCYm1NNkRLZE9zRjFMZDRURnVCMWpIRXhoN20zMHlWTEVaOG5BV3VBOWRIdS1sVTNlSjhZ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "국산화"
+   ],
+   "ents": [
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "371a8ac79ea2",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:30",
+   "title": "시큐리티스코어카드, AI 해킹 대응 위한 공급망 보안 강화 방안 제시",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QWEhLRmRvcW5ObGZvWTQzZW13OHF5cDdya2ZrWURLV3ZQNC0tLVVJT3ZoaWJrUUItWlZqN0hHNDl6Q0lFYUJ0cHBvUW5KZw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "685b41d287ef",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T08:57",
+   "title": "최소 2명이 대형 함정 조종···한화시스템 '스마트 함교' 국산화 착수",
+   "source": "이뉴스투데이",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QTkFtanFsT1VDNkFKMzBGNG9Wd1pXOHNIUmw3Ymw1UU5WT3IwTndSTjV1ckd3emIxODMtRUR4cWJpUEJOQlJLTXdmbDgxTGE2aWtXNTBadndnc19jdEkyb1c3eHFJbEl3cTVDeVl3azHSAXRBVV95cUxQM3pONU90R0Nxd3pzYjJtNkU1eXhEcGtOdEFRTzZSeFFuUFJoMkpkS2UybFZpTG9hLUcwVGo4TkVpaVdQb1I4MlN1bUc2dWVNVHpPa0dibDFNdUstcTR1QVlING95QWNpWmZwY0ptSy1BOWRVQg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "국산화"
+   ],
+   "ents": [
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "7f86ebd03050",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T08:56",
+   "title": "한화시스템, 콕핏형 함교체계 국산화 추진…함정 운용기능 통합",
+   "source": "PRESS9",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MbGk5T1ZOMmQyVHFmOGpERDFkWmhVUW90bXFMQkNhTkdITmFYUW5tcmpmdjQ2Zk1idDNWbm0xOWJvOWRqeHBPNHJESEhHZnY3LUJyVHBCYkhwSmdWcFVIQXk4VHU?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "국산화"
+   ],
+   "ents": [
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "b07635a9cf13",
    "date": "2026-11-02",
    "ts": "2026-11-02T00:28",
@@ -89,6 +218,39 @@
    "region": "kr",
    "domains": [],
    "kind": "contract"
+  },
+  {
+   "id": "250614599fea",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T11:11",
+   "title": "[지방시대 新성장엔진] 대경 '소부장·AI로봇'·동남 '조선·방산·車'…앵커 투자로 공급망 키운다",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Va29kQVl2YmtFQUd0SlpIMWRvdDQ4X1hKR3BIMklxaGs5ZlNKaGlqRlRxdngyM0l5c0pkdHljWFlERTFuN0tzcXNpMmdhZw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ai",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "d4e1ec067c97",
@@ -513,7 +675,13 @@
    "lang": "ko",
    "summary": "",
    "score": 8.0,
-   "also": [],
+   "also": [
+    {
+     "source": "경남매일",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RQjNhSXZBTDJCOFhoWWhPWVprS3JsYXVjMWhrTzFKcHZubEZoTmtmelBNVGk2QUNGdzZSNnZxaWRHVXVUZU01Sm1XRTJqZUktUWk3SmVaMl9Ba1I5ZXFFUWZxamxNc1Nmcmc?oc=5",
+     "title": "KOMERI, 함정 MRO·부품 국산화 나서"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,
