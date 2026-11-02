@@ -2,6 +2,543 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "40940d7bfead",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T03:50",
+   "title": "[조달계획] OO함 통합기관제어장치(ECS) 외주정비 용역",
+   "source": "국방전자조달(D2B) · 해군제1수리창",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군제1수리창 · 용역 · 수의계약 · 발주예정 2026.11 · 수의협상중 · 판단번호 44555",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "19969a2d6f75",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T03:50",
+   "title": "[조달계획] 26-용-62 보수과 외주정비(민수용지프) 8931부대 망일",
+   "source": "국방전자조달(D2B) · 공군방공관제사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군방공관제사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 44466",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bff76fd3d36b",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T03:50",
+   "title": "[조달계획] 26-1차 시설부대비 행정비품 구매",
+   "source": "국방전자조달(D2B) · 육군항공사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군항공사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44451",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f6ed03403226",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T17:59",
+   "title": "軍 조달·정비에 AI 접목…네이버클라우드가 맡는다",
+   "source": "서울경제",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MYkE3UjFacjdreHBIb2w3cDBaZ1dzWktWVWRURXl0S0RNNkktLS10NVZmVkRUaW5ZSUVTc1FOb0ZDYXQ2SGRWY1ZmTnBndmZDWVHSAVNBVV95cUxObDlnd1NVQTVYS09KWE95STkwRWRheXl1Rmt2WEhocFJ4Z0xvN3drZko1TlR3NzR4N245Z0FDazdRdDlmOFFYTERsT0RybHp0X0ltSQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "sys",
+    "ai",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "d98c21c26ab7",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T17:59",
+   "title": "Naver Cloud to Bring AI to Army Logistics and Maintenance",
+   "source": "Seoul Economic Daily",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSmpLZWZuNDhrMHRvb1dIMHpGeXBacEhVVHk0US1NWDJneFl1WVBFdXhDTkZLNkR4XzItZVpmaUstak5ucFJta1BUZV8wclZ0NEY2RG5OSWYyX2d5ZjNhMER1cDhKNFlQZF96ZmM5cVRMOXd3UThkaHdQUC13Rm1jZWsyYzB5cm1kdHBGUThrQWRjc25GZ0FUcktma01Cdkpha2Vwag?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys",
+    "ai",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "8f959f40deeb",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T13:14",
+   "title": "유·무인 복합체계 시대, 군수도 AI 전환... 네이버클라우드 실증 착수",
+   "source": "보안뉴스",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xMUw4SG5EWmFQdzBGNzFpa0Q0M0UzbC1GLVlHZzdFU0FJRTFlNEpCcmgtc0lXTFhONWMyVU02aHZCMWxwYzZmNF90RGNkSElYZkhpTFFsSGVUV3MtXzlYTHhKdkZrZ1U2bEtJ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "클라우드",
+    "국방 AX",
+    "유무인 복합"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "03392aaa1adc",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T11:26",
+   "title": "Naver Cloud, Army Logistics Command to Build AI That Fixes Weapons Before They Break",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Qdnp6cGVsR0FQaVQ5dHZYWjNVZWM0Rk9HU1VuLVFZTUNMc1ZWcnZXeVJod1cydXdIaXZ0ZzJyVC05RXQwbTRJd1R4S3pGWVVBS0V4LVRzODZ6dHlvY2p2a05YYjVDMXBIZUNJemJwUlFCSWp6YXc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys",
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a541f313b654",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T10:47",
+   "title": "Naver Cloud and Army Logistics Command build AI logistics for South Korea",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52dExET0FZVlFRaWlpLXZuR2lBSG5WRXkxQ1p4eVRIZWxNYXkxdy13RXFXUWVKWm9JQU5qSHhWYUxKei1SYkM3WjhzRUJCN0dWb0xMZ3RJTk9pcGViR0pIM2pKdlR2dmRhUmJ1N00xVE1UQ0swSy15bFVB0gGOAUFVX3lxTE40LW42b0dlX2w1VzY5QXRCeGFPT1JJeXRQYkNOeHJIX29MeWljcll6cE5NRFplaHVsbzBrMG1Vbm5UZ2E4eklNZEh0N2F6TWJKQzRRNWJlSXJ0cllWZzF0MkxsSVZJRFdIVzQzUWgtYk1IUWhQR2VrUGhFY0JmNXBGMTUtZE91cEg5Tk81dlE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys",
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "104767c1aba7",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T10:31",
+   "title": "네이버클라우드, 무기 고장 전 정비하는 AI 개발…육군과 군수 협력",
+   "source": "키즈맘",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85SENjQWZZSUQ4OF95LXZCZ2JpeldLbzdjTDZzblRGWVBRSzN2OVhKTXdGZ3dqdWVpZEJOU1cxcVhzRDZOVXc4WTd5emlCb1VOWlhVSXlMcTBMSUc2WC1SdzY3ZmhzMWJU?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 8.5,
+   "also": [
+    {
+     "source": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FMjFtaUpvM0Rtb1VxbnRPVnhLbTRwdXNpZ0RKX3hQQVFBMWxqREdxQkt1R2VabFJoaHZGS2hFOHAtUEdaSWE2T2JwMWNFNHlrbi0xV3pVQ2llTWhIOFFFVlJ4Yk55RWFzY1ZvbA?oc=5",
+     "title": "네이버클라우드·육군 군수사령부, 조달·정비·물류에 AI 접목"
+    },
+    {
+     "source": "더리포트",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EYjN0MlVqTG03ZVJiWTRxVjA5aGNvNk5veGoySWZIMFdRTkd1dkxKNFVEZmlYYWlmRzc1VThnenRTNGZqbEF3eUw5REtBaDJMbUhVSzZRS252a3d4dkN4eVdyQ1pqQlBCVUJqOTJR?oc=5",
+     "title": "네이버클라우드, 육군 군수에 AI 접목···조달·정비·물류 혁신"
+    },
+    {
+     "source": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Qd0UxckVJNzNNX2JhQ0d2VUJ6Vlk1em1QemJTRFBleHpreGpCWUF3eURRUVM5WklqSUx2Q0lHY3lEODQzaml1Xzk2d2RZVjJzN0VNQ1N1c2NiU1ZxVXlib3BKVDQ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 협약…조달·정비·물류에 AI 적용"
+    },
+    {
+     "source": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14SWI1dkJIUWpLWGNVZ0ZoSGNuM1JfZTRLU1k4S2JGNmJ1YThqQ1FHSHFsQjA3Yy1tWHhISHZfcUhfY2M1aVVGNldwbjZrX0k5ZV92MUdYcDdXZw?oc=5",
+     "title": "AI가 무기 고장 전 정비…네이버클라우드, 육군과 맞손"
+    },
+    {
+     "source": "이데일리",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQUFpSjRmSXFfb1BDMmppTVJCd3F1U0J0SDRXSTUyV1FFQzc0M05WYnZCSlJKNG5UQzJBbnIxd3hyckVEUGFnZHNxU3RKYTVFRFpFVmRRMk9Ic2pQdEhfSjJrLWYxUGV3R1lvaEl3aVJJd3RiMHVWRVBGdHUyeWtiWg?oc=5",
+     "title": "軍 조달·정비·물류도 AI로…네이버클라우드, 육군과 맞손"
+    },
+    {
+     "source": "KPI뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BT3RDSlBGc2I1ZVR0VDdBUWwzUWI4MHV5UDgtQ25mYUxQQk42SGNYMG1RZV94T29xVUZ3ZVFPNmVWU0h5bmZGRnlKWFltZlo2dXhn0gFTQVVfeXFMTkFPdENKUEZzYjVlVHRUN0FRbDNRYjgwdXlQOC1DbmZhTFBCTjZIY1gwbVFlX3hPb3FVRndlUU82ZVZTSHluZkZGeUpYWW1mWjZ1eGc?oc=5",
+     "title": "네이버클라우드, 육군과 AI 군수 혁신 추진…조달·정비·물류에 기술 접목"
+    },
+    {
+     "source": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43eWJZVVg3d2FOWXRydW4wR0o4emt4UVVVaTZKbFV1LUNaYTRVNkg1ODNEZHgtZDFIVTk4ZENCUWdrSnA2UExlVENCNjlaTDZOaXhJSkV5R3k1T1V6?oc=5",
+     "title": "네이버클라우드·육군 군수사령부, 군수 분야 AI 도입 협력"
+    },
+    {
+     "source": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rSVJYS3czNVMwNU4yeUpCUjBpRFB4ZW15RjdGMzhRaWdTTTJYcE4wZ19vbGd1eWk3VTJicmdfeXNxVFZfMFNzWjlkcHppWWw2LVJnUVdyM3pwSEFTUS1YRjEwYVpOMWFTTHF4N2dfclFjdw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 협력…무기 고장 예측·군수 업무 자동화 추진"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "군수사령부 AI",
+   "cats": [
+    "sys",
+    "ai",
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "d4f600dd49cf",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T10:13",
+   "title": "네이버클라우드, 육군 군수사령부와 ‘실전형 AI 군수’ 맞손",
+   "source": "포인트데일리",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 8.5,
+   "also": [
+    {
+     "source": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qekVlczd5dXBUU2FzSWJ4VXNJanktaWlGdEdfX05KalBfTVVLM0cwS1VZT2xnaUI0cnJMMTRTN3p6RFBrQzVQRHZ0N0JqX3dqeGRodGI1Y2tNZV9aZThRbg?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수' 협약…조달·정비·물류에 AI 도입"
+    },
+    {
+     "source": "아이티비즈",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjZUpqSU5TMUNhN0RNTThwTUVBMkNQY2xCcTlKRlUtRlhBWExjYWdmWjQxMkVXQjBwYk1ZbVZuQ2tQa21iVV93dUxVUmdTMjhyZGhZQ2JEemtOVVZObi1kd29rYU1GeEE?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 맞손…'실전형 AI 군수' 모델 만든다"
+    },
+    {
+     "source": "데이터넷",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Hc2hNSGM0Zk4zZ2d6WHFJdlVfZWVmSGJnbHJqMWh1d0JWZFFKVk5yRGl0VkFYSEpGcVhWaDZEa1dNenluMHd2T0NZckpJNk1fYnd0ek9kQWh1ckNXaC10aGh6R0haZ1VOd1kw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 ‘실전형 AI 군수’ 구축 나서"
+    },
+    {
+     "source": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83MlNIZEpkVjBaenpwcjRqTlNBdHI2TW9zRGU0OXVLMHVvTnlSeE94Vm0tRkZOUS14dXczczEtZFVtR2JEeTU3NUFCd2djOVZDV2E0bnJjRmhrOEdwTGZCZVdtUThuNDJsQVNIWNIBbEFVX3lxTE83MlNIZEpkVjBaenpwcjRqTlNBdHI2TW9zRGU0OXVLMHVvTnlSeE94Vm0tRkZOUS14dXczczEtZFVtR2JEeTU3NUFCd2djOVZDV2E0bnJjRmhrOEdwTGZCZVdtUThuNDJsQVNIWA?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 손잡고 '실전형 AI 군수' 구축 - 머니투데이"
+    },
+    {
+     "source": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SelVRNmJEem1XdE1oX0I0US16SWRRZktPSjJZLUExSkdBdjhOU3pTY0VkUzdlaEtYalAxSUlHS0ZhVG1ndkljSC1aQ05yWlA3cl96ai1WMEV4QQ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 MOU⋯ “‘실전형 AI 군수’ 체계 구축”"
+    },
+    {
+     "source": "전자신문",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrR1Y1dTFNa0ZIbnRpNHp5SWZhdmNWaE1vSldDOXEwMHVsbS1XelpqVUctTHpxTWtSSHBYUmlkWnlRcGhHbGdPQmdYUUJtZw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 맞손…'실전형 AI 군수' 구축"
+    },
+    {
+     "source": "파이낸셜포스트",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55azdnaGRFcEhMY1FmYVRHWGFXVk5HVXJkZ2VnbWZKSm41S282ZzNhaEtrRzBXM0VLd1FKYUpzYjI1RGhMSDdTZU02V3BHV1M2Q0txZzZCeUx6Ui01dGY0WE9Ka3ZfYmplcWVMQTZqRVhWNXZ3?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI군수' 모델 구축"
+    },
+    {
+     "source": "테크수다",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWmpEd0JZc1FUeDVfdzVvNjhlNUlBZzVGdTRwVGhPZ0d1ODlfSHpBVExZTWFTYy1KQzZBdzBSTlotLXM2T0JkNUZ3dEgwQ2tSNURMeUc1eUVXdk9nRHBsN2FmTmbSAWpBVV95cUxPZkRBVmc5dnFGX1dZNkh3c2tLS19UeHJuUUxPTTNvc0JObnlqUE9CWmxEc2FjWVZWNV9mM29HZUNFZzU5M0ljTTk3TnZBaFRUSE5vRXloRmQ4aGJxSFNuVjhzbldrM08wZFVR?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수' 구축 나선다"
+    },
+    {
+     "source": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04N0lIN1VxQl8xa2RWVE5raTlibkdrMHp1Z2V3c3RMOF91a0VJcEJJY3FGaUZ1bnM3Z0U4cDhubV85aUZlOVI0Zy1QeE1QeElLb1hEeXg4SzQ4aXE2S09PWUpZT3M?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 맞손…'실전형 AI 군수' 구축 박차"
+    },
+    {
+     "source": "노컷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kd0dfUnBJS0FOcnB4N3VHeGRNWGEyQUoyV2VESHNhWHR5WGJPazRVRWU3amR5czNrRXZ4ZmNnOVV2S3pxV25fS1J5RVY3SnJYdmc?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수' 구축"
+    },
+    {
+     "source": "디지털경제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GUXdIZV9fVWg0WTFYeVJvYXJnNk8wR1p4UVdSQjY2SzV1dWFoRHJJVHA4eWU4dlBjSEZaTzczRjlVM29IWDhJVEg3RkhlTUxJZlNzRW1nQnYwaHZTWF80SkVrR1VMUE9melE?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수 체계‘ 구축한다"
+    },
+    {
+     "source": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40SFV5MUs3VUNKSGVyU1dXQnhVcHlmVHR0c01zYzZ5dnY2QWtVaEJ3R2ZZQ0RDUDR2Z3JVbi1QQ2ZVcnZGdDZqUF96VTJoS251bUYwVXExd00tVXpDMmxrRtIBYEFVX3lxTE40SFV5MUs3VUNKSGVyU1dXQnhVcHlmVHR0c01zYzZ5dnY2QWtVaEJ3R2ZZQ0RDUDR2Z3JVbi1QQ2ZVcnZGdDZqUF96VTJoS251bUYwVXExd00tVXpDMmxrRg?oc=5",
+     "title": "네이버클라우드·육군, 조달부터 정비까지 'AI 군수' 추진"
+    },
+    {
+     "source": "BI KOREA",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1teWkxRzdXb05vSkJ2SDJkeVkwMWdONU16T29WSjRNWjlfODhBZW43dmhwYzNkQjhMM0loajBjZWUzN2xNTW1BdlFDREl5Zi15dTdXWjZhM19ISzJCQ3QtMFhTNm1JMlU?oc=5",
+     "title": "네이버클라우드-육군 군수사령부, 업무협약 체결"
+    },
+    {
+     "source": "테크M",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hbmZ2Xzd1ZTNrN2VFRGVNUTlIQVBmRE1PUy1STGN3N25jVTJ6aXB5U2I1Yk85NDZ4dlNXck92NVVoRllFNDI4WUxFdmpEamNUc01wbS1vRk84UWwzMXprRWRHaGZVd9IBakFVX3lxTE9nd1hnUDVYNWxrbGdBNXZFWjJ3ejlrV1lpejQ1WHFnbUw0VzVDN015cHBTdW1NcVJ6aEZwZFRrUk9hcVJYYlB4aVR4WkY5RW1nTGlwRHBfRFloZ3NsVWdUelNHM1ljZFpoRmc?oc=5",
+     "title": "네이버클라우드, 軍 보급체계에 AI 붙인다...육군 군수사령부와 업무협약"
+    },
+    {
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sMEplMjFiX1NFcUxIcWJvNTJKaHVkT3hlNi0yVkM0MkQzeV9GVC1nS3hqcVc3QUNRelR2MUdjOHRBZU0wVy1zM051MXgzMjZNN1RYeXpLUlNzdjhMbHFj?oc=5",
+     "title": "네이버클라우드, '군수 AX' 위해 육군 군수사령부와 맞손"
+    },
+    {
+     "source": "www.dt.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oVEpDWHAyWlAwRHVpVXZjOHZOYjllcG1QejBvUUhxZXZnT3NmUnRCY2dJN1dLVEdjaTVLaDlDbXpzZXFEZlp2Rl9LemlrUQ?oc=5",
+     "title": "네이버클라우드, 군수 AX 지원…육군 군수사령부와 협약"
+    },
+    {
+     "source": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ1ktUWUxVU5LcVBqTkFfc3VRQ293TER0TVBwaGR4RkxSeFJRelJkVm1Id2xwa2xPbkx5cEhxODNrUXBaV3c4WU11VUNVbWJTbTRNbm9MWE9INFhRV3dFbHNENVRZV2h4Nk1QTmlzeXY2YjBHWXNmN1VmTno3d3h2RnlB0gGWAUFVX3lxTFBmVzd5bHlFa01SYjNaMWFrTjJBUVRLUG5RaXZQUmZ0VDJrVlR3VlVidjN3dkxaOUpXWVpINkljWURqeFllM0xaa09KYXB4el96MHIySkVSRVNlSkIxby1Cc21YbHBPbEg2YUVQRzVlWGhuSlVINlZBQW1CR09pcnlwVUJqQndpa21yNWpjbjBDWTdEX2twZw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 군수체계 구축…조달·정비·물류 혁신"
+    },
+    {
+     "source": "디지털데일리",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RYVI4Q2dZaTFmLU91OVNuajZsVVdqa3BrSUh4QnI3NEVfT3BOTU83MHBmUFg5TGJ6dWxTajhzVEJaYkNpVWNkcmpManQ2cTZSOUFLRWp4aDF1eTVVaHV6NGlQa3M?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 군수 체계 구축 협약"
+    },
+    {
+     "source": "디일렉",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55VFZEQVFZVmFpakI0QXEyM09rVUQ4c0tvWHJieWh4dF9acnFRM2labWZZY2x6c2ZCaVg5Q2VycWN3QkZCR2twTDVjRGVCRUhLUUJENGVLbGU3UjczbEtRZVJJdkVFZw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 기반 군수체계 구축"
+    },
+    {
+     "source": "테크월드",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nOTgwSkV4OUNOTFBQZUUxUnJUYUxLemkzVVByc0lPeHBJaWhiaklhc1RLRTlZbndWUTZ2VHlfUUNZTFJpUzdjek5UeVVIdFdjdnRGM3JPajRKYmlORFNQTHBBNlhXQ3c1?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 ‘AI 군수’ 구축…조달·정비·물류 실증"
+    },
+    {
+     "source": "현대경제신문",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mN1p0UWdmajVvMGVXRXlLMEZ6YUwtb25rR0l5SWI0TkdBZnptZUUtdXJKZ0RVeW90U3Q0TmVjU2RycGNpaTdHeXRFcXhtdkNDY3pNTE1ILTU2alVPTTJyTFV2M1BqaUFPa3NZ0gFrQVVfeXFMT2Y3WnRRZ2ZqNW8wZVdFeUswRnphTC1vbmtHSXlJYjROR0Fmem1lRS11ckpnRFV5b3RTdDROZWNTZHJwY2lpN0d5dEVxeG12Q0Njek1MTUgtNTZqVU9NMnJMVXYzUGppQU9rc1k?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 손잡고 AI 군수체계 구축"
+    },
+    {
+     "source": "디지털투데이",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kOW1HSVlkYUphOVFGSkhHVjVfWW9DZzJnUFM5RVBLMU1ET2FWTlhxaldPdjRfNUNWajNXMDg3ZTI4U2FUemswb0dFTGNaa3lsUjlZbUMxckk1WXBYNjAwTjRYOExnSVRtS0QzbFUxWjkyTG8?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 군수체계 구축 협력"
+    },
+    {
+     "source": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uWkRETGM3R0FFSDhBbi0xN3FsRldzN2Y3UXQ3a3ZPdXZMdk1pR0lmM0VhakVtSEtfS0puYlVTZHM5c3V3T1hSR0EtLTFhWTFFOWZWczJvQVdySkhKdXI0emFIZVZkbDlXLWw3bQ?oc=5",
+     "title": "네이버클라우드 육군 군수사령부와 손잡았다 \"조달부터 정비까지 AI 군수 체계 만든다\""
+    },
+    {
+     "source": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83WHVpc3g3YTN0aGpEZDBEdVI3eE1taHZNQTh5S1ZUbFJvSEE5YjJ1RkxTb2ZXb05sX1FURjBoRGlrRHFxaE9fUWtWdUFfTnF5eWFwZ3RGVW1ieGdrVG53bWdScUFvQ2Y1c1NZ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 ‘실전형 AI 군수’ 체계 구축 협약 - 퍼블릭뉴스통신(Public news-network for TTL)"
+    },
+    {
+     "source": "마이데일리",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWm9VZmJibWM4LVlGT2d4NXlsZ3p3eXEwYWhFZkNvLWF1SHJKQnB1RVdpbHNYNFdWM3ZMSjJ4dFZ3U2RoSGZ3bC1iOHVfVGc0YktyeGJDUW9SRHZGRjdxcA?oc=5",
+     "title": "네이버클라우드, 육군 군수에 AI 접목…물자 조달부터 고장 예측까지"
+    },
+    {
+     "source": "워크투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yTlZtSUZvbmxaM29tZDJUVzA0TGdibU1BeHpiclNEU3pwUC13eTFxTWhmd2RiNHFQTlQtNDlncURwRTlnaS1laWtHN1JqWVlwb1VLYmRRN1JjZmR1LVM4UHliaEd6TjdwWkRDdQ?oc=5",
+     "title": "네이버클라우드, 육군 군수에 AI 입힌다…미래형 군수체계 구축 본격화"
+    },
+    {
+     "source": "지디넷코리아",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4bThaZGhiTDAtR2gwOXRhZnhYVDZaLW8yUXd6VlQ3NFUyeEN1ZEJIbk5vaXFUeU9oeEhKczE2SDNQVnVaa3JKQlJKZTdGUm1mNmlhNjRR?oc=5",
+     "title": "국방 AX 속도 내는 네이버클라우드, 육군 군수에 AI 심는다"
+    },
+    {
+     "source": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQX091T1pyWTVhS3c1MjZoRnFvNE45RGVjSVc3a1hkb0x3ZUlEM0ZNN1pVRXhUTldoZHFuREtOb09adUpXa21nZHMtSGZrdDI1MXNaMkdzN0VSVVZ3NzhNcGp4eDhDemI4bjdrRVBJQkJBbnBEa0tyY1VfZnl6TjQtR2F0ZFI2TC1POEVvNjh2Ujg3ZVc3R2hEQUdyZVFfUUh3LWdJYnR6cWlSQjlVM1h5LVpWdTF4THpvbk5jY0x6c3RielVSNEJwanNGU2pIM2VkTFZKODV5MTVocmlGNnpTMkFsQjFCbm5wSkJ6V3hJdXZjdnl5eXVxakVNMnpaSkpSbjBTRGJ2cHB4a0o2M0E?oc=5",
+     "title": "네이버클라우드, 육군 군수에 AI 심는다"
+    },
+    {
+     "source": "데이터뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zYVlYTGJJUFFaWVYzc0lZY05yc3BvakhreERvNFRxOGlwNDNhUUdQRVZvVmNOR3R0NG9fNlcwekRSZXoyYXZ0QmliYnBxYUFqemFIS2dJMERtX0psbXZZ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 기반 군수체계 구축 협력"
+    },
+    {
+     "source": "인더뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rRm8yTWVfTk9xcUFTcDlUcjVxaktVb1ZNTHlSbUtsWmhtN1ltZXlfbHpMTzZtLUV0cXVWclkxZnkwT0xkMDh3dGxYRW82cjFzSzNsMTNGclpfVXBwczdjMVROZlQ?oc=5",
+     "title": "네이버클라우드, 육군과 ‘실전형 AI 군수’ 체계 구축…군 AX 생태계 확장"
+    },
+    {
+     "source": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50UDFhRHQ2T2tZUmZBN0Q4d1UxQUluME9HU2xnRGdXSVlEazk0Z3h2OUFNNExDRTFwOTQtM0o5TXhCY3pKVjNiSlJLTjQ3QVRWVVI2dHlBM2RuOWJMSUFtSUlsOG9UWUppaWd6UlVWaEtDT0tHd2xR0gF3QVVfeXFMTnRQMWFEdDZPa1lSZkE3RDh3VTFBSW4wT0dTbGdEZ1dJWURrOTRneHY5QU00TENFMXA5NC0zSjlNeEJjekpWM2JKUktONDdBVFZVUjZ0eUEzZG45YkxJQW1JSWw4b1RZSmlpZ3pSVVZoS0NPS0d3bFE?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 맞손…조달·정비·물류 AI 도입"
+    },
+    {
+     "source": "AI타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tLW5LbElPd281U0xiZEpzclRGTVRlM2NGWnhsb3FHY1FCRU5RTVdLOGM1aENmdllLdEVoZXhFRHN1NXZTQnRPTWZFVXdGbXNjTDRJdkYzN1pYTURVRVNTUk9FZXFPcXlSQVE?oc=5",
+     "title": "[게시판] 네이버클라우드, 육군 군수사령부와 ‘실전용 AI 에이전트‘ 개발 등 단신"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "1f51e29d5f12",
    "date": "2026-11-02",
    "ts": "2026-11-02T09:50",
@@ -67,6 +604,249 @@
    "desc_tried": true
   },
   {
+   "id": "37a5a01fe143",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Department Of The Air Force Business And Enterprise Systems (Bes) Commercial Solutions Opening (Cso)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/fdedccd1d1aa4625881cd9f2ef3694ca/view",
+   "lang": "en",
+   "summary": "Presolicitation · FA8771-26-S-C0001 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "95dfca4e213d",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Foundation Sustainment Services (Fs2) Bridge Notice Of Intent",
+   "source": "SAM.gov · National Geospatial-Intelligence Agency (Nga)",
+   "url": "https://sam.gov/workspace/contract/opp/f7cf82daf55a428d98aa29de8559869b/view",
+   "lang": "en",
+   "summary": "Presolicitation · FS2_Bridge_NOI · NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA) > NATL GEOSPATIAL-INTELLIGENCE AGENCY · 마감 2026-10-25",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "3b8535420e46",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Uss Makin Island (Lhd 8) Fy28 Docking Selected Restricted Availability (Dsra) Request For Proposal(S)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/e7ff818451294f6694260f06825834cb/view",
+   "lang": "en",
+   "summary": "Solicitation · N0002426R4421 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-23",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "8f580c6f3628",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Industry Day Announcement - Area Maintenance Support Activity (Amsa) / Vehicle Maintenance Shop (Vms) Located In Joint Base Elmendorf-Richardson, Alaska",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/ddce7c967a6345079c78794de61fb600/view",
+   "lang": "en",
+   "summary": "Special Notice · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-10-26",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1098e543e70b",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Industry Day Announcement Supply Chain Illumination",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/dbd6ede12f2b4206b6b7f849268d41ab/view",
+   "lang": "en",
+   "summary": "Special Notice · EB-27-102926 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-16",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "da541ab2c8f8",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Idiq Joc Total Small-Business Set-Aside For Electrical And Other Wiring Installation Projects At Various Government Facilities Located Within The Marine Corps Logistics Base Barstow, Marine Co",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/899626d1e1de42e5b46e64296fe7a006/view",
+   "lang": "en",
+   "summary": "Solicitation · N6247324R2610 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-12",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 해병대"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "7227b854d0c3",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Sources Sought – Fy27 Temporary Backup Generator And Transformer Lease And Sustainment – Winn Army Community Hospital, Fort Stewart, Georgia",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/7be4252bcb0d4d0192e21ec56b5ad317/view",
+   "lang": "en",
+   "summary": "Sources Sought · WINN-FY27-GENLEASE-SS-001 · DEPT OF THE ARMY > AMC · 마감 2026-11-12",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "4a480f825ba4",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Sources Sought - Procurement Of New Or Overhauled Uc-12W Pt6A-60A Turboprop Engine",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/7bdadd32ea6a4c9892066ff02a6cb81c/view",
+   "lang": "en",
+   "summary": "Sources Sought · N00019-27-NORFP-APM207-0328  · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-18",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "11f77710799f",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Rfp Preventive And Corrective Maintenance Services - Access Control Points, Europe Region",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/14da9fdfa143478094140289848d0f7e/view",
+   "lang": "en",
+   "summary": "Award Notice · W912DY26RA135 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "685b41d287ef",
    "date": "2026-11-02",
    "ts": "2026-11-02T08:57",
@@ -108,7 +888,13 @@
    "lang": "ko",
    "summary": "",
    "score": 3.0,
-   "also": [],
+   "also": [
+    {
+     "source": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xRW9CYkExMW5rM3hxdFhxMk5pQmxVT180em5oUk15UnYyTG13bHVvOTZqSkx1b19INi1oLTIwOEZBUjFDek9SbURRTkZ1QU81MG9Sa2NIYmJtdU52cnZlbnk5eVF5VVdHWEwzU1U0ZHFhTE9BU0RF0gF3QVVfeXFMTjFFb0JiQTExbmszeHF0WHEyTmlCbFVPXzR6bmhSTXlSdjJMbXdsdW85NmpKTHVvX0g2LWgtMjA4RkFSMUN6T1JtRFFORnVBTzUwb1JrY0hiYm11TnZydmVueTl5UXlVV0dYTDNTVTRkcWFMT0FTREU?oc=5",
+     "title": "한화시스템, 차세대 함정 '콕핏형 통합함교체계' 국산화 추진…2030년까지 개발"
+    }
+   ],
    "origin": "rss",
    "src": "krit",
    "hint": "kr",
