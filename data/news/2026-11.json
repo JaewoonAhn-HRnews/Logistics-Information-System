@@ -2,6 +2,332 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "616f8c59158e",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T01:31",
+   "title": "[조달계획] (26-244) 정비사정비복 등 1종",
+   "source": "국방전자조달(D2B) · 공군제5공중기동비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제5공중기동비행단 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44907",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "정비인력"
+   ],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "c64c8abb77f8",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T01:31",
+   "title": "[조달계획] 26-196 탐지기, 가스용 외주정비",
+   "source": "국방전자조달(D2B) · 공군제1전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제1전투비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44858",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d054527b3e9d",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T01:31",
+   "title": "[조달계획] 26-270, 항공기정비대대, 엄체호 780장비 보관함 구매",
+   "source": "국방전자조달(D2B) · 공군제11전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제11전투비행단 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44817",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5916a678d2f6",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T01:31",
+   "title": "[조달계획] 26-고소작업차 외주정비 용역",
+   "source": "국방전자조달(D2B) · 제20전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제20전투비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44913",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2cbce247c61d",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T23:30",
+   "title": "The Congressional ‘right to repair’ solution needs some repairs itself",
+   "source": "Breaking Defense",
+   "url": "https://breakingdefense.com/2026/11/the-congressional-right-to-repair-solution-needs-some-repairs-itself/",
+   "lang": "en",
+   "summary": "Better licensing and data management would do more for the Pentagon’s maintainers than sweeping new government rights to defense intellectual property, argues Elain McCusker of AEI.",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "breakingdefense",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1237cf4f5239",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T17:57",
+   "title": "카카오모빌리티, 육군과 국방 AI 플랫폼 협력",
+   "source": "공감신문",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fNC1kWUU4M2FaSlFRRFU4ZENXRGQxaU0tck1hWmtPYXB4a0FaNUpjZU1HSTZZNDZFOVpNNHhTdTNnanhmT3FhaS1sZWx6VHBjUFBDcFhCTjlGNEZOOVQyRXZQN00yT1hq?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 AX 인공지능 전환",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [
+    "육군",
+    "카카오"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "208a35091cc2",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T17:09",
+   "title": "육군, 카카오 플랫폼 기술 얹는다…유·무인 복합전투 관제 혁신",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xSWJmWkptc3BkdHkySGRTTm84bUx5WjdZajNFaVlJVFZMODMzbmhmdERVdmx6VEFMMWY5M2xTczVyNnJFbUstUWlBRGoxM2F2cWNBVTdnanNUa1FhVEMtcNIBYEFVX3lxTE5xSWJmWkptc3BkdHkySGRTTm84bUx5WjdZajNFaVlJVFZMODMzbmhmdERVdmx6VEFMMWY5M2xTczVyNnJFbUstUWlBRGoxM2F2cWNBVTdnanNUa1FhVEMtcA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 AX 인공지능 전환",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "유무인 복합"
+   ],
+   "ents": [
+    "육군",
+    "카카오"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "8bdf82d81e57",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T16:16",
+   "title": "국방부, '국방 장비관리 정책발전 세미나' 개최…\"장비가동률 보장할 군수지원 역량 강화\"",
+   "source": "디펜스투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LT01DSGlfWGZNZW5EVW5GNkVadHh1ZW1fVnFuUVpLeC14WFo2b1BaOGdwdk11UXI4X3I2R1Mwb1dDeThTSS04ZS0zaFYxVFJUbUtfMDFJSXFxMnljaTJ4aW15U21qSXAyMzExU09n?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "e4cd9907fd86",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T16:10",
+   "title": "30년 쓰는 무기, 부품 단종에 발목…5.3조원 들여 軍 정비체계 손본다 [현장+]",
+   "source": "쿠키메디",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5POUFSUUZyMkoyQVY5VmNjWlctUTlXdVJxSmg1WFd1Y08zMnJWMmRxaE4xYUtGMFhPckNsb1NYQUJTaTM4SWZCZmppd0hxQ1ZCRlNPWVJQX1k4SEk3SVRjRGtxNA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "단종관리"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "763b998497b9",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T14:06",
+   "title": "Naver Cloud to develop AI-based logistics systems for Korean Army",
+   "source": "Telecompaper",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTm40RWFuZDhPRVFzRXpjX3I5WmhQSmpobjhiUktKeHBmeEVFRzVDMm5KY2ludWFVcnU3aTAwU3FaVVVySEtOWWpZeFdWS29aMUtQVW1QOTFGdXhoV2NULWtwczFiS2NaWGRjajUtYmJlem5ud1locDQ2VTBMaHAxUTRsaVVHSEVrYUpOQWVNbVMzOXU4NVFXVnJ2SUcyMXJCWHFxREFzOExya0NS?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys",
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "5536276f40f3",
    "date": "2026-11-03",
    "ts": "2026-11-03T12:04",
@@ -103,7 +429,7 @@
    "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
    "lang": "ko",
    "summary": "국내 조달계획 · 육군항공사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 계약준비중(낙찰단가처리중) · 판단번호 44509",
-   "score": 3.5,
+   "score": 2.5,
    "also": [
     {
      "source": "국방전자조달(D2B) · 제2군단",
@@ -160,6 +486,93 @@
    "ents": [],
    "axes": [],
    "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "a40cd8a9c75e",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T09:00",
+   "title": "Multiple Nsn, Aircraft Components, Depot Level Repairable(Dlrs) Spares",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/d8da1b629cfa4b2f878bcc706eb98dd7/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRPA1-27-R-XX01 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-12-04",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f514cdaab1f4",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T09:00",
+   "title": "Hoist And Cranes Maintenance Services Fy27",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/292eccfddabf41f582460f968bdb81cb/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA441727R0003 · DEPT OF THE AIR FORCE > AIR FORCE SPECIAL OPERATIONS COMMAND · 마감 2026-11-05",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e7d63e925d0c",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T09:00",
+   "title": "N6247826R2431 Facilities And Lighting Maintenance Services At Joint Base Pearl Harbor Hickam, Oahu, Hawaii",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/061a7511daa94e3a9bafaa69d4ba327e/view",
+   "lang": "en",
+   "summary": "Solicitation · N6247826R2431 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-09",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
    "domains": [
     "wpn"
    ],
@@ -323,6 +736,71 @@
     "wpn"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "ecbf7c7d5f6c",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T23:18",
+   "title": "DLA Troop Support convenes Joint Subsistence Policy Board, Global Summit to advance modernization, theater readiness",
+   "source": "DVIDS",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FeVNVaXRaV09SeFEwVkxiM1hHUEdUWlMyUi1ZQXlqcmtmTGpPTkdZYVVkS3Q4ejhGTUx0MGVaakJRZ0xIZ0pEV2kxc0V6aURYckpQUkxYZUdzUQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Defense Logistics Agency contract",
+   "cats": [
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
+   "id": "a85a4888039f",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T19:42",
+   "title": "Booz Allen Hamilton secures $50M DLA Military Unique Sustainment Technology (MUST III) IDIQ",
+   "source": "OrangeSlices AI",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUi1xOURjZnhEdDc1aGhIcXVHZU9SNjF3VGxsZzdJVnJPRmhHTTVsMWlxOEd0RE94aGhPZ1RiemZLQ2N3MWFESWVWUnBjaGJBdFJSWTJBWUMxRnROanRUSzFzZVpPVlRMaVp4WkxHdXUzanVNZkstX2pTYlNXSjVkTjlTbXZ2WUlmYTZVczVpd3lKcWhBN3h2aTFkdm95eG56ZHZqS1M2STlCMnNQQXVub2pfRQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
   },
   {
    "id": "f6ed03403226",
@@ -754,6 +1232,11 @@
      "source": "AI타임스",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tLW5LbElPd281U0xiZEpzclRGTVRlM2NGWnhsb3FHY1FCRU5RTVdLOGM1aENmdllLdEVoZXhFRHN1NXZTQnRPTWZFVXdGbXNjTDRJdkYzN1pYTURVRVNTUk9FZXFPcXlSQVE?oc=5",
      "title": "[게시판] 네이버클라우드, 육군 군수사령부와 ‘실전용 AI 에이전트‘ 개발 등 단신"
+    },
+    {
+     "source": "글로벌뉴스통신GNA",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hVTZfNWdJcjh4VHVCRUNFMy1FUXRIbDJVRTAyNHFMMmlJcWNwVHhnRjJZN3AwT1M2ZXpBVm1pZzhwbGlEaFVrOFdIYmJaN3FsZUxlTS1nNFlOVmFZa01pZkdma2syVk1vc3lFdFltdXQ0UXl5?oc=5",
+     "title": "네이버클라우드·육군 군수사령부, 실전형 AI 군수 구축"
     }
    ],
    "origin": "rss",
