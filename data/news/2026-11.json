@@ -2,6 +2,236 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "5536276f40f3",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T12:04",
+   "title": "[조달계획] (조달 26-4-194) 공기충전기 외주정비",
+   "source": "국방전자조달(D2B) · 제3훈련비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제3훈련비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44732",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2443950effd5",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T12:04",
+   "title": "[조달계획] 26-247, 부품정비대대, 전기반 제안품 제작 재료 구매",
+   "source": "국방전자조달(D2B) · 공군제11전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제11전투비행단 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 44733",
+   "score": 6.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "296f4e51cf66",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T12:04",
+   "title": "[조달계획] 이동형지휘통제체계(차량) 2차정비용역(특-26-용-40)",
+   "source": "국방전자조달(D2B) · 특수전사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 특수전사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 수의협상중 · 판단번호 44736",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5337c021907f",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T12:04",
+   "title": "[조달계획] 26년 3분기 전산운영용품 구매",
+   "source": "국방전자조달(D2B) · 육군항공사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군항공사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 계약준비중(낙찰단가처리중) · 판단번호 44509",
+   "score": 3.5,
+   "also": [
+    {
+     "source": "국방전자조달(D2B) · 제2군단",
+     "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+     "title": "[조달계획] 26-12차 전산운영용품 구매"
+    },
+    {
+     "source": "국방전자조달(D2B) · 육군 제1군단",
+     "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+     "title": "[조달계획] 전산운영용품 구매"
+    }
+   ],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "46a18e702491",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T12:04",
+   "title": "[조달계획] 26년 정비화 구매",
+   "source": "국방전자조달(D2B) · 제25보병사단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제25보병사단 · 제조/구매 · 수의계약 · 발주예정 2026.11 · 공고의뢰중 · 판단번호 44637",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e98801de09c7",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T07:28",
+   "title": "F-35 Joint Program Office says new software enables transition to upgraded fleet maintenance system",
+   "source": "Defence Industry Europe",
+   "url": "https://defence-industry.eu/f-35-joint-program-office-says-new-software-enables-transition-to-upgraded-fleet-maintenance-system/",
+   "lang": "en",
+   "summary": "The F-35 Joint Program Office is beginning to retire the remaining elements of its ALIS logistics system after delivering the first ODIN operating software release and securing validation from the operational test squadron.",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defindeu",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "sys",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "ALIS·ODIN"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "92bc7c969c3c",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T05:23",
+   "title": "Program Comment for Army Warfighting Readiness and Associated Infrastructure",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNLTBLOTN0WW0yN2w3enNsd0ZPa3dRS1QxWmUwWmlWdUxxd3dVSUJFbmZ0bnNTMDg4QUNmak9sbUxlNUVHSldnWmpDNHpjYzRLWEFmWGFZWEMwS1owZkdkMnlYdG5Ldkg3cWJPdGlacUFUUjY1RGtrekhDc18zWkhqNU1YTWNHRktzTUQ3Wl9FeXI1RDN2eFQ2bFNzUEtTRHVVelZtbDZ2dE9PajJaUmVGdHVEYl9HaUxGSGJGYkFSaGg1aXd3VkV1YllHVGhKOWhndDlNejhGY0t0ZUNhZ2FoNi1IdEN6MTlQcjRCSUU5VDM3ZWcyRjdhRmJDa0RQMXlfbTFjM0Zlbjl6MmJsODBGbDRhSkx0UVhuc1pRZXo0MmZjRmJLVkhnUmJuSQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "40940d7bfead",
    "date": "2026-11-03",
    "ts": "2026-11-03T03:50",
@@ -240,7 +470,13 @@
    "lang": "en",
    "summary": "",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "THE ELEC, Korea Electronics Industry Media",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XY1Z1YVBvNkVXeENGbnJDMWFMc19ndTUzTkh3eEt1RUhveW1BUHNjSjZMWGhZbTN4UnVTVEcySTR5aWNOT2xDWTYtd08yaTUycjJyMGxZM3NsSlYtNnRnUmNYUWZGaWM?oc=5",
+     "title": "Naver Cloud Partners With South Korean Army to Build AI Logistics System"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,
@@ -313,6 +549,11 @@
      "source": "중앙이코노미뉴스",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rSVJYS3czNVMwNU4yeUpCUjBpRFB4ZW15RjdGMzhRaWdTTTJYcE4wZ19vbGd1eWk3VTJicmdfeXNxVFZfMFNzWjlkcHppWWw2LVJnUVdyM3pwSEFTUS1YRjEwYVpOMWFTTHF4N2dfclFjdw?oc=5",
      "title": "네이버클라우드, 육군 군수사령부와 AI 협력…무기 고장 예측·군수 업무 자동화 추진"
+    },
+    {
+     "source": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaGlVOVY3VllZU3BaRFpYTGg2eXBwTFhxTDlMSlF3Z0FRNl83OTZrVS1YWTJoZlptOUMxdkZDYXV3cWlsYTc1dXoxbHhmQXZxYW9LOVhGekZEbTNySG40M3NrQkttWDlPblFJcUl1T1p4RnlzamZLVm5BTEtYZTFUdFM1Y29yLXdLa2dzbFRTZGJrcHhnaFowYV9fTk5jUjZK?oc=5",
+     "title": "네이버클라우드, 육군 군수 AI 고도화 협력 확대"
     }
    ],
    "origin": "rss",
@@ -843,6 +1084,72 @@
    "region": "us",
    "domains": [
     "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "52d14183ccb8",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "Notice Of Opportunity (Noo) U.S. Army Reserve, 88Th Readiness Division Energy Savings Performance Contract (Espc)",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/c2ada4a0f915497d88ca68a4cf4a371f/view",
+   "lang": "en",
+   "summary": "Solicitation · SP060427R0400 · DEFENSE LOGISTICS AGENCY > DLA ENERGY · 마감 2026-11-09",
+   "score": 7.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA",
+    "미 육군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "6a72db96100d",
+   "date": "2026-11-02",
+   "ts": "2026-11-02T09:00",
+   "title": "N6852027R1003: Naval Air Systems Command (Navair) Depot Maintenance System (Ndms) It Program/Project Functional Requirements And Software Lifecycle Support (Itpss) Request For Proposal (Rfp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/7d60aac181f5444e947183d96e9d3659/view",
+   "lang": "en",
+   "summary": "Special Notice · N6852027R1003 · DEPT OF THE NAVY · 마감 2026-11-16",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis"
    ],
    "kind": "contract"
   },
