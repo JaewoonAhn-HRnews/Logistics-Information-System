@@ -1,34 +1,18 @@
 {
- "at": "2026-11-04 01:31",
+ "at": "2026-11-04 10:39",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>2150520090</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>3020A</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrear",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>수의계약</cntrctMth><dcsNo>7520P</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>화",
    "sample": [
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
-     "budgetAmount": "2150520090",
      "cntrctMth": "수의계약",
-     "dcsNo": "3020A",
-     "demandYear": "2026",
-     "excutTy": "제조",
-     "orderPrearngeMt": "202612",
-     "ornt": "지상공통전력운영계약팀",
-     "orntCode": "EBB",
-     "progrsSttus": "원가계산중",
-     "progrsSttusCode": "26",
-     "reprsntPrdlstNm": "K55자주포 부품류(방산)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "공개",
-     "bidMth": "총액제",
-     "cntrctMth": "수의계약",
-     "dcsNo": "5522H",
+     "dcsNo": "7520P",
      "demandYear": "2026",
      "excutTy": "제조",
      "orderPrearngeMt": "202612",
@@ -36,14 +20,14 @@
      "orntCode": "ELA",
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "26년 60/81mm 신형고폭탄",
+     "reprsntPrdlstNm": "26년 81mm 신형고폭탄",
      "spcifyPrcureAt": "N"
     },
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
      "cntrctMth": "수의계약",
-     "dcsNo": "7720F",
+     "dcsNo": "7720H",
      "demandYear": "2026",
      "excutTy": "제조",
      "orderPrearngeMt": "202612",
@@ -51,7 +35,22 @@
      "orntCode": "ELA",
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "26년 2.75인치 고폭탄 신관 KM427",
+     "reprsntPrdlstNm": "26년 2.75인치 고폭탄 등",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "cntrctMth": "수의계약",
+     "dcsNo": "5522K",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "26년 탄약류 목상자",
      "spcifyPrcureAt": "N"
     }
    ]
