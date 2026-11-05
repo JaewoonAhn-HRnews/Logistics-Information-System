@@ -2,6 +2,69 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "51e76486d0bd",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T01:50",
+   "title": "[조달계획] 보어게이지 외주정비",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 45419",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "3176ec4958b9",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T18:50",
+   "title": "Minster Motshekga “concerned” about Op Prosper vehicle availability",
+   "source": "defenceWeb",
+   "url": "https://defenceweb.co.za/sa-defence-sa-defence/minster-motshekga-concerned-about-op-prosper-vehicle-availability/",
+   "lang": "en",
+   "summary": "The SA National Defence Force (SANDF) has “an operational sustainment concern” about vehicle availability and serviceability for the current Operation [...]",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defenceweb",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "a15155b02422",
    "date": "2026-11-05",
    "ts": "2026-11-05T10:46",
@@ -116,6 +179,237 @@
    "region": "kr",
    "domains": [
     "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "0bd76ea5c821",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Parts Kit,Valve,Overhaul; Nsn: 1660-00-442-2007, Pr: 7017536534, P/N: 9776122-10, Wsdc: Z9N, Aircraft, Fa-18, A-D, E/F, G (Growler)",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/e66f39ccc11542de9e777e72fd97ea8a/view",
+   "lang": "en",
+   "summary": "Presolicitation · SPE4A727R0079 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-12-21",
+   "score": 7.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "cde16b7cb7d6",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "F138-100 Engine Sustainment",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/c5f09d73d03a4340a267b95f020799b2/view",
+   "lang": "en",
+   "summary": "Sources Sought · F138_Follow-on_10052026 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-19",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "fff15f178f1a",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Usace Tactical Readiness - Integrated Deployment Of Enterprise Services (Trident)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/adf5af6cb5e54101bcc9d2ea3bcd2688/view",
+   "lang": "en",
+   "summary": "Presolicitation · W912PM26RA0029 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "062cbb81eae3",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Sources Sought Depot Level Maintenance At Frce",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/8fd3187edf3d4885b4533bb2424256bc/view",
+   "lang": "en",
+   "summary": "Sources Sought · N68520-26-RFPREQ-JC00000-0175 · DEPT OF THE NAVY > NAVAIR · 마감 2026-06-10",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8a5e62717ee6",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Usafe Fire Trainer Maintenance Services",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/7aca9db0ce4e4c59a68f108caaa65fb7/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA564127R0001 · DEPT OF THE AIR FORCE > U · 마감 2026-11-16",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "554abbc263a9",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Spp 14.0 Perpetual Site License",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/493b20a7ded54a8382b3d2f1f4dc0e1c/view",
+   "lang": "en",
+   "summary": "Special Notice · N00174-27-SIMACQ-IHD-E71-Dept-0022 · DEPT OF THE NAVY > NAVSEA · 마감 2026-11-20",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "0be3285e1288",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Base Operations Support (Bos) And Facilities Maintenance Services At Robert E. Kamosa Transmitting Stations (Rekts), Saipan And Tinian, Cnmi",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/306bbb227dd04ea1b9e6516cc0f1ab8a/view",
+   "lang": "en",
+   "summary": "Sources Sought · N4019227R9000 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-20",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e0d419288a6e",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "48--Kit,Overhaul,Valve",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/2a3b59f2ba6b4fc9b0380b7e338159a6/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · SPE7M427T2359 · DEFENSE LOGISTICS AGENCY > DLA MARITIME · 마감 2026-11-16",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
    ],
    "kind": "contract"
   },
@@ -2633,7 +2927,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 8.5,
+   "score": 5.5,
    "also": [
     {
      "source": "메트로신문",
@@ -2814,6 +3108,11 @@
      "source": "서울경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Qd0UxckVJNzNNX2JhQ0d2VUJ6Vlk1em1QemJTRFBleHpreGpCWUF3eURRUVM5WklqSUx2Q0lHY3lEODQzaml1Xzk2d2RZVjJzN0VNQ1N1c2NiU1ZxVXlib3BKVDQ?oc=5",
      "title": "네이버클라우드, 육군 군수사령부와 협약…조달·정비·물류에 AI 적용"
+    },
+    {
+     "source": "에이빙",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kb3NxRkJKWG5BVHhEVFEwcmpuS2MxZFM1Nnp0d2FGX1hreU03Um5kbHVybmFEc0dmSnVESEZvd2xHUmFyb2cteDdFWlA1Zzk3X0hxZEgyaUxTdVNfTXlGaVBqWklHNzDSAWtBVV95cUxQUFdmM2FhVFVjVGF1ZElGV2dzWjk1REowTWVxRGFGa1lydjhYTTBrUXdEZGtTTjBfdHBRSlU1QmVwT3FWSXBKalNIZGVFbHdlX1hzUjNVS2w3UjdmREMxeGFlbTNLVlJERGxWTQ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수' 구축 나선다"
     }
    ],
    "origin": "rss",
