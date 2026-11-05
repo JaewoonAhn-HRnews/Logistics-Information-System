@@ -2,6 +2,222 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "a15155b02422",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T10:46",
+   "title": "[조달계획] 일반공구류(230mm급다련장 유도탄 창정비용)",
+   "source": "국방전자조달(D2B) · 화력총괄계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 화력총괄계약팀 · 구매 · 제한경쟁 · 발주예정 2026.12 · 원가계산중 · 판단번호 2310",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "cf4ca6398869",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T10:46",
+   "title": "[조달계획] 26년 기능시험장비 외주정비 용역",
+   "source": "국방전자조달(D2B) · 육군 탄약지원사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군 탄약지원사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 45210",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2d1e36c0edea",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T10:46",
+   "title": "[조달계획] 독수리회관 계획보수 소방설계 및 인허가 용역",
+   "source": "국방전자조달(D2B) · 제20기갑여단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제20기갑여단 · 용역 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 45309",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "fcf1e671717f",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T10:46",
+   "title": "[조달계획] 전산운영용품 집행잔액 재원배분 집행",
+   "source": "국방전자조달(D2B) · 제20기갑여단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제20기갑여단 · 구매 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 45308",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "9065758397fe",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T04:24",
+   "title": "U.S. Army Test, Measurement and Diagnostic Equipment Activity hosts Polish delegation to bolster allied readiness, interoperability",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNazc5T0QwTnhXX1hRdDBtb1dYOU9kc0dST2JMNUdpaWM0dlJXcDYtY1IwSmFtVVhSTGYzdk9YYXBxMzhZbFhTU1NHdUlPeFlPSWJVNnVVendjandkYWFCTlNVd0dkSTAwenpnbndBaWM2aDUwQS0wS0VlRDNuZE0yRm5lVDJKQzZIRzg4Z3JDV2VnZkpnWFk5Q2ZHQl9aWS1uLUhsOEZ0WUVJOEpSYXVtUmg2bDlxN1o4M3V6WEdfMkJwdm1Jd3RIUUU4dm5JQzlxTlVJY1hxcFYxc1J5aVY4QllOMW9ZZjM1SWtpUTV0WVBDaWt0NWRSVnZkVnbSAfwBQVVfeXFMTWs3OU9EME54V19YUXQwbW9XWDlPZHNHUk9iTDVHaWljNHZSV3A2LWNSMEphbVVYUkxmM3ZPWGFwcTM4WWxYU1NTR3VJT3hZT0liVTZ1VXp3Y2p3ZGFhQk5TVXdHZEkwMHp6Z253QWljNmg1MEEtMEtFZUQzbmRNMkZuZVQySkM2SEc4OGdyQ1dlZ2ZKZ1hZOUNmR0JfWlktbi1IbDhGdFlFSThKUmF1bVJoNmw5cTdaODN1elhHXzJCcHZtSXd0SFFFOHZuSUM5cU5VSWNYcXBWMXNSeWlWOEJZTjFvWWYzNUlraVE1dFlQQ2lrdDVkUlZ2ZFZ2?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "c3455b9834f5",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T03:43",
+   "title": "Innovation, cooperation drive readiness, Army Reserve Chief says",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOG9fZzRWVjBQeWJjbUNyTFRCUU5FMUsyU3JUeXhBU2NneS1WUGlUSXpvRFFRZjU1dmtiaXhMRW84RjNKWks1aEdQTk1oamdkWUViekRCeUF5eDQxaEJqelh2bzNlR1h0NjVvTEJZR2Vfc25MZEpOOHhfa0xyUDU2SHp2TkRpOGozWnFCSXMzTzNONi1tN0ZYUjYweDRNbnBBdXN6TGxQblVUbVFDVVBQY3BzSUZZLWZyWERQdUk3Z241ckxQcjBWRmtIeDA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "565ba42c26ab",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T03:08",
+   "title": "SupplyCore Awarded Two Defense Logistics Agency Contracts Totaling $140 Million For Military Facilities Maintenance Supplies",
+   "source": "Pulse 2.0",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSXQ5YzlRRVFwdnBUdi1INDFtNlpEeHZwZVFNc3BETU9QV0JYQTdOeDNvdVFWSmpNQndvZkhUWjFEX3drYVp1OXZ1bU1JdXlJQkNYOEVUT29KMTJSd1h1Y3BVQzlyeGF1cE1OMlJDck9Gel80cURfNFV6d1ZSNHFUXzNmM2NXUkQ3MTZ6d0gweHVRM004SlJlR0VPSHU1cks2VF9LLUV3ejdzNXNwTkY1RkMzTUhpOE1abF9mMUpRZVZvbjdON3ZKMXRpdFVBV1ZLa0Jpd0praFlBcEU?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "Defense Logistics Agency AI",
+   "cats": [
+    "mro",
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
    "id": "0c2334c17b29",
    "date": "2026-11-04",
    "ts": "2026-11-04T19:13",
@@ -280,7 +496,13 @@
    "lang": "ko",
    "summary": "",
    "score": 6.5,
-   "also": [],
+   "also": [
+    {
+     "source": "뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xX2ZiTE9Sb2llY1dhUkNHZlRfMS1ySmpaSkZaN3c1cElidURMa2pvSWcyeXlsd2hjSHROZVhGMm8tQnVla1A1NXJlSEhicDNZVG50VnplenYxbUtJZk80TGNjR1JMRTNCb3BqVXY3RdIBb0FVX3lxTE4xX2ZiTE9Sb2llY1dhUkNHZlRfMS1ySmpaSkZaN3c1cElidURMa2pvSWcyeXlsd2hjSHROZVhGMm8tQnVla1A1NXJlSEhicDNZVG50VnplenYxbUtJZk80TGNjR1JMRTNCb3BqVXY3RQ?oc=5",
+     "title": "국방부·산업부, 300억원 투입해 'RAM-C AI 에이전트' 개발…K-방산 수출 경쟁력 강화"
+    }
+   ],
    "origin": "rss",
    "src": "mnd",
    "hint": "kr",
@@ -355,6 +577,11 @@
      "source": "더팩트",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RUTd2U3FOalR5Nm1pS3dnWGg3czJNQmlzWHZmWEZHMkM2cTlGZDBoR3U4T1hGSWFfRmZuU2tWYnFGWVAxemdOMlZiVG5RNnN2QTFUcNIBVEFVX3lxTE9RUTd2U3FOalR5Nm1pS3dnWGg3czJNQmlzWHZmWEZHMkM2cTlGZDBoR3U4T1hGSWFfRmZuU2tWYnFGWVAxemdOMlZiVG5RNnN2QTFUcA?oc=5",
      "title": "KAI, AI 군수 분석 플랫폼 개발에 293억 투입…무기 가동률 높인다"
+    },
+    {
+     "source": "쿠키뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmUVpPeXZuempkN3pBTGczYnAzTEFNYzh0WEhaNnNFVm9rd010QUNuT3g2WVlFTHRMLUtJN0FHNU5CQXJWMHJvMFU0YWMzZjR0SzM0MnhBanhZUHFMS3U3SFRGWQ?oc=5",
+     "title": "KAI, AI 기반 통합 군수 플랫폼 구축…무기 가동률 높인다"
     }
    ],
    "origin": "rss",
@@ -883,6 +1110,62 @@
    "axes": [],
    "region": "us",
    "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "cee1b8d418b9",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T09:00",
+   "title": "Logistics Integrated Virtual Environment (Live) Platform",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/b1c77dbeb9ee48fbbf15f8dca6cc8016/view",
+   "lang": "en",
+   "summary": "Award Notice · N39430-26-C-7005 · DEPT OF THE NAVY > NAVFAC",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "3780d784736f",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T09:00",
+   "title": "Depot Level Maintenance At Frce Industry Day Opportunity",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/685a10523a754d71898be44ec6926cc8/view",
+   "lang": "en",
+   "summary": "Special Notice · N68520-26-RFPREQ-JC00000-0175 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-18",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
    "kind": "contract"
   },
   {
@@ -2306,6 +2589,11 @@
      "source": "국제뉴스",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mTWg4ZmNlOUZVLWN6WGNDTnIxSkVvNEhmUjBMbVN0bVpWRTBuQWlYcTJReFMtdi0taDN6dzZqMElsSW54MkRtUGZEVlNZb2h0a256WkZQX2Z4R0J2dlJyM0JWbDZHQXRXVEs5eEFB?oc=5",
      "title": "네이버클라우드·육군 군수사, AI 군수 체계 구축 협력"
+    },
+    {
+     "source": "한국클라우드신문",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kSHQ1aW00SlhxbDk0U21jZGdocGI4UURRYjZGWlBYVWN3ZE02ckpDa3R6ZGRvejA0bDJPSzZ2WkI1MjhDcmZWNnZPVFVTZ1dNeEVYZkRiOHNVS2RHb3BwMERJRzQ4VDJYeU1KYmt4c9IBc0FVX3lxTE4zLTVVeG55YkJTMU8tU0NKamtGMHpQemRMRjhaTzNjOVFmdTBGSTNMcWY4c3lSZ0FjZ1dmOW8ySjIzRE9DYUlKOHo4Wm82a2ZpcC1wRmo0ZjNOdDZVQ2FJZWs0MVdFVDFaZGttdDEzb1RadUE?oc=5",
+     "title": "네이버클라우드, 육군 군수사와 조달·정비·물류 'AI 실증' 추진"
     }
    ],
    "origin": "rss",
@@ -2521,6 +2809,11 @@
      "source": "국제뉴스",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mTWg4ZmNlOUZVLWN6WGNDTnIxSkVvNEhmUjBMbVN0bVpWRTBuQWlYcTJReFMtdi0taDN6dzZqMElsSW54MkRtUGZEVlNZb2h0a256WkZQX2Z4R0J2dlJyM0JWbDZHQXRXVEs5eEFB?oc=5",
      "title": "네이버클라우드·육군 군수사, AI 군수 체계 구축 협력"
+    },
+    {
+     "source": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Qd0UxckVJNzNNX2JhQ0d2VUJ6Vlk1em1QemJTRFBleHpreGpCWUF3eURRUVM5WklqSUx2Q0lHY3lEODQzaml1Xzk2d2RZVjJzN0VNQ1N1c2NiU1ZxVXlib3BKVDQ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 협약…조달·정비·물류에 AI 적용"
     }
    ],
    "origin": "rss",
