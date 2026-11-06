@@ -1,13 +1,28 @@
 {
- "at": "2026-11-06 10:48",
+ "at": "2026-11-07 01:16",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>539792000</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>3020C</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearn",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>수의계약</cntrctMth><dcsNo>7150D</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>지",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "cntrctMth": "수의계약",
+     "dcsNo": "7150D",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "지상공통전력운영계약팀",
+     "orntCode": "EBB",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "40MM 고속연습탄 KM385(KB576) 탄피결합체(방산)",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
@@ -27,32 +42,17 @@
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
-     "budgetAmount": "10298000000",
-     "cntrctMth": "지명경쟁",
-     "dcsNo": "5870C",
-     "demandYear": "2026",
-     "excutTy": "제조/구매",
-     "orderPrearngeMt": "202612",
-     "ornt": "함정총괄계약팀",
-     "orntCode": "EMA",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "한국형수직발사체계(KVLS-Ⅱ) 함 탑재",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "공개",
-     "bidMth": "총액제",
+     "budgetAmount": "10357200000",
      "cntrctMth": "수의계약",
-     "dcsNo": "7150D",
+     "dcsNo": "7541H",
      "demandYear": "2026",
      "excutTy": "제조",
      "orderPrearngeMt": "202612",
-     "ornt": "지상공통전력운영계약팀",
-     "orntCode": "EBB",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "40MM 고속연습탄 KM385(KB576) 탄피결합체(방산)",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
+     "reprsntPrdlstNm": "26년 155mm 고폭탄류 항력감소제 등",
      "spcifyPrcureAt": "N"
     }
    ]
@@ -121,7 +121,7 @@
      "prdlstKndSe": "물자",
      "prdlstKndSeCode": "C",
      "prdlstNm": "ACCURACY  JUMP PARACHUTE  SET",
-     "progrsSttus": "1차공고중",
+     "progrsSttus": "2차공고중",
      "purchsRequstNo": "BACH6085-005",
      "qy": "48",
      "stndrdNo": "PRD 1670-3016",

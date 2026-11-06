@@ -2,6 +2,129 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "97a3be0f7064",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T01:16",
+   "title": "[조달계획] K9자주포 엔진제어장치조립체 외주정비",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 1606A",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "88551c301963",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T01:16",
+   "title": "[조달계획] 야전정비(타이어 12R22.5 등 3품목)",
+   "source": "국방전자조달(D2B) · 공군항공우주안전단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군항공우주안전단 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 45680",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "773d63f79723",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T01:16",
+   "title": "[조달계획] 실내사격장 사격장비 유지보수",
+   "source": "국방전자조달(D2B) · 공군 제8전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군 제8전투비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 45182",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "b0b1f5179657",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T15:07",
+   "title": "AI로 진화하는 국방… 군수 AI 에이전트 'RAM-C' 개발 본격 시동",
+   "source": "헬로티",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ELWhNU2xhM2pjVHJlQk5ZXzN1MnlNbTFxVU5ZV2ZPYlNzSVAxRHpIQldaR0lXYUd0NS1zU00wb3ZmZVdoY2k1U1ZVSnVkbERjWjlGdk5ndGVfYVI1dXV3?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "생성형 AI·에이전트",
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "ca58e5ec5437",
    "date": "2026-11-06",
    "ts": "2026-11-06T10:48",
@@ -121,6 +244,62 @@
    "kind": "contract"
   },
   {
+   "id": "e2794c47f7c0",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "Multi-Ship Sustainment Partnership (Mssp) Single Award Indefinite Delivery Indefinite Quantity (Sa-Idiq) Contracts For Fleet Maintenance Availabilities And Incremental Selected Restricted Availabilities On Ddg-51 Class Ships Homeported In Norfolk, Va",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/6ce21cd1fd454696aeaed400b8d19f2c/view",
+   "lang": "en",
+   "summary": "Solicitation · N0002426R4439 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-21",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bc156511b211",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "Sbx Development, Operations And Sustainment, Justification For Exception To Fair Opportunity",
+   "source": "SAM.gov · Missile Defense Agency (Mda)",
+   "url": "https://sam.gov/workspace/contract/opp/5f47885d10ed494bb87d771fd4e4aaab/view",
+   "lang": "en",
+   "summary": "Justification · MDA27SNJA01 · MISSILE DEFENSE AGENCY (MDA) > MISSILE DEFENSE AGENCY (MDA)",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "51e76486d0bd",
    "date": "2026-11-06",
    "ts": "2026-11-06T01:50",
@@ -224,7 +403,13 @@
    "lang": "ko",
    "summary": "국내 조달계획 · 육군 탄약지원사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 45210",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "국방전자조달(D2B) · 공군군수사령부",
+     "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+     "title": "[조달계획] 피로시험 장비 외주정비"
+    }
+   ],
    "origin": "api",
    "src": "d2b-api",
    "hint": "kr",
@@ -1533,7 +1718,7 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TQm5LdWlpY21YdVFmQ2I2LTdiOEM3VlZVU29EQUhMQmlsM3JNMmpTS3RMUGVZMUNDWnlRNmRoSEtQejFabUJNZENZNjNDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.5,
    "also": [
     {
      "source": "브릿지경제",
