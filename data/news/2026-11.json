@@ -2,6 +2,125 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "ca58e5ec5437",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T10:48",
+   "title": "[조달계획] 크래들,주퇴기용 외주정비(방산)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.12 · 조달판단중 · 판단번호 3020C",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8aa2731e7d95",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T10:48",
+   "title": "[조달계획] 수리온 엔진 기술지원(CIP) 용역",
+   "source": "국방전자조달(D2B) · 육군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군군수사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 계약준비중(낙찰단가처리중) · 판단번호 44896",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "422bdf282ba9",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T10:48",
+   "title": "[조달계획] (군-위-29) 26-1차 감시정찰장비 외주정비 설치납품",
+   "source": "국방전자조달(D2B) · 제7포병여단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제7포병여단 · 구매 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 45465",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "3179cae2da95",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T10:48",
+   "title": "[조달계획] 정보체계용 암호장비 도입사업-6",
+   "source": "국방전자조달(D2B) · 해군본부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군본부 · 제조 · 수의계약 · 발주예정 2026.11 · 수의협상중 · 판단번호 45510",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "51e76486d0bd",
    "date": "2026-11-06",
    "ts": "2026-11-06T01:50",
@@ -405,6 +524,153 @@
    ],
    "ents": [
     "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "92d89908ebb3",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Uae Frequency Converter Spares - Sole Source To Raytheon",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/d7fefc8b79914c7aab44c8467442231b/view",
+   "lang": "en",
+   "summary": "Sources Sought · SPRRA227RSP04 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-11-10",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2aa501836175",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Usns Yukon (T-Ao 202) Voyage Repair Availability Kr",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/afbf03e35aad483aa629bf51d899ae6b/view",
+   "lang": "en",
+   "summary": "Solicitation · N6264927RK002 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-12",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "ee10c93f41c9",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Usns Mercy (T-Ah 19) Fy27 Mid-Term Availability",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/ad6ab043d88a4a6086d9870a2d03c0ee/view",
+   "lang": "en",
+   "summary": "Award Notice · N3220527C1207 · DEPT OF THE NAVY > MSC",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "d2185fdebd27",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "T-6/T-34 Aircraft Maintenance And Contractor Logistics Support (Cls): Request For Proposal (Rfp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/9ef8972ff37346c0bd3f514c3e3a098c/view",
+   "lang": "en",
+   "summary": "Solicitation · N0042126R1011 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-16",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "44f42dcf9605",
+   "date": "2026-11-05",
+   "ts": "2026-11-05T09:00",
+   "title": "Component Rebuild Shop (Phase 1) Letterkenny Army Depot, Pennsylvania",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/8870b46bbc4f44558823556bd9beb3cb/view",
+   "lang": "en",
+   "summary": "Special Notice · W912DR27RA002-001 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "미 육군"
    ],
    "axes": [],
    "region": "us",
@@ -1783,6 +2049,38 @@
    "region": "kr",
    "domains": [
     "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a4bbd32272ce",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T17:00",
+   "title": "3만5000명 뛴 마라톤서 재고처리?…'대회 당일로 표기된 빵 소비기한'의 반전",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5yZnBrY21qYVJGRDVPZDFIN1hFU0tQUm5fdXlESnMyUGtjZmZkd2ZPdm5xUW9TUUZxUlQtd1ZzeWhFcnJuMk1vSzgtNTNmUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
    ],
    "kind": "news",
    "desc_tried": true
