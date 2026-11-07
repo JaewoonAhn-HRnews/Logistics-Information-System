@@ -1,0 +1,85 @@
+{
+ "month": "2025-06",
+ "articles": [
+  {
+   "id": "0a5e18b72d31",
+   "date": "2025-06-25",
+   "ts": "2025-06-25T09:00",
+   "title": "미 국방부 인력의 AI 준비도 강화",
+   "source": "SEI/CMU · 뉴스레터 제7호",
+   "url": "https://www.sei.cmu.edu/blog/amplifying-ai-readiness-in-the-dod-workforce/",
+   "lang": "ko",
+   "summary": "SEI 인공지능 부서가 공군 CDAO와 협력해 AI/데이터 인재를 발굴·평가하는 DACWR(Data/AI Cyber Workforce Rubric)과 SkillsGrowth 플랫폼을 개발했다. KSAT 항목별 숙련도 기준을 정량화하고, 비전통적 학습 경로를 인정하는 평가 체계로 숨은 AI 인재를 체계적으로 식별·활용한다.",
+   "score": 8.5,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:7",
+   "cats": [
+    "sys",
+    "ai",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "정비인력",
+    "사이버보안"
+   ],
+   "ents": [
+    "국방부",
+    "공군"
+   ],
+   "axes": [
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "orig_title": "Amplifying AI Readiness in the DoD Workforce",
+   "nl": 7
+  },
+  {
+   "id": "ec7d208691d0",
+   "date": "2025-06-13",
+   "ts": "2025-06-13T09:00",
+   "title": "미 육군, 주요 AI 기술 경영진을 혁신군단에 영입",
+   "source": "MeriTalk · 뉴스레터 제5호",
+   "url": "https://meritalk.com/articles/army-recruits-major-ai-tech-execs-into-innovation-corps/",
+   "lang": "ko",
+   "summary": "미 육군이 구글·아마존·IBM·마이크로소프트 출신 4명의 고위 AI 기술 경영진을 군에 영입해 'Innovation Corps'를 설립했다. 이 조직은 AI·데이터 분석·클라우드 기술을 정비·보급·훈련 등 육군 주요 부문에 신속히 통합하며, 고위 장성급과 직접 협력하는 '혁신 배치팀'을 운영한다.",
+   "score": 8.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:5",
+   "cats": [
+    "sys",
+    "ai",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "빅데이터",
+    "클라우드"
+   ],
+   "ents": [
+    "육군",
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "orig_title": "Army Recruits Major AI Tech Execs Into Innovation Corps",
+   "nl": 5
+  }
+ ]
+}

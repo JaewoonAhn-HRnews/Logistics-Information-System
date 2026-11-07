@@ -2,6 +2,89 @@
  "month": "2026-08",
  "articles": [
   {
+   "id": "28badf91c705",
+   "date": "2026-08-30",
+   "ts": "2026-08-30T09:00",
+   "title": "미 해병대, 태평양 지속지원(물류) 결정에 AI 플랫폼 'Manifest' 시험 적용",
+   "source": "Defense One · 뉴스레터 제69호",
+   "url": "https://www.defenseone.com/technology/2026/08/can-ai-help-marines-simplify-sustainment-pacific/415709/",
+   "lang": "ko",
+   "summary": "태평양해병대(MARFORPAC)가 Tagup의 AI 기반 군수 의사결정 플랫폼 'Manifest'를 인도태평양 전구 지속지원(sustainment) 결정에 확대 시험 적용. 210만 달러 규모 SBIR 계약으로 도입된 이 플랫폼은 400만 개 공급업체와 1,600만 개 부품 데이터를 실시간 연계, 대화형 AI 'Argus'로 자연어 질의를 통해 최적 방책(COA)을 산출. 의무 군수 분야 시범 적용에서 전투준비태세 저하 없이 조달비용 25% 절감, 취급 물자량 30% 감축을 달성, 기존 수일 걸리던 스프레드시트 기반 수작업 분석을 실시간 수준으로 단축.",
+   "score": 9.5,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:69",
+   "cats": [
+    "sys",
+    "ai",
+    "parts",
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "해병대"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
+   "kind": "contract",
+   "orig_title": "Can AI help the Marines simplify sustainment in the Pacific?",
+   "nl": 69
+  },
+  {
+   "id": "b4c38d58bb6b",
+   "date": "2026-08-11",
+   "ts": "2026-08-11T09:00",
+   "title": "美 공군, AI 활용해 항공기 고장 예측·정비체계 강화 모색",
+   "source": "DefenseScoop · 뉴스레터 제66호",
+   "url": "https://defensescoop.com/2026/08/11/air-force-ai-predict-aircraft-failures-strengthen-sustainment/",
+   "lang": "ko",
+   "summary": "공군이 노후 항공기 유지보수 효율화를 위해 AI 도입을 확대하나 대부분 실험·시장조사 단계. T-38·C-130 엔진에 신뢰성중심정비(RCM) 알고리즘 적용 중이며 F-16 부품고장 예측모델링, B-52는 1년 내 AI 정비능력 통합 예정. 오타티 준장은 '나쁜 데이터를 넣으면 나쁜 답변이 나온다'며 데이터 품질의 중요성을 강조, KC-46 감항성 평가에도 AI 문서분석 적용.",
+   "score": 8.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:66",
+   "cats": [
+    "ai",
+    "ram",
+    "parts",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "orig_title": "Air Force explores AI tools to predict aircraft failures, strengthen sustainment",
+   "nl": 66
+  },
+  {
    "id": "54ae9cdaf7f4",
    "date": "2026-08-08",
    "ts": "2026-08-08T09:00",

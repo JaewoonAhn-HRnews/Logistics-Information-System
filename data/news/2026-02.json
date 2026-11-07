@@ -35,6 +35,41 @@
    "kind": "news"
   },
   {
+   "id": "040bfc1fd102",
+   "date": "2026-02-21",
+   "ts": "2026-02-21T09:00",
+   "title": "Google Public Sector의 AI 거버넌스·인력 준비태세 전략",
+   "source": "MeriTalk · 뉴스레터 제41호",
+   "url": "https://meritalk.com/articles/google-public-sectors-jim-kelly-on-ai-governance-workforce-readiness-and-what-it-takes-to-scale/",
+   "lang": "ko",
+   "summary": "Google Public Sector 연방 영업 부사장 Jim Kelly가 AI 확장의 핵심은 기술보다 인력 관리와 변화 관리라고 강조했다. 연방기관 응답자 약 90%가 AI 활용 중 또는 도입 계획이라는 설문 결과와 함께, DOD, FDA, DOT, DOE 등 주요 구축 사례를 공유했다. GenAI.mil은 출시 한 달여 만에 100만 명 사용자를 돌파했다.",
+   "score": 2.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:41",
+   "cats": [
+    "ai",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "orig_title": "Google Public Sector's Jim Kelly on AI Governance, Workforce Readiness, and What It Takes to Scale",
+   "nl": 41
+  },
+  {
    "id": "8b3a9b8c7900",
    "date": "2026-02-16",
    "ts": "2026-02-16T09:00",

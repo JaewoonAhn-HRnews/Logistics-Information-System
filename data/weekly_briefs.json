@@ -23,7 +23,29 @@
      "3baeee03694d",
      "3d1bb607b6a9",
      "be2402ba1de7"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-08-08",
+       "t": "육군 스마트 군수혁신 시동",
+       "s": "굿모닝충청",
+       "u": "https://www.goodmorningcc.com/news/articleView.html?idxno=450300",
+       "nl": null,
+       "id": "54ae9cdaf7f4",
+       "k": [
+        "성과기반군수지원(PBL)"
+       ]
+      }
+     ],
+     "n": 1,
+     "since": "2026-08-08",
+     "terms": [
+      "성과기반군수지원(PBL)",
+      "KAI",
+      "MRO 수출"
+     ]
+    }
    },
    {
     "no": 2,
@@ -48,7 +70,16 @@
      "81b5ce645470",
      "c4d21b8610c9",
      "44475e39f570"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "예측정비",
+      "국방 AI"
+     ]
+    }
    },
    {
     "no": 3,
@@ -67,7 +98,13 @@
     "ids": [
      "3fc5609676cc",
      "6b311e4cdea3"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": []
+    }
    },
    {
     "no": 4,
@@ -88,7 +125,72 @@
      "fc0405a716a4",
      "d00752009451",
      "2e70b62e0362"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-05-06",
+       "t": "록히드 마틴, 'AI Fight Club'으로 114년치 AI 공중전 시뮬레이션 수행",
+       "s": "Lockheed Martin",
+       "u": "https://news.lockheedmartin.com/2026-05-06-Lockheed-Martin-Inaugural-AI-Fight-Club-Event",
+       "nl": 53,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-07-29",
+       "t": "미 공군 CCA Increment 2, 최대 6개 설계안 프로토타입 단계 진출 전망",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/07/cca-usaf-robot-wingman/415093/",
+       "nl": 64,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-08-04",
+       "t": "X-62 VISTA, AI 자율 요격 시험 성공 — 유인기 상대 실시간 센서 기반 요격",
+       "s": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/ai-driven-x-62-intercepts-crewed-jets-in-test/",
+       "nl": 65,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-08-05",
+       "t": "\"요격미사일 부족, 대중국 억지력 위협\" — 헤리티지재단 경고",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/threats/2026/08/interceptors-war-china-heritage/415241/",
+       "nl": 66,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-08-21",
+       "t": "GAO, 육군 차세대 지휘통제(NGC2) 사업 비용·일정 관리 미흡 지적",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/gao-army-lacks-cost-schedule-detail-for-battlefield-network-modernization/",
+       "nl": 68,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      }
+     ],
+     "n": 25,
+     "since": "2020-09-02",
+     "terms": [
+      "Lockheed Martin",
+      "F-35"
+     ]
+    }
    },
    {
     "no": 5,
@@ -113,7 +215,16 @@
      "5442a88a036f",
      "bb6288470457",
      "26987e5e7ed1"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "미 해군",
+      "AUSA 2026"
+     ]
+    }
    },
    {
     "no": 6,
@@ -131,7 +242,15 @@
     "ids": [
      "386083059df4",
      "8c01a76cb440"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "DOT"
+     ]
+    }
    }
   ],
   "recs": [
@@ -178,7 +297,42 @@
      "fc3e835b5933",
      "b0260a2048bd",
      "df68a499edda"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-03-18",
+       "t": "미 해군, 로봇·AI로 함정 정비 혁신 추진 — Gecko Robotics 7,100만 달러 계약",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/03/us-navy-aims-use-robots-ai-reduce-ship-maintenance/412159/",
+       "nl": 45,
+       "id": null,
+       "k": [
+        "MRO 수출",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-07",
+       "t": "HJ중공업, 미 해군 MRO 확대",
+       "s": "S저널",
+       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YcDZ4NlAtWWllUWt2Rzk4NVFLSnBPQXFhTlkyWnpDYjJVZk1CU2drdi1BSzVRZllFdE5HN0tZaHUzSlpzM2V1M3EyMkt1bllxQXN1OXFVSy1sZDRqeTlSSmpoTFAwYjZ5c1l6d2h3?oc=5",
+       "nl": null,
+       "id": "be2402ba1de7",
+       "k": [
+        "HJ중공업",
+        "미 해군"
+       ]
+      }
+     ],
+     "n": 2,
+     "since": "2026-03-18",
+     "terms": [
+      "미 해군",
+      "HJ중공업",
+      "MRO 수출"
+     ]
+    }
    },
    {
     "cat": "성과기반군수",
@@ -197,7 +351,51 @@
     "ids": [
      "f29cfd77df07",
      "965e26dd9f71"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-08-08",
+       "t": "육군 스마트 군수혁신 시동",
+       "s": "굿모닝충청",
+       "u": "https://www.goodmorningcc.com/news/articleView.html?idxno=450300",
+       "nl": null,
+       "id": "54ae9cdaf7f4",
+       "k": [
+        "성과기반군수지원(PBL)"
+       ]
+      },
+      {
+       "d": "2026-10-08",
+       "t": "KAI, MUH-1 PBL 계약",
+       "s": "로이슈",
+       "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
+       "nl": null,
+       "id": "e347ae6942c4",
+       "k": [
+        "성과기반군수지원(PBL)",
+        "KAI"
+       ]
+      },
+      {
+       "d": "2026-10-08",
+       "t": "해병 상륙헬기 5년 정비·부품 지원",
+       "s": "부산일보",
+       "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUTjZMRG9OT25tMFhfM1prSC1xQTFWdnBjNGVhOF9fRE02ekM4ei05cGdvYXlkXzc0SXdpRFBhNVpXSmR6cC1IVUYxRW81bEVCTkdXaFM3ck9VRF9adzZVbkFBeGtmM1FzWUZ1LU9tMFM3b01i?oc=5",
+       "nl": null,
+       "id": "3baeee03694d",
+       "k": [
+        "KAI"
+       ]
+      }
+     ],
+     "n": 3,
+     "since": "2026-08-08",
+     "terms": [
+      "KAI",
+      "성과기반군수지원(PBL)"
+     ]
+    }
    },
    {
     "no": 3,
@@ -222,7 +420,17 @@
      "153764dab8a6",
      "f090dae86d4f",
      "edc4770c8079"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "자율주행",
+      "GM Defense",
+      "Arrive AI"
+     ]
+    }
    },
    {
     "no": 4,
@@ -243,7 +451,78 @@
      "737505b386ac",
      "729cf81d1183",
      "61b2f7c1c1a0"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-05-12",
+       "t": "미 공군, Salesforce와 7,200만 달러 ELA 체결 — Agentic AI 기반 작전운용 플랫폼 통합",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/air-force-signs-72m-salesforce-deal-to-power-ai-driven-operations/",
+       "nl": 53,
+       "id": null,
+       "k": [
+        "AI 플랫폼",
+        "에이전틱 AI"
+       ]
+      },
+      {
+       "d": "2026-07-01",
+       "t": "GenAI.mil 170만 명 돌파 — ChatGPT 7월 추가, 고분류 확대 예고",
+       "s": "Nextgov/FCW",
+       "u": "https://www.nextgov.com/artificial-intelligence/2026/07/genaimil-records-almost-17m-users-plans-new-model-additions/414568/",
+       "nl": 60,
+       "id": null,
+       "k": [
+        "AI 플랫폼",
+        "에이전틱 AI"
+       ]
+      },
+      {
+       "d": "2026-07-18",
+       "t": "미 국방부 GenAI.mil 확산의 열쇠: 교육과 리더십",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/training-leadership-key-to-expanding-genai-mil-adoption-across-dod/",
+       "nl": 62,
+       "id": null,
+       "k": [
+        "AI 플랫폼",
+        "에이전틱 AI"
+       ]
+      },
+      {
+       "d": "2026-08-05",
+       "t": "Salesforce Agentforce, DOD IL5 인증 획득 및 육군 HRC 최초 도입",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/salesforce-secures-il5-authorization-for-agentforce-army-hrc-first-to-deploy/",
+       "nl": 65,
+       "id": null,
+       "k": [
+        "AI 플랫폼",
+        "에이전틱 AI"
+       ]
+      },
+      {
+       "d": "2026-08-13",
+       "t": "정보기관 에이전틱 AI 도입, \"신중한 단계적 접근\" 표방",
+       "s": "Federal News Network",
+       "u": "https://federalnewsnetwork.com/artificial-intelligence/2026/08/intel-agencies-take-deliberate-approach-to-agentic-ai-adoption/",
+       "nl": 66,
+       "id": null,
+       "k": [
+        "AI 플랫폼",
+        "에이전틱 AI"
+       ]
+      }
+     ],
+     "n": 10,
+     "since": "2025-12-12",
+     "terms": [
+      "AI 플랫폼",
+      "에이전틱 AI",
+      "국방 AX"
+     ]
+    }
    },
    {
     "no": 5,
@@ -278,7 +557,73 @@
      "6e1cae65854d",
      "ceca79c6b624",
      "f2459b291e5c"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2025-10-21",
+       "t": "클라우드로 데이터에서 임무 성과까지: 국방부 클라우드 전략의 현실",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/from-data-to-decisions-delivering-mission-outcomes-with-cloud/",
+       "nl": 24,
+       "id": null,
+       "k": [
+        "Leidos"
+       ]
+      },
+      {
+       "d": "2026-10-04",
+       "t": "DLA·호주 연료지원 체계 구축",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQakJYanRfdDgzWTZkcjNQbGxNdm1US2FHV2tCSm5rdV9BQmFNRWFya2RlSTlCUS1uLXFudVRFUmoyNUJId2pqenluenBDSkFjZzVReEhjMjNsZy02SFo4eGt1bTBuYWp0R0ljdi1hY3gzZEZuVUtHNkU4SlBQeFd3NkJhZ0EzSnZNSDNncU5kWExQbERIZkhhb193bzlyQWp3RTVEQXVqaWFLbGl4NXVrQndHN1JWYS1UQ3dkRGtMN01teFNGLUlnMUVONVUyN0lVcHpud2hBX3RfWWhfWVREYVY1NA?oc=5",
+       "nl": null,
+       "id": "98f2d5deb416",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-12",
+       "t": "군 의무 공급망 산업계 회의",
+       "s": "Defense Logistics Agency (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUEVlV2VEY1N2YVVyeVRDWXBGVUlraWJOcC1zN3B4WUowWVByR0QzY1hpUV9LbFhyWEpvNGFCWEE2eDZDak5CM1FTdnNkY0U3NkM1YlhJY1RuN0xGMUJjT0FvLXpfdk5mcmRXTlVsTTkwOFNtR1kzXzlrMXNILXB0cmlER2RyeE1HZk0wOXhwUnBBb1pRUE1Mb3R1T3R6QjUwSy1EQ0pjNE1OSmpFbTBTZEN2YXNXa3NvMU4zX3lqTWgzMVloSzRsSmtlX19uajNxa3lyUjRkUGFzTWRGdjZCRGJ3?oc=5",
+       "nl": null,
+       "id": "d34b091a2b61",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-13",
+       "t": "DLA 배분 리더 서밋 개최",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3RYR2xRanZsOTcxcVRSWlFRcDdtTG55WFQtNldxbWZlSE1ESElxQkotMzNvbVBBLU9rSHBJRHp6TUVkNWF2NUxkQnluQ3loM2VTbWhZSS15RE5EenRFeUN4NFFWTXR5ZmlTQmMyWFlhTHlVbzdpc3BwS09mMjNQWkxEbWhYVFZXTWxpaVlaRHgwbm9jeWppdHF6aXVIdUZDczRhMnVWY29Bd1hGcG1XcW9uN0hrcnFseXludnN2SkpvMDdNTnl5YUFsLWVfQXNKRTRNUllhSzRuRVk?oc=5",
+       "nl": null,
+       "id": "b5326f102489",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "DLA 샌디에이고 감사 대비 점검",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTUpZckpXaUlVdnRVLUt1Z29Da2o5S2VYWEZOT0dOUGFQUDJCMUFiSDlXanpqRG5CRkdaUkFNOFA5OThVU2diejVabmw3M0VlUFp0cUo0bFhpaGxwREl5SHRRMThrOFBJaWFDWjZTLWpwam5qQ2xlQUxPRDB6YjhPNUhQeE5qZGxhaUpNYmFwX0o3bHdyTmphMk5TWTdHUnJFZXJrcHJQNnJzemNsMDl0TmZEREsySDZxN3hDRVBvbjhmelo0b0FwTm93a1JuU2xsMDU0SGJMZ1NrR0VVSTBJVkVLbw?oc=5",
+       "nl": null,
+       "id": "fd3bb8c63f82",
+       "k": [
+        "DLA"
+       ]
+      }
+     ],
+     "n": 13,
+     "since": "2020-09-02",
+     "terms": [
+      "DLA",
+      "Leidos",
+      "라트비아"
+     ]
+    }
    },
    {
     "no": 6,
@@ -301,7 +646,17 @@
      "aa71391f47ae",
      "29b5a49705c8",
      "76a83084c901"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "국방기술품질원",
+      "RAM-C",
+      "방위사업청"
+     ]
+    }
    }
   ],
   "recs": [
@@ -350,7 +705,79 @@
      "eace6243e70d",
      "bc86e56fa867",
      "04cbaedea524"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-10-07",
+       "t": "HJ중공업, 미 해군 MRO 확대",
+       "s": "S저널",
+       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YcDZ4NlAtWWllUWt2Rzk4NVFLSnBPQXFhTlkyWnpDYjJVZk1CU2drdi1BSzVRZllFdE5HN0tZaHUzSlpzM2V1M3EyMkt1bllxQXN1OXFVSy1sZDRqeTlSSmpoTFAwYjZ5c1l6d2h3?oc=5",
+       "nl": null,
+       "id": "be2402ba1de7",
+       "k": [
+        "HJ중공업",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "HJ중공업 군수지원함 MRO 수행",
+       "s": "미주한국일보",
+       "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kYkpnRi15dW5qZndyejFpR1RMQWhvcGRkOFltd01vbjZoUW9qaVRpRFB2czFPUEt5d0Y3Ym85dFZDdVdaSkJxMkJyVUxsUnR2YTlsS0JEWklBbEhiV1BB?oc=5",
+       "nl": null,
+       "id": "86cb9e0fcc16",
+       "k": [
+        "HJ중공업",
+        "MRO 수출",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "HJ중공업 美 해군 정비 호평",
+       "s": "Chosunbiz",
+       "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2c4TkVTdDNTNllTY2wtT0sxODN6X3RZcl82TFN4Wk0zOC1GZE1Xd3M2QnVtWFhkajh4elNLZ0RBelBmSzR4d1lzWi1vSkRzRHFsMkVrYnhtWUM1NUFoakpjSmVEODk3WmlleHdTTU5nQUxBT0dXbDcwMktMa3VYSUxmSUXSAZgBQVVfeXFMTTB2eG0ySUVpcDJGUExXN2IzNWZWU1FqclhOZ2J1UTJKMERubUNKTEgwVWw1OHdUclVOcl82eDFYc0dVODFFVWNrUzZzRXpVNzB2VW56NVN3YmtRdGxzdGZYcThIUmc3YXVOOF90bVZRLW1uNEE2VU5vUFl2WEthT0V4N2U3RTZ3NXNCRjk4Y3lXbm5Wa2RMaUg?oc=5",
+       "nl": null,
+       "id": "fc3e835b5933",
+       "k": [
+        "HJ중공업",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "HJ중공업 미 해군 MRO 첫 실적",
+       "s": "GIB 거제인터넷방송",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
+       "nl": null,
+       "id": "548400d7d27f",
+       "k": [
+        "HJ중공업",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "아멜리아 에이하트함 정비 후 출항",
+       "s": "빅데이터뉴스",
+       "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6NTJkQXZ3aW5lRG5vcGxlUE4xUmdLd0dPb1lWWVhWYXVSY25FWlRSd1I2ZC05Q1EtbkJnMGR3bHNUSjh4WjA0ZmwzN0VpTVZOa3ZzOEpUTUJHTmhfZHFtUjZuNjZHVDRUTDVpS2staHJLXzA5ZDhsdkR0SQ?oc=5",
+       "nl": null,
+       "id": "b0260a2048bd",
+       "k": [
+        "HJ중공업",
+        "미 해군"
+       ]
+      }
+     ],
+     "n": 6,
+     "since": "2026-03-18",
+     "terms": [
+      "HJ중공업",
+      "미 해군",
+      "MRO 수출"
+     ]
+    }
    },
    {
     "no": 2,
@@ -375,7 +802,29 @@
      "da69481a36dd",
      "8ad82faa638a",
      "a831f60fa906"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-10-16",
+       "t": "Gallatin AI 5,000만 달러 투자 유치",
+       "s": "The Defense Post",
+       "u": "https://thedefensepost.com/2026/10/16/gallatin-ai-logistics-expansion-funding",
+       "nl": null,
+       "id": "54a495ea066c",
+       "k": [
+        "Gallatin AI"
+       ]
+      }
+     ],
+     "n": 1,
+     "since": "2026-10-16",
+     "terms": [
+      "예측정비",
+      "AI 도구",
+      "Gallatin AI"
+     ]
+    }
    },
    {
     "no": 3,
@@ -398,7 +847,76 @@
      "53726d823436",
      "426c58ee99d3",
      "b23d1ac8e18d"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-29",
+       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
+       "nl": 51,
+       "id": null,
+       "k": [
+        "DLA",
+        "GenAI.mil",
+        "CDAO"
+       ]
+      },
+      {
+       "d": "2026-09-23",
+       "t": "미 국방부 \"대중 AI 기술 우위 유지 필수… 일방적 군축은 불가\"",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/pentagon-official-us-should-dominate-china-on-ai-not-unliterally-disarm/",
+       "nl": 72,
+       "id": null,
+       "k": [
+        "GenAI.mil",
+        "CDAO"
+       ]
+      },
+      {
+       "d": "2026-10-13",
+       "t": "DLA 배분 리더 서밋 개최",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3RYR2xRanZsOTcxcVRSWlFRcDdtTG55WFQtNldxbWZlSE1ESElxQkotMzNvbVBBLU9rSHBJRHp6TUVkNWF2NUxkQnluQ3loM2VTbWhZSS15RE5EenRFeUN4NFFWTXR5ZmlTQmMyWFlhTHlVbzdpc3BwS09mMjNQWkxEbWhYVFZXTWxpaVlaRHgwbm9jeWppdHF6aXVIdUZDczRhMnVWY29Bd1hGcG1XcW9uN0hrcnFseXludnN2SkpvMDdNTnl5YUFsLWVfQXNKRTRNUllhSzRuRVk?oc=5",
+       "nl": null,
+       "id": "b5326f102489",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "DLA 샌디에이고 감사 대비 점검",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTUpZckpXaUlVdnRVLUt1Z29Da2o5S2VYWEZOT0dOUGFQUDJCMUFiSDlXanpqRG5CRkdaUkFNOFA5OThVU2diejVabmw3M0VlUFp0cUo0bFhpaGxwREl5SHRRMThrOFBJaWFDWjZTLWpwam5qQ2xlQUxPRDB6YjhPNUhQeE5qZGxhaUpNYmFwX0o3bHdyTmphMk5TWTdHUnJFZXJrcHJQNnJzemNsMDl0TmZEREsySDZxN3hDRVBvbjhmelo0b0FwTm93a1JuU2xsMDU0SGJMZ1NrR0VVSTBJVkVLbw?oc=5",
+       "nl": null,
+       "id": "fd3bb8c63f82",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "DLA 경합 환경 군수 논의",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41TmhsalVEdzJNcXVaR3NZbmh4cVA1VmR1bW9kR0NOdXA0RHZmM2lwYTFJc1dXWnp6emZzWFRPczRFMTc5MnBmYzdUbENoUWlDakdRV1RtcjBFdDREN3ZiWlA2dm9rR1k?oc=5",
+       "nl": null,
+       "id": "2970c44fd2fb",
+       "k": [
+        "DLA"
+       ]
+      }
+     ],
+     "n": 64,
+     "since": "2025-05-21",
+     "terms": [
+      "DLA",
+      "GenAI.mil",
+      "CDAO"
+     ]
+    }
    },
    {
     "no": 4,
@@ -427,7 +945,75 @@
      "5cd0e58459c7",
      "50faf54cb38b",
      "b8e769b9bdd1"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-03-01",
+       "t": "'에픽 퓨리 작전'의 무기체계: 전투기, 미사일, 그리고 '특수 능력'",
+       "s": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/weapons-of-epic-fury-fighters-missiles-and-special-capabilities/",
+       "nl": 43,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-09-14",
+       "t": "美 공군, 2032년까지 자율 항공기 1,000대 전력화 계획",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/air-force-plans-to-field-1000-autonomous-aircraft-by-2032/",
+       "nl": 71,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-09-15",
+       "t": "Anduril, FY27 예산 미확정 시 CCA 생산계약 착수 불가 경고",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/09/anduril-officials-say-company-cant-start-on-cca-production-contract-without-fy27-budget/",
+       "nl": 71,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-10-09",
+       "t": "F-35 생산·정비 다년계약 검토",
+       "s": "Breaking Defense",
+       "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQalpRcTZpTHdlajB5RE80UWd2cW1URWZNNWEzejZTb3J5Y2p4WHlOV2RQSlFYTHVZUDB3WGNNR2l1ckJGZmRQeUhNZTlnZWExQ01udTQwUmZHOTFFUklBbnNPbVhXVjlFc19hZTAzWWxVbkNiclF5OXFXcW1ETXNhV3FvWDIxYkxraHRiLWp4SzJ0QkVpVjl1aGRhTl9tVFdkcGdrZkxpcw?oc=5",
+       "nl": null,
+       "id": "d00752009451",
+       "k": [
+        "Lockheed Martin",
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "HJ중공업 군수지원함 MRO 수행",
+       "s": "미주한국일보",
+       "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kYkpnRi15dW5qZndyejFpR1RMQWhvcGRkOFltd01vbjZoUW9qaVRpRFB2czFPUEt5d0Y3Ym85dFZDdVdaSkJxMkJyVUxsUnR2YTlsS0JEWklBbEhiV1BB?oc=5",
+       "nl": null,
+       "id": "86cb9e0fcc16",
+       "k": [
+        "MRO 수출",
+        "미 해군"
+       ]
+      }
+     ],
+     "n": 27,
+     "since": "2020-09-02",
+     "terms": [
+      "F-35",
+      "Lockheed Martin",
+      "미 해군"
+     ]
+    }
    },
    {
     "no": 5,
@@ -456,7 +1042,72 @@
      "0c1ae8649ed9",
      "d9d764fed5d2",
      "a0502a056b0f"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-29",
+       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
+       "nl": 51,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-07",
+       "t": "미 육군, 앤두릴에 최대 18억 달러 NGC2 계약 — 공통 데이터 레이어 제1군단 확대",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/army-awards-anduril-up-to-1-8b-to-scale-ngc2-across-i-corps/",
+       "nl": 74,
+       "id": null,
+       "k": [
+        "NGC2"
+       ]
+      },
+      {
+       "d": "2026-10-13",
+       "t": "DLA 배분 리더 서밋 개최",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3RYR2xRanZsOTcxcVRSWlFRcDdtTG55WFQtNldxbWZlSE1ESElxQkotMzNvbVBBLU9rSHBJRHp6TUVkNWF2NUxkQnluQ3loM2VTbWhZSS15RE5EenRFeUN4NFFWTXR5ZmlTQmMyWFlhTHlVbzdpc3BwS09mMjNQWkxEbWhYVFZXTWxpaVlaRHgwbm9jeWppdHF6aXVIdUZDczRhMnVWY29Bd1hGcG1XcW9uN0hrcnFseXludnN2SkpvMDdNTnl5YUFsLWVfQXNKRTRNUllhSzRuRVk?oc=5",
+       "nl": null,
+       "id": "b5326f102489",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "DLA 샌디에이고 감사 대비 점검",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTUpZckpXaUlVdnRVLUt1Z29Da2o5S2VYWEZOT0dOUGFQUDJCMUFiSDlXanpqRG5CRkdaUkFNOFA5OThVU2diejVabmw3M0VlUFp0cUo0bFhpaGxwREl5SHRRMThrOFBJaWFDWjZTLWpwam5qQ2xlQUxPRDB6YjhPNUhQeE5qZGxhaUpNYmFwX0o3bHdyTmphMk5TWTdHUnJFZXJrcHJQNnJzemNsMDl0TmZEREsySDZxN3hDRVBvbjhmelo0b0FwTm93a1JuU2xsMDU0SGJMZ1NrR0VVSTBJVkVLbw?oc=5",
+       "nl": null,
+       "id": "fd3bb8c63f82",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "DLA 경합 환경 군수 논의",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41TmhsalVEdzJNcXVaR3NZbmh4cVA1VmR1bW9kR0NOdXA0RHZmM2lwYTFJc1dXWnp6emZzWFRPczRFMTc5MnBmYzdUbENoUWlDakdRV1RtcjBFdDREN3ZiWlA2dm9rR1k?oc=5",
+       "nl": null,
+       "id": "2970c44fd2fb",
+       "k": [
+        "DLA"
+       ]
+      }
+     ],
+     "n": 15,
+     "since": "2025-09-09",
+     "terms": [
+      "DLA",
+      "NGC2"
+     ]
+    }
    },
    {
     "no": 6,
@@ -477,7 +1128,79 @@
      "bbd58fc33014",
      "291433d83f24",
      "d63f85669ec4"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2025-10-22",
+       "t": "AI로 군사 훈련과 체계 설계 혁신: 스마트 시뮬레이션의 미래",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2025/10/ai-in-the-loop-transforming-military-training-and-system-design-through-smarter-simulation/",
+       "nl": 24,
+       "id": null,
+       "k": [
+        "시뮬레이션",
+        "무인기",
+        "CCA"
+       ]
+      },
+      {
+       "d": "2025-11-06",
+       "t": "General Atomics, 두 번째 CCA 프로토타입 YFQ-42A 비행 성공 및 신형 지상공격 드론 발표",
+       "s": "Defense News",
+       "u": "https://www.defensenews.com/air/2025/11/general-atomics-flies-second-cca-announces-new-ground-attack-drone/",
+       "nl": 26,
+       "id": null,
+       "k": [
+        "무인기",
+        "CCA"
+       ]
+      },
+      {
+       "d": "2026-01-09",
+       "t": "미 해군 F-35 조종사, 터치스크린 태블릿으로 협동전투기(CCA) 제어 훈련",
+       "s": "Defense News",
+       "u": "https://www.defensenews.com/unmanned/2026/01/09/navy-f-35-pilots-train-to-wield-drones-with-touchscreen-tablets/",
+       "nl": 35,
+       "id": null,
+       "k": [
+        "시뮬레이션",
+        "CCA"
+       ]
+      },
+      {
+       "d": "2026-07-24",
+       "t": "무인기 시대의 사출좌석 제조사 — Martin-Baker의 대응",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/threats/2026/07/ejection-seat-unmanned-aircraft/415008/",
+       "nl": 64,
+       "id": null,
+       "k": [
+        "무인기",
+        "CCA"
+       ]
+      },
+      {
+       "d": "2026-10-16",
+       "t": "독일, 보잉 MQ-28 무인 윙맨 직구매 계획 철회 — 경쟁 입찰로 선회 전망",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/10/germany-changes-course-on-plans-to-buy-mq-28-drone-wingman-boeing-official/",
+       "nl": 76,
+       "id": null,
+       "k": [
+        "무인기",
+        "CCA"
+       ]
+      }
+     ],
+     "n": 39,
+     "since": "2025-05-15",
+     "terms": [
+      "CCA",
+      "무인기",
+      "시뮬레이션"
+     ]
+    }
    }
   ],
   "recs": [
@@ -524,7 +1247,15 @@
      "48343276e55b",
      "f7d464f2d59c",
      "acb6f324e886"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "MRO 수출"
+     ]
+    }
    },
    {
     "no": 2,
@@ -545,7 +1276,76 @@
      "a80e2cb3ff88",
      "577ca70a4b78",
      "12aa868cff62"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-10-14",
+       "t": "HJ중공업 군수지원함 MRO 수행",
+       "s": "미주한국일보",
+       "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kYkpnRi15dW5qZndyejFpR1RMQWhvcGRkOFltd01vbjZoUW9qaVRpRFB2czFPUEt5d0Y3Ym85dFZDdVdaSkJxMkJyVUxsUnR2YTlsS0JEWklBbEhiV1BB?oc=5",
+       "nl": null,
+       "id": "86cb9e0fcc16",
+       "k": [
+        "HJ중공업",
+        "MRO 수출"
+       ]
+      },
+      {
+       "d": "2026-10-19",
+       "t": "HJ중공업 군수지원함 MRO 출항",
+       "s": "서울경제TV",
+       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pT0htb1d5SFZTQ0tIN3JPc1pyckdJS1AzMF9ockFBTGhHdGNYN2FzQUhQNm9aS1Y3U2pxcVBqaTVsQkowVXdreVd2WDgwRXZwSEtUTG5WdFFHZHR1R0JrTnEzNE0?oc=5",
+       "nl": null,
+       "id": "eace6243e70d",
+       "k": [
+        "HJ중공업"
+       ]
+      },
+      {
+       "d": "2026-10-20",
+       "t": "HJ중공업 미 해군 MRO 완수",
+       "s": "해사신문",
+       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBRmZaNFJ4MlZUTHBTY3BIVXFmZjhYZnkwY2J1dzA3QTRZZ1BXVjNKRUhqeHRuR2tSWlRHS3UtdG5FcmdPMFJDbEdpclF2NDExWTZpSUVobHRRQlVpeUFVVk54Q1U0Rnd0Vmh3?oc=5",
+       "nl": null,
+       "id": "33fe03fea112",
+       "k": [
+        "HJ중공업",
+        "MRO 수출"
+       ]
+      },
+      {
+       "d": "2026-10-22",
+       "t": "HD현대중, 美해군 MRO로 특수선 공략",
+       "s": "서울신문",
+       "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56Yk9OSVk1TWt6S3dWeThsZWhIcFA5eXBtT2EzUWVWTG9iakNVbkxybktheGFGYThOUFB6b255cnRpREF5ZEl5eXgxVzNJcjVBZ2twWW4zUQ?oc=5",
+       "nl": null,
+       "id": "04cbaedea524",
+       "k": [
+        "HD현대중공업",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-22",
+       "t": "HJ중공업 함정 건조·MRO 역량 과시",
+       "s": "서울신문",
+       "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WWC1hd0FJaXVqVDdrc29pYllYUExBWDhhanJXRld4Y3VaUFBxejJ4VVQzeElnVFlUaEJNMGV0X3FqMm1oWHpaTzdLaW1wcnV2TzFKVVZmb3hnTTVKZjRhejhnc1BrdTZwTVFuOFN4ZFIyalBzcDRVN0xpaw?oc=5",
+       "nl": null,
+       "id": "bc86e56fa867",
+       "k": [
+        "HJ중공업"
+       ]
+      }
+     ],
+     "n": 8,
+     "since": "2026-10-07",
+     "terms": [
+      "미 해군",
+      "HD현대중공업",
+      "HJ중공업"
+     ]
+    }
    },
    {
     "no": 3,
@@ -564,7 +1364,73 @@
     "ids": [
      "5e4cc36cd270",
      "0e27f0375f3b"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-05-06",
+       "t": "록히드 마틴, 'AI Fight Club'으로 114년치 AI 공중전 시뮬레이션 수행",
+       "s": "Lockheed Martin",
+       "u": "https://news.lockheedmartin.com/2026-05-06-Lockheed-Martin-Inaugural-AI-Fight-Club-Event",
+       "nl": 53,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-07-29",
+       "t": "미 공군 CCA Increment 2, 최대 6개 설계안 프로토타입 단계 진출 전망",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/07/cca-usaf-robot-wingman/415093/",
+       "nl": 64,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-08-04",
+       "t": "X-62 VISTA, AI 자율 요격 시험 성공 — 유인기 상대 실시간 센서 기반 요격",
+       "s": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/ai-driven-x-62-intercepts-crewed-jets-in-test/",
+       "nl": 65,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-08-05",
+       "t": "\"요격미사일 부족, 대중국 억지력 위협\" — 헤리티지재단 경고",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/threats/2026/08/interceptors-war-china-heritage/415241/",
+       "nl": 66,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      },
+      {
+       "d": "2026-08-21",
+       "t": "GAO, 육군 차세대 지휘통제(NGC2) 사업 비용·일정 관리 미흡 지적",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/gao-army-lacks-cost-schedule-detail-for-battlefield-network-modernization/",
+       "nl": 68,
+       "id": null,
+       "k": [
+        "Lockheed Martin"
+       ]
+      }
+     ],
+     "n": 17,
+     "since": "2025-06-10",
+     "terms": [
+      "Lockheed Martin",
+      "AI 신뢰",
+      "RAM-C"
+     ]
+    }
    },
    {
     "no": 4,
@@ -585,7 +1451,73 @@
      "c09dd479f199",
      "e2425cb69ef8",
      "50e5322a01cb"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-29",
+       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
+       "nl": 51,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-18",
+       "t": "군수 차관보 DLA 배송 방문",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tNFB3aDNWSklrLXBJYll4WUtqV3pkcHBsMHgtSERoUTdDZ2JqV1l5YXhlc1Y2SHVFY3dnVUw4cnBJcmMyNTZmTmVpTHBQWmdxeXg0WEsyT0xYOW4yekNuMWxCeGY2WmM?oc=5",
+       "nl": null,
+       "id": "6e1cae65854d",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-19",
+       "t": "DLA 무기체계 지원사령부 신설",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tUGo1aWt5LWl5NGViR1JEQkhoREJtcURZZEhVWEJLVXZpWHBKX2JpOVFZYktDa0U2V0hseUk1LW1vR0d6MnBaQ3hRazBta1NBelpqZVhrdG5uVmV3U21pNGZEMUFDWU0?oc=5",
+       "nl": null,
+       "id": "b23d1ac8e18d",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-21",
+       "t": "미 국방부, AI 기반 군수망 혁신을 위한 전군 데이터 통합 추진",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/dod-officials-detail-push-to-make-data-ready-for-mission-ai/",
+       "nl": 76,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-23",
+       "t": "GCSS-Army DISCOPS 기능",
+       "s": "DVIDS",
+       "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeDJYWTNNV2pISkZtWE9VQUd3TWVBWVdxVDJTc1hTYlYyYUtZNERLZ3EzR3YxZEs3eXFVSlhxQ0RjMi04aWQ4bWl1ejFPanFUSC1vVmZjX3pVYzNXaExxWlByOEttOW5DUkg4RmtTcEVxMFFITXRxMzVNN0Q2NE9jYW1lejRfbXNTbVRYZEFocVg1WEVES1AwdlhSVG9ZNmExTzl6ZEFpQkxsSl9HNmxB?oc=5",
+       "nl": null,
+       "id": "53726d823436",
+       "k": [
+        "GCSS-Army"
+       ]
+      }
+     ],
+     "n": 16,
+     "since": "2026-04-14",
+     "terms": [
+      "GCSS-Army",
+      "DLA",
+      "이란 전쟁"
+     ]
+    }
    },
    {
     "no": 5,
@@ -608,7 +1540,72 @@
      "5c44976790e7",
      "946dc5c782cd",
      "250614599fea"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-09-30",
+       "t": "미 공군, MQ-9 대체 저비용 무인기(MMA) 사업 후보 7개사 선정",
+       "s": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/seven-companies-make-first-cut-mma-drone-program/",
+       "nl": 74,
+       "id": null,
+       "k": [
+        "Anduril"
+       ]
+      },
+      {
+       "d": "2026-10-02",
+       "t": "미 국방부, CIA 산하 벤처펀드 인큐텔(IQT)과 공식 기술 발굴 협약 체결",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
+       "nl": 74,
+       "id": null,
+       "k": [
+        "Anduril"
+       ]
+      },
+      {
+       "d": "2026-10-06",
+       "t": "앤두릴, 버지니아급 잠수함 부품 생산 신규 조선소 'Arsenal-2' 구축 — 총 66억 달러",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/10/anduril-establishes-new-shipyard-to-manufacture-components-for-virginia-class-subs/",
+       "nl": 74,
+       "id": null,
+       "k": [
+        "Anduril"
+       ]
+      },
+      {
+       "d": "2026-10-07",
+       "t": "미 육군, 앤두릴에 최대 18억 달러 NGC2 계약 — 공통 데이터 레이어 제1군단 확대",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/army-awards-anduril-up-to-1-8b-to-scale-ngc2-across-i-corps/",
+       "nl": 74,
+       "id": null,
+       "k": [
+        "Anduril"
+       ]
+      },
+      {
+       "d": "2026-10-19",
+       "t": "미 육군, 앤두릴 NGC2와 구형 통신체계 통합 과정에서 '성장통'",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/",
+       "nl": 76,
+       "id": null,
+       "k": [
+        "Anduril"
+       ]
+      }
+     ],
+     "n": 43,
+     "since": "2025-05-29",
+     "terms": [
+      "수리부속",
+      "Anduril"
+     ]
+    }
    },
    {
     "no": 6,
@@ -633,7 +1630,73 @@
      "a3d2ccbb1824",
      "5d5b71dfb8d1",
      "8a21a6daaefc"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-03-01",
+       "t": "'에픽 퓨리 작전'의 무기체계: 전투기, 미사일, 그리고 '특수 능력'",
+       "s": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/weapons-of-epic-fury-fighters-missiles-and-special-capabilities/",
+       "nl": 43,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-03-25",
+       "t": "미 공군 CCA 드론, F-35 대비 비용 목표 초과 달성",
+       "s": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/air-force-beating-goal-cost-cca-drones/",
+       "nl": 46,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-06-17",
+       "t": "미 공군 CCA Increment 1 양산 계약 — Anduril FQ-44·GA FQ-42 선정, '소프트웨어 별도 경쟁' 전략",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/06/anduril-general-atomics-get-air-force-contracts-build-first-drone-wingmen/414266/",
+       "nl": 58,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-09-14",
+       "t": "美 공군, 2032년까지 자율 항공기 1,000대 전력화 계획",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/air-force-plans-to-field-1000-autonomous-aircraft-by-2032/",
+       "nl": 71,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      },
+      {
+       "d": "2026-09-15",
+       "t": "Anduril, FY27 예산 미확정 시 CCA 생산계약 착수 불가 경고",
+       "s": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/09/anduril-officials-say-company-cant-start-on-cca-production-contract-without-fy27-budget/",
+       "nl": 71,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
+      }
+     ],
+     "n": 18,
+     "since": "2020-09-02",
+     "terms": [
+      "F-35",
+      "수요예측",
+      "NATO"
+     ]
+    }
    }
   ],
   "recs": [
@@ -690,7 +1753,50 @@
      "03392aaa1adc",
      "0b5d3faf1174",
      "8f959f40deeb"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-30",
+       "t": "AX 스프린트로 병력 감소 대응",
+       "s": "한국경제",
+       "u": "https://www.hankyung.com/article/202604309027i",
+       "nl": null,
+       "id": "594f1747f63c",
+       "k": [
+        "국방 AX"
+       ]
+      },
+      {
+       "d": "2026-09-21",
+       "t": "군이 AI 통제권 확보하는 AX 모델",
+       "s": "Naver Blog",
+       "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWl9yNWZrQWdfMXlvekJyQWVsdUNVMnBKa3NfY2txV09WeUttRzhEVS1nMXJ4OHAwWmxsVUJtMHBhczdoSTRXUlhVWDROd19qdVp6VDVnY2VZeTFvVDFjYjZEbDJfMGNrUTk3cEtsVVNEVmUzY3gtZlp2TnpndURrbFB3Zl8yVFJfaWxDNXFaUQ?oc=5",
+       "nl": null,
+       "id": "db1212bc8477",
+       "k": [
+        "네이버클라우드"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "장병e음 AI 에이전트 연계 제안",
+       "s": "지디넷코리아",
+       "u": "https://zdnet.co.kr/view/?no=20261014150631",
+       "nl": null,
+       "id": "737505b386ac",
+       "k": [
+        "국방 AX"
+       ]
+      }
+     ],
+     "n": 3,
+     "since": "2026-04-30",
+     "terms": [
+      "네이버클라우드",
+      "국방 AX"
+     ]
+    }
    },
    {
     "no": 2,
@@ -727,7 +1833,62 @@
      "b4f31cf42647",
      "0c2334c17b29",
      "e9d4e64c39e3"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-30",
+       "t": "AX 스프린트로 병력 감소 대응",
+       "s": "한국경제",
+       "u": "https://www.hankyung.com/article/202604309027i",
+       "nl": null,
+       "id": "594f1747f63c",
+       "k": [
+        "국방 AX"
+       ]
+      },
+      {
+       "d": "2026-08-08",
+       "t": "육군 스마트 군수혁신 시동",
+       "s": "굿모닝충청",
+       "u": "https://www.goodmorningcc.com/news/articleView.html?idxno=450300",
+       "nl": null,
+       "id": "54ae9cdaf7f4",
+       "k": [
+        "K2 전차"
+       ]
+      },
+      {
+       "d": "2026-09-21",
+       "t": "군이 AI 통제권 확보하는 AX 모델",
+       "s": "Naver Blog",
+       "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWl9yNWZrQWdfMXlvekJyQWVsdUNVMnBKa3NfY2txV09WeUttRzhEVS1nMXJ4OHAwWmxsVUJtMHBhczdoSTRXUlhVWDROd19qdVp6VDVnY2VZeTFvVDFjYjZEbDJfMGNrUTk3cEtsVVNEVmUzY3gtZlp2TnpndURrbFB3Zl8yVFJfaWxDNXFaUQ?oc=5",
+       "nl": null,
+       "id": "db1212bc8477",
+       "k": [
+        "국방 AX"
+       ]
+      },
+      {
+       "d": "2026-10-14",
+       "t": "장병e음 AI 에이전트 연계 제안",
+       "s": "지디넷코리아",
+       "u": "https://zdnet.co.kr/view/?no=20261014150631",
+       "nl": null,
+       "id": "737505b386ac",
+       "k": [
+        "국방 AX"
+       ]
+      }
+     ],
+     "n": 3,
+     "since": "2026-04-30",
+     "terms": [
+      "에이전틱 AI",
+      "RAM-C",
+      "K2 전차"
+     ]
+    }
    },
    {
     "no": 3,
@@ -754,7 +1915,60 @@
      "bc071092c4dc",
      "77a598deee98",
      "d96fc39da029"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-10-08",
+       "t": "KAI, MUH-1 PBL 계약",
+       "s": "로이슈",
+       "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
+       "nl": null,
+       "id": "e347ae6942c4",
+       "k": [
+        "KAI"
+       ]
+      },
+      {
+       "d": "2026-10-08",
+       "t": "해병 상륙헬기 5년 정비·부품 지원",
+       "s": "부산일보",
+       "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUTjZMRG9OT25tMFhfM1prSC1xQTFWdnBjNGVhOF9fRE02ekM4ei05cGdvYXlkXzc0SXdpRFBhNVpXSmR6cC1IVUYxRW81bEVCTkdXaFM3ck9VRF9adzZVbkFBeGtmM1FzWUZ1LU9tMFM3b01i?oc=5",
+       "nl": null,
+       "id": "3baeee03694d",
+       "k": [
+        "KAI"
+       ]
+      },
+      {
+       "d": "2026-10-12",
+       "t": "KAI, MUH-1 PBL 계약 체결",
+       "s": "디펜스투데이",
+       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2WVNRZFZiREdBdmtHRTYwRXVlWmRHcjRSQW5odm1vOTkzdWttdnZITjBTM2JXVk03aEdrd211T19KSGJ6cDBLb0NpRWlBMFU1ZWJJV1RjMzNKMjZnYVp5UjF0UWNvYVdxUkNlcmN3?oc=5",
+       "nl": null,
+       "id": "f29cfd77df07",
+       "k": [
+        "KAI"
+       ]
+      },
+      {
+       "d": "2026-10-12",
+       "t": "KAI 1,145억 해병대 헬기 지원",
+       "s": "국제뉴스",
+       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90TFVCYWVZX3d3aGxDdmNKSDhabE12YkxOdWhaRmFzMUVobG1NQ1Z2ZEZzamtrdmJaMmcxdkF4RWFVSlhDX25yMzdiZEszZUU1MmNJYllZQWh1RkJxN1p3QjZGbmdwYW1nRXFHQS1n?oc=5",
+       "nl": null,
+       "id": "965e26dd9f71",
+       "k": [
+        "KAI"
+       ]
+      }
+     ],
+     "n": 4,
+     "since": "2026-10-08",
+     "terms": [
+      "KAI"
+     ]
+    }
    },
    {
     "no": 4,
@@ -773,7 +1987,15 @@
     "ids": [
      "e4cd9907fd86",
      "8bdf82d81e57"
-    ]
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "부품 단종(DMSMS)"
+     ]
+    }
    },
    {
     "no": 5,
@@ -806,7 +2028,73 @@
      "a85a4888039f",
      "9065758397fe",
      "c3455b9834f5"
-    ]
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-02-16",
+       "t": "F-35 군수 SW ODIN 전환 발주",
+       "s": "Military Aerospace",
+       "u": "https://militaryaerospace.com/computers/article/55357534/lockheed-martin-lockheed-martin-to-handle-logistics-and-mission-planning-software-for-f-35-jet-fighter-bomber",
+       "nl": null,
+       "id": "8b3a9b8c7900",
+       "k": [
+        "F-35 ALIS·ODIN"
+       ]
+      },
+      {
+       "d": "2026-09-14",
+       "t": "미 국방병참지원국(DLA), 'AI 디지털 직원' 185~190개 봇 운영 — 우크라이나·이란전 교훈 반영",
+       "s": "Government Executive",
+       "u": "https://www.govexec.com/technology/2026/09/digital-employees-are-coming-defense-logistics-agency/415963/",
+       "nl": 71,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-19",
+       "t": "DLA 무기체계 지원사령부 신설",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tUGo1aWt5LWl5NGViR1JEQkhoREJtcURZZEhVWEJLVXZpWHBKX2JpOVFZYktDa0U2V0hseUk1LW1vR0d6MnBaQ3hRazBta1NBelpqZVhrdG5uVmV3U21pNGZEMUFDWU0?oc=5",
+       "nl": null,
+       "id": "b23d1ac8e18d",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-21",
+       "t": "미 국방부, AI 기반 군수망 혁신을 위한 전군 데이터 통합 추진",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/dod-officials-detail-push-to-make-data-ready-for-mission-ai/",
+       "nl": 76,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-28",
+       "t": "DLA MUST III IDIQ 수주",
+       "s": "OrangeSlices AI",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHI5aG1VRkdBTy11cXZsWEhRNHJIaHh5S2hkbVlXeVFLWk9CN2hKcUk2eGwxeGpEamNGMzg0aV80SDNyVWJUUnhPYUJ0Ylp3S0hUSThnWkhHZjZEVjhRMVRlZmxVV2NuYThrbndoSnljbjR1eU5HVHBoNm53UWF6c2UyM1NjWno5ZUNaQkdIa1hrTjVNOTJISGlscjRULU91alFVNV9YTWlnVHhPRVM0clhB?oc=5",
+       "nl": null,
+       "id": "e2425cb69ef8",
+       "k": [
+        "DLA"
+       ]
+      }
+     ],
+     "n": 18,
+     "since": "2026-02-16",
+     "terms": [
+      "DLA",
+      "RAM-C",
+      "F-35 ALIS·ODIN"
+     ]
+    }
    }
   ],
   "recs": [

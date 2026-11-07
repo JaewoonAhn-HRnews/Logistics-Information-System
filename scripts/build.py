@@ -19,6 +19,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 import taxonomy as T  # noqa: E402
+import archive  # noqa: E402
 from common import DATA, DB, NEWS, classify, full_classify, is_noise, load_json, relevance, same_story, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
 
 CAT_NAME = {c["id"]: c["name"] for c in T.CATEGORIES}
@@ -340,6 +341,41 @@ def ai_weekly_briefings(groups, periods, recent=3):
     return cache
 
 
+def weekly_archive_trends(cache, links, recent=6):
+    """주간 브리핑 주제별 '아카이브 연계 추이': 과거 관련 기사 흐름 + (API 키가 있으면) 추이 한 줄·우리 군 시사점."""
+    import hashlib as _h
+    path = DATA / "weekly_briefs.json"
+    has_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    for k in sorted(cache)[-recent:]:
+        wk = cache[k]
+        need = []
+        for i, t in enumerate(wk.get("themes", [])):
+            ch = archive.theme_chain(t.get("ids", []), links)
+            t["arch"] = ch
+            h = _h.sha1(("|".join(x["d"] + x["t"] for x in ch["l"]) + t.get("head", "")).encode()).hexdigest()[:10]
+            if ch["l"] and t.get("ah") != h:
+                need.append((i, t, h))
+        if has_key and need:
+            lines = [{"no": i + 1, "theme": t.get("head", ""), "points": t.get("points", []),
+                      "past": [f"{x['d']} {x['t']}" + (f" (뉴스레터 제{x['nl']}호)" if x.get("nl") else "") for x in t["arch"]["l"]]}
+                     for i, t, _ in need]
+            prompt = ("다음은 이번 주 국방 군수·AI 주간 브리핑의 주제별 내용과, 아카이브에서 찾은 같은 주제의 과거 기사(날짜순)입니다.\n"
+                      "각 주제에 대해 과거→금주로 이어지는 흐름을 한 문장 '추이'(최대 45자, 예: '선언에서 실행 검증 단계로 이동')와 "
+                      "'우리 군 시사점'(최대 55자, 국방군수통합정보체계·무기체계 신뢰도·수리부속·정비인력 예측 관점)으로 쓰세요. "
+                      "과거 기사에 없는 사실을 지어내지 말고, 출력은 JSON 하나만: "
+                      '{"items": [{"no": 1, "tr": "추이", "im": "시사점"}]}\n\n' + json.dumps(lines, ensure_ascii=False))
+            try:
+                got = _claude(prompt, 2500)
+                by = {x.get("no"): x for x in got.get("items", [])}
+                for i, t, h in need:
+                    x = by.get(i + 1)
+                    if x and x.get("tr"):
+                        t["tr"], t["im"], t["ah"] = x["tr"], x.get("im", ""), h
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! 아카이브 추이 실패({k}): {e}", file=sys.stderr)
+    save_json(path, cache)
+
+
 def _dtxt(d):
     """구글 시트가 날짜를 숫자로 바꾸지 않도록 요일을 붙인 텍스트로 내보냄."""
     from datetime import date as _d
@@ -557,7 +593,13 @@ def main():
     save_json(DATA / "index.json", index)
     save_json(DATA / "periods.json", periods, compact=True)
     save_json(DATA / "trends.json", trends, compact=True)
-    ai_weekly_briefings(groups, periods)
+    try:
+        links, _ = archive.build(arts, today, load_json(DATA / "article_sums.json", {}))
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! 아카이브 연계 실패: {e}", file=sys.stderr)
+        links = load_json(DATA / "archive_links.json", {})
+    wb = ai_weekly_briefings(groups, periods)
+    weekly_archive_trends(wb, links)
     export_csv(arts, periods)
     print(f"기사 {len(arts)}건 · 일 {len(periods['day'])} · 주 {len(periods['week'])} · 월 {len(periods['month'])} · 연 {len(periods['year'])}")
 

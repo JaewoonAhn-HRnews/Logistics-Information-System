@@ -13,7 +13,7 @@
   const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 2600); };
 
   let IDX, PER, TR, TAX, CAT = {}, AX = {}, RG = {}, DM = {};
-  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {}, WB = {};
+  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {}, WB = {}, ALINK = {}, ARCH = null;
   let BASE = [];          // 서버 기사(월 파일)
   let ARTS = [];          // DB 반영 후 기사
   let BYID = {};
@@ -46,6 +46,7 @@
     CASES = (await j("data/cases.json", { cases: [] })).cases || [];
     SUMS = await j("data/article_sums.json", {});
     WB = await j("data/weekly_briefs.json", {});
+    ALINK = await j("data/archive_links.json", {});
     const files = await Promise.all(IDX.files.map(f => j("data/news/" + f, { articles: [] })));
     BASE = files.flatMap(f => f.articles || []);
     const [ad, ov, cl] = await Promise.all([j("data/db/added.json", null), j("data/db/overrides.json", null), j("data/db/changelog.json", null)]);
@@ -143,7 +144,7 @@
       <a class="card-title" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
       ${!o.compact ? (a.ai_sum && !/[가-힣]{8,}/.test(a.summary || "") ? `<p class="card-sum">${esc(a.ai_sum)} <span class="ai-tag" title="${a.ai_basis === "제목" ? "원문 발췌가 없어 제목을 바탕으로 정리" : "원문 발췌를 바탕으로 정리"}">AI 요약${a.ai_basis === "제목" ? "·제목 기준" : ""}</span></p>` : a.summary ? `<p class="card-sum">${esc(a.summary)}</p>` : "") : ""}
       ${o.compact ? "" : `<div class="tags">${cats}${axes}</div>`}
-      ${a.note ? `<div class="memo">메모: ${esc(a.note)}</div>` : ""}${o.compact ? "" : also}
+      ${a.note ? `<div class="memo">메모: ${esc(a.note)}</div>` : ""}${o.compact ? "" : also}${o.compact ? "" : archMini(a.id)}
       <div class="card-act"><button class="ibtn${a.pin ? " on" : ""}" data-act="pin" title="중요 표시" aria-label="중요 표시">★</button><button class="ibtn" data-act="more" title="상세" aria-label="상세">⋯</button></div>
     </article>`;
   }
@@ -163,6 +164,7 @@
       <h2 style="font-size:20px">${esc(a.title)}</h2>
       ${SUMS[id]?.p ? `<div>${newsCard(a, 1, true)}<div class="ig-actions" style="margin-top:6px"><button class="btn ghost" type="button" id="nc-save">뉴스 카드 이미지로 저장</button></div></div>` : ""}
       ${a.ai_sum ? `<div><h3>AI 요약 <span class="ai-tag">${a.ai_basis === "제목" ? "제목 기준" : "원문 발췌 기준"}</span></h3><p class="card-sum" style="font-size:14.5px">${esc(a.ai_sum)}</p></div>` : ""}
+      ${archHTML(id)}
       ${a.summary ? `<div><h3>원문 발췌</h3><p class="card-sum" style="font-size:14px">${esc(a.summary)}</p></div>` : (a.ai_sum ? "" : '<p class="note">요약 없음(원문 발췌를 못 가져온 기사). 다음 정리 때 AI 요약이 추가됩니다.</p>')}
       <div class="tags">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name)}</span>` : ""}${(a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
       <div class="note">키워드: ${(a.kw || []).map(esc).join(" · ") || "—"}<br>기관·기업·체계: ${(a.ents || []).map(esc).join(" · ") || "—"}<br>관련도 점수: <span class="mono">${a.score ?? "—"}</span></div>
@@ -195,7 +197,7 @@
   }
 
   // ---------- router ----------
-  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about"];
+  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive"];
   const rendered = {};
   let cur = "home";
   function route() {
@@ -211,7 +213,7 @@
     setTimeout(() => Object.values(charts).forEach(c => c && !c.isDisposed() && c.resize()), 30);
   }
   function render(v, arg) {
-    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout }[v];
+    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg) }[v];
     fn && fn();
     rendered[v] = true;
   }
@@ -402,7 +404,7 @@
       <div class="nc-top"><span class="nc-no">${String(no || 1).padStart(2, "0")}</span><span class="nc-cat">${esc(c.c || "")}</span><span class="nc-ico">${nIcon(c.i)}</span></div>
       <div class="nc-h">${esc(c.h || a.title)}</div>
       <ul class="nc-p">${(c.p || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>
-      <div class="nc-f"><span class="rbadge ${a.region}">${esc(RG[a.region]?.name || "")}</span><span>${esc(a.source || "")} · ${esc(a.date)}</span>${big ? "" : `<a href="#" data-nc="${a.id}">자세히</a>`}</div>
+      <div class="nc-f"><span class="rbadge ${a.region}">${esc(RG[a.region]?.name || "")}</span><span>${esc(a.source || "")} · ${esc(a.date)}</span>${archChip(a.id)}${big ? "" : `<a href="#" data-nc="${a.id}">자세히</a>`}</div>
     </div>`;
   }
   document.addEventListener("click", e => { const x = e.target.closest("[data-nc]"); if (x) { e.preventDefault(); openDrawer(x.dataset.nc); } });
@@ -417,10 +419,87 @@
       <div class="wb-core"><span>이번 주 핵심</span><b>${esc(b.core || "")}</b></div>
       <div class="wb-grid">${b.themes.map((t, i) => `<div class="wb-t"><div class="wb-t-top"><span class="wb-no">${String(i + 1).padStart(2, "0")}</span><span class="wb-cat">${esc(t.cat || "")}</span></div>
         <div class="wb-t-body"><div><div class="wb-h">${esc(t.head || "")}</div><ul>${(t.points || []).map(p => `<li>${esc(p)}</li>`).join("")}</ul></div><div class="wb-ico">${nIcon(t.icon)}</div></div>
-        <div class="wb-refs">관련 기사 ${(t.ids || []).slice(0, 6).map(id => `<a href="#" data-nc="${id}" title="${esc(BYID[id]?.title || "")}">${circ(nmap[id])}</a>`).join("")}${(t.ids || []).length > 6 ? ` 외 ${(t.ids || []).length - 6}건` : ""}</div></div>`).join("")}</div>
+        <div class="wb-refs">관련 기사 ${(t.ids || []).slice(0, 6).map(id => `<a href="#" data-nc="${id}" title="${esc(BYID[id]?.title || "")}">${circ(nmap[id])}</a>`).join("")}${(t.ids || []).length > 6 ? ` 외 ${(t.ids || []).length - 6}건` : ""}</div>${wbArch(t)}</div>`).join("")}</div>
       ${(b.recs || []).length ? `<div class="wb-recs"><div class="wb-recs-h">우리 군의 의사결정 과제 | 정책적 제언</div><div class="wb-recs-b">${b.recs.map((r, i) => `<div class="wb-r"><span>${i + 1}</span><div><b>${esc(r.t)}</b><p>${esc(r.d)}</p></div></div>`).join("")}</div></div>` : ""}
       <div class="wb-src">출처: 군수정보 인텔리전스 자동 수집 기사 ${b.n || s.n}건 · AI 정리(${esc(b.at || "")}) · 관련 기사 번호를 누르면 원문 정보가 열립니다</div>
     </div><div class="ig-actions"><button class="btn ghost" type="button" id="wb-save">주간 브리핑 이미지로 저장(PNG)</button></div></div>`;
+  }
+
+  // ---------- ARCHIVE LINKAGE (아카이브 연계) ----------
+  const ym = d => (d || "").slice(2, 7).replace("-", ".");
+  const ymd = d => (d || "").slice(2).replace(/-/g, ".");
+  const lbl = x => x.nl ? `제${x.nl}호` : (x.s || "").split(" · ")[0];
+  function archMini(id) {
+    const v = ALINK[id]; if (!v) return "";
+    if (!v.n) return v.first ? `<div class="arch-mini new"><span class="arch-new">아카이브 최초 등장</span><span>${v.terms.slice(0, 3).map(esc).join(" · ")}</span></div>` : "";
+    return `<div class="arch-mini"><span class="arch-ic"></span><b>아카이브 연계 ${v.n}건</b><span>${ym(v.since)} 첫 등장</span><span class="arch-terms">${(v.terms || []).map(esc).join(" · ")}</span><a href="#" data-arch="${id}">흐름 보기</a></div>`;
+  }
+  function archChip(id) {
+    const v = ALINK[id]; if (!v || (!v.n && !v.first)) return "";
+    return v.n ? `<span class="nc-arch" title="아카이브 연계: ${esc((v.terms || []).join(", "))}">연계 ${v.n} · ${ym(v.since)}~</span>` : `<span class="nc-arch new">최초 등장</span>`;
+  }
+  document.addEventListener("click", e => { const x = e.target.closest("[data-arch]"); if (x) { e.preventDefault(); openDrawer(x.dataset.arch); setTimeout(() => $("#d-arch")?.scrollIntoView({ block: "start", behavior: "smooth" }), 60); } });
+  function archTimeline(list, nowLabel, gap) {
+    return `<ol class="arch-tl">${list.map((x, i) => `${gap && i === 2 ? `<li class="gap"><span class="arch-d">⋯</span><span class="note">중간 ${gap}건 생략</span></li>` : ""}<li><span class="arch-d">${esc(ymd(x.d))}</span><span class="arch-lb${x.nl ? " nl" : ""}">${esc(lbl(x))}</span>
+      ${x.id && BYID[x.id] ? `<a href="#" data-nc="${x.id}">${esc(x.t)}</a>` : `<a href="${esc(x.u || "#")}" target="_blank" rel="noopener">${esc(x.t)}</a>`}
+      ${(x.k || []).length ? `<span class="arch-k">${x.k.map(esc).join(" · ")}</span>` : ""}</li>`).join("")}
+      <li class="now"><span class="arch-d">${esc(nowLabel[0])}</span><span class="arch-lb now">${esc(nowLabel[1])}</span><b>${esc(nowLabel[2])}</b></li></ol>`;
+  }
+  function archHTML(id) {
+    const v = ALINK[id], a = BYID[id]; if (!v || !a) return "";
+    if (!v.n) return v.first ? `<div id="d-arch" class="arch-box"><h3>아카이브 연계 추이 <span class="arch-new">아카이브 최초 등장 주제</span></h3><p class="note">핵심 개념(${v.terms.map(esc).join(" · ")})을 공유하는 과거 기사가 수집 DB와 국방 AI 뉴스레터 아카이브(제1호~)에 아직 없습니다. 앞으로 같은 개념의 기사가 쌓이면 여기서 흐름으로 이어집니다.</p></div>` : "";
+    const span = Math.max(1, Math.round((new Date(a.date) - new Date(v.since)) / 864e5 / 30));
+    return `<div id="d-arch" class="arch-box"><h3>아카이브 연계 추이 <span class="note">(온톨로지 기반 직접 연결 기사)</span></h3>
+      <div class="arch-sum"><b>${ym(v.since)} 첫 등장 → 관련 ${v.n}건 누적</b> · 약 ${span}개월 흐름 · 핵심 개념 ${(v.terms || []).map(t => `<a href="#archive/${encodeURIComponent(t)}" class="arch-term">${esc(t)}</a>`).join("")}</div>
+      ${archTimeline(v.l || [], [ymd(a.date), "이 기사", SUMS[id]?.h || a.title])}
+      <p class="note">같은 기관·기업·사업·체계·정책 개념을 공유하는 과거 기사를 연결도(희소 개념일수록 가중) 순으로 고른 뒤 날짜순으로 보여 줍니다. ‘제N호’는 국방 AI(AI+IT) 뉴스레터 아카이브 기사입니다.</p></div>`;
+  }
+  function wbArch(t) {
+    const ch = t.arch; if (!ch) return "";
+    if (!(ch.l || []).length) return `<div class="wb-arch"><span class="wb-arch-new">아카이브 최초 등장 주제</span></div>`;
+    const steps = ch.l.length > 4 ? [ch.l[0], ...ch.l.slice(-3)] : ch.l;
+    return `<div class="wb-arch"><div class="wb-arch-h">아카이브 연계 추이 <em>· 관련 ${ch.n}건, ${ym(ch.since)}~</em></div>
+      <ol class="wb-arch-tl">${steps.map(x => `<li title="${esc(x.t)}"><i>${esc(x.nl ? `제${x.nl}호` : ymd(x.d).slice(0, 5))}</i><span>${esc(x.t)}</span></li>`).join("")}<li class="now"><i>금주</i><span>${esc(t.head || "")}</span></li></ol>
+      ${t.tr ? `<div class="wb-arch-tr"><b>추이</b>${esc(t.tr)}</div>` : `<div class="wb-arch-tr"><b>개념</b>${(ch.terms || []).map(esc).join(" · ")}</div>`}
+      ${t.im ? `<div class="wb-arch-im"><b>우리 군 시사점</b>${esc(t.im)}</div>` : ""}</div>`;
+  }
+  const arcState = { t: null, iss: 6 };
+  async function rArchive(arg) {
+    const sec = $("#v-archive");
+    if (!ARCH) { sec.innerHTML = '<div class="vhead"><h1>아카이브 연계</h1><p class="lede">불러오는 중…</p></div>'; ARCH = await j("data/archive_index.json", { threads: [], issues: [] }); }
+    const A = ARCH;
+    if (arg) arcState.t = decodeURIComponent(arg);
+    if (!arcState.t || !A.threads.find(x => x.t === arcState.t)) arcState.t = A.threads[0]?.t;
+    const th = A.threads.find(x => x.t === arcState.t);
+    const linked = Object.values(ALINK).filter(v => v.n).length, firsts = Object.values(ALINK).filter(v => v.first).length;
+    const recentFirst = ARTS.filter(a => ALINK[a.id]?.first && a.origin !== "api").slice(0, 8);
+    const TYC = { 기관: "#1d5fd1", 조직: "#1d5fd1", 체계: "#0e9488", 사업: "#7c3aed", 기업: "#b45309", 인물: "#be185d", 제도: "#4d7c0f", 정책: "#4d7c0f", 개념: "#475569", 군: "#475569" };
+    const months = th ? Object.keys(th.m) : [];
+    const mx = th ? Math.max(...Object.values(th.m)) : 1;
+    sec.innerHTML = `
+      <div class="vhead"><div class="eyebrow">12 · Archive linkage</div><h1>아카이브 연계</h1>
+        <p class="lede">수집 기사와 <a href="${esc(A.site || "#")}" target="_blank" rel="noopener">국방 AI(AI+IT) 뉴스레터 아카이브</a>(제1호~제${A.n_issues}호)를 한 말뭉치로 묶어, 같은 기관·기업·사업·체계·정책 개념을 공유하는 기사를 시간순으로 잇습니다. 새 기사가 들어오면 과거 흐름 위에서 읽히고, 처음 나온 주제는 ‘최초 등장’으로 표시됩니다.</p></div>
+      <div class="kpis"><div class="kpi"><div class="v">${fmt(A.n_docs)}</div><div class="l">말뭉치 · 수집 기사 + 뉴스레터 ${fmt(A.n_nl)}건</div></div><div class="kpi"><div class="v">${fmt(A.n_terms)}</div><div class="l">개념(온톨로지) · 정리 사전 + 뉴스레터 키워드</div></div><div class="kpi"><div class="v">${fmt(linked)}</div><div class="l">과거 기사와 연결된 최근 75일 기사</div></div><div class="kpi"><div class="v">${fmt(firsts)}</div><div class="l">아카이브 최초 등장 주제</div></div></div>
+      <div class="panel"><div class="sec-head"><h2>개념 스레드</h2><span class="note">최근 120일에 자주 나온 개념 · 누르면 누적 흐름</span></div>
+        <div class="chips small" id="arc-chips">${A.threads.map(x => `<button class="chip ${x.t === arcState.t ? "on" : ""}" data-t="${esc(x.t)}" style="${x.t === arcState.t ? "" : `border-left:3px solid ${TYC[x.type] || "#64748b"}`}">${esc(x.t)}<span class="n">${x.n}</span></button>`).join("")}</div>
+        ${th ? `<div class="thr"><div class="thr-head"><h3>${esc(th.t)} <span class="pill">${esc(th.type)}</span></h3><span class="note">${ymd(th.since)} 첫 등장 · 최근 ${ymd(th.last)} · 누적 ${th.n}건</span></div>
+          <div class="thr-bars">${months.map(m => `<div title="${m}: ${th.m[m]}건"><i style="height:${Math.max(6, th.m[m] / mx * 100)}%"></i><span>${m.slice(2).replace("-", ".")}</span></div>`).join("")}</div>
+          ${archTimeline(th.items, [new Date().toISOString().slice(2, 10).replace(/-/g, "."), "현재", "이 개념의 다음 기사는 자동으로 이 흐름에 이어집니다"], th.gap)}</div>` : ""}
+      </div>
+      <div class="grid-2">
+        <div class="panel"><div class="sec-head"><h2>최근 ‘최초 등장’ 주제</h2></div>
+          ${recentFirst.length ? `<ul class="plain arc-first">${recentFirst.map(a => `<li><span class="arch-new">최초</span> <a href="#" data-nc="${a.id}">${esc(SUMS[a.id]?.h || a.title)}</a><span class="note"> · ${esc(a.date)} · ${(ALINK[a.id].terms || []).map(esc).join(" · ")}</span></li>`).join("")}</ul>` : '<p class="note">없음</p>'}</div>
+        <div class="panel prose"><div class="sec-head"><h2>연계 방법</h2></div>
+          <p>① 개념 사전: 직접 정리한 기관·체계·사업·기업·정책 ${"약 80개"}(국·영문 별칭을 하나로) + 뉴스레터 기사 키워드 중 2회 이상 나온 것. ② 연결: 두 기사가 공유한 개념의 희소도(흔한 개념은 낮게) 합이 기준을 넘고, 기관·사업 같은 고유 개념을 1개 이상 또는 개념을 2개 이상 공유할 때. ③ 주간 브리핑의 주제 카드마다 과거 흐름과 ‘추이’·‘우리 군 시사점’을 붙입니다(추이 문장은 Claude가 과거 기사 목록만 보고 작성).</p></div>
+      </div>
+      <div class="panel"><div class="sec-head"><h2>뉴스레터 호별 아카이브</h2><a class="more" href="${esc(A.site || "#")}" target="_blank" rel="noopener">아카이브 사이트 →</a></div>
+        <div class="arc-iss">${A.issues.slice(0, arcState.iss).map(i => `<details${i === A.issues[0] ? " open" : ""}><summary><b>제${i.id}호</b><span class="mono">${esc(i.period)}</span><span>${esc((i.theme || "").slice(0, 120))}${(i.theme || "").length > 120 ? "…" : ""}</span></summary>
+          ${(i.insights || []).map(x => `<div class="arc-ins"><b>${esc(x.t)}</b><p>${esc(x.b)}</p></div>`).join("")}
+          <ul class="plain">${i.items.map(x => `<li><span class="mono note">${esc(ymd(x.d))}</span> <a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a> <span class="note">· ${esc(x.s)}</span></li>`).join("")}</ul></details>`).join("")}</div>
+        ${A.issues.length > arcState.iss ? `<button class="btn ghost" id="arc-more" type="button">이전 호 더 보기 (${A.issues.length - arcState.iss}개 호)</button>` : ""}
+      </div>`;
+    $("#arc-chips").onclick = e => { const b = e.target.closest(".chip"); if (b) { arcState.t = b.dataset.t; history.replaceState(null, "", "#archive/" + encodeURIComponent(b.dataset.t)); rArchive(); } };
+    const mo = $("#arc-more"); if (mo) mo.onclick = () => { arcState.iss += 10; rArchive(); };
   }
   async function savePNG(sel, name, bg) {
     const el = $(sel);
@@ -525,7 +604,7 @@
   function srcStatus(id) {
     const st = FST.sources?.[id];
     if (!st) return `<span class="stat"><i class="na"></i>다음 수집 때 확인</span>`;
-    const how = st.mode === "rss" ? "RSS" : st.mode === "gnews" ? "검색 대체" : st.mode === "api" ? "API" : "";
+    const how = st.mode === "rss" ? "RSS" : st.mode === "gnews" ? "검색 대체" : st.mode === "api" ? "API" : st.mode === "github" ? "GitHub 동기화" : "";
     return st.ok ? `<span class="stat"><i class="ok"></i>정상 ${how} · 최근 ${st.n}건 중 관련 ${st.kept || 0}건 · 누적 ${st.total_kept || 0}건</span>`
       : `<span class="stat"><i class="bad"></i>${esc(st.err || st.rss_err || "실패")}</span>`;
   }

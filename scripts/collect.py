@@ -353,6 +353,41 @@ def collect_d2b(days, status):
     return raws
 
 
+def ingest_newsletter(status, kept_by):
+    """국방 AI 뉴스레터 아카이브 동기화 + 군수·정비 AI 기사만 뉴스 DB에 들여오기(URL 기준 중복 제외)."""
+    import newsletter as NL
+    from common import classify
+    nl, st = NL.sync()
+    status["nlarchive"] = st
+    have = set()
+    for pth in NEWS.glob("*.json"):
+        have |= {a.get("url") for a in load_json(pth, {"articles": []})["articles"]}
+    out = []
+    for a in nl.get("articles", []):
+        if not a.get("url") or a["url"] in have:
+            continue
+        text = f"{a['title_kr']} {a['title']} {a['summary']}"
+        cats = set(classify(text)[0])
+        if not (is_relevant(text, True, 4.5) and len(cats & {"ram", "parts", "mro", "log"}) >= 2 and cats & {"ai", "sys"}):
+            continue
+        try:
+            dt = datetime.strptime(a["date"], "%Y-%m-%d").replace(hour=9, tzinfo=KST)
+        except ValueError:
+            continue
+        raw = {"title": a["title_kr"] or a["title"], "summary": a["summary"], "url": a["url"], "lang": "ko", "dt": dt,
+               "source": f"{a['source']} · 뉴스레터 제{a['nl']}호", "src": "nlarchive", "hint": NL.region_hint(a["source"]),
+               "query": f"nl:{a['nl']}"}
+        art = to_article(raw, origin="nl")
+        art["orig_title"] = a["title"]
+        art["nl"] = a["nl"]
+        out.append(art)
+    k = merge(out) if out else 0
+    st["kept"] = k
+    kept_by["nlarchive"] = k
+    print(f"- 뉴스레터 기사 뉴스 DB 반영 {k}건")
+    return k
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=3)
@@ -442,6 +477,7 @@ def main():
         kept_by[r.get("src", "")] = kept_by.get(r.get("src", ""), 0) + 1
     cand = cand2
     n = merge(cand)
+    n_nl = ingest_newsletter(status, kept_by)
     backfill_descriptions()
 
     # 수집원 상태 누적 기록

@@ -47,6 +47,15 @@
 - **SAM.gov(미 연방 입찰공고, 선택)**: SAM.gov 무료 계정 → Account Details에서 Public API Key 발급 → 저장소 Secrets에 `SAM_API_KEY` 등록하면 국방부 입찰공고(logistics·sustainment·spare parts 등)를 매일 자동 수집합니다.
 - **국방전자조달(선택)**: 공공데이터포털에서 ‘방위사업청_군수품조달정보’ API 활용신청(무료·자동승인) 후 키를 알려주면 연결할 수 있습니다.
 
+## 아카이브 연계
+
+- `scripts/newsletter.py`: 국방 AI(AI+IT) 뉴스레터 아카이브(공개 저장소 `crayon-sim/defense-ai-newsletter`)의 호별 데이터를 매 실행마다 `data/nl_archive.json`으로 동기화(최근 3개 호는 다시 확인). 군수·정비 AI 기사는 뉴스 DB에도 `뉴스레터 제N호` 출처로 들어옵니다(URL 중복 제외).
+- `scripts/archive.py`: 수집 기사 + 뉴스레터 기사를 한 말뭉치로 보고, 개념 사전(`taxonomy.LINK_ENTITIES`·`ENTITIES` + 뉴스레터 키워드 2회 이상)으로 기사마다 개념을 찾은 뒤, 공유 개념의 희소도 합으로 과거 관련 기사를 연결합니다. 같은 보도 주기(3일 이내)는 제외하고, 핵심 개념이 모두 처음 나온 기사는 ‘아카이브 최초 등장’으로 표시합니다.
+  - `data/archive_links.json`: 최근 75일 기사별 과거 연계(최대 5건), 누적 관련 수, 첫 등장일, 핵심 개념
+  - `data/archive_index.json`: ‘아카이브 연계’ 화면용 개념 스레드(월별 추이)와 뉴스레터 호별 목록
+- 주간 브리핑 주제 카드마다 과거 흐름이 붙고, `ANTHROPIC_API_KEY`가 있으면 Claude가 과거 기사 목록만 보고 ‘추이’ 한 줄과 ‘우리 군 시사점’을 씁니다(`weekly_briefs.json`의 `tr`·`im`).
+- 개념을 더하려면 `scripts/taxonomy.py`의 `LINK_ENTITIES`에 (이름, 유형, [별칭]) 한 줄을 추가하세요.
+
 ## 데이터 관리
 
 화면에서 고친 내용은 원본 수집 파일을 덮어쓰지 않고 `data/db/`에 따로 쌓입니다.

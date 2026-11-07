@@ -396,6 +396,54 @@
    "desc_tried": true
   },
   {
+   "id": "a492e0f873fc",
+   "date": "2026-09-24",
+   "ts": "2026-09-24T09:00",
+   "title": "미 육군, 팔란티어와 4,810만 달러 규모 탄약 관리 현대화 계약 체결",
+   "source": "Army Times · 뉴스레터 제73호",
+   "url": "https://www.armytimes.com/news/your-army/2026/09/24/army-awards-palantir-481m-to-modernize-ammo-management/",
+   "lang": "ko",
+   "summary": "육군이 팔란티어 자회사와 4,810만 달러(약 640억 원) 규모 계약을 맺고, 파편화된 기존 9개 레거시 플랫폼을 통합하는 상용 로우코드·노코드 기반 탄약 수명주기 관리 소프트웨어를 구축(개발 12개월, 후속 유지보수 5년). 기존 체계 단절로 훈련 일정 변동이 실시간 반영되지 않고 수요 예측이 실제 소요가 아닌 과거 추세에만 의존하던 문제를 해소해 감사 준비태세와 데이터 정확도를 개선하는 것이 목적이다. 6주간 3단계 경쟁 평가에서 레거시 데이터 통합, 정밀 수요예측 모델, 통신 단절·대역폭 제한 전술환경 지원 역량을 높게 평가받아 선정됐으며, 계획·생산·조달부터 보관·검사·분배·소모·최종 폐기까지 전 주기 추적이 가능해진다. Maven·TITAN에 이어 군수·물자 관리 분야까지 상용 빅데이터·AI 플랫폼의 전력화가 가속되는 사례다.",
+   "score": 10.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:73",
+   "cats": [
+    "sys",
+    "ai",
+    "parts",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "빅데이터",
+    "가동률·준비태세",
+    "수요예측"
+   ],
+   "ents": [
+    "육군",
+    "미 육군",
+    "Palantir"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst",
+    "wpn",
+    "lis"
+   ],
+   "kind": "contract",
+   "orig_title": "Army awards Palantir $48.1M to modernize ammo management",
+   "nl": 73
+  },
+  {
    "id": "091dec4f69ce",
    "date": "2026-09-23",
    "ts": "2026-09-23T16:00",

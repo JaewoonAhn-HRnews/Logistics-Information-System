@@ -1,0 +1,49 @@
+{
+ "month": "2026-07",
+ "articles": [
+  {
+   "id": "cd9c7c923599",
+   "date": "2026-07-30",
+   "ts": "2026-07-30T09:00",
+   "title": "미 해병대, AI 기반 장비 수리 의사결정 시스템 'Manifest' 도입",
+   "source": "Yahoo Finance (Business Wire) · 뉴스레터 제65호",
+   "url": "https://finance.yahoo.com/technology/ai/articles/u-marine-corps-1st-maintenance-110000700.html",
+   "lang": "ko",
+   "summary": "해병대 제1정비대대(I MEF 예하)가 Tagup의 예측분석 플랫폼 'Manifest'를 도입해 엔진·변속기 등 2차 수리부속의 자체수리/민간위탁/군창정비 중 최적 경로를 데이터 기반으로 추천. Tagup 회장 Paul Plemmons는 '정비 결정은 전력유지·비용·시간을 동시에 고려해야 한다'고 설명. 향후 부대 전개계획 수립, MOS별 정비 인력 자동배분 영역으로 확대 예정.",
+   "score": 10.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:65",
+   "cats": [
+    "sys",
+    "ai",
+    "parts",
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "수리부속",
+    "창정비"
+   ],
+   "ents": [
+    "해병대"
+   ],
+   "axes": [
+    "parts",
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst",
+    "lis"
+   ],
+   "kind": "news",
+   "orig_title": "U.S. Marine Corps 1st Maintenance Battalion Selects Tagup's Manifest Platform to Advance Maintenance Decision-Making",
+   "nl": 65
+  }
+ ]
+}

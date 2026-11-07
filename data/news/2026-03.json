@@ -44,6 +44,84 @@
    "kind": "news"
   },
   {
+   "id": "961b55b41825",
+   "date": "2026-03-18",
+   "ts": "2026-03-18T09:00",
+   "title": "미 해군, 로봇·AI로 함정 정비 혁신 추진 — Gecko Robotics 7,100만 달러 계약",
+   "source": "Defense One · 뉴스레터 제45호",
+   "url": "https://www.defenseone.com/defense-systems/2026/03/us-navy-aims-use-robots-ai-reduce-ship-maintenance/412159/",
+   "lang": "ko",
+   "summary": "미 해군과 GSA가 함대 가동률 80% 달성을 위해 Gecko Robotics에 7,100만 달러를 지급해 드론·AI 기반 함정 점검을 맡기기로 했다. Gecko의 기술은 선체를 직접 기어오르며 결함을 탐지하고, 수동 점검 대비 최대 50배 빠른 결함 탐지가 가능하다. 2025년 기준 정시 정비 완료율은 41%로 목표치 71%를 크게 밑돌았다. 미국(287척) 대비 중국(약 400척)의 함정 수 격차와 조선 역량 차이를 기술력으로 상쇄하기 위한 현실적 대안으로 부상하고 있다.",
+   "score": 7.5,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:45",
+   "cats": [
+    "ai",
+    "ram",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세",
+    "유무인 복합"
+   ],
+   "ents": [
+    "해군",
+    "Gecko Robotics"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "orig_title": "US Navy aims to use robots, AI to reduce ship maintenance",
+   "nl": 45
+  },
+  {
+   "id": "85f31264a081",
+   "date": "2026-03-11",
+   "ts": "2026-03-11T09:00",
+   "title": "국무부 'AI 성공의 출발점은 데이터 거버넌스'",
+   "source": "MeriTalk · 뉴스레터 제44호",
+   "url": "https://www.meritalk.com/articles/state-dept-says-ai-success-starts-with-data-governance/",
+   "lang": "ko",
+   "summary": "국무부 행정·물류 애플리케이션 부서장 Inderpal Virk는 AI가 확장 가능하려면 기관이 기반 데이터에 대한 신뢰를 먼저 구축해야 한다고 강조했다. 국무부는 연방 조달 데이터 시스템 기록을 매주 자동 업데이트하는 AI 봇을 활용하고 있으며, AI 이니셔티브 확장 전 데이터 준비(data readiness)에 집중하는 방식으로 접근하고 있다. Virk는 거버넌스가 속도를 늦춘다는 통념을 반박하며 '실제로 거버넌스야말로 AI가 안전하게 확장될 수 있도록 하는 것'이라고 강조했다.",
+   "score": 5.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:44",
+   "cats": [
+    "ai",
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "orig_title": "State Dept. Says AI Success Starts With Data Governance",
+   "nl": 44
+  },
+  {
    "id": "86127dde6218",
    "date": "2026-03-05",
    "ts": "2026-03-05T09:00",
