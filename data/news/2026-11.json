@@ -2,6 +2,44 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "ca4485e992e0",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T09:40",
+   "title": "KAI Launches $20 Million Defense AI Project to Strengthen FA-50 Fleet Readiness and Global MRO Competitiveness",
+   "source": "Korea IT Times",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uUXFZSE1lWXk4ek1XdHBaU2U5aTFtQkEwWlNSOGgwRHB3aFpVMzRLNFBsRGhtN1gxYmYtLUFLUlVJZkpsbFVTVktQX1hVRzViWHFzWU1IR2FGUW93V19QQXVNc2hCbU9FRUtXQkt6SDI?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "ai",
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세",
+    "MRO"
+   ],
+   "ents": [
+    "KAI"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "4473a47c0554",
    "date": "2026-11-07",
    "ts": "2026-11-07T09:00",
@@ -23,6 +61,39 @@
    "region": "us",
    "domains": [],
    "kind": "contract"
+  },
+  {
+   "id": "8550115ad86c",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T07:35",
+   "title": "Largest Air Force in the World's 16 Fleets Fail Readiness Standards as $14 Billion Parts Gap Emerges",
+   "source": "Aviation A2Z",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTkNvQ3R1Mm5pWU5BeU15SE1kdEhHY2laVDQ1cXNBUm9pRHl4QmpIOWVBWDRVTnRUcFJGTHEtWWsyejFDMnBHUlNXbmJ6d0Voc1NzNk9IVXlfWGZ5TE9ZVV81b0pFUVA4Rzd5alVfSWM1b0JHYTVGSno2MVhNRWJBWkpVMjItbFZpcmtJWjRTVlVYVzRxczJtOHlYQ256M1lDemRMRWpNRGw0TG5Hb1VWUGtkTGQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Defense Logistics Agency contract",
+   "cats": [
+    "ram",
+    "parts"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "97a3be0f7064",
@@ -461,6 +532,36 @@
    "region": "us",
    "domains": [],
    "kind": "contract"
+  },
+  {
+   "id": "974f38b867fd",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T03:53",
+   "title": "364th Sustainment Command (Expeditionary) - U.S. Army Reserve",
+   "source": "U.S. Army Reserve (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc18wMmRkQnFhMWNOVFVkT25qVTlOY2VCN0oyVHVuM3VmdVB1TXM1Q291b3ZsUjI5NTRkTDQzc0hseFltTU50VlBia0duU3lZY2xWVkFRSEFZMkdEd1puRmdtbVpHUGpUYnhhcHlvbXY1YTUzS3Zsc0xCdmdtdExsYUZkajQ2RFpoYlhqLWNFdm4taTFXLXVBVk4tNHpJdjNtdURYM1pxOHJFM1R4VS1nX0tpakNWbHpsampTNmYxUW9BZEYxV3RNWERhV0QteDA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "51e76486d0bd",
@@ -1669,6 +1770,11 @@
      "source": "중앙이코노미뉴스",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VZDF2aFpDV1FzV0JNRkFvSXotWWhUNy0weG9qYVpTNjdfYzZIaEdCaDRpbTBoM0dXQmcyQlVHUUFKcm9EOE5wcVY2TGZPTU8tSWw5cF9NeEd6UlF1dWpRX3d4dlNOVXY0ZUgwY29RZjZxdw?oc=5",
      "title": "KAI, 293억원 규모 군수 AI 개발 착수...전투기·전차 정비 효율 높인다"
+    },
+    {
+     "source": "Korea IT Times",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1QTJXX2RiaFkzMS1uck8xR041dlB4QUZGSUZaZnJHU0t4QlhSRXh2SlIyRG1UcXE2TjZNbGNodzgtTXBpVTBpMUE4YnlNZUlsYThmblU4YTBVbUp0Vk1uTm5WUzJjNGFFWmV4dlFWSQ?oc=5",
+     "title": "KAI, 293억원 규모 방산 AI 플랫폼 개발 착수…FA-50 수출 넘어 군수지원 경쟁력 강화"
     }
    ],
    "origin": "rss",
@@ -3578,7 +3684,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 8.5,
+   "score": 5.5,
    "also": [
     {
      "source": "메트로신문",
