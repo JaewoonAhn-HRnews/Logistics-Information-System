@@ -521,6 +521,38 @@
    "desc_tried": true
   },
   {
+   "id": "771a9e8335f0",
+   "date": "2026-10-29",
+   "ts": "2026-10-29T16:00",
+   "title": "Lithuanian chief of defense visit highlights training, readiness cooperation",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOVlkTncxOTJJSFlxOGpIYjQtdDZjeThYV1dOdGpYYWo5LUpkbHNuNXdBc3RET3BKRl9BRnk0VTZ0cl9LdHpqaFhCdGplWXd0c2pzUG1Lbkt4YVBSSnd1VVRva0MxTEZESTVxS0Y1bEZIT2pNVFJySDZaRWFlMW5YZk8wY0FMVDNHNENDd1VCWHpiLXgyUGE4WTVMUWVyVVdMcmlrY0VzTTZpN2RTck5id9IBtgFBVV95cUxQaFlwU2F0WjZkU3pPc296empqN0l1YmFtc21fakRUdG5fRW9ITDJSZWt3blRnd2RpelMtTk9yWlAtUGJ2SC1jODhwd3ZwT052ZVpWQ29wTzloT2VrbVlZLUl4VUVDQW01XzI0RDdZVnVPbDBuaEVGX2pCNU1FVDU2bmZlRV9pZDd3c3FicXRhT3VHZzNRWjYxcTl2aWtlSTN3Q1hrWEhPaVl4MWtSSVo5a0lmZWJoQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "8b51a1d13832",
    "date": "2026-10-29",
    "ts": "2026-10-29T14:28",
@@ -991,7 +1023,7 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95YlJpME1vWnJoWEd4LXhtWTdNMTZGcmJYbTJRYlhmX2lVUmtzV3ZsT25IN2VmV0dzQXpsN0J3UXJXd1Q1bDV3YkVaMm1oUE4zRGVkMXdHaE9ZSmFNNnRBbE95eW4xUkdEX0U2V1BuQTVkRk0?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 7.0,
    "also": [
     {
      "source": "뉴스1",
@@ -4756,6 +4788,40 @@
    "kind": "news"
   },
   {
+   "id": "69d72e380aa9",
+   "date": "2026-10-21",
+   "ts": "2026-10-21T06:27",
+   "title": "DLA Troop Support, FDA interagency partnership informs DOW drug supply chain security policies",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVXNZeGFKV0otaU40Vy11LXhaUEJXTWxXMmFQWWxtRXB2Mk0wa3RmZTRiVnZwaGdGSHNNZWw3UjJneWhvRF84RWpBa19fTGVDWFNRVlVwOFR4anRzNmFzTU9SUnh5aXhtbWRnMXM2UDNSZWljSEg4MC01cGdZVWtKaGFrYV96THVCY01xRnFUZEZoM3lkOUNtQlplZGZMbVlOSVhMMEJtb2JJbUp1NHRmOVEyeE1wQWZhekVkNTU4WEpzYmxQU1l0dkxjMmhaeVBhSEZtLUY2Q2ZfaG83a19ubXhScw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "미 국방부",
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "33fe03fea112",
    "date": "2026-10-20",
    "ts": "2026-10-20T20:37",
@@ -5191,6 +5257,34 @@
    "desc_tried": true
   },
   {
+   "id": "19062a31ff1a",
+   "date": "2026-10-18",
+   "ts": "2026-10-18T01:55",
+   "title": "Army Sustainment Resource Portal (ASRP) - QM Virtual Training",
+   "source": "CASCOM (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tck5ZZHlMeWdwenRYRDBiVDIzeWxYZGZVVS14NklIelNLMXZKaXN2S21xeWljb05xN2RNWDhBd2tmNXdSV1pZNFVTVXFTbHFmZnc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "6e1cae65854d",
    "date": "2026-10-18",
    "ts": "2026-10-18T01:00",
@@ -5527,6 +5621,42 @@
    "desc_tried": true
   },
   {
+   "id": "20129ee9ea3c",
+   "date": "2026-10-15",
+   "ts": "2026-10-15T11:42",
+   "title": "Powering Digital Readiness: DLA Energy Aerospace Spearheads AI Training",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CSWdrVTE3NlNtdTIwZjhpWDhyLVJsYjJldldKaGp2cy1iQzNmeWpwbXZJS01XVU9qODE1YkgxNWVsLWtJNUJaMEdBN0JKMThlR1VMbGFaaTduaW5QYkF6d0ZrUmlhamM?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "Defense Logistics Agency AI",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "548400d7d27f",
    "date": "2026-10-15",
    "ts": "2026-10-15T11:41",
@@ -5535,7 +5665,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MaXZpaTZoNFl5OWZlTjd1cmh6TVYxLVdSQ2ZHNUV6czZQWG83dUhERGlhc0V6ei1aYnR6VnR0NlJXcy1TS25Wb2ctWWFRR3lOeS1ZbWd5M3g2TUY2cHdYYmxDUVd5MGs?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "글로벌에픽",
@@ -6486,7 +6616,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFB0R1FkTnFlaE5tYzJ5OTVyZ2dJWlk0Wms2ZURwZUhPTjU3T19leTdaZmVyWWRZeEVlRV9CdUZpdG83RXZoZGUwZG5GZjhfbkhqenR5UWVEYk1SMlFJSHZHbWN2cExmRExUaXlvSGZnYnZSTzZDbTFR?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "뉴스1",
@@ -6579,7 +6709,13 @@
    "lang": "ko",
    "summary": "",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "인더스트리뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yRnVGdjJ2OWNXOHZmNU1QV3d0bG5zbDJMQ3ZsZy1uSG9TcDBURkdOYzdWMHowQ3Y0OWRQZkMtZDNOcE1DejVXSWpIOC1LQ3JGVkdobGFBWlVIaDF3SS1yUXVkOTF3RTBBVHNxQXR0bklkZw?oc=5",
+     "title": "KAI, 해병대 마린온(MUH-1) 1145억 규모 후속군수지원(PBL) 수주"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,

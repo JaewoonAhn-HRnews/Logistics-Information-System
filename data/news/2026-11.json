@@ -2,6 +2,29 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "4473a47c0554",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T09:00",
+   "title": "Area Of Interest (Aoi) For Next Generation Enterprise Identity, Credential, And Access Management (E-Icam) Prototype Other Transaction (Ot)",
+   "source": "SAM.gov · Defense Information Systems Agency (Disa)",
+   "url": "https://sam.gov/workspace/contract/opp/3ca3fef9b8a34cc4801782f97aeb4bff/view",
+   "lang": "en",
+   "summary": "Solicitation · DISA-OTA-27-R-ICAM · DEFENSE INFORMATION SYSTEMS AGENCY (DISA) > IT CONTRACTING DIVISION - PL84 · 마감 2026-11-30",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
    "id": "97a3be0f7064",
    "date": "2026-11-07",
    "ts": "2026-11-07T01:16",
@@ -297,6 +320,146 @@
    "domains": [
     "wpn"
    ],
+   "kind": "contract"
+  },
+  {
+   "id": "9c1996b66370",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "Uss Cincinnati (Lcs 20) Fy27 Docking Selected Restricted Availability (Dsra) Award Notice",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/f648491be59b4b1298eafd0ce3adef80/view",
+   "lang": "en",
+   "summary": "Award Notice · N0002427C4441 · DEPT OF THE NAVY > NAVSEA",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "1516f167e912",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "Mcotea American Sign Language Interpreting",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/ec0ad08a5e594dadb15c8a9423563498/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · M0026427Q0009 · DEPT OF THE NAVY > USMC · 마감 2026-11-16",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [
+    "미 해병대"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e1dd057bc0dd",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "Uss Gridley (Ddg 101) Fy27 Depot Modernization Period (Dmp) Award Notice",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/e31316df5712493e8bb6e4d0d398b61c/view",
+   "lang": "en",
+   "summary": "Award Notice · N0002427C4414 · DEPT OF THE NAVY > NAVSEA",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "32477509583a",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "C5 Center Door Gearbox And Rotary Actuator Overhaul",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/c3bffd6797674dc49dffaabc8699e0b5/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA8538-C5_CDG_RA_Overhaul · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-12-07",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "271356cbe5dd",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T09:00",
+   "title": "Defense Logistics Agency (Dla) Environmental Liabilities Management (Elm) Program Support",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/71b0322802f845bb8c8cb116f9fc4fc4/view",
+   "lang": "en",
+   "summary": "Sources Sought · W912DR27RA007 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-04",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA",
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
    "kind": "contract"
   },
   {
@@ -1316,7 +1479,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 6.0,
    "also": [
     {
      "source": "더팩트",
@@ -1485,7 +1648,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FdnVKVGZOMWxYd1FKS2lGMjM0U1FuNjdzanZEREl5ZmZKZEw1TFZlazA1SzdrOV9lRWpsWGk2Ylg4Mm1EU041d25FSHJLcnljcHNfU1FFczFoNHZ4dlZKYm1Ia2oyeFduQ3VWSzd6TQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.0,
    "also": [
     {
      "source": "파이낸셜뉴스",
@@ -3282,6 +3445,11 @@
      "source": "THE ELEC, Korea Electronics Industry Media",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XY1Z1YVBvNkVXeENGbnJDMWFMc19ndTUzTkh3eEt1RUhveW1BUHNjSjZMWGhZbTN4UnVTVEcySTR5aWNOT2xDWTYtd08yaTUycjJyMGxZM3NsSlYtNnRnUmNYUWZGaWM?oc=5",
      "title": "Naver Cloud Partners With South Korean Army to Build AI Logistics System"
+    },
+    {
+     "source": "NAVERCorp.",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aeFNFUERveFYzUGhYZFdpMG1HclE5b3FPVkE5bUZHaVdtd2xPLS14bFdsRm9jZjR5blQ0QWVtOUtZWWJaWE4xakcyT1JiZlhUSDRkaXA4Mi1fNy10b0dpcG1rWkdMYV90ZHIydDVCR0M?oc=5",
+     "title": "NAVER Cloud Sets Out to Build “Combat-Ready AI Logistics” with Republic of Korea Army Logistics Command"
     }
    ],
    "origin": "rss",
@@ -3410,7 +3578,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.5,
+   "score": 8.5,
    "also": [
     {
      "source": "메트로신문",

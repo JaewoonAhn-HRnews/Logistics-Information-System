@@ -45,7 +45,10 @@
       "KAI",
       "MRO 수출"
      ]
-    }
+    },
+    "tr": "스마트 군수혁신 구상에서 PBL·MRO 사업 확대로 이동",
+    "im": "PBL 성과지표를 군수통합정보체계의 가동률·수리부속 데이터와 연계해야 함",
+    "ah": "09fef4f6d6"
    },
    {
     "no": 2,
@@ -190,7 +193,10 @@
       "Lockheed Martin",
       "F-35"
      ]
-    }
+    },
+    "tr": "AI·신전력 개발 논의에서 지속지원 협력 쟁점으로 이동",
+    "im": "동맹의 정비훈련·다년계약 동향을 수리부속 소요·정비인력 예측에 반영",
+    "ah": "5384817eb6"
    },
    {
     "no": 5,
@@ -332,7 +338,10 @@
       "HJ중공업",
       "MRO 수출"
      ]
-    }
+    },
+    "tr": "계획·계약 발표에서 실제 정비 실적 확인 단계로",
+    "im": "해외 정비 실적·합격 기준을 데이터화해 정비인력·수리부속 수요 예측에 활용",
+    "ah": "a4e9cf82ba"
    },
    {
     "cat": "성과기반군수",
@@ -395,7 +404,10 @@
       "KAI",
       "성과기반군수지원(PBL)"
      ]
-    }
+    },
+    "tr": "군수혁신 구상에서 PBL 계약 체결로 구체화",
+    "im": "PBL 성과를 가동률·고장 데이터로 검증해 수리부속·신뢰도 관리에 연계",
+    "ah": "4f881522f0"
    },
    {
     "no": 3,
@@ -522,7 +534,10 @@
       "에이전틱 AI",
       "국방 AX"
      ]
-    }
+    },
+    "tr": "해외 도입·인증 사례에서 국내 플랫폼 연계 제안으로",
+    "im": "군수통합정보체계 데이터 정비를 선행하고 단계적·교육 병행 도입",
+    "ah": "bd6fc85c75"
    },
    {
     "no": 5,
@@ -623,7 +638,10 @@
       "Leidos",
       "라트비아"
      ]
-    }
+    },
+    "tr": "데이터·클라우드 전략에서 경합환경 준비태세 점검으로",
+    "im": "감사·준비태세 대비를 위해 군수정보 정합성과 수리부속 가용성 상시 점검",
+    "ah": "84d9319009"
    },
    {
     "no": 6,
@@ -654,7 +672,7 @@
      "terms": [
       "국방기술품질원",
       "RAM-C",
-      "방위사업청"
+      "KF-21"
      ]
     }
    }
@@ -777,7 +795,10 @@
       "미 해군",
       "MRO 수출"
      ]
-    }
+    },
+    "tr": "해외 MRO 실적 확인에서 국내 인력 위기 대응으로",
+    "im": "정비인력 감소 전망을 정비수요 예측에 반영, 민간 MRO 역량도 데이터화",
+    "ah": "4f2f9e9d2b"
    },
    {
     "no": 2,
@@ -824,7 +845,10 @@
       "AI 도구",
       "Gallatin AI"
      ]
-    }
+    },
+    "tr": "민간 AI 투자 유치에서 군 시범·개발 단계로",
+    "im": "예측정비 AI는 고장·부품 이력 데이터 품질이 관건, 신뢰도 지표와 연계",
+    "ah": "68ca882eb3"
    },
    {
     "no": 3,
@@ -876,17 +900,6 @@
        ]
       },
       {
-       "d": "2026-10-13",
-       "t": "DLA 배분 리더 서밋 개최",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3RYR2xRanZsOTcxcVRSWlFRcDdtTG55WFQtNldxbWZlSE1ESElxQkotMzNvbVBBLU9rSHBJRHp6TUVkNWF2NUxkQnluQ3loM2VTbWhZSS15RE5EenRFeUN4NFFWTXR5ZmlTQmMyWFlhTHlVbzdpc3BwS09mMjNQWkxEbWhYVFZXTWxpaVlaRHgwbm9jeWppdHF6aXVIdUZDczRhMnVWY29Bd1hGcG1XcW9uN0hrcnFseXludnN2SkpvMDdNTnl5YUFsLWVfQXNKRTRNUllhSzRuRVk?oc=5",
-       "nl": null,
-       "id": "b5326f102489",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
        "d": "2026-10-14",
        "t": "DLA 샌디에이고 감사 대비 점검",
        "s": "Defense Logistics Agency (DLA) (.mil)",
@@ -907,16 +920,30 @@
        "k": [
         "DLA"
        ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "DLA 에너지 AI 교육 주도",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CSWdrVTE3NlNtdTIwZjhpWDhyLVJsYjJldldKaGp2cy1iQzNmeWpwbXZJS01XVU9qODE1YkgxNWVsLWtJNUJaMEdBN0JKMThlR1VMbGFaaTduaW5QYkF6d0ZrUmlhamM?oc=5",
+       "nl": null,
+       "id": "20129ee9ea3c",
+       "k": [
+        "DLA"
+       ]
       }
      ],
-     "n": 64,
+     "n": 65,
      "since": "2025-05-21",
      "terms": [
       "DLA",
       "GenAI.mil",
       "CDAO"
      ]
-    }
+    },
+    "tr": "감사 대비·AI 교육에서 데이터 원천 정비로 심화",
+    "im": "수리부속·정비 이력 데이터 원천 정비가 통합정보체계 예측 정확도의 전제",
+    "ah": "2db89f1860"
    },
    {
     "no": 4,
@@ -1013,7 +1040,10 @@
       "Lockheed Martin",
       "미 해군"
      ]
-    }
+    },
+    "tr": "다년계약 검토에서 대형 유지지원 계약 확대로",
+    "im": "장기 유지계약 시 가동률·부품 소요 데이터 확보와 성과기반 정비 검토",
+    "ah": "2807ca2fd2"
    },
    {
     "no": 5,
@@ -1068,17 +1098,6 @@
        ]
       },
       {
-       "d": "2026-10-13",
-       "t": "DLA 배분 리더 서밋 개최",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3RYR2xRanZsOTcxcVRSWlFRcDdtTG55WFQtNldxbWZlSE1ESElxQkotMzNvbVBBLU9rSHBJRHp6TUVkNWF2NUxkQnluQ3loM2VTbWhZSS15RE5EenRFeUN4NFFWTXR5ZmlTQmMyWFlhTHlVbzdpc3BwS09mMjNQWkxEbWhYVFZXTWxpaVlaRHgwbm9jeWppdHF6aXVIdUZDczRhMnVWY29Bd1hGcG1XcW9uN0hrcnFseXludnN2SkpvMDdNTnl5YUFsLWVfQXNKRTRNUllhSzRuRVk?oc=5",
-       "nl": null,
-       "id": "b5326f102489",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
        "d": "2026-10-14",
        "t": "DLA 샌디에이고 감사 대비 점검",
        "s": "Defense Logistics Agency (DLA) (.mil)",
@@ -1099,6 +1118,17 @@
        "k": [
         "DLA"
        ]
+      },
+      {
+       "d": "2026-10-15",
+       "t": "DLA 에너지 AI 교육 주도",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CSWdrVTE3NlNtdTIwZjhpWDhyLVJsYjJldldKaGp2cy1iQzNmeWpwbXZJS01XVU9qODE1YkgxNWVsLWtJNUJaMEdBN0JKMThlR1VMbGFaaTduaW5QYkF6d0ZrUmlhamM?oc=5",
+       "nl": null,
+       "id": "20129ee9ea3c",
+       "k": [
+        "DLA"
+       ]
       }
      ],
      "n": 15,
@@ -1107,7 +1137,10 @@
       "DLA",
       "NGC2"
      ]
-    }
+    },
+    "tr": "데이터·감사 논의에서 군수조직 개편 구체화로",
+    "im": "조직 개편 시 정비·보급 데이터 기준을 통일해 통합정보체계 연계 점검",
+    "ah": "b225652fa5"
    },
    {
     "no": 6,
@@ -1200,7 +1233,10 @@
       "무인기",
       "시뮬레이션"
      ]
-    }
+    },
+    "tr": "CCA 시험·훈련 단계에서 유지·정비 체계 준비로",
+    "im": "신무기는 도입 초기부터 신뢰도 데이터·수리부속·정비교육을 병행 설계",
+    "ah": "b63b5aa96a"
    }
   ],
   "recs": [
@@ -1222,31 +1258,33 @@
   "n": 40
  },
  "2026-W44": {
-  "core": "함정 MRO·AI 신뢰도·부품 공급망이 군수 핵심",
+  "core": "함정 MRO·AI·부품 공급망이 군수 경쟁력 좌우",
   "themes": [
    {
     "no": 1,
-    "cat": "산업·협력",
+    "cat": "국내 MRO",
     "head": "함정 MRO·부품국산화 확산",
     "points": [
-     "KOMERI·해군 군수사령부 협력",
-     "창원 방산, 항공엔진·함정MRO 확장",
-     "세부 협약 내용은 미확인"
+     "KOMERI-해군 군수사령부 협력",
+     "창원, 항공엔진·함정 MRO로 확장",
+     "동남권 조선·방산 앵커투자 공급망"
     ],
     "icon": "ship",
     "refs": [
      1,
      2,
      5,
-     25,
-     26
+     26,
+     27,
+     28
     ],
     "ids": [
      "3f465e31b481",
      "9a9c9015ee7a",
      "48343276e55b",
      "f7d464f2d59c",
-     "acb6f324e886"
+     "acb6f324e886",
+     "250614599fea"
     ],
     "arch": {
      "l": [],
@@ -1259,11 +1297,11 @@
    },
    {
     "no": 2,
-    "cat": "수출·시장",
-    "head": "미 해군 함정정비 한국 쏠림",
+    "cat": "해외 정비",
+    "head": "미 해군 함정 정비 K-조선 쏠림",
     "points": [
      "보급함 14척 중 6척 한국 정비",
-     "HD현대 3척 4천만 달러",
+     "HD현대 3척 4000만 달러 규모",
      "HJ중공업 4만t급 정비 완수"
     ],
     "icon": "money",
@@ -1345,18 +1383,21 @@
       "HD현대중공업",
       "HJ중공업"
      ]
-    }
+    },
+    "tr": "개별 MRO 수행 사례에서 한국 쏠림 수치 확인으로",
+    "im": "정비 이력을 통합정보체계에 쌓아 수리부속·인력 수요 예측",
+    "ah": "7d002af65c"
    },
    {
     "no": 3,
     "cat": "AI·신뢰도",
     "head": "AI 기반 정비·신뢰도 분석",
     "points": [
-     "함정기술연·모아소프트 AI 신뢰도 협력",
-     "록히드, 캐나다 AI에 1천만 C$ 투자",
-     "CC-130J 정비·훈련·인력 준비태세"
+     "함정기술연구소·모아소프트 협력",
+     "록히드마틴 C$1,000만 AI 투자",
+     "CC-130J 정비·훈련·인력 준비 개선"
     ],
-    "icon": "robot",
+    "icon": "learn",
     "refs": [
      4,
      6
@@ -1430,50 +1471,45 @@
       "AI 신뢰",
       "RAM-C"
      ]
-    }
+    },
+    "tr": "전투·자율체계 AI에서 정비·신뢰도 분석 적용으로",
+    "im": "무기체계 고장·가동률 데이터를 정비인력 예측과 연계해 신뢰도 모델 검증",
+    "ah": "fb506d216e"
    },
    {
     "no": 4,
-    "cat": "군수정보체계",
-    "head": "군수정보·지속지원 현대화",
+    "cat": "군수정보·지속지원",
+    "head": "지속지원 체계 현대화",
     "points": [
-     "GCSS-Army 분산작전 기능 강조",
-     "DLA MUST III 5천만 달러 IDIQ",
-     "이란전 교훈: 무인체계 지속지원 우선"
+     "GCSS-Army 분산작전 지속지원 기능",
+     "미 해군, 무인체계 지속지원·EW 중시",
+     "DLA MUST III 5,000만 달러 IDIQ"
     ],
     "icon": "data",
     "refs": [
      10,
      12,
-     28
+     25,
+     29
     ],
     "ids": [
      "c09dd479f199",
      "e2425cb69ef8",
+     "920d8efeb5aa",
      "50e5322a01cb"
     ],
     "arch": {
      "l": [
       {
-       "d": "2026-04-29",
-       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
-       "s": "Defense One",
-       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
-       "nl": 51,
+       "d": "2025-05-21",
+       "t": "중국의 SS-UAV: 비행 드론 모선의 부상과 공중전의 미래",
+       "s": "The Asia Live",
+       "u": "https://theasialive.com/chinas-ss-uav-rise-of-flying-drone-carrier-and-future-of-airborne-warfare/2025/05/21/",
+       "nl": 3,
        "id": null,
        "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-10-18",
-       "t": "군수 차관보 DLA 배송 방문",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tNFB3aDNWSklrLXBJYll4WUtqV3pkcHBsMHgtSERoUTdDZ2JqV1l5YXhlc1Y2SHVFY3dnVUw4cnBJcmMyNTZmTmVpTHBQWmdxeXg0WEsyT0xYOW4yekNuMWxCeGY2WmM?oc=5",
-       "nl": null,
-       "id": "6e1cae65854d",
-       "k": [
-        "DLA"
+        "무인기",
+        "전자전"
        ]
       },
       {
@@ -1499,6 +1535,17 @@
        ]
       },
       {
+       "d": "2026-10-21",
+       "t": "의약품 공급망 보안 협력",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVXNZeGFKV0otaU40Vy11LXhaUEJXTWxXMmFQWWxtRXB2Mk0wa3RmZTRiVnZwaGdGSHNNZWw3UjJneWhvRF84RWpBa19fTGVDWFNRVlVwOFR4anRzNmFzTU9SUnh5aXhtbWRnMXM2UDNSZWljSEg4MC01cGdZVWtKaGFrYV96THVCY01xRnFUZEZoM3lkOUNtQlplZGZMbVlOSVhMMEJtb2JJbUp1NHRmOVEyeE1wQWZhekVkNTU4WEpzYmxQU1l0dkxjMmhaeVBhSEZtLUY2Q2ZfaG83a19ubXhScw?oc=5",
+       "nl": null,
+       "id": "69d72e380aa9",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
        "d": "2026-10-23",
        "t": "GCSS-Army DISCOPS 기능",
        "s": "DVIDS",
@@ -1510,125 +1557,68 @@
        ]
       }
      ],
-     "n": 16,
-     "since": "2026-04-14",
+     "n": 18,
+     "since": "2025-05-21",
      "terms": [
+      "전자전",
       "GCSS-Army",
-      "DLA",
-      "이란 전쟁"
+      "DLA"
      ]
-    }
+    },
+    "tr": "조직·데이터 통합 선언에서 분산작전 기능 구체화로",
+    "im": "국방군수통합정보체계에 분산작전 지속지원·데이터 표준 기능 반영 검토",
+    "ah": "59315915f5"
    },
    {
     "no": 5,
-    "cat": "수리부속·공급망",
-    "head": "수리부속·공급망 병목",
+    "cat": "부품·정비거점",
+    "head": "부품 수급·정비거점 부각",
     "points": [
-     "TF34 부품 수요, CF34 MRO 제약",
-     "Hintsteiner 이동정비·부품물류 확대",
-     "국내 공급망 지향: 안두릴, 앵커투자"
+     "TF34 부품 수요, CF34 상업 MRO 제약",
+     "폴란드 PAC-3 미사일 정비시설 유치",
+     "Hintsteiner 이동정비·부품물류 확대"
     ],
     "icon": "parts",
     "refs": [
      7,
      13,
-     14,
-     27
+     30
     ],
     "ids": [
      "fa43c0efef55",
      "5c44976790e7",
-     "946dc5c782cd",
-     "250614599fea"
+     "5d5b71dfb8d1"
     ],
     "arch": {
-     "l": [
-      {
-       "d": "2026-09-30",
-       "t": "미 공군, MQ-9 대체 저비용 무인기(MMA) 사업 후보 7개사 선정",
-       "s": "Air & Space Forces Magazine",
-       "u": "https://www.airandspaceforces.com/seven-companies-make-first-cut-mma-drone-program/",
-       "nl": 74,
-       "id": null,
-       "k": [
-        "Anduril"
-       ]
-      },
-      {
-       "d": "2026-10-02",
-       "t": "미 국방부, CIA 산하 벤처펀드 인큐텔(IQT)과 공식 기술 발굴 협약 체결",
-       "s": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
-       "nl": 74,
-       "id": null,
-       "k": [
-        "Anduril"
-       ]
-      },
-      {
-       "d": "2026-10-06",
-       "t": "앤두릴, 버지니아급 잠수함 부품 생산 신규 조선소 'Arsenal-2' 구축 — 총 66억 달러",
-       "s": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/10/anduril-establishes-new-shipyard-to-manufacture-components-for-virginia-class-subs/",
-       "nl": 74,
-       "id": null,
-       "k": [
-        "Anduril"
-       ]
-      },
-      {
-       "d": "2026-10-07",
-       "t": "미 육군, 앤두릴에 최대 18억 달러 NGC2 계약 — 공통 데이터 레이어 제1군단 확대",
-       "s": "MeriTalk",
-       "u": "https://www.meritalk.com/articles/army-awards-anduril-up-to-1-8b-to-scale-ngc2-across-i-corps/",
-       "nl": 74,
-       "id": null,
-       "k": [
-        "Anduril"
-       ]
-      },
-      {
-       "d": "2026-10-19",
-       "t": "미 육군, 앤두릴 NGC2와 구형 통신체계 통합 과정에서 '성장통'",
-       "s": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/",
-       "nl": 76,
-       "id": null,
-       "k": [
-        "Anduril"
-       ]
-      }
-     ],
-     "n": 43,
-     "since": "2025-05-29",
+     "l": [],
+     "n": 0,
+     "since": null,
      "terms": [
       "수리부속",
-      "Anduril"
+      "NATO"
      ]
     }
    },
    {
     "no": 6,
-    "cat": "동맹·준비태세",
-    "head": "동맹 정비거점·준비태세",
+    "cat": "투자·준비태세",
+    "head": "국방투자·전력 준비태세",
     "points": [
-     "폴란드 PAC-3 정비시설 설치",
-     "영국 4년 2,980억 파운드 계획",
-     "F-35 인도·준비태세 논의 지속"
+     "영국 4년 2,980억 파운드 국방지출",
+     "핀란드 F-35 2차분 인도, 2027 운용 목표",
+     "호주 SRF-West 2027 배치 준비"
     ],
-    "icon": "shield",
+    "icon": "plane",
     "refs": [
      3,
-     21,
      22,
-     29,
-     31
+     23,
+     32
     ],
     "ids": [
      "f42d3595cb7e",
      "e240a211d2f1",
      "a3d2ccbb1824",
-     "5d5b71dfb8d1",
      "8a21a6daaefc"
     ],
     "arch": {
@@ -1693,29 +1683,31 @@
      "since": "2020-09-02",
      "terms": [
       "F-35",
-      "수요예측",
-      "NATO"
+      "수요예측"
      ]
-    }
+    },
+    "tr": "미 자율전력 획득 중심에서 동맹국 준비태세 투자로 확장",
+    "im": "도입 장비 운용시점에 맞춘 수리부속·정비인력 선제 확보 계획 필요",
+    "ah": "e01b14bbc1"
    }
   ],
   "recs": [
    {
-    "t": "신뢰도 예측 고도화",
-    "d": "AI 신뢰도 분석을 군수통합정보체계와 연계"
+    "t": "신뢰도 데이터 통합",
+    "d": "AI 신뢰도 분석을 군수정보체계와 연계"
    },
    {
-    "t": "수리부속 선제관리",
-    "d": "민간 MRO와 부품 경합 대비 수요·재고 예측"
+    "t": "수리부속 수급 점검",
+    "d": "TF34 사례 참고, 부품 수요 경합 사전 점검"
    },
    {
-    "t": "정비인력 수급 예측",
-    "d": "함정 MRO 확대 대비 정비인력 수요 산정"
+    "t": "정비인력·거점 확충",
+    "d": "함정 MRO 협력·국산화 연계 정비인력 수요 예측"
    }
   ],
-  "h": "f16e122ac9",
-  "at": "2026-11-02 10:05",
-  "n": 33
+  "h": "e1d24a969b",
+  "at": "2026-11-07 09:34",
+  "n": 34
  },
  "2026-W45": {
   "core": "군수 AI, 정비 예측·가동률 경쟁 본격화",
@@ -1796,7 +1788,10 @@
       "네이버클라우드",
       "국방 AX"
      ]
-    }
+    },
+    "tr": "병력 감소 대응 구상에서 정비 AI 실증 착수로 이동",
+    "im": "군 통제 하에 통합정보체계 데이터로 고장 예측을 실증, 정비인력 부족 보완",
+    "ah": "c7ea82417c"
    },
    {
     "no": 2,
@@ -1888,7 +1883,10 @@
       "RAM-C",
       "K2 전차"
      ]
-    }
+    },
+    "tr": "스마트 군수혁신 구상에서 300억원 R&D 착수로 구체화",
+    "im": "RAM-C 판단을 무기체계 신뢰도 지표·수리부속 소요 예측과 연계 검토",
+    "ah": "e5f5a2508d"
    },
    {
     "no": 3,
@@ -1968,7 +1966,10 @@
      "terms": [
       "KAI"
      ]
-    }
+    },
+    "tr": "단일 기종 PBL 계약에서 전군 통합 분석 플랫폼으로 확대",
+    "im": "기종별 PBL 데이터를 통합정보체계와 연계해 정비주기·부품소요 예측",
+    "ah": "7b8ea3fb5e"
    },
    {
     "no": 4,
@@ -2054,23 +2055,23 @@
        ]
       },
       {
-       "d": "2026-10-19",
-       "t": "DLA 무기체계 지원사령부 신설",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tUGo1aWt5LWl5NGViR1JEQkhoREJtcURZZEhVWEJLVXZpWHBKX2JpOVFZYktDa0U2V0hseUk1LW1vR0d6MnBaQ3hRazBta1NBelpqZVhrdG5uVmV3U21pNGZEMUFDWU0?oc=5",
-       "nl": null,
-       "id": "b23d1ac8e18d",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
        "d": "2026-10-21",
        "t": "미 국방부, AI 기반 군수망 혁신을 위한 전군 데이터 통합 추진",
        "s": "MeriTalk",
        "u": "https://www.meritalk.com/articles/dod-officials-detail-push-to-make-data-ready-for-mission-ai/",
        "nl": 76,
        "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-10-21",
+       "t": "의약품 공급망 보안 협력",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVXNZeGFKV0otaU40Vy11LXhaUEJXTWxXMmFQWWxtRXB2Mk0wa3RmZTRiVnZwaGdGSHNNZWw3UjJneWhvRF84RWpBa19fTGVDWFNRVlVwOFR4anRzNmFzTU9SUnh5aXhtbWRnMXM2UDNSZWljSEg4MC01cGdZVWtKaGFrYV96THVCY01xRnFUZEZoM3lkOUNtQlplZGZMbVlOSVhMMEJtb2JJbUp1NHRmOVEyeE1wQWZhekVkNTU4WEpzYmxQU1l0dkxjMmhaeVBhSEZtLUY2Q2ZfaG83a19ubXhScw?oc=5",
+       "nl": null,
+       "id": "69d72e380aa9",
        "k": [
         "DLA"
        ]
@@ -2087,14 +2088,17 @@
        ]
       }
      ],
-     "n": 18,
+     "n": 20,
      "since": "2026-02-16",
      "terms": [
       "DLA",
       "RAM-C",
       "F-35 ALIS·ODIN"
      ]
-    }
+    },
+    "tr": "군수 SW 전환 발주에서 ODIN 도입·ALIS 퇴출 실행으로",
+    "im": "군수 SW 전환·데이터 통합 사례를 통합정보체계 고도화에 참고",
+    "ah": "1c1b9bd32e"
    }
   ],
   "recs": [
