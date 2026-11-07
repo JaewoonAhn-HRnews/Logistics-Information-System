@@ -2,6 +2,37 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "3a5d6d2bd2f2",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T18:00",
+   "title": "Chinese inputs in sustainable fuel used by UK forces",
+   "source": "UK Defence Journal",
+   "url": "https://ukdefencejournal.org.uk/chinese-inputs-in-sustainable-fuel-used-by-uk-forces/",
+   "lang": "en",
+   "summary": "China is one of several contributors to the sustainable aviation fuel used by Britain’s forces and represents a small proportion of it, Luke Pollard, Minister for Defence Readiness and Industry, has said. The post Chinese inputs in sustainable fuel used by UK forces first appeared on UK Defence Journal .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukdj",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "ca4485e992e0",
    "date": "2026-11-07",
    "ts": "2026-11-07T09:40",
@@ -1749,7 +1780,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FdnVKVGZOMWxYd1FKS2lGMjM0U1FuNjdzanZEREl5ZmZKZEw1TFZlazA1SzdrOV9lRWpsWGk2Ylg4Mm1EU041d25FSHJLcnljcHNfU1FFczFoNHZ4dlZKYm1Ia2oyeFduQ3VWSzd6TQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.0,
+   "score": 4.0,
    "also": [
     {
      "source": "파이낸셜뉴스",
