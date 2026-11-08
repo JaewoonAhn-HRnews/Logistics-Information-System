@@ -2,6 +2,138 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "c12f67b506dd",
+   "date": "2026-11-08",
+   "ts": "2026-11-08T09:16",
+   "title": "국방데이터·GPU 공동 활용…함정 AI 기술, 민간 조선·MRO까지 확산",
+   "source": "해사신문",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGN3VQaWRaN2FYRWQ0WGVsVmlORUNJTGYxbFdrRFF0RkQ5enJoSTNZRjBrc1NSZ0RfMUx4cTJOaXZrUVI2MXNFaEJTYmVYLTViaGNobDdEUUNHVlpJVEF1enl2WTZxbHgzTW4w?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 정비 인공지능",
+   "cats": [
+    "ai",
+    "mro"
+   ],
+   "kw": [
+    "AI",
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "e6b42169271b",
+   "date": "2026-11-08",
+   "ts": "2026-11-08T06:00",
+   "title": "미래전 패러다임 바꾼 AI 위성…\"초소형 위성 늘리고 부품 국산화해야\"",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VZFVTSTNlQW43YXJNZjVOSXRKZ3NTY0hLbzRkZmk4d2s5NkZ2Z0hIaWVqQ2NUT0hNSjd1ck45bWpyQmg0NmRGVWRLdzNabmd1VmtqTGtGem5YTjZyQndWMGUwOEpWRUU?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ai",
+    "parts"
+   ],
+   "kw": [
+    "AI",
+    "국산화"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "02f8d1834dcc",
+   "date": "2026-11-08",
+   "ts": "2026-11-08T04:19",
+   "title": "Artificial intelligence in modern warfare tests the readiness of the Canadian army.. and combat drones on the research table",
+   "source": "arabcanadanews.ca",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLWJNSk10dm10S0VkQ2Y1eWI5NU51QTItaHFsT3VTQ0Z6WV9WVEl3RXlZd0cySHlmeVBsM3dGQVF2RmNxclBlV1N5UXhTRl9IUjBUemJxMDY0bWxtUW1FMzFZSVNmMF9rc0pWS3pnQXYta25PT2JWeUczSjJua016Ymlta1pOZHJYUnBkVDh2ZmVBa00wbGQ5TlhoNURJclJHcHlIM0VuWGhQY1NPNnJlbTZ3bHlhUG5qWkNwLW9jX0I5VnVueDh5TGFDZlZ2QkxQTF8zZXltOGZFRHdubFE2MUM2bXlwbGc4NFdfenpvUFI?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military supply chain artificial intelligence",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "c137106b3196",
+   "date": "2026-11-08",
+   "ts": "2026-11-08T03:40",
+   "title": "How Nyoma airbase boosts India’s military readiness on China border: Why IAF’s highest-ever IL-76 landing matters",
+   "source": "Livemint",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeFowc1IwQnBGd205bDQtSU9ZRVFQc3htWFpfNW9tVjdVamFjeXRpZzlWU3U3aEFFQjVrRWQzTXM5NC1GaVFkaXNKdkYzTUt6Y3hHeEFWdnljSFp5Mm4zRVpIQ2dRZ3JnMHpGRDJfZGRvcDB1V2pmRlZpU1l6dkt0TVBHNkhUSy1pR1AzRlY1S0ozTzRnZTNHT2NvYWhrXzNHWVdibDZNSjNtd0syMUdRRm9MSWVmVm5WRnFwS0dRbjYtSTVBMWhKaTRUQjlvaTJFNzdybjFMVWoyd0M0UDA4bUlqLW9WQVpRWlJkYWlBRmROZFdBMEozZ3lxRjfSAYICQVVfeXFMTXVVYVNVWUdSUlRKVWhCeC03MHRrblM5MURzTFN5Wkp5c3FmS2lMam1ZQ3dGckZDS2Z4MjMtRHhBUFJKSnBjQVFJRFY1RGtsSG03VWZpRl9tMnpBa2ZyU2kyamUtTHh2NlpCenhoRC1YQ0NORzdBQmEtZUR2bnBodU5GMTM1WVBqV214T3BMaVVVMzBMTWE1WVIzTzlMRHVXNVVSZXE2NFNNeUFmZDNlSjM4cGM2azM2R2J4b3RTaXcydmx6VHlJWDJ4X3pIWmhLbEp3WE1Hb0tjOUhkajZSV3hRWFN3MXFTSlFNckI0cE41UmF6QUR3YU1YTnhDZ2xhc2p3?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "etc",
+   "q": "Indian Air Force spares logistics",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "3a5d6d2bd2f2",
    "date": "2026-11-07",
    "ts": "2026-11-07T18:00",
@@ -91,6 +223,33 @@
    "axes": [],
    "region": "us",
    "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "011bddb734cc",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T09:00",
+   "title": "129 Cef - Avb Maintenance Services",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/719538302aff43c1be45f06137ab68cf/view",
+   "lang": "en",
+   "summary": "Sources Sought · PANNGB-27-P-0000042953 · DEPT OF THE ARMY > NATIONAL GUARD BUREAU · 마감 2026-11-16",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
    "kind": "contract"
   },
   {
@@ -563,6 +722,38 @@
    "region": "us",
    "domains": [],
    "kind": "contract"
+  },
+  {
+   "id": "dbec6c0660f5",
+   "date": "2026-11-06",
+   "ts": "2026-11-06T06:00",
+   "title": "LEGISLATIVE HEARING ON H.R. 1676, MAKE SWAPS EFFICIENT ACT OF 2025; H.R. 3538, WILDLIFE CONFISCATIONS NETWORK ACT OF 2025; H.R. 3857, SNOW WATER SUPPLY FORECASTING REAUTHORIZATION ACT OF 2025; AND H.R. 3858, SP",
+   "source": "Congress.gov",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mSU5xNFNGXzFrVmdIUXJHZ0FFREMxd2J3YnQ0R3EtQ0JaelRZMVg3NkhEMURjNjJBSEIzT0RYaEM5WHZRNlpLZ0dvT1pVY2xSejFHT09BMHFaVzE0R09BcVBrMlhUdHNMRHY3RjZraW9LSkxDWklqSGdn?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "crs",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "수요예측"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "policy",
+   "desc_tried": true
   },
   {
    "id": "974f38b867fd",
