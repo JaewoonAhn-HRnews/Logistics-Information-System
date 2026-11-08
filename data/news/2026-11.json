@@ -2,6 +2,159 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "2fed98249eed",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T00:36",
+   "title": "[조달계획] '26년 대구 국제첨단소재부품산업전 전시장 임차",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 45945",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8301a6a7d482",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T00:36",
+   "title": "[조달계획] 27년 지형분석 SW(SKY-300-TEP) 유지보수 용역",
+   "source": "국방전자조달(D2B) · 한미연합군사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 한미연합군사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 공고의뢰중 · 판단번호 45965",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "bfce007e4734",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T00:36",
+   "title": "[조달계획] 피로시험 장비 외주정비",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 45687",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "cd7e6a7c011f",
+   "date": "2026-11-08",
+   "ts": "2026-11-08T19:00",
+   "title": "Danish-Norwegian venture to service Nordic military aircraft",
+   "source": "UK Defence Journal",
+   "url": "https://ukdefencejournal.org.uk/danish-norwegian-venture-to-service-nordic-military-aircraft/",
+   "lang": "en",
+   "summary": "Terma and Kongsberg Aviation Maintenance Services have launched Defence Aviation Services, a joint venture to carry out maintenance, repair and overhaul on military aircraft in Denmark and support Nordic and allied fleets. The post Danish-Norwegian venture to service Nordic military aircraft first appeared on UK Defence Journal .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukdj",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7f8161057105",
+   "date": "2026-11-08",
+   "ts": "2026-11-08T16:20",
+   "title": "KT, 국방 AI 플랫폼 구축…박윤영 대표 체제 AX 성과",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4taHU2SkhFQUdvS3c2TTNKYkhHZGg1SmM1OGduY2p0Z2tRLXNWVHNmVWE2SlJjQ29SZEtJamNEa1JUcjQwY3BrRUpONTc1UQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "국방 AX"
+   ],
+   "ents": [
+    "KT"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "c12f67b506dd",
    "date": "2026-11-08",
    "ts": "2026-11-08T09:16",
@@ -372,6 +525,44 @@
    "region": "kr",
    "domains": [],
    "kind": "contract"
+  },
+  {
+   "id": "0c9e99e10b64",
+   "date": "2026-11-07",
+   "ts": "2026-11-07T00:36",
+   "title": "Text - H.R.10515 - 119th Congress (2025-2026): Artificial Intelligence Education and Workforce Readiness Act of 2026",
+   "source": "Congress.gov",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YdlpfTFAwU2ZIV0FESXN1R2M4d1NLMnhEWVRmczJaRHNOLXhIMVRTWU15djVDaWRndXlHZ3VmYllDY3FaMTlEamVhdXBpY2x3WHhpeWV5MjYwNkFIOUp1d05naXNUSmlLU1BDRGRrUjJpTlY5?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "crs",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ai",
+    "ram",
+    "mro",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세",
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "ram",
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "b0b1f5179657",
@@ -1802,7 +1993,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 4.5,
    "also": [
     {
      "source": "더팩트",
@@ -3364,6 +3555,46 @@
     "wpn"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "f36120502e86",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T09:00",
+   "title": "미 국방부, 우크라이나 모델을 참고해 지상 로봇(UGV) 도입 가속",
+   "source": "Defense One · 뉴스레터 제78호",
+   "url": "https://www.defenseone.com/defense-systems/2026/11/pentagon-ukraine-ground-robots/417011/",
+   "lang": "ko",
+   "summary": "미 군당국이 2026 회계연도 무인 지상 로봇(UGV) 사업에 1억1,500만 달러 이상을 투입하는 등 우크라이나 전장에서 검증된 지상 로봇 체계를 본격 벤치마킹하기 시작. 우크라이나는 물량 공세에 맞서 소형·상용 부품 기반의 저렴하고 소모 가능한(Attritable) 로봇(물류·부상자 후송과 TERMIT, Droid TW 12.7 등 전투용)을 대량 운용하는 반면, 미군은 평시 연구개발의 이점을 살려 자율성이 높고 복잡한 환경에 특화된 다목적 체계를 추구한다. 해병대는 포병 부대를 개편해 무인 JLTV 기반 대함 미사일 NMESIS 대대를 창설해 태평양 해상거부 임무에 투입하고, 해병대와 육군 75레인저연대는 물류·대드론·자율 개척을 위해 오버랜드 AI(Overland AI)의 IBEX UGV 등을 도입하고 있다.",
+   "score": 8.0,
+   "also": [],
+   "origin": "nl",
+   "src": "nlarchive",
+   "hint": "us",
+   "q": "nl:78",
+   "cats": [
+    "ai",
+    "parts",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "유무인 복합"
+   ],
+   "ents": [
+    "국방부",
+    "육군",
+    "해병대"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "orig_title": "Pentagon is beginning to follow Ukraine into wider use of ground robots",
+   "nl": 78
   },
   {
    "id": "e98801de09c7",
