@@ -2,6 +2,582 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "1752b0e1e2f5",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T04:08",
+   "title": "[조달계획] 27~28-D-정보통신장비 통합유지보수",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 일반경쟁 · 발주예정 2026.12 · 조달판단중 · 판단번호 46157",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "21b93e2d6d39",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T04:08",
+   "title": "[조달계획] 26-국방망 방화벽 유지보수 용역",
+   "source": "국방전자조달(D2B) · 공군사관학교",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군사관학교 · 용역 · 일반경쟁 · 발주예정 2026.11 · 조달판단완료 · 판단번호 46164",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "28599fa6111d",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T02:19",
+   "title": "JUST IN: Pentagon Poorly Tracking Costly F-35 Parts, GAO Finds",
+   "source": "National Defense Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXhqUms5dW8zQ21ma2FtR2k2WU1BXzNaYUV3bWJkZ1ZCNnJMUU1VZEVHOFBrRndnTlVMVlRJSXFldzNsWkhwRkpOcHBhWnVjUlRUSjR2aHo0RkhVUi1fLWxMMlJNNi0yVEE1M3h1R24xbjJoT2g4NzFIQ1hBd3F3RWVfT3pjQkNXMWpGN05tcTVHbTktd0V6TXUzNUh3VE9XcG04ajNTcTU1Yk9tMVdyTGllZmFCWG5MMEE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "natdef",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
+   "id": "d3a1239d68b5",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T21:06",
+   "title": "F-35 Program: DOD Needs to Strengthen Oversight of Tens of Billions of Dollars in Parts",
+   "source": "GAO 보고서",
+   "url": "https://www.gao.gov/products/gao-27-108713",
+   "lang": "en",
+   "summary": "What GAO Found The Department of Defense (DOD) continues to face challenges in accounting for F-35 parts, such as engines and tires. The F-35 program includes approximately 26 million F-35 parts, valued at approximately $31 billion and held at over 700 contractor- and government-managed facilities around the world. Although these are DOD-owned parts, DOD does not maintain complete records of the parts. Specifically, GAO found that DOD has not est",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gao",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy"
+  },
+  {
+   "id": "ee6491268e64",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T19:45",
+   "title": "Amentum Secures $609M Army Depot Workforce Support Contract",
+   "source": "GovCon Wire",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sTjN0ZTAtRXpOaUZ3NEV0ZGtVV0paekw4cXJXQ2Z3a3B1cF9OUVl5eTltT1ZkVVV0WjdKVXc0VEQxSnB4bV9EZUVoOEVFVVBNMzAwSGh3NzI0cW5aNklBR0dlWmZGLWdjMWhRSlo0VlM5bl95aUNMMFE0eGQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "govconwire",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "창정비",
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "1619c4326d6b",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T16:46",
+   "title": "K9 수출 뒤엔 정비가 있다, 한화-육군 K-MRO 거점화",
+   "source": "데일리방산",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZN3RUalJlb2dkc0JWYTNPU2R5U0hYWTNZTnQwXzFNQXVzOVNQRTZad1ZtYnI2TzRHS2l0T2NjLTVnN2JWVFd2NnFHQzk5RGRERERVUllpUGxGUGU3TjctaTNxZ0pBVVhQVFZRYWt5eHM?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tMVZGVlBCd2xGUWRnUDZrS0YybGdnRVRSWmpOblJ5b29FVkZpTlh6T1hadGhNb1FHME9nNWJfQUVoeFVXcE1wX3l2WVNyajNqNVFpWTluR2NiTjlWT2w1TERJNE9FdTh2S1VnYWxkZFUtbVdK0gF0QVVfeXFMTi0xVkZWUEJ3bEZRZGdQNmtLRjJsZ2dFVFJaak5uUnlvb0VWRmlOWHpPWFp0aE1vUUcwT2c1Yl9BRWh4VVdwTXBfeXZZU3JqM2o1UWlZOW5HY2JOOVZPbDVMREk0T0V1OHZLVWdhbGRkVS1tV0o?oc=5",
+     "title": "‘야전정비센터’ 동부권 추가 건립···한화에어로·육군, K-MRO 거점화"
+    }
+   ],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "2d4361af3e26",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T16:22",
+   "title": "한화에어로·육군, 야전정비센터 후속군수지원 거점화 추진",
+   "source": "엠투데이",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "비즈트리뷴",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wek9qbHh3M0t2VTVJdzBHRlBodlhWTmUxcldLb0NWalgtZDYyX0dDTDZPSzZYbEFmMUlIUlNPQXduVFNTQWoyR1ZFNGYycWZ3RUVnblBlaGp5cHNhMDVqQVRnaDN6d3dUZ2FWcnR0TQ?oc=5",
+     "title": "한화에어로, 육군과 야전정비 거점 확대… 해외 방산 MRO 협력 강화"
+    },
+    {
+     "source": "주간한국",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HZkJFUi00TWRna2lYcC1tUVowUmtxWXZUcVNZX0hycV8zLURSZDFicjZSdGFSWjllbFRGLXB5NjBtVW5NOUR6VUZtNjd3M3Npc0pxRTZZVzVXdTlnTzA4cWdIMlE1LXlkbDk4dmZvbkVyUlJt0gF0QVVfeXFMTkdmQkVSLTRNZGdraVhwLW1RWjBSa3FZdlRxU1lfSHJxXzMtRFJkMWJyNlJ0YVJaOWVsVEYtcHk2MG1Vbk05RHpVRm02N3czc2lzSnFFNllXNVd1OWdPMDhxZ0gyUTUteWRsOTh2Zm9uRXJSUm0?oc=5",
+     "title": "한화에어로·육군, 동부 야전정비센터 추가 추진…K-MRO 거점화 ‘구상’"
+    }
+   ],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "13de12f92ce7",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T16:05",
+   "title": "한화에어로, 육군과 손잡고 정비 거점 확대..K방산 수출 지원 - 머니투데이",
+   "source": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "101e510e53e3",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T16:05",
+   "title": "Army and Hanwha Aerospace to expand MRO hubs and overseas logistics ties",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM05aY1FDb1pwU0VEcmlmUGpvQl9samlERTQ4bW43aE1LajM2dzBrdGs5OXRTQmZ0UjI2cldIRkZVSVJJMGcwNzhRaWRtazFyWnRtUXc0S1RydmdtNzItSlhLc0Rpa3RDWHpFbjNUVWRmbVBfUzRTVnJDbkhkU2hZS3BPQnVNYnhkTTNlbEhXMzJMYzhLWFHSAZYBQVVfeXFMTTNOWmNRQ29acFNFRHJpZlBqb0JfbGppREU0OG1uN2hNS2ozNncwa3RrOTl0U0JmdFIyNnJXSEZGVUlSSTBnMDc4UWlkbWsxclp0bVF3NEtUcnZnbTcyLUpYS3NEaWt0Q1h6RW4zVFVkZm1QX1M0U1ZyQ25IZFNoWUtwT0J1TWJ4ZE0zZWxIVzMyTGM4S1hR?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "etc",
+   "q": "Taiwan military logistics maintenance",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "한화"
+   ],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "aed3f36ef3c4",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T15:10",
+   "title": "한화에어로스페이스, 육군과 야전정비센터 추가 건립...해외 MRO 협력 확대",
+   "source": "뉴스락",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iX3FsVC0yNTU5cFd0eHZYdjRmQXB4NFFKbUNzdXhiN3dHajEzLTVRYm43RkYxLUtUbnN2YlJVS3RRMWJXdE9DOGlpeC1mYTZnZG5rMWw3alZTSEcwOERscG9hcWpsYURYdk03bQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [
+    {
+     "source": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CRURVMFpObHdCa21JWWVBU0JDVV8tYWJPSENYS3lxUFZELVc1bklDRmV0UWx1aFZTbDF0M2hFR2FkR0FWU0J4V21GQ3JNMnlaXzUteg?oc=5",
+     "title": "한화에어로·육군, 야전정비센터 추가 건립…해외 MRO 시장 공략"
+    },
+    {
+     "source": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Od3Q5YlhSRWV1X183aHNTSl8wa05KYnZnZWFRM09OTkV2UTRrR0RfNWMweGE4Q25LczZiTDFwVmdoZHVYeVI5LUhrcnEwamFaWDV3bWpwdEhuUXNqNk5COUZoRFpHOTBUVjAxRVVGYW4wZ1E?oc=5",
+     "title": "한화에어로, 육군과 야전정비지원센터 추가 구축 추진…해외 MRO 협력 확대"
+    },
+    {
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3aWtNelFGdnpZaDAxM28zNTFpUlVyc2c4akk0bGNmN056ZERlNEI5NGQ3SUZ1QXgzYlRhNXVwZWtfdllmcEtoTV8xMXItc3V5SHhjVkd1dFI4TlRXOTBmVTduVGw?oc=5",
+     "title": "한화에어로, 육군과 야전정비센터 추가 구축…해외 MRO 협력 확대"
+    },
+    {
+     "source": "파이낸셜포스트",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WR1N2cXNQcUJ0cWhNYnJvcTc5Q1Y4SE41a2FCdzUxY05xaGlBR1RPLWlPVERkTzJZY1YyenlfWDdVcjhBWS1rcW9Hb2ZzVkZ6VmdjdkxNZndrS3Vvd2o0M3ZRLWpJQWQtc1ZiR3NsU0loejI2?oc=5",
+     "title": "한화에어로스페이스-육군, 야전정비센터 K-MRO 거점화 추진한다"
+    },
+    {
+     "source": "문화일보",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JTWdKa2V2MGJJYzlIaEpzY095R2NvWFdndm5QNTJ3R0pMbkIwVnM2YkQ1Z0U1R2RXenhZVzRudlJDOXkxU2s5cjhQUXI0UUVE?oc=5",
+     "title": "한화에어로스페이스·육군, 야전정비센터 K-MRO 거점화 추진"
+    },
+    {
+     "source": "더팩트",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xV0JrQUZKa3hGem1rM0FLSnZuU01xc1hrNDA2TUt3WWhlYjFPZ2ZLdUJzME1CSVVVaVZfQ0N5SjhSRjBFR1lqRFNKMmtBSGJrRVNVV9IBVEFVX3lxTE1xV0JrQUZKa3hGem1rM0FLSnZuU01xc1hrNDA2TUt3WWhlYjFPZ2ZLdUJzME1CSVVVaVZfQ0N5SjhSRjBFR1lqRFNKMmtBSGJrRVNVVw?oc=5",
+     "title": "한화에어로·육군, 야전정비센터 확충…K-MRO 거점화"
+    }
+   ],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "572d18e858be",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T15:04",
+   "title": "K9 자주포 수출 넘어 정비까지…한화에어로·육군 'K-MRO' 맞손",
+   "source": "이투데이",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wNEtTMXBPaUtJVW54eGp6a0JnOF8xLWFzV0pXN3Rld1k1MWZsNWpCdUoxejltclUzbWthSEJabUVvQk9WbWgyTjVTR2dKYmFwZGpKMg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "디일렉",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3WlVnVjVJcEFkeEs4ZVF4LTF0NDFlb3dXcEV4dTdpNDFvMjZIWkJLeF8yV2R3YVpqQVJ0OGN6U2poWWZIYWVrT29CTEZuWUw4Ynh6TDkxaFo5eEM5ZGU4MDZBbmQwQQ?oc=5",
+     "title": "한화에어로-육군, 수출 무기 MRO 지원망 확충"
+    }
+   ],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "9a2d1a8d05ac",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T13:55",
+   "title": "Logic, Data, and the Enterprise: Why AI in Aircraft Sustainment Starts Somewhere Other Than the Maintenance Shop",
+   "source": "Defense.info",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOHhBYTFJaHhfU2Z2SGRoUEF1Z3loYWdxSkU4dHREWjNyVkZZVXpwRDBOVHFBTHJnZGpoOGVNV0phcGNyTjdKOTBMNE5sU1FTdGpIeHk0NzVHZ3JkdktFMFJDZHNCSnktYWRHWmo3eWZnNjFQamY4d05iQXU5d2c3VXVtT09hMUFfX1hrOUVjcXp2ai1MRVN2Z3VNaG1WVHZaWDlXOWgzbEFQZHVlWmIxQ3pPT1h0M080TkdUYmJVcE03VkliVS1WdHdncmRUaWhrVHRaUGkySEt5SEx4dG94X3VyVTJ5WGFDWVE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "ai",
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "f6547985cb48",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T13:41",
+   "title": "메가존클라우드, '오픈AI 셀렉트 파트너'로 선정…기업 AX 지원",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FTWt0SXFKcjFsTUFNVlVqNHROVDVkbFZRa2QtVERhV3RCM1hKM3NfRFlpNDdkbVdZaHB2WC1xcGlMcHAxWlR6elZDVzJsUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai",
+    "ind"
+   ],
+   "kw": [
+    "AI",
+    "클라우드",
+    "국방 AX"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "ad6956a2b21f",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T13:32",
+   "title": "모아소프트, 300억 원 규모 연구과제 ‘군수 빅데이터 기반 RAM-C AI 에이전트 개발’ 참여",
+   "source": "대한경제",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EMVVZUTltOUJEZVBDRDVXR1RaRGdCd1BoMmxjTDdCT2FVZUJmbFFram03c3FlZFhZTktUMkRmMEhCazlVRGQzSGJIa0dIMFBqaG5NekpIY2llTS13STFvcFEwSkxpcV8zSVFUQTVDNk44Qkk?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "생성형 AI·에이전트",
+    "빅데이터",
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "cdda150e19bd",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T11:11",
+   "title": "링크솔루션-해군정비창, 국방 3D프린팅 기술 고도화 MOU",
+   "source": "뉴시스",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE43SUpSSm9TSm9sZHB1alJpTV9jVURRZ2V2M0otdVEyOTc0SG9mLXNONHBCcXFCbmllVmY3dXo0RW5fb2NIdDMwYzdFTkNXc1F1dVhnN1BGQ2VSQy1mUGc1dUVjV2JJWXNzbmQ2TDFhTXNCUzY0alJuatIBeEFVX3lxTE43SUpSSm9TSm9sZHB1alJpTV9jVURRZ2V2M0otdVEyOTc0SG9mLXNONHBCcXFCbmllVmY3dXo0RW5fb2NIdDMwYzdFTkNXc1F1dVhnN1BGQ2VSQy1mUGc1dUVjV2JJWXNzbmQ2TDFhTXNCUzY0alJuag?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ORzMzbFFwU2lSa0Q4R0t5RWpLMUM1Uk9pbDVwazFUWm94SWY3eVpTaVc2M0xqTXZsYjFlR2dIYXc3NERyNS1sdy0yOURUcFRNUk8wdUJxeDBmLS1C?oc=5",
+     "title": "링크솔루션, 해군정비창과국방 '3D프린팅 기술 고도화' 업무협약 체결"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "3D 프린팅"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "3e2153545fab",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T10:47",
+   "title": "링크솔루션, 해군정비창과 함정 MRO ‘디지털 부품망’ 구축 협약",
+   "source": "이투데이",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mMzR1V1YxVG1vV3ZnY2FQSTRxWjc1SDBEYi1tY2Yzd2ZvajZOeDJYMVlwUlIwc3k4ZXVTYXZQTVZPWno3alp0OExQNVJNWVVCMWtWcA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "parts",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
    "id": "50239f5b1062",
    "date": "2026-11-09",
    "ts": "2026-11-09T10:12",
@@ -60,6 +636,143 @@
    ],
    "axes": [],
    "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "a8a77ac778e2",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Navy Shore Sustainment Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/fbc799975b4944228b11499e75e257b0/view",
+   "lang": "en",
+   "summary": "Presolicitation · N6523626RE088 · DEPT OF THE NAVY > SPAWAR · 마감 2026-11-13",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "a7d7739752a3",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Burnsville Lake Mowing And Maintenance Services 2027-2031",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/dbf0fa8656eb4f19a763eef9f73a9c28/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W9123727QA001 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-02",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "be65ce6e0a58",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Advance Notice Solicitation # N66604-27-R-3001 Code 104 Enterprise Infrastructure Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/bd5f94ee756249469c0100451caba157/view",
+   "lang": "en",
+   "summary": "Presolicitation · N66604-27-R-3001 · DEPT OF THE NAVY > NAVSEA · 마감 2027-01-08",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "77096bc414fd",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Repair, Spares, & Engineering Services Enterprise Contract Embedded Global Positioning System (Gps)/Inertial Navigation System (Egi)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/80a98e82c874465a99173bd7b3903ba0/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA8524-27-D-0602 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-23",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "10c00bce4a9a",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "N0001927R1025 E-6B Mercury Depot Maintenance Repair And Overhaul (Mro): Request For Proposal (Rfp)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/7bc0f619d19045acb9f1faf2e19d96ee/view",
+   "lang": "en",
+   "summary": "Solicitation · N0001927R1025 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-11",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
    "domains": [
     "wpn"
    ],

@@ -2151,5 +2151,319 @@
   "h": "084daabe9a",
   "at": "2026-11-09 00:37",
   "n": 40
+ },
+ "2026-W46": {
+  "core": "정비 거점 확대와 부품·데이터 관리 강화 동시 부각",
+  "themes": [
+   {
+    "no": 1,
+    "cat": "민군 협력",
+    "head": "한화·육군 K-MRO 거점화",
+    "points": [
+     "야전정비센터 추가 건립 추진",
+     "후속군수지원 거점화 모색",
+     "K9 수출 지원·해외 MRO 협력 확대"
+    ],
+    "icon": "tank",
+    "refs": [
+     1,
+     2,
+     4,
+     5,
+     10,
+     13
+    ],
+    "ids": [
+     "aed3f36ef3c4",
+     "2d4361af3e26",
+     "1619c4326d6b",
+     "572d18e858be",
+     "101e510e53e3",
+     "13de12f92ce7"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-11-02",
+       "t": "콕핏형 IBS 국산화 추진",
+       "s": "한국아이닷컴",
+       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KVHBRY2JPQnRNc0NjdGpFR3VpSmZ4MkE2cndCNmRDQThSVUFZem1rRjluckJQVGZuTUtxdlU4MHJsRnRfczc0Z1NTb2xxcTQySjkxeEczX2tMLURxY09MZUpXSkJMcGVQLTBJ0gFvQVVfeXFMTXlVdHkwd1VXRFdSaGx0RU85OHZjM08tR1FTeFNQQURwUXV0SmFNWHF5WGxreEJjUE5lX2FCYm1NNkRLZE9zRjFMZDRURnVCMWpIRXhoN20zMHlWTEVaOG5BV3VBOWRIdS1sVTNlSjhZ?oc=5",
+       "nl": null,
+       "id": "1f51e29d5f12",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-02",
+       "t": "스마트 함교 국산화 착수",
+       "s": "이뉴스투데이",
+       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QTkFtanFsT1VDNkFKMzBGNG9Wd1pXOHNIUmw3Ymw1UU5WT3IwTndSTjV1ckd3emIxODMtRUR4cWJpUEJOQlJLTXdmbDgxTGE2aWtXNTBadndnc19jdEkyb1c3eHFJbEl3cTVDeVl3azHSAXRBVV95cUxQM3pONU90R0Nxd3pzYjJtNkU1eXhEcGtOdEFRTzZSeFFuUFJoMkpkS2UybFZpTG9hLUcwVGo4TkVpaVdQb1I4MlN1bUc2dWVNVHpPa0dibDFNdUstcTR1QVlING95QWNpWmZwY0ptSy1BOWRVQg?oc=5",
+       "nl": null,
+       "id": "685b41d287ef",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-02",
+       "t": "콕핏형 함교체계 국산화",
+       "s": "PRESS9",
+       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MbGk5T1ZOMmQyVHFmOGpERDFkWmhVUW90bXFMQkNhTkdITmFYUW5tcmpmdjQ2Zk1idDNWbm0xOWJvOWRqeHBPNHJESEhHZnY3LUJyVHBCYkhwSmdWcFVIQXk4VHU?oc=5",
+       "nl": null,
+       "id": "7f86ebd03050",
+       "k": [
+        "한화"
+       ]
+      }
+     ],
+     "n": 3,
+     "since": "2026-11-02",
+     "terms": [
+      "한화"
+     ]
+    }
+   },
+   {
+    "no": 2,
+    "cat": "정비·부품망",
+    "head": "해군정비창 디지털 부품망",
+    "points": [
+     "링크솔루션과 함정 MRO 협약",
+     "디지털 부품망 구축 추진",
+     "국방 3D프린팅 기술 고도화 MOU"
+    ],
+    "icon": "parts",
+    "refs": [
+     3,
+     7
+    ],
+    "ids": [
+     "3e2153545fab",
+     "cdda150e19bd"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "MRO 수출",
+      "적층제조"
+     ]
+    }
+   },
+   {
+    "no": 3,
+    "cat": "AI·데이터",
+    "head": "군수 AI·데이터 도입 확산",
+    "points": [
+     "300억 원 RAM-C AI 에이전트 과제",
+     "항공 지속지원 AI, 논리·데이터가 출발점",
+     "메가존클라우드, 오픈AI 파트너 선정"
+    ],
+    "icon": "robot",
+    "refs": [
+     6,
+     11,
+     14
+    ],
+    "ids": [
+     "ad6956a2b21f",
+     "9a2d1a8d05ac",
+     "f6547985cb48"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-30",
+       "t": "AX 스프린트로 병력 감소 대응",
+       "s": "한국경제",
+       "u": "https://www.hankyung.com/article/202604309027i",
+       "nl": null,
+       "id": "594f1747f63c",
+       "k": [
+        "국방 AX"
+       ]
+      },
+      {
+       "d": "2026-11-02",
+       "t": "군수 AI 전환 실증 착수",
+       "s": "보안뉴스",
+       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xMUw4SG5EWmFQdzBGNzFpa0Q0M0UzbC1GLVlHZzdFU0FJRTFlNEpCcmgtc0lXTFhONWMyVU02aHZCMWxwYzZmNF90RGNkSElYZkhpTFFsSGVUV3MtXzlYTHhKdkZrZ1U2bEtJ?oc=5",
+       "nl": null,
+       "id": "8f959f40deeb",
+       "k": [
+        "국방 AX"
+       ]
+      },
+      {
+       "d": "2026-11-04",
+       "t": "RAM-C AI 에이전트 기술개발 착수",
+       "s": "대한민국 정책브리핑",
+       "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenA4ajI5a3FxYUZ5ZFY1SVp2MzNFalFIUnFzWHZMVWVVbl91RUNYRHFGdjNPNnN2eXF3RzVyb1JwbVRveUFUZ0d6SHVHOXlyZU90OWxHR1dCczhXcERuNS1sTHBfdmVFdzg4c0cyazIteDF0d1VabzNNWWk3bmFUUTkwUm11aUZ0YzhxbjMyenQxdw?oc=5",
+       "nl": null,
+       "id": "2462bc62b857",
+       "k": [
+        "RAM-C",
+        "에이전틱 AI"
+       ]
+      },
+      {
+       "d": "2026-11-04",
+       "t": "RAM-C AI 에이전트 R&D 착수",
+       "s": "기계신문",
+       "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpaTVQcjl4a1hBbkpfUUpMWG50aFpnVUdLX3ZxRUNmZVBhY21pd1MzYk9uNzcxeTFuZVp1dFJXMFRMYlY5OEctekl1cnotR29wYUx4SXNNWHlOWkdxR29BMXNOLXhjZw?oc=5",
+       "nl": null,
+       "id": "7ae483499682",
+       "k": [
+        "RAM-C",
+        "에이전틱 AI"
+       ]
+      },
+      {
+       "d": "2026-11-04",
+       "t": "300억 투입 군수체계 AI 전환",
+       "s": "아시아타임즈",
+       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4c2ZhUHJnSEhzaDc1YUxLeDdHSEswRUlVQUFBN0tjNm1UbVEzQzNXdGVKRTFYeTh4TXR2NndhUl9QUl9SSkltZlRGN01SV2M0QWRka0lUS3cxOEp2d0E?oc=5",
+       "nl": null,
+       "id": "0992578c480f",
+       "k": [
+        "국방 AX"
+       ]
+      }
+     ],
+     "n": 5,
+     "since": "2026-04-30",
+     "terms": [
+      "RAM-C",
+      "에이전틱 AI",
+      "국방 AX"
+     ]
+    }
+   },
+   {
+    "no": 4,
+    "cat": "미국 부품관리",
+    "head": "F-35 부품 추적 미흡",
+    "points": [
+     "GAO, 부품 기록 완전 유지 못해",
+     "부품 약 2,600만 개·310억 달러",
+     "국방부 감독 강화 필요 지적"
+    ],
+    "icon": "data",
+    "refs": [
+     8,
+     12
+    ],
+    "ids": [
+     "d3a1239d68b5",
+     "28599fa6111d"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-07-28",
+       "t": "GAO, OMB의 AI 프라이버시 가이드라인 대응 \"지연\" 지적",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/gao-official-omb-lagging-on-ai-privacy-guidance/",
+       "nl": 64,
+       "id": null,
+       "k": [
+        "GAO"
+       ]
+      },
+      {
+       "d": "2026-08-21",
+       "t": "GAO, 육군 차세대 지휘통제(NGC2) 사업 비용·일정 관리 미흡 지적",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/gao-army-lacks-cost-schedule-detail-for-battlefield-network-modernization/",
+       "nl": 68,
+       "id": null,
+       "k": [
+        "GAO"
+       ]
+      },
+      {
+       "d": "2026-08-27",
+       "t": "미군, 중국 항모·마약 비행장 포착에 상용위성 활용…GAO \"우주군, 상용정보 활용 미흡\"",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/technology/2026/08/us-military-bought-commercial-satellite-images-alleged-narco-airstrips-chinese-naval-fleet/415684/",
+       "nl": 68,
+       "id": null,
+       "k": [
+        "GAO"
+       ]
+      },
+      {
+       "d": "2026-10-07",
+       "t": "미 회계감사원(GAO), 연방 IT 대시보드의 위험도 평가 부정확 지적",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/gao-federal-it-dashboards-risk-ratings-are-often-inaccurate/",
+       "nl": 74,
+       "id": null,
+       "k": [
+        "GAO"
+       ]
+      },
+      {
+       "d": "2026-10-16",
+       "t": "미 회계감사원(GAO), 2027~2032 전략계획에서 AI·사이버보안 감시 강화 예고",
+       "s": "MeriTalk",
+       "u": "https://www.meritalk.com/articles/gao-targets-ai-cybersecurity-oversight-in-new-strategic-plan/",
+       "nl": 76,
+       "id": null,
+       "k": [
+        "GAO"
+       ]
+      }
+     ],
+     "n": 38,
+     "since": "2020-09-02",
+     "terms": [
+      "F-35",
+      "GAO"
+     ]
+    }
+   },
+   {
+    "no": 5,
+    "cat": "정비인력",
+    "head": "미 육군 정비창 인력 계약",
+    "points": [
+     "Amentum, 6억 900만 달러 수주",
+     "육군 정비창 인력 지원 계약"
+    ],
+    "icon": "money",
+    "refs": [
+     9
+    ],
+    "ids": [
+     "ee6491268e64"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": []
+    }
+   }
+  ],
+  "recs": [
+   {
+    "t": "부품 기록 정합성",
+    "d": "F-35 사례 참고, 수리부속 이력 관리 점검"
+   },
+   {
+    "t": "RAM-C 데이터 연계",
+    "d": "신뢰도 예측에 군수 빅데이터 연계"
+   },
+   {
+    "t": "정비인력 수요 예측",
+    "d": "민간 거점·인력 지원을 반영한 수요 산정"
+   }
+  ],
+  "h": "13bce7988f",
+  "at": "2026-11-10 04:09",
+  "n": 14
  }
 }
