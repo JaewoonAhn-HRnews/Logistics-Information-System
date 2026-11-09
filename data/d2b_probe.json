@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09 00:36",
+ "at": "2026-11-09 10:12",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
