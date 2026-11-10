@@ -2,6 +2,330 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "06d2320ac3d8",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T01:38",
+   "title": "[조달계획] 군 장비정비 및 군수품 원가계산 용역-004",
+   "source": "국방전자조달(D2B) · 육군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군군수사령부 · 용역 · 제한경쟁 · 발주예정 2026.11 · 공고중 · 판단번호 46069",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "c69fdeb836f2",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T01:38",
+   "title": "[조달계획] CCTV 외주정비(정통대대)",
+   "source": "국방전자조달(D2B) · 공군제15특수임무비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제15특수임무비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 46358",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "80f318f89cd4",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T00:41",
+   "title": "Pentagon can’t track millions of F-35 spare parts, watchdog finds",
+   "source": "Defense News",
+   "url": "https://www.defensenews.com/pentagon/2026/11/10/pentagon-cant-track-millions-of-f-35-spare-parts-watchdog-finds/",
+   "lang": "en",
+   "summary": "The GAO reported that while the DoD's F-35 program \"is the costliest in its history,\" the department \"struggles to account\" for its parts.",
+   "score": 5.0,
+   "also": [
+    {
+     "source": "SSBCrack",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTdRWE1ZLTBnM1hYWDNEM0ppa1VHdkRCbGo3cFZKeWJpbXVYd1FFdVBFLWZ0Zm4zVXdoa185dmNRLTJaZk0yREFPNlpkNmJPZHZWNTd0OVpZZGtRWWRBMlNfQ2VPcnVjRXBnaFh5cWdpR3pJb1RZV2ozR0NwdDdhSktPQXhKMFFiSFZzQklXZ3pYSS04b2pSYUw4MDJicXVsS251Ug?oc=5",
+     "title": "Pentagon Struggles to Track Billions in F-35 Spare Parts, GAO Report Reveals"
+    }
+   ],
+   "origin": "rss",
+   "src": "defensenews",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts",
+    "policy"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "policy"
+  },
+  {
+   "id": "b83364ba2241",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T00:19",
+   "title": "F-35: U.S. Loses Track of 26 Million Stealth Fighter’s Spares Valued at $31B. Drives Up Costs, Lowers Fleet Availability",
+   "source": "EurAsian Times",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX1dHeThfVHhvOHdrSXVaUDJEMXBIa1pYWldlZVJ5ZnJ5bF9LR1BncnFyRzUtbGdIa1RUalplWmwzcVVkSkszV0JjbWZXOC1xNFE0d2VHc0hmbmxNVWZLX2NsVHlYbFYyZ3JoVXRZa01WSmNodDVlZWVhU3VfQ0FvMNIBgAFBVV95cUxOX1dHeThfVHhvOHdrSXVaUDJEMXBIa1pYWldlZVJ5ZnJ5bF9LR1BncnFyRzUtbGdIa1RUalplWmwzcVVkSkszV0JjbWZXOC1xNFE0d2VHc0hmbmxNVWZLX2NsVHlYbFYyZ3JoVXRZa01WSmNodDVlZWVhU3VfQ0FvMA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "GAO weapon system sustainment",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "ecfd749330cd",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T23:31",
+   "title": "GAO: Pentagon Records Miss $1.3 Billion in F-35 Parts as Fighter Readiness Falls to 44%",
+   "source": "Military.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeS15NF9FazlESnRBbDZpcDdZYTFiVl9NZmF1dEZsZGUyekZtSktYRVZtNjlSWFVocVpzS0piNWk1b0pFbGlUNTZ3eVRoZmRpOFFsbndyS3Y2cEl4ckpEMG94NFZ2QmxEVnVZdmtSeFVQbmt0R21KOTJWNm1sNzU0MG9ZM0h6NEczam9vWDJBd2ZPbnFCdzBTWE1aeXdFT0tWYUFvLUJlVnI2ejZ0WVN0Vkp2cw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "ram",
+    "parts",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
+   "id": "865e027f0158",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T22:24",
+   "title": "Burjeel highlights UAE healthcare readiness experience at 46th World Congress of Military Medicine",
+   "source": "www.wam.ae",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTEJyeUlYX2V4UEtzVkMzTFdaVFMxc1NNYVZEblplQ3RjNnlaNzFTYjdfMFU1OS1SSkY5OF9nYUZGalR1clFRcm0taGR3OXAxV19uTV82NGxTcXNQQk1SOVM4TmUxMWxJeDFobkpQMUtEMkw0QWNwdjRMN3k3dVk3TmV1RV9Iam1G?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "171be799f94e",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T21:13",
+   "title": "Minister for Defence Readiness and Industry Luke Pollard MP's speech at ISPC 2026",
+   "source": "UK Ministry of Defence",
+   "url": "https://www.gov.uk/government/speeches/minister-for-defence-readiness-and-industry-luke-pollard-mps-speech-at-ispc-2026",
+   "lang": "en",
+   "summary": "Minister Pollard highlighting the increasing importance of the Maritime industry in an era of intensifying strategic competition.",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukmod",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "54ac61af6de0",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T19:28",
+   "title": "Pollard calls for interchangeable northern European navies",
+   "source": "UK Defence Journal",
+   "url": "https://ukdefencejournal.org.uk/pollard-calls-for-interchangeable-northern-european-navies/",
+   "lang": "en",
+   "summary": "Luke Pollard, Minister for Defence Readiness and Industry, has called for Joint Expeditionary Force nations to join up their defence supply chains. The post Pollard calls for interchangeable northern European navies first appeared on UK Defence Journal .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukdj",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "cd834c97cc94",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T18:42",
+   "title": "U.S. Air Force’s New Sustainment Plan: Copy U.S. Navy",
+   "source": "Aviation Week",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYXY0SkhXTGU0eGV1b1dsWXRJNEF1NWV5TGRGeVc2Q01USFJFckVGVnlWSkZJSmdDdHpnUnJFajhzdWt2dGQwSHZGdFZQeWR3VWFxMHRMOWVFUndId3prb1BGT3JXZEltenE0SjRtbjlGQ29nd2JYeU5MTVhuS1pERC1JX0tZWGtpNndZY3ZxbWhWb0ZTVHZjTkhNem1sNGZaVFE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a6abcf6214db",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T14:24",
+   "title": "Illinois Army National Guard Medics Sustainment Training",
+   "source": "Illinois National Guard (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBERWE3SnhtQV9KOHFKTjhfcmZ3bTliZFpFY1VlUFIyamNnXzlpZ3hrcWhaZGFrcXAxYmJ3ZzVkOXpFOVhxUlBGa0t6bVhqRkx6Q2lZdGJxTXFDdkRnVl9JbnJJdG5qaWtFbHdR?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "45f796221d10",
    "date": "2026-11-10",
    "ts": "2026-11-10T12:48",
@@ -167,6 +491,114 @@
    "desc_tried": true
   },
   {
+   "id": "036d306cdd09",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Cht Pump Overhaul Kit For The Uss Frank Cable (As40)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d99c1d5a535641639a2d36d50db19741/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · N4044627Q0001 · DEPT OF THE NAVY > MSC · 마감 2026-11-16",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "27ee1281a5ca",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Army Contracting Command – Red River Army Depot (Acc-Rrad) Organic Industrial Base (Oib)  Modernization Commercial Solutions Opening (Cso)",
+   "source": "SAM.gov · DoD",
+   "url": "https://sam.gov/workspace/contract/opp/ca3fcb6c6eb8431b8bad639f69f0a9a1/view",
+   "lang": "en",
+   "summary": "Special Notice · W911RQ-27-S-C001 · 마감 2027-09-30",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "24d27e4200b5",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "An/Spy-6(V) Fy27-Fy36 Hardware, Production, And Sustainment",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/6dd1538f5bd04312b6c6b40783f113cd/view",
+   "lang": "en",
+   "summary": "Presolicitation · N6175027R1402 · DEPT OF THE NAVY > SPAWAR · 마감 2026-11-24",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "67e84f2724cd",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Enterprise Workspace Management Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/11970aad794f4182913cf7dee0da7044/view",
+   "lang": "en",
+   "summary": "Sources Sought · N00024-27-R-0200 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-04",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
    "id": "191c71333d3b",
    "date": "2026-11-10",
    "ts": "2026-11-10T06:22",
@@ -191,6 +623,40 @@
     "미 육군"
    ],
    "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "58c2d2e64e94",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T05:24",
+   "title": "Army medical maintainers support joint force readiness through quick-turn repair",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1ZpUGxXVGpXd24zOTNpRks3QXZZZ1g5em1IVmItcndOSVFvODZKdjRWY1ZaMVpXWjYzOEUtUFJ1SEZnRk5rWV93Vk9uUU9wR2hpX0tDYnNKZ1U2UFVCNmJHd3V3UDI5QS0zUVNjMlc0UnE5LUtmWkdCREZpWnB6YVFxRlE3RElnWmR4aWxMZ1JmNkZQaEJ1S3ZpUmJZUFg3UEo3a0dPc0JvQ2NzZ1BGcDNCcDllNWvSAbwBQVVfeXFMT21Hd1VUNDFkU0ZRMWNnOUwxdUlhXzVad0RfcDFROGE1WFhMYWtXYnM1WnduR0M4RUY0Y0s4Vk1mTWtZME9JR2RKVTFWVGU3UndlUElmZFZLcm4zLTYydW9vZDdKcEgzcldjcHlWWkFZdHkzcXdkT2VqcUZWOGNJNU1OM3ctYTVJWEZUc3NmZHhpVHE4ZHpLNWt0TmRsVEtJS3d6R0V5RGNXcnFUOC1RTm83dmc4emt6TkdFRzM?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram",
+    "manpower"
+   ],
    "region": "us",
    "domains": [
     "wpn"
@@ -444,6 +910,11 @@
      "source": "주간한국",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HZkJFUi00TWRna2lYcC1tUVowUmtxWXZUcVNZX0hycV8zLURSZDFicjZSdGFSWjllbFRGLXB5NjBtVW5NOUR6VUZtNjd3M3Npc0pxRTZZVzVXdTlnTzA4cWdIMlE1LXlkbDk4dmZvbkVyUlJt0gF0QVVfeXFMTkdmQkVSLTRNZGdraVhwLW1RWjBSa3FZdlRxU1lfSHJxXzMtRFJkMWJyNlJ0YVJaOWVsVEYtcHk2MG1Vbk05RHpVRm02N3czc2lzSnFFNllXNVd1OWdPMDhxZ0gyUTUteWRsOTh2Zm9uRXJSUm0?oc=5",
      "title": "한화에어로·육군, 동부 야전정비센터 추가 추진…K-MRO 거점화 ‘구상’"
+    },
+    {
+     "source": "서울경제",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TdGhzWUFkeG0wcElRUHpTOFZFS3g1d0tndGlSTV93LW9GNkNXNnZERmlCNmxqLXZRNmowQzNWUlRGcEx6dV80M2ZPWjVJQ3lucXfSAVNBVV95cUxPeE1CLTRmcjcyYi1uMXVYYXp5Uk9TSHpDN3VFTTc3TWtuQnpUNFlVNXNkbndmZUV3bnFFUHB0Ny05OTlXT1dRRm9FaG53a3hUeEJndw?oc=5",
+     "title": "한화에어로-육군, 야전정비지원센터 추가 건립… K방산 수출 강화 협력"
     }
    ],
    "origin": "rss",
@@ -609,6 +1080,11 @@
      "source": "디일렉",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3WlVnVjVJcEFkeEs4ZVF4LTF0NDFlb3dXcEV4dTdpNDFvMjZIWkJLeF8yV2R3YVpqQVJ0OGN6U2poWWZIYWVrT29CTEZuWUw4Ynh6TDkxaFo5eEM5ZGU4MDZBbmQwQQ?oc=5",
      "title": "한화에어로-육군, 수출 무기 MRO 지원망 확충"
+    },
+    {
+     "source": "www.ebn.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaVExTOEVLdVVrd2ppT2NYeUxHdG9SbUJrTm1vRGlQMnJGRGpqVml2Y3B0M3RQel9PZlFPVW9hR1VjOHY2andPM05JdTJnOVh5S19CS1o5ZGZSdExWamc0Z1YweFIxMVpQ?oc=5",
+     "title": "한화에어로·육군, K-방산 'MRO 거점' 확대 추진"
     }
    ],
    "origin": "rss",

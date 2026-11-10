@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10 12:48",
+ "at": "2026-11-11 01:38",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -41,18 +41,19 @@
      "spcifyPrcureAt": "N"
     },
     {
-     "beffatStndrdOthbcAt": "미공개",
+     "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
-     "cntrctMth": "일반경쟁",
-     "dcsNo": "46275",
+     "budgetAmount": "368192327316",
+     "cntrctMth": "수의계약",
+     "dcsNo": "7560",
      "demandYear": "2026",
-     "excutTy": "구매",
+     "excutTy": "제조",
      "orderPrearngeMt": "202612",
-     "ornt": "해군군수사령부",
-     "orntCode": "SCF",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "판넬조립체 1종 구매",
+     "reprsntPrdlstNm": "26년 155mm 추진장약 K677",
      "spcifyPrcureAt": "N"
     }
    ]
