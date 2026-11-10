@@ -1,35 +1,19 @@
 {
- "at": "2026-11-10 04:08",
+ "at": "2026-11-10 12:48",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>338584500</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>7150P</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearn",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>462225810</budgetAmount><cntrctMth>일반경쟁</cntrctMth><dcsNo>7720L</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearn",
    "sample": [
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
-     "budgetAmount": "338584500",
-     "cntrctMth": "수의계약",
-     "dcsNo": "7150P",
-     "demandYear": "2026",
-     "excutTy": "제조",
-     "orderPrearngeMt": "202612",
-     "ornt": "지상공통전력운영계약팀",
-     "orntCode": "EBB",
-     "progrsSttus": "원가계산중",
-     "progrsSttusCode": "26",
-     "reprsntPrdlstNm": "40밀리 고속연습탄 KM385(KB576) 링크결합체(방산)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "공개",
-     "bidMth": "총액제",
-     "budgetAmount": "15872122040",
-     "cntrctMth": "수의계약",
-     "dcsNo": "7150H",
+     "budgetAmount": "462225810",
+     "cntrctMth": "일반경쟁",
+     "dcsNo": "7720L",
      "demandYear": "2026",
      "excutTy": "제조",
      "orderPrearngeMt": "202612",
@@ -37,7 +21,7 @@
      "orntCode": "ELA",
      "progrsSttus": "원가계산중",
      "progrsSttusCode": "26",
-     "reprsntPrdlstNm": "26년 40mm 이중목적고폭탄 등",
+     "reprsntPrdlstNm": "26년 탄약류  파라핀지환통",
      "spcifyPrcureAt": "N"
     },
     {
@@ -51,9 +35,24 @@
      "orderPrearngeMt": "202612",
      "ornt": "화력총괄계약팀",
      "orntCode": "ELA",
-     "progrsSttus": "원가계산중",
-     "progrsSttusCode": "26",
+     "progrsSttus": "조달판단완료",
+     "progrsSttusCode": "22",
      "reprsntPrdlstNm": "TMMR(K9A1자주포용)",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "일반경쟁",
+     "dcsNo": "46275",
+     "demandYear": "2026",
+     "excutTy": "구매",
+     "orderPrearngeMt": "202612",
+     "ornt": "해군군수사령부",
+     "orntCode": "SCF",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "판넬조립체 1종 구매",
      "spcifyPrcureAt": "N"
     }
    ]
@@ -165,8 +164,8 @@
      "bidMth": "총액제",
      "budgetAmount": "0",
      "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-A-00부대 건설사업관리용역(A298)",
-     "cntrwkNo": "2026-17497",
+     "cntrwkNm": "26-D-실내사격장 신축 등 2건 건설사업관리용역(B037)",
+     "cntrwkNo": "2026-17681",
      "cntrwkSe": "감리용역",
      "orderPrearngeMt": "202611",
      "ornt": "국군재정관리단",

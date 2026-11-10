@@ -2,6 +2,203 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "45f796221d10",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T12:48",
+   "title": "[조달계획] 전산운영용품 구매",
+   "source": "국방전자조달(D2B) · 국군제1386부대",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군제1386부대 · 구매 · 수의계약 · 발주예정 2026.11 · 공고중 · 판단번호 46289",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bd2b8c6a5d3f",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T12:48",
+   "title": "[조달계획] 부품-12 시험대 액체냉각장치용 외주정비",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 46286",
+   "score": 6.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e878123a23fa",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T12:48",
+   "title": "[조달계획] 진동측정기 수리부속 구매",
+   "source": "국방전자조달(D2B) · 육군항공사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군항공사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 46259",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b3c22faef87e",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T12:23",
+   "title": "한남대, 전국 5개 국방 AX 거점 인프라 구축 완료…고성능 GPU·보안형 AI 플랫폼 운영",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XNkVEbUQ4TERSQ2FWbjd0U01YaVdkbWNINFdRV3RsOVF4aGp3bExwdUYyOXNYbVJDRjhobUttWnNpZV9lSkdnZy0yd2ZrZw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "국방 AX",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "6940aadc5c3d",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "K-방산, 수출 이후 MRO가 경쟁력…육군·한화에어로, 글로벌 MRO 사업 협력",
+   "source": "뉴스투데이",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jcl9FYjZCVEZVR2dlemliOVNja2VPeVhNeUU1VTU5UDlTNXMwZzJIOExIT1JlUkFfbzA5TkhLUExkcFlObnVUMXYxTDJHenE4VzZrbHlkR1FpMkhVaEE?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "후속군수지원 계약",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "191c71333d3b",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T06:22",
+   "title": "James, Schelling earn Tobyhanna Army Depot Employee of the Quarter honors",
+   "source": "Tobyhanna Army Depot (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUmNOQmc0SzhtMEZCMkhtSi15eUo0VVo1MndyVXM4enJ2am5UN0NYYUZQYVQyYkhGR0xocjRFS2d5TnZNaVcwdlh3LWpxU2pBc0V2b0pFbDFmbUlWOURYLVpoejhXSHhvNDl6Y2QtUk5mVE11c1JsYl85R3dtWGtwZS10ejhhT1JIUFhnT3lTTXhjelRaaloyTF8wblRwcXRwS3NtWFdLTTRmbDdkcEp6SHFSM2NBY1NCdmVoSUthSHcwQnVWNzVaSHMyaWloTmZ6VF8wa0NVajg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "1752b0e1e2f5",
    "date": "2026-11-10",
    "ts": "2026-11-10T04:08",
@@ -62,8 +259,14 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXhqUms5dW8zQ21ma2FtR2k2WU1BXzNaYUV3bWJkZ1ZCNnJMUU1VZEVHOFBrRndnTlVMVlRJSXFldzNsWkhwRkpOcHBhWnVjUlRUSjR2aHo0RkhVUi1fLWxMMlJNNi0yVEE1M3h1R24xbjJoT2g4NzFIQ1hBd3F3RWVfT3pjQkNXMWpGN05tcTVHbTktd0V6TXUzNUh3VE9XcG04ajNTcTU1Yk9tMVdyTGllZmFCWG5MMEE?oc=5",
    "lang": "en",
    "summary": "",
-   "score": 3.5,
-   "also": [],
+   "score": 5.0,
+   "also": [
+    {
+     "source": "Breaking Defense",
+     "url": "https://breakingdefense.com/2026/11/pentagon-cant-track-thousands-of-f-35-parts-gao/",
+     "title": "Pentagon can’t track thousands of F-35 parts: GAO"
+    }
+   ],
    "origin": "rss",
    "src": "natdef",
    "hint": "us",
@@ -148,6 +351,38 @@
     "wpn"
    ],
    "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "4bf17f297044",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T19:17",
+   "title": "Robust defense readiness for Israel",
+   "source": "www.israelhayom.com",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBERnFaanBCZjRRdmRXd1h2SHhmYlN6cjBHMnFlTjNZZGk3WHdPaXNwenFtT3VtWS1BbS01dmRJMVlFMjBpMnhpd21QZ25GSnZTcS1VSVRxOHFxWi1TTWtPaWY4MDc1NzRCenctY2phVjhxMmo5elJrN193bWJrdw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military supply chain artificial intelligence",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
    "desc_tried": true
   },
   {
@@ -777,6 +1012,209 @@
     "wpn"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "dabe4c438473",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Red River Army Depot Sale Of Scrap Material Bailed White Paper",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/c7c937e85af84ad0bf3bbae8cce89e8c/view",
+   "lang": "en",
+   "summary": "Solicitation · W911RQ27QSP03 · DEPT OF THE ARMY > AMC · 마감 2026-12-01",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b83dc87fcaeb",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Maintenance Support On (1) Mtu Diesel Generator, (1) Kohler Diesel Generator, And One (1) Caterpillar (Cat) Diesel Generator",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c13bfbaac9d2455da93ae9e29cbda29a/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · N6600127Q6004 · DEPT OF THE NAVY > SPAWAR · 마감 2026-11-18",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "aef683962a17",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Enhanced Army Global Logistics Enterprise 3.0 (Eagle 3.0) Program Announcement",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/bc03a7ee0cf14a57947879fb3dbf7368/view",
+   "lang": "en",
+   "summary": "Special Notice · DEPT OF THE ARMY > AMC",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "96db21f11e10",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Nr Seal Overhaul Kit",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/adbf1ddf494d443ab5601f26f868eea9/view",
+   "lang": "en",
+   "summary": "Award Notice · SPMYM227P0192 · DEFENSE LOGISTICS AGENCY > DLA MARITIME",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "80b8be27f456",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Gutter Cleaning And Maintenance Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/a433eaaab33441b4a52db63e61d44fe2/view",
+   "lang": "en",
+   "summary": "Solicitation · N4008527R0033 · DEPT OF THE NAVY > NAVFAC · 마감 2026-12-11",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "cdbab1d14281",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T09:00",
+   "title": "Enterprise Cloud Support Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/9281498161a040dab2e8c728b87a8e97/view",
+   "lang": "en",
+   "summary": "Solicitation · N0018926RL011 · DEPT OF THE NAVY > NAVSUP · 마감 2026-12-11",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b23d1ac8e18d",
+   "date": "2026-11-09",
+   "ts": "2026-11-09T08:44",
+   "title": "DLA Forges New Weapons Support Command to Sharpen Global Readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRDNDUFJsY0NjTUNZcWVPYmQ0SzVFdFZJTldRUGRKd1p1UTlwUnk2RVpfYy1vb2pmWEN6RzNYZjNBV1FpQjM2N1YxRG1oQ3lHelV0UzB4aTdieUh1NGpCMWRuSFhWWUZaMlA3c3B0ejBzYmJyYmNYdnNERUFhUUpiaWc4cEd0LVp0b3ZWOGlTRVdtc0dPYl9La3V3NGIwOE1SMXNwbkRWWHhCczNpVmpqQ1diVTdBNE9QdGd2aVdWUWxZOHBKYXlUWk5fajlRU2wzVkF0NQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "2fed98249eed",
