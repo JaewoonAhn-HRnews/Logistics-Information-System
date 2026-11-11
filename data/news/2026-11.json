@@ -2,6 +2,103 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "e61499b71b1a",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T10:29",
+   "title": "[조달계획] '26-9차 통신전자장비 외주정비 용역(CCTV 입고정비)",
+   "source": "국방전자조달(D2B) · 제50보병사단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제50보병사단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 46380",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "db18509e3c3a",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T08:04",
+   "title": "Army Reserve medical training site strengthens Total Army nursing readiness at Fort Gordon",
+   "source": "U.S. Army Reserve (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZmN2cEtPcEFvalViUmxINDFXcVpDcWR2akJZem40akhQLVJMNGlIQnprTFdQZ255NWJiUGw2YnhSa01yaDRLMUt4V28tY2JJX3h6VkU1UEFnc21LWDlROU1JWmNfYU90N3RDcXFwbFVzdGxVQW5HNnVjdHJJOWtwd2k1bHBWSENjU0QzcThDc0dNSi16Q1R4MFpRV01hdENtR3VqUUNqeHVzckliWlRaWUdfVE5fQlkzdEJFREc4VjY5TV9fRnZwUE1xYTQwLU1IMWhmaEVB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "d205b8670cd6",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T02:02",
+   "title": "F-35 parts tracking failures threaten jet readiness, GAO warns",
+   "source": "The Defence Blog",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3RJR18yY0o4T1dUTGNsN0VJRlVoUi12a0w5eXZjeEozSnlwNFh2ZHFXRGFSWEVMcExwQTNTTWJuWHNvRl9qeXBsTXBLZWtVajkyVFNNSDVENnE1WWoweHh2c1RUWGdSM0ZSalF5Y1ZCQkZqQncwMDA5eXRKbmpXWkpsMktPb2o2T3o4dkl4cmLSAZYBQVVfeXFMTU9pajNIZUZ5UUNhajZDU2VhZ19BQTdtcTdhVzczU0dpU1pBbmN2S0xZZmM1QVdLeVI1U3dTQnpfWmJjM1paMzhEaHl2c3FDdDRrLUlQQUlEREw1dUxDZTVfYTNCMlVmNnVUUml3d1ZRUXpQRndwdHp1UHdEekd3WlU2MWdBdFREalpaRWhFUmpGWjdZSFdn?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "ram",
+    "parts",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
    "id": "06d2320ac3d8",
    "date": "2026-11-11",
    "ts": "2026-11-11T01:38",
@@ -599,6 +696,203 @@
    "kind": "contract"
   },
   {
+   "id": "d28b5f7a1931",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Idiq Tree Maintenance Services, Beaver Project Office",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/af7fbac76af9454eb0c89777e3a6fe26/view",
+   "lang": "en",
+   "summary": "Award Notice · W9127S27DA001 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "42eea65d12fa",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Corpus Christi Army Depot (Ccad) Oxygen Tank Rental",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/af6381f566a64783a45c49e53d4fcac7/view",
+   "lang": "en",
+   "summary": "Solicitation · W912NW27RA001 · DEPT OF THE ARMY > AMC · 마감 2026-11-18",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "41d1523f4cfd",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Mercedes Benz Dump Truck, Spares & Training",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/aaa856a334c8482b93f30423ed95374b/view",
+   "lang": "en",
+   "summary": "Solicitation · W912CH-27-Q-A025 · DEPT OF THE ARMY > AMC · 마감 2026-12-11",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "91440a71d318",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Intent To Sole Source:  Preventative Maintenance Services For Base 12-Month Period And Four (4) Optional 12-Month Periods For A Total Of Five (5) For J850 3D Printer Manufactured By Stratasys, Inc.",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/a0bd7ebafac94c11b808c7e59e7ab40c/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W911QX-27-Q-A010 · DEPT OF THE ARMY > AMC · 마감 2026-11-17",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b12a97da4291",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "417 Scms Landing Gear Depot Support (Lgds)",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/8f25163f92414f3fb539446fa926f000/view",
+   "lang": "en",
+   "summary": "Sources Sought · SPRHA1-27-R-LGDS · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2027-01-11",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e2e9ad8972d8",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Mro Northwest Region Spe8E327D0001",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/638f7cea62bf4e7ab59b847b41d33033/view",
+   "lang": "en",
+   "summary": "Justification · SPE8E327D0001 · DEFENSE LOGISTICS AGENCY > TROOP SUPPORT CONSTRUCTION & EQUIPMENT",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "16cc8e30148f",
+   "date": "2026-11-10",
+   "ts": "2026-11-10T09:00",
+   "title": "Enterprise Software And Sustainment Indefinite Delivery Indefinite Quantity (Idiq) For H-53, H-60 And Presidential Helicopter Fleets",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/625d5d537c4f4cd9a8e48e822881af10/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-26-RFPREQ-APM261-0102 · DEPT OF THE NAVY > NAVAIR · 마감 2026-11-25",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "191c71333d3b",
    "date": "2026-11-10",
    "ts": "2026-11-10T06:22",
@@ -915,6 +1209,11 @@
      "source": "서울경제",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TdGhzWUFkeG0wcElRUHpTOFZFS3g1d0tndGlSTV93LW9GNkNXNnZERmlCNmxqLXZRNmowQzNWUlRGcEx6dV80M2ZPWjVJQ3lucXfSAVNBVV95cUxPeE1CLTRmcjcyYi1uMXVYYXp5Uk9TSHpDN3VFTTc3TWtuQnpUNFlVNXNkbndmZUV3bnFFUHB0Ny05OTlXT1dRRm9FaG53a3hUeEJndw?oc=5",
      "title": "한화에어로-육군, 야전정비지원센터 추가 건립… K방산 수출 강화 협력"
+    },
+    {
+     "source": "프라임경제",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zNkhkT1dOUDZWTXZOSzVHYVl0bUJieUN1TGdlUzZvU3VvaWtmYmhwbUhtLWZlVWJDXzR0QV9uLVA0MDBhWmlrSDVudEZrR0t5bjF5OFJXSkVHR0Eyb0dBQm42TnllVmRzbEZMUE1MREhqQQ?oc=5",
+     "title": "'MRO 확대' 한화에어로, 육군과 '야전정비센터' 추가 건립 추진"
     }
    ],
    "origin": "rss",
