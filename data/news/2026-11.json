@@ -2,6 +2,152 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "753d2874a87d",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T23:09",
+   "title": "Pentagon’s $31 bn F-35 inventory mess: Hong Kong parts diversion haunts Trump ahead of Xi meeting? | Hindustan Times",
+   "source": "Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNN3ZLYUM0VlkzWWY1c1d3cEpqWlBzRkJicGtfQTByNndXVEg4N09XeGJkTnJaRi1vMW1rMU9FMTJrTUZjcTNwZmwxTVktTDVhVUxnWWx1MlFBM3dtZEpteUNnMkVYbFN6MUJVQW1rV3pwMjdhLWg5bmdMWVhJMEZla2l4bjBUZ0diWTI3U3d4TGl1RmR3QkVDNlhWbzVudmNLTUVicHIxX2VKWmttbjdFcmVjNllkN0RSdGdkY0RkQmtXMUZXVXQ5S0FnNFh4ZjhDb3N1NWZnR3dQREUzVXMwT1F5UVNub0dONzlVUG5MdzBWLXU2T1l30gH8AUFVX3lxTE9fZUJvVEhIenh3UDJOdFRYQnBfZVdLLW5XaDFyeGxyQWhKbnptakdCLXFFSVVxWVYyRzBtcXFyNFFzSTNhZ0ptUGp4X1ZfQl8ycjJ1Vy1PVVBjdHFsNFowdkM5NHo0WnF1WHZFZnFGTUwwTkd5WFhDSERKd2RVaEp2SmRXNzBvdEFXV0l4al9BOWpzeUFmYVhSa2xEX1hUbFMzdW5aV3VOdDl2bk1BdWZEYnBPOGotYVZhbTNfb3ZUNHRWTmg5WVlYaFV0RFZlY1F1M1F6UXd3UkU2QnBPWks0dzc5NGh2Mnd0QjN1WWFZaFMxWGNVVzQ3dmk0Nw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "1564a83e5e2c",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T21:07",
+   "title": "Pentagon Lost Track of 17,000 F-35 Parts Worth $1.3B, GAO Says Inventory Data Can Lag Over 3 Months Behind Reality",
+   "source": "Defense Express",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUi1HTjY0d3JOOGV6RzZjdkNyTlNEeWppWV9KS3VOMGMxZWRVb3Rlc3haQy12Z004b2dLSDhhcXBRMElzaU9yd2xKdEJaZkh1Q2k2cnJHekE1Unc3V25UVjEwRU5BOTAwcE9LTFZVS0NOWDJCblU4MXUtWk5CTzVzMUxCMmhHQ3l1NUJqdHFaSXE1Rl9pbThhYTVyV09vYWVyNzBkeWZWUkpPWUN0LTRrT2EwMFItTWVUOVYtck9oZDU5YU05N0VXWFNNcmlDOGZ0SldydlNQVDIwTGNfcW1DVzkyek1aYVVNNW5maUg5RQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "parts",
+    "policy"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "lis",
+    "fcst"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
+   "id": "51f89a4cc48d",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T18:01",
+   "title": "'피지컬 AI' 핵심부품 3종 육성한다…내년 개발 본격화",
+   "source": "대한민국 정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05c0FWMEVnbzhteUMzbUNFd1Q1eWVVMWdFNWRBZzJoWXo0ZnNRWUNhRVU4NjdwSlJoRUkzd2VuN3ZORjVnQmMxTjhDQXU0bFpXRk1EZXVIUEdXdUhlQlRvNzBfcXRpN05lYVZfMA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "mnd",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ai",
+    "parts"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "db54a4b2580f",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T15:22",
+   "title": "F-35 ‘41조 부품’ 행방불명… 미 국방부 정비 부실·가동률 폭락 ‘사면초가’",
+   "source": "시큐리티팩트",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nTUdCM2Mwbm5LQW55VVN3UnJmS2FyWkJjcEhwTnJ5S3VYR3FKdlg1TUVUN0dYd0NabF9mVkNkcEpqbXc0V2t5ZzhFM21BR2dWZ2xNamtWb0hIc1pQWmVQdg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 9.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "성과기반군수지원 PBL",
+   "cats": [
+    "ram",
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "국방부",
+    "F-35"
+   ],
+   "axes": [
+    "ram",
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "e61499b71b1a",
    "date": "2026-11-11",
    "ts": "2026-11-11T10:29",
@@ -55,6 +201,34 @@
    "axes": [
     "ram"
    ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "3468cb4d6c61",
+   "date": "2026-11-11",
+   "ts": "2026-11-11T06:29",
+   "title": "Army Sustainment Command’s Hawley joins Senior Executive Service",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekNlTGNycFJ3R2czcGR6QkF4VWF6eko3TFVfRWE3X3ZsR1piYkp0RWp4UmdjWE5OWnhaNFFxRU16dDVxc295UER4enlidkNNSzNvVkJYN0I1UGN0VFVNdWhET3c0aUFoaTltTldnSFNqVkhOeGVYekMyUDQ2TjVMWVloaW5TcFpXMVhTMm1WNFRUTFlTdVRhdVRjZDlRajh60gGmAUFVX3lxTE1IQmVPRE9XRl90MkNKMEoyT0JPY3JrWkVHMm9QWjhzNnpoa0x4NXJubFlvdFhhS0JhZTNWWktMM2h0R2dhY3lRV2JyVTVodGVxNGRCMWZGbG1yUFBMQWl3NFZBVjN2REtaRmQwTHd1UFNRUXZyekxHZWMxUlRncDVnNmFFYU5GNE14QUMzaGZlNGZFc1RIMVEtVGExMFlPRHJqcDJWYnc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
    "region": "us",
    "domains": [
     "wpn"
@@ -432,7 +606,13 @@
    "lang": "ko",
    "summary": "국내 조달계획 · 국군제1386부대 · 구매 · 수의계약 · 발주예정 2026.11 · 공고중 · 판단번호 46289",
    "score": 2.5,
-   "also": [],
+   "also": [
+    {
+     "source": "국방전자조달(D2B) · 제11기동사단",
+     "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+     "title": "[조달계획] (26-물품-97) 26년 4분기 전산운영용품 구매"
+    }
+   ],
    "origin": "api",
    "src": "d2b-api",
    "hint": "kr",
@@ -1019,7 +1199,7 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXhqUms5dW8zQ21ma2FtR2k2WU1BXzNaYUV3bWJkZ1ZCNnJMUU1VZEVHOFBrRndnTlVMVlRJSXFldzNsWkhwRkpOcHBhWnVjUlRUSjR2aHo0RkhVUi1fLWxMMlJNNi0yVEE1M3h1R24xbjJoT2g4NzFIQ1hBd3F3RWVfT3pjQkNXMWpGN05tcTVHbTktd0V6TXUzNUh3VE9XcG04ajNTcTU1Yk9tMVdyTGllZmFCWG5MMEE?oc=5",
    "lang": "en",
    "summary": "",
-   "score": 5.0,
+   "score": 3.5,
    "also": [
     {
      "source": "Breaking Defense",
@@ -1214,6 +1394,16 @@
      "source": "프라임경제",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zNkhkT1dOUDZWTXZOSzVHYVl0bUJieUN1TGdlUzZvU3VvaWtmYmhwbUhtLWZlVWJDXzR0QV9uLVA0MDBhWmlrSDVudEZrR0t5bjF5OFJXSkVHR0Eyb0dBQm42TnllVmRzbEZMUE1MREhqQQ?oc=5",
      "title": "'MRO 확대' 한화에어로, 육군과 '야전정비센터' 추가 건립 추진"
+    },
+    {
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3aWtNelFGdnpZaDAxM28zNTFpUlVyc2c4akk0bGNmN056ZERlNEI5NGQ3SUZ1QXgzYlRhNXVwZWtfdllmcEtoTV8xMXItc3V5SHhjVkd1dFI4TlRXOTBmVTduVGw?oc=5",
+     "title": "한화에어로, 육군과 야전정비센터 추가 구축…해외 MRO 협력 확대"
+    },
+    {
+     "source": "글로벌이코노믹",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZWxwWVktOUttaGRiUmhTd1VZTVlCWF9IUTRQQTAtWWU1NjVweEpiTy1hLWZnM2tBRXRtMW10ODJMQnFxdkVlSnBhTjFPa0ZQb1QzX2lsaGUzZl9QR0dLU0d1cjI2bGdWeExvVE9KUFBSMWFzdWRoUFFWZW55RV9wNl9ieXFnUQ?oc=5",
+     "title": "한화에어로, 육군과 야전정비센터 추가 건립 추진…K-MRO 거점화"
     }
    ],
    "origin": "rss",
@@ -1340,6 +1530,11 @@
      "source": "더팩트",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xV0JrQUZKa3hGem1rM0FLSnZuU01xc1hrNDA2TUt3WWhlYjFPZ2ZLdUJzME1CSVVVaVZfQ0N5SjhSRjBFR1lqRFNKMmtBSGJrRVNVV9IBVEFVX3lxTE1xV0JrQUZKa3hGem1rM0FLSnZuU01xc1hrNDA2TUt3WWhlYjFPZ2ZLdUJzME1CSVVVaVZfQ0N5SjhSRjBFR1lqRFNKMmtBSGJrRVNVVw?oc=5",
      "title": "한화에어로·육군, 야전정비센터 확충…K-MRO 거점화"
+    },
+    {
+     "source": "디펜스투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBWTRoUU45aGhBU29OUGpEMk83aWh6REFoampadW9ab0p2c3dwaU9Sd3djN2t0ZkctaW9JMFpOZm8yNVRaNURfMkM4OXZPMjZtS2Q4M0xlUGVHSTBseHkyanpjM0JBcy16V2wyM09n?oc=5",
+     "title": "한화에어로스페이스-육군, 야전정비센터 K-MRO 거점화 추진"
     }
    ],
    "origin": "rss",
