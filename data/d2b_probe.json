@@ -1,13 +1,28 @@
 {
- "at": "2026-11-12 01:36",
+ "at": "2026-11-12 11:30",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>539792000</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>3020C</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearn",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>46953</dcsNo><demandYear>2026</demandYear><excutTy>용역</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "46953",
+     "demandYear": "2026",
+     "excutTy": "용역",
+     "orderPrearngeMt": "202612",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "27~28-F-항공무장효과분석모델 통합유지보수",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
@@ -38,22 +53,6 @@
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
      "reprsntPrdlstNm": "천궁II 교전능력향상 기술변경 적용(통제소)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "budgetAmount": "112519680",
-     "cntrctMth": "협상에의한계약(전자)",
-     "dcsNo": "46817",
-     "demandYear": "2026",
-     "excutTy": "구매",
-     "orderPrearngeMt": "202612",
-     "ornt": "제5738부대",
-     "orntCode": "SDF",
-     "progrsSttus": "공고중",
-     "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "26-N-00사 항공기 기내식 도시락 구매(26~27)",
      "spcifyPrcureAt": "N"
     }
    ]

@@ -883,8 +883,8 @@
        "id": null,
        "k": [
         "DLA",
-        "CDAO",
-        "GenAI.mil"
+        "GenAI.mil",
+        "CDAO"
        ]
       },
       {
@@ -895,8 +895,8 @@
        "nl": 72,
        "id": null,
        "k": [
-        "CDAO",
-        "GenAI.mil"
+        "GenAI.mil",
+        "CDAO"
        ]
       },
       {
@@ -937,8 +937,8 @@
      "since": "2025-05-21",
      "terms": [
       "DLA",
-      "CDAO",
-      "GenAI.mil"
+      "GenAI.mil",
+      "CDAO"
      ]
     },
     "tr": "감사 대비·AI 교육에서 데이터 원천 정비로 심화",
@@ -2153,16 +2153,92 @@
   "n": 40
  },
  "2026-W46": {
-  "core": "F-35 부품 추적 실패 경고, 데이터 기반 군수혁신 가속",
+  "core": "부품 추적 실패 경고, MRO·AI 전환이 군수 경쟁력 좌우",
   "themes": [
    {
     "no": 1,
-    "cat": "부품·재고관리",
+    "cat": "산업·수출",
+    "head": "한화·육군 K-MRO 거점 확대",
+    "points": [
+     "야전정비센터 추가 건립",
+     "후속군수지원 거점화 추진",
+     "수출 이후 정비가 경쟁력으로 부각",
+     "해외 MRO 협력 확대"
+    ],
+    "icon": "gear",
+    "refs": [
+     1,
+     2,
+     4,
+     10,
+     20,
+     28,
+     33
+    ],
+    "ids": [
+     "aed3f36ef3c4",
+     "2d4361af3e26",
+     "572d18e858be",
+     "1619c4326d6b",
+     "101e510e53e3",
+     "6940aadc5c3d",
+     "13de12f92ce7"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-11-02",
+       "t": "콕핏형 IBS 국산화 추진",
+       "s": "한국아이닷컴",
+       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KVHBRY2JPQnRNc0NjdGpFR3VpSmZ4MkE2cndCNmRDQThSVUFZem1rRjluckJQVGZuTUtxdlU4MHJsRnRfczc0Z1NTb2xxcTQySjkxeEczX2tMLURxY09MZUpXSkJMcGVQLTBJ0gFvQVVfeXFMTXlVdHkwd1VXRFdSaGx0RU85OHZjM08tR1FTeFNQQURwUXV0SmFNWHF5WGxreEJjUE5lX2FCYm1NNkRLZE9zRjFMZDRURnVCMWpIRXhoN20zMHlWTEVaOG5BV3VBOWRIdS1sVTNlSjhZ?oc=5",
+       "nl": null,
+       "id": "1f51e29d5f12",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-02",
+       "t": "스마트 함교 국산화 착수",
+       "s": "이뉴스투데이",
+       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QTkFtanFsT1VDNkFKMzBGNG9Wd1pXOHNIUmw3Ymw1UU5WT3IwTndSTjV1ckd3emIxODMtRUR4cWJpUEJOQlJLTXdmbDgxTGE2aWtXNTBadndnc19jdEkyb1c3eHFJbEl3cTVDeVl3azHSAXRBVV95cUxQM3pONU90R0Nxd3pzYjJtNkU1eXhEcGtOdEFRTzZSeFFuUFJoMkpkS2UybFZpTG9hLUcwVGo4TkVpaVdQb1I4MlN1bUc2dWVNVHpPa0dibDFNdUstcTR1QVlING95QWNpWmZwY0ptSy1BOWRVQg?oc=5",
+       "nl": null,
+       "id": "685b41d287ef",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-02",
+       "t": "콕핏형 함교체계 국산화",
+       "s": "PRESS9",
+       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MbGk5T1ZOMmQyVHFmOGpERDFkWmhVUW90bXFMQkNhTkdITmFYUW5tcmpmdjQ2Zk1idDNWbm0xOWJvOWRqeHBPNHJESEhHZnY3LUJyVHBCYkhwSmdWcFVIQXk4VHU?oc=5",
+       "nl": null,
+       "id": "7f86ebd03050",
+       "k": [
+        "한화"
+       ]
+      }
+     ],
+     "n": 3,
+     "since": "2026-11-02",
+     "terms": [
+      "한화"
+     ]
+    },
+    "tr": "함교체계 국산화에서 운용 후 정비 거점 확대로 이동",
+    "im": "거점 확대에 맞춰 정비이력·부품소요를 군수통합정보체계로 일원화해야 함",
+    "ah": "466b9974d9"
+   },
+   {
+    "no": 2,
+    "cat": "미국·부품관리",
     "head": "F-35 부품 추적 실패",
     "points": [
-     "부품 2,600만 개·310억 달러 관리 미흡",
-     "13억 달러·1만 7천 개 소재 파악 실패",
-     "재고 데이터 3개월 이상 지연·가동률 44%"
+     "부품 약 2,600만 개·310억 달러 규모",
+     "13억 달러·1만 7천 개 소재 누락",
+     "재고 데이터 3개월 이상 지연 가능",
+     "가동 준비율 44%로 하락 보도"
     ],
     "icon": "parts",
     "refs": [
@@ -2173,8 +2249,8 @@
      13,
      14,
      15,
-     17,
-     22
+     18,
+     23
     ],
     "ids": [
      "db54a4b2580f",
@@ -2252,93 +2328,20 @@
       "GAO"
      ]
     },
-    "tr": "GAO 데이터 정확성 지적이 F-35 부품 실태로 확산",
-    "im": "수리부속 재고 데이터 시차를 점검해 가동률 예측 신뢰도를 확보해야 함",
+    "tr": "IT 데이터 정확성 지적에서 부품 추적 실패 현실화로",
+    "im": "재고 데이터 지연이 가동률을 좌우, 수리부속 가시성·갱신주기 점검 필요",
     "ah": "7e91b1c61a"
-   },
-   {
-    "no": 2,
-    "cat": "정비·수출",
-    "head": "한화-육군 K-MRO 거점화",
-    "points": [
-     "야전정비센터 추가 건립",
-     "후속군수지원 거점화 추진",
-     "수출 이후 MRO가 경쟁력·해외 협력 확대"
-    ],
-    "icon": "gear",
-    "refs": [
-     1,
-     2,
-     4,
-     10,
-     19,
-     27,
-     32
-    ],
-    "ids": [
-     "aed3f36ef3c4",
-     "2d4361af3e26",
-     "572d18e858be",
-     "1619c4326d6b",
-     "101e510e53e3",
-     "6940aadc5c3d",
-     "13de12f92ce7"
-    ],
-    "arch": {
-     "l": [
-      {
-       "d": "2026-11-02",
-       "t": "콕핏형 IBS 국산화 추진",
-       "s": "한국아이닷컴",
-       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KVHBRY2JPQnRNc0NjdGpFR3VpSmZ4MkE2cndCNmRDQThSVUFZem1rRjluckJQVGZuTUtxdlU4MHJsRnRfczc0Z1NTb2xxcTQySjkxeEczX2tMLURxY09MZUpXSkJMcGVQLTBJ0gFvQVVfeXFMTXlVdHkwd1VXRFdSaGx0RU85OHZjM08tR1FTeFNQQURwUXV0SmFNWHF5WGxreEJjUE5lX2FCYm1NNkRLZE9zRjFMZDRURnVCMWpIRXhoN20zMHlWTEVaOG5BV3VBOWRIdS1sVTNlSjhZ?oc=5",
-       "nl": null,
-       "id": "1f51e29d5f12",
-       "k": [
-        "한화"
-       ]
-      },
-      {
-       "d": "2026-11-02",
-       "t": "스마트 함교 국산화 착수",
-       "s": "이뉴스투데이",
-       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QTkFtanFsT1VDNkFKMzBGNG9Wd1pXOHNIUmw3Ymw1UU5WT3IwTndSTjV1ckd3emIxODMtRUR4cWJpUEJOQlJLTXdmbDgxTGE2aWtXNTBadndnc19jdEkyb1c3eHFJbEl3cTVDeVl3azHSAXRBVV95cUxQM3pONU90R0Nxd3pzYjJtNkU1eXhEcGtOdEFRTzZSeFFuUFJoMkpkS2UybFZpTG9hLUcwVGo4TkVpaVdQb1I4MlN1bUc2dWVNVHpPa0dibDFNdUstcTR1QVlING95QWNpWmZwY0ptSy1BOWRVQg?oc=5",
-       "nl": null,
-       "id": "685b41d287ef",
-       "k": [
-        "한화"
-       ]
-      },
-      {
-       "d": "2026-11-02",
-       "t": "콕핏형 함교체계 국산화",
-       "s": "PRESS9",
-       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MbGk5T1ZOMmQyVHFmOGpERDFkWmhVUW90bXFMQkNhTkdITmFYUW5tcmpmdjQ2Zk1idDNWbm0xOWJvOWRqeHBPNHJESEhHZnY3LUJyVHBCYkhwSmdWcFVIQXk4VHU?oc=5",
-       "nl": null,
-       "id": "7f86ebd03050",
-       "k": [
-        "한화"
-       ]
-      }
-     ],
-     "n": 3,
-     "since": "2026-11-02",
-     "terms": [
-      "한화"
-     ]
-    },
-    "tr": "장비 국산화에서 정비·후속지원 거점화로 확장",
-    "im": "야전정비 거점과 국방군수통합정보체계를 연계해 정비인력 수요를 예측해야 함",
-    "ah": "0e5f69d629"
    },
    {
     "no": 3,
     "cat": "디지털 정비",
-    "head": "해군정비창 디지털 MRO",
+    "head": "함정 MRO 디지털 부품망",
     "points": [
-     "함정 MRO 디지털 부품망 구축 협약",
+     "링크솔루션·해군정비창 협약",
+     "디지털 부품망 구축 추진",
      "국방 3D프린팅 기술 고도화 MOU"
     ],
-    "icon": "ship",
+    "icon": "network",
     "refs": [
      8,
      12
@@ -2360,24 +2363,27 @@
    {
     "no": 4,
     "cat": "AI·데이터",
-    "head": "군수 AI 전환 가속",
+    "head": "군수 데이터·AI 전환",
     "points": [
-     "군수 빅데이터 RAM-C AI 에이전트 개발",
-     "국방 AX 거점 5곳·보안형 AI 플랫폼",
-     "AI 지속지원은 논리·데이터 체계부터"
+     "300억 원 RAM-C AI 에이전트 과제",
+     "AI 도입은 논리·데이터 체계부터",
+     "국방 AX 거점 5곳 GPU 인프라 구축",
+     "정부, 피지컬 AI 핵심부품 3종 육성"
     ],
-    "icon": "data",
+    "icon": "robot",
     "refs": [
      11,
-     20,
-     26,
-     33
+     21,
+     27,
+     35,
+     37
     ],
     "ids": [
      "ad6956a2b21f",
      "9a2d1a8d05ac",
      "b3c22faef87e",
-     "51f89a4cc48d"
+     "51f89a4cc48d",
+     "f6547985cb48"
     ],
     "arch": {
      "l": [
@@ -2442,36 +2448,41 @@
      "n": 5,
      "since": "2026-04-30",
      "terms": [
+      "국방 AX",
       "RAM-C",
-      "에이전틱 AI",
-      "국방 AX"
+      "에이전틱 AI"
      ]
     },
-    "tr": "과제 착수에서 거점·데이터 기반 구축으로 이동",
-    "im": "RAM-C 데이터 정제와 군수정보체계 표준화가 AI 신뢰도의 선결과제임",
-    "ah": "13cbebedd5"
+    "tr": "과제 착수에서 데이터·인프라 기반 구축 단계로 이동",
+    "im": "RAM-C AI 성과는 정비·고장 데이터 표준화 선행 여부에 달림",
+    "ah": "00a6113132"
    },
    {
     "no": 5,
-    "cat": "조직·계약",
-    "head": "미 군수조직·인력 재편",
+    "cat": "조직·인력",
+    "head": "정비 인력·지원조직 개편",
     "points": [
+     "美 공군 정비 인력 증원 약속",
+     "美 공군 정비 직무분야 내년 개편",
      "DLA 무기체계 지원사령부 창설",
-     "공군 지속지원 계획, 해군 방식 모방",
-     "육군 정비창 인력지원 6.09억 달러 계약"
+     "Amentum 6억 900만 달러 정비창 인력계약"
     ],
     "icon": "org",
     "refs": [
      16,
-     18,
-     29,
-     7
+     17,
+     19,
+     30,
+     31,
+     36
     ],
     "ids": [
+     "5ecd88689637",
      "cd834c97cc94",
      "ee6491268e64",
      "b23d1ac8e18d",
-     "58c2d2e64e94"
+     "3468cb4d6c61",
+     "191c71333d3b"
     ],
     "arch": {
      "l": [
@@ -2487,14 +2498,14 @@
        ]
       },
       {
-       "d": "2026-09-14",
-       "t": "미 국방병참지원국(DLA), 'AI 디지털 직원' 185~190개 봇 운영 — 우크라이나·이란전 교훈 반영",
-       "s": "Government Executive",
-       "u": "https://www.govexec.com/technology/2026/09/digital-employees-are-coming-defense-logistics-agency/415963/",
-       "nl": 71,
-       "id": null,
+       "d": "2026-09-23",
+       "t": "ASC의 남부 국경 임무 지원",
+       "s": "Army.mil",
+       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOWlhb3FYQkw3TERJLU1pTnZYWEFJUnNBaTBkTmpuU0Rpck9iNnFZejcySmpzSVNBOFU5bWhfS1RxaEoxVXNFckNoNmZQSmNVdXNIdWc3UFV3TW5ELVVWWHNlZ2drQ1h0cFFqVVFDQnZZTVYzZW40NXhlRWFvbzhBWkYzUGZVWnBfOVg3dnp4bWFrLXBNTDhr0gGcAUFVX3lxTE13NnQ2allOT0h5NDBCbUFqdGNOazNZMklsay16Mm9LMVlzX3QwZTY3WlV2MV9BZk05RHJrUWNVR2FfVjV2LURVOGh3YWpFRFBKU2RrOGhSWTYwWGdGSUI3SmFsS29Ja01hd3pORFhNOUFGY0hBM3BXM2NpY25LajB1UWlvOWZNSFZ5dUdBVFV6N2FaT2I5aWI0YndnbQ?oc=5",
+       "nl": null,
+       "id": "091dec4f69ce",
        "k": [
-        "DLA"
+        "육군 물자사령부"
        ]
       },
       {
@@ -2535,55 +2546,31 @@
      "since": "2026-04-14",
      "terms": [
       "미 해군",
-      "DLA"
+      "DLA",
+      "육군 물자사령부"
      ]
     },
-    "tr": "AI 활용 중심에서 조직·인력 구조 개편으로 이동",
-    "im": "정비창 인력 보강 사례를 참고해 정비인력 수급 예측 모델을 마련해야 함",
-    "ah": "2767714f0c"
-   },
-   {
-    "no": 6,
-    "cat": "동맹·공급망",
-    "head": "영국, 공급망 연계 촉구",
-    "points": [
-     "JEF 국가 국방 공급망 연계 촉구",
-     "북유럽 해군 상호 호환성 요구",
-     "전략 경쟁기 해양 산업 중요성 강조"
-    ],
-    "icon": "network",
-    "refs": [
-     24,
-     25
-    ],
-    "ids": [
-     "171be799f94e",
-     "54ac61af6de0"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": []
-    }
+    "tr": "DLA 점검·교육 중심에서 인력·조직 개편으로 확대",
+    "im": "정비 직무·조직 개편을 반영한 정비인력 수요 예측 모델 마련 필요",
+    "ah": "3d0c8cd27a"
    }
   ],
   "recs": [
    {
-    "t": "재고 가시성 점검",
-    "d": "수리부속 위치·재고 데이터 갱신 지연 점검"
+    "t": "부품 가시성 확보",
+    "d": "군수통합정보체계 재고 갱신 주기 점검"
    },
    {
-    "t": "예측모델 연계",
-    "d": "신뢰도·수리부속 수요 예측을 AI와 연계"
+    "t": "수리부속 예측 고도화",
+    "d": "RAM-C 데이터로 신뢰도·소요 연계"
    },
    {
-    "t": "정비인력·거점 설계",
-    "d": "민간 MRO·정비창 인력 지원 체계 검토"
+    "t": "정비인력 예측 연계",
+    "d": "거점 확대·수출 MRO 인력 수요 반영"
    }
   ],
-  "h": "d748904615",
-  "at": "2026-11-12 01:37",
-  "n": 35
+  "h": "f0a4b4ff4d",
+  "at": "2026-11-12 11:31",
+  "n": 37
  }
 }

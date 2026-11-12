@@ -2,6 +2,96 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "3a05f6e17247",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T11:30",
+   "title": "[조달계획] 27~28-F-항공무장효과분석모델 통합유지보수",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 제한경쟁 · 발주예정 2026.12 · 조달판단중 · 판단번호 46953",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "7de5b226689a",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T11:03",
+   "title": "Building the workforce delivering Australia's future nuclear-powered submarine capability",
+   "source": "www.minister.defence.gov.au",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUW9ZLTlQbGYtaVVCUHhzdkFySzJDaWYzX21BN2EzV1llNTF5WW5xTDYtZU1xVUVvUDN1OUVMZDN2WjNDUzlqakJ3cVljbkxhMEVWeWVrQ2o2QnRtZlM3a2I5TlpFOURDTzg1M1F5X0tCTmYxWW83WnpMalRvTUtzODBsRjBhanhMb2hCOEt1UEx5Ql9iV2gzNkxwbkY4eVpsS0RXd25zcDlYNG9YVVRyczVzLUdPcGhnV2lfV0hDNzhTbG9fR05uMGtxWkt1Z1oxYkp4SGM4cjh2czNLXzFV?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "audefence",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "5ecd88689637",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T10:34",
+   "title": "Wolfe Pledges More Manpower for Maintenance amid Career Field Overhaul",
+   "source": "Air & Space Forces Magazine",
+   "url": "https://www.airandspaceforces.com/wolfe-air-force-maintenance-manpower-career-field-overhaul/",
+   "lang": "en",
+   "summary": "Chief Master Sergeant of the Air Force David R. Wolfe recently pledged “a plus-up in manpower” for the maintainer ranks, as the service prepares to launch a major overhaul of its maintenance career field next year. The post Wolfe Pledges More Manpower for Maintenance amid Career Field Overhaul appeared first on Air & Space Forces Magazine .",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "airforcesmag",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "정비인력"
+   ],
+   "ents": [],
+   "axes": [
+    "manpower"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news"
+  },
+  {
    "id": "753d2874a87d",
    "date": "2026-11-11",
    "ts": "2026-11-11T23:09",
