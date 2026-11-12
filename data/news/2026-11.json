@@ -2,6 +2,324 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "fd5c9148211b",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T02:05",
+   "title": "[조달계획] '26년 조난자무선식별장치(RFID) 유지보수 정비",
+   "source": "국방전자조달(D2B) · 해군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해군군수사령부 · 제조 · 일반경쟁 · 발주예정 2026.12 · 조달판단중 · 판단번호 47170",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2434cd720b61",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T02:05",
+   "title": "[조달계획] 26-245 정비대대 무선인터컴",
+   "source": "국방전자조달(D2B) · 공군사관학교",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군사관학교 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 45206",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "8c84124c1f62",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T02:05",
+   "title": "[조달계획] 26-2차 이동식 질소 생산장비 외주정비",
+   "source": "국방전자조달(D2B) · 공군제15특수임무비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제15특수임무비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47118",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "91e60d25cda1",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T02:05",
+   "title": "[조달계획] X-RAY 수화물 투시기 외주정비",
+   "source": "국방전자조달(D2B) · 공군제15특수임무비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제15특수임무비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47061",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "5c0d75b7dbf5",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T01:02",
+   "title": "NATO Logistics Chiefs Focus on Warfighting Readiness",
+   "source": "Mirage News",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaGpjU2RxOG4tNENiQzVaNGVwZTBsbFVBbkVmbks3OFNZbFBjejhJNEtvOGZ1X3k0WWxwamtILTBJZWRBNG5NN19kekEwRmVQU1dWcFRrTW9zeGk1ZzRHY3dwc1FaYnVUaGdGckhZWWJwOUY2aEttbnNaREUzSVVLeFQwWG4?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "Europe military mobility logistics",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "ec533ee2e980",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T21:33",
+   "title": "전남TP, 소재·부품기업 방산 진입 지원 나선다",
+   "source": "핀포인트뉴스",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rTEp6REtNcmd4UGJrTy1vQm5QZ0gzN2ZVR29WX2FZZEtiNmptaDNUMGdMR2dBc29oX01LS095MDhBNjdaSnE1aHhNNko1OXVjX1FHb29fQmROOXJRc2hRWUZsVThpUDY2VmFBM2txNnBhV2PSAXdBVV95cUxQUTRYUWs0d0h2cTBSSXl1Sm9ENTJrbGlxdXNtemVPZy1iQXNTWEhPcERGamZtbk9GSEJ2R0h2Y0JCTzZKd2IwVXRsSmxFLXBRWG5OZVhhT3dZUXNnTTdJeWExNnduSFlXY1RPX3J5OVQ5anVlZ0Z3RQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "894d48894816",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T21:18",
+   "title": "K-12 Education: Data Show That Less than Half of Students Were Ready for Kindergarten in Selected States",
+   "source": "GAO 보고서",
+   "url": "https://www.gao.gov/products/gao-27-108796",
+   "lang": "en",
+   "summary": "What GAO Found In general, GAO’s review of 11 studies found that publicly funded preschool programs contribute to children’s readiness for kindergarten in literacy, math, or both. Specifically, 10 studies found positive associations between preschool programs and kindergarten literacy scores, and seven of the studies that assessed math scores also found positive associations with these scores. One study did not find evidence of an effect in eithe",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gao",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2b60e38644ec",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T17:10",
+   "title": "씨드로닉스, 싱가포르 해군 원해경비함에 AI 시스템 탑재…유럽 방산 공급망 진입",
+   "source": "헬로티",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZY01hZm9xUVgzVXZ4NE1QMU82ZW5QWDhrUDMtMkVVT3l0eUg3dDRiQUJLWi03YTdvWF96VV9KemVhc0JOdnpXbGR4TG9BMzhCRTdRU0FvZ3lZTnFuM0k4?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "8959fa23d2f5",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T15:41",
+   "title": "국회서 게임 제작비 세액공제 논의…중복 규제 정비도 제안",
+   "source": "지디넷코리아",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82Q1RRU0VPXzBoZ3BvWnpiMkhnZ20yOHVNOUxRMUNjOGRiNjBWUXVQQzJIdDhnQzJfTk1PdTZZWkJNU0Jodk5sY1VXRHc2LXVRanNrLW5B?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "9c7016deef97",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T15:24",
+   "title": "Advancing military medicine: Global congress in Abu Dhabi explores AI integration and national readiness",
+   "source": "Gulf News",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbEFNRUN4QUJzUEdSLXRhMHVKZTdhZ0dDc3E3VndPYnV6Q0ttRmQ1SDBXVjZYOTF5S015MDZCQ2VMTjdNRzBhYXlqemEzTEhmaVVsTGlBTDNkSG1Vbk1hZ3ZwUFRwMFdtb1pKSDJxNWUzV3VFbU9COEt3UlVzdVpnVGJUeVdTaWM3cXZ6d0NBYkkySUVrM3VHTzhxMXdBakhpUDVOaDNVZjdhTDFXZlBrQzhSSnlBR0tOOW9xbW1IYVo1bjdPT1A3aUJoS2hRa0trTHFBNTdtenI5cmRtM2pSVExCZGHSAfcBQVVfeXFMTkl3aGpORTNEODhYTnFRSVdiN2NZSWc4VV82MEtxUS1PTXBaTl90NnFMMEhuSTlaNVRLRGRrdnJ0YUVnOEJMbFdDU1B3VzVmMEYyT3FsTTdYUThKcF84S0Y5bnpZV2JWNTd2ZWVLRTZYczVUSS1CMmhRWE5Sc0FqQ1A2XzJ2TzhGSFktUV8wRVk0TkM3VlBtSk43ZkJhQW9GZkdMQ3FnRE83U1g2UjUtTFlCd2cxZkFSVlF5S0FZZFRJRFNqYmctWktnSjhuaFk5dlB3aFFpVmpsUUsxUGV5RlR1UmxRV3EtQkY5cE1TaGZVZkVzTFdBUQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "ai",
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "3a05f6e17247",
    "date": "2026-11-12",
    "ts": "2026-11-12T11:30",
@@ -90,6 +408,58 @@
     "fcst"
    ],
    "kind": "news"
+  },
+  {
+   "id": "5d3a0503ce9e",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T09:00",
+   "title": "Indefinite Delivery Indefinite Quantity (Idiq) Multiple Award Contract (Mac) For Outsourcing Work On Availabilities On All Submarines",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/8a80cfa6ffe74906acda31fd9a1e880f/view",
+   "lang": "en",
+   "summary": "Solicitation · N0002427R4320 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-31",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "1841045c421c",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T09:00",
+   "title": "Sustainment For Srw",
+   "source": "SAM.gov · National Geospatial-Intelligence Agency (Nga)",
+   "url": "https://sam.gov/workspace/contract/opp/1daad770de79423cb05c361a706d9740/view",
+   "lang": "en",
+   "summary": "Sources Sought · NGA-SRW · NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA) > ATTN: MS S84 - OCS · 마감 2026-12-11",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
   },
   {
    "id": "753d2874a87d",
@@ -336,7 +706,13 @@
    "lang": "en",
    "summary": "",
    "score": 5.5,
-   "also": [],
+   "also": [
+    {
+     "source": "Interesting Engineering",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQd29FSjl2Wk94YVpPNmpiNVkzdWlsOExZNzAyY2xKSG91UWJWaGhnWFdScThwcENiV0dBdHBHb0xVMlhmM3B0bG9iVWpmemliWl9yS1lkbVNPR2lkbkgwSTNUMEpUUUZIUmVHbkZKai13Wi01YjFtb3NZbUJHazBWSWNUSnNPYTZRanc?oc=5",
+     "title": "US F-35 parts tracking failure raises questions over fighter jet fleet readiness"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "us",
@@ -1424,12 +1800,17 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZN3RUalJlb2dkc0JWYTNPU2R5U0hYWTNZTnQwXzFNQXVzOVNQRTZad1ZtYnI2TzRHS2l0T2NjLTVnN2JWVFd2NnFHQzk5RGRERERVUllpUGxGUGU3TjctaTNxZ0pBVVhQVFZRYWt5eHM?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 4.5,
    "also": [
     {
      "source": "이뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tMVZGVlBCd2xGUWRnUDZrS0YybGdnRVRSWmpOblJ5b29FVkZpTlh6T1hadGhNb1FHME9nNWJfQUVoeFVXcE1wX3l2WVNyajNqNVFpWTluR2NiTjlWT2w1TERJNE9FdTh2S1VnYWxkZFUtbVdK0gF0QVVfeXFMTi0xVkZWUEJ3bEZRZGdQNmtLRjJsZ2dFVFJaak5uUnlvb0VWRmlOWHpPWFp0aE1vUUcwT2c1Yl9BRWh4VVdwTXBfeXZZU3JqM2o1UWlZOW5HY2JOOVZPbDVMREk0T0V1OHZLVWdhbGRkVS1tV0o?oc=5",
      "title": "‘야전정비센터’ 동부권 추가 건립···한화에어로·육군, K-MRO 거점화"
+    },
+    {
+     "source": "엔지오프레스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCY0REV09TY0RPYV9RbEpPdk5fOFp3NURhWnZTMWN3STFnNzBRZUtFSXoxWXJyVVdOSEtwSnItZ01oMnZTRGNYWjBFOG52RHB3T1FITlhHZFVKSnVMR0FMUkQ5Q29kdnAyTkVnWg?oc=5",
+     "title": "수출 무기 정비도 함께\"…한화에어로·육군, K-MRO 거점화 추진 |"
     }
    ],
    "origin": "rss",
@@ -1463,7 +1844,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 3.5,
    "also": [
     {
      "source": "비즈트리뷴",
@@ -1494,6 +1875,11 @@
      "source": "글로벌이코노믹",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZWxwWVktOUttaGRiUmhTd1VZTVlCWF9IUTRQQTAtWWU1NjVweEpiTy1hLWZnM2tBRXRtMW10ODJMQnFxdkVlSnBhTjFPa0ZQb1QzX2lsaGUzZl9QR0dLU0d1cjI2bGdWeExvVE9KUFBSMWFzdWRoUFFWZW55RV9wNl9ieXFnUQ?oc=5",
      "title": "한화에어로, 육군과 야전정비센터 추가 건립 추진…K-MRO 거점화"
+    },
+    {
+     "source": "디펜스투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBWTRoUU45aGhBU29OUGpEMk83aWh6REFoampadW9ab0p2c3dwaU9Sd3djN2t0ZkctaW9JMFpOZm8yNVRaNURfMkM4OXZPMjZtS2Q4M0xlUGVHSTBseHkyanpjM0JBcy16V2wyM09n?oc=5",
+     "title": "한화에어로스페이스-육군, 야전정비센터 K-MRO 거점화 추진"
     }
    ],
    "origin": "rss",
@@ -1525,8 +1911,14 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 3.5,
-   "also": [],
+   "score": 4.0,
+   "also": [
+    {
+     "source": "Investing.com 한국어",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44bmhGOE1uN2ExZGxEWWdCTld6S3hDVXV6QlJQcWNYUFJmRElXYi1ZSlIySDZjZkw0NHA4STRYWVg5cWd1b0RqajEwTDJ2eDlheUpObWVHV0lVQTNpRkdZNzNtM3o5ZmRmNjVObDdvek8?oc=5",
+     "title": "한화에어로·육군, K-방산 ’MRO 거점’ 확대 추진 By EBN"
+    }
+   ],
    "origin": "rss",
    "src": "kida",
    "hint": "kr",

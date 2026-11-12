@@ -1,13 +1,28 @@
 {
- "at": "2026-11-12 11:30",
+ "at": "2026-11-13 02:05",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>46953</dcsNo><demandYear>2026</demandYear><excutTy>용역</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>일반경쟁</cntrctMth><dcsNo>47170</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "일반경쟁",
+     "dcsNo": "47170",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "해군군수사령부",
+     "orntCode": "SCF",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "'26년 조난자무선식별장치(RFID) 유지보수 정비",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
@@ -37,22 +52,6 @@
      "progrsSttus": "원가계산중",
      "progrsSttusCode": "26",
      "reprsntPrdlstNm": "크래들,주퇴기용 외주정비(방산)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "공개",
-     "bidMth": "총액제",
-     "budgetAmount": "336353600",
-     "cntrctMth": "수의계약",
-     "dcsNo": "5551",
-     "demandYear": "2026",
-     "excutTy": "용역",
-     "orderPrearngeMt": "202612",
-     "ornt": "유도무기총괄계약팀",
-     "orntCode": "ESA",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "천궁II 교전능력향상 기술변경 적용(통제소)",
      "spcifyPrcureAt": "N"
     }
    ]
