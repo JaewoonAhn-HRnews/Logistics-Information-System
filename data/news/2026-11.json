@@ -2,6 +2,166 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "091258f607df",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T11:06",
+   "title": "[조달계획] (26육-집잔73) 2보 전산기계실 노후 UPS 설치납품",
+   "source": "국방전자조달(D2B) · 종합보급창",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 종합보급창 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 47221",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2a06ae1cbb19",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T11:06",
+   "title": "[조달계획] 경계용 드론 정비용역(7탄약창)",
+   "source": "국방전자조달(D2B) · 육군 탄약지원사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군 탄약지원사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 47249",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "유무인 복합"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "446c0d619f88",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T06:28",
+   "title": "Wisconsin Army National Guard aviation crews continue readiness training at Fort McCoy during October 2026",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVYteU1MRW1OTzAzbkxhcDhhYzQ0SDJYbk5CNUcwOWdBdks2bWpCX1NTQ2xwSjBPdGxqN1F4VmhuSHN1ZkR2WWhCQ1h6VjIwbVY3N29YZ2pIamdibXQzbXE5bTRWRGlUc003X2M4U2ZRa0hkNHFpa3NUdTVQUHRlaV9scEtBUm04akZTZW03N3AwYVZMRnJrcHktbnZ4ajVnaTNIb2NBUzVCcXhJMTl1U29tWVhWNjR6UjlLcGRNUndCWHVLZS1DWldMeHJCX21UTEc4N2w1RHB4d9IB3wFBVV95cUxPVVVsQTNELXB4NlYyV2lrN0xFVUlLUHhfMG9oY0FBSXVrV29HZXlKSU9Hb3BJWl9rVEktNTVFUXg3RkJpNklYbGoxRW81OFp1N0NBLWJsSmdveDNfZVhMUEE4V2h3ZzhLX0ZwNVo4Ti05WDVwbElkZHRYR19CaDEwTmJDZ3VUSnJ3cW1Kd3I5bVZIWG5ocXdRX280WjZSZW5SZHF6TUkyMTNzSDNjaTJqUmxYd29GYXY5cVlSdjNiT19INzBpd2VfTkxkZTdsSXgwaUxOZHphV25jLUFIek9J?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a9df67eaac99",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T05:56",
+   "title": "First commander looks forward to growing 98th Army Reserve Readiness Training Center missi",
+   "source": "U.S. Army Reserve (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVUtwSlM4ZVFjR21jT0ROQWJtYlNQeE9EWnY1Y1lTdDBoWTZDTEkwcEd2Um96M01oNVA0SE9qbjA3UlpqSU5mVmYyc2NYZ09Xa2FmWkhWejEtTUIyQWVZOWJLVGZ6eXowckRqZEFrTHhQamY5bkF4S2pLcmtPanp2LXBjVDV1OXFKT2VucmhCUnJxY2QxaVhibzRYQ2RhOVktdjgzOEFUSllMUVZ2S0RvRUtDUlhLbFBwa1ZLeXNkZ2dpNHVLd3FvN2RkYV9DdU1iQ3FqMVpQVQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "6e5ac931d783",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T05:17",
+   "title": "Fort Meade removes hazardous trees to protect community, sustain mission readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOFk5X09ndFJTeDdxajRpS1JuZTFwSk5yTWhwV28xUUQ1RzBXTVBWdm51NXl4dl9GVU9OZUNzdTkwQ1hQa1g1U3FuREJYXzJsYnA4ZzBYNHlwNElpTndzaXJSZlJGTEdJOWdySWdTYXZLZ1BaTVZLTk5pR056WXJ0MG1UNG1ndFc5WnUwMkVGRWNnTW5tai1kQkx4ZGtCZGhmM2lkczZFcWJLOGxLcmRlTU1nRXJfUkdvV0V2SVpn0gG-AUFVX3lxTE84WTlfT2d0UlN4N3FqNGlLUm5lMXBKTnJNaHBXbzFRRDVHMFdNUFZ2bnU1eXh2X0ZVT05lQ3N1OTBDWFBrWDVTcW5EQlhfMmxicDhnMFg0eXA0SWlOd3NpclJmUkZMR0k5Z3JJZ1NhdktnUFpNVktOTmlHTnpZcnQwbVQ0bWd0VzladTAyRUZFY2dNbm1qLWRCTHhka0JkaGYzaWRzNkVxYks4bEtyZGVNTWdFcl9SR29XRXZJWmc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "fd5c9148211b",
    "date": "2026-11-13",
    "ts": "2026-11-13T02:05",
@@ -462,6 +622,87 @@
    "kind": "contract"
   },
   {
+   "id": "5b369f36af88",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T09:00",
+   "title": "Enterprise Wide It Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/ecb449684b66456a91735d53b1f5d2ea/view",
+   "lang": "en",
+   "summary": "Sources Sought · A031392 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-20",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "c94c6496d857",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T09:00",
+   "title": "Sources Sought -Building 493 Generator And Backup Power Installation- Red River Army Depot",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/c54c5d6e393d4e97b13454ad802506b6/view",
+   "lang": "en",
+   "summary": "Special Notice · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-13",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "fd38540e0899",
+   "date": "2026-11-12",
+   "ts": "2026-11-12T09:00",
+   "title": "Joint Simulation Environment (Jse) Operational Site Support And Sustainment (Oss&S) Idiq Industry Day 1-On-1S",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/aa2bceaca5994aaeaf9e5cc76c89022b/view",
+   "lang": "en",
+   "summary": "Special Notice · FA8635JSEOSIDIQ · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-11-23",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "753d2874a87d",
    "date": "2026-11-11",
    "ts": "2026-11-11T23:09",
@@ -814,6 +1055,11 @@
      "source": "SSBCrack",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTdRWE1ZLTBnM1hYWDNEM0ppa1VHdkRCbGo3cFZKeWJpbXVYd1FFdVBFLWZ0Zm4zVXdoa185dmNRLTJaZk0yREFPNlpkNmJPZHZWNTd0OVpZZGtRWWRBMlNfQ2VPcnVjRXBnaFh5cWdpR3pJb1RZV2ozR0NwdDdhSktPQXhKMFFiSFZzQklXZ3pYSS04b2pSYUw4MDJicXVsS251Ug?oc=5",
      "title": "Pentagon Struggles to Track Billions in F-35 Spare Parts, GAO Report Reveals"
+    },
+    {
+     "source": "tippinsights",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa19Ed3gyX0hNVmJTaWVIZTM5Sml3Uno3dHBJY2t1LWpvN1VsUlpRQmxMZlhYdWFiZ21adlMzLTgzSXhPZV9yaHg3eXZRVlctOW1aVW4ySksyTDByM0lQa0c4UkNmbUw4T1U2WERfMEtZVjJoZXBpUVV4UG8wU1BTYjVPa1l0LTJZT19ZanFPQlZBRFJfMHc?oc=5",
+     "title": "Pentagon Unable To Track $31 Billion In F-35 Spare Parts, GAO Finds"
     }
    ],
    "origin": "rss",
@@ -1911,7 +2157,7 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 3.5,
    "also": [
     {
      "source": "Investing.com 한국어",

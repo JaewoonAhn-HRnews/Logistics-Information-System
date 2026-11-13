@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13 02:05",
+ "at": "2026-11-13 11:06",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -133,38 +133,38 @@
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-D-00부대 설계용역(B559)</cntrwkNm><cntrwkNo>2026-17642</cntrwkNo><cntrwkSe>설계용역 </cntrwkSe><orderPrearngeMt>202611</",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-D-실내사격장 신축 등 2건 건설사업관리용역(B037)</cntrwkNm><cntrwkNo>2026-17681</cntrwkNo><cntrwkSe>감리용역 <",
    "sample": [
-    {
-     "bidMth": "총액제",
-     "budgetAmount": "0",
-     "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-D-00부대 설계용역(B559)",
-     "cntrwkNo": "2026-17642",
-     "cntrwkSe": "설계용역",
-     "orderPrearngeMt": "202611",
-     "ornt": "국군재정관리단",
-     "orntCode": "UMM",
-     "progrsSttus": "집행계획"
-    },
-    {
-     "bidMth": "총액제",
-     "budgetAmount": "0",
-     "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-D-00부대 설계용역(B559)",
-     "cntrwkNo": "2026-16897",
-     "cntrwkSe": "설계용역",
-     "orderPrearngeMt": "202611",
-     "ornt": "국군재정관리단",
-     "orntCode": "UMM",
-     "progrsSttus": "집행계획"
-    },
     {
      "bidMth": "총액제",
      "budgetAmount": "0",
      "cntrctMth": "일반경쟁",
      "cntrwkNm": "26-D-실내사격장 신축 등 2건 건설사업관리용역(B037)",
      "cntrwkNo": "2026-17681",
+     "cntrwkSe": "감리용역",
+     "orderPrearngeMt": "202611",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    },
+    {
+     "bidMth": "총액제",
+     "budgetAmount": "0",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-A-00부대 건설사업관리용역(A272)",
+     "cntrwkNo": "2026-17775",
+     "cntrwkSe": "감리용역",
+     "orderPrearngeMt": "202611",
+     "ornt": "국군재정관리단",
+     "orntCode": "UMM",
+     "progrsSttus": "집행계획"
+    },
+    {
+     "bidMth": "총액제",
+     "budgetAmount": "1148774000",
+     "cntrctMth": "일반경쟁",
+     "cntrwkNm": "26-A-00부대 건설사업관리용역(A303)",
+     "cntrwkNo": "2026-17956",
      "cntrwkSe": "감리용역",
      "orderPrearngeMt": "202611",
      "ornt": "국군재정관리단",
