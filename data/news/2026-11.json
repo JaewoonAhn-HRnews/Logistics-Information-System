@@ -2,6 +2,154 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "5fb3da809da7",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T01:45",
+   "title": "[조달계획] 디지털 포렌식 소프트웨어 라이선스 구매(갱신)",
+   "source": "국방전자조달(D2B) · 공군본부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군본부 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47313",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e2c4e8b15327",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T01:45",
+   "title": "[조달계획] 26-290, 장비정비대대, 복지비품 구매",
+   "source": "국방전자조달(D2B) · 공군제11전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제11전투비행단 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47367",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "4c50e125fa41",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T01:45",
+   "title": "[조달계획] 26-룰러 외주정비 용역",
+   "source": "국방전자조달(D2B) · 제20전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제20전투비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47390",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "ddaf624437da",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T18:20",
+   "title": "전남테크노파크, '철강부터 부품까지'... 방산 진흥 포럼 개최",
+   "source": "철강금속신문",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sV0UteEVLeldLY05DLUxuRFBQcHp0NFdKMHVRbDBQci1xWWRITUMwVjQ0NjFTdmV4UXpKaGZVcXNzVTZVUmtYb0lVVFdLRVhvNVdTaGZXZ0x6X01QZ1IwWkNJY3h5V0c4OEE?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "fc76861e53f7",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T15:12",
+   "title": "육군 8군수지원단, 원주서 연탄 나눔·장애인복지시설 환경정비",
+   "source": "한국장애인신문",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44azlwUGlDUUxXM0ZfYldzWGliSDJqLWUwTW9HQWpfclNrekh2UGpkOTd4MHZyU0szd2tyTFRDckEyWFN0ZTN4RHBDakJybjg5TmtIdjFpNEg1Z2ZHb21MYkxGMDRUenl2Z3VYamtweHdXZG51SEdMWtIBeEFVX3lxTE44azlwUGlDUUxXM0ZfYldzWGliSDJqLWUwTW9HQWpfclNrekh2UGpkOTd4MHZyU0szd2tyTFRDckEyWFN0ZTN4RHBDakJybjg5TmtIdjFpNEg1Z2ZHb21MYkxGMDRUenl2Z3VYamtweHdXZG51SEdMWg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "군 정비인력 부족",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "091258f607df",
    "date": "2026-11-13",
    "ts": "2026-11-13T11:06",
@@ -60,6 +208,33 @@
    ],
    "axes": [],
    "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2fe5265811c7",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T09:00",
+   "title": "Full & Open Brand Name Oem \"Curtiss-Wright Electro-Mechanical Corp\" - Low Pressure Air Compressor (Lpac) Maintenance Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c16306a3bcfa4dc8956e425af5d6c18f/view",
+   "lang": "en",
+   "summary": "Solicitation · N0040627Q0004 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-17",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
    "domains": [
     "wpn"
    ],
@@ -291,6 +466,39 @@
    "title": "NATO Logistics Chiefs Focus on Warfighting Readiness",
    "source": "Mirage News",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaGpjU2RxOG4tNENiQzVaNGVwZTBsbFVBbkVmbks3OFNZbFBjejhJNEtvOGZ1X3k0WWxwamtILTBJZWRBNG5NN19kekEwRmVQU1dWcFRrTW9zeGk1ZzRHY3dwc1FaYnVUaGdGckhZWWJwOUY2aEttbnNaREUzSVVLeFQwWG4?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "Europe military mobility logistics",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "83b3c5324d64",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T00:51",
+   "title": "NATO Logistics Directors address how to strengthen warfighting readiness",
+   "source": "North Atlantic Treaty Organization | NATO",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYVBydnhDenZ1U2NkWm5SLXJhdGxuV2dYQm9rOFZFVFgyUFdIQzVRRG0xeEMxeVJOSVVtODFWbzVGV1FkRmNVU0JmSGxWWWZOSTVKNFV4TndkZnNYUXpPSFBGVlFwNGdwREJuelA1dk9QVzJaYlZ2dzZLZi1GUkdDODI2YV93cVRkX3hVVG5kQ01XRjl4bWM2R09tcE9XelpJb2RNUDk2Yml4RFZteWRQaUQ4V2ZfbUZ3ME54UHlScnFzV3VWY1VVcmJoZXpGbXMxRXM4?oc=5",
    "lang": "en",
    "summary": "",
    "score": 5.5,
@@ -2046,7 +2254,7 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZN3RUalJlb2dkc0JWYTNPU2R5U0hYWTNZTnQwXzFNQXVzOVNQRTZad1ZtYnI2TzRHS2l0T2NjLTVnN2JWVFd2NnFHQzk5RGRERERVUllpUGxGUGU3TjctaTNxZ0pBVVhQVFZRYWt5eHM?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 4.0,
    "also": [
     {
      "source": "이뉴스투데이",
