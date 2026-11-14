@@ -643,3 +643,22 @@ th { color: var(--muted); font-weight: 600; font-size: 12px; position: sticky; t
 .wr-grid > .wr-g:last-child:nth-child(3n+2) { grid-column: span 2; }
 .wr-grid > .wr-g:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
 @media (max-width: 1100px) { .wr-grid > .wr-g:last-child { grid-column: auto; } }
+
+/* ---------- 보고서 게시판 ---------- */
+.rp-tools { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.rp-tools input { min-width: 220px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.rp-tb { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.rp-tb th { text-align: left; font-size: 12px; color: var(--muted); font-weight: 600; padding: 8px 8px; border-bottom: 2px solid var(--line); white-space: nowrap; }
+.rp-tb td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.rp-tb tr:hover td { background: var(--surface-2); }
+.rp-t { font-weight: 700; font-size: 14.5px; color: var(--ink); } .rp-t:hover { color: var(--accent); }
+.rp-tag { font-size: 12.5px; color: var(--ink-2); margin-top: 2px; }
+.rp-chips { display: flex; flex-wrap: wrap; gap: 3px; } .rp-chips span { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); color: var(--ink-2); white-space: nowrap; }
+.rp-st { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 2px 8px; border-radius: 5px; background: #fde7dc; color: #c2410c; white-space: nowrap; }
+.rp-st.fin { background: #e6f4f2; color: #0b7a70; }
+.btn.sm { padding: 3px 10px; font-size: 12px; }
+.rp-pg { display: flex; gap: 4px; justify-content: center; margin-top: 12px; }
+.rp-nav { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.rp-pn { margin-left: auto; display: flex; gap: 14px; font-size: 13.5px; font-weight: 600; }
+@media (max-width: 720px) { .rp-m { display: none; } }
+.rp-tb td.mono { white-space: nowrap; }

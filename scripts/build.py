@@ -20,6 +20,7 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(__file__))
 import taxonomy as T  # noqa: E402
 import archive  # noqa: E402
+import reports  # noqa: E402
 from common import DATA, DB, NEWS, classify, full_classify, is_noise, load_json, relevance, same_story, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
 
 CAT_NAME = {c["id"]: c["name"] for c in T.CATEGORIES}
@@ -653,6 +654,10 @@ def main():
     wb = ai_weekly_briefings(groups, periods)
     weekly_layout_v2(wb, arts)
     weekly_archive_trends(wb, links)
+    try:
+        reports.save(wb, periods, arts, load_json(DATA / "article_sums.json", {}), today)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! 주간 보고서 게시판 실패: {e}", file=sys.stderr)
     export_csv(arts, periods)
     print(f"기사 {len(arts)}건 · 일 {len(periods['day'])} · 주 {len(periods['week'])} · 월 {len(periods['month'])} · 연 {len(periods['year'])}")
 

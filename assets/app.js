@@ -197,7 +197,7 @@
   }
 
   // ---------- router ----------
-  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive"];
+  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports"];
   const rendered = {};
   let cur = "home";
   function route() {
@@ -213,7 +213,7 @@
     setTimeout(() => Object.values(charts).forEach(c => c && !c.isDisposed() && c.resize()), 30);
   }
   function render(v, arg) {
-    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg) }[v];
+    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg) }[v];
     fn && fn();
     rendered[v] = true;
   }
@@ -335,7 +335,7 @@
     const go = k => { location.hash = `#${M.v}/${k}`; };
     const igb = $("#ig-save", sec); if (igb) igb.onclick = () => saveIG(key);
     const wbb = $("#wb-save", sec); if (wbb) wbb.onclick = () => savePNG("#wb-card", `주간보고서_${key}.png`, "#ffffff");
-    const wbp = $("#wb-ppt", sec); if (wbp) wbp.onclick = () => wrPPT(key, s);
+    const wbp = $("#wb-ppt", sec); if (wbp) wbp.onclick = () => wrPPT(wrModel(key, s));
     $("#p-sel", sec).onchange = e => go(e.target.value);
     $("#p-prev", sec).onclick = () => go(keys[i + 1]);
     $("#p-next", sec).onclick = () => go(keys[i - 1]);
@@ -437,7 +437,7 @@
         items, tr: t.tr || "", im: t.im || "", arch: t.arch || null };
     });
     const imps = (v2.imps && v2.imps.length ? v2.imps : (b.recs || [])).slice(0, 4);
-    return { key, s, start: s.start, end: s.end, week: key.replace("-W", "년 ") + "주차", tag: v2.tag || b.core || "", core: b.core || "",
+    return { key, start: s.start, end: s.end, week: key.replace("-W", "년 ") + "주차", tag: v2.tag || b.core || "", core: b.core || "",
       groups, imps, recs: b.recs || [], n: no, total: b.n || s.n, at: v2.at || b.at || "" };
   }
   function wrBanner(icon, col, W = 400, H = 92) {
@@ -456,8 +456,9 @@
       ${ic(m[1], W * .1, H * .24, H * .54, .55)}${ic(m[0], W * .5 - H * .38, H * .1, H * .76, .95)}${ic(m[2], W * .9 - H * .54, H * .24, H * .54, .6)}
     </svg>`;
   }
-  function briefHTML(key, s) {
-    const M = wrModel(key, s); if (!M) return "";
+  const wrLink = (x, cls, txt) => BYID[x.id] ? `<a href="#" data-nc="${x.id}" class="${cls}">${txt}</a>` : `<a href="${esc(x.url || "#")}" target="_blank" rel="noopener" class="${cls}">${txt}</a>`;
+  function wrPrep(M) { M.groups.forEach(g => g.col = WR_COL[g.i % 6]); return M; }
+  function wrHTML(M, opt = {}) {
     const ymdDot = d => d.replace(/-/g, ". ").replace(/^(\d{4}). 0?(\d+). 0?(\d+)$/, "$1. $2. $3") + ".";
     const period = `${ymdDot(M.start)} ~ ${M.end.slice(5).replace(/^0?(\d+)-0?(\d+)$/, "$1. $2.")}`;
     return `<div class="wb-wrap"><div class="wr" id="wb-card">
@@ -468,14 +469,15 @@
         <div class="wr-gh"><span class="wr-gn">${g.i + 1}</span><h3>${esc(g.title)}</h3></div>
         <div class="wr-gs">${esc(g.sub)}</div>
         <div class="wr-ban">${wrBanner(g.icon, g.col.c)}</div>
-        <ol class="wr-items">${g.items.slice(0, 4).map(x => `<li><a href="#" data-nc="${x.id}" class="wr-no">${x.no}</a><div><a href="#" data-nc="${x.id}" class="wr-h">${esc(x.h)}</a><p>${esc(x.d)}</p></div></li>`).join("")}</ol>
-        ${g.items.length > 4 ? `<div class="wr-more">외 ${g.items.length - 4}건 · ${g.items.slice(4).map(x => `<a href="#" data-nc="${x.id}">${x.no}</a>`).join(" ")}</div>` : ""}
+        <ol class="wr-items">${g.items.slice(0, 4).map(x => `<li>${wrLink(x, "wr-no", x.no)}<div>${wrLink(x, "wr-h", esc(x.h))}<p>${esc(x.d)}</p></div></li>`).join("")}</ol>
+        ${g.items.length > 4 ? `<div class="wr-more">외 ${g.items.length - 4}건 · ${g.items.slice(4).map(x => wrLink(x, "", x.no)).join(" ")}</div>` : ""}
         ${g.tr ? `<div class="wr-tr"><b>추이</b>${esc(g.tr)}</div>` : ""}
       </div>`).join("")}</div>
       ${M.imps.length ? `<div class="wr-imp" style="--k:${M.imps.length}"><div class="wr-imp-h">이번 주<br>핵심 시사점</div>${M.imps.map((r, i) => `<div class="wr-ic"><div><span>${i + 1}</span><b>${esc(r.t)}</b></div><p>${esc(r.d)}</p></div>`).join("")}</div>` : ""}
       <div class="wr-foot"><span>자동 수집 기사 ${M.total}건 중 ${M.n}건을 주제별 배치 · AI 정리(${esc(M.at)}) · 번호를 누르면 원문 정보</span><span>군수정보 인텔리전스 · 국방 고위관리자용 1페이지 브리핑</span></div>
-    </div><div class="ig-actions"><button class="btn" type="button" id="wb-ppt">PPT 파일로 다운로드</button><button class="btn ghost" type="button" id="wb-save">이미지로 저장(PNG)</button><span class="note" id="wb-ppt-msg">1장 요약 + 주제별 상세 ${M.groups.length}장 + 시사점 1장, 파워포인트에서 바로 편집 가능</span></div></div>`;
+    </div><div class="ig-actions"><button class="btn" type="button" id="wb-ppt">PPT 파일로 다운로드</button><button class="btn ghost" type="button" id="wb-save">이미지로 저장(PNG)</button>${opt.extra || ""}<span class="note" id="wb-ppt-msg">1장 요약 + 주제별 상세 + 시사점, 파워포인트에서 바로 편집 가능</span></div></div>`;
   }
+  function briefHTML(key, s) { const M = wrModel(key, s); return M ? wrHTML(M, { extra: `<a class="btn ghost" href="#reports/${key}">보고서 게시판</a>` }) : ""; }
   function loadScript(src) { return new Promise((ok, no) => { if (window.PptxGenJS) return ok(); const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = no; document.head.appendChild(e); }); }
   function svgToPng(svg, w, h) {
     return new Promise(res => {
@@ -485,8 +487,8 @@
       img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
     });
   }
-  async function wrPPT(key, s) {
-    const msg = $("#wb-ppt-msg"), M = wrModel(key, s); if (!M) return;
+  async function wrPPT(M) {
+    const msg = $("#wb-ppt-msg"); if (!M) return; const key = M.key;
     if (msg) msg.textContent = "PPT 만드는 중…";
     try { await loadScript("assets/vendor/pptxgen.bundle.js"); } catch (e) { if (msg) msg.textContent = "PPT 라이브러리를 불러오지 못했습니다."; return; }
     try {
@@ -636,6 +638,48 @@
       ${t.im ? `<div class="wb-arch-im"><b>우리 군 시사점</b>${esc(t.im)}</div>` : ""}</div>`;
   }
   const arcState = { t: null, iss: 6 };
+
+  // ---------- 주간 보고서 게시판 ----------
+  let RPI = null; const rpState = { q: "", page: 0 };
+  async function rReports(arg) {
+    const sec = $("#v-reports");
+    if (!RPI) { sec.innerHTML = '<div class="vhead"><h1>주간 보고서 게시판</h1><p class="lede">불러오는 중…</p></div>'; RPI = await j("data/reports/index.json", { items: [] }); }
+    const head = `<div class="vhead"><div class="eyebrow">13 · Weekly reports</div><h1>주간 보고서 게시판</h1>
+      <p class="lede">매주 만든 ‘국방 군수·AI 주간 보고서’를 쌓아 둡니다. 주가 끝나면 확정본으로 고정되고, 진행 중인 주는 수집 때마다 갱신됩니다. 각 보고서는 화면으로 보고 PPT로 내려받을 수 있으며, GitHub 저장소 <a href="https://github.com/JaewoonAhn-HRnews/Logistics-Information-System/tree/main/reports" target="_blank" rel="noopener">reports 폴더</a>에도 같은 내용이 남습니다.</p></div>`;
+    if (arg) {
+      const r = RPI.items.find(x => x.key === arg);
+      const M = await j(`data/reports/${arg}.json`, null);
+      if (!M) { sec.innerHTML = head + `<div class="panel"><p class="note">보고서를 찾을 수 없습니다.</p><a class="btn ghost" href="#reports">목록으로</a></div>`; return; }
+      wrPrep(M);
+      const i = RPI.items.findIndex(x => x.key === arg), prev = RPI.items[i + 1], next = RPI.items[i - 1];
+      sec.innerHTML = head + `<div class="rp-nav"><a class="btn ghost" href="#reports">← 목록</a>
+          <span class="rp-st ${M.final ? "fin" : ""}">${M.final ? "확정" : "진행 중"}</span><span class="note">No.${r ? r.no : ""} · 작성 ${esc(M.created || "")} · 최종 갱신 ${esc(M.updated || "")}</span>
+          <span class="rp-pn">${prev ? `<a href="#reports/${prev.key}">‹ ${esc(prev.week)}</a>` : ""}${next ? `<a href="#reports/${next.key}">${esc(next.week)} ›</a>` : ""}</span></div>
+        ${wrHTML(M, { extra: `<a class="btn ghost" href="https://github.com/JaewoonAhn-HRnews/Logistics-Information-System/blob/main/reports/${arg}.md" target="_blank" rel="noopener">GitHub 원문(.md)</a><a class="btn ghost" href="#weekly/${arg}">그 주 전체 분석</a>` })}`;
+      $("#wb-ppt", sec).onclick = () => wrPPT(M);
+      $("#wb-save", sec).onclick = () => savePNG("#wb-card", `주간보고서_${arg}.png`, "#ffffff");
+      return;
+    }
+    const q = rpState.q.trim().toLowerCase();
+    const list = RPI.items.filter(r => !q || [r.week, r.tag, r.core, ...(r.titles || [])].join(" ").toLowerCase().includes(q));
+    const PER = 15, pages = Math.max(1, Math.ceil(list.length / PER)); rpState.page = Math.min(rpState.page, pages - 1);
+    const rows = list.slice(rpState.page * PER, rpState.page * PER + PER);
+    sec.innerHTML = head + `<div class="panel">
+      <div class="rp-tools"><span class="note">전체 ${RPI.items.length}건 · 확정 ${RPI.items.filter(r => r.final).length}건</span><input id="rp-q" type="search" placeholder="제목·주제 검색" value="${esc(rpState.q)}" aria-label="보고서 검색"></div>
+      <table class="rp-tb"><thead><tr><th>번호</th><th>보고서</th><th class="rp-m">기간</th><th>주제</th><th class="rp-m">기사</th><th>상태</th><th class="rp-m">작성일</th><th>PPT</th></tr></thead>
+      <tbody>${rows.map(r => `<tr><td class="mono">${r.no}</td>
+        <td><a href="#reports/${r.key}" class="rp-t">${esc(r.week)}</a><div class="rp-tag">${esc(r.tag)}</div></td>
+        <td class="rp-m mono">${esc(r.start.slice(5))} ~ ${esc(r.end.slice(5))}</td>
+        <td><div class="rp-chips">${(r.titles || []).map(t => `<span>${esc(t)}</span>`).join("")}</div></td>
+        <td class="rp-m mono">${r.n}</td><td><span class="rp-st ${r.final ? "fin" : ""}">${r.final ? "확정" : "진행 중"}</span></td>
+        <td class="rp-m mono">${esc((r.created || "").slice(0, 10))}</td>
+        <td><button class="btn ghost sm" data-rp-ppt="${r.key}" type="button">PPT</button></td></tr>`).join("") || `<tr><td colspan="8" class="note">결과 없음</td></tr>`}</tbody></table>
+      ${pages > 1 ? `<div class="rp-pg">${Array.from({ length: pages }, (_, k) => `<button class="chip ${k === rpState.page ? "on" : ""}" data-pg="${k}">${k + 1}</button>`).join("")}</div>` : ""}
+      <span class="note" id="wb-ppt-msg"></span></div>`;
+    const qi = $("#rp-q", sec); qi.oninput = () => { rpState.q = qi.value; rpState.page = 0; rReports(); setTimeout(() => { const n = $("#rp-q"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); }, 0); };
+    sec.querySelectorAll("[data-pg]").forEach(b => b.onclick = () => { rpState.page = +b.dataset.pg; rReports(); });
+    sec.querySelectorAll("[data-rp-ppt]").forEach(b => b.onclick = async () => { const M = await j(`data/reports/${b.dataset.rpPpt}.json`, null); if (M) wrPPT(wrPrep(M)); });
+  }
   async function rArchive(arg) {
     const sec = $("#v-archive");
     if (!ARCH) { sec.innerHTML = '<div class="vhead"><h1>아카이브 연계</h1><p class="lede">불러오는 중…</p></div>'; ARCH = await j("data/archive_index.json", { threads: [], issues: [] }); }
