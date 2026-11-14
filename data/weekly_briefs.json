@@ -2604,7 +2604,7 @@
   "h": "cabc7976b6",
   "at": "2026-11-14 09:21",
   "n": 40,
-  "v2_err": "빈 응답"
+  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 1415 (char 1414)"
  },
  "2026-W46": {
   "core": "F-35 부품 추적 실패 경고, 한국은 MRO·AI 거점화 가속",
