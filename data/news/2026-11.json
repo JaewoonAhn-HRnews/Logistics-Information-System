@@ -2,6 +2,72 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "6a6e262aacf2",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T07:11",
+   "title": "AMCOM 101 links aviation readiness to enterprise support",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVlF3YTRoS0VlbFFFdnR1ZWFIQUtVdERjSkZ2Y25OODlDNEhzZWV6cVRWem1qNnh1VmU1d0xSWnhMV3lzcjZwOWxJZnRJOFl1SktidTlCTmdVNjlfVE8xaDBYdm5mN1ppYnJkbWVVQ2JWcGkwaWdjd092TzNUUFFVZHVSZUFnc2wzNmkwdUVjd05UR25QNHA2Ym12NUnSAZwBQVVfeXFMTVZRd2E0aEtFZWxRRXZ0dWVhSEFLVXREY0pGdmNuTjg5QzRIc2VlenFUVnptajZ4dVZlNXdMUlp4TFd5c3I2cDlsSWZ0SThZdUpLYnU5Qk5nVTY5X1RPMWgwWHZuZjdaaWJyZG1lVUNiVnBpMGlnY3dPdk8zVFBRVWR1UmVBZ3NsMzZpMHVFY3dOVEduUDRwNmJtdjVJ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "a9c83ed2a2c1",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T06:35",
+   "title": "DLA Weapons Support salutes 251 years of Marine readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkVjYWRMbWlMcENMSGpHQkU4M3Y2UTdoR3NyTVRFSkJiQjlBWjBMbWhkcFhMV09fUUgza2NfcnhhT1RMOFJiOEVfZDBtQmRGdUVOaTlfU0ZlenRfYTRuU2xMTEFrMGRCdnRNQ21PUEhQRlAxU2pob2VVc1pMb3VjN0NvbWxzU0Q0TzYtcmJvdHBITmdORTRGVkNHUGN1bDdNTFB0emU4bUJPUVZhRUVmNVYzRTllTHAwelVHbDhfWF9CLUl6bHc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "5fb3da809da7",
    "date": "2026-11-14",
    "ts": "2026-11-14T01:45",
@@ -238,6 +304,85 @@
    "domains": [
     "wpn"
    ],
+   "kind": "contract"
+  },
+  {
+   "id": "df7d540ecdf4",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T09:00",
+   "title": "Zuken E3.Cable Enterprise Software And Engineering Services Package Setup",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/b68441cfd036440a843a6bafb9a1a022/view",
+   "lang": "en",
+   "summary": "Award Notice · FA813927P0004 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "09b61e3cc4b1",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T09:00",
+   "title": "Administration And Maintenance Services For Ti-19 Air Force Research Laboratory (Afrl) Supercomputer System",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/b219dc5d9add4578b68caa9fe98b742a/view",
+   "lang": "en",
+   "summary": "Special Notice · W912HZ27QWARH · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-11-29",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "df1ad01ab722",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T09:00",
+   "title": "Seaport - Engineering, Logistics, And Project Management Services Support To Damage Control, Fire Protection And Detection, Recoverability, And Lithium-Ion Battery Facility Systems And Equipment",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/52fede8bdfda40708793d4f609b48d87/view",
+   "lang": "en",
+   "summary": "Solicitation · N6449827R0009 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-14",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
    "kind": "contract"
   },
   {
@@ -2298,7 +2443,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 3.5,
+   "score": 4.0,
    "also": [
     {
      "source": "비즈트리뷴",
@@ -5114,7 +5259,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 6.0,
    "also": [
     {
      "source": "더팩트",
@@ -5213,6 +5358,11 @@
      "source": "이뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pcEVDT0VnQ2JGU3FxdlVrelNyVmFubURGZHFWVDZmQUh6TVp6dHh5cDdVTS1UMFU1UkpwdWFCMm1zNzRJZU5NcmpCb1MtR2hWUVNOMXFWWkg3MllRajNnWFJqN0pXdE01U0I2YjkyWlVncURZ0gF0QVVfeXFMT2lwRUNPRWdDYkZTcXF2VWt6U3JWYW5tREZkcVZUNmZBSHpNWnp0eHlwN1VNLVQwVTVSSnB1YUIybXM3NEllTk1yakJvUy1HaFZRU04xcVZaSDcyWVFqM2dYUmo3Sld0TTVTQjZiOTJaVWdxRFk?oc=5",
      "title": "KAI, AI 기반 통합 군수 분석 플랫폼 구축···무기체계 경제·효율성 극대화"
+    },
+    {
+     "source": "일요경제",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00RWZkVVh3cU5lbUtfY0VISWlSdzY4eWJ1N0h2cG8wRWZIQnFMS0Fuc0wwTlJ6Y1NEUUV0dThjaHRGWUlYMy1JQmZEdExBb2V6Vjh5dkxhbjUzNGdQVUI4WWpRVEl1LUNSck1JRVlR?oc=5",
+     "title": "KAI, AI 기반 통합 군수 분석 플랫폼 구축…무기 가동률·K-방산 경쟁력 강화"
     }
    ],
    "origin": "rss",
@@ -5973,6 +6123,39 @@
     "lis"
    ],
    "kind": "news"
+  },
+  {
+   "id": "291433d83f24",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T23:07",
+   "title": "Hands-on CROWS maintenance course boosts Soldier lethality and readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb2I0dElRQlBkQ2lVclZHbjctT0NNSDlHZ2NEN1lSMklQb19qMFVQVHVtNndGM0VfUHJDTU1sdHFhVjVycWNONldORkdCSXlVRllMaHA5WlBKaTZ3aTh4dVlTRGJMZWtFSEFNT2EyUzVhTWVCbmNOTnRoOVdLa0w5cXBRekdiQ0h3VmJvc2RyR1g3Wm5ON3dPNGJhVloyWUUydFc0OXR3bXk?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "1237cf4f5239",
@@ -7219,6 +7402,26 @@
      "source": "한국클라우드신문",
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kSHQ1aW00SlhxbDk0U21jZGdocGI4UURRYjZGWlBYVWN3ZE02ckpDa3R6ZGRvejA0bDJPSzZ2WkI1MjhDcmZWNnZPVFVTZ1dNeEVYZkRiOHNVS2RHb3BwMERJRzQ4VDJYeU1KYmt4c9IBc0FVX3lxTE4zLTVVeG55YkJTMU8tU0NKamtGMHpQemRMRjhaTzNjOVFmdTBGSTNMcWY4c3lSZ0FjZ1dmOW8ySjIzRE9DYUlKOHo4Wm82a2ZpcC1wRmo0ZjNOdDZVQ2FJZWs0MVdFVDFaZGttdDEzb1RadUE?oc=5",
      "title": "네이버클라우드, 육군 군수사와 조달·정비·물류 'AI 실증' 추진"
+    },
+    {
+     "source": "디지털투데이",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kOW1HSVlkYUphOVFGSkhHVjVfWW9DZzJnUFM5RVBLMU1ET2FWTlhxaldPdjRfNUNWajNXMDg3ZTI4U2FUemswb0dFTGNaa3lsUjlZbUMxckk1WXBYNjAwTjRYOExnSVRtS0QzbFUxWjkyTG8?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 군수체계 구축 협력"
+    },
+    {
+     "source": "디일렉",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55VFZEQVFZVmFpakI0QXEyM09rVUQ4c0tvWHJieWh4dF9acnFRM2labWZZY2x6c2ZCaVg5Q2VycWN3QkZCR2twTDVjRGVCRUhLUUJENGVLbGU3UjczbEtRZVJJdkVFZw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 기반 군수체계 구축"
+    },
+    {
+     "source": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ1ktUWUxVU5LcVBqTkFfc3VRQ293TER0TVBwaGR4RkxSeFJRelJkVm1Id2xwa2xPbkx5cEhxODNrUXBaV3c4WU11VUNVbWJTbTRNbm9MWE9INFhRV3dFbHNENVRZV2h4Nk1QTmlzeXY2YjBHWXNmN1VmTno3d3h2RnlB0gGWAUFVX3lxTFBmVzd5bHlFa01SYjNaMWFrTjJBUVRLUG5RaXZQUmZ0VDJrVlR3VlVidjN3dkxaOUpXWVpINkljWURqeFllM0xaa09KYXB4el96MHIySkVSRVNlSkIxby1Cc21YbHBPbEg2YUVQRzVlWGhuSlVINlZBQW1CR09pcnlwVUJqQndpa21yNWpjbjBDWTdEX2twZw?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 AI 군수체계 구축…조달·정비·물류 혁신"
+    },
+    {
+     "source": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lTXZkN2NIb3c3Z3ZfYWZYNGNGVUMyT0JBSmRna3JPcDM3WTZscmRmandOcFR1SmRzeTg0VVhOcVNQMGM5eWFGMEpkU2dET3MteGQtYkg0ZW1xNknSAWBBVV95cUxONEhVeTFLN1VDSkhlclNXV0J4VXB5ZlR0dHNNc2M2eXZ2NkFrVWhCd0dmWUNEQ1A0dmdyVW4tUENmVXJ2RnQ2alBfelUyaEtudW1GMFVxMXdNLVV6QzJsa0Y?oc=5",
+     "title": "네이버클라우드·육군, 조달부터 정비까지 'AI 군수' 추진"
     }
    ],
    "origin": "rss",
@@ -7258,7 +7461,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.5,
+   "score": 8.5,
    "also": [
     {
      "source": "메트로신문",
@@ -7443,6 +7646,11 @@
     {
      "source": "에이빙",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kb3NxRkJKWG5BVHhEVFEwcmpuS2MxZFM1Nnp0d2FGX1hreU03Um5kbHVybmFEc0dmSnVESEZvd2xHUmFyb2cteDdFWlA1Zzk3X0hxZEgyaUxTdVNfTXlGaVBqWklHNzDSAWtBVV95cUxQUFdmM2FhVFVjVGF1ZElGV2dzWjk1REowTWVxRGFGa1lydjhYTTBrUXdEZGtTTjBfdHBRSlU1QmVwT3FWSXBKalNIZGVFbHdlX1hzUjNVS2w3UjdmREMxeGFlbTNLVlJERGxWTQ?oc=5",
+     "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수' 구축 나선다"
+    },
+    {
+     "source": "NAVERCorp.",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83UzNGQTJUR3B6U1VaYmpia2RUMnJhWFJ5N3NSQXpxazU1R2lZMXVPWWJETDQyZVMwQnpuOWRfYUwyczR3ZjROa2pTbC1uNE5ETDBhT1JCdlFTSGlLY3dYMFZYSlhQY3FjQ21ZY3lIb2U2QQ?oc=5",
      "title": "네이버클라우드, 육군 군수사령부와 '실전형 AI 군수' 구축 나선다"
     }
    ],
