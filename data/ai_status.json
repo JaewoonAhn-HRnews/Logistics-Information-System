@@ -1,9 +1,10 @@
 {
- "checked": "2026-11-14 18:34",
- "has_key": false,
- "key_kind": "없음",
+ "checked": "2026-11-14 18:37",
+ "has_key": true,
+ "key_kind": "sk-ant-usr…",
  "model": "claude-sonnet-5-5",
- "calls_ok": 0,
+ "ok": true,
+ "calls_ok": 11,
  "calls_fail": 0,
  "last_err": ""
 }

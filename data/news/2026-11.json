@@ -2,6 +2,158 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "80e0eaff88e9",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T18:37",
+   "title": "[조달계획] 26-경화학용 소방차 외주정비 용역",
+   "source": "국방전자조달(D2B) · 공군사관학교",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군사관학교 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 47426",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "33d5218660f0",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T18:37",
+   "title": "[조달계획] 26-4차 전산운영용품 구매",
+   "source": "국방전자조달(D2B) · 제7보병사단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제7보병사단 · 구매 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 47020",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "sys",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "6235907fdd0a",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T18:37",
+   "title": "[조달계획] '26년 후반기 국군복지단 본부 위험수목 정비용역",
+   "source": "국방전자조달(D2B) · 국군복지단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군복지단 · 용역 · 수의계약 · 발주예정 2026.11 · 계약준비중(낙찰단가처리중) · 판단번호 46139",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "134aef7fb3dd",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T15:07",
+   "title": "GÖKBEY Helicopter Maintenance and Sustainment: Support, Spares and Logistics",
+   "source": "Envanter Medya",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYUtZRldfNnJKeU9JaWsycFY4cllNN1Nza3VnalBwUGxaRVZxRnBwaFFRM2JYak1FczBzSUhjUjNwVkllcGZIa3BkaDBlUHh6T25iZ3dTbVRqVVJsb1VCRndGek1iazlaR1N5VDhjTm4zdmprTnlNVS1rZFptaU85WC1JczFFdnM3QlNFRg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "etc",
+   "q": "Taiwan military logistics maintenance",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "c6c7895d8a5f",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T10:44",
+   "title": "402nd AFSB commander highlights commercial readiness, scalable sustainment at Pacific conference",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYVBfWDlicEVPMXpBVzhBZFZwUWdFZVhIUUhXU0lSRllaZTNiY0hjSlVyNllPaVB4T1BXYU5odEt5Q1FockFCYWMxdWlTai01bnNQYk9JMWcyVlFqSno2d2YyZ0hxSmVkUG1CUlM4enRzN1RfRjEwVEE2R1luNURiRE95TnhtaGVRSGhRRVdHcUZCaF9EVThNMURmQ19TOGk3cTBZbFIteTExbWtUQ2ZoX3dVd1JlaHhFUHpEQzFRNzY4ZEZmNnM3ZzR3ONIB0AFBVV95cUxQc19zeE9yRi1tWWRPY2pJSjE0STBnNXJMT1l1MDZGbk1RdGd6RjRUY2NZT3Jlckg3djRmdmJTbzlLNkxWRjVNNTNGMDIxWWtHQXVGR25Pc0dob1d0d3FFZktBZ3VaLVZKVWdPWmxRekFjN1BWaWhqVWdadFk4c2xWNkF2cUM4SnMxbHBLaFhiNm5RcXZHTEx3Wk1JcFl3Q1ZBT0kwRHV3M0VQbGE3NjJkdmJ0UkZFZm43QUY3QVJtYjA3OUttRTBwNmJMREh5eXRl?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "6a6e262aacf2",
    "date": "2026-11-14",
    "ts": "2026-11-14T07:11",
@@ -2443,7 +2595,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 3.5,
+   "score": 4.0,
    "also": [
     {
      "source": "비즈트리뷴",
@@ -5259,7 +5411,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 6.0,
    "also": [
     {
      "source": "더팩트",
@@ -5270,6 +5422,11 @@
      "source": "쿠키뉴스",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmUVpPeXZuempkN3pBTGczYnAzTEFNYzh0WEhaNnNFVm9rd010QUNuT3g2WVlFTHRMLUtJN0FHNU5CQXJWMHJvMFU0YWMzZjR0SzM0MnhBanhZUHFMS3U3SFRGWQ?oc=5",
      "title": "KAI, AI 기반 통합 군수 플랫폼 구축…무기 가동률 높인다"
+    },
+    {
+     "source": "뉴스드림",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VWkVqTXUtV0ZSYjB2dFFSb0dUNjN4ZFc0YmFDXzltMUFJOGQ1MWp2ME9RM3p3NDBOZTFwb0VJWk1peGtuVzNGbnZyMTdMX1gzcVlXNGs5Tm5vbmdicC13WUhNZFVnWU9iTmfSAW5BVV95cUxPWVBJMUJzbnJSRUZmeHpWZ3lUbmNkUUl5ek1samxqaUxHVV9aLVlGZGRFcjZkZFVRQjBUcGNjZjlzTzRtR090cWY2bTZDV010VDBsUjVUdUY5RWZ6OV9HMGFHd2NVT0pMVy1KS05pUQ?oc=5",
+     "title": "KAI, AI로 무기 가동률 끌어올린다… 대화형 군수 플랫폼 구축"
     }
    ],
    "origin": "rss",
@@ -7461,7 +7618,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.5,
+   "score": 8.5,
    "also": [
     {
      "source": "메트로신문",
