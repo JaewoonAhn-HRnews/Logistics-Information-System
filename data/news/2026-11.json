@@ -2,6 +2,74 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "fd3bb8c63f82",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T20:39",
+   "title": "DLA Distribution San Diego visit focuses on audit readiness as joint force readiness enabler",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wcVRWNU9oZGdzR2VxT2swZlJibWxISkxub0xLQzZRZXF1ZWRtR2tTUjhBU2RfZFZqU0NyU2MyTGVkZURmN1FZMUltM1pjXzY5TUp3ZGZwckZhZG13TWRMaU9uUEprX3c?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
+   "id": "7529b2f20d31",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T19:41",
+   "title": "AMC leader stresses partnerships with DLA in support of warfighter, joint readiness missions",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KUEM2d2NHRUI0UEFseXpvRUd3QVAwUzhTOVBYMXJRQXYzc2tlNXdSX0pqQ2ZuV19uQktucmhWWG0yZVRJNnNrZ1dXTHF0bldCYUM5aURrOXRrN095cEd6ZTE4RXhjbUE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "80e0eaff88e9",
    "date": "2026-11-14",
    "ts": "2026-11-14T18:37",
@@ -151,6 +219,38 @@
     "wpn"
    ],
    "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "18b4b51d6f7d",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T07:22",
+   "title": "Navy expands Kearney & Company audit support to accelerate FY2027 General Fund readiness",
+   "source": "OrangeSlices AI",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLXJaTXQ2Yk9WZ3Z1aXgxcjNEX19oVWVRNWg4X1VCSklscUhFZ1UzZnRhbWVIZ2owcENFMHlDWWRZd3NwQUx0V05GMHhPa0RHblloOUVyQ1QxSGtiN2ZkOFZWN3FhWnZQMEV2d2NPQ2lwNm13UkdKc2RNaWZRY3FzN3FNX1hMMUZ5SlQyQldyaUhxMFVONXlhcmVMMWpVZU5DOFRGY0lseUxRdDJ6NXM0bQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Marine Corps logistics AI",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
    "desc_tried": true
   },
   {
@@ -2595,7 +2695,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 3.5,
    "also": [
     {
      "source": "비즈트리뷴",
@@ -5411,7 +5511,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 4.5,
    "also": [
     {
      "source": "더팩트",
@@ -7618,7 +7718,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 8.5,
+   "score": 5.5,
    "also": [
     {
      "source": "메트로신문",
