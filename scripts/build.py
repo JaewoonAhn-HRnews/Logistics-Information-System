@@ -241,13 +241,13 @@ def ai_brief(kind, label, items):
 ICONS = ["org", "network", "target", "learn", "policy", "shield", "gear", "chart", "truck", "plane", "ship", "data", "money", "robot", "tank", "parts"]
 
 
-def _claude(prompt, max_tokens=3000):
+def _claude(prompt, max_tokens=3000, timeout=150):
     key = os.environ.get("ANTHROPIC_API_KEY")
     model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5-5"
     body = json.dumps({"model": model, "max_tokens": max_tokens, "messages": [{"role": "user", "content": prompt}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=150) as r:
+    with urllib.request.urlopen(req, timeout=timeout) as r:
         res = json.loads(r.read())
     txt = "".join(b.get("text", "") for b in res.get("content", []))
     m = re.search(r"\{.*\}", txt, re.S)
@@ -357,25 +357,39 @@ def weekly_layout_v2(cache, arts, recent=4):
         h = _h.sha1(("v2|" + "|".join(",".join(t.get("ids", [])) + t.get("head", "") for t in th)).encode()).hexdigest()[:10]
         if wk.get("v2", {}).get("h") == h:
             continue
-        lines = []
+        lines, ref = [], {}
         for i, t in enumerate(th):
-            lines.append({"g": i + 1, "cat": t.get("cat", ""), "head": t.get("head", ""), "points": t.get("points", []),
-                          "articles": [{"id": x, "title": by.get(x, {}).get("title", ""), "summary": (sums.get(x, {}).get("s") or by.get(x, {}).get("summary", ""))[:160]}
-                                       for x in t.get("ids", []) if x in by]})
-        prompt = ("다음은 이번 주 국방 군수·AI 주간 브리핑의 주제 그룹과 소속 기사입니다. 고위관리자용 1페이지 '3분 브리핑'으로 다듬으세요. 출력은 JSON 하나만.\n"
+            arts_g = []
+            for x in t.get("ids", []):
+                if x in by:
+                    ref[len(ref) + 1] = x
+                    arts_g.append({"n": len(ref), "title": by[x]["title"][:90], "summary": (sums.get(x, {}).get("s") or by[x].get("summary", ""))[:120]})
+            lines.append({"g": i + 1, "cat": t.get("cat", ""), "head": t.get("head", ""), "articles": arts_g})
+        prompt = ("다음은 이번 주 국방 군수·AI 주간 브리핑의 주제 그룹과 소속 기사입니다. 고위관리자용 1페이지 '3분 브리핑'으로 다듬으세요. 출력은 JSON 하나만, 설명 없이.\n"
                   '{"tag": "이번 주를 관통하는 두 흐름(최대 22자, 예: 자율전력 가속 × 신뢰·보안 동시 확보)", '
                   '"groups": [{"g": 1, "title": "그룹 제목(최대 12자, 예: 국방 정책·의회 감독)", "sub": "그룹 부제(최대 22자)", '
-                  '"items": [{"id": "기사 id", "h": "기사 헤드라인(최대 18자)", "d": "한 줄 설명(최대 30자, 명사형)"}]}], '
+                  '"items": [{"n": 기사번호, "h": "헤드라인(최대 18자)", "d": "한 줄 설명(최대 28자, 명사형)"}]}], '
                   '"imps": [{"t": "시사점 제목(최대 12자)", "d": "설명(최대 30자)"}]}\n'
-                  "규칙: groups는 입력 그룹 순서·개수 그대로, items는 그룹의 모든 기사를 중요도 순으로. imps는 정확히 4개, 우리 군(국방군수통합정보체계, "
+                  "규칙: groups는 입력 그룹 순서·개수 그대로, items는 그룹의 모든 기사를 중요도 순으로(n은 입력 번호). imps는 정확히 4개, 우리 군(국방군수통합정보체계, "
                   "무기체계 신뢰도·수리부속·정비인력 예측) 관점. 기사에 없는 사실은 쓰지 마세요.\n\n" + json.dumps(lines, ensure_ascii=False))
-        try:
-            got = _claude(prompt, 6000)
-            if got.get("groups"):
-                got.update(h=h, at=now_kst().strftime("%Y-%m-%d %H:%M"))
-                wk["v2"] = got
-        except Exception as e:  # noqa: BLE001
-            print(f"  ! 주간 보고서 문구 실패({k}): {e}", file=sys.stderr)
+        err = ""
+        for _try in range(2):
+            try:
+                got = _claude(prompt, 8000, timeout=300)
+                if got.get("groups"):
+                    for g in got["groups"]:
+                        g["items"] = [dict(x, id=ref[x["n"]]) for x in g.get("items", []) if isinstance(x, dict) and x.get("n") in ref]
+                    got.update(h=h, at=now_kst().strftime("%Y-%m-%d %H:%M"))
+                    wk["v2"] = got
+                    wk.pop("v2_err", None)
+                    err = ""
+                    break
+                err = "빈 응답"
+            except Exception as e:  # noqa: BLE001
+                err = f"{type(e).__name__}: {e}"[:200]
+                print(f"  ! 주간 보고서 문구 실패({k}): {err}", file=sys.stderr)
+        if err:
+            wk["v2_err"] = err
     save_json(DATA / "weekly_briefs.json", cache)
 
 
