@@ -507,23 +507,24 @@
     const CW = 4.18, GX = 0.13, X0 = 0.2, Y0 = 0.98, CH = 2.72;
     M.groups.forEach((g, i) => {
       const x = X0 + (i % 3) * (CW + GX), y = Y0 + Math.floor(i / 3) * (CH + 0.1), c = hx(g.col.c), l = hx(g.col.l);
-      sl.addShape(P.ShapeType.roundRect, { x, y, w: CW, h: CH, fill: { color: "FFFFFF" }, line: { color: c, width: 1.25 }, rectRadius: 0.06 });
-      sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.01, w: CW - 0.02, h: 0.36, fill: { color: c } });
+      const last = i === M.groups.length - 1, CWi = last ? CW + (2 - (i % 3)) * (CW + GX) : CW;
+      sl.addShape(P.ShapeType.roundRect, { x, y, w: CWi, h: CH, fill: { color: "FFFFFF" }, line: { color: c, width: 1.25 }, rectRadius: 0.06 });
+      sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.01, w: CWi - 0.02, h: 0.36, fill: { color: c } });
       sl.addShape(P.ShapeType.ellipse, { x: x + 0.1, y: y + 0.05, w: 0.26, h: 0.26, fill: { color: "FFFFFF" } });
       sl.addText(String(i + 1), { x: x + 0.1, y: y + 0.05, w: 0.26, h: 0.26, fontSize: 11, bold: true, color: c, align: "center", valign: "middle", fontFace: F, margin: 0 });
-      sl.addText(g.title, { x: x + 0.44, y: y + 0.02, w: CW - 0.5, h: 0.34, fontSize: 14, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
-      sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.37, w: CW - 0.02, h: 0.25, fill: { color: l } });
-      sl.addText(g.sub, { x: x + 0.1, y: y + 0.37, w: CW - 0.2, h: 0.25, fontSize: 9.5, bold: true, color: c, fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
-      if (ban[i]) sl.addImage({ data: ban[i], x: x + 0.1, y: y + 0.66, w: CW - 0.2, h: 0.5, sizing: { type: "cover", w: CW - 0.2, h: 0.5 } });
+      sl.addText(g.title, { x: x + 0.44, y: y + 0.02, w: CWi - 0.5, h: 0.34, fontSize: 14, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
+      sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.37, w: CWi - 0.02, h: 0.25, fill: { color: l } });
+      sl.addText(g.sub, { x: x + 0.1, y: y + 0.37, w: CWi - 0.2, h: 0.25, fontSize: 9.5, bold: true, color: c, fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
+      if (ban[i]) sl.addImage({ data: ban[i], x: x + 0.1, y: y + 0.66, w: CWi - 0.2, h: 0.5, sizing: { type: "cover", w: CWi - 0.2, h: 0.5 } });
       g.items.slice(0, 4).forEach((it, k) => {
         const yy = y + 1.22 + k * 0.365;
         sl.addShape(P.ShapeType.roundRect, { x: x + 0.12, y: yy + 0.03, w: 0.3, h: 0.28, fill: { color: c }, rectRadius: 0.04 });
         sl.addText(String(it.no), { x: x + 0.12, y: yy + 0.03, w: 0.3, h: 0.28, fontSize: 11, bold: true, color: "FFFFFF", align: "center", valign: "middle", fontFace: F, margin: 0 });
-        sl.addText(it.h, { x: x + 0.5, y: yy, w: CW - 0.6, h: 0.2, fontSize: 10.5, bold: true, color: "16233A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
-        sl.addText(it.d, { x: x + 0.5, y: yy + 0.19, w: CW - 0.6, h: 0.16, fontSize: 7.5, color: "56657A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
-        if (k < Math.min(4, g.items.length) - 1) sl.addShape(P.ShapeType.line, { x: x + 0.12, y: yy + 0.36, w: CW - 0.24, h: 0, line: { color: "E1E7EF", width: 0.6 } });
+        sl.addText(it.h, { x: x + 0.5, y: yy, w: CWi - 0.6, h: 0.2, fontSize: 10.5, bold: true, color: "16233A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
+        sl.addText(it.d, { x: x + 0.5, y: yy + 0.19, w: CWi - 0.6, h: 0.16, fontSize: 7.5, color: "56657A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
+        if (k < Math.min(4, g.items.length) - 1) sl.addShape(P.ShapeType.line, { x: x + 0.12, y: yy + 0.36, w: CWi - 0.24, h: 0, line: { color: "E1E7EF", width: 0.6 } });
       });
-      if (g.items.length > 4) sl.addText(`외 ${g.items.length - 4}건 (상세 슬라이드 참조)`, { x: x + 0.12, y: y + CH - 0.07 - 0.14, w: CW - 0.24, h: 0.14, fontSize: 7, color: "8A97A8", align: "right", fontFace: F, margin: 0 });
+      if (g.items.length > 4) sl.addText(`외 ${g.items.length - 4}건 (상세 슬라이드 참조)`, { x: x + 0.12, y: y + CH - 0.07 - 0.14, w: CWi - 0.24, h: 0.14, fontSize: 7, color: "8A97A8", align: "right", fontFace: F, margin: 0 });
     });
     const by = 6.62;
     sl.addShape(P.ShapeType.roundRect, { x: 0.2, y: by, w: 12.93, h: 0.66, fill: { color: "FFFFFF" }, line: { color: "1B3B70", width: 1.25 }, rectRadius: 0.06 });
