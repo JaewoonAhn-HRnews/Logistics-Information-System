@@ -341,6 +341,44 @@ def ai_weekly_briefings(groups, periods, recent=3):
     return cache
 
 
+def weekly_layout_v2(cache, arts, recent=4):
+    """주간 보고서(뉴스레터 3분 브리핑 양식)용 문구: 상단 태그라인, 그룹 제목·부제, 기사별 헤드라인·한 줄 설명, 핵심 시사점 4개.
+    기존 주제 묶음(themes)은 그대로 두고 표현만 다듬어 wk['v2']에 캐시. API 키가 없으면 화면에서 기존 필드로 대신 구성."""
+    import hashlib as _h
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return
+    sums = load_json(DATA / "article_sums.json", {})
+    by = {a["id"]: a for a in arts}
+    for k in sorted(cache)[-recent:]:
+        wk = cache[k]
+        th = wk.get("themes", [])
+        if not th:
+            continue
+        h = _h.sha1(("v2|" + "|".join(",".join(t.get("ids", [])) + t.get("head", "") for t in th)).encode()).hexdigest()[:10]
+        if wk.get("v2", {}).get("h") == h:
+            continue
+        lines = []
+        for i, t in enumerate(th):
+            lines.append({"g": i + 1, "cat": t.get("cat", ""), "head": t.get("head", ""), "points": t.get("points", []),
+                          "articles": [{"id": x, "title": by.get(x, {}).get("title", ""), "summary": (sums.get(x, {}).get("s") or by.get(x, {}).get("summary", ""))[:160]}
+                                       for x in t.get("ids", []) if x in by]})
+        prompt = ("다음은 이번 주 국방 군수·AI 주간 브리핑의 주제 그룹과 소속 기사입니다. 고위관리자용 1페이지 '3분 브리핑'으로 다듬으세요. 출력은 JSON 하나만.\n"
+                  '{"tag": "이번 주를 관통하는 두 흐름(최대 22자, 예: 자율전력 가속 × 신뢰·보안 동시 확보)", '
+                  '"groups": [{"g": 1, "title": "그룹 제목(최대 12자, 예: 국방 정책·의회 감독)", "sub": "그룹 부제(최대 22자)", '
+                  '"items": [{"id": "기사 id", "h": "기사 헤드라인(최대 18자)", "d": "한 줄 설명(최대 30자, 명사형)"}]}], '
+                  '"imps": [{"t": "시사점 제목(최대 12자)", "d": "설명(최대 30자)"}]}\n'
+                  "규칙: groups는 입력 그룹 순서·개수 그대로, items는 그룹의 모든 기사를 중요도 순으로. imps는 정확히 4개, 우리 군(국방군수통합정보체계, "
+                  "무기체계 신뢰도·수리부속·정비인력 예측) 관점. 기사에 없는 사실은 쓰지 마세요.\n\n" + json.dumps(lines, ensure_ascii=False))
+        try:
+            got = _claude(prompt, 6000)
+            if got.get("groups"):
+                got.update(h=h, at=now_kst().strftime("%Y-%m-%d %H:%M"))
+                wk["v2"] = got
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! 주간 보고서 문구 실패({k}): {e}", file=sys.stderr)
+    save_json(DATA / "weekly_briefs.json", cache)
+
+
 def weekly_archive_trends(cache, links, recent=6):
     """주간 브리핑 주제별 '아카이브 연계 추이': 과거 관련 기사 흐름 + (API 키가 있으면) 추이 한 줄·우리 군 시사점."""
     import hashlib as _h
@@ -599,6 +637,7 @@ def main():
         print(f"  ! 아카이브 연계 실패: {e}", file=sys.stderr)
         links = load_json(DATA / "archive_links.json", {})
     wb = ai_weekly_briefings(groups, periods)
+    weekly_layout_v2(wb, arts)
     weekly_archive_trends(wb, links)
     export_csv(arts, periods)
     print(f"기사 {len(arts)}건 · 일 {len(periods['day'])} · 주 {len(periods['week'])} · 월 {len(periods['month'])} · 연 {len(periods['year'])}")

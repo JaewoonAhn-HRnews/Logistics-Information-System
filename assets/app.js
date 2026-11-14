@@ -334,7 +334,8 @@
       </div>`;
     const go = k => { location.hash = `#${M.v}/${k}`; };
     const igb = $("#ig-save", sec); if (igb) igb.onclick = () => saveIG(key);
-    const wbb = $("#wb-save", sec); if (wbb) wbb.onclick = () => savePNG("#wb-card", `주간브리핑_${key}.png`, "#ffffff");
+    const wbb = $("#wb-save", sec); if (wbb) wbb.onclick = () => savePNG("#wb-card", `주간보고서_${key}.png`, "#ffffff");
+    const wbp = $("#wb-ppt", sec); if (wbp) wbp.onclick = () => wrPPT(key, s);
     $("#p-sel", sec).onchange = e => go(e.target.value);
     $("#p-prev", sec).onclick = () => go(keys[i + 1]);
     $("#p-next", sec).onclick = () => go(keys[i - 1]);
@@ -408,21 +409,191 @@
     </div>`;
   }
   document.addEventListener("click", e => { const x = e.target.closest("[data-nc]"); if (x) { e.preventDefault(); openDrawer(x.dataset.nc); } });
+  // ---------- WEEKLY REPORT (3분 브리핑 양식 + PPT) ----------
+  const WR_COL = [
+    { c: "#1f4fa3", l: "#e8eefa" }, { c: "#0f7a5c", l: "#e4f4ee" }, { c: "#1b6aa0", l: "#e5f0f8" },
+    { c: "#6a3fb0", l: "#f0eaf9" }, { c: "#c0453a", l: "#fbeceb" }, { c: "#a26a0c", l: "#fbf3e3" },
+  ];
+  const WR_MOTIF = { org: ["org", "policy", "network"], network: ["network", "data", "org"], target: ["target", "plane", "shield"], learn: ["learn", "org", "data"],
+    policy: ["policy", "money", "org"], shield: ["shield", "network", "data"], gear: ["gear", "parts", "truck"], chart: ["chart", "data", "money"],
+    truck: ["truck", "parts", "ship"], plane: ["plane", "gear", "parts"], ship: ["ship", "gear", "truck"], data: ["data", "network", "chart"],
+    money: ["money", "chart", "policy"], robot: ["robot", "data", "gear"], tank: ["tank", "truck", "gear"], parts: ["parts", "gear", "truck"] };
+  const clip = (t, n) => { t = String(t || ""); return t.length > n ? t.slice(0, n - 1) + "…" : t; };
+  function wrModel(key, s) {
+    const b = WB[key]; if (!b || !b.themes) return null;
+    const v2 = b.v2 || {}, gv = {}; (v2.groups || []).forEach(g => gv[g.g] = g);
+    let no = 0; const seen = {};
+    const groups = b.themes.slice(0, 6).map((t, i) => {
+      const g = gv[i + 1] || {}, iv = {}; (g.items || []).forEach(x => iv[x.id] = x);
+      const order = (g.items || []).map(x => x.id).filter(id => (t.ids || []).includes(id));
+      (t.ids || []).forEach(id => { if (!order.includes(id)) order.push(id); });
+      const items = order.filter(id => BYID[id]).map(id => {
+        if (!seen[id]) seen[id] = ++no;
+        const a = BYID[id], c = SUMS[id] || {}, x = iv[id] || {};
+        return { no: seen[id], id, h: x.h || c.h || clip(a.title, 22), d: x.d || (c.p || [])[0] || clip(c.s || a.summary || "", 40),
+          s: c.s || a.summary || "", src: a.source || "", date: a.date, url: a.url };
+      });
+      return { i, col: WR_COL[i % 6], icon: t.icon || "gear", title: g.title || t.cat || t.head, sub: g.sub || t.head, points: t.points || [],
+        items, tr: t.tr || "", im: t.im || "", arch: t.arch || null };
+    });
+    const imps = (v2.imps && v2.imps.length ? v2.imps : (b.recs || [])).slice(0, 4);
+    return { key, s, start: s.start, end: s.end, week: key.replace("-W", "년 ") + "주차", tag: v2.tag || b.core || "", core: b.core || "",
+      groups, imps, recs: b.recs || [], n: no, total: b.n || s.n, at: v2.at || b.at || "" };
+  }
+  function wrBanner(icon, col, W = 400, H = 92) {
+    const m = WR_MOTIF[icon] || WR_MOTIF.gear, id = "g" + Math.random().toString(36).slice(2, 7);
+    const ic = (k, x, y, sz, op) => `<svg x="${x}" y="${y}" width="${sz}" height="${sz}" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-opacity="${op}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">${NI[k] || NI.gear}</svg>`;
+    let grid = ""; for (let x = 0; x <= W; x += 20) grid += `<path d="M${x} 0V${H}"/>`; for (let y = 0; y <= H; y += 20) grid += `<path d="M0 ${y}H${W}"/>`;
+    let dots = ""; for (let k = 0; k < 26; k++) { const x = (k * 97) % W, y = (k * 53) % H; dots += `<circle cx="${x}" cy="${y}" r="${k % 3 ? .9 : 1.6}"/>`; }
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" preserveAspectRatio="xMidYMid slice">
+      <defs><linearGradient id="${id}a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081a36"/><stop offset=".55" stop-color="${col}" stop-opacity=".85"/><stop offset="1" stop-color="#0a1f3f"/></linearGradient>
+      <radialGradient id="${id}b" cx=".72" cy=".2" r=".6"><stop offset="0" stop-color="#ffffff" stop-opacity=".35"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+      <rect width="${W}" height="${H}" fill="url(#${id}a)"/><rect width="${W}" height="${H}" fill="url(#${id}b)"/>
+      <g stroke="#9fd8ff" stroke-opacity=".12" stroke-width=".6">${grid}</g>
+      <path d="M-20 ${H + 40} Q ${W / 2} ${H - 38} ${W + 20} ${H + 40}" fill="none" stroke="#7fe3ff" stroke-opacity=".55" stroke-width="1.4"/>
+      <path d="M-20 ${H + 52} Q ${W / 2} ${H - 26} ${W + 20} ${H + 52}" fill="#ffffff" fill-opacity=".06"/>
+      <g fill="#bfeaff" fill-opacity=".55">${dots}</g>
+      ${ic(m[1], W * .1, H * .24, H * .54, .55)}${ic(m[0], W * .5 - H * .38, H * .1, H * .76, .95)}${ic(m[2], W * .9 - H * .54, H * .24, H * .54, .6)}
+    </svg>`;
+  }
   function briefHTML(key, s) {
-    const b = WB[key];
-    if (!b || !b.themes) return "";
-    const circ = n => "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"[n - 1] || n;
-    const nmap = {}; let nn = 0;
-    b.themes.forEach(t => (t.ids || []).forEach(id => { if (!nmap[id]) nmap[id] = ++nn; }));
-    return `<div class="wb-wrap"><div class="wb" id="wb-card">
-      <div class="wb-head"><h2>국방 군수·AI 주간 브리핑</h2><div class="wb-meta">${esc(s.start.replace(/-/g, ". "))}.–${esc(s.end.slice(5).replace("-", ". "))}. | ${esc(key.replace("-W", "년 ") + "주차")} · ${b.themes.length}개 주제 · ${b.n || s.n}개 기사</div></div>
-      <div class="wb-core"><span>이번 주 핵심</span><b>${esc(b.core || "")}</b></div>
-      <div class="wb-grid">${b.themes.map((t, i) => `<div class="wb-t"><div class="wb-t-top"><span class="wb-no">${String(i + 1).padStart(2, "0")}</span><span class="wb-cat">${esc(t.cat || "")}</span></div>
-        <div class="wb-t-body"><div><div class="wb-h">${esc(t.head || "")}</div><ul>${(t.points || []).map(p => `<li>${esc(p)}</li>`).join("")}</ul></div><div class="wb-ico">${nIcon(t.icon)}</div></div>
-        <div class="wb-refs">관련 기사 ${(t.ids || []).slice(0, 6).map(id => `<a href="#" data-nc="${id}" title="${esc(BYID[id]?.title || "")}">${circ(nmap[id])}</a>`).join("")}${(t.ids || []).length > 6 ? ` 외 ${(t.ids || []).length - 6}건` : ""}</div>${wbArch(t)}</div>`).join("")}</div>
-      ${(b.recs || []).length ? `<div class="wb-recs"><div class="wb-recs-h">우리 군의 의사결정 과제 | 정책적 제언</div><div class="wb-recs-b">${b.recs.map((r, i) => `<div class="wb-r"><span>${i + 1}</span><div><b>${esc(r.t)}</b><p>${esc(r.d)}</p></div></div>`).join("")}</div></div>` : ""}
-      <div class="wb-src">출처: 군수정보 인텔리전스 자동 수집 기사 ${b.n || s.n}건 · AI 정리(${esc(b.at || "")}) · 관련 기사 번호를 누르면 원문 정보가 열립니다</div>
-    </div><div class="ig-actions"><button class="btn ghost" type="button" id="wb-save">주간 브리핑 이미지로 저장(PNG)</button></div></div>`;
+    const M = wrModel(key, s); if (!M) return "";
+    const ymdDot = d => d.replace(/-/g, ". ").replace(/^(\d{4}). 0?(\d+). 0?(\d+)$/, "$1. $2. $3") + ".";
+    const period = `${ymdDot(M.start)} ~ ${M.end.slice(5).replace(/^0?(\d+)-0?(\d+)$/, "$1. $2.")}`;
+    return `<div class="wb-wrap"><div class="wr" id="wb-card">
+      <div class="wr-head"><div class="wr-badge"><b>LOG</b><span>BRIEF</span></div>
+        <div class="wr-tt"><h2>국방 군수·AI 주간 보고서 <em>${esc(M.week)}</em></h2><div class="wr-meta">${esc(period)} <i>|</i> ${M.groups.length}개 주제 · ${M.n}개 기사</div></div>
+        <div class="wr-tag"><b>3분 브리핑</b><span>${esc(M.tag)}</span></div></div>
+      <div class="wr-grid">${M.groups.map(g => `<div class="wr-g" style="--c:${g.col.c};--l:${g.col.l}">
+        <div class="wr-gh"><span class="wr-gn">${g.i + 1}</span><h3>${esc(g.title)}</h3></div>
+        <div class="wr-gs">${esc(g.sub)}</div>
+        <div class="wr-ban">${wrBanner(g.icon, g.col.c)}</div>
+        <ol class="wr-items">${g.items.slice(0, 4).map(x => `<li><a href="#" data-nc="${x.id}" class="wr-no">${x.no}</a><div><a href="#" data-nc="${x.id}" class="wr-h">${esc(x.h)}</a><p>${esc(x.d)}</p></div></li>`).join("")}</ol>
+        ${g.items.length > 4 ? `<div class="wr-more">외 ${g.items.length - 4}건 · ${g.items.slice(4).map(x => `<a href="#" data-nc="${x.id}">${x.no}</a>`).join(" ")}</div>` : ""}
+        ${g.tr ? `<div class="wr-tr"><b>추이</b>${esc(g.tr)}</div>` : ""}
+      </div>`).join("")}</div>
+      ${M.imps.length ? `<div class="wr-imp" style="--k:${M.imps.length}"><div class="wr-imp-h">이번 주<br>핵심 시사점</div>${M.imps.map((r, i) => `<div class="wr-ic"><div><span>${i + 1}</span><b>${esc(r.t)}</b></div><p>${esc(r.d)}</p></div>`).join("")}</div>` : ""}
+      <div class="wr-foot"><span>자동 수집 기사 ${M.total}건 중 ${M.n}건을 주제별 배치 · AI 정리(${esc(M.at)}) · 번호를 누르면 원문 정보</span><span>군수정보 인텔리전스 · 국방 고위관리자용 1페이지 브리핑</span></div>
+    </div><div class="ig-actions"><button class="btn" type="button" id="wb-ppt">PPT 파일로 다운로드</button><button class="btn ghost" type="button" id="wb-save">이미지로 저장(PNG)</button><span class="note" id="wb-ppt-msg">1장 요약 + 주제별 상세 ${M.groups.length}장 + 시사점 1장, 파워포인트에서 바로 편집 가능</span></div></div>`;
+  }
+  function loadScript(src) { return new Promise((ok, no) => { if (window.PptxGenJS) return ok(); const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = no; document.head.appendChild(e); }); }
+  function svgToPng(svg, w, h) {
+    return new Promise(res => {
+      const img = new Image(), cv = document.createElement("canvas"); cv.width = w; cv.height = h;
+      img.onload = () => { const x = cv.getContext("2d"); x.drawImage(img, 0, 0, w, h); res(cv.toDataURL("image/png")); };
+      img.onerror = () => res(null);
+      img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+    });
+  }
+  async function wrPPT(key, s) {
+    const msg = $("#wb-ppt-msg"), M = wrModel(key, s); if (!M) return;
+    if (msg) msg.textContent = "PPT 만드는 중…";
+    try { await loadScript("assets/vendor/pptxgen.bundle.js"); } catch (e) { if (msg) msg.textContent = "PPT 라이브러리를 불러오지 못했습니다."; return; }
+    try {
+    const P = new PptxGenJS(); P.layout = "LAYOUT_WIDE"; P.author = "군수정보 인텔리전스"; P.title = `국방 군수·AI 주간 보고서 ${M.week}`;
+    const F = "맑은 고딕", NAVY = "0B1F3F", hx = c => c.replace("#", "");
+    const ban = await Promise.all(M.groups.map(g => svgToPng(wrBanner(g.icon, g.col.c, 800, 184), 800, 184)));
+    const banW = await Promise.all(M.groups.map(g => svgToPng(wrBanner(g.icon, g.col.c, 1000, 150), 1000, 150)));
+    const period = `${M.start.replace(/-/g, ". ")}. ~ ${M.end.slice(5).replace("-", ". ")}.`;
+    // 1) 1장 요약
+    let sl = P.addSlide(); sl.background = { color: "F4F7FB" };
+    sl.addShape(P.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 0.86, fill: { color: NAVY } });
+    sl.addShape(P.ShapeType.roundRect, { x: 0.22, y: 0.12, w: 0.66, h: 0.62, fill: { color: "16325E" }, line: { color: "3B6CB0", width: 1 }, rectRadius: 0.08 });
+    sl.addText([{ text: "LOG", options: { fontSize: 15, bold: true, breakLine: true } }, { text: "BRIEF", options: { fontSize: 7, bold: true } }], { x: 0.22, y: 0.12, w: 0.66, h: 0.62, color: "FFFFFF", fontFace: F, align: "center", valign: "middle", margin: 0 });
+    sl.addText(`국방 군수·AI 주간 보고서 ${M.week}`, { x: 1.0, y: 0.08, w: 8.4, h: 0.48, fontSize: 24, bold: true, color: "FFFFFF", fontFace: F, margin: 0 });
+    sl.addText(`${period}  |  ${M.groups.length}개 주제 · ${M.n}개 기사`, { x: 1.0, y: 0.54, w: 8.4, h: 0.26, fontSize: 11, color: "D6E2F5", fontFace: F, margin: 0 });
+    sl.addText("3분 브리핑", { x: 9.4, y: 0.1, w: 3.75, h: 0.4, fontSize: 18, bold: true, color: "F5C542", fontFace: F, align: "right", margin: 0 });
+    sl.addText(M.tag, { x: 8.4, y: 0.5, w: 4.75, h: 0.28, fontSize: 10.5, bold: true, color: "FFFFFF", fontFace: F, align: "right", margin: 0 });
+    const CW = 4.18, GX = 0.13, X0 = 0.2, Y0 = 0.98, CH = 2.72;
+    M.groups.forEach((g, i) => {
+      const x = X0 + (i % 3) * (CW + GX), y = Y0 + Math.floor(i / 3) * (CH + 0.1), c = hx(g.col.c), l = hx(g.col.l);
+      sl.addShape(P.ShapeType.roundRect, { x, y, w: CW, h: CH, fill: { color: "FFFFFF" }, line: { color: c, width: 1.25 }, rectRadius: 0.06 });
+      sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.01, w: CW - 0.02, h: 0.36, fill: { color: c } });
+      sl.addShape(P.ShapeType.ellipse, { x: x + 0.1, y: y + 0.05, w: 0.26, h: 0.26, fill: { color: "FFFFFF" } });
+      sl.addText(String(i + 1), { x: x + 0.1, y: y + 0.05, w: 0.26, h: 0.26, fontSize: 11, bold: true, color: c, align: "center", valign: "middle", fontFace: F, margin: 0 });
+      sl.addText(g.title, { x: x + 0.44, y: y + 0.02, w: CW - 0.5, h: 0.34, fontSize: 14, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
+      sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.37, w: CW - 0.02, h: 0.25, fill: { color: l } });
+      sl.addText(g.sub, { x: x + 0.1, y: y + 0.37, w: CW - 0.2, h: 0.25, fontSize: 9.5, bold: true, color: c, fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
+      if (ban[i]) sl.addImage({ data: ban[i], x: x + 0.1, y: y + 0.66, w: CW - 0.2, h: 0.5, sizing: { type: "cover", w: CW - 0.2, h: 0.5 } });
+      g.items.slice(0, 4).forEach((it, k) => {
+        const yy = y + 1.22 + k * 0.365;
+        sl.addShape(P.ShapeType.roundRect, { x: x + 0.12, y: yy + 0.03, w: 0.3, h: 0.28, fill: { color: c }, rectRadius: 0.04 });
+        sl.addText(String(it.no), { x: x + 0.12, y: yy + 0.03, w: 0.3, h: 0.28, fontSize: 11, bold: true, color: "FFFFFF", align: "center", valign: "middle", fontFace: F, margin: 0 });
+        sl.addText(it.h, { x: x + 0.5, y: yy, w: CW - 0.6, h: 0.2, fontSize: 10.5, bold: true, color: "16233A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
+        sl.addText(it.d, { x: x + 0.5, y: yy + 0.19, w: CW - 0.6, h: 0.16, fontSize: 7.5, color: "56657A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
+        if (k < Math.min(4, g.items.length) - 1) sl.addShape(P.ShapeType.line, { x: x + 0.12, y: yy + 0.36, w: CW - 0.24, h: 0, line: { color: "E1E7EF", width: 0.6 } });
+      });
+      if (g.items.length > 4) sl.addText(`외 ${g.items.length - 4}건 (상세 슬라이드 참조)`, { x: x + 0.12, y: y + CH - 0.07 - 0.14, w: CW - 0.24, h: 0.14, fontSize: 7, color: "8A97A8", align: "right", fontFace: F, margin: 0 });
+    });
+    const by = 6.62;
+    sl.addShape(P.ShapeType.roundRect, { x: 0.2, y: by, w: 12.93, h: 0.66, fill: { color: "FFFFFF" }, line: { color: "1B3B70", width: 1.25 }, rectRadius: 0.06 });
+    sl.addShape(P.ShapeType.rect, { x: 0.21, y: by + 0.01, w: 1.85, h: 0.64, fill: { color: NAVY } });
+    sl.addText("이번 주\n핵심 시사점", { x: 0.21, y: by + 0.01, w: 1.85, h: 0.64, fontSize: 14, bold: true, color: "FFFFFF", fontFace: F, align: "center", valign: "middle", margin: 0 });
+    const IW = (12.93 - 1.95) / Math.max(1, M.imps.length);
+    M.imps.forEach((r, i) => {
+      const x = 2.15 + i * IW;
+      sl.addShape(P.ShapeType.ellipse, { x, y: by + 0.08, w: 0.26, h: 0.26, fill: { color: "1F4FA3" } });
+      sl.addText(String(i + 1), { x, y: by + 0.08, w: 0.26, h: 0.26, fontSize: 10, bold: true, color: "FFFFFF", align: "center", valign: "middle", fontFace: F, margin: 0 });
+      sl.addText(r.t, { x: x + 0.32, y: by + 0.06, w: IW - 0.4, h: 0.3, fontSize: 12, bold: true, color: "16233A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
+      sl.addText(r.d, { x, y: by + 0.37, w: IW - 0.1, h: 0.24, fontSize: 8.5, color: "56657A", fontFace: F, margin: 0, valign: "middle", fit: "shrink" });
+    });
+    sl.addText(`자동 수집 기사 ${M.total}건 중 ${M.n}건 주제별 배치 · AI 정리(${M.at})`, { x: 0.2, y: 7.3, w: 7, h: 0.16, fontSize: 7, color: "7A8799", fontFace: F, margin: 0 });
+    sl.addText("군수정보 인텔리전스 · 국방 고위관리자용 1페이지 브리핑", { x: 6.2, y: 7.3, w: 6.93, h: 0.16, fontSize: 7, color: "7A8799", fontFace: F, align: "right", margin: 0 });
+    // 2) 주제별 상세 (기사 8건씩 나눠 슬라이드)
+    M.groups.forEach((g, i) => {
+      const c = hx(g.col.c), l = hx(g.col.l);
+      const hasArch = !!(g.tr || g.im || (g.arch && (g.arch.l || []).length));
+      const per = 8, pages = Math.max(1, Math.ceil(g.items.length / per));
+      for (let pg = 0; pg < pages; pg++) {
+        const s2 = P.addSlide(); s2.background = { color: "FFFFFF" };
+        s2.addShape(P.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 0.78, fill: { color: c } });
+        s2.addShape(P.ShapeType.ellipse, { x: 0.3, y: 0.14, w: 0.5, h: 0.5, fill: { color: "FFFFFF" } });
+        s2.addText(`${i + 1}`, { x: 0.3, y: 0.14, w: 0.5, h: 0.5, fontSize: 20, bold: true, color: c, align: "center", valign: "middle", fontFace: F, margin: 0 });
+        s2.addText(g.title + (pages > 1 ? `  (${pg + 1}/${pages})` : ""), { x: 0.95, y: 0.1, w: 8.5, h: 0.58, fontSize: 24, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0 });
+        s2.addText(M.week + " · 주제 상세", { x: 9.3, y: 0.1, w: 3.75, h: 0.58, fontSize: 11, color: "FFFFFF", fontFace: F, align: "right", valign: "middle", margin: 0 });
+        s2.addShape(P.ShapeType.rect, { x: 0, y: 0.78, w: 13.333, h: 0.42, fill: { color: l } });
+        s2.addText(g.sub + (g.points.length ? "  —  " + g.points.join(" · ") : ""), { x: 0.35, y: 0.78, w: 12.6, h: 0.42, fontSize: 12.5, bold: true, color: c, fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
+        if (banW[i]) s2.addImage({ data: banW[i], x: 0.35, y: 1.3, w: 12.63, h: 0.75 });
+        const hdr = ["No", "헤드라인", "요약", "출처 · 일자"].map(t => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: c }, fontSize: 10, fontFace: F, align: "center" } }));
+        const rows = [hdr];
+        g.items.slice(pg * per, pg * per + per).forEach(it => rows.push([
+          { text: String(it.no), options: { bold: true, color: c, align: "center", fontSize: 11, fontFace: F } },
+          it.url ? { text: it.h, options: { bold: true, fontSize: 10.5, color: "16233A", fontFace: F, hyperlink: { url: it.url } } } : { text: it.h, options: { bold: true, fontSize: 10.5, color: "16233A", fontFace: F } },
+          { text: clip(it.s, 140) || "-", options: { fontSize: 9, color: "3E4B5E", fontFace: F } },
+          { text: `${clip(it.src, 26) || "-"}\n${it.date}`, options: { fontSize: 8.5, color: "6B7A8C", fontFace: F } }]));
+        s2.addTable(rows, { x: 0.35, y: 2.15, w: 12.63, colW: [0.55, 3.0, 7.0, 2.08], border: { type: "solid", color: "DCE3EC", pt: 0.6 }, valign: "middle", margin: 0.04 });
+        if (hasArch && pg === pages - 1) {
+          const ay = 6.2;
+          s2.addShape(P.ShapeType.roundRect, { x: 0.35, y: ay, w: 12.63, h: 1.1, fill: { color: "F6F9FC" }, line: { color: "CBD8E4", width: 0.8 }, rectRadius: 0.05 });
+          s2.addText("아카이브 연계 추이", { x: 0.5, y: ay + 0.06, w: 3, h: 0.26, fontSize: 10.5, bold: true, color: "0B7A70", fontFace: F, margin: 0 });
+          const chain = ((g.arch && g.arch.l) || []).slice(-4).map(x => `${x.nl ? `제${x.nl}호` : x.d.slice(2, 7).replace("-", ".")} ${clip(x.t, 22)}`).join("  →  ");
+          s2.addText(chain ? chain + "  →  금주" : "아카이브 최초 등장 주제", { x: 0.5, y: ay + 0.32, w: 12.3, h: 0.24, fontSize: 8.5, color: "44546A", fontFace: F, margin: 0, fit: "shrink" });
+          s2.addText([{ text: "추이  ", options: { bold: true, color: "0B7A70" } }, { text: g.tr || "—" }], { x: 0.5, y: ay + 0.58, w: 12.3, h: 0.22, fontSize: 9.5, color: "1F2937", fontFace: F, margin: 0 });
+          s2.addText([{ text: "우리 군 시사점  ", options: { bold: true, color: "1D4ED8" } }, { text: g.im || "—" }], { x: 0.5, y: ay + 0.82, w: 12.3, h: 0.22, fontSize: 9.5, color: "1F2937", fontFace: F, margin: 0 });
+        }
+      }
+    });
+    // 3) 시사점·제언
+    const s3 = P.addSlide(); s3.background = { color: "F4F7FB" };
+    s3.addShape(P.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 0.78, fill: { color: NAVY } });
+    s3.addText("이번 주 핵심 시사점 · 우리 군 의사결정 과제", { x: 0.35, y: 0.1, w: 10, h: 0.58, fontSize: 24, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0 });
+    s3.addText(M.tag, { x: 0.35, y: 0.95, w: 12.6, h: 0.45, fontSize: 16, bold: true, color: "1F4FA3", fontFace: F, margin: 0 });
+    M.imps.forEach((r, i) => {
+      const x = 0.35 + (i % 2) * 6.38, y = 1.55 + Math.floor(i / 2) * 1.35;
+      s3.addShape(P.ShapeType.roundRect, { x, y, w: 6.25, h: 1.2, fill: { color: "FFFFFF" }, line: { color: "C9D6E6", width: 1 }, rectRadius: 0.06 });
+      s3.addText(String(i + 1), { x: x + 0.2, y: y + 0.3, w: 0.6, h: 0.6, fontSize: 22, bold: true, color: "FFFFFF", fill: { color: "1F4FA3" }, align: "center", valign: "middle", fontFace: F, margin: 0, shape: P.ShapeType.ellipse });
+      s3.addText(r.t, { x: x + 1.0, y: y + 0.18, w: 5.1, h: 0.42, fontSize: 16, bold: true, color: "16233A", fontFace: F, margin: 0, valign: "middle" });
+      s3.addText(r.d, { x: x + 1.0, y: y + 0.6, w: 5.1, h: 0.45, fontSize: 11.5, color: "44546A", fontFace: F, margin: 0, valign: "top" });
+    });
+    const tr = M.groups.filter(g => g.im).map(g => [{ text: g.title + "  ", options: { bold: true, color: hx(g.col.c) } }, { text: g.im, options: { breakLine: true } }]).flat();
+    if (tr.length) {
+      s3.addText("주제별 우리 군 시사점 (아카이브 연계 기반)", { x: 0.35, y: 4.35, w: 12.6, h: 0.32, fontSize: 12, bold: true, color: "0B7A70", fontFace: F, margin: 0 });
+      s3.addText(tr, { x: 0.35, y: 4.7, w: 12.6, h: 2.3, fontSize: 11, color: "1F2937", fontFace: F, margin: 0, valign: "top", paraSpaceAfter: 4, fit: "shrink" });
+    }
+    s3.addText(`출처: 군수정보 인텔리전스 자동 수집 기사 · ${period} · AI 정리(${M.at}) · 기사 원문 링크는 상세 슬라이드의 헤드라인에 연결`, { x: 0.35, y: 7.15, w: 12.6, h: 0.2, fontSize: 8, color: "7A8799", fontFace: F, margin: 0 });
+    await P.writeFile({ fileName: `군수AI_주간보고서_${key}.pptx` });
+    if (msg) msg.textContent = `다운로드 완료 · 군수AI_주간보고서_${key}.pptx`;
+    } catch (e) { console.error(e); if (msg) msg.textContent = "PPT 생성 중 오류: " + e.message; }
   }
 
   // ---------- ARCHIVE LINKAGE (아카이브 연계) ----------
