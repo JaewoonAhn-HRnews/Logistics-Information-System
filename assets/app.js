@@ -13,7 +13,7 @@
   const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 2600); };
 
   let IDX, PER, TR, TAX, CAT = {}, AX = {}, RG = {}, DM = {};
-  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {}, WB = {}, ALINK = {}, ARCH = null;
+  let SRCS = [], FST = { sources: {} }, CASES = [], SUMS = {}, WB = {}, ALINK = {}, ARCH = null, KBL = {}, INS = {};
   let BASE = [];          // 서버 기사(월 파일)
   let ARTS = [];          // DB 반영 후 기사
   let BYID = {};
@@ -47,6 +47,8 @@
     SUMS = await j("data/article_sums.json", {});
     WB = await j("data/weekly_briefs.json", {});
     ALINK = await j("data/archive_links.json", {});
+    KBL = await j("data/kb_links.json", {});
+    INS = await j("data/ai_insights.json", {});
     const files = await Promise.all(IDX.files.map(f => j("data/news/" + f, { articles: [] })));
     BASE = files.flatMap(f => f.articles || []);
     const [ad, ov, cl] = await Promise.all([j("data/db/added.json", null), j("data/db/overrides.json", null), j("data/db/changelog.json", null)]);
@@ -164,6 +166,7 @@
       <h2 style="font-size:20px">${esc(a.title)}</h2>
       ${SUMS[id]?.p ? `<div>${newsCard(a, 1, true)}<div class="ig-actions" style="margin-top:6px"><button class="btn ghost" type="button" id="nc-save">뉴스 카드 이미지로 저장</button></div></div>` : ""}
       ${a.ai_sum ? `<div><h3>AI 요약 <span class="ai-tag">${a.ai_basis === "제목" ? "제목 기준" : "원문 발췌 기준"}</span></h3><p class="card-sum" style="font-size:14.5px">${esc(a.ai_sum)}</p></div>` : ""}
+      ${KBL[id] ? '<div id="d-kb" class="kb-box"><h3>기술·과제 연계</h3><p class="note">불러오는 중…</p></div>' : ""}
       ${archHTML(id)}
       ${a.summary ? `<div><h3>원문 발췌</h3><p class="card-sum" style="font-size:14px">${esc(a.summary)}</p></div>` : (a.ai_sum ? "" : '<p class="note">요약 없음(원문 발췌를 못 가져온 기사). 다음 정리 때 AI 요약이 추가됩니다.</p>')}
       <div class="tags">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name)}</span>` : ""}${(a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
@@ -175,6 +178,7 @@
       ${rel.length ? `<div><h3>관련 기사</h3><div class="cards">${rel.map(r => card(r[0], { compact: true })).join("")}</div></div>` : ""}`;
     d.hidden = false; $("#scrim").hidden = false;
     $("#dx").onclick = closeDrawer;
+    fillDrawerKB(id);
     const ncs = $("#nc-save"); if (ncs) ncs.onclick = () => savePNG("#nc-card", `뉴스카드_${a.date}_${id}.png`, "#ffffff");
     $("#d-pin").onclick = () => { togglePin(id); openDrawer(id); };
     $("#d-hide").onclick = () => { mutate(w => { if (!w.overrides.hidden.includes(id)) w.overrides.hidden.push(id); }, "숨김", id, a.title); closeDrawer(); toast("숨겼습니다. 데이터 관리에서 되돌릴 수 있습니다."); };
@@ -197,7 +201,7 @@
   }
 
   // ---------- router ----------
-  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports"];
+  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports", "kb"];
   const rendered = {};
   let cur = "home";
   function route() {
@@ -213,7 +217,7 @@
     setTimeout(() => Object.values(charts).forEach(c => c && !c.isDisposed() && c.resize()), 30);
   }
   function render(v, arg) {
-    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg) }[v];
+    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg), kb: () => rKB(arg) }[v];
     fn && fn();
     rendered[v] = true;
   }
@@ -300,7 +304,8 @@
         <button class="navbtn" id="p-next" ${i <= 0 ? "disabled" : ""} aria-label="다음">›</button>
         <span class="note">기록이 있는 기간만 표시 · 전체 ${keys.length}개</span>
       </div>
-      ${kind === "week" ? briefHTML(key, s) + igHTML(key, s) : ""}
+      ${kind === "week" ? briefHTML(key, s) + flowHTML(key) + igHTML(key, s) : ""}
+      ${kind === "day" ? insHTML(key) : ""}
       <div class="grid-2">
         <div class="panel">
           <h2>${esc(s.label)}</h2>
@@ -336,6 +341,7 @@
     const igb = $("#ig-save", sec); if (igb) igb.onclick = () => saveIG(key);
     const wbb = $("#wb-save", sec); if (wbb) wbb.onclick = () => savePNG("#wb-card", `주간보고서_${key}.png`, "#ffffff");
     const wbp = $("#wb-ppt", sec); if (wbp) wbp.onclick = () => wrPPT(wrModel(key, s));
+    fillFlowKB();
     $("#p-sel", sec).onchange = e => go(e.target.value);
     $("#p-prev", sec).onclick = () => go(keys[i + 1]);
     $("#p-next", sec).onclick = () => go(keys[i - 1]);
@@ -438,7 +444,7 @@
     });
     const imps = (v2.imps && v2.imps.length ? v2.imps : (b.recs || [])).slice(0, 4);
     return { key, start: s.start, end: s.end, week: key.replace("-W", "년 ") + "주차", tag: v2.tag || b.core || "", core: b.core || "",
-      groups, imps, recs: b.recs || [], n: no, total: b.n || s.n, at: v2.at || b.at || "" };
+      groups, imps, recs: b.recs || [], flow: b.flow || null, n: no, total: b.n || s.n, at: v2.at || b.at || "" };
   }
   function wrBanner(icon, col, W = 400, H = 92) {
     const m = WR_MOTIF[icon] || WR_MOTIF.gear, id = "g" + Math.random().toString(36).slice(2, 7);
@@ -576,6 +582,33 @@
         }
       }
     });
+    // 2-1) 주간 흐름 분석·기술/과제 연계
+    if (M.flow && M.flow.ov) {
+      await getKB();
+      const f = M.flow, sf = P.addSlide(); sf.background = { color: "FFFFFF" };
+      sf.addShape(P.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 0.78, fill: { color: NAVY } });
+      sf.addText("주간 흐름 분석 · 기술·과제 연계", { x: 0.35, y: 0.1, w: 10, h: 0.58, fontSize: 24, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0 });
+      sf.addText(M.week, { x: 9.3, y: 0.1, w: 3.75, h: 0.58, fontSize: 11, color: "FFFFFF", fontFace: F, align: "right", valign: "middle", margin: 0 });
+      sf.addText(f.ov, { x: 0.35, y: 0.95, w: 12.6, h: 0.8, fontSize: 13, color: "1F2937", fontFace: F, margin: 0, valign: "top", fit: "shrink" });
+      const DC = { 확대: "C0453A", 지속: "1B6AA0", 전환: "6A3FB0", 신규: "0F7A5C" };
+      (f.flows || []).forEach((x, i) => {
+        const xx = 0.35 + i * 4.24, c = DC[x.dir] || "475569";
+        sf.addShape(P.ShapeType.roundRect, { x: xx, y: 1.85, w: 4.1, h: 1.55, fill: { color: "F6F9FC" }, line: { color: c, width: 1.25 }, rectRadius: 0.06 });
+        sf.addText(`${i + 1}  ${x.t}`, { x: xx + 0.15, y: 1.92, w: 3.0, h: 0.4, fontSize: 14, bold: true, color: c, fontFace: F, margin: 0, valign: "middle" });
+        sf.addText(x.dir || "", { x: xx + 3.1, y: 1.97, w: 0.85, h: 0.3, fontSize: 10, bold: true, color: "FFFFFF", fill: { color: c }, align: "center", valign: "middle", fontFace: F, margin: 0 });
+        sf.addText(x.d, { x: xx + 0.15, y: 2.35, w: 3.8, h: 0.98, fontSize: 10.5, color: "3E4B5E", fontFace: F, margin: 0, valign: "top", fit: "shrink" });
+      });
+      const kb = (f.tech || []).concat(f.tasks || []).filter(x => KBMAP[x.id]);
+      if (kb.length) {
+        sf.addText("기술·과제 연계 (’26-’40 국방기술기획서 · ’25~’34 국방전력지원체계 소요기획서)", { x: 0.35, y: 3.55, w: 12.6, h: 0.32, fontSize: 12, bold: true, color: "0B7A70", fontFace: F, margin: 0 });
+        const rows = [["구분", "항목", "이번 주 연계성"].map(t => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: "0B7A70" }, fontSize: 10, fontFace: F, align: "center" } }))];
+        kb.slice(0, 6).forEach(x => { const e = KBMAP[x.id]; rows.push([
+          { text: `${e.lab}\n${e.path}`, options: { fontSize: 8.5, color: "44546A", fontFace: F } },
+          { text: `${e.name}${e.meta ? "\n" + e.meta : ""}`, options: { fontSize: 10, bold: true, color: "16233A", fontFace: F } },
+          { text: x.why || "", options: { fontSize: 10, color: "1F2937", fontFace: F } }]); });
+        sf.addTable(rows, { x: 0.35, y: 3.92, w: 12.6, colW: [2.6, 4.6, 5.4], border: { type: "solid", color: "DCE3EC", pt: 0.6 }, valign: "middle", margin: 0.05 });
+      }
+    }
     // 3) 시사점·제언
     const s3 = P.addSlide(); s3.background = { color: "F4F7FB" };
     s3.addShape(P.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 0.78, fill: { color: NAVY } });
@@ -638,6 +671,83 @@
       ${t.im ? `<div class="wb-arch-im"><b>우리 군 시사점</b>${esc(t.im)}</div>` : ""}</div>`;
   }
   const arcState = { t: null, iss: 6 };
+
+  // ---------- 국방기술 지식베이스 연계(국방기술기획서·전력지원체계 소요기획서) ----------
+  let KBD = null, KBMAP = null;
+  async function getKB() {
+    if (KBD) return KBD;
+    KBD = await j("data/kb/kb_lite.json", { docs: [], tech: [], tasks: [], stasks: [], sfields: [] });
+    KBMAP = {};
+    KBD.tech.forEach(t => KBMAP[t.id] = { kind: "tech", doc: "국방기술기획서", lab: "세부기술", path: `${t.area} › ${t.mid}`, name: `${t.code} ${t.name}`, desc: t.desc, meta: "" , raw: t });
+    KBD.tasks.forEach(t => KBMAP[t.id] = { kind: "task", doc: "국방기술기획서", lab: "국방기술 과제", path: `${t.sec}${t.sub ? " · " + t.sub : ""}`, name: `${t.no}. ${t.name}`, desc: t.summary, meta: [t.period, t.budget && t.budget + "억원", t.org, t.type].filter(Boolean).join(" · "), raw: t });
+    KBD.stasks.forEach(t => KBMAP[t.id] = { kind: "stask", doc: "전력지원체계 소요기획서", lab: "전력지원 과제", path: t.field, name: `${t.name} (${t.kind})`, desc: t.summary, meta: "", raw: t });
+    KBD.sfields.forEach(f => f.tech.forEach((x, k) => KBMAP[`${f.id}-${k + 1}`] = { kind: "sfield", doc: "전력지원체계 소요기획서", lab: "전력지원 주요기술", path: f.field, name: x.t, desc: x.d, meta: "", raw: x }));
+    return KBD;
+  }
+  const KB_COL = { tech: "#1f4fa3", task: "#6a3fb0", stask: "#0f7a5c", sfield: "#0b7a70" };
+  function kbItemHTML(id, why, ai) {
+    const e = KBMAP && KBMAP[id]; if (!e) return "";
+    return `<div class="kb-it" style="--k:${KB_COL[e.kind]}"><div class="kb-h"><span class="kb-lab">${esc(e.lab)}</span><span class="kb-path">${esc(e.doc)} · ${esc(e.path)}</span></div>
+      <a href="#kb/${encodeURIComponent(id)}" class="kb-n">${esc(e.name)}</a>
+      ${why ? `<div class="kb-why"><b>${ai ? "연계 포인트" : "연계 후보"}</b>${esc(why)}</div>` : ""}
+      <p>${esc(clip(e.desc, 150))}</p>${e.meta ? `<div class="kb-meta">${esc(e.meta)}</div>` : ""}</div>`;
+  }
+  async function fillDrawerKB(id) {
+    const box = $("#d-kb"), v = KBL[id]; if (!box || !v) return;
+    await getKB();
+    box.innerHTML = `<h3>기술·과제 연계 <span class="note">(국방기술기획서 ’26-’40 · 전력지원체계 소요기획서 ’25~’34)</span></h3>
+      ${v.l.map(x => kbItemHTML(x.id, x.why || (v.ai ? "" : "기사 내용과 용어가 겹치는 기획문서 항목(자동 후보)"), v.ai)).join("")}`;
+  }
+  function insHTML(d) {
+    const v = INS[d]; if (!v || !(v.pts || []).length) return "";
+    return `<div class="ins"><div class="ins-h">착안점</div>${v.pts.map(x => `<div class="ins-i"><b>${esc(x.t)}</b><span>${esc(x.d)}</span>${(x.kb || []).map(k => `<a href="#kb/${encodeURIComponent(k)}" class="ins-kb">${esc(k)}</a>`).join("")}</div>`).join("")}</div>`;
+  }
+  function flowHTML(key) {
+    const f = WB[key]?.flow; if (!f) return "";
+    const DIRC = { 확대: "#c0453a", 지속: "#1b6aa0", 전환: "#6a3fb0", 신규: "#0f7a5c" };
+    const kb = (f.tech || []).concat(f.tasks || []);
+    return `<div class="panel flow" id="wk-flow"><div class="sec-head"><h2>주간 흐름 분석</h2><span class="note">AI 분석 · ${esc(f.at || "")}</span></div>
+      <p class="flow-ov">${esc(f.ov)}</p>
+      <div class="flow-g">${(f.flows || []).map((x, i) => `<div class="flow-c" style="--c:${DIRC[x.dir] || "#475569"}"><div><span class="flow-n">${i + 1}</span><b>${esc(x.t)}</b><em>${esc(x.dir || "")}</em></div><p>${esc(x.d)}</p></div>`).join("")}</div>
+      ${kb.length ? `<h3 class="flow-kh">기술·과제 연계 <span class="note">국방기술기획서·전력지원체계 소요기획서 기준</span></h3><div class="kb-grid" id="flow-kb" data-kb='${esc(JSON.stringify(kb))}'><p class="note">불러오는 중…</p></div>` : ""}</div>`;
+  }
+  async function fillFlowKB() {
+    const el = $("#flow-kb"); if (!el) return;
+    await getKB(); const kb = JSON.parse(el.dataset.kb);
+    el.innerHTML = kb.map(x => kbItemHTML(x.id, x.why, true)).join("");
+  }
+  const kbState = { tab: "tech", q: "" };
+  async function rKB(arg) {
+    const sec = $("#v-kb");
+    sec.innerHTML = '<div class="vhead"><h1>국방기술 연계</h1><p class="lede">불러오는 중…</p></div>';
+    const K = await getKB();
+    const cnt = {}; Object.entries(KBL).forEach(([aid, v]) => v.l.forEach(x => (cnt[x.id] = cnt[x.id] || []).push(aid)));
+    const head = `<div class="vhead"><div class="eyebrow">14 · Tech & program linkage</div><h1>국방기술 연계</h1>
+      <p class="lede">우리 군 공개 기획문서 2종을 지식베이스로 정리해, 기사마다 관련 세부기술·과제를 찾아 연결합니다. 기사 상세의 ‘기술·과제 연계’, 일자별 ‘착안점’, 주간 ‘흐름 분석’이 이 지식베이스를 근거로 작성됩니다.</p></div>
+      <div class="kpis">${K.docs.map(d => `<div class="kpi"><div class="v" style="font-size:15px;line-height:1.35">${esc(d.title)}</div><div class="l">${esc(d.org)} · ${esc(d.desc)}</div></div>`).join("")}
+        <div class="kpi"><div class="v">${K.tech.length + K.tasks.length + K.stasks.length}</div><div class="l">세부기술 ${K.tech.length} · 국방기술 과제 ${K.tasks.length} · 전력지원 과제 ${K.stasks.length}</div></div>
+        <div class="kpi"><div class="v">${Object.keys(KBL).length}</div><div class="l">기술·과제와 연결된 최근 기사</div></div></div>`;
+    if (arg) {
+      const id = decodeURIComponent(arg), e = KBMAP[id];
+      const arts = (cnt[id] || []).map(a => BYID[a]).filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
+      sec.innerHTML = head + `<div class="panel"><a class="btn ghost" href="#kb">← 지식베이스</a>${e ? kbItemHTML(id, "", false) : '<p class="note">항목 없음</p>'}
+        ${e && e.kind === "task" && e.raw.items ? `<p class="note"><b>연구항목</b> ${esc(e.raw.items)}</p>` : ""}${e && e.kind === "stask" && e.raw.need ? `<p class="note"><b>필요성·운용개념</b> ${esc(e.raw.need)}</p>` : ""}
+        <h3>연결된 기사 ${arts.length}건</h3><div class="cards">${arts.map(a => card(a)).join("") || '<p class="note">아직 연결된 기사가 없습니다.</p>'}</div></div>`;
+      return;
+    }
+    const tabs = [["tech", "세부기술(국방전략기술)"], ["task", "국방기술 과제"], ["stask", "전력지원체계 과제"], ["sfield", "전력지원 주요기술"]];
+    const q = kbState.q.trim().toLowerCase();
+    const list = Object.entries(KBMAP).filter(([id, e]) => e.kind === kbState.tab && (!q || (e.name + e.path + e.desc).toLowerCase().includes(q)))
+      .sort((a, b) => (cnt[b[0]]?.length || 0) - (cnt[a[0]]?.length || 0));
+    sec.innerHTML = head + `<div class="panel"><div class="rp-tools"><div class="chips small" id="kb-tabs">${tabs.map(([k, l]) => `<button class="chip ${k === kbState.tab ? "on" : ""}" data-t="${k}">${l}</button>`).join("")}</div>
+      <input id="kb-q" type="search" placeholder="예: 예지정비, 수리부속, 드론, 탄약" value="${esc(kbState.q)}" aria-label="지식베이스 검색"></div>
+      <p class="note">${list.length}개 · 연결 기사 많은 순</p>
+      <table class="rp-tb"><thead><tr><th>분류</th><th>항목</th><th class="rp-m">설명</th><th>연결 기사</th></tr></thead><tbody>
+      ${list.slice(0, 120).map(([id, e]) => `<tr><td class="kb-path">${esc(e.path)}</td><td><a href="#kb/${encodeURIComponent(id)}" class="rp-t">${esc(e.name)}</a>${e.meta ? `<div class="kb-meta">${esc(e.meta)}</div>` : ""}</td><td class="rp-m note">${esc(clip(e.desc, 90))}</td><td class="mono">${cnt[id]?.length || ""}</td></tr>`).join("")}</tbody></table>
+      ${list.length > 120 ? `<p class="note">상위 120개만 표시 · 검색으로 좁혀 보세요</p>` : ""}</div>`;
+    $("#kb-tabs").onclick = e => { const b = e.target.closest(".chip"); if (b) { kbState.tab = b.dataset.t; rKB(); } };
+    const qi = $("#kb-q"); qi.oninput = () => { kbState.q = qi.value; clearTimeout(qi._t); qi._t = setTimeout(() => { rKB().then(() => { const n = $("#kb-q"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); }); }, 250); };
+  }
 
   // ---------- 주간 보고서 게시판 ----------
   let RPI = null; const rpState = { q: "", page: 0 };
@@ -736,7 +846,7 @@
       const p = PER.day[d], dt = new Date(d + "T00:00:00Z");
       const body = p.ai ? `<p class="dsum">${esc(p.ai)}</p><div class="dsum-by">AI 요약 · ${esc(p.ai_by || "Claude")} · 대표 기사 아래</div>${digestList(p.digest, 3)}` : digestList(p.digest, 4);
       return `<div class="dday"><div class="dd"><b>${d.slice(5).replace("-", ".")}</b><span>${DOW[dt.getUTCDay()]}요일 · ${p.n}건</span>
-        <div class="rg">${REGION_IDS.filter(r => p.regions?.[r]).map(r => `<span class="rbadge ${r}">${r.toUpperCase()} ${p.regions[r]}</span>`).join("")}</div><a href="#daily/${d}">이날 기사 →</a></div><div>${body}</div></div>`;
+        <div class="rg">${REGION_IDS.filter(r => p.regions?.[r]).map(r => `<span class="rbadge ${r}">${r.toUpperCase()} ${p.regions[r]}</span>`).join("")}</div><a href="#daily/${d}">이날 기사 →</a></div><div>${body}${insHTML(d)}</div></div>`;
     }).join("");
   }
   const IG_ICON = {"lis": "<path d=\"M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zm0 0v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3\"/>", "wpn": "<path d=\"M12 2l2.2 6.6H21l-5.4 4 2 6.6L12 15.3 6.4 19.2l2-6.6L3 8.6h6.8z\"/>", "fcst": "<path d=\"M3 20h18M5 16l4-5 4 3 6-8\"/><path d=\"M15 6h4v4\"/>"};

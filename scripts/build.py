@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import taxonomy as T  # noqa: E402
 import archive  # noqa: E402
 import reports  # noqa: E402
+import kb as KB  # noqa: E402
 from common import DATA, DB, NEWS, classify, full_classify, is_noise, load_json, relevance, same_story, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
 
 CAT_NAME = {c["id"]: c["name"] for c in T.CATEGORIES}
@@ -342,6 +343,139 @@ def ai_weekly_briefings(groups, periods, recent=3):
     return cache
 
 
+def _kb_cands(ids, links, kbd, k=10):
+    """기사 묶음의 지식베이스 후보(어휘 유사도 합 상위 k)를 설명 문자열과 함께."""
+    sc = Counter()
+    for i in ids:
+        v = links.get(i)
+        for x in (v.get("l") if isinstance(v, dict) else v) or []:
+            sc[x["id"]] += x.get("s", 0.2)
+    out = []
+    for eid, _ in sc.most_common(k):
+        d = KB.describe(kbd, eid)
+        if d:
+            out.append({"id": eid, "desc": d})
+    return out
+
+
+def ai_kb_links(arts, links, kbd, limit=90):
+    """어휘 유사도 후보 중 실제로 연계되는 항목만 Claude가 고르고 연계 포인트(why)를 씀. data/kb_links.json에 함께 저장."""
+    import hashlib as _h
+    path = DATA / "kb_links.json"
+    old = load_json(DATA / "kb_ai.json", {})
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        todo = []
+        for a in arts:
+            c = links.get(a["id"])
+            if not c:
+                continue
+            h = _h.sha1(",".join(x["id"] for x in c).encode()).hexdigest()[:8]
+            if old.get(a["id"], {}).get("h") != h:
+                todo.append((a, c, h))
+        sums = load_json(DATA / "article_sums.json", {})
+        for i in range(0, min(len(todo), limit), 12):
+            chunk = todo[i:i + 12]
+            items = [{"id": a["id"], "title": a["title"][:100], "summary": (sums.get(a["id"], {}).get("s") or a.get("summary", ""))[:220],
+                      "cands": [{"id": x["id"], "desc": KB.describe(kbd, x["id"])} for x in c]} for a, c, _ in chunk]
+            prompt = ("다음 국방 기사마다, 우리 군 공개 기획문서(국방기술기획서 세부기술·국방기술 과제, 전력지원체계 소요기획서 주요기술·과제) 중 "
+                      "어휘가 비슷한 후보(cands)가 있습니다. 기사 내용과 실제로 기술적·과제적으로 연계되는 후보만 고르고(없으면 빈 배열), "
+                      "각각 '연계 포인트'를 최대 45자로 쓰세요(무엇이 어떻게 연결되는지, 기사에 없는 사실은 쓰지 않음).\n"
+                      '출력: JSON 하나만. {"<기사id>": [{"id": "후보id", "why": "연계 포인트"}]}\n\n' + json.dumps(items, ensure_ascii=False))
+            try:
+                got = _claude(prompt, 3500, timeout=200)
+                for a, c, h in chunk:
+                    sel = [x for x in got.get(a["id"], []) if isinstance(x, dict) and any(x.get("id") == y["id"] for y in c)]
+                    old[a["id"]] = {"h": h, "l": [{"id": x["id"], "why": str(x.get("why", ""))[:80]} for x in sel[:3]]}
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! 지식베이스 연계 선별 실패: {e}", file=sys.stderr)
+        save_json(DATA / "kb_ai.json", old, compact=True)
+    # 화면용: AI 선별이 있으면 그것, 없으면 어휘 유사도 상위(점수 0.2 이상) 2건
+    out = {}
+    for aid, c in links.items():
+        if aid in old:
+            if old[aid]["l"]:
+                out[aid] = {"ai": 1, "l": old[aid]["l"]}
+        else:
+            top = [{"id": x["id"], "s": x["s"]} for x in c if x["s"] >= 0.2][:2]
+            if top:
+                out[aid] = {"ai": 0, "l": top}
+    save_json(path, out, compact=True)
+    return out
+
+
+def ai_daily_insights(groups, periods, links, kbd, recent=7):
+    """일자별 '착안점': 그날 기사 + 관련 기획문서(기술·과제)를 보고 우리 군이 주목할 점 2~3개."""
+    import hashlib as _h
+    path = DATA / "ai_insights.json"
+    cache = load_json(path, {})
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return cache
+    for k in sorted(periods["day"])[-recent:]:
+        items = [a for a in sorted(groups["day"][k], key=weight, reverse=True) if a.get("origin") != "api"][:25]
+        if not items:
+            continue
+        h = _h.sha1("|".join(sorted(a["id"] for a in items)).encode()).hexdigest()[:10]
+        if cache.get(k, {}).get("h") == h:
+            continue
+        cands = _kb_cands([a["id"] for a in items], links, kbd, 10)
+        arts_l = [f"- {a['title'][:90]} ({a.get('source', '')[:20]}) {a.get('summary', '')[:140]}" for a in items]
+        prompt = (f"다음은 {k} 하루 동안 수집한 국방 군수·정비·군수 AI 기사와, 관련될 수 있는 우리 군 공개 기획문서 항목입니다.\n"
+                  "국방군수통합정보체계 담당자 입장에서 오늘 기사에서 얻을 '착안점'을 2~3개 쓰세요. 각 착안점: t=제목(최대 18자), "
+                  "d=무엇을 왜 눈여겨볼지(최대 70자, 기술 연계성·과제 연계성이 있으면 그 항목을 근거로), kb=근거가 된 기획문서 항목 id 배열(없으면 빈 배열).\n"
+                  "규칙: 기사·문서에 없는 사실은 쓰지 않음. 출력: JSON 하나만. "
+                  '{"pts": [{"t": "", "d": "", "kb": []}]}\n\n[기사]\n' + "\n".join(arts_l)
+                  + "\n\n[기획문서 후보]\n" + "\n".join(f"{c['id']}: {c['desc']}" for c in cands))
+        try:
+            got = _claude(prompt, 1500, timeout=150)
+            ok = {c["id"] for c in cands}
+            pts = [{"t": str(x.get("t", ""))[:30], "d": str(x.get("d", ""))[:140], "kb": [i for i in x.get("kb", []) if i in ok][:3]}
+                   for x in got.get("pts", []) if isinstance(x, dict) and x.get("t")]
+            if pts:
+                cache[k] = {"h": h, "pts": pts[:3], "at": now_kst().strftime("%Y-%m-%d %H:%M")}
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! 착안점 실패({k}): {e}", file=sys.stderr)
+    save_json(path, cache)
+    return cache
+
+
+def weekly_flow(wb, groups, links, kbd, recent=3):
+    """주간 일반 흐름 분석: 개관 + 흐름 3개 + 기술·과제 연계(기획문서 근거). wk['flow']에 캐시."""
+    import hashlib as _h
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return
+    for k in sorted(wb)[-recent:]:
+        wk = wb[k]
+        items = [a for a in sorted(groups["week"].get(k, []), key=weight, reverse=True) if a.get("origin") != "api"][:45]
+        if not items:
+            continue
+        h = _h.sha1(("flow|" + "|".join(sorted(a["id"] for a in items))).encode()).hexdigest()[:10]
+        if wk.get("flow", {}).get("h") == h:
+            continue
+        cands = _kb_cands([a["id"] for a in items], links, kbd, 14)
+        prev = wb.get(sorted(wb)[sorted(wb).index(k) - 1], {}) if sorted(wb).index(k) > 0 else {}
+        lines = [f"- [{a['date'][5:]}] {a['title'][:90]} ({a.get('source', '')[:20]})" for a in items]
+        prompt = (f"다음은 {k} 한 주 동안 수집한 국방 군수·정비·군수 AI 기사, 지난주 핵심 요약, 관련될 수 있는 우리 군 공개 기획문서 항목입니다.\n"
+                  "이번 주의 '일반적인 흐름'을 분석하세요. 출력은 JSON 하나만:\n"
+                  '{"ov": "주간 흐름 개관 2~3문장(최대 220자, 지난주와 달라진 점 포함)", '
+                  '"flows": [{"t": "흐름 제목(최대 16자)", "d": "설명(최대 90자)", "dir": "확대|지속|전환|신규 중 하나"}], '
+                  '"tech": [{"id": "기획문서 항목 id", "why": "이번 주 기사와의 기술 연계성(최대 60자)"}], '
+                  '"tasks": [{"id": "기획문서 항목 id", "why": "과제 연계성·우리 군 시사점(최대 60자)"}]}\n'
+                  "규칙: flows 3개. tech는 T-·F- 항목에서, tasks는 K-·S- 항목에서 각 최대 3개, 실제 연계가 있을 때만. 기사·문서에 없는 사실은 쓰지 않음.\n\n"
+                  f"[지난주 요약] {prev.get('core', '')}\n\n[이번 주 기사]\n" + "\n".join(lines)
+                  + "\n\n[기획문서 후보]\n" + "\n".join(f"{c['id']}: {c['desc']}" for c in cands))
+        try:
+            got = _claude(prompt, 2500, timeout=200)
+            ok = {c["id"] for c in cands}
+            if got.get("ov"):
+                wk["flow"] = {"h": h, "ov": got["ov"], "flows": got.get("flows", [])[:3],
+                              "tech": [x for x in got.get("tech", []) if isinstance(x, dict) and x.get("id") in ok][:3],
+                              "tasks": [x for x in got.get("tasks", []) if isinstance(x, dict) and x.get("id") in ok][:3],
+                              "at": now_kst().strftime("%Y-%m-%d %H:%M")}
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! 주간 흐름 실패({k}): {e}", file=sys.stderr)
+    save_json(DATA / "weekly_briefs.json", wb)
+
+
 def weekly_layout_v2(cache, arts, recent=4):
     """주간 보고서(뉴스레터 3분 브리핑 양식)용 문구: 상단 태그라인, 그룹 제목·부제, 기사별 헤드라인·한 줄 설명, 핵심 시사점 4개.
     기존 주제 묶음(themes)은 그대로 두고 표현만 다듬어 wk['v2']에 캐시. API 키가 없으면 화면에서 기존 필드로 대신 구성."""
@@ -654,6 +788,15 @@ def main():
     wb = ai_weekly_briefings(groups, periods)
     weekly_layout_v2(wb, arts)
     weekly_archive_trends(wb, links)
+    kbd = load_json(DATA / "kb" / "kb.json", None)
+    if kbd:
+        try:
+            klex, _ = KB.build(arts, today, load_json(DATA / "article_sums.json", {}))
+            klinks = ai_kb_links(arts, klex, kbd)
+            ai_daily_insights(groups, periods, klex, kbd)
+            weekly_flow(wb, groups, klex, kbd)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! 지식베이스 연계 실패: {e}", file=sys.stderr)
     try:
         reports.save(wb, periods, arts, load_json(DATA / "article_sums.json", {}), today)
     except Exception as e:  # noqa: BLE001

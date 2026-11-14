@@ -10,6 +10,7 @@
 from datetime import date, timedelta
 
 from common import DATA, ROOT, load_json, save_json, now_kst
+import kb as KB
 
 RDIR = DATA / "reports"
 MDIR = ROOT / "reports"
@@ -41,9 +42,16 @@ def _model(key, wk, per, by, sums):
                        "sub": g.get("sub") or t.get("head", ""), "points": t.get("points", []), "items": items,
                        "tr": t.get("tr", ""), "im": t.get("im", ""), "arch": t.get("arch")})
     imps = (v2.get("imps") or wk.get("recs") or [])[:4]
+    flow = None
+    if wk.get("flow"):
+        kbd = load_json(DATA / "kb" / "kb.json", {"tech": [], "tasks": [], "stasks": [], "sfields": []})
+        f = wk["flow"]
+        flow = {"ov": f.get("ov", ""), "flows": f.get("flows", []),
+                "tech": [dict(x, desc=KB.describe(kbd, x["id"]) or "") for x in f.get("tech", [])],
+                "tasks": [dict(x, desc=KB.describe(kbd, x["id"]) or "") for x in f.get("tasks", [])]}
     return {"key": key, "start": per["start"], "end": per["end"], "week": key.replace("-W", "년 ") + "주차",
             "tag": v2.get("tag") or wk.get("core", ""), "core": wk.get("core", ""), "groups": groups, "imps": imps,
-            "recs": wk.get("recs", []), "n": no, "total": wk.get("n") or per.get("n", 0), "at": v2.get("at") or wk.get("at", "")}
+            "recs": wk.get("recs", []), "flow": flow, "n": no, "total": wk.get("n") or per.get("n", 0), "at": v2.get("at") or wk.get("at", "")}
 
 
 def _md(M, final):
@@ -62,6 +70,11 @@ def _md(M, final):
         if g.get("im"):
             L.append(f"- 우리 군 시사점: {g['im']}")
         L.append("")
+    if M.get("flow"):
+        f = M["flow"]
+        L += ["## 주간 흐름 분석", "", f["ov"], ""] + [f"- **{x.get('t', '')}**({x.get('dir', '')}) — {x.get('d', '')}" for x in f["flows"]] + [""]
+        if f["tech"] or f["tasks"]:
+            L += ["**기술·과제 연계(국방기술기획서·전력지원체계 소요기획서)**", ""] + [f"- {x['desc'].split(':')[0]} — {x.get('why', '')}" for x in f["tech"] + f["tasks"]] + [""]
     if M["imps"]:
         L += ["## 이번 주 핵심 시사점", ""] + [f"{i + 1}. **{r.get('t', '')}** — {r.get('d', '')}" for i, r in enumerate(M["imps"])] + [""]
     L += ["---", "군수정보 인텔리전스 자동 수집·정리. 원문은 각 기사 링크 참고."]
