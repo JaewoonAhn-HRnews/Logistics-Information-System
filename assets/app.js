@@ -706,7 +706,7 @@
     const f = WB[key]?.flow; if (!f) return "";
     const DIRC = { 확대: "#c0453a", 지속: "#1b6aa0", 전환: "#6a3fb0", 신규: "#0f7a5c" };
     const kb = (f.tech || []).concat(f.tasks || []);
-    return `<div class="panel flow" id="wk-flow"><div class="sec-head"><h2>주간 흐름 분석</h2><span class="note">AI 분석 · ${esc(f.at || "")}</span></div>
+    return `<div class="panel wkflow" id="wk-flow"><div class="sec-head"><h2>주간 흐름 분석</h2><span class="note">AI 분석 · ${esc(f.at || "")}</span></div>
       <p class="flow-ov">${esc(f.ov)}</p>
       <div class="flow-g">${(f.flows || []).map((x, i) => `<div class="flow-c" style="--c:${DIRC[x.dir] || "#475569"}"><div><span class="flow-n">${i + 1}</span><b>${esc(x.t)}</b><em>${esc(x.dir || "")}</em></div><p>${esc(x.d)}</p></div>`).join("")}</div>
       ${kb.length ? `<h3 class="flow-kh">기술·과제 연계 <span class="note">국방기술기획서·전력지원체계 소요기획서 기준</span></h3><div class="kb-grid" id="flow-kb" data-kb='${esc(JSON.stringify(kb))}'><p class="note">불러오는 중…</p></div>` : ""}</div>`;
