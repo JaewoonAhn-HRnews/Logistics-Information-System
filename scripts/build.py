@@ -13,6 +13,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from collections import Counter, defaultdict
 from datetime import date, timedelta
@@ -243,7 +244,39 @@ def ai_brief(kind, label, items):
 ICONS = ["org", "network", "target", "learn", "policy", "shield", "gear", "chart", "truck", "plane", "ship", "data", "money", "robot", "tank", "parts"]
 
 
+AI_STAT = {"ok": 0, "fail": 0, "last_err": ""}
+
+
+def ai_check():
+    """API 키 상태를 짧은 호출로 확인해 data/ai_status.json에 남김(키 값은 저장하지 않음)."""
+    key = os.environ.get("ANTHROPIC_API_KEY") or ""
+    st = {"checked": now_kst().strftime("%Y-%m-%d %H:%M"), "has_key": bool(key),
+          "key_kind": (key[:10] + "…") if key.startswith("sk-ant-") else ("없음" if not key else "형식 다름"),
+          "model": os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5-5"}
+    if key:
+        try:
+            _claude('{"ok": true} 를 그대로 출력하세요.', 20, timeout=40)
+            st["ok"] = True
+        except urllib.error.HTTPError as e:
+            st.update(ok=False, err=f"HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:200]}")
+        except Exception as e:  # noqa: BLE001
+            st.update(ok=False, err=f"{type(e).__name__}: {e}"[:200])
+    print(f"- Claude API 상태: {st}")
+    return st
+
+
 def _claude(prompt, max_tokens=3000, timeout=150):
+    try:
+        r = _claude_raw(prompt, max_tokens, timeout)
+        AI_STAT["ok"] += 1
+        return r
+    except Exception as e:
+        AI_STAT["fail"] += 1
+        AI_STAT["last_err"] = (f"HTTP {e.code}" if isinstance(e, urllib.error.HTTPError) else type(e).__name__) + f": {e}"[:150]
+        raise
+
+
+def _claude_raw(prompt, max_tokens=3000, timeout=150):
     key = os.environ.get("ANTHROPIC_API_KEY")
     model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5-5"
     body = json.dumps({"model": model, "max_tokens": max_tokens, "messages": [{"role": "user", "content": prompt}]}).encode()
@@ -612,6 +645,7 @@ def export_csv(arts, periods):
 
 def main():
     arts, files = load_all()
+    ai_st = ai_check()
     ai_article_summaries(arts)
     by_id = {a["id"]: a for a in arts}
     now = now_kst()
@@ -801,6 +835,8 @@ def main():
         reports.save(wb, periods, arts, load_json(DATA / "article_sums.json", {}), today)
     except Exception as e:  # noqa: BLE001
         print(f"  ! 주간 보고서 게시판 실패: {e}", file=sys.stderr)
+    ai_st.update(calls_ok=AI_STAT["ok"], calls_fail=AI_STAT["fail"], last_err=AI_STAT["last_err"])
+    save_json(DATA / "ai_status.json", ai_st)
     export_csv(arts, periods)
     print(f"기사 {len(arts)}건 · 일 {len(periods['day'])} · 주 {len(periods['week'])} · 월 {len(periods['month'])} · 연 {len(periods['year'])}")
 
