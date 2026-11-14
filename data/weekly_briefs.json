@@ -672,7 +672,7 @@
      "terms": [
       "국방기술품질원",
       "RAM-C",
-      "KF-21"
+      "방위사업청"
      ]
     }
    }
@@ -883,8 +883,8 @@
        "id": null,
        "k": [
         "DLA",
-        "CDAO",
-        "GenAI.mil"
+        "GenAI.mil",
+        "CDAO"
        ]
       },
       {
@@ -895,8 +895,8 @@
        "nl": 72,
        "id": null,
        "k": [
-        "CDAO",
-        "GenAI.mil"
+        "GenAI.mil",
+        "CDAO"
        ]
       },
       {
@@ -937,8 +937,8 @@
      "since": "2025-05-21",
      "terms": [
       "DLA",
-      "CDAO",
-      "GenAI.mil"
+      "GenAI.mil",
+      "CDAO"
      ]
     },
     "tr": "감사 대비·AI 교육에서 데이터 원천 정비로 심화",
