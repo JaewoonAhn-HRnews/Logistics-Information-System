@@ -189,6 +189,40 @@
    "desc_tried": true
   },
   {
+   "id": "b5326f102489",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T12:06",
+   "title": "DLA Distribution leaders align on modernization, readiness, audit at summit",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hdUo2VGZiOEZuS1B0bTlJakpZcEJndGRreW5weGpBRldWdUIzelVzaW13T0ZiMFRPMWJsMG8wWG5Famx4OUlSVkxJb0JjY0ZqM1ViTlVDQ2t1SFZuUmhwbVhvSk5mVzA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true
+  },
+  {
    "id": "c6c7895d8a5f",
    "date": "2026-11-14",
    "ts": "2026-11-14T10:44",
@@ -220,6 +254,35 @@
    ],
    "kind": "news",
    "desc_tried": true
+  },
+  {
+   "id": "4e44d01531e5",
+   "date": "2026-11-14",
+   "ts": "2026-11-14T09:00",
+   "title": "Usns Guadalupe Fy26 Mid-Term Availability",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/022926b2b7864dee8643a5c133b5bd81/view",
+   "lang": "en",
+   "summary": "Justification · N3220526C1230P00007 · DEPT OF THE NAVY > MSC",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
   },
   {
    "id": "18b4b51d6f7d",
