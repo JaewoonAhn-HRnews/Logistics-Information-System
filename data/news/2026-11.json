@@ -2,6 +2,92 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "afce65b71757",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T00:53",
+   "title": "[조달계획] 1337 제보접수시스템 재구성 유지보수",
+   "source": "국방전자조달(D2B) · 국군제1386부대",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군제1386부대 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47500",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "dcaac84955aa",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T00:53",
+   "title": "[조달계획] 포병관측장비(TAS-1) PBL 2차",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 2830J",
+   "score": 2.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "성과기반군수지원"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "a7035c0c3dd6",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T00:53",
+   "title": "[조달계획] 27-00지역 음식물류폐기물 처리용역(복지회관, 식당)",
+   "source": "국방전자조달(D2B) · 국방부계룡대근무지원단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국방부계룡대근무지원단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 00008",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
    "id": "fd3bb8c63f82",
    "date": "2026-11-14",
    "ts": "2026-11-14T20:39",
