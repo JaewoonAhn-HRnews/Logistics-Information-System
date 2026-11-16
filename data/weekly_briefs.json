@@ -672,7 +672,7 @@
      "terms": [
       "국방기술품질원",
       "RAM-C",
-      "KF-21"
+      "방위사업청"
      ]
     }
    }
@@ -3409,7 +3409,7 @@
   "h": "e03c85ccda",
   "at": "2026-11-15 10:18",
   "n": 40,
-  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 337 (char 336)",
+  "v2_err": "빈 응답",
   "flow": {
    "h": "68dc7e89de",
    "ov": "이번 주는 한화에어로·육군의 K-MRO 거점 확대와 GAO의 F-35 부품 추적 부실 지적이 겹치며 정비 인프라와 부품 가시성이 부각됐다. 지난주 AI·예측정비 착수 중심에서 한 걸음 나아가, 정비 거점과 부품 데이터 관리 같은 기반 체계가 논점이 됐다.",
@@ -3446,6 +3446,294 @@
    ],
    "tasks": [],
    "at": "2026-11-15 10:21"
+  }
+ },
+ "2026-W47": {
+  "core": "군수 준비태세 강조 속 AI 보안 기술 부상",
+  "themes": [
+   {
+    "no": 1,
+    "cat": "군수·준비태세",
+    "head": "공군 창설 기념, 군수 초점",
+    "points": [
+     "공군 창설 기념행사 개최",
+     "군수·미래 준비태세 초점",
+     "DLA 게시 소식"
+    ],
+    "icon": "plane",
+    "refs": [
+     1
+    ],
+    "ids": [
+     "964f5fffd972"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-14",
+       "t": "DLA 4개 공급망 AI 도입",
+       "s": "Defense Logistics Agency",
+       "u": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/4459715/dla-troop-support-begins-journey-to-predictive-data-with-ai-integration/",
+       "nl": null,
+       "id": "6a211476055c",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-04-29",
+       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
+       "nl": 51,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-08-01",
+       "t": "미 국방부 AI 공급망 위험 예측 도구",
+       "s": "Federal News Network",
+       "u": "https://federalnewsnetwork.com/army/2026/08/dod-building-ai-tools-to-predict-mitigate-risks-to-sustainment-supply-chain/",
+       "nl": null,
+       "id": "fd51d0a973de",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-09-14",
+       "t": "미 국방병참지원국(DLA), 'AI 디지털 직원' 185~190개 봇 운영 — 우크라이나·이란전 교훈 반영",
+       "s": "Government Executive",
+       "u": "https://www.govexec.com/technology/2026/09/digital-employees-are-coming-defense-logistics-agency/415963/",
+       "nl": 71,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-09-21",
+       "t": "Elmet, 텅스텐 공급망 확대",
+       "s": "Pulse 2.0",
+       "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ24ySFJ2MmxURV95ejJieEIyUjdpWGRnaGpJV0RDbG9SdHA3T0NyT2lBQUM1Z1p2andIbHNtVWgxQWZpdkU3VWVJa2F1dWlkdERoUnlvbEc2aDdjSW85cjRGMXR5ekpLWUhmcFRIU25wdHBydnlKZld6VnVlQjVYdGk4Mm1MbDZWUl9jemNCQ3RRbVlwUDBBNDBKWG44Tm1NeWc5a3FlWUJyMHVvS3k1MVNSQ3BCYmNuYlN0eWpRWkJrdEx1dWw3UU9jTUY3ZGtodV9CVEJRRFR2eE9Gb2JOa2lPdzExRFpI0gHuAUFVX3lxTFBQbmJSQURjSVZ4dEp3WEY1b3R6NmdKN2lhX3VsdE9Kd3hPMXhFajA0QnJqaXlxMzZHV1I2d2tudjRtdVRRTTJ1OUNYMEhrR1RHb2NTb2lBcFpiVWw3NmdpekNKY3R3TWVOWGhoQzlRazIybDBvTHJSNEsyblo0Qk1penI2cXNNVml3Znl5ejBBZ09xTlhjU1FxdTR4UWtUYlF6VmY0am91d2d4anZodjlrWGI4eVhyNkpURnpqUjNWX2djeU45cFdnMWlMQV9obXcyNWgwT19nWmdib05veWNwYXJhbko0NFBfS2RxdHc?oc=5",
+       "nl": null,
+       "id": "51e17d2a5f11",
+       "k": [
+        "DLA"
+       ]
+      }
+     ],
+     "n": 5,
+     "since": "2026-04-14",
+     "terms": [
+      "DLA"
+     ]
+    }
+   },
+   {
+    "no": 2,
+    "cat": "SW·보안",
+    "head": "AI 기반 SW 공급망 보안",
+    "points": [
+     "라운드버드 플랫폼 공개",
+     "AI x 소프트웨이브 2026 무대",
+     "SW 공급망 보안에 AI 적용"
+    ],
+    "icon": "shield",
+    "refs": [
+     2
+    ],
+    "ids": [
+     "29f818766033"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "공급망 보안"
+     ]
+    }
+   },
+   {
+    "no": 3,
+    "cat": "방산 생태계",
+    "head": "국방벤처 지원사업 선정",
+    "points": [
+     "새솔테크 지원사업 선정",
+     "국방벤처 지원사업 대상",
+     "머니투데이 보도"
+    ],
+    "icon": "money",
+    "refs": [
+     3
+    ],
+    "ids": [
+     "15e3fdb3b41c"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "AI 드론"
+     ]
+    }
+   },
+   {
+    "no": 4,
+    "cat": "AI·드론",
+    "head": "AI 드론 보안 플랫폼 개발",
+    "points": [
+     "새솔테크 플랫폼 개발 추진",
+     "AI 기반 드론 보안",
+     "국방벤처 지원과 연계"
+    ],
+    "icon": "robot",
+    "refs": [
+     3
+    ],
+    "ids": [
+     "15e3fdb3b41c"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "AI 드론"
+     ]
+    }
+   }
+  ],
+  "recs": [
+   {
+    "t": "SW 공급망 점검",
+    "d": "군수정보체계 SW 공급망 보안 적용 검토"
+   },
+   {
+    "t": "민간 AI 연계",
+    "d": "국방벤처 AI 기술의 군수 예측 활용 검토"
+   },
+   {
+    "t": "준비태세 지표화",
+    "d": "신뢰도·수리부속·정비인력 예측의 준비태세 연계"
+   }
+  ],
+  "h": "0316675e1d",
+  "at": "2026-11-17 03:55",
+  "n": 3,
+  "v2": {
+   "tag": "군수 준비태세 × AI·보안 기반 확보",
+   "groups": [
+    {
+     "g": 1,
+     "title": "군수·준비태세",
+     "sub": "공군 창설 기념과 군수",
+     "items": [
+      {
+       "n": 1,
+       "h": "공군 창설 기념, 군수 초점",
+       "d": "군수·미래 준비태세 초점, DLA 게시",
+       "id": "964f5fffd972"
+      }
+     ]
+    },
+    {
+     "g": 2,
+     "title": "SW·보안",
+     "sub": "AI 기반 SW 공급망 보안",
+     "items": [
+      {
+       "n": 2,
+       "h": "라운드버드 SW 공급망 보안",
+       "d": "소프트웨이브 2026서 AI 보안 플랫폼 공개",
+       "id": "29f818766033"
+      }
+     ]
+    },
+    {
+     "g": 3,
+     "title": "방산 생태계",
+     "sub": "국방벤처 지원사업 선정",
+     "items": [
+      {
+       "n": 3,
+       "h": "새솔테크 국방벤처 선정",
+       "d": "지원사업 선정, AI 드론 보안 플랫폼 개발",
+       "id": "15e3fdb3b41c"
+      }
+     ]
+    },
+    {
+     "g": 4,
+     "title": "AI·드론",
+     "sub": "AI 드론 보안 플랫폼",
+     "items": [
+      {
+       "n": 4,
+       "h": "새솔테크 AI 드론 보안",
+       "d": "국방벤처 선정 과제, 머니투데이 보도",
+       "id": "15e3fdb3b41c"
+      }
+     ]
+    }
+   ],
+   "imps": [
+    {
+     "t": "군수정보 SW 보안",
+     "d": "국방군수통합정보체계 SW 공급망 점검 검토"
+    },
+    {
+     "t": "준비태세 데이터",
+     "d": "신뢰도·부속·정비인력 예측을 준비태세 지표와 연계"
+    },
+    {
+     "t": "AI 드론 보안",
+     "d": "드론 정비·부속 수요 예측 시 보안 요건 선반영"
+    },
+    {
+     "t": "벤처 협력 활용",
+     "d": "국방벤처 사업 동향 모니터링, 적용 가능성 탐색"
+    }
+   ],
+   "h": "a5d4c57893",
+   "at": "2026-11-17 03:57"
+  },
+  "flow": {
+   "h": "1aeee19286",
+   "ov": "이번 주는 공군 창설 기념 행사에서 군수·미래 준비태세가 강조된 가운데, AI 기반 SW 공급망 보안과 AI 드론 보안 플랫폼 등 보안 중심 기사가 나왔다. 지난주 부품 추적·데이터 신뢰성 문제에서 공급망·플랫폼 보안으로 초점이 이동했다.",
+   "flows": [
+    {
+     "t": "SW 공급망 보안 부상",
+     "d": "라운드버드가 AI 기반 SW 공급망 보안 플랫폼을 공개해 구성요소 유통 단계의 위협 관리 관심을 보였다.",
+     "dir": "신규"
+    },
+    {
+     "t": "AI 드론 보안 플랫폼",
+     "d": "새솔테크가 국방벤처 지원사업에 선정되어 AI 드론 보안 플랫폼 개발에 착수한다.",
+     "dir": "신규"
+    },
+    {
+     "t": "군수 준비태세 강조",
+     "d": "공군 창설 기념 행사에서 군수와 미래 준비태세가 핵심 주제로 언급되었다.",
+     "dir": "지속"
+    }
+   ],
+   "tech": [
+    {
+     "id": "T-CY-69-1",
+     "why": "AI 기반 SW 공급망 보안 플랫폼이 공급망 위협 식별·검증 기술과 연계됨"
+    },
+    {
+     "id": "F-6-2",
+     "why": "AI 드론 보안 플랫폼 개발이 드론 공통 플랫폼 기술과 관련됨"
+    }
+   ],
+   "tasks": [],
+   "at": "2026-11-17 03:58"
   }
  }
 }

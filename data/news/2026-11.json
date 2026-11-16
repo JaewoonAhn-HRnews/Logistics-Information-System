@@ -2,6 +2,199 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "4b402c90e9f3",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T03:54",
+   "title": "[조달계획] 압력변환장치 유도탄용 등 해성수리부속(방산)",
+   "source": "국방전자조달(D2B) · 해상공중전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 해상공중전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 4793",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "7ee7fefafa1a",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T03:54",
+   "title": "[조달계획] 26-군사훈련처 동력행글라이더 연간정비 용역",
+   "source": "국방전자조달(D2B) · 공군사관학교",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군사관학교 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 45260",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "7933f6b5e70d",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T03:54",
+   "title": "[조달계획] (조달 26-4-209) 지게차 외주정비",
+   "source": "국방전자조달(D2B) · 제3훈련비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제3훈련비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47686",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "15e3fdb3b41c",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T17:28",
+   "title": "새솔테크, '국방벤처 지원사업' 선정…AI 드론 보안 플랫폼 개발 - 머니투데이",
+   "source": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1adDFxeWh3d0FEa2F1bzRfeHB2eDhwSjVNbFF6QmtzalVXT21RZDQ2SndZREpDVjJXRmpiWmxBSy1YVjNEU0xVN21FRXBHWk1OMHRxYmJESVcxN0lHb3ljb1JMbVNYT3habUtaTG51SE1Ud9IBckFVX3lxTE1adDFxeWh3d0FEa2F1bzRfeHB2eDhwSjVNbFF6QmtzalVXT21RZDQ2SndZREpDVjJXRmpiWmxBSy1YVjNEU0xVN21FRXBHWk1OMHRxYmJESVcxN0lHb3ljb1JMbVNYT3habUtaTG51SE1Udw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "유무인 복합",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "29f818766033",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T14:54",
+   "title": "라운드버드, 'AI x 소프트웨이브 2026'서 AI 기반 SW 공급망 보안 플랫폼 공개“",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vdmFVZmlaVzZORmswT1lDYjZIVThMemo5RDV6Y19jOXc0cXlMaEthYzZkYzhQRG1TOXo5TW13ZFJJZEtwdGJZNmtSRzVNZw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "964f5fffd972",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T14:09",
+   "title": "Ceremony marks Air Force birthday with focus on logistics, future readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lVEpCSXFTNzRNUHFVa2w3ejEwM0NGcVJ0QnZKUlhORHBfVklmekpqa0JWNzVqUFRmTzVwWXJHTmhSbWRuT2NBTTN1YXNmbnZ1b1M5VGFfYndFUjlKOXREb3ZLeDByX205OVVpZERSUWRaUU1EWVZTcVhjOXFpQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.5,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "4a8c79a3e9cb",
    "date": "2026-11-16",
    "ts": "2026-11-16T10:23",
@@ -87,6 +280,89 @@
    "ents": [],
    "axes": [],
    "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "579760a0c62b",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T09:00",
+   "title": "Redacted Justification And Approval (J&A) For Other Than Full And Open Competition - Anduril Industries, Inc.  Lattice Engineering, Sustainment, And Integration Support Services",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/fec8d81f076647708c07327f4f6560d2/view",
+   "lang": "en",
+   "summary": "Justification · W911QX-27-F-A007 · DEPT OF THE ARMY > AMC",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "42c8fa3c3abc",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T09:00",
+   "title": "Depot Intermediate Level And Non-Recurring Engineering (Dinre) Fy30-34",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/fc0373bd53c64b9b8ba87f77fa6b42e5/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-26-RFPREQ-JSFPSM-0193 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-04",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "be454b1bdb84",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T09:00",
+   "title": "Capstan Maintenance Services At Naval Support Activity (Nsa), Portsmouth, Virginia",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/900fbfba608b40a6a7114a8ff0bf2274/view",
+   "lang": "en",
+   "summary": "Sources Sought · N4008527R0018 · DEPT OF THE NAVY > NAVFAC · 마감 2026-11-30",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
    "domains": [
     "wpn"
    ],

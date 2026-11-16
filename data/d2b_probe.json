@@ -1,13 +1,45 @@
 {
- "at": "2026-11-16 10:23",
+ "at": "2026-11-17 03:54",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>11807958460</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>5202</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrear",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>42210970</budgetAmount><cntrctMth>제한경쟁</cntrctMth><dcsNo>2310</dcsNo><demandYear>2026</demandYear><excutTy>구매</excutTy><orderPrearnge",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "budgetAmount": "42210970",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "2310",
+     "demandYear": "2026",
+     "excutTy": "구매",
+     "orderPrearngeMt": "202612",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "일반공구류(230mm급다련장 유도탄 창정비용)",
+     "spcifyPrcureAt": "N"
+    },
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "budgetAmount": "87902838140",
+     "cntrctMth": "수의계약",
+     "dcsNo": "2019",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "화력총괄계약팀",
+     "orntCode": "ELA",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
+     "reprsntPrdlstNm": "TMMR(K9A1자주포용)",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
@@ -19,39 +51,9 @@
      "orderPrearngeMt": "202612",
      "ornt": "화력총괄계약팀",
      "orntCode": "ELA",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
      "reprsntPrdlstNm": "화학탐지장비세트,휴대용(K-CAM2)(방산)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "cntrctMth": "일반경쟁",
-     "dcsNo": "47170",
-     "demandYear": "2026",
-     "excutTy": "제조",
-     "orderPrearngeMt": "202612",
-     "ornt": "해군군수사령부",
-     "orntCode": "SCF",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "'26년 조난자무선식별장치(RFID) 유지보수 정비",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "cntrctMth": "제한경쟁",
-     "dcsNo": "46953",
-     "demandYear": "2026",
-     "excutTy": "용역",
-     "orderPrearngeMt": "202612",
-     "ornt": "국군재정관리단",
-     "orntCode": "UMM",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "27~28-F-항공무장효과분석모델 통합유지보수",
      "spcifyPrcureAt": "N"
     }
    ]
