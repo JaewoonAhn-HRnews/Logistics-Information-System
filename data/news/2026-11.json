@@ -2,6 +2,97 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "4a8c79a3e9cb",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T10:23",
+   "title": "[조달계획] [공군호텔] 헬스기구 AI 스미스머신 구매의뢰",
+   "source": "국방전자조달(D2B) · 공군항공우주안전단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군항공우주안전단 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 47528",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "ai",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "3b2472befe9b",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T10:23",
+   "title": "[조달계획] 26년 엔진 외주정비 사후원가정산 용역",
+   "source": "국방전자조달(D2B) · 육군종합정비창",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 육군종합정비창 · 용역 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 45420",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "f92c54335a8a",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T10:23",
+   "title": "[조달계획] 행정비품(고속 스캐너 등 3종)",
+   "source": "국방전자조달(D2B) · 전략사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 전략사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 47518",
+   "score": 1.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "afce65b71757",
    "date": "2026-11-16",
    "ts": "2026-11-16T00:53",
