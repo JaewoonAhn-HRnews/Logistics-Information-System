@@ -672,7 +672,7 @@
      "terms": [
       "국방기술품질원",
       "RAM-C",
-      "방위사업청"
+      "KF-21"
      ]
     }
    }
@@ -3409,7 +3409,7 @@
   "h": "e03c85ccda",
   "at": "2026-11-15 10:18",
   "n": 40,
-  "v2_err": "빈 응답",
+  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 1774 (char 1773)",
   "flow": {
    "h": "68dc7e89de",
    "ov": "이번 주는 한화에어로·육군의 K-MRO 거점 확대와 GAO의 F-35 부품 추적 부실 지적이 겹치며 정비 인프라와 부품 가시성이 부각됐다. 지난주 AI·예측정비 착수 중심에서 한 걸음 나아가, 정비 거점과 부품 데이터 관리 같은 기반 체계가 논점이 됐다.",
@@ -3449,23 +3449,190 @@
   }
  },
  "2026-W47": {
-  "core": "미 군수·준비태세 강조, 국내는 AI 보안 부상",
+  "core": "민·군 MRO 확장, SW 공급망 보안이 핵심 과제",
   "themes": [
    {
     "no": 1,
-    "cat": "군수·준비태세",
-    "head": "공군 창설 기념, 군수 초점",
+    "cat": "정비·MRO",
+    "head": "민·군 정비 협력 확대",
     "points": [
-     "공군 창설 기념행사 개최",
-     "군수·미래 준비태세 초점",
-     "DLA 소식 게시"
+     "LIG D&A·공군 정비 협력",
+     "한화에어로·육군 K-MRO 거점화",
+     "동부지역 정비센터 추가"
+    ],
+    "icon": "gear",
+    "refs": [
+     1,
+     9
+    ],
+    "ids": [
+     "1912a554e821",
+     "7e232d3c13aa"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-11-09",
+       "t": "K9 수출 뒷받침 K-MRO 거점화",
+       "s": "데일리방산",
+       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZN3RUalJlb2dkc0JWYTNPU2R5U0hYWTNZTnQwXzFNQXVzOVNQRTZad1ZtYnI2TzRHS2l0T2NjLTVnN2JWVFd2NnFHQzk5RGRERERVUllpUGxGUGU3TjctaTNxZ0pBVVhQVFZRYWt5eHM?oc=5",
+       "nl": null,
+       "id": "1619c4326d6b",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-09",
+       "t": "야전정비센터 후속군수지원 거점화",
+       "s": "엠투데이",
+       "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
+       "nl": null,
+       "id": "2d4361af3e26",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-09",
+       "t": "육군과 정비 거점 확대",
+       "s": "머니투데이",
+       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
+       "nl": null,
+       "id": "13de12f92ce7",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-09",
+       "t": "MRO 거점·해외 군수협력 확대",
+       "s": "Chosunbiz",
+       "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM05aY1FDb1pwU0VEcmlmUGpvQl9samlERTQ4bW43aE1LajM2dzBrdGs5OXRTQmZ0UjI2cldIRkZVSVJJMGcwNzhRaWRtazFyWnRtUXc0S1RydmdtNzItSlhLc0Rpa3RDWHpFbjNUVWRmbVBfUzRTVnJDbkhkU2hZS3BPQnVNYnhkTTNlbEhXMzJMYzhLWFHSAZYBQVVfeXFMTTNOWmNRQ29acFNFRHJpZlBqb0JfbGppREU0OG1uN2hNS2ozNncwa3RrOTl0U0JmdFIyNnJXSEZGVUlSSTBnMDc4UWlkbWsxclp0bVF3NEtUcnZnbTcyLUpYS3NEaWt0Q1h6RW4zVFVkZm1QX1M0U1ZyQ25IZFNoWUtwT0J1TWJ4ZE0zZWxIVzMyTGM4S1hR?oc=5",
+       "nl": null,
+       "id": "101e510e53e3",
+       "k": [
+        "한화"
+       ]
+      },
+      {
+       "d": "2026-11-10",
+       "t": "육군·한화에어로 글로벌 MRO 협력",
+       "s": "뉴스투데이",
+       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jcl9FYjZCVEZVR2dlemliOVNja2VPeVhNeUU1VTU5UDlTNXMwZzJIOExIT1JlUkFfbzA5TkhLUExkcFlObnVUMXYxTDJHenE4VzZrbHlkR1FpMkhVaEE?oc=5",
+       "nl": null,
+       "id": "6940aadc5c3d",
+       "k": [
+        "한화"
+       ]
+      }
+     ],
+     "n": 10,
+     "since": "2026-11-02",
+     "terms": [
+      "LIG",
+      "한화"
+     ]
+    },
+    "tr": "육군 중심 K-MRO 거점화에서 공군·동부 센터로 확산",
+    "im": "민간 정비이력을 국방군수통합정보체계에 연계해 수리부속·정비인력 예측 고도화",
+    "ah": "a7cf804139"
+   },
+   {
+    "no": 2,
+    "cat": "보안·공급망",
+    "head": "SW 공급망 보안 부상",
+    "points": [
+     "NATO, 무기 소프트웨어 백도어 경고",
+     "공급망 전 단계 보안 필요",
+     "라운드버드 AI 공급망 보안 플랫폼 공개"
+    ],
+    "icon": "shield",
+    "refs": [
+     3,
+     5
+    ],
+    "ids": [
+     "29f818766033",
+     "7f9da76657da"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "공급망 보안",
+      "NATO"
+     ]
+    }
+   },
+   {
+    "no": 3,
+    "cat": "국제협력",
+    "head": "EU 국방협력·클라우드",
+    "points": [
+     "CARD, 협력 우선순위 8개 제시",
+     "순항미사일~국방 클라우드 포함",
+     "EU 장관들 8개 협력 기회 승인"
+    ],
+    "icon": "network",
+    "refs": [
+     4,
+     8
+    ],
+    "ids": [
+     "d5a4ad1bc837",
+     "a0e7703968df"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": []
+    }
+   },
+   {
+    "no": 4,
+    "cat": "AI·신산업",
+    "head": "AI 드론 보안 개발",
+    "points": [
+     "새솔테크 국방벤처 지원사업 선정",
+     "AI 드론 보안 플랫폼 개발",
+     ""
+    ],
+    "icon": "robot",
+    "refs": [
+     7
+    ],
+    "ids": [
+     "15e3fdb3b41c"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "AI 드론"
+     ]
+    }
+   },
+   {
+    "no": 5,
+    "cat": "군수·준비태세",
+    "head": "미 공군 군수·준비태세",
+    "points": [
+     "공군 창설 기념, 군수에 초점",
+     "미래 준비태세 강조",
+     "빌 공군기지 승무원 숙소 사업"
     ],
     "icon": "truck",
     "refs": [
-     1
+     2,
+     10
     ],
     "ids": [
-     "964f5fffd972"
+     "964f5fffd972",
+     "b5c40b23338e"
     ],
     "arch": {
      "l": [
@@ -3530,20 +3697,23 @@
      "terms": [
       "DLA"
      ]
-    }
+    },
+    "tr": "AI 공급망 혁신에서 준비태세·시설 기반 강조로 확장",
+    "im": "AI 공급망 예측과 인력·숙소 등 기반여건을 함께 반영한 가동률 관리 필요",
+    "ah": "e6e7924245"
    },
    {
-    "no": 2,
+    "no": 6,
     "cat": "산업협력",
-    "head": "AUSA 2026 산업계 협력",
+    "head": "육군 현대화·산업협력",
     "points": [
-     "AUSA 2026 행사 계기",
-     "산업계 협력 통한 육군 현대화",
-     "병사 준비태세 발전"
+     "AUSA 2026 산업계 협력 부각",
+     "미 육군 현대화 지원",
+     "병사 준비태세 향상"
     ],
     "icon": "org",
     "refs": [
-     3
+     6
     ],
     "ids": [
      "f6b87221a626"
@@ -3556,220 +3726,193 @@
       "AUSA 2026"
      ]
     }
-   },
-   {
-    "no": 3,
-    "cat": "시설·준비태세",
-    "head": "빌 기지 승무원 숙소 사업",
-    "points": [
-     "USACE 새크라멘토 지구 추진",
-     "빌 공군기지 숙소 시설 사업",
-     "항공승무원 준비태세 제고"
-    ],
-    "icon": "plane",
-    "refs": [
-     5
-    ],
-    "ids": [
-     "b5c40b23338e"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": []
-    }
-   },
-   {
-    "no": 4,
-    "cat": "SW 공급망 보안",
-    "head": "AI 기반 SW 공급망 보안",
-    "points": [
-     "라운드버드 플랫폼 공개",
-     "AI x 소프트웨이브 2026 행사",
-     "AI 기반 SW 공급망 보안"
-    ],
-    "icon": "shield",
-    "refs": [
-     2
-    ],
-    "ids": [
-     "29f818766033"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": [
-      "공급망 보안"
-     ]
-    }
-   },
-   {
-    "no": 5,
-    "cat": "국방벤처·AI",
-    "head": "AI 드론 보안 플랫폼 개발",
-    "points": [
-     "새솔테크 국방벤처 지원사업 선정",
-     "AI 드론 보안 플랫폼 개발",
-     "머니투데이 보도"
-    ],
-    "icon": "robot",
-    "refs": [
-     4
-    ],
-    "ids": [
-     "15e3fdb3b41c"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": [
-      "AI 드론"
-     ]
-    }
    }
   ],
   "recs": [
    {
-    "t": "준비태세 지표화",
-    "d": "군수정보체계 지표를 준비태세와 연계"
+    "t": "정비데이터 연계",
+    "d": "민·군 정비이력의 통합정보체계 연계 검토"
    },
    {
-    "t": "SW 공급망 점검",
-    "d": "군수체계 SW 보안 점검 범위 정의"
+    "t": "공급망 보안 점검",
+    "d": "군수정보체계·AI 예측모델의 SW 보안 점검"
    },
    {
-    "t": "산업·벤처 협력",
-    "d": "예측 모델 개발에 산업계·벤처 활용 검토"
+    "t": "정비수요 예측",
+    "d": "거점 정비센터 기준 수리부속·정비인력 예측 반영"
    }
   ],
-  "h": "30cd768d16",
-  "at": "2026-11-17 13:12",
-  "n": 5,
+  "h": "661b8e0feb",
+  "at": "2026-11-18 02:55",
+  "n": 10,
   "v2": {
-   "tag": "준비태세 강화 × AI·보안 내재화",
+   "tag": "민·군 정비 확대 × 공급망 보안",
    "groups": [
     {
      "g": 1,
-     "title": "군수·준비태세",
-     "sub": "공군 창설 기념, 군수 초점",
+     "title": "민·군 정비 협력",
+     "sub": "공군·육군 MRO 거점 확대",
      "items": [
       {
+       "n": 2,
+       "h": "한화에어로 육군 정비센터",
+       "d": "K-MRO 거점화, 동부 정비센터 추가",
+       "id": "7e232d3c13aa"
+      },
+      {
        "n": 1,
-       "h": "공군 창설 기념, 군수 초점",
-       "d": "군수·미래 준비태세 초점 행사, DLA 게시",
-       "id": "964f5fffd972"
+       "h": "LIG D&A·공군 정비협력",
+       "d": "민·군 협력으로 MRO 지원체계 강화",
+       "id": "1912a554e821"
       }
      ]
     },
     {
      "g": 2,
-     "title": "산업협력",
-     "sub": "AUSA 2026 산업계 협력",
-     "items": [
-      {
-       "n": 2,
-       "h": "AUSA 2026 산업 협력",
-       "d": "산업계 협력이 육군 현대화·병사 준비태세 발전",
-       "id": "f6b87221a626"
-      }
-     ]
-    },
-    {
-     "g": 3,
-     "title": "시설·준비태세",
-     "sub": "빌 기지 승무원 숙소 사업",
-     "items": [
-      {
-       "n": 3,
-       "h": "빌 기지 승무원 숙소 사업",
-       "d": "USACE 새크라멘토, 항공승무원 준비태세 제고",
-       "id": "b5c40b23338e"
-      }
-     ]
-    },
-    {
-     "g": 4,
      "title": "SW 공급망 보안",
-     "sub": "AI 기반 SW 공급망 보안",
+     "sub": "무기체계 백도어 경고·AI 플랫폼",
      "items": [
       {
        "n": 4,
-       "h": "라운드버드 AI 공급망 보안",
+       "h": "NATO, 무기 백도어 경고",
+       "d": "무기 SW 공급망 전 단계 보안 경고",
+       "id": "7f9da76657da"
+      },
+      {
+       "n": 3,
+       "h": "라운드버드 SW 보안 플랫폼",
        "d": "AI 기반 SW 공급망 보안 플랫폼 공개",
        "id": "29f818766033"
       }
      ]
     },
     {
-     "g": 5,
-     "title": "국방벤처·AI",
-     "sub": "AI 드론 보안 플랫폼 개발",
+     "g": 3,
+     "title": "EU 국방협력",
+     "sub": "CARD 8대 협력 우선순위",
      "items": [
       {
+       "n": 6,
+       "h": "EU 장관, 협력 8건 승인",
+       "d": "장관급 승인, 보안 국방 클라우드 포함",
+       "id": "a0e7703968df"
+      },
+      {
        "n": 5,
-       "h": "새솔테크 국방벤처 선정",
-       "d": "국방벤처 지원사업 선정, AI 드론 보안 개발",
+       "h": "EU CARD 우선순위 8개 제시",
+       "d": "순항미사일부터 국방 클라우드 포함",
+       "id": "d5a4ad1bc837"
+      }
+     ]
+    },
+    {
+     "g": 4,
+     "title": "AI 드론 보안",
+     "sub": "국방벤처 지원사업 선정",
+     "items": [
+      {
+       "n": 7,
+       "h": "새솔테크 AI 드론 보안",
+       "d": "국방벤처 선정, AI 드론 보안 플랫폼 개발",
        "id": "15e3fdb3b41c"
+      }
+     ]
+    },
+    {
+     "g": 5,
+     "title": "미 공군 군수",
+     "sub": "군수·준비태세 초점",
+     "items": [
+      {
+       "n": 8,
+       "h": "공군 창설 기념, 군수 초점",
+       "d": "군수와 미래 준비태세 초점 행사",
+       "id": "964f5fffd972"
+      },
+      {
+       "n": 9,
+       "h": "빌 기지 승무원 숙소 사업",
+       "d": "USACE, 항공승무원 준비태세용 숙소 시설",
+       "id": "b5c40b23338e"
+      }
+     ]
+    },
+    {
+     "g": 6,
+     "title": "육군 현대화",
+     "sub": "산업협력과 병사 준비태세",
+     "items": [
+      {
+       "n": 10,
+       "h": "AUSA 2026 산업협력",
+       "d": "산업 협력의 육군 현대화·준비태세 기여",
+       "id": "f6b87221a626"
       }
      ]
     }
    ],
    "imps": [
     {
-     "t": "준비태세 지표화",
-     "d": "군수 초점 기조를 통합정보체계 지표에 반영"
+     "t": "정비 데이터 연계",
+     "d": "민·군 정비 확대 대비 정비이력 연계 점검"
+    },
+    {
+     "t": "부속·인력 예측",
+     "d": "정비센터 확대에 따른 부속·인력 수요 예측 반영"
     },
     {
      "t": "SW 공급망 보안",
-     "d": "군수정보체계 SW 구성요소 점검 체계 검토"
+     "d": "체계 SW 백도어 위협 대비 보안 요건 점검"
     },
     {
-     "t": "산업·벤처 협력",
-     "d": "업계·국방벤처 AI 기술을 예측 고도화에 검토"
-    },
-    {
-     "t": "시설·인력 요소",
-     "d": "시설 등 준비태세 요소를 정비인력 예측에 반영"
+     "t": "보안 클라우드 참고",
+     "d": "EU 보안 국방 클라우드 논의, 군수체계 참고"
     }
    ],
-   "h": "9853932cd2",
-   "at": "2026-11-17 13:15"
+   "h": "86746277f3",
+   "at": "2026-11-18 02:57"
   },
   "flow": {
-   "h": "765dee8f76",
-   "ov": "이번 주는 지난주 F-35 부품 추적 실패로 부각된 군수데이터 신뢰성 논의가 이어지지 않고, AI 기반 SW 공급망·드론 보안 플랫폼 소식과 군수·준비태세를 강조하는 행사·인프라 기사가 중심이었다. 정비·군수 AI의 직접적인 적용 사례는 드물었다.",
+   "h": "3be3448a98",
+   "ov": "이번 주는 LIG D&A·한화에어로 등 민·군 MRO 협력과 정비 거점 확충이 두드러졌고, SW 공급망 보안과 NATO의 무기 백도어 경고가 함께 나타났다. 지난주 F-35 부품 추적 실패에서 제기된 데이터 신뢰성 문제가 공급망·SW 보안 문제로 넓어졌다.",
    "flows": [
     {
-     "t": "AI 보안 플랫폼 등장",
-     "d": "라운드버드의 AI 기반 SW 공급망 보안 플랫폼 공개, 새솔테크의 AI 드론 보안 플랫폼 개발 등 보안 분야에 AI 접목이 이어짐",
-     "dir": "신규"
-    },
-    {
-     "t": "군수·준비태세 강조",
-     "d": "공군 창설 기념행사의 군수·미래 준비태세 강조, AUSA에서의 산업계 협력과 장병 준비태세 논의가 이어짐",
-     "dir": "지속"
-    },
-    {
-     "t": "국방벤처·민간 협력",
-     "d": "국방벤처 지원사업 선정, AUSA 산업 협력 등 민간·업계 역량을 군 현대화에 연결하려는 흐름",
+     "t": "민·군 MRO 거점 확대",
+     "d": "LIG D&A-공군 정비 협력, 한화에어로-육군 동부 정비센터 추가 등 민간 참여 정비 체계 강화",
      "dir": "확대"
+    },
+    {
+     "t": "공급망·SW 보안 부상",
+     "d": "라운드버드 AI 기반 SW 공급망 보안 플랫폼 공개, NATO의 무기 내장 백도어 경고",
+     "dir": "전환"
+    },
+    {
+     "t": "방산 협력·AI 드론 보안",
+     "d": "EU CARD 협력과제 승인, AUSA 산업협력, 새솔테크 AI 드론 보안 플랫폼 개발 선정",
+     "dir": "지속"
     }
    ],
    "tech": [
     {
      "id": "T-CY-69-1",
-     "why": "AI 기반 SW 공급망 보안 플랫폼 공개와 공급망 보안 기술이 연계됨"
+     "why": "SW 공급망 보안 플랫폼 공개, NATO 무기 백도어 경고와 직결"
+    },
+    {
+     "id": "T-AI-8-3",
+     "why": "지난주 군수데이터 신뢰성 문제와 이어지는 데이터 변조·오염 대응"
     },
     {
      "id": "F-6-2",
-     "why": "AI 드론 보안 플랫폼 개발이 드론 공통 플랫폼 운용과 간접적으로 연계됨"
+     "why": "AI 드론 보안 플랫폼 개발 선정과 드론 플랫폼 연계"
     }
    ],
-   "tasks": [],
-   "at": "2026-11-17 13:15"
+   "tasks": [
+    {
+     "id": "T-CY-69-3",
+     "why": "무기체계 사이버위험 관리 검증, 백도어 위협 대응 시사점"
+    }
+   ],
+   "at": "2026-11-18 02:58"
   }
  }
 }

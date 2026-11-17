@@ -2,6 +2,204 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "baee19d7ebbf",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T02:54",
+   "title": "[조달계획] 무극아파트 승강기 제어반 부품 교체",
+   "source": "국방전자조달(D2B) · 제1891부대",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제1891부대 · 구매 · 수의계약 · 발주예정 2026.11 · 수의협상중 · 판단번호 48249",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d5a4ad1bc837",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T23:25",
+   "title": "New Coordinated Annual Review on Defence (CARD). The EU identifies eight priorities for military cooperation, ranging from cruise missiles to a European defence cloud",
+   "source": "Ejércitos",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoc3lVbXVzNkpTMUlXRllOakFMNG5KNHo4aWJpblBEWTJTRGhiTjROSlZVMHBtNTMtZlJ4b0dDUTQwdi1wOURHUWdOMGdjUzV5NmFqNkw1bk9pUEFnMWJmakc3ODFvMWR0MTFQLWlLR1c2YWE0S1ptWE5Bdw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "European Defence Agency logistics",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "7f9da76657da",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T22:30",
+   "title": "NATO warns of secret backdoors built into its weapons",
+   "source": "UK Defence Journal",
+   "url": "https://ukdefencejournal.org.uk/nato-warns-of-secret-backdoors-built-into-its-weapons/",
+   "lang": "en",
+   "summary": "NATO's Deputy Secretary General says every jet, ship and tank now runs on software, and allies must secure every step of the supply chain to stop hidden backdoors. #NATOEdge The post NATO warns of secret backdoors built into its weapons first appeared on UK Defence Journal .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukdj",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a0e7703968df",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T20:11",
+   "title": "EU Ministers endorse eight collaborative opportunities, from cruise missiles to a secure defence cloud",
+   "source": "European Defence Agency",
+   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQdGpVb1dsMXVCdmF6WFpVcEh3b1BjMlVTcU9xQnVoWmNNQUxvMnBSMFVXUzhPTUdVcU1XWXBadU9MaDIzV2IwUjBRZWVYb3ZpZm5WeWZqb2lzeXk2UGJ0dk1OTDYtUHJ2NjRNUGFhQk85YmRHYjN3bWtwR21ZU3pDZUFoNU8wSmh6SnFnS2RPeldpTXV2ZzVuOFN3UEV1d2padURkdG5DRko0MGFGQ01Wd01lT21ZT0toUUszYWtfRTJhNk96Y2hlRHV1S2tLUVp4M0h1di1naHNSelRpengzUEd0b3JKRlBPd3B3bDVDbXEwblFHYndHb1VNMHluSjZpOVNYMm5ObUpkLUUzVkZyTjRnUEVlejdMcDFmNWZLZHdoa3VxV1dyQm9OWEZpeWFI?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "eda",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "7e232d3c13aa",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T16:35",
+   "title": "한화에어로, 육군과 K-MRO 거점화…동부지역 정비센터 추가",
+   "source": "데일리방산",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fTkF0R0g5TkVwOW96U2o0MUlWbG9fV3B5VnZ1VVlQRWZmYldselJReFlKcjY3TW1QSUFGLXNrNGZILVFuWHhoc0NmWEs0MmJyVjlQb2Q5cEFEUWpiVmFaWTM4ZEM5Vm9YTUFXYk9JQTM?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "kida",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "육군",
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "1912a554e821",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T14:55",
+   "title": "LIG D&A, 공군과 민·군 정비 협력…MRO 지원체계 강화",
+   "source": "한국아이닷컴",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpek53aG5mRFhWSVFialdJSjlMaXFRLUhkVnh3YVFrcDYyWDRmMlJYamUzRUNwTUFTQmU5MUotaGhvTUZzNEJwaHZhMncxUXVjRDFyV1E5MmZHcmdqcThqVHN2UTRwa3AtcEI40gFvQVVfeXFMUHExT0ZsX1FOSTlCTks0ckxrUjF3bElDYjZFc1Y2STh2RW1YN0xQY0R1ckdSYlMzXzhEX19NV29Lb0tvTmtKRzZXZWlJMGVuTmVTRzlINk5kZzBEYzJNSWQzbXJTZE5GOEh3YkY1MEV3?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "이코노미사이언스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54S2pXY2RHNWhLNlZySXIxaW5TUlZKQkl6Uml3N2VwX2JwX2xEVk1QUmdMajB1UE5VdENvaVBiWTdyNTRVZXFIcjNNNjFTYW5XS3FTcWNaUlVvd0QzMkZTOTJ2YXlMd0psZ0Yyb3VNQQ?oc=5",
+     "title": "LIG D&A, 공군과 무기체계 MRO 협력…국내개발 유도무기 정비지원체계 구축"
+    },
+    {
+     "source": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SVnllenR6VnFHS2g1Q1QtODhwcUJxWnAwTmw3eWx3YWpmNFFoS1VYMVJYRmlPVlB4WXFSTnpiQzJKRjRVQ1Vyd3hDd1N2RTkydEg3bnF3TjdFSTFtMTNtOG9DMXQ0c1BpaHEtZXBkb2pGcTRqSDVV0gF3QVVfeXFMT1JWeWV6dHpWcUdLaDVDVC04OHBxQnFacDBObDd5bHdhamY0UWhLVVgxUlhGaU9WUHhZcVJOemJDMkpGNFVDVXJ3eEN3U3ZFOTJ0SDducXdON0VJMW0xM204b0MxdDRzUGlocS1lcGRvakZxNGpINVU?oc=5",
+     "title": "LIG D&A, 공군과 국내개발 무기체계 MRO 협력"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "무기체계 가동률 정비",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "공군",
+    "LIG"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "d974c72aad5f",
    "date": "2026-11-17",
    "ts": "2026-11-17T13:11",
@@ -56,6 +254,115 @@
    ],
    "axes": [],
    "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "e3c8c0412cf4",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Dla Ds_Anchorage Mhe Maintenance Services",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/f3afc96e6a55478c98f3e271d4cf0f9a/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · SP451027Q1005 · DEFENSE LOGISTICS AGENCY > DLA DISPOSITION SERVICES · 마감 2026-12-11",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "bc619070179e",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Multiple Ship Sustainment Partnership (Mssp) Single Award Indefinite Delivery Indefinite Quantity (Sa-Idiq) Contracts For Fleet Maintenance Availabilities And Incremental Selected Restricted Availabilities On Ddg-51 Class Ships Homeported In Norfolk, Va",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/dc008393da924a23bffcab9043624a2f/view",
+   "lang": "en",
+   "summary": "Special Notice · N00002426R4439414 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-17",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "892a53783076",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Enterprise Information Technology Support Services (Itss)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/d42cc82803064a10a68625d59c824d29/view",
+   "lang": "en",
+   "summary": "Sources Sought · PANRSA27P000001 · DEPT OF THE ARMY > AMC · 마감 2026-12-18",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "4b5bac58a07d",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Rfi For Foreign Vehicle Maintenance Support Services (Fvms)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/5f06c599a0c34b0998603530e3fc2594/view",
+   "lang": "en",
+   "summary": "Sources Sought · PANDTA-27-P-0000_041432 · DEPT OF THE ARMY > AMC · 마감 2026-12-04",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
    "domains": [
     "wpn"
    ],
