@@ -2,6 +2,163 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "9272eb0e285b",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T02:33",
+   "title": "[조달계획] 천무유도탄 외주정비(방산)",
+   "source": "국방전자조달(D2B) · 지상공통전력운영계약팀",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 지상공통전력운영계약팀 · 제조 · 수의계약 · 발주예정 2026.11 · 원가계산중 · 판단번호 7771R",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2edb10d88163",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T01:52",
+   "title": "Lockheed Martin Secures $93M Navy Order for F-35 Depot Test Gear, Repair Upgrades",
+   "source": "ExecutiveBiz",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ3JidjNtSE9XQ1owTlJKVDFmZmJuenYyNEpfcFZLT2FuQS05SkVNZy1FN04xZUNxNXdmR2VtekVNbzdIenJwc1NYbk1Vc2dIemFrLWxjakczZmUxbzJ3enZsd3NWa3VtLTFXS0VSOWZfUDdoV0RBdWdXU0lNcFkyRjYzRFUwMUNZME9UdFctSVRLQVZfUGJ4ZjFB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "weapon system sustainment contract awarded",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "Lockheed Martin",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "a4887a2db484",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T00:15",
+   "title": "Britain has the frigate the US needs, and Americans should build it: UK minister",
+   "source": "Breaking Defense",
+   "url": "https://breakingdefense.com/2026/11/britain-has-the-frigate-the-us-needs-and-americans-should-build-it-uk-minister/",
+   "lang": "en",
+   "summary": "In a new op-ed, Britain’s Minister for Defence Readiness and Industry makes the case that the US should procure a UK frigate design and produce it in America.",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "breakingdefense",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "562d083bed10",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T21:57",
+   "title": "Commentary: Social bonds, connections strengthen readiness, health",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQVh3b3R1TUUtYTdRbl9yc281RE9yWkxkZ25lbVJZYlJGR2FqUE9Xdmt1TkllejlBWW82dmt6VHpRWWxuSGIyelRlLXAteUVKMFkydEo1QVE2ZGRveUN4SFhYZ2RRQl9lUHhva0g0aUVIMXY5eEJYb0RUMlZkZzdERXNVdjhNeGFoX2pqaEJKdDVNVGxJS19CRVhCS0IzZllh0gGmAUFVX3lxTE9yTnNDRWlTOUU3VWhOQzItOU1jdy1TVmRrZW40VjlmSUVwc0NjMTE1bURxdjNORjZIT2tvODF2VER0dmFZZnh3QVdXWlNPbE1HcXZZVkxiVVBxU0daX25sMnFOUE5BTks0SS1qSi1EMFB6WkM2VEc3bXJaZGpVUzFLRDE0UGZJLTNIN3AyUEFLLXRnc1ZEM0JzS2Q4TEVMbVFaQlQ3d2c?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "ca4a2cd36e52",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T13:30",
+   "title": "Navy Awards Lockheed Martin $93.2 Million F-35 Sustainment Contract",
+   "source": "The Defense Watch",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQekF6Qy1CWUg0R1ZTdjQxekx2SGRSdUpoRVNEMGQ1SGFPS3cyWWppZEVVS2RKMVdPZU4yU0k2akhtcXBMbW1aZ2tEcUVYY1VRdjgxX1gtSDFNeWNNODlIUEIwX2pvSVl2MGxycElhN2VNblU3YnUtN3R3S2o4dF9SSEFYWHJGZ1c1QldwdVVMOHp5aWJPMi1PTHMwbUNfU2lFRWU4RkRfUGM5c3dBR1dv?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "Lockheed Martin",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
    "id": "aecde6a5b347",
    "date": "2026-11-18",
    "ts": "2026-11-18T10:10",
@@ -34,6 +191,67 @@
    ],
    "kind": "contract",
    "desc_tried": true
+  },
+  {
+   "id": "3032bd9852ae",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T09:00",
+   "title": "Portrait Photography Concessionaire Services – Defense Depot Richmond, Va",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/dfe7212119924010bdcfc2e699109991/view",
+   "lang": "en",
+   "summary": "Solicitation · NAFUA1-27-Q-0002 · DEFENSE LOGISTICS AGENCY > DEFENSE LOGISTICS AGENCY · 마감 2026-12-18",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "0b340ee1bcc3",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T09:00",
+   "title": "Boundary Line Maintenance Nimrod-Blue Mountain Lakes",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/cd956284c17d473eb7035db2aecce242/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W9127S27QA003 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-01",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
   },
   {
    "id": "2a6ebca3d597",
