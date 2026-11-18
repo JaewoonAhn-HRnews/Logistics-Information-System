@@ -2,6 +2,133 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "aecde6a5b347",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T10:10",
+   "title": "LIG D&A, 입찰 제한 집행정지로 신규 수주 불확실성 완화…공군과 MRO 협력 확대",
+   "source": "데일리팝",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfeF9xSVo3TVFXVWU4UnZKOFEzTEllOXZPT3M3dHZLUWtEUk1IMElwRjBJSVppbi1WMGZUbUsxamQ4aHBLcFE4blZHV09pZWFrSzdoWnYyeHozdnd4aWVaUGZxYzB6MnA0?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "d2b",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "공군",
+    "LIG"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "2a6ebca3d597",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T07:01",
+   "title": "Letterkenny Army Depot team sustains vital Kuwait air defense systems",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTmo1bmJsM1o4czNEWGk5bWg0TF82QzNXN0xLY281cWxxU3Exb2VfZXVNdzQtYnpmTjVxS0xDTjZLMy1kVGstQS1WRy0wUFREYTJGNEJLeHZ5SzA1M1g4WWkwdnlfU0tOQk9zb3ZlcWZoc241N0J2OUtGNllaSDFBNTNGNWdPZTZEdGZ1WU9tQk9oeEdUOTAxb0ZHRHd5WVlRU09rMldKbXhVVW1VWWfSAa4BQVVfeXFMT05qNW5ibDNaOHMzRFhpOW1oNExfNkMzVzdMS2NvNXFscVNxMW9lX2V1TXc0LWJ6Zk41cUtMQ042SzMtZFRrLUEtVkctMFBURGEyRjRCS3h2eUswNTNYOFlpMHZ5X1NLTkJPc292ZXFmaHNuNTdCdjlLRjZZWkgxQTUzRjVnT2U2RHRmdVlPbUJPaHhHVDkwMW9GR0R3eVlZUVNPazJXSm14VVVtVVln?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "30b49d8c39f1",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T04:42",
+   "title": "Army Aviation fleet facing more accidents, lower readiness rates: Obadal",
+   "source": "Breaking Defense",
+   "url": "https://breakingdefense.com/2026/11/army-aviation-fleet-facing-more-accidents-lower-readiness-rates-obadal/",
+   "lang": "en",
+   "summary": "“What we are doing is looking at the trends, and year over year, our trends of fully mission capable are going down. We have to change something,” Army Undersecretary Michael Obadal said.",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "breakingdefense",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "599d037127ab",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T04:03",
+   "title": "Stock Readiness Process Review Committee (PRC)",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2dFhJMHF1MEFnTDFvZm5wdWFxUnFxUUdiNi0yMlFpSUgzS1l3T1pqMnpjQ1FBRXdjcTA3T3FiczRmQVRZS1djM0oycXNWZy1hODFSaDEzcGlNMEpFaVJJZVpZNnB5MnRCazN4ckNXclF3ZExMcHQ1ZEl3?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "baee19d7ebbf",
    "date": "2026-11-18",
    "ts": "2026-11-18T02:54",
@@ -369,6 +496,181 @@
    "kind": "contract"
   },
   {
+   "id": "8a36858fe235",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "59--Counterpoise,Antenna",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/dd00dd47e0984b948e1c03abe0e0d8f5/view",
+   "lang": "en",
+   "summary": "Award Notice · SPE7M127U0058 · DEFENSE LOGISTICS AGENCY > DLA MARITIME",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "dd8089a13cab",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Afotec Data Discoverability, Semantic Governance, And Ai Readiness Minimum Viable Product (Mvp)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/d826907afb7247e091c636869b85245a/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA704627_RFI_Data_Catalog · DEPT OF THE AIR FORCE > AIR FORCE OPERATIONAL TEST AND EVALUATION CENTER · 마감 2026-11-24",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b9945f9de2af",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Foreign Military Financing T-6C Sustainment Program",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/c9bb24edb60f468987aed244aa95a8e5/view",
+   "lang": "en",
+   "summary": "Award Notice · FA861723C6241P00011 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "2656819101ec",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Request For Information (Rfi) Ddg 1000 Class Modernization: Uss Michael Monsoor (Ddg 1001) Conventional Prompt Strike (Cps) Depot Modernization Period (Dmp); Large Missile Vertical Launch System (Lmvls) Heavy Lift And Industrial Installation",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c96fb8d16b2a4fa59ada92cbde9a02c8/view",
+   "lang": "en",
+   "summary": "Special Notice · N00024-27-R-4444 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-15",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "924c239f7edd",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Sole Source To Drs Sustainment Systems, Inc. | Tear Down, Inspection, And Evaluation (Tie&R) Of Control Power Supply",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/c83017db085846b08ea2d2bc3953a6ce/view",
+   "lang": "en",
+   "summary": "Sources Sought · SPRRA2-27-R-SP09 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-11-20",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "b27f6426a875",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T09:00",
+   "title": "Aviation Standardization, Training, Readiness, And Operations Support Services (Astro)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/ad0d1d69071b46f9985c3965b83b30ad/view",
+   "lang": "en",
+   "summary": "Sources Sought · W9133L27RASTRO · DEPT OF THE ARMY > NATIONAL GUARD BUREAU · 마감 2026-11-24",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "b5c40b23338e",
    "date": "2026-11-17",
    "ts": "2026-11-17T07:28",
@@ -524,6 +826,40 @@
     "wpn"
    ],
    "kind": "contract"
+  },
+  {
+   "id": "512734f18d77",
+   "date": "2026-11-17",
+   "ts": "2026-11-17T00:29",
+   "title": "Ukraine support strains Army readiness in Europe, Pentagon IG finds",
+   "source": "Stars and Stripes",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUI3aDA4WnpHRnNKZGtLajJkdEY0aENHMWZxTXNKcnV4QkhiaTVmZFB5R1U5X3lkNjBsWjA2YWN5dno1RENpZWVfWU81LVFGY040TGlva1Q2RjVJOHpxV2V0MS11ejBjeFZzRk0wb0V0bDRpR3VyaFpnd0RjUVB0RzVreEpJUVFvZE1BaWl2UUdZNTViWTEtNE1Pa0s?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
   },
   {
    "id": "15e3fdb3b41c",
