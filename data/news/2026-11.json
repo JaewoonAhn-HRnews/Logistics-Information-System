@@ -2,6 +2,38 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "aaf179625366",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T06:43",
+   "title": "Federal Air Quality and Wildland Fire Smoke Forecasting",
+   "source": "Congress.gov",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3ai1remp6SXBEUzEtXzNzUWdvbHNFQ1BaSW83RGdjYUhveTlXc0kwR000TkJNa3hiTFpYUDZnSUg2eHc5bUxKTjctUUVwcWdoUm5xVGw1cw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "crs",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "수요예측"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "9272eb0e285b",
    "date": "2026-11-19",
    "ts": "2026-11-19T02:33",
@@ -246,6 +278,56 @@
    "ents": [
     "미 육군"
    ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "1bae7334281e",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T09:00",
+   "title": "Caterpillar, Inc. (Cat) Diesel Engine Lifecycle Support Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d3c96b1527d04a48b89d891d2d243f87/view",
+   "lang": "en",
+   "summary": "Solicitation · N6449827R0011 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-18",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "388d91b85812",
+   "date": "2026-11-18",
+   "ts": "2026-11-18T09:00",
+   "title": "Rfi Forrecoverable Exercise Torpedo (Rextorp) And Fire Control Assembly (Fca) Production, Testing, And Sustainment Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/5f90289d150e44959328ef598e87a979/view",
+   "lang": "en",
+   "summary": "Sources Sought · RFI-N00253-FY27-32-0010 · DEPT OF THE NAVY > NAVSEA · 마감 2026-12-18",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
    "axes": [],
    "region": "us",
    "domains": [
@@ -520,6 +602,11 @@
      "source": "인사이트코리아",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SVnllenR6VnFHS2g1Q1QtODhwcUJxWnAwTmw3eWx3YWpmNFFoS1VYMVJYRmlPVlB4WXFSTnpiQzJKRjRVQ1Vyd3hDd1N2RTkydEg3bnF3TjdFSTFtMTNtOG9DMXQ0c1BpaHEtZXBkb2pGcTRqSDVV0gF3QVVfeXFMT1JWeWV6dHpWcUdLaDVDVC04OHBxQnFacDBObDd5bHdhamY0UWhLVVgxUlhGaU9WUHhZcVJOemJDMkpGNFVDVXJ3eEN3U3ZFOTJ0SDducXdON0VJMW0xM204b0MxdDRzUGlocS1lcGRvakZxNGpINVU?oc=5",
      "title": "LIG D&A, 공군과 국내개발 무기체계 MRO 협력"
+    },
+    {
+     "source": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JRF9JaU1RNHBkdjRDNkpvZW41THJ0bEhQN08xLXFBM25lMEVza2FtTFBVazcxU2hYckhxTVhBbDdkZjJNV2pfT3ZrMzBfX0h2dEdRYW9mb3Y0R2xwbnh2S01waVdwUWZ5MjVzZzRR?oc=5",
+     "title": "LIG D&A·공군, 국내개발 무기체계 MRO 협력 MOU 체결"
     }
    ],
    "origin": "rss",
