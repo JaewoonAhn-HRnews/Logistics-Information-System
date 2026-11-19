@@ -2,6 +2,418 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "60dcf131b4cd",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T02:39",
+   "title": "[조달계획] SVG-2 외주정비",
+   "source": "국방전자조달(D2B) · 공군제15특수임무비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군제15특수임무비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 49095",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "6a650c55bf37",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T02:39",
+   "title": "[조달계획] 26-260,261,262,263 정비대대 클램프테스트 등 101종",
+   "source": "국방전자조달(D2B) · 공군사관학교",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군사관학교 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 48781",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "62e1e6018166",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T23:56",
+   "title": "Army Sustainment Fall 2026",
+   "source": "Line of Departure (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXNaSzduTFU2T05RUHJDUjZqVjk3UW83bFM4QjNhM0dmRVlHWjBrRHRVQU9selBtNlJsVjBuU2FrQUNpWnIwUTBjSkczb1dSWFNEQjBZb2pURGk5aUp3U2xJS3NPSERPRnplejJLWTExTG5vMm9yRTBoXzZjeDllbS1ENDl2YUVWVW1EaVpzbHlRa0ZvcGVKR3dyNmlDS3FFMEgwVE1R?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "c02a4704bd3c",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T23:56",
+   "title": "Revolutionizing Army Readiness:",
+   "source": "Line of Departure (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd0dFNW0tRjlKNUZFUGRIVUpRSVZ5c2tySDZhYl9sOExuSGVqS2hoUDM2T05rUnJmaktnTGlGUEpQQ3djWHFWSFBUb3pRLUN0MHljc2s1bFJxSU4xLUE1RGRuWXBOczBtY0lXdXMtRVJIbVZxa1NjcU53cjg5dDNNYkM4OUxGWVRDR0FOMkQySmphSkg2VjlEdzhzbjV4ZXpsT0VaWWhYYndXeVE2LUlZem5CSnk5NUdmMDJUc2lKRFE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "61b41d473781",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T21:06",
+   "title": "DOD Munitions: Planning and Leadership Needed to Address Persistent Shortages",
+   "source": "GAO 보고서",
+   "url": "https://www.gao.gov/products/gao-27-109420",
+   "lang": "en",
+   "summary": "What GAO Found In 2025, the Department of Defense (DOD) Acting Assistant Secretary of Defense for Sustainment testified that DOD had a shortage of several key munitions. DOD has taken steps to improve its munitions inventory shortages by, among other things, establishing munitions working groups focused on identifying ways to increase munition production. The 2026 conflict with Iran has heightened the importance of addressing munitions stockpile ",
+   "score": 7.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gao",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts",
+    "log",
+    "policy"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "policy"
+  },
+  {
+   "id": "9c54f9b073cc",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T19:08",
+   "title": "General Dynamics Land Systems Books $333M Army Stryker Sustainment Contract",
+   "source": "GovCon Wire",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rRHlzR0FJbjd3MmZFTFdRQUt0Z0dyVUsyVnY3Tk9zZ2RzX1lCU1REblBkS2VBa1ZsNEJBQ1hEQk9UYjl4S29DYUNDbzdtMHhGVWF0VFBkT3YxNno1RmFHN0hlWi1WSmRMR2VFMlZQVk5INHNEZ3NUODhrS0RlMFk?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "govconwire",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "23f536b956fb",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T17:08",
+   "title": "쿤텍, 'DGX B300'으로 AI 보안 연구 강화…모델 학습·공급망 검증 자체 수행",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fcnlGTUxUYUZKcDRaUl9rbkVrcnlZb2gwVUNnVnd0VWlsY2c5d1ZxNnZzeWZOdm1YZ09pcDhjU2xULUNJVHo3M3ppMWxMdw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "AI",
+    "공급망",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "d81118659237",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T13:42",
+   "title": "젠슨 황 發 미국 수출 통제, 전력반도체 공급망 영향권 …국산화·수요 연계 시급",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIZHJSNHZXaXBxTlVnNkp0U0pUMWIzRnBfWkdUOUZsM3NUeFBWcHloVEhCbVRyeWY4WWYxNU5rMDVpQjcyU0R3eWlOZjBBUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "parts",
+    "log"
+   ],
+   "kw": [
+    "공급망",
+    "국산화"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "0c1ae8649ed9",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T11:01",
+   "title": "Modernizing Army Sustainment: Projecting Combat Power and Sustaining Lethality at the Speed of War",
+   "source": "Line of Departure (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWG13ZEhTVHp3VkxJeTdOVmIwMjRYLUwzb09kUlg5eE9maC1ZWkdTaDJ1Qm9lbkZJVThjUGZKMndaUUhVSkVpcHY4VTl3ZHoxeEllQURfSkFncmRaOFJuUThMZDk4dXQ0T2xydjJ0V3FMZU4xMzM2NUktcHZOUmotNy1XenJDNHRwOXJVYVlOMmpFSUxqanlxRVdQZS1CeGVFT3RVcDBWVHFCbGlvczJJSUxsWS13ZjlQMUJ3ZnV3?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
+   "id": "4b5400b299bf",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T09:00",
+   "title": "Enterprise Wide It Support Services",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d915ebb8e540429598b3f9918b524d33/view",
+   "lang": "en",
+   "summary": "Consolidate/(Substantially) Bundle · A031392-BUNDLE · DEPT OF THE NAVY > NAVSUP",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract"
+  },
+  {
+   "id": "e4c7b15e01ff",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T09:00",
+   "title": "P-8A Platform Sustainment Support, Support Equipment Maintenance, Engineering Investigations And Integrated Maintenance Augmentation",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/d8c0d5ceaf0447c7965bf129fe1f75ca/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-26-RFPREQ-APM290-0575PS · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-04",
+   "score": 5.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "787451dca18e",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T09:00",
+   "title": "Leadership Culture And Soft Skills Development Program Navsup Fleet Logistics Center Sigonella",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c27607e2351d4cd4b7b19fc79768d545/view",
+   "lang": "en",
+   "summary": "Sources Sought · RFICode300-01 · DEPT OF THE NAVY > NAVSUP · 마감 2026-12-04",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "d463188bc9f5",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T09:00",
+   "title": "Scarng Regional Aviation Phase Support Center For Ah-64E Aircraft Maintenance Support",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/9aa26e783a3d4ec78a6da49fc1ddb301/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · W912QG27RA001 · DEPT OF THE ARMY > NATIONAL GUARD BUREAU · 마감 2026-12-21",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
+   "id": "20dac8d5f862",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T09:00",
+   "title": "Initial Restoration, Testing, And Continuous Sustainment Of Asg-J Owned 6K Scat Tanks",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/3e63143d03e34759bd9235e7be99f927/view",
+   "lang": "en",
+   "summary": "Sources Sought · ASG-JOCS1119 · DEPT OF THE ARMY > AMC · 마감 2026-12-03",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract"
+  },
+  {
    "id": "aaf179625366",
    "date": "2026-11-19",
    "ts": "2026-11-19T06:43",
@@ -63,6 +475,34 @@
    "kind": "contract"
   },
   {
+   "id": "d9d764fed5d2",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T02:21",
+   "title": "Forging The Future: The Meridian Transformation Surge and The Next Generation of Army Sustainment",
+   "source": "Line of Departure (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbFQ0cEhKc0ZiN0J4QXFLaVdjbFdfU1B5ako3a1FTOFQ1a3dhZGhOcjR6aFFabHlZNmtCYjVQTHkzTTYzb3c2c1pTU0hFYXhuYWdsQTZpU2xWdVZUckdJRnpOUVBpbU52bmxqcHZwY3hvR2hQVy1BeUVYa29QVzJienpqeUNmX0JvcENqRjVac1lwczJ0ejNUdUZUSkxtSnpCS0duYzJ0Z2ZqNTVhaU5fdg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true
+  },
+  {
    "id": "2edb10d88163",
    "date": "2026-11-19",
    "ts": "2026-11-19T01:52",
@@ -93,6 +533,38 @@
     "wpn"
    ],
    "kind": "contract",
+   "desc_tried": true
+  },
+  {
+   "id": "58f37344a078",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T01:44",
+   "title": "Pennsylvania National Guard sharpens emergency response readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYmpEVUtYaEJyU1Q1bGlSMUxmY1VrUHhaZW1rbmRRNU8wYjh2LXhrWHl2bDBVbEc0a3BVSWh1OFZSenFJZG1XUFJKR3JvSmZwNWpUMWJXRWhxalZiSW03ZjlsZkZaTjBMaXRQSzBGT0dSSzBFb3I4eGdnVGtEbFk2RVp5RTA5VmRkRXJfUmJXSVZxeW45cnc4bTZiWnZ4YmMtRGgw0gGoAUFVX3lxTE1BRHAyckhiSTNTYkgzSXJMcVFrQ2ZNTXExTnlKSXVhN0R5MEdWVU43Zjc0RUdiOTdibU1QUFEzc19hRUE4RkxnYkEtaTR1VEpSc1VRMGNKckVSRENrTllvRTFqTlZsdkpZeU9jV0V0enYxSXRxQkpkeXBwTFllN0J5eEl6QVRTN1laMzNOREQtUkxObnllWXR0aHo3WVFYRkdkQkpnamt0dQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
    "desc_tried": true
   },
   {
