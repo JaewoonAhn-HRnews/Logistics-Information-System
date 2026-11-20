@@ -41,7 +41,14 @@
    ],
    "kind": "contract",
    "orig_title": "Can AI help the Marines simplify sustainment in the Pacific?",
-   "nl": 69
+   "nl": 69,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 1.0,
+    "dh": 2,
+    "rel": 9.5
+   }
   },
   {
    "id": "b4c38d58bb6b",
@@ -82,7 +89,14 @@
    ],
    "kind": "news",
    "orig_title": "Air Force explores AI tools to predict aircraft failures, strengthen sustainment",
-   "nl": 66
+   "nl": 66,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 0.0,
+    "dh": 3,
+    "rel": 8.0
+   }
   },
   {
    "id": "54ae9cdaf7f4",
@@ -117,7 +131,14 @@
     "wpn",
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 5,
+    "rel": 6.0
+   }
   },
   {
    "id": "fd51d0a973de",
@@ -154,7 +175,14 @@
     "lis",
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 8,
+    "dh": 2,
+    "rel": 5.5
+   }
   }
  ]
 }

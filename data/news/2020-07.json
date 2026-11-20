@@ -38,7 +38,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 10.0
+   }
   },
   {
    "id": "0fc79698dd12",
@@ -66,7 +73,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 8.5
+   }
   },
   {
    "id": "221cacb2d225",
@@ -96,7 +110,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 8.0
+   }
   }
  ]
 }

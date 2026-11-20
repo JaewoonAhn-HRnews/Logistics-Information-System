@@ -23,12 +23,16 @@ import taxonomy as T  # noqa: E402
 import archive  # noqa: E402
 import reports  # noqa: E402
 import kb as KB  # noqa: E402
-from common import DATA, DB, NEWS, classify, full_classify, is_noise, load_json, relevance, same_story, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
+from common import DATA, DB, NEWS, classify, full_classify, is_noise, load_json, relevance, same_story, source_tier, class_confidence, now_kst, save_json, to_date, week_key, week_range  # noqa: E402
 
 CAT_NAME = {c["id"]: c["name"] for c in T.CATEGORIES}
 AXIS_NAME = {a["id"]: a["name"] for a in T.PROJECT_AXES}
 SRC_REGION = {s["id"]: s["region"] for s in load_json(DATA / "sources.json", {"sources": []})["sources"]}
 ENT_TYPE = {e: t for e, t, _ in T.ENTITIES}
+
+
+SRC_TYPES = {x["id"]: x.get("type", "") for x in load_json(DATA / "sources.json", {"sources": []})["sources"]}
+SRC_TYPES.update({"samgov": "조달·계약", "d2b-api": "조달·계약", "nlarchive": "뉴스레터"})
 
 
 def load_all():
@@ -51,6 +55,8 @@ def load_all():
             if a.get("src") in ("samgov", "d2b-api"):
                 c["kind"] = "contract"
             c["score"] = relevance(text)[0]
+            tmp = dict(a, **c)
+            c["conf"] = {"src": source_tier(a, SRC_TYPES), **class_confidence(tmp, text)}
             if any(a.get(k) != v for k, v in c.items()):
                 a.update(c)
                 changed.add(p)
@@ -509,6 +515,68 @@ def weekly_flow(wb, groups, links, kbd, recent=3):
     save_json(DATA / "weekly_briefs.json", wb)
 
 
+def _bg(t):
+    t = re.sub(r"[^가-힣A-Za-z0-9]", "", t or "")
+    return {t[i:i + 2] for i in range(len(t) - 1)}
+
+
+GENERIC = {"공군", "육군", "해군", "해병대", "국방부", "미 국방부", "미 육군", "미 공군", "미 해군", "AI", "가동률·준비태세", "MRO", "정비"}
+
+
+def week_compare(wb, periods, arts):
+    """주간 보고서 '전주 대비 비교': 기사 수·지역·분야·유형 증감, 새로 뜬/사라진 키워드, 주제 연속성(N주 연속/신규)."""
+    W = periods["week"]
+    keys = sorted(k for k in wb if k in W)
+    by = {a["id"]: a for a in arts}
+
+    def tsig(t):
+        c = Counter()
+        for i in t.get("ids", []):
+            a = by.get(i)
+            if a:
+                c.update((set(a.get("kw", [])) | set(a.get("ents", []))) - GENERIC)
+        return {x for x, n in c.items() if n >= 2 or len(t.get("ids", [])) <= 3}
+    for idx, k in enumerate(keys):
+        cur = W[k]
+        pk = next((x for x in sorted(W) if x < k and x == sorted(W)[sorted(W).index(k) - 1]), None) if sorted(W).index(k) > 0 else None
+        prev = W.get(pk) if pk else None
+        if not prev:
+            wb[k].pop("cmp", None)
+            continue
+        def dd(a, b):
+            ks = sorted(set(a) | set(b), key=lambda x: -(a.get(x, 0)))
+            return [{"k": x, "now": a.get(x, 0), "prev": b.get(x, 0), "d": a.get(x, 0) - b.get(x, 0)} for x in ks]
+        kw_now = dict(cur.get("kw", [])[:20]); kw_prev = dict(prev.get("kw", [])[:40])
+        new_kw = [x for x in list(kw_now)[:15] if x not in kw_prev][:6]
+        up_kw = sorted([(x, kw_now[x] - kw_prev[x]) for x in kw_now if x in kw_prev and kw_now[x] - kw_prev[x] >= 2], key=lambda y: -y[1])[:5]
+        down_kw = sorted([(x, kw_prev[x] - kw_now.get(x, 0)) for x in list(kw_prev)[:12] if kw_prev[x] - kw_now.get(x, 0) >= 3], key=lambda y: -y[1])[:5]
+        # 주제 연속성: 이전 주 보고서 주제와 글자 조각 겹침
+        themes = []
+        for t in wb[k].get("themes", []):
+            sig = tsig(t)
+            streak, back, match = 1, keys[:idx][::-1], None
+            for j, pk2 in enumerate(back[:6]):
+                best = 0
+                for t2 in wb[pk2].get("themes", []):
+                    g2 = next((x for x in (wb[pk2].get("v2") or {}).get("groups", []) if x.get("g") == wb[pk2]["themes"].index(t2) + 1), {})
+                    s2 = tsig(t2)
+                    jac = len(sig & s2) / max(1, len(sig | s2))
+                    if jac > best:
+                        best, m = jac, (g2.get("title") or t2.get("cat") or t2.get("head"))
+                if best >= 0.3 and len(sig) >= 2:
+                    streak += 1
+                    if j == 0:
+                        match = m
+                else:
+                    break
+            themes.append({"streak": streak, "prev": match})
+        n, pn = cur.get("n", 0), prev.get("n", 0)
+        wb[k]["cmp"] = {"prev": pk, "prev_label": prev.get("label", pk), "n": n, "pn": pn, "d": n - pn, "pct": round((n - pn) / pn * 100) if pn else None,
+                        "regions": dd(cur.get("regions", {}), prev.get("regions", {})), "domains": dd(cur.get("domains", {}), prev.get("domains", {})),
+                        "kinds": dd(cur.get("kinds", {}), prev.get("kinds", {})), "new_kw": new_kw, "up_kw": up_kw, "down_kw": down_kw, "themes": themes}
+    save_json(DATA / "weekly_briefs.json", wb)
+
+
 def weekly_layout_v2(cache, arts, recent=4):
     """주간 보고서(뉴스레터 3분 브리핑 양식)용 문구: 상단 태그라인, 그룹 제목·부제, 기사별 헤드라인·한 줄 설명, 핵심 시사점 4개.
     기존 주제 묶음(themes)은 그대로 두고 표현만 다듬어 wk['v2']에 캐시. API 키가 없으면 화면에서 기존 필드로 대신 구성."""
@@ -821,6 +889,7 @@ def main():
         links = load_json(DATA / "archive_links.json", {})
     wb = ai_weekly_briefings(groups, periods)
     weekly_layout_v2(wb, arts)
+    week_compare(wb, periods, arts)
     weekly_archive_trends(wb, links)
     kbd = load_json(DATA / "kb" / "kb.json", None)
     if kbd:

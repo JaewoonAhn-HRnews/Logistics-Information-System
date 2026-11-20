@@ -40,7 +40,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 6,
+    "rel": 9.0
+   }
   }
  ]
 }

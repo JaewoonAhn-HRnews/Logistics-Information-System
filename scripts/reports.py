@@ -51,7 +51,7 @@ def _model(key, wk, per, by, sums):
                 "tasks": [dict(x, desc=KB.describe(kbd, x["id"]) or "") for x in f.get("tasks", [])]}
     return {"key": key, "start": per["start"], "end": per["end"], "week": key.replace("-W", "년 ") + "주차",
             "tag": v2.get("tag") or wk.get("core", ""), "core": wk.get("core", ""), "groups": groups, "imps": imps,
-            "recs": wk.get("recs", []), "flow": flow, "n": no, "total": wk.get("n") or per.get("n", 0), "at": v2.get("at") or wk.get("at", "")}
+            "recs": wk.get("recs", []), "flow": flow, "cmp": wk.get("cmp"), "n": no, "total": wk.get("n") or per.get("n", 0), "at": v2.get("at") or wk.get("at", "")}
 
 
 def _md(M, final):

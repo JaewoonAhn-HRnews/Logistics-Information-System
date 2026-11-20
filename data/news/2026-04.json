@@ -34,7 +34,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 7.0
+   }
   },
   {
    "id": "db59d9779f62",
@@ -64,7 +71,14 @@
     "lis",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "6a211476055c",
@@ -96,7 +110,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2,
+    "dh": 3,
+    "rel": 4.5
+   }
   }
  ]
 }

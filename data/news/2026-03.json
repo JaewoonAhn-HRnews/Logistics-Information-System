@@ -41,7 +41,14 @@
     "lis",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 3.5,
+    "dh": 6,
+    "rel": 10.0
+   }
   },
   {
    "id": "961b55b41825",
@@ -82,7 +89,14 @@
    ],
    "kind": "contract",
    "orig_title": "US Navy aims to use robots, AI to reduce ship maintenance",
-   "nl": 45
+   "nl": 45,
+   "conf": {
+    "src": "B",
+    "lv": "높음",
+    "r": 4.5,
+    "dh": 3,
+    "rel": 7.5
+   }
   },
   {
    "id": "85f31264a081",
@@ -119,7 +133,14 @@
    ],
    "kind": "news",
    "orig_title": "State Dept. Says AI Success Starts With Data Governance",
-   "nl": 44
+   "nl": 44,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 1.0,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "86127dde6218",
@@ -153,7 +174,14 @@
     "lis",
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 4,
+    "dh": 3,
+    "rel": 7.0
+   }
   }
  ]
 }

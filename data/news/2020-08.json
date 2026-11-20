@@ -28,7 +28,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 7.0
+   }
   }
  ]
 }

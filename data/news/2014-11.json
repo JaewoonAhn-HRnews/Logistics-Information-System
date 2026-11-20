@@ -26,7 +26,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   }
  ]
 }

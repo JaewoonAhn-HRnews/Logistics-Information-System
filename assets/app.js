@@ -142,7 +142,7 @@
     const axes = (a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name || x)}</span>`).join("");
     const also = (a.also || []).length ? `<div class="also">외 ${a.also.length}개 매체: ${a.also.slice(0, 4).map(x => esc(x.source)).join(", ")}${a.also.length > 4 ? " …" : ""}</div>` : "";
     return `<article class="card${a.pin ? " pin" : ""}${o.compact ? " compact" : ""}" data-id="${a.id}">
-      <div class="card-top">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name || a.region)}</span>` : ""}<span class="lang ${a.lang === "ko" ? "" : "en"}">${a.lang === "ko" ? "국문" : "영문"}</span><span class="src">${esc(a.source || "")}</span><span class="mono">${esc(a.date)}</span>${a.origin === "manual" ? '<span class="pill">직접 추가</span>' : ""}</div>
+      <div class="card-top">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name || a.region)}</span>` : ""}<span class="lang ${a.lang === "ko" ? "" : "en"}">${a.lang === "ko" ? "국문" : "영문"}</span><span class="src">${esc(a.source || "")}</span><span class="mono">${esc(a.date)}</span>${a.origin === "manual" ? '<span class="pill">직접 추가</span>' : ""}${confBadges(a)}</div>
       <a class="card-title" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
       ${!o.compact ? (a.ai_sum && !/[가-힣]{8,}/.test(a.summary || "") ? `<p class="card-sum">${esc(a.ai_sum)} <span class="ai-tag" title="${a.ai_basis === "제목" ? "원문 발췌가 없어 제목을 바탕으로 정리" : "원문 발췌를 바탕으로 정리"}">AI 요약${a.ai_basis === "제목" ? "·제목 기준" : ""}</span></p>` : a.summary ? `<p class="card-sum">${esc(a.summary)}</p>` : "") : ""}
       ${o.compact ? "" : `<div class="tags">${cats}${axes}</div>`}
@@ -164,10 +164,12 @@
     d.innerHTML = `<button class="ibtn x" id="dx" aria-label="닫기">✕</button>
       <div class="eyebrow">${a.lang === "ko" ? "국내" : "해외"} · ${esc(a.source)} · ${esc(a.date)}</div>
       <h2 style="font-size:20px">${esc(a.title)}</h2>
+      ${a.conf ? `<div class="cf-row">${confBadges(a, true)}</div>` : ""}
       ${SUMS[id]?.p ? `<div>${newsCard(a, 1, true)}<div class="ig-actions" style="margin-top:6px"><button class="btn ghost" type="button" id="nc-save">뉴스 카드 이미지로 저장</button></div></div>` : ""}
       ${a.ai_sum ? `<div><h3>AI 요약 <span class="ai-tag">${a.ai_basis === "제목" ? "제목 기준" : "원문 발췌 기준"}</span></h3><p class="card-sum" style="font-size:14.5px">${esc(a.ai_sum)}</p></div>` : ""}
       ${KBL[id] ? '<div id="d-kb" class="kb-box"><h3>기술·과제 연계</h3><p class="note">불러오는 중…</p></div>' : ""}
       ${archHTML(id)}
+      ${fbHTML("기사:" + id, "이 기사의 요약·연계 정보가 도움이 됐나요?")}
       ${a.summary ? `<div><h3>원문 발췌</h3><p class="card-sum" style="font-size:14px">${esc(a.summary)}</p></div>` : (a.ai_sum ? "" : '<p class="note">요약 없음(원문 발췌를 못 가져온 기사). 다음 정리 때 AI 요약이 추가됩니다.</p>')}
       <div class="tags">${a.region ? `<span class="rbadge ${a.region}">${esc(RG[a.region]?.name)}</span>` : ""}${(a.domains || []).map(d => `<span class="tag-d">${esc(DM[d]?.name)}</span>`).join("")}${(a.cats || []).map(c => `<span class="tag-c" style="background:${catColor(c)}">${esc(CAT[c]?.name)}</span>`).join("")}${(a.axes || []).map(x => `<span class="tag-a">${esc(AX[x]?.name)}</span>`).join("")}</div>
       <div class="note">키워드: ${(a.kw || []).map(esc).join(" · ") || "—"}<br>기관·기업·체계: ${(a.ents || []).map(esc).join(" · ") || "—"}<br>관련도 점수: <span class="mono">${a.score ?? "—"}</span></div>
@@ -201,7 +203,7 @@
   }
 
   // ---------- router ----------
-  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports", "kb"];
+  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports", "kb", "ux"];
   const rendered = {};
   let cur = "home";
   function route() {
@@ -217,7 +219,7 @@
     setTimeout(() => Object.values(charts).forEach(c => c && !c.isDisposed() && c.resize()), 30);
   }
   function render(v, arg) {
-    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg), kb: () => rKB(arg) }[v];
+    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg), kb: () => rKB(arg), ux: rUX }[v];
     fn && fn();
     rendered[v] = true;
   }
@@ -444,7 +446,7 @@
     });
     const imps = (v2.imps && v2.imps.length ? v2.imps : (b.recs || [])).slice(0, 4);
     return { key, start: s.start, end: s.end, week: key.replace("-W", "년 ") + "주차", tag: v2.tag || b.core || "", core: b.core || "",
-      groups, imps, recs: b.recs || [], flow: b.flow || null, n: no, total: b.n || s.n, at: v2.at || b.at || "" };
+      groups, imps, recs: b.recs || [], flow: b.flow || null, cmp: b.cmp || null, n: no, total: b.n || s.n, at: v2.at || b.at || "" };
   }
   function wrBanner(icon, col, W = 400, H = 92) {
     const m = WR_MOTIF[icon] || WR_MOTIF.gear, id = "g" + Math.random().toString(36).slice(2, 7);
@@ -471,8 +473,9 @@
       <div class="wr-head"><div class="wr-badge"><b>LOG</b><span>BRIEF</span></div>
         <div class="wr-tt"><h2>국방 군수·AI 주간 보고서 <em>${esc(M.week)}</em></h2><div class="wr-meta">${esc(period)} <i>|</i> ${M.groups.length}개 주제 · ${M.n}개 기사</div></div>
         <div class="wr-tag"><b>3분 브리핑</b><span>${esc(M.tag)}</span></div></div>
+      ${cmpHTML(M.cmp)}
       <div class="wr-grid">${M.groups.map(g => `<div class="wr-g" style="--c:${g.col.c};--l:${g.col.l}">
-        <div class="wr-gh"><span class="wr-gn">${g.i + 1}</span><h3>${esc(g.title)}</h3></div>
+        <div class="wr-gh"><span class="wr-gn">${g.i + 1}</span><h3>${esc(g.title)}</h3>${streakBadge(M.cmp, g.i)}</div>
         <div class="wr-gs">${esc(g.sub)}</div>
         <div class="wr-ban">${wrBanner(g.icon, g.col.c)}</div>
         <ol class="wr-items">${g.items.slice(0, 4).map(x => `<li>${wrLink(x, "wr-no", x.no)}<div>${wrLink(x, "wr-h", esc(x.h))}<p>${esc(x.d)}</p></div></li>`).join("")}</ol>
@@ -481,7 +484,7 @@
       </div>`).join("")}</div>
       ${M.imps.length ? `<div class="wr-imp" style="--k:${M.imps.length}"><div class="wr-imp-h">이번 주<br>핵심 시사점</div>${M.imps.map((r, i) => `<div class="wr-ic"><div><span>${i + 1}</span><b>${esc(r.t)}</b></div><p>${esc(r.d)}</p></div>`).join("")}</div>` : ""}
       <div class="wr-foot"><span>자동 수집 기사 ${M.total}건 중 ${M.n}건을 주제별 배치 · AI 정리(${esc(M.at)}) · 번호를 누르면 원문 정보</span><span>군수정보 인텔리전스 · 국방 고위관리자용 1페이지 브리핑</span></div>
-    </div><div class="ig-actions"><button class="btn" type="button" id="wb-ppt">PPT 파일로 다운로드</button><button class="btn ghost" type="button" id="wb-save">이미지로 저장(PNG)</button>${opt.extra || ""}<span class="note" id="wb-ppt-msg">1장 요약 + 주제별 상세 + 시사점, 파워포인트에서 바로 편집 가능</span></div></div>`;
+    </div><div class="ig-actions"><button class="btn" type="button" id="wb-ppt">PPT 파일로 다운로드</button><button class="btn ghost" type="button" id="wb-save">이미지로 저장(PNG)</button>${opt.extra || ""}<span class="note" id="wb-ppt-msg">1장 요약 + 전주 대비 + 주제별 상세 + 시사점, 파워포인트에서 바로 편집 가능</span></div>${fbHTML("주간보고서:" + M.key, "이번 주 보고서가 동향 파악·보고에 도움이 됐나요?")}</div>`;
   }
   function briefHTML(key, s) { const M = wrModel(key, s); return M ? wrHTML(M, { extra: `<a class="btn ghost" href="#reports/${key}">보고서 게시판</a>` }) : ""; }
   function loadScript(src) { return new Promise((ok, no) => { if (window.PptxGenJS) return ok(); const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = no; document.head.appendChild(e); }); }
@@ -520,7 +523,9 @@
       sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.01, w: CWi - 0.02, h: 0.36, fill: { color: c } });
       sl.addShape(P.ShapeType.ellipse, { x: x + 0.1, y: y + 0.05, w: 0.26, h: 0.26, fill: { color: "FFFFFF" } });
       sl.addText(String(i + 1), { x: x + 0.1, y: y + 0.05, w: 0.26, h: 0.26, fontSize: 11, bold: true, color: c, align: "center", valign: "middle", fontFace: F, margin: 0 });
-      sl.addText(g.title, { x: x + 0.44, y: y + 0.02, w: CWi - 0.5, h: 0.34, fontSize: 14, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
+      const stk = M.cmp && M.cmp.themes && M.cmp.themes[i];
+      if (stk) sl.addText(stk.streak > 1 ? `${stk.streak}주 연속` : "신규", { x: x + CWi - 1.0, y: y + 0.07, w: 0.9, h: 0.22, fontSize: 8.5, bold: true, color: c, fill: { color: "FFFFFF" }, align: "center", valign: "middle", fontFace: F, margin: 0 });
+      sl.addText(g.title, { x: x + 0.44, y: y + 0.02, w: CWi - 1.5, h: 0.34, fontSize: 14, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
       sl.addShape(P.ShapeType.rect, { x: x + 0.01, y: y + 0.37, w: CWi - 0.02, h: 0.25, fill: { color: l } });
       sl.addText(g.sub, { x: x + 0.1, y: y + 0.37, w: CWi - 0.2, h: 0.25, fontSize: 9.5, bold: true, color: c, fontFace: F, valign: "middle", margin: 0, fit: "shrink" });
       if (ban[i]) sl.addImage({ data: ban[i], x: x + 0.1, y: y + 0.66, w: CWi - 0.2, h: 0.5, sizing: { type: "cover", w: CWi - 0.2, h: 0.5 } });
@@ -548,6 +553,32 @@
     });
     sl.addText(`자동 수집 기사 ${M.total}건 중 ${M.n}건 주제별 배치 · AI 정리(${M.at})`, { x: 0.2, y: 7.3, w: 7, h: 0.16, fontSize: 7, color: "7A8799", fontFace: F, margin: 0 });
     sl.addText("군수정보 인텔리전스 · 국방 고위관리자용 1페이지 브리핑", { x: 6.2, y: 7.3, w: 6.93, h: 0.16, fontSize: 7, color: "7A8799", fontFace: F, align: "right", margin: 0 });
+    // 1-1) 전주 대비 비교
+    if (M.cmp) {
+      const c = M.cmp, sc = P.addSlide(); sc.background = { color: "FFFFFF" };
+      sc.addShape(P.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 0.78, fill: { color: NAVY } });
+      sc.addText("전주 대비 비교", { x: 0.35, y: 0.1, w: 8, h: 0.58, fontSize: 24, bold: true, color: "FFFFFF", fontFace: F, valign: "middle", margin: 0 });
+      sc.addText(`${M.week} vs ${c.prev_label || c.prev}`, { x: 7.3, y: 0.1, w: 5.75, h: 0.58, fontSize: 11, color: "FFFFFF", fontFace: F, align: "right", valign: "middle", margin: 0 });
+      const pct = c.pct == null ? "" : ` (${c.pct >= 0 ? "▲" : "▼"}${Math.abs(c.pct)}%)`;
+      sc.addText([{ text: `${c.n}건`, options: { fontSize: 40, bold: true, color: "1F4FA3" } }, { text: `   전주 ${c.pn}건${pct}`, options: { fontSize: 16, color: "44546A" } }], { x: 0.35, y: 0.95, w: 8, h: 0.75, fontFace: F, margin: 0, valign: "middle" });
+      const tb = (title, arr, nm, x) => {
+        const rows = [[title, "이번 주", "전주", "증감"].map(t => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: "1B3B70" }, fontSize: 10.5, fontFace: F, align: "center" } }))];
+        arr.filter(v => v.now || v.prev).forEach(v => rows.push([{ text: nm[v.k] || v.k, options: { fontSize: 10.5, fontFace: F, bold: true } }, { text: String(v.now), options: { fontSize: 10.5, fontFace: F, align: "center" } }, { text: String(v.prev), options: { fontSize: 10.5, fontFace: F, align: "center", color: "6B7A8C" } },
+          { text: v.d > 0 ? `▲${v.d}` : v.d < 0 ? `▼${-v.d}` : "–", options: { fontSize: 10.5, fontFace: F, align: "center", bold: true, color: v.d > 0 ? "C0453A" : v.d < 0 ? "1D4ED8" : "6B7A8C" } }]));
+        sc.addTable(rows, { x, y: 1.85, w: 4.1, colW: [1.7, 0.8, 0.8, 0.8], border: { type: "solid", color: "DCE3EC", pt: 0.6 }, valign: "middle", margin: 0.04 });
+      };
+      tb("지역", c.regions, RGN, 0.35); tb("분야", c.domains, DMN, 4.6); tb("유형", c.kinds, KDN, 8.85);
+      const kwl = [];
+      if (c.new_kw.length) kwl.push({ text: "새로 등장  ", options: { bold: true, color: "0F7A5C" } }, { text: c.new_kw.join(", "), options: { breakLine: true } });
+      if (c.up_kw.length) kwl.push({ text: "증가  ", options: { bold: true, color: "C0453A" } }, { text: c.up_kw.map(x => `${x[0]}(+${x[1]})`).join(", "), options: { breakLine: true } });
+      if (c.down_kw.length) kwl.push({ text: "감소  ", options: { bold: true, color: "1D4ED8" } }, { text: c.down_kw.map(x => `${x[0]}(−${x[1]})`).join(", "), options: { breakLine: true } });
+      sc.addText("키워드 변화", { x: 0.35, y: 4.0, w: 6, h: 0.3, fontSize: 12, bold: true, color: "16233A", fontFace: F, margin: 0 });
+      sc.addText(kwl.length ? kwl : [{ text: "큰 변화 없음" }], { x: 0.35, y: 4.35, w: 6.1, h: 1.6, fontSize: 11, color: "1F2937", fontFace: F, margin: 0, valign: "top", paraSpaceAfter: 4 });
+      sc.addText("주제 연속성", { x: 6.85, y: 4.0, w: 6, h: 0.3, fontSize: 12, bold: true, color: "16233A", fontFace: F, margin: 0 });
+      sc.addText(M.groups.map((g, i) => { const t = (c.themes || [])[i] || {}; return [{ text: `${i + 1}. ${g.title}  `, options: { bold: true, color: hx(g.col.c) } }, { text: t.streak > 1 ? `${t.streak}주 연속 (직전: ${t.prev || "-"})` : "신규 주제", options: { breakLine: true, color: t.streak > 1 ? "1F2937" : "0F7A5C" } }]; }).flat(),
+        { x: 6.85, y: 4.35, w: 6.1, h: 2.2, fontSize: 11, color: "1F2937", fontFace: F, margin: 0, valign: "top", paraSpaceAfter: 3 });
+      if (M.flow && M.flow.ov) sc.addText([{ text: "흐름 요약  ", options: { bold: true, color: "0B7A70" } }, { text: M.flow.ov }], { x: 0.35, y: 6.15, w: 12.6, h: 1.0, fontSize: 11, color: "1F2937", fontFace: F, margin: 0, valign: "top", fit: "shrink" });
+    }
     // 2) 주제별 상세 (기사 8건씩 나눠 슬라이드)
     M.groups.forEach((g, i) => {
       const c = hx(g.col.c), l = hx(g.col.l);
@@ -671,6 +702,130 @@
       ${t.im ? `<div class="wb-arch-im"><b>우리 군 시사점</b>${esc(t.im)}</div>` : ""}</div>`;
   }
   const arcState = { t: null, iss: 6 };
+
+  // ---------- 출처·분류 신뢰도 ----------
+  const TIER = { A: ["공식 기관", "정부·군·조달·감사 기관이 직접 낸 자료"], B: ["전문 매체", "국방·정부 IT 전문지, 싱크탱크, 뉴스레터"], C: ["일반 언론", "일반 언론·검색 수집 기사(사실 확인 권장)"] };
+  function confBadges(a, long) {
+    const c = a.conf; if (!c) return "";
+    const t = TIER[c.src] || TIER.C;
+    const why = `지역 판단 점수차 ${c.r} · 분야 근거 키워드 ${c.dh}개 · 관련도 ${c.rel}/10`;
+    return `<span class="cf-s cf-${c.src}" title="출처 신뢰도 ${c.src}: ${t[1]}">출처 ${c.src}·${t[0]}</span><span class="cf-c cf-${c.lv}" title="분류 신뢰도 ${c.lv}: ${why}">분류 ${c.lv}</span>${long ? `<span class="note cf-why">${esc(why)}</span>` : ""}`;
+  }
+  // ---------- 전주 대비 비교 ----------
+  const RGN = { us: "미국", eu: "유럽", kr: "한국", etc: "그 외" }, DMN = { lis: "군수통합정보체계", wpn: "무기체계", fcst: "소요예측" }, KDN = { contract: "사업·계약", policy: "정책·보고서", news: "뉴스" };
+  const arrow = d => d > 0 ? `<em class="up">▲${d}</em>` : d < 0 ? `<em class="dn">▼${-d}</em>` : `<em class="eq">–</em>`;
+  function cmpHTML(c) {
+    if (!c) return "";
+    const row = (lab, arr, nm) => `<div class="cm-r"><b>${lab}</b>${arr.filter(x => x.now || x.prev).map(x => `<span>${esc(nm[x.k] || x.k)} ${x.now}${arrow(x.d)}</span>`).join("")}</div>`;
+    return `<div class="wr-cmp"><div class="cm-h">전주 대비<small>${esc(c.prev_label || c.prev)}</small></div>
+      <div class="cm-n"><b>${c.n}</b>건 <span>(전주 ${c.pn}건 ${c.pct == null ? "" : (c.pct >= 0 ? "▲" : "▼") + Math.abs(c.pct) + "%"})</span></div>
+      <div class="cm-b">${row("지역", c.regions, RGN)}${row("분야", c.domains, DMN)}${row("유형", c.kinds, KDN)}
+        <div class="cm-r"><b>키워드</b>${c.new_kw.length ? `<span class="nw">새로 등장: ${c.new_kw.map(esc).join(", ")}</span>` : ""}${c.up_kw.length ? `<span class="up">증가: ${c.up_kw.map(x => `${esc(x[0])}(+${x[1]})`).join(", ")}</span>` : ""}${c.down_kw.length ? `<span class="dn">감소: ${c.down_kw.map(x => `${esc(x[0])}(−${x[1]})`).join(", ")}</span>` : ""}</div></div></div>`;
+  }
+  const streakBadge = (c, i) => { const t = c && c.themes && c.themes[i]; if (!t) return ""; return t.streak > 1 ? `<span class="wr-st" title="직전 주 '${esc(t.prev || "")}' 주제에서 이어짐">${t.streak}주 연속</span>` : `<span class="wr-st nw">신규</span>`; };
+
+  // ---------- 사용성 측정 및 피드백 ----------
+  const UXK = "lis-ux-v1";
+  const uxLoad = () => { try { return JSON.parse(localStorage.getItem(UXK) || "{}"); } catch (e) { return {}; } };
+  const uxSave = v => { try { localStorage.setItem(UXK, JSON.stringify(v)); } catch (e) {} };
+  const UX_TASKS = [
+    { id: "find", t: "필요한 기사 찾기", goal: 120, unit: "초", d: "‘DLA(미 국방군수국)의 AI 활용’과 관련된 최근 기사 1건을 찾아 상세 화면을 여세요.", hint: "기사 검색·지역 화면·국방기술 연계 어느 것을 써도 됩니다." },
+    { id: "trend", t: "주간 핵심 동향 파악", goal: 180, unit: "초", d: "이번 주 주간 보고서를 보고 핵심 흐름 3가지를 말할 수 있을 때까지 읽으세요.", hint: "주간 정리 → 3분 브리핑·전주 대비·주간 흐름 분석" },
+    { id: "report", t: "보고서 작성·수정", goal: null, unit: "분", d: "주간 보고서 PPT를 내려받아 상사 보고용으로 1장 요약을 고치세요. 끝나면 기존 방식으로 했을 때 걸렸을 시간도 적어 주세요.", hint: "기존 대비 50% 절감이 목표" },
+    { id: "link", t: "기술·과제 연계 확인", goal: 120, unit: "초", d: "‘예지정비(PHM, CBM+)’ 세부기술과 연결된 기사를 1건 찾으세요.", hint: "국방기술 연계 화면" },
+    { id: "src", t: "출처 신뢰도 판단", goal: 60, unit: "초", d: "아무 기사나 열어 출처 등급과 분류 신뢰도를 확인하고, 사실 확인이 더 필요한지 판단하세요.", hint: "기사 카드·상세의 ‘출처’·‘분류’ 표시" },
+  ];
+  let uxTimer = null;
+  function fbHTML(target, label) {
+    const v = uxLoad().fb?.[target];
+    return `<div class="fb" data-fb="${esc(target)}"><span>${esc(label || "이 내용이 업무에 도움이 됐나요?")}</span>
+      <button type="button" class="fb-b${v?.v === 1 ? " on" : ""}" data-v="1">👍 도움 됨</button><button type="button" class="fb-b${v?.v === -1 ? " on" : ""}" data-v="-1">👎 부족함</button>
+      <input class="fb-m" placeholder="개선 의견(선택)" value="${esc(v?.m || "")}" aria-label="개선 의견"></div>`;
+  }
+  document.addEventListener("click", e => {
+    const b = e.target.closest(".fb-b"); if (!b) return;
+    const box = b.closest(".fb"), u = uxLoad(); u.fb = u.fb || {};
+    u.fb[box.dataset.fb] = { v: +b.dataset.v, m: box.querySelector(".fb-m").value, at: new Date().toISOString().slice(0, 16) };
+    uxSave(u); box.querySelectorAll(".fb-b").forEach(x => x.classList.toggle("on", x === b));
+  });
+  document.addEventListener("change", e => {
+    const m = e.target.closest(".fb-m"); if (!m) return;
+    const box = m.closest(".fb"), u = uxLoad(); u.fb = u.fb || {}; u.fb[box.dataset.fb] = Object.assign(u.fb[box.dataset.fb] || {}, { m: m.value, at: new Date().toISOString().slice(0, 16) }); uxSave(u);
+  });
+  function uxCSV(rows) { return "﻿" + rows.map(r => r.map(x => `"${String(x ?? "").replace(/"/g, '""')}"`).join(",")).join("\n"); }
+  function uxExport() {
+    const u = uxLoad(), who = u.who || "익명", rows = [["구분", "응답자", "항목", "소요(초)", "성공", "기존 방식(분)", "만족도", "의견", "일시"]];
+    UX_TASKS.forEach(t => { const r = (u.tasks || {})[t.id]; if (r) rows.push(["과업", who, t.t, r.sec, r.ok ? "성공" : "실패", r.base ?? "", "", r.m || "", r.at]); });
+    if (u.sat) rows.push(["만족도", who, "분석 결과 만족도", "", "", "", u.sat, u.satm || "", u.satAt || ""]);
+    Object.entries(u.fb || {}).forEach(([k, v]) => rows.push(["피드백", who, k, "", "", "", v.v === 1 ? "도움 됨" : v.v === -1 ? "부족함" : "", v.m || "", v.at || ""]));
+    const b = new Blob([uxCSV(rows)], { type: "text/csv;charset=utf-8" }), a = document.createElement("a");
+    a.href = URL.createObjectURL(b); a.download = `사용성측정_${who}_${new Date().toISOString().slice(0, 10)}.csv`; a.click();
+  }
+  function parseCSV(t) {
+    const out = []; let row = [], cur = "", q = false;
+    for (let i = 0; i < t.length; i++) { const ch = t[i];
+      if (q) { if (ch === '"' && t[i + 1] === '"') { cur += '"'; i++; } else if (ch === '"') q = false; else cur += ch; }
+      else if (ch === '"') q = true; else if (ch === ",") { row.push(cur); cur = ""; } else if (ch === "\n") { row.push(cur); out.push(row); row = []; cur = ""; } else if (ch !== "\r" && ch !== "﻿") cur += ch; }
+    if (cur || row.length) { row.push(cur); out.push(row); } return out;
+  }
+  function uxAgg(rows) {
+    const T = {}, sat = [], who = new Set();
+    rows.filter(r => r[0] === "과업").forEach(r => { who.add(r[1]); (T[r[2]] = T[r[2]] || []).push({ sec: +r[3], ok: r[4] === "성공", base: r[5] === "" ? null : +r[5] }); });
+    rows.filter(r => r[0] === "만족도").forEach(r => { who.add(r[1]); sat.push(+r[6]); });
+    const med = a => { const s = a.slice().sort((x, y) => x - y); return s.length ? (s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2) : null; };
+    const res = UX_TASKS.map(t => { const a = T[t.t] || []; const secs = a.map(x => x.sec); const base = a.filter(x => x.base).map(x => x.sec / 60 / x.base);
+      return { t, n: a.length, med: med(secs), ok: a.length ? a.filter(x => x.ok).length / a.length : null, save: base.length ? 1 - med(base) : null }; });
+    const allOk = Object.values(T).flat(); const okRate = allOk.length ? allOk.filter(x => x.ok).length / allOk.length : null;
+    return { res, who: who.size, sat: sat.length ? sat.reduce((p, q) => p + q, 0) / sat.length : null, okRate };
+  }
+  function uxAggHTML(A) {
+    const mmss = s => s == null ? "-" : `${Math.floor(s / 60)}분 ${Math.round(s % 60)}초`;
+    const pass = (v, ok) => v == null ? '<span class="note">자료 없음</span>' : ok ? '<span class="ux-ok">목표 달성</span>' : '<span class="ux-no">미달</span>';
+    const rep = A.res.find(r => r.t.id === "report");
+    return `<table class="rp-tb"><thead><tr><th>측정 지표</th><th>초기 목표</th><th>측정값(중앙값)</th><th>응답</th><th>판정</th></tr></thead><tbody>
+      ${A.res.filter(r => r.t.goal).map(r => `<tr><td>${esc(r.t.t)} 시간</td><td>${r.t.goal / 60}분 이내</td><td class="mono">${mmss(r.med)}</td><td class="mono">${r.n}</td><td>${pass(r.med, r.med != null && r.med <= r.t.goal)}</td></tr>`).join("")}
+      <tr><td>보고서 작성·수정 소요 시간</td><td>기존 대비 50% 절감</td><td class="mono">${rep.save == null ? "-" : Math.round(rep.save * 100) + "% 절감"}</td><td class="mono">${rep.n}</td><td>${pass(rep.save, rep.save != null && rep.save >= 0.5)}</td></tr>
+      <tr><td>사용자 과업 성공률</td><td>90% 이상</td><td class="mono">${A.okRate == null ? "-" : Math.round(A.okRate * 100) + "%"}</td><td class="mono">${A.res.reduce((p, r) => p + r.n, 0)}</td><td>${pass(A.okRate, A.okRate >= 0.9)}</td></tr>
+      <tr><td>분석 결과 만족도</td><td>5점 만점 4점 이상</td><td class="mono">${A.sat == null ? "-" : A.sat.toFixed(1) + "점"}</td><td class="mono">${A.who}명</td><td>${pass(A.sat, A.sat >= 4)}</td></tr></tbody></table>`;
+  }
+  function rUX() {
+    const sec = $("#v-ux"), u = uxLoad(); u.tasks = u.tasks || {};
+    const A = uxAgg(uxCSVRowsLocal(u));
+    sec.innerHTML = `<div class="vhead"><div class="eyebrow">15 · Usability</div><h1>사용성 측정 및 피드백</h1>
+      <p class="lede">기능 개수보다 실제 사용 결과로 효용을 판단하기 위한 화면입니다. 대표 사용자 5~10명이 아래 5개 과업을 수행하고 결과 파일을 보내 주면, 아래 ‘결과 모으기’에서 목표 대비 달성 여부를 집계합니다. 기록은 이 브라우저에만 저장되며 서버로 전송되지 않습니다.</p></div>
+      <div class="panel"><div class="rp-tools"><label>응답자 <input id="ux-who" value="${esc(u.who || "")}" placeholder="이름 또는 번호(예: 사용자1)"></label>
+        <span><button class="btn" id="ux-exp" type="button">결과 파일 내려받기(CSV)</button> <button class="btn ghost" id="ux-reset" type="button">내 기록 지우기</button></span></div>
+      <div class="ux-tasks">${UX_TASKS.map((t, i) => { const r = u.tasks[t.id]; return `<div class="ux-t" data-t="${t.id}"><div class="ux-h"><span class="ux-n">${i + 1}</span><b>${esc(t.t)}</b><span class="note">목표 ${t.goal ? t.goal / 60 + "분 이내" : "기존 대비 50% 절감"}</span></div>
+        <p>${esc(t.d)}</p><p class="note">${esc(t.hint)}</p>
+        <div class="ux-a"><button class="btn sm" data-ux="start" type="button">시작</button><span class="mono ux-clock">${r ? Math.round(r.sec) + "초" : "0초"}</span>
+          <button class="btn ghost sm" data-ux="ok" type="button">완료(성공)</button><button class="btn ghost sm" data-ux="fail" type="button">포기·실패</button>
+          ${t.id === "report" ? `<label class="note">기존 방식 <input class="ux-base" type="number" min="1" step="1" value="${r?.base ?? ""}" style="width:64px">분</label>` : ""}
+          ${r ? `<span class="${r.ok ? "ux-ok" : "ux-no"}">${r.ok ? "성공" : "실패"} · ${Math.round(r.sec)}초</span>` : ""}</div></div>`; }).join("")}</div>
+      <div class="ux-sat"><b>분석 결과 만족도</b> ${[1, 2, 3, 4, 5].map(n => `<button type="button" class="chip ${u.sat === n ? "on" : ""}" data-sat="${n}">${n}점</button>`).join("")}
+        <input id="ux-satm" placeholder="좋았던 점·불편한 점(선택)" value="${esc(u.satm || "")}"></div></div>
+      <div class="panel"><div class="sec-head"><h2>목표 대비 결과</h2><span class="note">내 기록 기준 · 여러 명은 아래에서 결과 파일을 모아 집계</span></div><div id="ux-agg">${uxAggHTML(A)}</div>
+        <div class="rp-tools" style="margin-top:12px"><label class="btn ghost">결과 모으기(여러 CSV 선택)<input id="ux-files" type="file" accept=".csv" multiple hidden></label><span class="note" id="ux-fn"></span></div>
+        <p class="note">이는 현재 성과가 아니라 사용자 테스트로 검증할 초기 목표치입니다. 각 화면의 ‘도움이 됐나요?’ 응답도 결과 파일에 함께 담깁니다.</p></div>`;
+    const save = () => uxSave(u);
+    $("#ux-who").onchange = e => { u.who = e.target.value.trim(); save(); };
+    $("#ux-exp").onclick = uxExport;
+    $("#ux-reset").onclick = () => { if (confirm("이 브라우저의 측정 기록을 지울까요?")) { uxSave({}); rUX(); } };
+    sec.querySelectorAll("[data-sat]").forEach(b => b.onclick = () => { u.sat = +b.dataset.sat; u.satAt = new Date().toISOString().slice(0, 16); save(); rUX(); });
+    $("#ux-satm").onchange = e => { u.satm = e.target.value; save(); };
+    sec.querySelectorAll(".ux-t").forEach(box => {
+      const id = box.dataset.t, clock = box.querySelector(".ux-clock");
+      box.querySelector('[data-ux="start"]').onclick = () => { clearInterval(uxTimer); const t0 = Date.now(); box.dataset.t0 = t0; uxTimer = setInterval(() => clock.textContent = Math.round((Date.now() - t0) / 1000) + "초", 500); };
+      const end = ok => { if (!box.dataset.t0) return; clearInterval(uxTimer); const base = box.querySelector(".ux-base"); u.tasks[id] = { sec: (Date.now() - +box.dataset.t0) / 1000, ok, base: base && base.value ? +base.value : null, at: new Date().toISOString().slice(0, 16) }; save(); rUX(); };
+      box.querySelector('[data-ux="ok"]').onclick = () => end(true); box.querySelector('[data-ux="fail"]').onclick = () => end(false);
+      const bs = box.querySelector(".ux-base"); if (bs) bs.onchange = () => { if (u.tasks[id]) { u.tasks[id].base = +bs.value || null; save(); rUX(); } };
+    });
+    $("#ux-files").onchange = async e => { const rows = []; for (const f of e.target.files) rows.push(...parseCSV(await f.text()).slice(1)); $("#ux-agg").innerHTML = uxAggHTML(uxAgg(rows)); $("#ux-fn").textContent = `${e.target.files.length}개 파일 집계`; };
+  }
+  function uxCSVRowsLocal(u) {
+    const who = u.who || "나", rows = [];
+    UX_TASKS.forEach(t => { const r = (u.tasks || {})[t.id]; if (r) rows.push(["과업", who, t.t, r.sec, r.ok ? "성공" : "실패", r.base ?? ""]); });
+    if (u.sat) rows.push(["만족도", who, "", "", "", "", u.sat]); return rows;
+  }
 
   // ---------- 국방기술 지식베이스 연계(국방기술기획서·전력지원체계 소요기획서) ----------
   let KBD = null, KBMAP = null;

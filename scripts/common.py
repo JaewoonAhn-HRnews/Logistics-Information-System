@@ -211,3 +211,43 @@ def to_date(s):
 
 def now_kst():
     return datetime.now(KST)
+
+
+# ---------- 출처·분류 신뢰도 ----------
+_OFFICIAL = re.compile(r"\.mil\b|\.gov\b|Army\.mil|DLA|GAO|CRS|Congress|Department of|Dept Of|SAM\.gov|D2B|국방전자조달|국방부|방위사업청|국방일보|정책브리핑|합참|육군|해군|공군|해병대|국방기술진흥연구소|국방과학연구소|KIDA|한국국방연구원|NATO|NSPA|European Defence Agency|Ministry of Defence|MoD\b", re.I)
+_SPECIAL = re.compile(r"Defense News|Breaking Defense|DefenseScoop|Defense One|Janes|Federal News Network|Military\.com|Military Times|Army Times|Air & Space Forces|National Defense|GovCon|Nextgov|MeriTalk|C4ISRNET|Naval News|UK Defence Journal|Defence Industry Europe|Defense Post|defenceWeb|Army Technology|Shephard|Aviation Week|Flight ?Global|CSIS|RAND|SCSP|Next Gen Defense|뉴스레터|디펜스|국방신문|국방저널|밀리터리|전자신문|아시아투데이 국방|뉴스투데이 국방", re.I)
+SRC_TYPE_TIER = {"정부·군": "A", "조달·계약": "A", "감사·연구": "A", "전문지": "B", "싱크탱크": "B", "뉴스레터": "B", "언론": "C"}
+TIER_NAME = {"A": "공식 기관", "B": "전문 매체", "C": "일반 언론"}
+
+
+def source_tier(a, src_types):
+    t = src_types.get(a.get("src") or "")
+    if t in SRC_TYPE_TIER and a.get("src") not in ("gnews",):
+        return SRC_TYPE_TIER[t]
+    s = a.get("source", "")
+    if _OFFICIAL.search(s):
+        return "A"
+    if _SPECIAL.search(s):
+        return "B"
+    return "C"
+
+
+def class_confidence(a, text):
+    """분류 신뢰도: 지역 점수차·분야 근거 키워드 수·관련도 점수로 높음/중간/낮음."""
+    _, sc = classify_region(text, a.get("lang", "ko"), a.get("hint"))
+    vals = sorted(sc.values(), reverse=True)
+    margin = round(vals[0] - (vals[1] if len(vals) > 1 else 0), 1)
+    dh = 0
+    for d in T.DOMAINS:
+        if a.get("domains") and d["id"] == a["domains"][0]:
+            dh = len(any_has(text, d["kw"]))
+    rel = a.get("score", 0)
+    if a.get("origin") == "api":
+        margin = max(margin, 5)  # 조달 API는 기관·국가가 구조화된 값
+    lv_r = 2 if margin >= 3 else 1 if margin >= 1.5 else 0
+    lv_d = 2 if dh >= 2 else 1 if dh == 1 else 0
+    lv_s = 2 if rel >= 6 else 1 if rel >= 4 else 0
+    lv = min(lv_r, lv_d, lv_s) if lv_d else 0
+    if lv == 0 and lv_r + lv_d + lv_s >= 4:
+        lv = 1
+    return {"lv": ["낮음", "중간", "높음"][lv], "r": margin, "dh": dh, "rel": rel}

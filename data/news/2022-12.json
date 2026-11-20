@@ -38,7 +38,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 6,
+    "rel": 10.0
+   }
   }
  ]
 }

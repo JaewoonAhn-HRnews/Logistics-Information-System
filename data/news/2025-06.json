@@ -39,7 +39,14 @@
    ],
    "kind": "news",
    "orig_title": "Amplifying AI Readiness in the DoD Workforce",
-   "nl": 7
+   "nl": 7,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 1.0,
+    "dh": 2,
+    "rel": 8.5
+   }
   },
   {
    "id": "ec7d208691d0",
@@ -79,7 +86,14 @@
    ],
    "kind": "news",
    "orig_title": "Army Recruits Major AI Tech Execs Into Innovation Corps",
-   "nl": 5
+   "nl": 5,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 1.0,
+    "dh": 1,
+    "rel": 8.0
+   }
   }
  ]
 }

@@ -32,7 +32,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "00b517f7a48a",
@@ -63,7 +70,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "8372da865fec",
@@ -94,7 +108,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "60dcf131b4cd",
@@ -125,7 +146,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "6a650c55bf37",
@@ -156,7 +184,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "62e1e6018166",
@@ -184,7 +219,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "c02a4704bd3c",
@@ -216,7 +258,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "33e175c88db4",
@@ -248,7 +297,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "61b41d473781",
@@ -284,7 +340,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.5,
+    "dh": 1,
+    "rel": 7.5
+   }
   },
   {
    "id": "9c54f9b073cc",
@@ -313,7 +376,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "23f536b956fb",
@@ -346,7 +416,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "d81118659237",
@@ -378,7 +455,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 2.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "0c1ae8649ed9",
@@ -406,7 +490,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "4b5400b299bf",
@@ -429,7 +520,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "e4c7b15e01ff",
@@ -457,7 +555,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 5.0
+   }
   },
   {
    "id": "787451dca18e",
@@ -484,7 +589,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "d463188bc9f5",
@@ -511,7 +623,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 2.5
+   }
   },
   {
    "id": "20dac8d5f862",
@@ -538,7 +657,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "d73a7c7cd200",
@@ -568,7 +694,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "a6051064f564",
@@ -602,7 +735,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 5.0
+   }
   },
   {
    "id": "a59a6495d4ff",
@@ -629,7 +769,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "1c30517eb763",
@@ -660,7 +807,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "6bd68849bf56",
@@ -688,7 +842,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "aaf179625366",
@@ -720,7 +881,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "9272eb0e285b",
@@ -749,7 +917,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "d9d764fed5d2",
@@ -777,7 +952,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "2edb10d88163",
@@ -810,7 +992,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 3,
+    "rel": 4.0
+   }
   },
   {
    "id": "58f37344a078",
@@ -842,7 +1031,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "a4887a2db484",
@@ -873,7 +1069,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "562d083bed10",
@@ -905,7 +1108,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "fa002f878bff",
@@ -934,7 +1144,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 5.0
+   }
   },
   {
    "id": "ca4a2cd36e52",
@@ -966,7 +1183,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4,
+    "dh": 3,
+    "rel": 4.5
+   }
   },
   {
    "id": "aecde6a5b347",
@@ -1000,7 +1224,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 2,
+    "rel": 3.0
+   }
   },
   {
    "id": "3032bd9852ae",
@@ -1032,7 +1263,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "0b340ee1bcc3",
@@ -1061,7 +1299,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "1bae7334281e",
@@ -1084,7 +1329,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "388d91b85812",
@@ -1111,7 +1363,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "2a6ebca3d597",
@@ -1141,7 +1400,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "30b49d8c39f1",
@@ -1172,7 +1438,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "599d037127ab",
@@ -1204,7 +1477,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "baee19d7ebbf",
@@ -1235,7 +1515,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "d5a4ad1bc837",
@@ -1265,7 +1552,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "7f9da76657da",
@@ -1295,7 +1589,14 @@
     "lis",
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "a0e7703968df",
@@ -1325,7 +1626,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "7e232d3c13aa",
@@ -1358,7 +1666,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 3,
+    "rel": 3.0
+   }
   },
   {
    "id": "1912a554e821",
@@ -1407,7 +1722,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 4.0
+   }
   },
   {
    "id": "d974c72aad5f",
@@ -1436,7 +1758,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "72a832fd5b61",
@@ -1467,7 +1796,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "e3c8c0412cf4",
@@ -1497,7 +1833,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "bc619070179e",
@@ -1526,7 +1869,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 4,
+    "rel": 5.0
+   }
   },
   {
    "id": "892a53783076",
@@ -1549,7 +1899,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "4b5bac58a07d",
@@ -1576,7 +1933,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "8a36858fe235",
@@ -1603,7 +1967,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.5,
+    "dh": 0,
+    "rel": 3.5
+   }
   },
   {
    "id": "dd8089a13cab",
@@ -1635,7 +2006,14 @@
     "lis",
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "b9945f9de2af",
@@ -1662,7 +2040,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "2656819101ec",
@@ -1691,7 +2076,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "924c239f7edd",
@@ -1720,7 +2112,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "b27f6426a875",
@@ -1751,7 +2150,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "b5c40b23338e",
@@ -1783,7 +2189,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "f6b87221a626",
@@ -1815,7 +2228,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "4b402c90e9f3",
@@ -1848,7 +2268,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "7ee7fefafa1a",
@@ -1879,7 +2306,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "7933f6b5e70d",
@@ -1908,7 +2342,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "512734f18d77",
@@ -1942,7 +2383,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "15e3fdb3b41c",
@@ -1975,7 +2423,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "29f818766033",
@@ -2009,7 +2464,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "964f5fffd972",
@@ -2042,7 +2504,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "4a8c79a3e9cb",
@@ -2073,7 +2542,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 1.5
+   }
   },
   {
    "id": "3b2472befe9b",
@@ -2104,7 +2580,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "f92c54335a8a",
@@ -2133,7 +2616,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "579760a0c62b",
@@ -2160,7 +2650,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "42c8fa3c3abc",
@@ -2189,7 +2686,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "be454b1bdb84",
@@ -2216,7 +2720,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "04eb487c9f76",
@@ -2245,7 +2756,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "afce65b71757",
@@ -2271,7 +2789,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "dcaac84955aa",
@@ -2302,7 +2827,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 2.0
+   }
   },
   {
    "id": "a7035c0c3dd6",
@@ -2331,7 +2863,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 2.5
+   }
   },
   {
    "id": "fd3bb8c63f82",
@@ -2365,7 +2904,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "7529b2f20d31",
@@ -2399,7 +2945,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "80e0eaff88e9",
@@ -2430,7 +2983,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "33d5218660f0",
@@ -2459,7 +3019,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "6235907fdd0a",
@@ -2488,7 +3055,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "134aef7fb3dd",
@@ -2518,7 +3092,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 3,
+    "rel": 4.0
+   }
   },
   {
    "id": "b5326f102489",
@@ -2552,7 +3133,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "c6c7895d8a5f",
@@ -2585,7 +3173,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "4e44d01531e5",
@@ -2614,7 +3209,14 @@
    ],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 4.0
+   }
   },
   {
    "id": "18b4b51d6f7d",
@@ -2646,7 +3248,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "6a6e262aacf2",
@@ -2678,7 +3287,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "a9c83ed2a2c1",
@@ -2712,7 +3328,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "5fb3da809da7",
@@ -2740,7 +3363,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "e2c4e8b15327",
@@ -2771,7 +3401,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "4c50e125fa41",
@@ -2800,7 +3437,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "ddaf624437da",
@@ -2830,7 +3474,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "fc76861e53f7",
@@ -2860,7 +3511,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "091258f607df",
@@ -2890,7 +3548,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "2a06ae1cbb19",
@@ -2924,7 +3589,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "2fe5265811c7",
@@ -2951,7 +3623,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "df7d540ecdf4",
@@ -2976,7 +3655,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.0
+   }
   },
   {
    "id": "09b61e3cc4b1",
@@ -3005,7 +3691,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "df1ad01ab722",
@@ -3030,7 +3723,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 2.5
+   }
   },
   {
    "id": "446c0d619f88",
@@ -3062,7 +3762,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "a9df67eaac99",
@@ -3094,7 +3801,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "6e5ac931d783",
@@ -3126,7 +3840,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "fd5c9148211b",
@@ -3156,7 +3877,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "2434cd720b61",
@@ -3187,7 +3915,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "8c84124c1f62",
@@ -3218,7 +3953,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "91e60d25cda1",
@@ -3249,7 +3991,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "5c0d75b7dbf5",
@@ -3282,7 +4031,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "83b3c5324d64",
@@ -3315,7 +4071,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "ec533ee2e980",
@@ -3346,7 +4109,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "894d48894816",
@@ -3379,7 +4149,14 @@
     "lis",
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "2b60e38644ec",
@@ -3413,7 +4190,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "8959fa23d2f5",
@@ -3442,7 +4226,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "9c7016deef97",
@@ -3477,7 +4268,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "3a05f6e17247",
@@ -3502,7 +4300,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.0
+   }
   },
   {
    "id": "7de5b226689a",
@@ -3534,7 +4339,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "5ecd88689637",
@@ -3567,7 +4379,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "5d3a0503ce9e",
@@ -3592,7 +4411,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "1841045c421c",
@@ -3619,7 +4445,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "5b369f36af88",
@@ -3642,7 +4475,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "c94c6496d857",
@@ -3673,7 +4513,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "fd38540e0899",
@@ -3700,7 +4547,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "753d2874a87d",
@@ -3736,7 +4590,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 5.0
+   }
   },
   {
    "id": "1564a83e5e2c",
@@ -3774,7 +4635,14 @@
     "fcst"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 2,
+    "rel": 5.0
+   }
   },
   {
    "id": "51f89a4cc48d",
@@ -3807,7 +4675,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "db54a4b2580f",
@@ -3846,7 +4721,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 4,
+    "rel": 9.0
+   }
   },
   {
    "id": "e61499b71b1a",
@@ -3875,7 +4757,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "db18509e3c3a",
@@ -3907,7 +4796,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "3468cb4d6c61",
@@ -3935,7 +4831,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "d205b8670cd6",
@@ -3977,7 +4880,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 5.5
+   }
   },
   {
    "id": "06d2320ac3d8",
@@ -4007,7 +4917,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "c69fdeb836f2",
@@ -4038,7 +4955,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "80f318f89cd4",
@@ -4083,7 +5007,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 9.5,
+    "dh": 2,
+    "rel": 5.0
+   }
   },
   {
    "id": "b83364ba2241",
@@ -4118,7 +5049,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 4,
+    "rel": 4.0
+   }
   },
   {
    "id": "ecfd749330cd",
@@ -4155,7 +5093,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "높음",
+    "r": 7.5,
+    "dh": 4,
+    "rel": 6.5
+   }
   },
   {
    "id": "865e027f0158",
@@ -4188,7 +5133,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "171be799f94e",
@@ -4219,7 +5171,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "54ac61af6de0",
@@ -4250,7 +5209,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "cd834c97cc94",
@@ -4278,7 +5244,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 10.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "a6abcf6214db",
@@ -4306,7 +5279,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "45f796221d10",
@@ -4341,7 +5321,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "bd2b8c6a5d3f",
@@ -4376,7 +5363,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 6.0
+   }
   },
   {
    "id": "e878123a23fa",
@@ -4411,7 +5405,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "b3c22faef87e",
@@ -4444,7 +5445,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "6940aadc5c3d",
@@ -4477,7 +5485,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "036d306cdd09",
@@ -4506,7 +5521,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "27ee1281a5ca",
@@ -4535,7 +5557,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "24d27e4200b5",
@@ -4562,7 +5591,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "67e84f2724cd",
@@ -4585,7 +5621,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "d28b5f7a1931",
@@ -4614,7 +5657,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "42eea65d12fa",
@@ -4643,7 +5693,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 3.0
+   }
   },
   {
    "id": "41d1523f4cfd",
@@ -4668,7 +5725,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.0
+   }
   },
   {
    "id": "91440a71d318",
@@ -4695,7 +5759,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "b12a97da4291",
@@ -4727,7 +5798,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "e2e9ad8972d8",
@@ -4754,7 +5832,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 2.5
+   }
   },
   {
    "id": "16cc8e30148f",
@@ -4782,7 +5867,14 @@
     "wpn",
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "191c71333d3b",
@@ -4814,7 +5906,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "58c2d2e64e94",
@@ -4848,7 +5947,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 6.5
+   }
   },
   {
    "id": "1752b0e1e2f5",
@@ -4873,7 +5979,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.0
+   }
   },
   {
    "id": "21b93e2d6d39",
@@ -4900,7 +6013,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 2.0
+   }
   },
   {
    "id": "28599fa6111d",
@@ -4938,7 +6058,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "d3a1239d68b5",
@@ -4969,7 +6096,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 9.5,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "ee6491268e64",
@@ -5003,7 +6137,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "4bf17f297044",
@@ -5035,7 +6176,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "1619c4326d6b",
@@ -5079,7 +6227,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 10.0,
+    "dh": 4,
+    "rel": 4.0
+   }
   },
   {
    "id": "2d4361af3e26",
@@ -5146,7 +6301,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 3,
+    "rel": 3.5
+   }
   },
   {
    "id": "13de12f92ce7",
@@ -5183,7 +6345,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "101e510e53e3",
@@ -5216,7 +6385,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "aed3f36ef3c4",
@@ -5285,7 +6461,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 4,
+    "rel": 3.0
+   }
   },
   {
    "id": "572d18e858be",
@@ -5329,7 +6512,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 10.0,
+    "dh": 5,
+    "rel": 4.0
+   }
   },
   {
    "id": "9a2d1a8d05ac",
@@ -5362,7 +6552,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0,
+    "dh": 3,
+    "rel": 4.5
+   }
   },
   {
    "id": "f6547985cb48",
@@ -5396,7 +6593,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "ad6956a2b21f",
@@ -5432,7 +6636,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "cdda150e19bd",
@@ -5471,7 +6682,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "3e2153545fab",
@@ -5508,7 +6726,14 @@
     "fcst"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 3.5,
+    "dh": 4,
+    "rel": 6.5
+   }
   },
   {
    "id": "50239f5b1062",
@@ -5539,7 +6764,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "02cfce407cee",
@@ -5572,7 +6804,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "a8a77ac778e2",
@@ -5599,7 +6838,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "a7d7739752a3",
@@ -5628,7 +6874,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "be65ce6e0a58",
@@ -5651,7 +6904,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "77096bc414fd",
@@ -5679,7 +6939,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "10c00bce4a9a",
@@ -5709,7 +6976,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 3.5
+   }
   },
   {
    "id": "dabe4c438473",
@@ -5738,7 +7012,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "b83dc87fcaeb",
@@ -5765,7 +7046,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "aef683962a17",
@@ -5790,7 +7078,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 2.5
+   }
   },
   {
    "id": "96db21f11e10",
@@ -5822,7 +7117,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "80b8be27f456",
@@ -5849,7 +7151,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "cdbab1d14281",
@@ -5878,7 +7187,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "b23d1ac8e18d",
@@ -5912,7 +7228,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "2fed98249eed",
@@ -5945,7 +7268,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "8301a6a7d482",
@@ -5971,7 +7301,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 0.0
+   }
   },
   {
    "id": "bfce007e4734",
@@ -6002,7 +7339,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "cd7e6a7c011f",
@@ -6031,7 +7375,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 10.5,
+    "dh": 3,
+    "rel": 4.0
+   }
   },
   {
    "id": "7f8161057105",
@@ -6065,7 +7416,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "c12f67b506dd",
@@ -6097,7 +7455,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 3,
+    "rel": 4.5
+   }
   },
   {
    "id": "e6b42169271b",
@@ -6131,7 +7496,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "02f8d1834dcc",
@@ -6165,7 +7537,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "c137106b3196",
@@ -6197,7 +7576,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "3a5d6d2bd2f2",
@@ -6228,7 +7614,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "ca4485e992e0",
@@ -6266,7 +7659,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 4,
+    "dh": 5,
+    "rel": 6.5
+   }
   },
   {
    "id": "4473a47c0554",
@@ -6289,7 +7689,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "011bddb734cc",
@@ -6316,7 +7723,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "8550115ad86c",
@@ -6349,7 +7763,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "97a3be0f7064",
@@ -6378,7 +7799,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 3,
+    "rel": 1.5
+   }
   },
   {
    "id": "88551c301963",
@@ -6409,7 +7837,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 2,
+    "rel": 2.5
+   }
   },
   {
    "id": "773d63f79723",
@@ -6437,7 +7872,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 3.0
+   }
   },
   {
    "id": "0c9e99e10b64",
@@ -6475,7 +7917,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 6.5
+   }
   },
   {
    "id": "b0b1f5179657",
@@ -6510,7 +7959,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 6.0
+   }
   },
   {
    "id": "ca58e5ec5437",
@@ -6539,7 +7995,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "8aa2731e7d95",
@@ -6569,7 +8032,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 10.0,
+    "dh": 1,
+    "rel": 2.0
+   }
   },
   {
    "id": "422bdf282ba9",
@@ -6598,7 +8068,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "3179cae2da95",
@@ -6629,7 +8106,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "e2794c47f7c0",
@@ -6658,7 +8142,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 4,
+    "rel": 5.0
+   }
   },
   {
    "id": "bc156511b211",
@@ -6685,7 +8176,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "9c1996b66370",
@@ -6714,7 +8212,14 @@
    ],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 4.0
+   }
   },
   {
    "id": "1516f167e912",
@@ -6739,7 +8244,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 7.5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "e1dd057bc0dd",
@@ -6768,7 +8280,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "32477509583a",
@@ -6797,7 +8316,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "271356cbe5dd",
@@ -6825,7 +8351,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 7.5,
+    "dh": 0,
+    "rel": 4.5
+   }
   },
   {
    "id": "dbec6c0660f5",
@@ -6857,7 +8390,14 @@
     "fcst"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "974f38b867fd",
@@ -6887,7 +8427,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 7.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "51e76486d0bd",
@@ -6918,7 +8465,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "3176ec4958b9",
@@ -6950,7 +8504,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 6.5
+   }
   },
   {
    "id": "a15155b02422",
@@ -6981,7 +8542,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 2.0
+   }
   },
   {
    "id": "cf4ca6398869",
@@ -7019,7 +8587,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "2d1e36c0edea",
@@ -7045,7 +8620,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 0.0
+   }
   },
   {
    "id": "fcf1e671717f",
@@ -7074,7 +8656,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "0bd76ea5c821",
@@ -7107,7 +8696,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "높음",
+    "r": 6.5,
+    "dh": 2,
+    "rel": 7.0
+   }
   },
   {
    "id": "cde16b7cb7d6",
@@ -7134,7 +8730,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "fff15f178f1a",
@@ -7167,7 +8770,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "062cbb81eae3",
@@ -7196,7 +8806,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 3.0
+   }
   },
   {
    "id": "8a5e62717ee6",
@@ -7223,7 +8840,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "554abbc263a9",
@@ -7246,7 +8870,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "0be3285e1288",
@@ -7273,7 +8904,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "e0d419288a6e",
@@ -7305,7 +8943,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "92d89908ebb3",
@@ -7334,7 +8979,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "2aa501836175",
@@ -7364,7 +9016,14 @@
    ],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 5.5
+   }
   },
   {
    "id": "ee10c93f41c9",
@@ -7393,7 +9052,14 @@
    ],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 4.0
+   }
   },
   {
    "id": "d2185fdebd27",
@@ -7421,7 +9087,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "44f42dcf9605",
@@ -7452,7 +9125,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "9065758397fe",
@@ -7486,7 +9166,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "c3455b9834f5",
@@ -7518,7 +9205,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "565ba42c26ab",
@@ -7550,7 +9244,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "0c2334c17b29",
@@ -7583,7 +9284,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 5,
+    "rel": 4.0
+   }
   },
   {
    "id": "23975ce07db4",
@@ -7615,7 +9323,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 3,
+    "rel": 3.0
+   }
   },
   {
    "id": "77a598deee98",
@@ -7650,7 +9365,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "e9d4e64c39e3",
@@ -7681,7 +9403,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "2d626691b042",
@@ -7719,7 +9448,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "0992578c480f",
@@ -7751,7 +9487,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "54c24e4c76cd",
@@ -7784,7 +9527,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "b4f31cf42647",
@@ -7819,7 +9569,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 4,
+    "rel": 4.5
+   }
   },
   {
    "id": "2462bc62b857",
@@ -7863,7 +9620,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 6.5
+   }
   },
   {
    "id": "330ce20b31f8",
@@ -7895,7 +9659,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 3,
+    "rel": 5.0
+   }
   },
   {
    "id": "03523acdfe54",
@@ -7947,7 +9718,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "bc071092c4dc",
@@ -7983,7 +9761,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 3.5,
+    "dh": 3,
+    "rel": 6.5
+   }
   },
   {
    "id": "0eb4a0b5908c",
@@ -8042,7 +9827,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 7.0
+   }
   },
   {
    "id": "0b5d3faf1174",
@@ -8074,7 +9866,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "ca20021c439f",
@@ -8134,7 +9933,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "7ae483499682",
@@ -8172,7 +9978,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 3,
+    "rel": 7.0
+   }
   },
   {
    "id": "d96fc39da029",
@@ -8204,7 +10017,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "e42e55affd9e",
@@ -8244,7 +10064,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "6d1b72be7a2d",
@@ -8273,7 +10100,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "950131147b0e",
@@ -8312,7 +10146,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 3,
+    "rel": 5.5
+   }
   },
   {
    "id": "9f7ee5000cdd",
@@ -8350,7 +10191,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "308878065ba1",
@@ -8379,7 +10227,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "021732618be8",
@@ -8404,7 +10259,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "8e8d659fe0c4",
@@ -8432,7 +10294,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "f62249f5668b",
@@ -8460,7 +10329,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 7.5,
+    "dh": 0,
+    "rel": 3.5
+   }
   },
   {
    "id": "cee1b8d418b9",
@@ -8487,7 +10363,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "3780d784736f",
@@ -8516,7 +10399,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 3.0
+   }
   },
   {
    "id": "2e1e541a526f",
@@ -8548,7 +10438,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "abb87c86b273",
@@ -8580,7 +10477,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "616f8c59158e",
@@ -8615,7 +10519,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "c64c8abb77f8",
@@ -8646,7 +10557,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "d054527b3e9d",
@@ -8677,7 +10595,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "5916a678d2f6",
@@ -8706,7 +10631,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "8e3fa53f45de",
@@ -8743,7 +10675,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 7.0
+   }
   },
   {
    "id": "2cbce247c61d",
@@ -8774,7 +10713,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "291433d83f24",
@@ -8807,7 +10753,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "1237cf4f5239",
@@ -8841,7 +10794,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "208a35091cc2",
@@ -8874,7 +10834,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "a4bbd32272ce",
@@ -8906,7 +10873,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "8bdf82d81e57",
@@ -8941,7 +10915,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "e4cd9907fd86",
@@ -8975,7 +10956,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "d87600f57b8c",
@@ -9007,7 +10995,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "763b998497b9",
@@ -9040,7 +11035,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "5536276f40f3",
@@ -9069,7 +11071,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "2443950effd5",
@@ -9104,7 +11113,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 6.0
+   }
   },
   {
    "id": "296f4e51cf66",
@@ -9133,7 +11149,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "5337c021907f",
@@ -9175,7 +11198,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "46a18e702491",
@@ -9204,7 +11234,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.5
+   }
   },
   {
    "id": "a40cd8a9c75e",
@@ -9237,7 +11274,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "f514cdaab1f4",
@@ -9264,7 +11308,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "e7d63e925d0c",
@@ -9291,7 +11342,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "1f67b6a93a28",
@@ -9314,7 +11372,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 0.0
+   }
   },
   {
    "id": "1046e087e2cf",
@@ -9341,7 +11406,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "b42ee3a6fea9",
@@ -9373,7 +11445,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "9401ec3122fb",
@@ -9400,7 +11479,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "5a6657de9fc3",
@@ -9427,7 +11513,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "8edfbd64769a",
@@ -9454,7 +11547,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "8c8a8f7e0eed",
@@ -9481,7 +11581,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "6099d9c8c506",
@@ -9510,7 +11617,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "f36120502e86",
@@ -9550,7 +11664,14 @@
    ],
    "kind": "news",
    "orig_title": "Pentagon is beginning to follow Ukraine into wider use of ground robots",
-   "nl": 78
+   "nl": 78,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 1.0,
+    "dh": 1,
+    "rel": 8.0
+   }
   },
   {
    "id": "e98801de09c7",
@@ -9584,7 +11705,14 @@
     "wpn",
     "lis"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 4,
+    "rel": 6.0
+   }
   },
   {
    "id": "92bc7c969c3c",
@@ -9616,7 +11744,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "40940d7bfead",
@@ -9647,7 +11782,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "19969a2d6f75",
@@ -9678,7 +11820,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "bff76fd3d36b",
@@ -9709,7 +11858,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "ecbf7c7d5f6c",
@@ -9744,7 +11900,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "a85a4888039f",
@@ -9774,7 +11937,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "daa089834166",
@@ -9807,7 +11977,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2,
+    "dh": 1,
+    "rel": 6.5
+   }
   },
   {
    "id": "f6ed03403226",
@@ -9841,7 +12018,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "d98c21c26ab7",
@@ -9876,7 +12060,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 6.5
+   }
   },
   {
    "id": "8f959f40deeb",
@@ -9910,7 +12101,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "03392aaa1adc",
@@ -9943,7 +12141,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "a541f313b654",
@@ -9987,7 +12192,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "104767c1aba7",
@@ -10102,7 +12314,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 8.5
+   }
   },
   {
    "id": "d4f600dd49cf",
@@ -10332,7 +12551,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "1f51e29d5f12",
@@ -10364,7 +12590,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "371a8ac79ea2",
@@ -10397,7 +12630,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "37a5a01fe143",
@@ -10420,7 +12660,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "95dfca4e213d",
@@ -10447,7 +12694,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "3b8535420e46",
@@ -10476,7 +12730,14 @@
    ],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 4.0
+   }
   },
   {
    "id": "8f580c6f3628",
@@ -10505,7 +12766,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "1098e543e70b",
@@ -10534,7 +12802,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "da541ab2c8f8",
@@ -10561,7 +12836,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 3.5
+   }
   },
   {
    "id": "7227b854d0c3",
@@ -10588,7 +12870,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "4a480f825ba4",
@@ -10611,7 +12900,14 @@
    "axes": [],
    "region": "us",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 1.0
+   }
   },
   {
    "id": "11f77710799f",
@@ -10640,7 +12936,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "52d14183ccb8",
@@ -10676,7 +12979,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 11.5,
+    "dh": 1,
+    "rel": 7.5
+   }
   },
   {
    "id": "6a72db96100d",
@@ -10706,7 +13016,14 @@
     "wpn",
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 3.0
+   }
   },
   {
    "id": "685b41d287ef",
@@ -10738,7 +13055,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "7f86ebd03050",
@@ -10776,7 +13100,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "b07635a9cf13",
@@ -10807,7 +13138,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "e336df9592c8",
@@ -10836,7 +13174,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.0,
+    "dh": 0,
+    "rel": 3.5
+   }
   },
   {
    "id": "b799680efde6",
@@ -10865,7 +13210,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.5
+   }
   },
   {
    "id": "250614599fea",
@@ -10898,7 +13250,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "d4e1ec067c97",
@@ -10927,7 +13286,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "6d5445aab15c",
@@ -10955,7 +13321,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.0
+   }
   },
   {
    "id": "a56e4d2a23d5",
@@ -10983,7 +13356,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.0
+   }
   },
   {
    "id": "4dd3d579304f",
@@ -11015,7 +13395,14 @@
     "wpn",
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "b32852588f61",
@@ -11046,7 +13433,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "3769ecede0b4",
@@ -11075,7 +13469,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "ef74492e2028",
@@ -11103,7 +13504,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.0
+   }
   },
   {
    "id": "452d57966f3b",
@@ -11128,7 +13536,14 @@
    "axes": [],
    "region": "kr",
    "domains": [],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.0
+   }
   },
   {
    "id": "0b641e7fcefc",
@@ -11161,7 +13576,14 @@
    "domains": [
     "fcst"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 4.0
+   }
   },
   {
    "id": "dfd250d25ed2",
@@ -11192,7 +13614,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 2.0
+   }
   },
   {
    "id": "d61a8a3de614",
@@ -11222,7 +13651,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "bb18b3cde067",
@@ -11252,7 +13688,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "08770f6b019d",
@@ -11282,7 +13725,14 @@
    "domains": [
     "wpn"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 2,
+    "rel": 3.5
+   }
   },
   {
    "id": "26315875f436",
@@ -11311,7 +13761,14 @@
    "domains": [
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
   },
   {
    "id": "9a9c9015ee7a",
@@ -11354,7 +13811,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 8.0
+   }
   }
  ]
 }

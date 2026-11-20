@@ -40,7 +40,14 @@
     "lis",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 3.5,
+    "dh": 4,
+    "rel": 10.0
+   }
   }
  ]
 }

@@ -47,7 +47,14 @@
     "fcst",
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 9.5,
+    "dh": 6,
+    "rel": 10.0
+   }
   }
  ]
 }

@@ -43,7 +43,14 @@
    ],
    "kind": "news",
    "orig_title": "U.S. Marine Corps 1st Maintenance Battalion Selects Tagup's Manifest Platform to Advance Maintenance Decision-Making",
-   "nl": 65
+   "nl": 65,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 1.0,
+    "dh": 2,
+    "rel": 10.0
+   }
   }
  ]
 }

@@ -31,7 +31,14 @@
     "wpn"
    ],
    "kind": "policy",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "2d552826f81d",
@@ -60,7 +67,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "04896cba9d1a",
@@ -93,7 +107,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "873bac10be50",
@@ -127,7 +148,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "5150fbe62790",
@@ -161,7 +189,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   },
   {
    "id": "964f5fffd972",
@@ -194,7 +229,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "30e1dd018dd1",
@@ -224,7 +266,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "c58c2f58385a",
@@ -260,7 +309,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 5.0
+   }
   },
   {
    "id": "f5d6dbe0d61f",
@@ -292,7 +348,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "a00f0c178a7d",
@@ -326,7 +389,14 @@
     "fcst"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "3b118e84b493",
@@ -359,7 +429,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 5.5
+   }
   },
   {
    "id": "0e940ef70d6c",
@@ -393,7 +470,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 6.0
+   }
   },
   {
    "id": "a492e0f873fc",
@@ -441,7 +525,14 @@
    ],
    "kind": "contract",
    "orig_title": "Army awards Palantir $48.1M to modernize ammo management",
-   "nl": 73
+   "nl": 73,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 1.0,
+    "dh": 3,
+    "rel": 10.0
+   }
   },
   {
    "id": "091dec4f69ce",
@@ -469,7 +560,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
   },
   {
    "id": "61d7beaac4ba",
@@ -501,7 +599,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "9fd22b2b05cb",
@@ -534,7 +639,14 @@
     "wpn"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "88a710e39a0a",
@@ -566,7 +678,14 @@
     "lis",
     "fcst"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4,
+    "dh": 3,
+    "rel": 4.5
+   }
   },
   {
    "id": "8a9a9e3a8a01",
@@ -598,7 +717,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
   },
   {
    "id": "a60eed4a50af",
@@ -630,7 +756,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "aa7966166b4e",
@@ -663,7 +796,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 2,
+    "rel": 5.5
+   }
   },
   {
    "id": "2208ce38e984",
@@ -693,7 +833,14 @@
     "wpn"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 4,
+    "rel": 3.5
+   }
   },
   {
    "id": "db1212bc8477",
@@ -726,7 +873,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "51e17d2a5f11",
@@ -760,7 +914,14 @@
     "lis"
    ],
    "kind": "contract",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "8224dde35651",
@@ -794,7 +955,14 @@
     "lis"
    ],
    "kind": "news",
-   "desc_tried": true
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.5
+   }
   },
   {
    "id": "ffee82a23554",
@@ -828,7 +996,14 @@
    "q": "seed",
    "region": "kr",
    "domains": [],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 0,
+    "rel": 6.5
+   }
   },
   {
    "id": "b4fd7c1834f3",
@@ -868,7 +1043,14 @@
     "fcst",
     "lis"
    ],
-   "kind": "contract"
+   "kind": "contract",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 3.5,
+    "dh": 6,
+    "rel": 9.0
+   }
   },
   {
    "id": "d451b86f22cd",
@@ -901,7 +1083,14 @@
     "lis",
     "wpn"
    ],
-   "kind": "news"
+   "kind": "news",
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 1,
+    "rel": 4.5
+   }
   }
  ]
 }

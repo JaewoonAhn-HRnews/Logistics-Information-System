@@ -44,7 +44,14 @@
     "lis",
     "fcst"
    ],
-   "kind": "policy"
+   "kind": "policy",
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 11.5,
+    "dh": 7,
+    "rel": 10.0
+   }
   }
  ]
 }
