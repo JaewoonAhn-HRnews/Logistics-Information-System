@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20 02:39",
+ "at": "2026-11-20 11:34",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -51,8 +51,8 @@
      "orderPrearngeMt": "202612",
      "ornt": "우주지휘통신총괄계약팀",
      "orntCode": "ERA",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
      "reprsntPrdlstNm": "노트북 등 상용장비",
      "spcifyPrcureAt": "N"
     }
