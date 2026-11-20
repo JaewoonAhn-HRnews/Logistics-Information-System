@@ -118,6 +118,47 @@
    }
   },
   {
+   "id": "f001afd1e708",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T11:33",
+   "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주...시장 공략 탄력",
+   "source": "생생비즈플러스",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQUtRMldrUDI2UF9ybVV1b3F0OC0zbTM0YmZ3R1BvRDFlakUwSEhsZTNzVHd0MGplaC1zc1NwLWp0NW1qakJ2LW8xMTNyNzRHcnoxbDk5al82emU1T01HN2xfY2lPV2E4RXpBTw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군",
+    "HD현대중공업"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 3,
+    "rel": 5.0
+   }
+  },
+  {
    "id": "60dcf131b4cd",
    "date": "2026-11-20",
    "ts": "2026-11-20T02:39",
@@ -2393,6 +2434,45 @@
    }
   },
   {
+   "id": "c5db4e75f3de",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T22:00",
+   "title": "Intrepid Knight Builds Allied and Partner Readiness for Psychological Operations",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMHFfVkNOSTdKdEVUb01oc2gzTWt1Tmwzb2cwZV9rR2ZVNzBoeUZmTnhPQmRUeHM0S3hybWhWQVdRb2dFUWItcUdzQTZWNXgxZUkySWEtc1JJWE16eC1GcXF3SmY2Ym9hZ0p0ODUzOG5aS3dGMXZ3c1QteWRWVVl6RlZpQ2syVmdkM2d2bTgzREt2dnFwdG9zclRzeXF0NFhCclZUMjhwQkJQYldaVWV1bHhXZHpKeknSAbwBQVVfeXFMT0FsdXpjMjVBeWNuUTNVQnBpVkZ4TEhFSUYxc2RnaWRneVcwMDRMbXZYeWVNall6NTBhRGNicWxpSjVqY3VueHB2SHJrUlpSRVc3LUV4R3l0WGR6eWVGd1NEUTVoWDFyNEZtaG9BU2RfeHZ5MGRucF9aY1k3S21Nd2xsTnJxdXMxY0Q3VEdoLUh0UnVWVFk5UWpmMUtVT3JyRjQ2cDlqcWlSSXpjWjBrbDhoZUFPWEhYZUh4OXc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
    "id": "15e3fdb3b41c",
    "date": "2026-11-16",
    "ts": "2026-11-16T17:28",
@@ -3847,6 +3927,45 @@
     "r": 2.5,
     "dh": 1,
     "rel": 3.0
+   }
+  },
+  {
+   "id": "58280248cca2",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T03:13",
+   "title": "North Dakota Guard strengthens homeland defense readiness through wargame",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUHBuT09fNFlPQjRoZndmbmhDaXB0SGxMQnVHVUZqNG93TUFfMTRvdjd2dU45S2FKSXNVQ2c1VTM3TkZ5WnNCNG9ySU9Ga0F5Y1BDZWJKekh5RWkzYVJUdm1MTldjNUluU01ucU9RRklZVk0zSFNQdHVNUG0tdHlzQ3V4NmYwOXFJQm5HWHd2MGlNOVpYMFlac0l5dXBGNFdyZHJ4SktSVkJuN3NaTEHSAbMBQVVfeXFMTzlBbmswdlAtUFRBNmh5TFZSVUhvQThENG9pZ24wZVlGSkFXbFNFMGNkVGUwX003VEsxT1NhazMyMDlwWVhPZ192bC1ZdnpDeVNsUGNWN2FFazJfeTlfQW5XLXBEdkRZeUN2OG5zdW1ZUExxQ09XcmtqY1EtTEU4NUdocEY2S0JNWjNFbi1OLXdLRHpxQ0N6V05qeXZIcER6OU5EcDFQZ2hxTk9lNEtyODNNc2M?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
    }
   },
   {
@@ -9254,6 +9373,47 @@
    }
   },
   {
+   "id": "98f2d5deb416",
+   "date": "2026-11-04",
+   "ts": "2026-11-04T20:04",
+   "title": "DLA Energy establishes new fuel support arrangement with Australia to fortify Pacific readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQakJYanRfdDgzWTZkcjNQbGxNdm1US2FHV2tCSm5rdV9BQmFNRWFya2RlSTlCUS1uLXFudVRFUmoyNUJId2pqenluenBDSkFjZzVReEhjMjNsZy02SFo4eGt1bTBuYWp0R0ljdi1hY3gzZEZuVUtHNkU4SlBQeFd3NkJhZ0EzSnZNSDNncU5kWExQbERIZkhhb193bzlyQWp3RTVEQXVqaWFLbGl4NXVrQndHN1JWYS1UQ3dkRGtMN01teFNGLUlnMUVONVUyN0lVcHpud2hBX3RfWWhfWVREYVY1NA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "0c2334c17b29",
    "date": "2026-11-04",
    "ts": "2026-11-04T19:13",
@@ -9677,7 +9837,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 6.0,
    "also": [
     {
      "source": "더팩트",
@@ -9800,6 +9960,21 @@
      "source": "일요경제",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00RWZkVVh3cU5lbUtfY0VISWlSdzY4eWJ1N0h2cG8wRWZIQnFMS0Fuc0wwTlJ6Y1NEUUV0dThjaHRGWUlYMy1JQmZEdExBb2V6Vjh5dkxhbjUzNGdQVUI4WWpRVEl1LUNSck1JRVlR?oc=5",
      "title": "KAI, AI 기반 통합 군수 분석 플랫폼 구축…무기 가동률·K-방산 경쟁력 강화"
+    },
+    {
+     "source": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIYWZUbjdDN3BxMFRqODRwcmkteExtTE5BdUVUajZVVGsxVFM1ZFM0OUhsaVdxSFNMUUNSLTVQZDN0MWpSNzQwUkpPdW1pOXBoZUY3d2hNanQ4TUY0VWttOVlDeG9sSHc?oc=5",
+     "title": "KAI, AI 기반 통합 군수 분석 플랫폼 구축으로 무기 가동률·K-방산 경쟁력 극대화"
+    },
+    {
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04aHRqaC1zd200ZUEydnRVLV9URDdnaUx6ZE80SldadXRNX0h3VEprUTRDazVnMjRtX2NBQ0NPNWdlOGt6OHdjWVNpS1NLNUp1RUgzYVR4T2stajdka1RqcV9nRXU?oc=5",
+     "title": "KAI, AI 기반 통합 군수 분석 플랫폼 구축…\"무기 가동률 극대화\""
+    },
+    {
+     "source": "CNB뉴스",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsY0g0TU51VGRnVGF1UWhUOXdXbk9Zc0ZUQXRucG1VNnpUczRhNlFzUXdCdkJvLVhCV3NwOXk3ZVdpTnZUUnlRaTJSQUVWalY1OVNCOWtOVkoxRmZTU1pWa3hXOVpDN3pQamtF?oc=5",
+     "title": "KAI, AI 기반 군수 플랫폼 개발…무기 가동률 향상 나서"
     }
    ],
    "origin": "rss",
@@ -10880,6 +11055,45 @@
     "r": 4.0,
     "dh": 1,
     "rel": 3.0
+   }
+  },
+  {
+   "id": "894c01196e17",
+   "date": "2026-11-03",
+   "ts": "2026-11-03T17:00",
+   "title": "From episodic care to continuous readiness: Reshaping military healthcare",
+   "source": "Defense One",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS0JIM2xZSU9OQ09pMnB6OXFaakpXOU94LTNEa2NHb1ZwbmVSY29QVnBEUFV6VE9VcnJqUWxFSDRXZGFWTFlwVll0NW9FcEdTeG91ZER1bjdmQkY0VjRqNDNtSWZSMHByNGZ3R2pubDNNZ2ZsWXhYVGtaeFlScjM1OTJkOG9vU3JfZ19wVVJLNThsa3hhSkkySzMxbDlVTEN4OVJqaW9TdnozSzBxRU9CZEdDank5YTQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "defense predictive maintenance",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 0,
+    "dh": 1,
+    "rel": 4.0
    }
   },
   {
@@ -12332,7 +12546,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.5,
+   "score": 8.5,
    "also": [
     {
      "source": "메트로신문",
@@ -12528,6 +12742,11 @@
      "source": "바이라인네트워크",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iS2gtRTI1M2pYX2ZQUmN3bTRxNFJzNVEzY0s2M3ZzWE5fX1RocFQyV2JaQkVnbHVBU0dDM3V3SlFxTUlBd19LRkg2M0JCZw?oc=5",
      "title": "네이버클라우드, 육군 군수사령부와 ‘실전형 AI 군수’ 구축 추진"
+    },
+    {
+     "source": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3STdjQXA5ZmFzLXpSV2pCZTlSUDlPLVZrUHBROF9fdXk5ZzZhSm5kRjNOTlJMLUlzdnlrbS1scDBSaG1DM0pOLXU2LVVoM19hMmFTbEkyOTA0WElZbTlENVpmb2ljY3R2M19reWZB?oc=5",
+     "title": "네이버클라우드·육군 군수사령부, 조달·정비·물류에 AI 접목"
     }
    ],
    "origin": "rss",
@@ -13217,6 +13436,42 @@
     "r": 6.0,
     "dh": 0,
     "rel": 0.5
+   }
+  },
+  {
+   "id": "174555cdc614",
+   "date": "2026-11-01",
+   "ts": "2026-11-01T16:00",
+   "title": "What Is MDO-Maintenance?: Wrenching Army Sustainment Back to Reality",
+   "source": "Line of Departure (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnAwME5zQ1RfLU10T0liaF9WYWlqOXd2aHVxTENNN2hQZ041Q3VMOUNIREFjSmxwYlNIbXZoSDgtWncyYmNLMENUM3NYX3lVWkFPZmwzZnYwZHpZbnhTZ0VuZGVHMk5oSHlDcDBidHY1b2puVmV4QVZ5WjRNOVZ0NjIzMERDVkFCcFRKdUMtekVlSHhqc1RMM0NWdmNrbEtIMXhwZmc1VzhpY0x1WEdseUVNeTdLNl8xaml2dzRxYlRaYWNLMHc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 5.0
    }
   },
   {
