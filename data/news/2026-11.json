@@ -2,6 +2,202 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "5357558a3437",
+   "date": "2026-11-21",
+   "ts": "2026-11-21T02:17",
+   "title": "[조달계획] 외주정비 비상발전기 배터리충전기 1품목",
+   "source": "국방전자조달(D2B) · 공군교육사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군교육사령부 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 49304",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 2.5
+   }
+  },
+  {
+   "id": "a0a78e035d6c",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T19:09",
+   "title": "Army Guard senior leaders come together and align on mobilization, combat readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWU9uLTlXaGxDRFdJS05KTnh2UVBseGVFUUJRUG12bEpZUlMyLXo3NkJESzd5U3k3a1FTT3dZd2gxa1ZuYjNwNU43RDI3T3MtUVZ4S3hhbzZYMkR2NXI4TURST2NEQ2VCdEVUTmNUMnV5LUo1a3RQblNwTkpoNjRoZnVMZG83WVgzRGNid0VOT0hzanNkTll3TlBhY2hhVllXOW1aNmpYTkdZQjA2d0xCT05oTzZXNlRmWTVnWVZBc9IBvwFBVV95cUxQWU9uLTlXaGxDRFdJS05KTnh2UVBseGVFUUJRUG12bEpZUlMyLXo3NkJESzd5U3k3a1FTT3dZd2gxa1ZuYjNwNU43RDI3T3MtUVZ4S3hhbzZYMkR2NXI4TURST2NEQ2VCdEVUTmNUMnV5LUo1a3RQblNwTkpoNjRoZnVMZG83WVgzRGNid0VOT0hzanNkTll3TlBhY2hhVllXOW1aNmpYTkdZQjA2d0xCT05oTzZXNlRmWTVnWVZBcw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "26b44191bc00",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T17:04",
+   "title": "INTERVIEW – Pentagon’s F-35 parts blind spots raise readiness concerns, US watchdog warns",
+   "source": "Anadolu Ajansı",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZGRQbnpncjJSTEtkaHgwVTVhTkdNX1hKaDA3MU4xaC1ndHdydzNJMUJhQ0lBMUVIQU5NYjBXQkhVSWgzNEpIT1gyRGRDSFFqZlAzY1czVFpFcmtKalBTNE0yZDZJUndlR2pNMUM1TG84SGhScDBaT0NFUV8xTDl5SXFLZ2tCUXd5eFo4ZlJmS2ZjSWk0dXdvNGF3MlhXZmotcW1ZSWVKWlhUOTIxR0pObVVLamF1VVk1WjhsaTYzdUljdw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 6.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "ram",
+    "parts"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 3,
+    "rel": 6.5
+   }
+  },
+  {
+   "id": "ce598eebcad6",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T17:00",
+   "title": "U.S. Air Force awards Exiger $12 million contract to support intercontinental ballistic missile supply chain illumination and defense industrial base analysis",
+   "source": "Defense and Munitions",
+   "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPTU9rak5WaE5ZRkxqdXp2elV1Wkw4VXd5S05sTnNBQnltRFZUM1RKMjNjeURDYXFRUkhMN2djYjctR0dGdTBrbVlSMXBzQ2RHcUo5bHBSV2xNQnJlakYwRTlZNG1HWGlSODBTRmtjeVgtTlNIeGdVY0haaDRzaUprOGZJMHFPZjBvQk9VOFM3NnR6RXZkUXlZWlQybV8yV1RZRmR3cjhsTEZPNWFXQlRpMTdjVG4ybXZFb3ZMNEFsRkQ2UFNZc0w1ZFE0ZHNhLXZua2pWTVV6WHF6ZkpCV203QnA5SEI0UGVOZnhsdnJSSEJ1azNLVHVpZUJjUmRVbWdmYjY0TmdWZ1dDVS1qWVd4ZFgyaTZfVXpjVTMwbzI0allycU9sdWpR?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "defense predictive maintenance",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "125ec8c033f8",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T15:45",
+   "title": "미군 함정 MRO 네 번째 수주…HD현중, 미 시장 공략 박차",
+   "source": "뉴스토마토",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwOXJlSE1hUk5oWGtCTkxmZHBWb2czMUdvSTZnYllxNlRJdDNXVU1qMVY3MFZBQVMtTnN0b2JvWG9sX3F5M1lSZDEzdG9jdzMxNlhBVGhaaUF0WXBzM29sZQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2.0,
+    "dh": 3,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "aa8799844356",
    "date": "2026-11-20",
    "ts": "2026-11-20T11:34",
@@ -118,16 +314,62 @@
    }
   },
   {
-   "id": "f001afd1e708",
+   "id": "763f7fd05cd4",
    "date": "2026-11-20",
-   "ts": "2026-11-20T11:33",
-   "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주...시장 공략 탄력",
-   "source": "생생비즈플러스",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQUtRMldrUDI2UF9ybVV1b3F0OC0zbTM0YmZ3R1BvRDFlakUwSEhsZTNzVHd0MGplaC1zc1NwLWp0NW1qakJ2LW8xMTNyNzRHcnoxbDk5al82emU1T01HN2xfY2lPV2E4RXpBTw?oc=5",
+   "ts": "2026-11-20T11:12",
+   "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주…내년 1월 울산서 정비",
+   "source": "뉴스퀘스트",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfb0ZXOFNTXzlJeE1keWJIdWVQbWlodlhsbXR5Rkd4eU10ck9lQmhhOGFSWTkzMkJGQ1ZmSzBHOXJ2QXJFMkFyOWxmckx1UldjVnFtRnhUaWp4T1JEQTN4NFlULVJ1MGNUQzl2Ulp6bw?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.0,
-   "also": [],
+   "score": 6.5,
+   "also": [
+    {
+     "source": "생생비즈플러스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQUtRMldrUDI2UF9ybVV1b3F0OC0zbTM0YmZ3R1BvRDFlakUwSEhsZTNzVHd0MGplaC1zc1NwLWp0NW1qakJ2LW8xMTNyNzRHcnoxbDk5al82emU1T01HN2xfY2lPV2E4RXpBTw?oc=5",
+     "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주...시장 공략 탄력"
+    },
+    {
+     "source": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OU2VjV1FhcU1leGJsamF3emZyMmZtOUNHM2hveGhOcklLZWJXVUIxSTJ6bVlvdHFET193TTZGUHBLVFVvODMxZVY1bk9zNEJjWWFJdkY3NzBwTkRjOTFzZ3drRzZJaDh3WE5EdVFsaHQ?oc=5",
+     "title": "HD현대중, 미 해군 함정 MRO 4번째 수주…미국 시장 공략 가속"
+    },
+    {
+     "source": "시큐리티팩트",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91aTN2b19rMnltMU9EUS1ZS01Na3ppWjJWdzNQd19EeXhJeG5hOEE4REpWNmZFakotanVSRU9oWVpEWnYwWW5RcFllWTJnWmd1bXBpTzBvODduRWQ3aUJUcg?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 4만 톤급 화물보급함 정비 맡아"
+    },
+    {
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5id01kNXdOaXF6SThBVkhTN0Zfd0REWGFTOVBrT2l6OGJBa0lQTGtHWFFPZjVLYkk2bzBQellfT0M1YWxOVXl0ZEFfUXpsRmRfOXc?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주…'월리 쉬라함' 정비"
+    },
+    {
+     "source": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93QXdybk9QNnAwUExFWWszRlk4cW1Xa1M5ZjI0V3JQRVlkSGFuaEpSLU11MXRmSUtwODlrRHViNVFtQlBZVGx4M2w2ZXhiZFA4UE90YjVWbkF3TXRqX3J3WHN2a1hBM3ZiaG0wWjhn?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주…월리 쉬라함 중간 수리"
+    },
+    {
+     "source": "주간한국",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UTkRsMnBaTk1nMGhXMDgzQUJpTUtQYThXWUlqeXhRTVlrS1dVdzRtSW9EZEp0T3Q2Rl93VDduWngtOXJ3UnFlaVg2M0daQ1p5Sy1OTmtjVWNmLU5rdjNaNEU2UndMVElmMWZGV1lDTnLSAXRBVV95cUxPNzZpQVJ4dXVPajJMcnpoR1ltbWNYUlhPSDBvNDdOMm14VnZNVlY5QXEyTEg3RGVSenM0SGJHbllQVFlpU2xiVXVXSnJpM0NQbHc4M21YbkVzSFIyOUlfR2tIdmhhM3MxMXZqLVU4R1lHT0dKaw?oc=5",
+     "title": "HD현대중공업, 美 해군 함정 MRO 수주…“네번째”"
+    },
+    {
+     "source": "디일렉",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5ODRRUUlqVllfN1BPM0VWRkY1U2NZb3BWRWYteW9NbTR2dUlRWHZpTFkyNmhvRUlyWFh0blhHbVo5YTltRXJ2eU9aM3VadnVVWTdFREtzT0h2eElzdEdrYTZNR1c3UQ?oc=5",
+     "title": "HD현대중공업, 美 해군 군수지원함 MRO 4번째 수주"
+    },
+    {
+     "source": "월요신문",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tUmRvbXJfTFhLU2VhSnM0YUd0Y1BWSXdDa0kwWG5KdmM1cWVhRzM3dmJVT3hRS2dvbENVblN3UTNqRU9EaDBwMTNQQlBKOTQ1MXI2TEdFa3g3UlhYSnBGNl9oOFExcTUtMmc?oc=5",
+     "title": "HD현대重, 미 해군 함정 MRO 4번째 수주...시장 입지 확대"
+    },
+    {
+     "source": "라디오코리아",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YQ3N2dXVmajBVRmx0SEVMbko4UFV5UjZwbHNxLUpxS0NHTVc4NFlsWUNNa1lBcDdFaGwxcnJEMlZaUHJrTDVuMlRsLW9Pck5BSHFhYmJkVy1FdlI4bWlR?oc=5",
+     "title": "HD현대중, 美 해군 함정 MRO 4번째 수주…4만t급 보급함 정비"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": "kr",
@@ -154,8 +396,297 @@
     "src": "C",
     "lv": "중간",
     "r": 8.0,
-    "dh": 3,
+    "dh": 4,
     "rel": 5.0
+   }
+  },
+  {
+   "id": "dbbb19850772",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Usns Cesar Chavez (T-Ake 14) Voyage Repair Availability",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/f97d02583a8647348f8d2e5b4dd9b296/view",
+   "lang": "en",
+   "summary": "Sources Sought · CCZ_VRA_26 · DEPT OF THE NAVY > NAVSUP · 마감 2026-11-25",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 5.5
+   }
+  },
+  {
+   "id": "bbfa4771eef2",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Maintenance Support Building (Msb) Parking Lot Renovation",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/f5e765f4413a4ed5b2f1252663456e78/view",
+   "lang": "en",
+   "summary": "Sources Sought · PANGLR27P0000035301 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-08",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
+  },
+  {
+   "id": "679290dc7fb0",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Sustaining Pnt & Integrating With Development To Enhance Readiness (Spider)",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/82e9ca673fa346fcaaacc63a652b6cdc/view",
+   "lang": "en",
+   "summary": "Sources Sought · FA8823A071993 · DEPT OF THE AIR FORCE > SPACE SYSTEMS COMMAND · 마감 2027-01-04",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "aa5ff2209787",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Sources Sought For  Sustainment Renovation And Modernization (Srm) Construction  Multiple Award Task Order Contract (Matoc)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/7fe0a8d5bfa54eff896a8d80a2799617/view",
+   "lang": "en",
+   "summary": "Sources Sought · W912PA27SRMMATOC  · DEPT OF THE ARMY > AMC · 마감 2027-01-11",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "59e25b3f423b",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Journal Of Defense Analytics And Logistics Publishing Service Bpa",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/5e121d4a4d524eaab193ecc656f406c1/view",
+   "lang": "en",
+   "summary": "Combined Synopsis/Solicitation · \t FA860127Q0022 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-12-07",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ai",
+    "log"
+   ],
+   "kw": [
+    "빅데이터"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "58f8873287a6",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Mounted Family Of Computer Systems (Mfocs) Block Ii Hardware Spares For The Joint Battle Command Platform (Jbc-P)",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/365c53a29eab4b9987ad8c7e393fe278/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRBL127DA004 · DEFENSE LOGISTICS AGENCY > DLA LAND · 마감 2026-12-15",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "e3fd1abfd13b",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Jsow Agm-154C Initial Integrated Logistics Support (Ils) And Training For Taiwan Air Force (Taf)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/02f7e39cfbd04d7c81c8e3e50e0a6c87/view",
+   "lang": "en",
+   "summary": "Award Notice · N00019-25-RFPREQ-WPM201-0206 · DEPT OF THE NAVY > NAVAIR",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "b86edaba2f8c",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T07:32",
+   "title": "JPMRC 27-01: 5th SFAB Validates Advisor Readiness, Refines Warfighting Role",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcUVuWUkxM3d3ZWpOa2p4c0Zva0dzSGJzUXBfMVlERWxjTklOVGpoeW5qSEFrWjIwRzViQ3JheGsxZmpQS0R1QlVPWmhkRDQ3UmxVS0JnQXlkOGltLVA5cl9maE1vdnlJeEQzZGI4NWQySm9nZ3pHRlhUM1RQcUxGQk81ZlE2Z3ZzNmxNbXBEM2JQb1JrT0NYZWJrRWtybjNGQUtjN3dIQ0lJZ3F2NWfSAbMBQVVfeXFMUF8wbHF1bWNoZHlKUEZmeTd0SDh2NFZrNll1SGJKNTc0RFZNU2RwbjZrU2RlMjdEQ2ZIZkYyOXJJamFGVVRLZnB1R3pzaEl3cVFZcFliX2NxS2lMYmFwX0FxQmZpV2U4NVQwUUtjb3ZDT09INXJVS3JxUGFIQTgxeGNHVkh0anRqN3JaVWozeXpDQ3FWSm9QckJXS2JuZEQ4N3BoV3NxTTBRSmo0el85eHRjY2s?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
    }
   },
   {
@@ -232,6 +763,46 @@
     "r": 6.0,
     "dh": 1,
     "rel": 2.5
+   }
+  },
+  {
+   "id": "841992adfb5b",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T01:47",
+   "title": "US, Morocco test autonomous systems at Africa Multidomain Training and Experimentation Center to accelerate warfighter readiness",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNOEZSYkU1cmdUanNtZEllb09qQlQ1aHYtNF9zYnhhUUM3U2dnMjd0dDhURGVJU21PMXU0WFlzQnBzRjNBb3gzVVdiWTZqb3NKVmhhRF9HOVdJLVZQVk5lcHVCVXlYbGZVT3c1OEZRWnd1Q2tpWmo1U0JSQzljUDV4S0lMRkFiUDV5U1pLelRUeXBxMmM3Q1BSVnJuaU5RMUlNZkp6NEwwMVNBQ3A5OGhOOEtiNlpwS3pHWjBKeUtuSHFydlFYOG9CTThJVW9qdjU0amZmQmdnQl93MFQ2X0ZqNHkzVlQ3QnF3dHJZZGxJSjJDWmQxT2fSAfsBQVVfeXFMT0V3UjVkQ2Z3dU1GME5xZUluYTJFY3Myc2o3N29Ndmt6ZVo2Y1dyNWZkZzc0Z1AxSldGSlpnTld6QTRVU0N0emZhVHFNUy03UDkwLUduZFIwTVA2NWRTbTQ4elU3ZHBwU3BFM3E4WjU4TDdXeXF4TmYzYzNsLWJuRlcxTmNKMEpBMmdET21lVzY1RzQ1aEl2NXNqUVFSSGRqcGZkNVhia0ZDcmpEd0k5QzhOcjJ3V2VsMzZLNnVRVGVGbndEUkduLUtSRUtjbkZGMWZMbmhSUTlJRHczR3BINlRiV01DV3dKOXFXZWsyRC14TmU1UERXYVVLdEU?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세",
+    "자율주행 보급"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 1,
+    "rel": 4.5
    }
   },
   {
@@ -9837,7 +10408,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 4.5,
    "also": [
     {
      "source": "더팩트",
@@ -12546,7 +13117,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 8.5,
+   "score": 5.5,
    "also": [
     {
      "source": "메트로신문",

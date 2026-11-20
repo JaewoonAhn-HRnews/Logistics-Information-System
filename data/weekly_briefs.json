@@ -297,16 +297,16 @@
      "d": 2
     },
     {
-     "k": "eu",
-     "now": 3,
-     "prev": 3,
-     "d": 0
-    },
-    {
      "k": "etc",
      "now": 3,
      "prev": 1,
      "d": 2
+    },
+    {
+     "k": "eu",
+     "now": 3,
+     "prev": 3,
+     "d": 0
     }
    ],
    "domains": [
@@ -1115,8 +1115,8 @@
        "id": null,
        "k": [
         "GenAI.mil",
-        "DLA",
-        "CDAO"
+        "CDAO",
+        "DLA"
        ]
       },
       {
@@ -2599,16 +2599,16 @@
      "d": 8
     },
     {
-     "k": "lis",
-     "now": 12,
-     "prev": 8,
-     "d": 4
-    },
-    {
      "k": "fcst",
      "now": 12,
      "prev": 15,
      "d": -3
+    },
+    {
+     "k": "lis",
+     "now": 12,
+     "prev": 8,
+     "d": 4
     }
    ],
    "kinds": [
@@ -4037,7 +4037,6 @@
   "h": "74d05776c6",
   "at": "2026-11-20 11:58",
   "n": 40,
-  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 782 (char 781)",
   "cmp": {
    "prev": "2026-W45",
    "prev_label": "2026년 45주차(11.2~11.8)",
@@ -4206,25 +4205,296 @@
     }
    ],
    "at": "2026-11-20 12:02"
+  },
+  "v2": {
+   "tag": "부품 가시성 실패 × 정비체계 확장",
+   "groups": [
+    {
+     "g": 1,
+     "title": "부품·재고관리",
+     "sub": "F-35 부품 추적 실패",
+     "items": [
+      {
+       "n": 8,
+       "h": "GAO, 부품 감독 강화 촉구",
+       "d": "부품 2,600만 개·310억 달러 기록 미완전",
+       "id": "d3a1239d68b5"
+      },
+      {
+       "n": 6,
+       "h": "1만7천 개 부품 소재 불명",
+       "d": "13억 달러, 데이터 3개월 넘게 지연 가능",
+       "id": "1564a83e5e2c"
+      },
+      {
+       "n": 4,
+       "h": "가동 준비율 44%로 하락",
+       "d": "13억 달러 부품 기록 누락",
+       "id": "ecfd749330cd"
+      },
+      {
+       "n": 3,
+       "h": "부품 추적 실패, 준비태세 위협",
+       "d": "GAO, 항공기 가용성 저해 경고",
+       "id": "d205b8670cd6"
+      },
+      {
+       "n": 2,
+       "h": "역대 최고비용 사업 부품관리 난맥",
+       "d": "부품 관리·추적 어려움 GAO 보고",
+       "id": "80f318f89cd4"
+      },
+      {
+       "n": 9,
+       "h": "예비부품 2,600만 개 미추적",
+       "d": "310억 달러, 비용 상승·가동률 저하",
+       "id": "b83364ba2241"
+      },
+      {
+       "n": 1,
+       "h": "41조 원 부품 행방불명",
+       "d": "정비 부실·가동률 폭락 지적",
+       "id": "db54a4b2580f"
+      },
+      {
+       "n": 7,
+       "h": "고가 F-35 부품 추적 미흡",
+       "d": "GAO 조사, 부품 관리 부실 확인",
+       "id": "28599fa6111d"
+      },
+      {
+       "n": 5,
+       "h": "홍콩 부품 유출 의혹 부각",
+       "d": "310억 달러 재고 문제, 미중 회담 부담",
+       "id": "753d2874a87d"
+      }
+     ]
+    },
+    {
+     "g": 2,
+     "title": "한화·육군 K-MRO",
+     "sub": "야전정비센터 거점화",
+     "items": [
+      {
+       "n": 11,
+       "h": "야전정비센터 추가 건립",
+       "d": "해외 MRO 협력 확대 병행",
+       "id": "aed3f36ef3c4"
+      },
+      {
+       "n": 10,
+       "h": "후속군수지원 거점화 추진",
+       "d": "야전정비센터의 지원 거점 전환 방안",
+       "id": "2d4361af3e26"
+      },
+      {
+       "n": 12,
+       "h": "K9 수출 뒤엔 정비",
+       "d": "수출 뒷받침 K-MRO 거점화",
+       "id": "1619c4326d6b"
+      },
+      {
+       "n": 13,
+       "h": "K9 수출 넘어 정비 협력",
+       "d": "한화에어로·육군 K-MRO 협력",
+       "id": "572d18e858be"
+      },
+      {
+       "n": 14,
+       "h": "정비 거점 확대·수출 지원",
+       "d": "K방산 수출 지원 목적 협력",
+       "id": "13de12f92ce7"
+      },
+      {
+       "n": 15,
+       "h": "MRO 거점·해외 군수 협력",
+       "d": "해외 군수 협력관계 확대 보도",
+       "id": "101e510e53e3"
+      }
+     ]
+    },
+    {
+     "g": 3,
+     "title": "해군정비창 MRO",
+     "sub": "디지털 부품망·3D프린팅",
+     "items": [
+      {
+       "n": 16,
+       "h": "함정 MRO 디지털 부품망",
+       "d": "링크솔루션-해군정비창 구축 협약",
+       "id": "3e2153545fab"
+      },
+      {
+       "n": 17,
+       "h": "국방 3D프린팅 고도화",
+       "d": "링크솔루션-해군정비창 MOU 체결",
+       "id": "cdda150e19bd"
+      }
+     ]
+    },
+    {
+     "g": 4,
+     "title": "군수 AI·데이터",
+     "sub": "RAM-C AI·지속지원 AI",
+     "items": [
+      {
+       "n": 18,
+       "h": "RAM-C AI 에이전트 개발",
+       "d": "300억 원 규모 군수 빅데이터 과제",
+       "id": "ad6956a2b21f"
+      },
+      {
+       "n": 19,
+       "h": "AI 지속지원, 데이터가 출발",
+       "d": "논리·데이터·전사 체계 선행 논지",
+       "id": "9a2d1a8d05ac"
+      },
+      {
+       "n": 20,
+       "h": "씨드로닉스 AI 함정 탑재",
+       "d": "싱가포르 해군, 유럽 공급망 진입",
+       "id": "2b60e38644ec"
+      },
+      {
+       "n": 21,
+       "h": "군 의학 AI 통합 논의",
+       "d": "아부다비 학술대회, 국가 대비태세",
+       "id": "9c7016deef97"
+      }
+     ]
+    },
+    {
+     "g": 5,
+     "title": "정비 인력·지속지원",
+     "sub": "인력 확충·지속지원 체계",
+     "items": [
+      {
+       "n": 22,
+       "h": "공군 정비 인력 확충 약속",
+       "d": "내년 정비 직무 분야 대개편 예정",
+       "id": "5ecd88689637"
+      },
+      {
+       "n": 24,
+       "h": "Amentum 정비창 인력 수주",
+       "d": "육군 정비창 인력지원 6억 900만 달러",
+       "id": "ee6491268e64"
+      },
+      {
+       "n": 23,
+       "h": "공군 지속지원, 해군 방식 차용",
+       "d": "Aviation Week 보도 새 지속지원 계획",
+       "id": "cd834c97cc94"
+      },
+      {
+       "n": 25,
+       "h": "육군 의무정비 신속수리",
+       "d": "합동군 준비태세 지원",
+       "id": "58c2d2e64e94"
+      },
+      {
+       "n": 26,
+       "h": "GÖKBEY 정비·지속지원",
+       "d": "지원·예비품·군수 주제(세부 미확인)",
+       "id": "134aef7fb3dd"
+      }
+     ]
+    },
+    {
+     "g": 6,
+     "title": "군수태세·감사",
+     "sub": "합동 준비태세·감사 대비",
+     "items": [
+      {
+       "n": 31,
+       "h": "DLA 샌디에이고 감사 대비",
+       "d": "감사 대비의 합동 준비태세 뒷받침",
+       "id": "fd3bb8c63f82"
+      },
+      {
+       "n": 33,
+       "h": "해군 감사 지원 확대",
+       "d": "Kearney, FY2027 일반기금 대비 앞당김",
+       "id": "18b4b51d6f7d"
+      },
+      {
+       "n": 32,
+       "h": "DLA 현대화·감사 서밋",
+       "d": "현대화·준비태세·감사 대응 논의",
+       "id": "b5326f102489"
+      },
+      {
+       "n": 30,
+       "h": "AMC-DLA 협력 강조",
+       "d": "전투원 지원·합동 군수태세",
+       "id": "7529b2f20d31"
+      },
+      {
+       "n": 28,
+       "h": "NATO 군수 책임자 회의",
+       "d": "전투 준비태세에 초점",
+       "id": "5c0d75b7dbf5"
+      },
+      {
+       "n": 29,
+       "h": "NATO 준비태세 강화 논의",
+       "d": "전투준비태세 강화 방안 논의",
+       "id": "83b3c5324d64"
+      },
+      {
+       "n": 27,
+       "h": "402 AFSB 지속지원 강조",
+       "d": "상용 준비태세·확장 가능 지속지원",
+       "id": "c6c7895d8a5f"
+      },
+      {
+       "n": 34,
+       "h": "DLA, 해병 전비태세 지원",
+       "d": "해병대 창설 251주년 계기 조명",
+       "id": "a9c83ed2a2c1"
+      }
+     ]
+    }
+   ],
+   "imps": [
+    {
+     "t": "재고 가시성 확보",
+     "d": "데이터 3개월 지연 사례, 갱신주기 점검"
+    },
+    {
+     "t": "가동률 연계 예측",
+     "d": "수리부속 가용성과 가동률 연계 지표화"
+    },
+    {
+     "t": "정비 거점·인력 연계",
+     "d": "야전정비센터 확대 시 정비인력 수요 예측 반영"
+    },
+    {
+     "t": "AI 전 데이터 선행",
+     "d": "RAM-C AI 과제 대비 데이터 품질·감사 정합 확보"
+    }
+   ],
+   "h": "a2b138d088",
+   "at": "2026-11-21 02:19"
   }
  },
  "2026-W47": {
-  "core": "MRO 확대 속 준비태세·공급망 보안 부상",
+  "core": "MRO 확산 속 부품·공급망이 준비태세를 좌우",
   "themes": [
    {
     "no": 1,
     "cat": "국내 MRO",
-    "head": "민·군 MRO 협력 확대",
+    "head": "민·군 정비 협력 확대",
     "points": [
-     "LIG D&A·공군 MRO 협력 강화",
+     "LIG D&A·공군 민·군 정비 협력",
      "한화에어로·육군 K-MRO 거점화",
      "동부지역 정비센터 추가"
     ],
     "icon": "gear",
     "refs": [
-     1,
-     28,
-     31
+     2,
+     34,
+     37
     ],
     "ids": [
      "1912a554e821",
@@ -4296,35 +4566,122 @@
       "한화"
      ]
     },
-    "tr": "육군 거점화 구상에서 공군·민간 협력 다변화로 확장",
-    "im": "민간 정비 거점 확대에 맞춰 정비이력·부품 데이터를 군수통합정보체계로 연계해야 함",
-    "ah": "c7eb4ac39f"
+    "tr": "육군 중심 거점화에서 공군 등 민·군 협력으로 확산",
+    "im": "거점이 늘어나는 만큼 정비이력·수리부속 데이터를 통합정보체계로 일원화해야 함",
+    "ah": "a7cf804139"
    },
    {
     "no": 2,
-    "cat": "지속지원·수주",
-    "head": "해외 정비·지속지원 수주",
+    "cat": "해외 MRO",
+    "head": "미 해군 함정 MRO 수주",
     "points": [
-     "HD현대중공업 美 함정 MRO 4번째 수주",
-     "F-35·Stryker 지속지원 계약",
-     "그리스·쿠웨이트 정비지원 지속"
+     "HD현대중공업 4번째 수주",
+     "내년 1월 울산에서 정비",
+     "미국 시장 공략 속도"
     ],
-    "icon": "money",
+    "icon": "ship",
     "refs": [
-     4,
-     5,
-     7,
-     11,
-     13,
-     20
+     1,
+     13
     ],
     "ids": [
-     "f001afd1e708",
-     "fa002f878bff",
+     "763f7fd05cd4",
+     "125ec8c033f8"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-03-18",
+       "t": "미 해군, 로봇·AI로 함정 정비 혁신 추진 — Gecko Robotics 7,100만 달러 계약",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/03/us-navy-aims-use-robots-ai-reduce-ship-maintenance/412159/",
+       "nl": 45,
+       "id": null,
+       "k": [
+        "MRO 수출",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-20",
+       "t": "HJ중공업 미 해군 MRO 완수",
+       "s": "해사신문",
+       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBRmZaNFJ4MlZUTHBTY3BIVXFmZjhYZnkwY2J1dzA3QTRZZ1BXVjNKRUhqeHRuR2tSWlRHS3UtdG5FcmdPMFJDbEdpclF2NDExWTZpSUVobHRRQlVpeUFVVk54Q1U0Rnd0Vmh3?oc=5",
+       "nl": null,
+       "id": "33fe03fea112",
+       "k": [
+        "MRO 수출",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-20",
+       "t": "Gecko Robotics 계약 3억 달러 확대",
+       "s": "The Manila Times",
+       "u": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZWRlYWV4TzJjTG83UVlXNGY2Q1RRVzVkX3g1N3BUUjEtSVkwNFRERVBEZTZVWUYzemdLRngwU281TmZpRzFib19rUkQwZGY3UTRZQnJZbEwwRFJ6M1RuS0pXbmt3S0VfamhqV1UxRk96ZUhmTXN2WmNEbTgwSnNvQlp5MHNjLTJPVFYxb0Z1ZEpJNTVCOElobEgwMXNtazZFM096aGlRZUdPVHQtUDU5cVFyakFDLTJUbWgwOGVUZjkyTmNLX2dqWWlFVlRfcXQ5NGpubWU2cGVyNG9ERU1fT1FUN1c2cGVPZGRWZnJsLXlpeXl3angxclJ30gH6AUFVX3lxTFBlZGVhZXhPMmNMbzdRWVc0ZjZDVFFXNWRfeDU3cFRSMS1JWTA0VERFUERlNlVZRjN6Z0tGeDBTbzVOZmlHMWJvX2tSRDBkZjdRNFlCcllsTDBEUnozVG5LSldua3dLRV9qaGpXVTFGT3plSGZNc3ZaY0RtODBKc29CWnkwc2MtMk9UVjFvRnVkSkk1NUI4SWhsSDAxc21rNkUzT3poaVFlR09UdC1QNTlxUXJqQUMtMlRtaDA4ZVRmOTJOY0tfZ2pZaUVWVF9xdDk0am5tZTZwZXI0b0RFTV9PUVQ3VzZwZU9kZFZmcmwteWl5eXdqeDFyUnc?oc=5",
+       "nl": null,
+       "id": "89dc8656f9df",
+       "k": [
+        "MRO 수출",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-22",
+       "t": "HD현대중, 美해군 MRO로 특수선 공략",
+       "s": "서울신문",
+       "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56Yk9OSVk1TWt6S3dWeThsZWhIcFA5eXBtT2EzUWVWTG9iakNVbkxybktheGFGYThOUFB6b255cnRpREF5ZEl5eXgxVzNJcjVBZ2twWW4zUQ?oc=5",
+       "nl": null,
+       "id": "04cbaedea524",
+       "k": [
+        "HD현대중공업",
+        "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-30",
+       "t": "미 보급함 6척 한국서 정비",
+       "s": "데일리안",
+       "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMmFIZ0lhQTY0RG5vcDhPWFhKbUFJOWhHNDVORjNPRjVLWmtfZWhydVI3ekNmcGtfOGdnZUVmMVplVmdURmotWXRhTFg5Q2pTR3NQdF9uZlBNV1RhVFpRQ3dwWG9LZXItd1Q3bGl4ejRlNWhoX3pCOFowNGw4NFBCdFpoWDlIZUdoSjNPekI1ZUZJLTZOOGMyMDhBWG50TWpudFBsOHJmbk1QaEx0ODRsRHFmU2lSRmh4cHNCUDQtWnc5ZFFQWVVzQjJpN3Jfbm9yNllRSkVCajFkdkRhU0FQbThic3laWnUyNmNQYTNn?oc=5",
+       "nl": null,
+       "id": "577ca70a4b78",
+       "k": [
+        "HD현대중공업",
+        "미 해군"
+       ]
+      }
+     ],
+     "n": 6,
+     "since": "2026-03-18",
+     "terms": [
+      "HD현대중공업",
+      "미 해군",
+      "MRO 수출"
+     ]
+    },
+    "tr": "로봇·AI 정비 논의에서 HD현대중 반복 수주 단계로",
+    "im": "함정 정비 실적과 AI 진단 데이터를 쌓아 정비인력·소요 예측에 반영해야 함",
+    "ah": "aa9afa6745"
+   },
+   {
+    "no": 3,
+    "cat": "수리부속",
+    "head": "F-35 부품·지속지원",
+    "points": [
+     "부품 관리 사각지대, 전비태세 우려",
+     "해군, 록히드에 9,320만 달러 계약",
+     "창정비 시험장비·수리 개선 주문"
+    ],
+    "icon": "parts",
+    "refs": [
+     4,
+     9,
+     16
+    ],
+    "ids": [
+     "26b44191bc00",
      "ca4a2cd36e52",
-     "2edb10d88163",
-     "2a6ebca3d597",
-     "9c54f9b073cc"
+     "2edb10d88163"
     ],
     "arch": {
      "l": [
@@ -4338,6 +4695,18 @@
        "k": [
         "Lockheed Martin",
         "미 해군"
+       ]
+      },
+      {
+       "d": "2026-10-09",
+       "t": "F-35 생산·정비 다년계약 검토",
+       "s": "Breaking Defense",
+       "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQalpRcTZpTHdlajB5RE80UWd2cW1URWZNNWEzejZTb3J5Y2p4WHlOV2RQSlFYTHVZUDB3WGNNR2l1ckJGZmRQeUhNZTlnZWExQ01udTQwUmZHOTFFUklBbnNPbVhXVjlFc19hZTAzWWxVbkNiclF5OXFXcW1ETXNhV3FvWDIxYkxraHRiLWp4SzJ0QkVpVjl1aGRhTl9tVFdkcGdrZkxpcw?oc=5",
+       "nl": null,
+       "id": "d00752009451",
+       "k": [
+        "Lockheed Martin",
+        "F-35"
        ]
       },
       {
@@ -4375,46 +4744,34 @@
         "Lockheed Martin",
         "F-35"
        ]
-      },
-      {
-       "d": "2026-10-30",
-       "t": "미 보급함 6척 한국서 정비",
-       "s": "데일리안",
-       "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMmFIZ0lhQTY0RG5vcDhPWFhKbUFJOWhHNDVORjNPRjVLWmtfZWhydVI3ekNmcGtfOGdnZUVmMVplVmdURmotWXRhTFg5Q2pTR3NQdF9uZlBNV1RhVFpRQ3dwWG9LZXItd1Q3bGl4ejRlNWhoX3pCOFowNGw4NFBCdFpoWDlIZUdoSjNPekI1ZUZJLTZOOGMyMDhBWG50TWpudFBsOHJmbk1QaEx0ODRsRHFmU2lSRmh4cHNCUDQtWnc5ZFFQWVVzQjJpN3Jfbm9yNllRSkVCajFkdkRhU0FQbThic3laWnUyNmNQYTNn?oc=5",
-       "nl": null,
-       "id": "577ca70a4b78",
-       "k": [
-        "HD현대중공업",
-        "미 해군"
-       ]
       }
      ],
      "n": 44,
      "since": "2020-09-02",
      "terms": [
-      "미 해군",
       "F-35",
-      "Lockheed Martin"
+      "Lockheed Martin",
+      "미 해군"
      ]
     },
-    "tr": "F-35 장기 프레임워크에서 해외 정비 수주 실적화로",
-    "im": "해외 MRO 수주가 늘면 국내 정비인력 여력과 수리부속 수급을 함께 예측해야 함",
-    "ah": "881010a390"
+    "tr": "다년계약 틀 합의에서 부품관리·지속지원 점검으로 이동",
+    "im": "수리부속 가시성을 확보하고 창정비 시험장비를 개선해 가동률 신뢰도를 높여야 함",
+    "ah": "9384adef76"
    },
    {
-    "no": 3,
+    "no": 4,
     "cat": "준비태세",
-    "head": "준비태세 저하·탄약 부족",
+    "head": "탄약·가동률 압박",
     "points": [
-     "육군 항공 FMC 해마다 하락",
-     "우크라 지원이 유럽 육군에 부담",
-     "탄약 증산 실무그룹 구성"
+     "핵심 탄약 부족, 생산 확대 실무그룹",
+     "우크라 지원이 유럽 육군 부담",
+     "육군 항공 사고 증가·FMC 하락"
     ],
     "icon": "chart",
     "refs": [
-     2,
-     6,
-     14
+     3,
+     7,
+     19
     ],
     "ids": [
      "61b41d473781",
@@ -4486,163 +4843,33 @@
       "Ukraine"
      ]
     },
-    "tr": "연관 과거 기사 없음, 가동률·탄약 부족이 새 쟁점으로",
-    "im": "가동률(FMC) 추이와 탄약 소요를 수리부속 예측에 연계해 선제 점검 필요",
-    "ah": "4e423f96b2"
-   },
-   {
-    "no": 4,
-    "cat": "군수 혁신",
-    "head": "육군·DLA 군수체계 현대화",
-    "points": [
-     "육군 군수지원 현대화 논의",
-     "Meridian 전환 등 차세대 군수지원",
-     "DLA 공급망 콘퍼런스·재고 PRC"
-    ],
-    "icon": "org",
-    "refs": [
-     3,
-     9,
-     17,
-     19,
-     21,
-     22,
-     23,
-     29
-    ],
-    "ids": [
-     "964f5fffd972",
-     "c02a4704bd3c",
-     "f6b87221a626",
-     "62e1e6018166",
-     "0c1ae8649ed9",
-     "d9d764fed5d2",
-     "33e175c88db4",
-     "599d037127ab"
-    ],
-    "arch": {
-     "l": [
-      {
-       "d": "2026-04-14",
-       "t": "DLA 4개 공급망 AI 도입",
-       "s": "Defense Logistics Agency",
-       "u": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/4459715/dla-troop-support-begins-journey-to-predictive-data-with-ai-integration/",
-       "nl": null,
-       "id": "6a211476055c",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-09-21",
-       "t": "Elmet, 텅스텐 공급망 확대",
-       "s": "Pulse 2.0",
-       "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ24ySFJ2MmxURV95ejJieEIyUjdpWGRnaGpJV0RDbG9SdHA3T0NyT2lBQUM1Z1p2andIbHNtVWgxQWZpdkU3VWVJa2F1dWlkdERoUnlvbEc2aDdjSW85cjRGMXR5ekpLWUhmcFRIU25wdHBydnlKZld6VnVlQjVYdGk4Mm1MbDZWUl9jemNCQ3RRbVlwUDBBNDBKWG44Tm1NeWc5a3FlWUJyMHVvS3k1MVNSQ3BCYmNuYlN0eWpRWkJrdEx1dWw3UU9jTUY3ZGtodV9CVEJRRFR2eE9Gb2JOa2lPdzExRFpI0gHuAUFVX3lxTFBQbmJSQURjSVZ4dEp3WEY1b3R6NmdKN2lhX3VsdE9Kd3hPMXhFajA0QnJqaXlxMzZHV1I2d2tudjRtdVRRTTJ1OUNYMEhrR1RHb2NTb2lBcFpiVWw3NmdpekNKY3R3TWVOWGhoQzlRazIybDBvTHJSNEsyblo0Qk1penI2cXNNVml3Znl5ejBBZ09xTlhjU1FxdTR4UWtUYlF6VmY0am91d2d4anZodjlrWGI4eVhyNkpURnpqUjNWX2djeU45cFdnMWlMQV9obXcyNWgwT19nWmdib05veWNwYXJhbko0NFBfS2RxdHc?oc=5",
-       "nl": null,
-       "id": "51e17d2a5f11",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-10-21",
-       "t": "미 국방부, AI 기반 군수망 혁신을 위한 전군 데이터 통합 추진",
-       "s": "MeriTalk",
-       "u": "https://www.meritalk.com/articles/dod-officials-detail-push-to-make-data-ready-for-mission-ai/",
-       "nl": 76,
-       "id": null,
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-11-14",
-       "t": "DLA 샌디에이고 감사 대비 점검",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wcVRWNU9oZGdzR2VxT2swZlJibWxISkxub0xLQzZRZXF1ZWRtR2tTUjhBU2RfZFZqU0NyU2MyTGVkZURmN1FZMUltM1pjXzY5TUp3ZGZwckZhZG13TWRMaU9uUEprX3c?oc=5",
-       "nl": null,
-       "id": "fd3bb8c63f82",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-11-14",
-       "t": "AMC·DLA 파트너십 강조",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KUEM2d2NHRUI0UEFseXpvRUd3QVAwUzhTOVBYMXJRQXYzc2tlNXdSX0pqQ2ZuV19uQktucmhWWG0yZVRJNnNrZ1dXTHF0bldCYUM5aURrOXRrN095cEd6ZTE4RXhjbUE?oc=5",
-       "nl": null,
-       "id": "7529b2f20d31",
-       "k": [
-        "DLA"
-       ]
-      }
-     ],
-     "n": 31,
-     "since": "2026-04-14",
-     "terms": [
-      "DLA",
-      "AUSA 2026"
-     ]
-    },
-    "tr": "AI·데이터 통합 구상에서 육군·DLA 협력 점검으로",
-    "im": "재고·공급망 점검 결과를 통합정보체계의 수요예측 정확도 개선에 반영해야 함",
-    "ah": "b1298c8a41"
+    "tr": "아카이브에 동일 주제 이력이 없어 추이 판단 보류",
+    "im": "탄약 소요와 가동률(FMC) 하락 요인을 통합정보체계에서 연계해 점검할 필요",
+    "ah": "bc1c674778"
    },
    {
     "no": 5,
-    "cat": "SW·AI 보안",
-    "head": "무기체계 SW 공급망 보안",
+    "cat": "공급망·보안",
+    "head": "공급망 가시화·보안",
     "points": [
-     "NATO, 무기 SW 백도어 경고",
-     "공급망 전 단계 보안 필요",
-     "국내 AI 보안 플랫폼·연구 확산"
+     "공군, ICBM 공급망 가시화 계약",
+     "NATO, 무기 백도어 대비 전 단계 보안",
+     "AI 기반 SW 공급망 보안 플랫폼 공개"
     ],
     "icon": "shield",
     "refs": [
-     8,
-     16,
-     18,
-     24
-    ],
-    "ids": [
-     "29f818766033",
-     "7f9da76657da",
-     "15e3fdb3b41c",
-     "23f536b956fb"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": [
-      "공급망 보안",
-      "NATO",
-      "AI 드론"
-     ]
-    }
-   },
-   {
-    "no": 6,
-    "cat": "공급망·협력",
-    "head": "공급망·동맹 협력 재편",
-    "points": [
-     "EU 협력 기회 8개 승인",
-     "순항미사일~보안 국방 클라우드",
-     "美 수출통제, 전력반도체 영향"
-    ],
-    "icon": "network",
-    "refs": [
-     10,
      12,
-     15,
-     30
+     21,
+     10,
+     30,
+     15
     ],
     "ids": [
-     "d81118659237",
-     "a4887a2db484",
-     "d5a4ad1bc837",
-     "a0e7703968df"
+     "ce598eebcad6",
+     "7f9da76657da",
+     "29f818766033",
+     "23f536b956fb",
+     "d81118659237"
     ],
     "arch": {
      "l": [
@@ -4674,46 +4901,72 @@
      "n": 2,
      "since": "2025-10-16",
      "terms": [
-      "반도체",
-      "수출통제"
+      "방위산업기반",
+      "NATO",
+      "공급망 보안"
      ]
     },
-    "tr": "AI 수출통제 논의에서 공급망·동맹 협력 재편으로 확장",
-    "im": "수출통제 영향 품목을 수리부속 공급 위험으로 사전 식별하고 대체선 확보 필요",
-    "ah": "7ce3a99b34"
+    "tr": "AI 스택 보호 논의에서 공급망 가시화·보안 실무로 이동",
+    "im": "수리부속·SW 공급망 이력 추적과 보안 검증을 통합정보체계에 반영해야 함",
+    "ah": "d96ff88b73"
+   },
+   {
+    "no": 6,
+    "cat": "군수지원",
+    "head": "육군 군수지원 현대화",
+    "points": [
+     "스트라이커 후속지원 3억 3,300만 달러",
+     "Meridian 전환 등 차세대 군수 논의",
+     "Letterkenny, 쿠웨이트 방공체계 지원"
+    ],
+    "icon": "truck",
+    "refs": [
+     25,
+     26,
+     27,
+     18,
+     24
+    ],
+    "ids": [
+     "9c54f9b073cc",
+     "0c1ae8649ed9",
+     "d9d764fed5d2",
+     "2a6ebca3d597",
+     "62e1e6018166"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": []
+    }
    }
   ],
   "recs": [
    {
-    "t": "가동률 예측 연계",
-    "d": "항공 FMC 하락 사례를 신뢰도 예측에 반영"
+    "t": "부품 가시성 확보",
+    "d": "F-35 부품 사각지대 사례, 수리부속 추적 점검"
    },
    {
-    "t": "부속·인력 수요",
-    "d": "MRO 거점 확대에 맞춘 부속·인력 예측"
+    "t": "가동률 예측 고도화",
+    "d": "항공 FMC 하락 사례, 신뢰도 기반 예측 반영"
    },
    {
-    "t": "SW 보안 검증",
-    "d": "군수정보체계의 SW 공급망 점검 범위 설정"
+    "t": "민·군 정비 연계",
+    "d": "민간 MRO 거점 활용, 정비인력 수급 예측"
    }
   ],
-  "h": "87ad8d03ec",
-  "at": "2026-11-20 11:58",
-  "n": 33,
+  "h": "bc403ea238",
+  "at": "2026-11-21 02:18",
+  "n": 39,
   "v2": {
-   "tag": "지속지원 확대 × 준비태세·보안 리스크",
+   "tag": "MRO 확대 × 준비태세·보안 압박",
    "groups": [
     {
      "g": 1,
-     "title": "국내 MRO 협력",
-     "sub": "공군·육군 민군 정비 확대",
+     "title": "국내 MRO",
+     "sub": "민·군 정비 협력 확대",
      "items": [
-      {
-       "n": 3,
-       "h": "한화에어로 육군 K-MRO 거점",
-       "d": "동부지역 정비센터 추가 추진",
-       "id": "7e232d3c13aa"
-      },
       {
        "n": 1,
        "h": "LIG D&A·공군 정비 협력",
@@ -4721,239 +4974,203 @@
        "id": "1912a554e821"
       },
       {
+       "n": 3,
+       "h": "한화에어로 육군 K-MRO",
+       "d": "동부지역 정비센터 추가·거점화 추진",
+       "id": "7e232d3c13aa"
+      },
+      {
        "n": 2,
        "h": "LIG D&A 입찰제한 집행정지",
-       "d": "수주 불확실성 완화·공군 협력 확대",
+       "d": "수주 불확실성 완화, 공군 협력 확대",
        "id": "aecde6a5b347"
       }
      ]
     },
     {
      "g": 2,
-     "title": "해외 지속지원 수주",
-     "sub": "미 해군·육군 계약 중심",
+     "title": "해외 MRO",
+     "sub": "미 해군 함정 MRO 수주",
      "items": [
       {
        "n": 4,
-       "h": "美 해군 MRO 4번째 수주",
-       "d": "HD현대중공업 미국 시장 탄력",
-       "id": "f001afd1e708"
-      },
-      {
-       "n": 7,
-       "h": "F-35 창정비 시험장비 주문",
-       "d": "9,300만 달러, 수리 개선 포함",
-       "id": "2edb10d88163"
-      },
-      {
-       "n": 6,
-       "h": "록히드마틴 F-35 지속지원",
-       "d": "미 해군 9,320만 달러 계약 수여",
-       "id": "ca4a2cd36e52"
-      },
-      {
-       "n": 9,
-       "h": "Stryker 후속지원 수주",
-       "d": "3억 3,300만 달러, 세부 미확인",
-       "id": "9c54f9b073cc"
-      },
-      {
-       "n": 8,
-       "h": "쿠웨이트 방공체계 지속지원",
-       "d": "Letterkenny 육군 정비창 팀 지원",
-       "id": "2a6ebca3d597"
+       "h": "HD현중 美 함정 MRO 4번째",
+       "d": "내년 1월 울산서 정비 진행",
+       "id": "763f7fd05cd4"
       },
       {
        "n": 5,
-       "h": "美·그리스 육군항공 정비 재확인",
-       "d": "정비·유지지원 공약 재확인",
-       "id": "fa002f878bff"
+       "h": "미 시장 공략 속도",
+       "d": "미군 함정 MRO 네 번째 수주",
+       "id": "125ec8c033f8"
       }
      ]
     },
     {
      "g": 3,
-     "title": "준비태세·탄약",
-     "sub": "탄약 부족·가동률 하락",
+     "title": "수리부속",
+     "sub": "F-35 부품·지속지원",
      "items": [
       {
-       "n": 12,
+       "n": 6,
+       "h": "F-35 부품 관리 사각지대",
+       "d": "미 감시기관, 전비태세 우려 경고",
+       "id": "26b44191bc00"
+      },
+      {
+       "n": 8,
+       "h": "F-35 창정비 장비·수리 개선",
+       "d": "록히드마틴 9,300만 달러 주문",
+       "id": "2edb10d88163"
+      },
+      {
+       "n": 7,
+       "h": "F-35 지속지원 계약",
+       "d": "록히드마틴 9,320만 달러 수여",
+       "id": "ca4a2cd36e52"
+      }
+     ]
+    },
+    {
+     "g": 4,
+     "title": "준비태세",
+     "sub": "탄약·가동률 압박",
+     "items": [
+      {
+       "n": 9,
+       "h": "GAO 핵심 탄약 부족 지적",
+       "d": "생산 확대 실무그룹, 해결 필요 증대",
+       "id": "61b41d473781"
+      },
+      {
+       "n": 11,
        "h": "육군 항공 가동률 하락",
        "d": "사고 증가, FMC 추세 해마다 하락",
        "id": "30b49d8c39f1"
       },
       {
        "n": 10,
-       "h": "GAO: 탄약 부족 해소 필요",
-       "d": "실무그룹 구성, 해결 필요성 증대",
-       "id": "61b41d473781"
-      },
-      {
-       "n": 11,
        "h": "우크라 지원, 유럽 육군 부담",
-       "d": "국방부 감찰관실, 준비태세 부담 확인",
+       "d": "국방부 감찰관실 조사 결과",
        "id": "512734f18d77"
       }
      ]
     },
     {
-     "g": 4,
-     "title": "군수체계 현대화",
-     "sub": "육군·DLA 군수 혁신 동향",
+     "g": 5,
+     "title": "공급망·보안",
+     "sub": "공급망 가시화·보안",
      "items": [
-      {
-       "n": 17,
-       "h": "육군 군수지원 현대화",
-       "d": "전투력 투사·살상력 유지 조명",
-       "id": "0c1ae8649ed9"
-      },
-      {
-       "n": 18,
-       "h": "Meridian 전환 서지",
-       "d": "차세대 육군 군수지원 방향 제시",
-       "id": "d9d764fed5d2"
-      },
-      {
-       "n": 20,
-       "h": "DLA 재고 준비태세 검토위",
-       "d": "PRC 관련 게시, 세부 미확인",
-       "id": "599d037127ab"
-      },
-      {
-       "n": 15,
-       "h": "AUSA 2026 산업계 협력",
-       "d": "육군 현대화·병사 준비태세 증진",
-       "id": "f6b87221a626"
-      },
       {
        "n": 13,
-       "h": "공군 창설 기념, 군수 초점",
-       "d": "DLA 게시, 미래 준비태세 강조",
-       "id": "964f5fffd972"
-      },
-      {
-       "n": 19,
-       "h": "DLA 공급망 얼라이언스 행사",
-       "d": "콘퍼런스·전시회, 세부 미확인",
-       "id": "33e175c88db4"
-      },
-      {
-       "n": 14,
-       "h": "육군 준비태세 혁신 글",
-       "d": "세부 내용 미확인",
-       "id": "c02a4704bd3c"
-      },
-      {
-       "n": 16,
-       "h": "육군 군수지원 2026 가을호",
-       "d": "세부 내용 미확인",
-       "id": "62e1e6018166"
-      }
-     ]
-    },
-    {
-     "g": 5,
-     "title": "SW·AI 보안",
-     "sub": "무기체계 공급망 보안 경고",
-     "items": [
-      {
-       "n": 22,
        "h": "NATO, 무기 백도어 경고",
-       "d": "공급망 전 단계 보안 필요 강조",
+       "d": "공급망 전 단계 보안 필요",
        "id": "7f9da76657da"
       },
       {
-       "n": 21,
-       "h": "라운드버드 AI SW 공급망 보안",
-       "d": "소프트웨이브 2026서 플랫폼 공개",
-       "id": "29f818766033"
+       "n": 12,
+       "h": "Exiger ICBM 공급망 계약",
+       "d": "공급망 가시화·방산기반 분석 지원",
+       "id": "ce598eebcad6"
       },
       {
-       "n": 24,
-       "h": "쿤텍 AI 보안 연구 강화",
-       "d": "모델 학습·공급망 검증 자체 수행",
-       "id": "23f536b956fb"
-      },
-      {
-       "n": 23,
-       "h": "새솔테크 AI 드론 보안 개발",
-       "d": "국방벤처 지원사업 선정",
-       "id": "15e3fdb3b41c"
-      }
-     ]
-    },
-    {
-     "g": 6,
-     "title": "공급망·동맹 협력",
-     "sub": "수출통제·유럽 협력 재편",
-     "items": [
-      {
-       "n": 25,
+       "n": 16,
        "h": "美 수출통제, 전력반도체 영향",
        "d": "국산화·수요 연계 시급",
        "id": "d81118659237"
       },
       {
-       "n": 27,
-       "h": "EU CARD 협력 우선순위 8개",
-       "d": "순항미사일~유럽 국방 클라우드",
-       "id": "d5a4ad1bc837"
+       "n": 14,
+       "h": "라운드버드 SW 공급망 보안",
+       "d": "AI 기반 플랫폼, 소프트웨이브 공개",
+       "id": "29f818766033"
       },
       {
-       "n": 28,
-       "h": "EU 장관, 협력 8건 승인",
-       "d": "순항미사일~보안 국방 클라우드",
-       "id": "a0e7703968df"
+       "n": 15,
+       "h": "쿤텍 DGX B300 AI 보안",
+       "d": "모델 학습·공급망 검증 자체 수행",
+       "id": "23f536b956fb"
+      }
+     ]
+    },
+    {
+     "g": 6,
+     "title": "군수지원",
+     "sub": "육군 군수지원 현대화",
+     "items": [
+      {
+       "n": 17,
+       "h": "GDLS Stryker 후속지원",
+       "d": "3억 3,300만 달러 육군 계약",
+       "id": "9c54f9b073cc"
       },
       {
-       "n": 26,
-       "h": "英 장관, 호위함 美 생산 주장",
-       "d": "영국 설계 도입·미국 내 생산 제안",
-       "id": "a4887a2db484"
+       "n": 20,
+       "h": "Letterkenny 방공 지원",
+       "d": "쿠웨이트 방공체계 지속 지원",
+       "id": "2a6ebca3d597"
+      },
+      {
+       "n": 18,
+       "h": "육군 군수지원 현대화",
+       "d": "전투력 투사·살상력 유지 기고",
+       "id": "0c1ae8649ed9"
+      },
+      {
+       "n": 19,
+       "h": "Meridian 전환 서지",
+       "d": "차세대 육군 군수지원 방향 기고",
+       "id": "d9d764fed5d2"
+      },
+      {
+       "n": 21,
+       "h": "육군 군수지원 2026 가을호",
+       "d": "제목 외 세부 내용 미확인",
+       "id": "62e1e6018166"
       }
      ]
     }
    ],
    "imps": [
     {
-     "t": "가동률 선행 예측",
-     "d": "FMC 하락 추세 조기 탐지 필요"
+     "t": "민·군 정비 데이터 연계",
+     "d": "민간 MRO 확대에 맞춘 정비이력 통합 필요"
     },
     {
-     "t": "재고 가시성 확보",
-     "d": "DLA 재고 준비태세 검토 벤치마킹"
+     "t": "부품 가시성 확보",
+     "d": "F-35 부품 사각지대 사례, 재고·소요 가시화 시급"
     },
     {
-     "t": "민·군 정비인력 연계",
-     "d": "MRO 협력 확대에 맞춘 인력 예측"
+     "t": "가동률·인력 예측",
+     "d": "FMC 하락·정비센터 확대, 인력 수요 예측 연계"
     },
     {
-     "t": "SW 공급망 신뢰도",
-     "d": "무기체계 SW 백도어 위험 점검 필요"
+     "t": "SW 공급망 보안",
+     "d": "NATO 백도어 경고, 정보체계 SW 검증 필요"
     }
    ],
-   "h": "0a0bc12633",
-   "at": "2026-11-20 12:01"
+   "h": "74af94bd38",
+   "at": "2026-11-21 02:19"
   },
   "cmp": {
    "prev": "2026-W46",
    "prev_label": "2026년 46주차(11.9~11.15)",
-   "n": 79,
+   "n": 93,
    "pn": 116,
-   "d": -37,
-   "pct": -32,
+   "d": -23,
+   "pct": -20,
    "regions": [
     {
      "k": "us",
-     "now": 48,
+     "now": 60,
      "prev": 64,
-     "d": -16
+     "d": -4
     },
     {
      "k": "kr",
-     "now": 26,
+     "now": 28,
      "prev": 43,
-     "d": -17
+     "d": -15
     },
     {
      "k": "eu",
@@ -4971,35 +5188,35 @@
    "domains": [
     {
      "k": "wpn",
-     "now": 60,
+     "now": 70,
      "prev": 87,
-     "d": -27
+     "d": -17
     },
     {
      "k": "lis",
-     "now": 9,
+     "now": 10,
      "prev": 13,
-     "d": -4
+     "d": -3
     },
     {
      "k": "fcst",
-     "now": 7,
+     "now": 8,
      "prev": 16,
-     "d": -9
+     "d": -8
     }
    ],
    "kinds": [
     {
      "k": "contract",
-     "now": 51,
+     "now": 61,
      "prev": 62,
-     "d": -11
+     "d": -1
     },
     {
      "k": "news",
-     "now": 27,
+     "now": 31,
      "prev": 45,
-     "d": -18
+     "d": -14
     },
     {
      "k": "policy",
@@ -5009,31 +5226,27 @@
     }
    ],
    "new_kw": [
+    "자율주행 보급",
     "국산화",
-    "수요예측",
-    "성과기반군수지원"
+    "수요예측"
    ],
    "up_kw": [
     [
      "공급망",
-     4
+     5
     ]
    ],
    "down_kw": [
     [
      "가동률·준비태세",
-     10
+     5
     ],
     [
      "MRO",
-     6
+     5
     ],
     [
      "AI",
-     3
-    ],
-    [
-     "신뢰도·가용도",
      3
     ],
     [
@@ -5044,7 +5257,7 @@
    "themes": [
     {
      "streak": 2,
-     "prev": "조직·투자"
+     "prev": "한화·육군 K-MRO"
     },
     {
      "streak": 1,
@@ -5069,37 +5282,41 @@
    ]
   },
   "flow": {
-   "h": "fd501027a3",
-   "ov": "이번 주는 국내외 MRO 수주·거점 확대와 미 육군·해군의 지속지원 계약이 이어졌고, GAO와 국방부 IG가 탄약 부족과 준비태세 압박을 지적했다. 지난주 재고 데이터 신뢰 쟁점에서 벗어나, NATO 백도어 경고와 수출통제로 공급망 보안·부품 조달이 주요 쟁점이 됐다.",
+   "h": "dbdac0639f",
+   "ov": "이번 주는 MRO·정비 수주와 협력(HD현대중공업, LIG D&A, 한화에어로)이 국내외에서 이어졌고, 미군 즉응태세·부품 가시성 우려도 계속됐다. 지난주 F-35 부품 추적 문제가 재고 신뢰 쟁점이었다면, 이번 주는 공급망·SW 보안과 탄약 부족 등 지속지원 전반으로 논의가 넓어졌다.",
    "flows": [
     {
-     "t": "MRO 민·군 협력 확대",
-     "d": "LIG D&A-공군 협력, 한화에어로 육군 동부 정비센터, HD현대중공업의 美 해군 MRO 4번째 수주가 이어짐",
+     "t": "MRO 거점·수주 확대",
+     "d": "HD현대중공업 美 함정 MRO 4번째 수주, 한화에어로 육군 K-MRO 동부 정비센터, LIG D&A 공군 협력.",
      "dir": "확대"
     },
     {
-     "t": "미군 지속지원·준비태세 압박",
-     "d": "F-35·Stryker 지속지원 계약과 Letterkenny 정비가 이어지는 가운데, 탄약 부족과 육군 준비태세 저하가 지적됨",
+     "t": "부품 가시성·즉응태세",
+     "d": "F-35 부품 사각지대, 항공 사고 증가, 우크라 지원에 따른 육군 즉응태세 부담 등 지속지원 우려가 이어짐.",
      "dir": "지속"
     },
     {
-     "t": "공급망 보안·조달 리스크",
-     "d": "NATO 백도어 경고, SW 공급망 보안 플랫폼 공개, 전력반도체 수출통제 영향이 부각됨",
-     "dir": "전환"
+     "t": "공급망·SW 보안 부상",
+     "d": "AI SW 공급망 보안 플랫폼, NATO 무기 백도어 경고, 수출통제 속 전력반도체 공급망 이슈가 부각됨.",
+     "dir": "신규"
     }
    ],
    "tech": [
     {
      "id": "T-CY-69-1",
-     "why": "NATO 무기 백도어 경고와 SW 공급망 보안 플랫폼 공개가 공급망 보안 기술과 직결"
+     "why": "NATO 백도어 경고와 AI SW 공급망 보안 플랫폼 공개가 직접 연계"
     },
     {
-     "id": "T-MAT-50-1",
-     "why": "미국 수출통제로 전력반도체 공급망 위험이 커져 SiC 국산화 필요성이 제기됨"
+     "id": "T-AI-6-3",
+     "why": "F-35 부품 가시성 문제와 군수 의사결정 지원 필요성이 연계"
+    },
+    {
+     "id": "T-AI-6-1",
+     "why": "항공 즉응률 저하와 정비·지속지원 계약 확대가 예지정비 수요와 연계"
     }
    ],
    "tasks": [],
-   "at": "2026-11-20 12:02"
+   "at": "2026-11-21 02:20"
   }
  }
 }
