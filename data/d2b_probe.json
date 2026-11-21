@@ -1,5 +1,5 @@
 {
- "at": "2026-11-21 11:48",
+ "at": "2026-11-22 01:24",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -24,35 +24,33 @@
      "spcifyPrcureAt": "N"
     },
     {
-     "beffatStndrdOthbcAt": "공개",
+     "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "298552136807",
-     "cntrctMth": "수의계약",
-     "dcsNo": "5101P",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "49329",
      "demandYear": "2026",
-     "excutTy": "제조",
+     "excutTy": "구매",
      "orderPrearngeMt": "202612",
-     "ornt": "우주지휘통신총괄계약팀",
-     "orntCode": "ERA",
+     "ornt": "제9965부대",
+     "orntCode": "MDR",
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "TICN Block Ⅰ-②(TMMR) 후속양산 2차",
+     "reprsntPrdlstNm": "'27년 000부대 삼겹살 등 98품목",
      "spcifyPrcureAt": "N"
     },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "20836200",
      "cntrctMth": "제한경쟁",
-     "dcsNo": "49252",
+     "dcsNo": "49333",
      "demandYear": "2026",
-     "excutTy": "용역",
+     "excutTy": "구매",
      "orderPrearngeMt": "202612",
-     "ornt": "육군본부",
-     "orntCode": "LCG",
-     "progrsSttus": "공고중",
-     "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "26-육-312 '27년 방사선 피폭선량 측정 위탁용역",
+     "ornt": "제9965부대",
+     "orntCode": "MDR",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "'27년 000부대 계란 등 135품목",
      "spcifyPrcureAt": "N"
     }
    ]

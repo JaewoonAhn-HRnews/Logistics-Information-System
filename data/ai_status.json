@@ -1,10 +1,10 @@
 {
- "checked": "2026-11-21 11:48",
+ "checked": "2026-11-22 01:24",
  "has_key": true,
  "key_kind": "sk-ant-usr…",
  "model": "claude-sonnet-5-5",
  "ok": true,
  "calls_ok": 8,
- "calls_fail": 2,
- "last_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 971 (char 970)"
+ "calls_fail": 0,
+ "last_err": ""
 }
