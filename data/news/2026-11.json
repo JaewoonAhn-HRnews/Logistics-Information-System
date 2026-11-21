@@ -2,6 +2,85 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "d69ded5772b2",
+   "date": "2026-11-21",
+   "ts": "2026-11-21T11:47",
+   "title": "[조달계획] (26육-해50)한빛 26-3차 재보급 정비재료 구매",
+   "source": "국방전자조달(D2B) · 종합보급창",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 종합보급창 · 구매 · 수의계약 · 발주예정 2026.11 · 계약완료 · 판단번호 47954",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "log",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "8f4949ad2669",
+   "date": "2026-11-21",
+   "ts": "2026-11-21T03:25",
+   "title": "GAO calls for broad munitions plan, better data management from Pentagon",
+   "source": "DefenseScoop",
+   "url": "https://defensescoop.com/2026/11/20/gao-pentagon-munitions-plan-data-management/",
+   "lang": "en",
+   "summary": "Solving munitions shortages will be difficult without an overarching plan, authorities and better inventory oversight, a Government Accountability Office report warns. The post GAO calls for broad munitions plan, better data management from Pentagon appeared first on DefenseScoop .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defensescoop",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts",
+    "policy"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
+   "kind": "policy",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "5357558a3437",
    "date": "2026-11-21",
    "ts": "2026-11-21T02:17",
@@ -155,6 +234,91 @@
     "src": "C",
     "lv": "중간",
     "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "6f0b4588e35e",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T16:49",
+   "title": "KAI, AI 기반 통합 군수 플랫폼 구축…무기 가동률 높인다",
+   "source": "쿠키뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmUVpPeXZuempkN3pBTGczYnAzTEFNYzh0WEhaNnNFVm9rd010QUNuT3g2WVlFTHRMLUtJN0FHNU5CQXJWMHJvMFU0YWMzZjR0SzM0MnhBanhZUHFMS3U3SFRGWQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "군수정보체계",
+   "cats": [
+    "sys",
+    "ai",
+    "ram"
+   ],
+   "kw": [
+    "AI",
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "KAI"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 6.0
+   }
+  },
+  {
+   "id": "b205c883761d",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T16:00",
+   "title": "Virtualitics' awarded enterprise readiness super intelligence (SI) contract to scale munitions planning solution across the United States Air Force globally",
+   "source": "Defense and Munitions",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOQnR6MTMzOGZZTnJqMnFiUXpiS3lzRlhfLTN0aWJnLWI1TlNNdFpiY25RVUdIaDctZF9fU2hJWjI0V18zQ0Vnc2Z5dVFWSGJTRndfMUVLeUxEQmpZRUw5SlJha2t3MElDblRSZG5LZXFoLWtrbEo3N0JlTjB6aDJSXzByd3BaUExQQmNQSFF2d0RDZjFxbUU5X3VYSGpYMXJ2VExmakt4YUpHNm10WHlMQ1czSTVheUE2VTNINFo0OW5Ec0s0TU5iY1FkQXJFcFdEdVp0QjlSUXIwdHBXS1hVNDV5anBsTzdZa2xLVkZoNV9Rd0ZzQnEtSWI0cVIxamE0clptYXd2Zmd1SEdHblR6MEFwLXlkaDEzb21Z?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3,
     "dh": 1,
     "rel": 4.0
    }
@@ -314,16 +478,21 @@
    }
   },
   {
-   "id": "763f7fd05cd4",
+   "id": "688c488c4922",
    "date": "2026-11-20",
-   "ts": "2026-11-20T11:12",
-   "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주…내년 1월 울산서 정비",
-   "source": "뉴스퀘스트",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfb0ZXOFNTXzlJeE1keWJIdWVQbWlodlhsbXR5Rkd4eU10ck9lQmhhOGFSWTkzMkJGQ1ZmSzBHOXJ2QXJFMkFyOWxmckx1UldjVnFtRnhUaWp4T1JEQTN4NFlULVJ1MGNUQzl2Ulp6bw?oc=5",
+   "ts": "2026-11-20T11:05",
+   "title": "HD현대중, 美 해군 함정 MRO 4번째 수주…4만t급 보급함 정비",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vZHk3UTdvU1JLcEN1Z0lKRDlWcTYtaW1iOXVRQ3pGdlFQTmVsTGVlR0lVblhtY3NaSm1tdXlOZ3hQQURLanBvbG1ISlJNb3MyU0YyaENGRzBKd0XSAWBBVV95cUxNMFJ6allFQnE3dEtQYlgxNFFrbGZYUmEtbk1RaFdrZHZrazNxSXpmb0QzQ21KcF91a2gxdGtlT1N5aDluZWgwX2h2QW1lSE1Yd2JfWVJBWDRKX1dGTWJzdXU?oc=5",
    "lang": "ko",
    "summary": "",
    "score": 6.5,
    "also": [
+    {
+     "source": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfb0ZXOFNTXzlJeE1keWJIdWVQbWlodlhsbXR5Rkd4eU10ck9lQmhhOGFSWTkzMkJGQ1ZmSzBHOXJ2QXJFMkFyOWxmckx1UldjVnFtRnhUaWp4T1JEQTN4NFlULVJ1MGNUQzl2Ulp6bw?oc=5",
+     "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주…내년 1월 울산서 정비"
+    },
     {
      "source": "생생비즈플러스",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQUtRMldrUDI2UF9ybVV1b3F0OC0zbTM0YmZ3R1BvRDFlakUwSEhsZTNzVHd0MGplaC1zc1NwLWp0NW1qakJ2LW8xMTNyNzRHcnoxbDk5al82emU1T01HN2xfY2lPV2E4RXpBTw?oc=5",
@@ -368,6 +537,26 @@
      "source": "라디오코리아",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YQ3N2dXVmajBVRmx0SEVMbko4UFV5UjZwbHNxLUpxS0NHTVc4NFlsWUNNa1lBcDdFaGwxcnJEMlZaUHJrTDVuMlRsLW9Pck5BSHFhYmJkVy1FdlI4bWlR?oc=5",
      "title": "HD현대중, 美 해군 함정 MRO 4번째 수주…4만t급 보급함 정비"
+    },
+    {
+     "source": "울산시민신문",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81TWVlQV9peUsydnVuaWZBYzB2b2JmUW5yUkNnd3JHWHFkVGRhRkN6N3ktcHd3d29oZGlkTjRVS3RzLTNDdnlpY0R1QzZzQXphUG1JdGpyUFJiVEpVTXlaX2FGbTFKeWM?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 美 시장 입지 확대"
+    },
+    {
+     "source": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TbGNpVFBuN0hWTEZTU2t2NGw5T1RsdE1saVdBOWdYak14dHZqRHNfUUE4MEZUYjRpM25qWFgxTnBFdDFjYV9OZ1NWc25yNGNHVkVJZUNnN0pTazctRHZLZtIBeEFVX3lxTE82em5HQWNsUElYdmhYVkFkLU9JYmItMTBxU0V4Mm9YN2dBQ1JPUHBEZU00VC13bFpBSXpJVmdnLW80TG4tcERKTWdSZnVlQ1M3RU5OY25CNkM4OXdJcUpfOGNQaGRPQ3ZyQy13ZHVFM0FzMmNuTDQzTQ?oc=5",
+     "title": "HD현대중, 미 해군 함정 MRO 4번째 수주…\"입지 확대\""
+    },
+    {
+     "source": "국민뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdi1EQWxvUEVBMVpjN2NLZ2N6WW13S0dfdTE4MFM3UzlrOElzanVrOTBTVGhhdEJQNHBvenF1LWxlandaVHdZM01VY2FWdFR3TEtwRjBoS1FJbmtFeU5sVlpOWVE4Zw?oc=5",
+     "title": "자주국방 대표적 방산기업 HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
+    },
+    {
+     "source": "https://www.koreasprint.com/",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdjZVN25uOVFUbzBKSkZHa1FZeWZjNERTaUVhMlRKZkptYlRSOFNSQTlmdFVkTGlINm1rRnpCa0dJSDlfOW5PZmItVmxFbzV6Ymp3amlOT0JFZVdFR2tyVGI2c1pzRWFHZnR5Zzln?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
     }
    ],
    "origin": "rss",
@@ -376,6 +565,7 @@
    "q": "함정 MRO 한국",
    "cats": [
     "mro",
+    "log",
     "ind"
    ],
    "kw": [
@@ -394,10 +584,10 @@
    "desc_tried": true,
    "conf": {
     "src": "C",
-    "lv": "중간",
+    "lv": "높음",
     "r": 8.0,
     "dh": 4,
-    "rel": 5.0
+    "rel": 6.5
    }
   },
   {
@@ -648,6 +838,181 @@
     "r": 5,
     "dh": 0,
     "rel": 3.5
+   }
+  },
+  {
+   "id": "7acf2b048f99",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Spares Procurement Of F108 Shipping And Storage Containers",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/b6b342c55ba14388b4959384f2e4233d/view",
+   "lang": "en",
+   "summary": "Sources Sought · FD20302500037 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-12-07",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 1.0
+   }
+  },
+  {
+   "id": "4c9cc7faba61",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Radar Installation Kits, Management, Warehousing, And Delivery Of Parts/Materials Used To Overhaul Multiple Radar Antenna Systems And Fire Control Systems",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/5eeda7a2e8fd459b9451d368306d0de5/view",
+   "lang": "en",
+   "summary": "Solicitation · N0016427RLL17 · DEPT OF THE NAVY > NAVSEA · 마감 2027-01-06",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "parts",
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "43d8009d5243",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Tactical Communication Systems - Procurement, Services & Sustainment (Tcs-Pss) Call For Solutions",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/3b41a41db18d4cbfbd9e3415abac9801/view",
+   "lang": "en",
+   "summary": "Solicitation · CSO-ARMY-TCS-PSS-2027  · DEPT OF THE ARMY > AMC · 마감 2026-12-14",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "488c7bddd425",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Inod Sustainment",
+   "source": "SAM.gov · Us Special Operations Command (Ussocom)",
+   "url": "https://sam.gov/workspace/contract/opp/1f2308c83485458cb39136e8d70785f5/view",
+   "lang": "en",
+   "summary": "Sources Sought · INODS · US SPECIAL OPERATIONS COMMAND (USSOCOM) > HQ USSOCOM · 마감 2026-12-19",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
+  },
+  {
+   "id": "89fd3d2d782b",
+   "date": "2026-11-20",
+   "ts": "2026-11-20T09:00",
+   "title": "Multi-Function Support Services (Mfss) At Naval Hospital Beaufort, Marine Corps Recruit Depot Parris Island, And Marine Corps Air Station Beaufort, Sc",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/1094914dc8f940c0aae3e9346f58f34f/view",
+   "lang": "en",
+   "summary": "Presolicitation · N6945027R0001 · DEPT OF THE NAVY > NAVFAC",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "미 해병대"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 4.0
    }
   },
   {

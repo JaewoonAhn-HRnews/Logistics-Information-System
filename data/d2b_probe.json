@@ -1,13 +1,28 @@
 {
- "at": "2026-11-21 02:17",
+ "at": "2026-11-21 11:48",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>298552136807</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>5101P</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPre",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>49313</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "49313",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "제3훈련비행단",
+     "orntCode": "HCS",
+     "progrsSttus": "조달판단중",
+     "progrsSttusCode": "19",
+     "reprsntPrdlstNm": "3훈비 공병대대 주창고 신축 집진기 제조설치",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "공개",
      "bidMth": "총액제",
@@ -38,21 +53,6 @@
      "progrsSttus": "공고중",
      "progrsSttusCode": "24",
      "reprsntPrdlstNm": "26-육-312 '27년 방사선 피폭선량 측정 위탁용역",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "cntrctMth": "2단계경쟁(동시)",
-     "dcsNo": "49244",
-     "demandYear": "2026",
-     "excutTy": "용역",
-     "orderPrearngeMt": "202612",
-     "ornt": "육군본부",
-     "orntCode": "LCG",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "26-육-304 '27년 육군지 편집디자인 용역",
      "spcifyPrcureAt": "N"
     }
    ]
