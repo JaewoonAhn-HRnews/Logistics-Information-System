@@ -114,6 +114,47 @@
    }
   },
   {
+   "id": "74ee3ec72e6b",
+   "date": "2026-11-21",
+   "ts": "2026-11-21T17:00",
+   "title": "HD현대중공업, 미 해군 군수지원함 MRO 추가 수주…미국 함정 정비시장 확대",
+   "source": "진주인터넷뉴스",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBydmFfSFNDM0lTSWszNUlRUmxodUp2eWtqUjdKQTAtRGhOalUyY21MeGtSY2hqWGxkRzAwdV95dEZ4TzZoRGJCZG9EUGxCYVJWVG1KZ0pIQnNLTms3ZndmZGVBUzB3SENMMzJiMlNJMDJwQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군",
+    "HD현대중공업"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2.0,
+    "dh": 5,
+    "rel": 5.0
+   }
+  },
+  {
    "id": "d69ded5772b2",
    "date": "2026-11-21",
    "ts": "2026-11-21T11:47",
@@ -228,6 +269,47 @@
     "r": 6.0,
     "dh": 1,
     "rel": 2.5
+   }
+  },
+  {
+   "id": "d92975980649",
+   "date": "2026-11-21",
+   "ts": "2026-11-21T00:03",
+   "title": "자주국방 대표적 방산기업 HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대",
+   "source": "국민뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdi1EQWxvUEVBMVpjN2NLZ2N6WW13S0dfdTE4MFM3UzlrOElzanVrOTBTVGhhdEJQNHBvenF1LWxlandaVHdZM01VY2FWdFR3TEtwRjBoS1FJbmtFeU5sVlpOWVE4Zw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군",
+    "HD현대중공업"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 3,
+    "rel": 5.0
    }
   },
   {
@@ -684,6 +766,11 @@
      "source": "증권경제신문",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xOV8xREt4c1V0M3dBVlBVYlhHRjZlU1c5MVlnYThUbWNjaXkwN0ZFN0NwTWwyaU1Zb2hUcnVFUXJGbkpCRzFSbl9sOWJ0Q0l5MU1jOXB5V01xa1E1OG1VYnI0Nnc2ZHpUM3ZNVHFxZTllVUnSAXZBVV95cUxOR1FVdkdqMUtRT2Q0WWQtMEpDVWx2NW0xT1h3emJMWEhDdmZVMHJDRTE0RHI0Q2twOFVUcHJqZFJUS0t3NUxZLU0xRjFMUUxRWXM3RjVmTUhMaWhuWEZmVEJ3dXQ1RWNzc09VOVdiOXFLbzd6Sktn?oc=5",
      "title": "HD현대重, 미 해군 '월리 쉬라함' 정비 수주···4번째 MRO 쾌거"
+    },
+    {
+     "source": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kR0ZYamlFWWdZZ2dkSDNjcGJxb1lRaWsyaTRfV2xRYWY2aVdPQy15dFplTVJPVWtQZzRPN0ZGY0RSNVZ5cENpNWkyOG9rMkJQS09nRmM5SlhtODNXNVAtSnJJRGE?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주…美 시장 입지 확대"
     }
    ],
    "origin": "rss",
