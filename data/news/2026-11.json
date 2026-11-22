@@ -2,6 +2,42 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "358c8144fa32",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T01:39",
+   "title": "[조달계획] 26-발생기, 가스압력, 추진제식, 훈련용 외주정비",
+   "source": "국방전자조달(D2B) · 제20전투비행단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 제20전투비행단 · 용역 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 49438",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 2.5
+   }
+  },
+  {
    "id": "ec9148366dbd",
    "date": "2026-11-22",
    "ts": "2026-11-22T01:24",
@@ -281,7 +317,18 @@
    "lang": "ko",
    "summary": "",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "울산시민신문",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81TWVlQV9peUsydnVuaWZBYzB2b2JmUW5yUkNnd3JHWHFkVGRhRkN6N3ktcHd3d29oZGlkTjRVS3RzLTNDdnlpY0R1QzZzQXphUG1JdGpyUFJiVEpVTXlaX2FGbTFKeWM?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 美 시장 입지 확대"
+    },
+    {
+     "source": "sisakoreanews.kr",
+     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9IOFdEX0NrU1lTc1dNUHhjSzJZRnVRMlZrNkVNUUdrVzhiSTVvTUUxSzY0UUNVNG1LMmxQMEFnampPemcxbHc?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,
