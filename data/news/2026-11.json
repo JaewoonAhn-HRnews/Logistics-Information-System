@@ -2,6 +2,85 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "68d6657d927e",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:59",
+   "title": "Sustaining the U.S-ROK Alliance: How Yi Song Hui Supported Readiness Over Nearly Five Decades",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWVMVGhOZGZQTmhOMm9TaGdHNERhZnh2TWJCWUp2RGtnZWM0WmZ6bnVCUXRadlp6QzVoQmU1UEg2QnNlV2ZDZWY4U2taYjljRkdCRmR6N1VrQzIxTjFTY2c1OGtlZVg4UmF2dVBuaFRCZVpoOS1aLTkwTFBnTlM3WFpZYjBvUVJWWDU0R25YNFQyS3p1ZlFfd0NUR3BfSWxrcFIzVUN4QWlNZk84dXg5enY4MFNGZDBCWXQyQUhJbE1GV2o2WXI40gHMAUFVX3lxTFBsOXd2dWV6WkZ2M1VYTnlSeDhIVS03LXZzSk55VnZvb3IwY3d3cmFJelZhMlVVUkRHTkZ3UjhHcU5PVlQwc19BYnlSTEdhcWtMblE0Z291dUNES3NfZ2hadTNHRV85NlB6eDZDaWx4WFpQQ1RNNk9Jc3ZXQURzUDlEaGhfendOel95anZCWEhlN3U1UWN0Q1ZQY0dKVGs2blBDcjA3M09zN1BQTmNpcS03WUJBT1AtR01hQWRNZGswbG5MZGVBVk5JTDdDdg?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "faa5b6fb31a7",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:36",
+   "title": "해군 및 해상풍력 수요가 이끄는 해양용 자재 및 구조 부품 시장 2035년 전망",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFhUUHBaQ3A4aXBUVjM0WlplWUlFUEtPNkpPQVNTNlYwTVJzUE8wRngxRHFMX01nNUVXSXRRcTNoQldfZnJBUVFabzYwZVJIcTRzUHh6MGxtNWtadzdBaGtla0tDd19BSTU4QUdUdDRIMDd2amFrS05wTlpOQzNmRmZCMmtzTC1RRXRrcFVDemlRMS11UENoOEs2MjVQdmt4MDg3cHdLM19WYmVNbXd0M211aGxkOS1lb0pkdkFOMmtDbFM4WlhKZ1hXdGZHcUtBX0JmLW5vc2VtZw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "수리부속 수요예측",
+   "cats": [
+    "parts",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
    "id": "358c8144fa32",
    "date": "2026-11-23",
    "ts": "2026-11-23T01:39",
@@ -326,6 +405,11 @@
     {
      "source": "sisakoreanews.kr",
      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9IOFdEX0NrU1lTc1dNUHhjSzJZRnVRMlZrNkVNUUdrVzhiSTVvTUUxSzY0UUNVNG1LMmxQMEFnampPemcxbHc?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
+    },
+    {
+     "source": "https://www.sisakoreanews.kr/",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE14b1dsUzEzX3oySmN3ejhrR0owLVRGZFJMdlRvejU4S1NtRzBhY1lSNDZ2OXM4aHJfUGw4MGUyMVVFekZqM3dyX2tR?oc=5",
      "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
     }
    ],
@@ -818,6 +902,11 @@
      "source": "서울경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kR0ZYamlFWWdZZ2dkSDNjcGJxb1lRaWsyaTRfV2xRYWY2aVdPQy15dFplTVJPVWtQZzRPN0ZGY0RSNVZ5cENpNWkyOG9rMkJQS09nRmM5SlhtODNXNVAtSnJJRGE?oc=5",
      "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주…美 시장 입지 확대"
+    },
+    {
+     "source": "울산신문",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41TTBheDhjRktsS2E5cUJPOUdYODM4WGNZUF9HNHBDaXJoeUFITlVSdFNXYXlEaGNnZHpiMUVXNExPbGhzNEJiVndRT1pNMTVTM2o1a1RCY3RHMWN2bjFrVXRxQWJtYmZLUXhoODh30gFyQVVfeXFMTTZZU0lLSThKT0JocU1tLTlCckYzSXpId05DcWVMZmdpeVoyR2Zjc2FNc3lnNHdFdmp4MGJXa3E3bzY4cmJSS25tS3lZYVQ0NEdxODRqSmYzTWljR0Q0ZzJZbFhLUThtcm9Qa2VLSjBZRVhn?oc=5",
+     "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주"
     }
    ],
    "origin": "rss",

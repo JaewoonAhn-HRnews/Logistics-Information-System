@@ -1,10 +1,10 @@
 {
- "checked": "2026-11-23 01:39",
+ "checked": "2026-11-23 10:59",
  "has_key": true,
  "key_kind": "sk-ant-usr…",
  "model": "claude-sonnet-5-5",
  "ok": true,
- "calls_ok": 2,
+ "calls_ok": 4,
  "calls_fail": 0,
  "last_err": ""
 }
