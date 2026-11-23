@@ -2,6 +2,311 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "d638afb5b922",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T05:33",
+   "title": "[조달계획] 부품-15 강제전선관 등 9종 구매",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단중 · 판단번호 49617",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "4b1db6660e9d",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T22:57",
+   "title": "STM says ALKAN FPV enters Turkish security forces’ inventory with autonomous terminal guidance and fibre-optic control",
+   "source": "Defence Industry Europe",
+   "url": "https://defence-industry.eu/stm-says-alkan-fpv-enters-turkish-security-forces-inventory-with-autonomous-terminal-guidance-and-fibre-optic-control/",
+   "lang": "en",
+   "summary": "STM has delivered the first ALKAN FPV drones to Turkish security forces after completing acceptance testing, introducing its first system in the first-person-view drone category.",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defindeu",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "재고관리",
+    "유무인 복합",
+    "자율주행 보급"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "eu",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "75fe1feb5de5",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T19:53",
+   "title": "SETAF-AF will build readiness, test capabilities for how the Army fights through connected campaign in Africa",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUtpOFhYMkhwaXhPbDlVYjExWmZTOHVmdWMyQ09obVRsOXVxMklIYzJCXzFtMlNhOGZWZDFIY19sRUQtaXVzLVJ4SnZEOHh6ZDI1TWllTzlYRGhYcFlZaE92cXN4Y2VhU0w0SEpDNnk3cGN5ZUdRZ2s1Y0lERzZMQU42eU9nSTgzLU96QVVEZXI4Y1NTbzNMRl9ZSXpqZUlzQldMTkt0MkVaSEg4LXExVzlNX0VUM0lmUFNZVEloVUo3RXVZWTlULVI4WHJRVC1JV2p2bC00Y2FGS2VQ0gHiAUFVX3lxTE1iMjNZWDFpMVdMMm5yRVZLY0h0TDVvVHBIZ0diR2pTeVRPcERWem8yaXVpOGRFcjRXcWlWUWhkQU1vZUtXS3gzOGNNNFE3dnF6Qy0xcnh1c3haMGxtNF9iNUg3LW1aRTMyamVCTHV6WGVYUjl3TWhnY2xZVnA3aDdobUE5UHllb2w0Z2FUZEhwZmxWT2hWeDhvaTRQc3pIbnM1YXpOY0g0MHk0M1cyb1hHMGN3S0ZDUS1DN1ZXMzRBaFdMLUI0V0UyZjNmeE4zQzdOSDVBc0J0czlNak9xWUJwSUE?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "124f95042ccf",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T17:18",
+   "title": "경남도, 민·관·군 협력으로 함정 부품 국산화 확대",
+   "source": "https://www.sisakoreanews.kr/",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yYlRqTVpfQm1GeXBVS2YybXVDUmd0OXA0b05ndVZjak5SaDk2TWZKVlN3UWlDaWNKWUxJQVk0Zk5sbUhCRGVmelV3?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "국산화"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "331e15f0c590",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T15:02",
+   "title": "'국제 해군 군수·MRO 협력 포럼' 창원에서 개막",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55U0djcDJwVzM5dnFrQjBBWXdzQlFSQnVCNTNNaXRmWmpqTVpGN1NpNmJpOFozVGZVaVZyRE1hSy1uMlBUcmlsRUY1eGt6RDBYbW5RbkllUHR4MHhqa1hjRtIBYEFVX3lxTE55U0djcDJwVzM5dnFrQjBBWXdzQlFSQnVCNTNNaXRmWmpqTVpGN1NpNmJpOFozVGZVaVZyRE1hSy1uMlBUcmlsRUY1eGt6RDBYbW5RbkllUHR4MHhqa1hjRg?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [
+    {
+     "source": "동행미디어 시대",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zaXVEX01OZERzUlVfd0ZLYklxQzNYZlVPem5VbXZTUF9KUDJucTgxcF9SenRVYS1DZldBNk1vaURXbXRjWHZQRFFLWFVsVUhlYW5XNWZjNzFRekJHZlE?oc=5",
+     "title": "[창원 소식] 국제 해군군수 MRO협력 포럼 개최 등"
+    },
+    {
+     "source": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vVEJOOHEzMjVNMXA3ZFZiT25SSHZKVnRHdnUwZ2I2bVZESEdReXNzTUZKZlNPU3JaSFZXXzdfUVR0LUt6d2w4alZtUS0zRkpWNWRLX2h6M2VFYWpXMTRTZNIBeEFVX3lxTE9lUHpaNVExek5Qby1EalBNT3NlVVJURHRhX0dRb0tyYUVrbGFCMERIQkhFY1FKOU1OVFE2c05QRGRPa2l2c2dheExuMGE1aWd5bjBTYi1IQTktZUhOT21EdkxUN0l1NnFRTENSREhLM3NBemExcGZCTg?oc=5",
+     "title": "창원서 첫 국제 해군군수·MRO포럼 개막…14개국 700명 참가"
+    },
+    {
+     "source": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pSmFfTng2Y1FEMHlySVB1QW1fOXhPejBpeFlFcmstenhVdGZWbFpCRDBNVFFaOVduZHlBV3RqNFVZd3k4RW5qcXNuZVdfd3pEZVhxYnhvYTNFVDZNcEZGMWlmMVg3aE56VG5RS1dB?oc=5",
+     "title": "창원서 첫 국제 해군 군수·MRO 포럼 14개국 700여 명 참가"
+    },
+    {
+     "source": "뉴스클레임",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JNGt1cjFPYlYxVThxNHJyNkVIZzdTdHIyUVB0SFBIeG11SGJ2aERNVU9wXzRRalBVVnktMHBjZzlDa2Vxd3R2M1dlYUR2MXBoWXJSUEJlakIxZ25yN1VJbHN3WU5ad2FLMmRkeW9fdU7SAXRBVV95cUxNS3hmbFNrRzl5SURPSVkwRWlTbTF6Rmxibk1OZ3dNODdSY0lGaFF0bEFSVm4tVy1ZWnNIcWRPVEVkMEptcTN3S0ZSb09DeGtLQ240MzRhSDVTdHpSWm5NZnlSQlF5VTlCcFBTazlWMW1xYmpRYg?oc=5",
+     "title": "창원서 첫 국제 해군 군수 MRO 포럼 개막 14개국 참가"
+    },
+    {
+     "source": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LQ3V4OGoxUWNPU25kN2JWem81QWlzZGozb2hBYWd1RkRfYy01Y2owYS1RaXhEYUo3cVVSZV9fT2hJbHlhTmdEN2FBNmVYSG5iaW9HMkk4cTk3cmJZQngtc3FDcVpMVUVMNTAxZ2hJa9IBc0FVX3lxTE9YdGlBQ1Vwb0N0aFA0b09EczZjY3NCdUtOY1ZsbnpNMEFacG44X01pTklDbFZXeFRXblhQR1B4bzdxMDR2UmxFOThEbDhxckV3Qm9iUjVicTNzdHVpZlJoczhZOUVXMm1FSjd2VnVEZlg5TU0?oc=5",
+     "title": "국제 해군 군수 및 MRO 협력 포럼 창원서 첫 개최"
+    },
+    {
+     "source": "웹이코노미",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhY2VFWUpQSWpFZ3gxWW1WOFpZX0NjSHBGVHhBeEdPM25FaUEwS3lENzdsRjRxeWlNYzJjRzgwdW0tdWNxbTdhVW9NTjVReDlfcHhLNDBEdFpjWHdIWGt6RmNab3h6eHBwVFZvVVB0ZVNnUQ?oc=5",
+     "title": "2026 국제 해군 군수 및 MRO 협력 포럼, 창원에서 첫 개최"
+    },
+    {
+     "source": "시사코리아저널",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2SWFVOFQzRTlIdTdZSy1xTGpQcFQzNjVocXJNMVFIbGVPYjAyU1pXalhhdHpkYjduOE5hbTNSUWRUX2ZRVGhpdC1ob3VKaFRQMkpVQjJ0aEtpS1JqSkczOXljZ2MyVGl3?oc=5",
+     "title": "‘2026 국제 해군 군수 및 MRO 협력 포럼’ 창원서 첫 개최"
+    },
+    {
+     "source": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpZnNtY2RPTmpGLVpRSjhock9HOHpQdGRYcF9mMmVFVmFRY242dGJLaEVuRm1sbE1jdWY0MVI5dHpSSm9sdHA3aUtWOXJGOXRDNndDa3lyY0J3NzFfU1plZ1RxUFlJdW0wSHZEb3MtTdIBb0FVX3lxTFBpZnNtY2RPTmpGLVpRSjhock9HOHpQdGRYcF9mMmVFVmFRY242dGJLaEVuRm1sbE1jdWY0MVI5dHpSSm9sdHA3aUtWOXJGOXRDNndDa3lyY0J3NzFfU1plZ1RxUFlJdW0wSHZEb3MtTQ?oc=5",
+     "title": "창원시-해군군수사 국제 해군 군수·MRO 협력 포럼 첫 개최 - 머니투데이"
+    },
+    {
+     "source": "경남미디어",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ITlVoTXA1QUNnVG9RY3pHSzJJY1ZHcEFwT1o4WG5ZNFpFRUhqWkZDQmMtTzJyS1o2SGJ1T0RzeDJJZkt2UVpVSjZFNDdscnh4Z0thMUtFeUJhdjFLcmlZOG5ZZXliYUwyUEVN?oc=5",
+     "title": "창원서 첫 국제 해군 군수·MRO 포럼…14개국 집결"
+    },
+    {
+     "source": "www.sisakoreanews.kr",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJcXNHYlVTUHR5ODIwd1dPcHNqYnExWDduenlIYlUwQ1JOeUY1OWJsV0ptMlMtUXU0Rk9IUWhOMWo5S2xhQTJlekNXVQ?oc=5",
+     "title": "2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최 창원시-해군군수사 공동주최, 11월 23일~25일 창원 일원, 진해해군기지에서 개최"
+    },
+    {
+     "source": "더쎈뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKM1AzcUl3MXZPZFBiemFzRl83TVhQSThZQ3JIN25kS1Vwb3gxanRDOGZGb1MxUkN4aUdaaVo4Zzg5NDJMdVM5ZG9jSVdNUGRhbWZhLXI2UDRvY1B5M2pYRk1aVFFxdEY1?oc=5",
+     "title": "창원시, '2026 국제 해군 군수·MRO 협력 포럼' 첫 개최…14개국 참가"
+    },
+    {
+     "source": "한국사회복지저널",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Da2xqekZ5S0NKUExxNTVTUkRtWkhUOUdibEVmdHRSeVIyaFprd2ZyMU1OYnFQV2ZlY21VeksxRWVYUDJNMDNhYlZPZndhWGxFZ3JtaWNINU9zOVZwaWN3QmhPbmI0S3l6TmZr?oc=5",
+     "title": "창원서 23~25일 국제 해군 군수·MRO 포럼…14개국 700여 명 참여"
+    },
+    {
+     "source": "경남포스트",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVFE5aHBxSUxKWVJiOU8xSHJQNC1pV0hXcHhSUW9idDlDUGEtRWFjSUdqbTJGZHRKdW9oX0lhWUtlS0E2R3pSRWZ0bzBUQWhL?oc=5",
+     "title": "국제 해군 MRO 포럼 창원서 23일 개막"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "f671cdd817b3",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T12:45",
+   "title": "Indian Navy to upgrade Barak 1 point defence missile systems",
+   "source": "Asian Military Review",
+   "url": "https://www.asianmilitaryreview.com/2026/11/indian-navy-to-upgrade-barak-1-point-defence-missile-systems-foc/",
+   "lang": "en",
+   "summary": "The Indian Ministry of Defence (MoD) announced on 18 November 2026 that it had entered into a contract with Israel Aerospace Industries (IAI) for upgrade and obsolescence management of Barak point defence missile systems for the Indian Navy. The contract valued at INR19.76 billion (US$210 million) will entail a comprehensive upgrade of the missile system’s […] The post Indian Navy to upgrade Barak 1 point defence missile systems appeared first on",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "amr",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "parts",
+    "ind"
+   ],
+   "kw": [
+    "단종관리"
+   ],
+   "ents": [
+    "영국 국방부"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "etc",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
    "id": "68d6657d927e",
    "date": "2026-11-23",
    "ts": "2026-11-23T09:59",
@@ -78,6 +383,323 @@
     "r": 3.5,
     "dh": 1,
     "rel": 4.5
+   }
+  },
+  {
+   "id": "bb71ca5bf3e7",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "An/Tmq-53 Tactical Meteorological Observing System (Tmos) Contractor Logistics Support (Cls).",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/e816f91dd5044c65ab63e8d873667fb3/view",
+   "lang": "en",
+   "summary": "Award Notice · FA2330-27-D-B003 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 2.5
+   }
+  },
+  {
+   "id": "043e4178e2f9",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Amended Final Rfp - Landing Gear Collaborative Supply Chain Integration Ii",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/c36153ff75df40e1a9d4f2934b6e8979/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRHA1-26-R-1003 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2027-03-01",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "e8b0c589fcc7",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Area Of Interest (Aoi) 021 - Advanced Facilities, Roads, And Grounds Management And Maintenance Services, National Museum Of The United States Army, Fort Belvoir, Va (Cso W912Ch25Sc001)",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/675881e751114984b0fc78875383d5e0/view",
+   "lang": "en",
+   "summary": "Special Notice · W912CH25SC001-AoI021 · DEPT OF THE ARMY > AMC · 마감 2026-12-07",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
+   }
+  },
+  {
+   "id": "e4fd042b8394",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Usns Point Loma (T-Epf 15) Mid-Term Availability",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/638687a275f64a329cb56cc629c54056/view",
+   "lang": "en",
+   "summary": "Solicitation · N3220526R6128 · DEPT OF THE NAVY > MSC · 마감 2026-12-08",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "4971f10b00c0",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Spares Kit,Radio",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/600b02fa87ac4d2ea955edd21454a8a3/view",
+   "lang": "en",
+   "summary": "Sources Sought · SPE4A727R0154 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-11-26",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "bc75c1d907c2",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Uss Mount Whitney (Lcc-20) Mid-Term Availability (Mta)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/4f132e81875c44b98dd262bc245f9cef/view",
+   "lang": "en",
+   "summary": "Award Notice · N6817126RN006 · DEPT OF THE NAVY > NAVSUP",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "신뢰도·가용도"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 0,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "d976eb56a0b3",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Odsshi Kits And Spares",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/4dff3e4493ca4364b3a4810fb83c2438/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-27-RFPREQ-APM275-0763 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-09",
+   "score": 1.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 1.0
+   }
+  },
+  {
+   "id": "9d329c22d5aa",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Overhaul Of The Toolkit, Aircraft Maintenance",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/4d7bcafd24cd49b1becbd97cea5a13b3/view",
+   "lang": "en",
+   "summary": "Solicitation · W58RGZ27BA006 · DEPT OF THE ARMY > AMC · 마감 2026-12-22",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5,
+    "dh": 3,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "16541a3b5434",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Sprra227R0702 Patriot Spares – Lockheed Martin Sole Source",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/3164ceff11c648b58429975e41ace672/view",
+   "lang": "en",
+   "summary": "Solicitation · SPRRA227R0702 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2027-02-01",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA",
+    "Lockheed Martin"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 8.5,
+    "dh": 1,
+    "rel": 3.5
    }
   },
   {
@@ -907,6 +1529,11 @@
      "source": "울산신문",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41TTBheDhjRktsS2E5cUJPOUdYODM4WGNZUF9HNHBDaXJoeUFITlVSdFNXYXlEaGNnZHpiMUVXNExPbGhzNEJiVndRT1pNMTVTM2o1a1RCY3RHMWN2bjFrVXRxQWJtYmZLUXhoODh30gFyQVVfeXFMTTZZU0lLSThKT0JocU1tLTlCckYzSXpId05DcWVMZmdpeVoyR2Zjc2FNc3lnNHdFdmp4MGJXa3E3bzY4cmJSS25tS3lZYVQ0NEdxODRqSmYzTWljR0Q0ZzJZbFhLUThtcm9Qa2VLSjBZRVhn?oc=5",
      "title": "HD현대중공업, 美 해군 함정 MRO 4번째 수주"
+    },
+    {
+     "source": "한국신용신문",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4R0dtSEt0STBKaFVUMWprWEhFUnUxNEptMUVmTWtlOFlTYko5SXpxcHBTOFNyNHk2N1FLQ0FaMHRCSTFCdXJMS3lkUkpmX2JtQXE0RWVBOTR3VWxFb3JPVHdNUU1HM1FNSDU4?oc=5",
+     "title": "HD현대重, 美 해군 4만톤급 보급함 MRO 수주"
     }
    ],
    "origin": "rss",
