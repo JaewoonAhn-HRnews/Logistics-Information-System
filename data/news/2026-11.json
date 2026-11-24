@@ -2,6 +2,400 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "a02588973540",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T04:43",
+   "title": "[조달계획] 조달-부품-16, 컴퓨터 1종 구매",
+   "source": "국방전자조달(D2B) · 공군군수사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 공군군수사령부 · 구매 · 수의계약 · 발주예정 2026.11 · 조달판단완료 · 판단번호 50014",
+   "score": 4.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "policy",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [
+    "공군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "1f38ec2fd400",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T02:25",
+   "title": "U.S. Department of War says Canada’s air force readiness limits its NORAD role as Ottawa reviews F-35 purchase",
+   "source": "Defence Industry Europe",
+   "url": "https://defence-industry.eu/u-s-department-of-war-says-canadas-air-force-readiness-limits-its-norad-role-as-ottawa-reviews-f-35-purchase/",
+   "lang": "en",
+   "summary": "The U.S. Department of War said Canada’s ability to help defend North American airspace was constrained by aging aircraft and personnel shortages, with just 41.9% of the Royal Canadian Air Force’s fleet serviceable in 2025–26.",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defindeu",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "높음",
+    "r": 4,
+    "dh": 5,
+    "rel": 6.0
+   }
+  },
+  {
+   "id": "ad1676423e1d",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T17:12",
+   "title": "경남TP 함정 MRO 보안·방산 수출지원 기관 선정 - 머니투데이",
+   "source": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8yb0tfSlZ0TUliSVlhZkNiVTdiM2RBZzBKQkFYLS1YS3lTUndCSjZsdm04OGN0VkNjWWVkU19sRWM0RVFQVWdSVFFsUGZFS01DdVlMMjR0ckp5Y3FRRkZfZWZlQ1JOQnlvaTREa3Jud9IBb0FVX3lxTE8yb0tfSlZ0TUliSVlhZkNiVTdiM2RBZzBKQkFYLS1YS3lTUndCSjZsdm04OGN0VkNjWWVkU19sRWM0RVFQVWdSVFFsUGZFS01DdVlMMjR0ckp5Y3FRRkZfZWZlQ1JOQnlvaTREa3Judw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [
+    {
+     "source": "영남신문",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96b1ZJSXRxTUFtY01wUFUzaGFfQnV6YWw4WTd5RWoxSnJTVkIyMDhiQXd2VVJLSFJxRTRFRWJtOVp2MlY2N3FOSzhGZmdjNVhzbzd6NjQxenhvamhPOVh2bFhRamowX1gtSWVtZS13?oc=5",
+     "title": "경남TP, 함정 MRO 보안 및 방산 수출지원 등 사업 수행기관 선정"
+    },
+    {
+     "source": "더쎈뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83YmlmTjd2V2QxUEo3Umd5MWtkcWROSUoyc1Rib2VFSlhfSmIwUFBOODJxTVB2NnJ2VUliOGlEV213ajJINXZ1dWYzdVM5eXlUS3A3YzNjcmVNWDhabkpiNWdzRXRIUk4z?oc=5",
+     "title": "경남TP, 함정 MRO·방산 수출지원 사업 주관기관 선정…국비 38억 원"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 3,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "ce344fbf3c63",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T17:03",
+   "title": "아쎄따, 제5군수지원여단과 업무협약··· 장병 드론 교육·MRO·야전 실증 협력",
+   "source": "전라일보",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ic3VCVTMxWFJJOEFXQzFwTURYRnNDbnZULUdKbVhPUHhac29oSTF3bmVqRl8zOUZUUGVyZ2JQZnJ0ZHc0aUxNTXNQcGpJR2sxVlVmZG5vUzVVX2dzbjl4NElqeUVJWHhEMGN4TFIxakPSAXBBVV95cUxNSHN1QlUzMVhSSThBV0MxcE1EWEZzQ252VC1HSm1YT1B4WnNvaEkxd25lakZfMzlGVFBlcmdiUGZydGR3NGlMTU1zUHBqSUdrMVZVZmRub1M1VV9nc245eDRJanlFSVh4RDBjeExSMWpD?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO",
+    "유무인 복합"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 2,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "f067d847525f",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T16:00",
+   "title": "[기고] 미래차 주도권, 피지컬 AI와 부품 생태계 확장에 달렸다",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFByN1ZBYi1Kd3h1QnhRV2J3YkpoLVd6NUk4TWlvSnI1RGhuSlVpLU5ERlBjZkYxYkxlM3lodm5GRlhpVEJvZmdfeHNlbkcwQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "ai",
+    "parts"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "2270b8227078",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T09:00",
+   "title": "Mq-25 Boa Readiness And Sustainment Support",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/f59c8e359b8946768a3753685dfcf072/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-21-RFPREQ-WPM268-0056 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-09",
+   "score": 6.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "높음",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 6.5
+   }
+  },
+  {
+   "id": "0ff651e04050",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T09:00",
+   "title": "Commercial Solutions Offering  - 9Af (Afcent)/A4 Integrated Commercial E-Commerce And Supply Chain Solution Area Of Interest",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/c8d8d0bf33b742b9a3ca70d48b2d7c44/view",
+   "lang": "en",
+   "summary": "Solicitation · FA4890-CSO-9AF-AoI · DEPT OF THE AIR FORCE > AIR COMBAT COMMAND · 마감 2026-12-30",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "e217c1c85642",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T09:00",
+   "title": "Spe4A727R0151 - 1660 - Part Kit, Overhaul, Converter / Wsic F",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/b4c544d53e4a424999b72ae16104485c/view",
+   "lang": "en",
+   "summary": "Sources Sought · SPE4A727R0151 · DEFENSE LOGISTICS AGENCY > DLA AVIATION · 마감 2026-12-01",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 5.5
+   }
+  },
+  {
+   "id": "266ccaa4f8b2",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T09:00",
+   "title": "Progressive Design-Build - Sustainment, Restoration And Modernization (Srm) Campaign For Blanchfield Army Community Hospital (Bach) At Fort Campbell, Kentucky",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/b28710960b89480dbf11daa74aad5472/view",
+   "lang": "en",
+   "summary": "Special Notice · W9127827QA004 · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-10",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "87feef0c2c9d",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T09:00",
+   "title": "Th-73 Aircraft Maintenance And Contractor Logistics Support (Cls)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/2e40082361a84d0cbfca108ba941d1b7/view",
+   "lang": "en",
+   "summary": "Sources Sought · N00421-26-RFPREQ-TPM273-0344 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-22",
+   "score": 4.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "794cd1acfc1f",
    "date": "2026-11-24",
    "ts": "2026-11-24T08:40",
@@ -197,6 +591,43 @@
    }
   },
   {
+   "id": "8686715784b0",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T23:53",
+   "title": "경남도, K-방산에 8200억 수혈…함정 국산화·무장애 관광도 속도",
+   "source": "인더스트리뉴스",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sd0R3TXlqbzhMTlQ5T0YtVnVFd2llMzRUZms1blNfenZQVDc2MUpIclR6RW1MVGJGbzBvdFItZFAzT3B6R0Qxd0EtTFdBTlJ4S0dOVEg2LVB6eGRpMWVnbnpmLTk2My12ZjVwQ2VCVEJ2Zw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "국산화"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "4b1db6660e9d",
    "date": "2026-11-23",
    "ts": "2026-11-23T22:57",
@@ -232,6 +663,45 @@
     "src": "B",
     "lv": "낮음",
     "r": 0.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "fe78c30f8f32",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T21:16",
+   "title": "Silent Crisis Hits Israeli Military Amid Iran Conflict Readiness",
+   "source": "وردنا",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaExWYTh2b05TTVBrbHlUaDh0cnBVZGNlRHdGN1BMbHh0TDFzZFhWOHhBTTVnOWVfLU1OZnlDRzJnQ0Y4M3hlcnhVMm1GaW01WnB2OWs5RzBlN0hzZzFnd04tVVRiLVJBc3hlbjNFRlpsWHM3WGxTM180MGNpNGlOQ05CVWVRV2ZCTXZvZWFrbWFaMWFaX1FNSHhLRk50YVU3Z1pEbk01OEF0bnJZ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2,
     "dh": 1,
     "rel": 4.0
    }
@@ -551,6 +1021,16 @@
      "source": "www.gukjenews.com",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkVHVZWHJzN0M2NjhPci1hWFRoWE9TMFFuVDNpMlU1bkFQV2RDNFVZaHcycjBSa0EydDZ2eVdEUTczMTFpWGNHVWhjRS1iQjNVeGw4bXAwblZHUDJJX1JhY011NFBVWFlVYnRSWUl3?oc=5",
      "title": "창원·해군군수사 공동 주최, 첫 국제 해군 군수·MRO 포럼 개막"
+    },
+    {
+     "source": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TcDd0ek5DV0pwMHJnX0xiTWg0RkZzaVJfQ2FINmZCNjZQX1MyaWZZOHhWVmxtOXVDNFVHVUtkaWsyWi13THc2OXRHR0lIb2t0U1U0TGZucEU5bGllWEdsR1d4YWhPZEF0X00tRXJtRnI?oc=5",
+     "title": "창원서 첫 국제 해군 군수·MRO 협력 포럼…14개국 700여 명 참석"
+    },
+    {
+     "source": "시사우리신문",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aUFY5MWZERk1rVHBtak5IeUtVRzdPbm9XdzRQUEZHME5XUzQzVmdEeWdkN3l0dXluQVF3ZlU4cmQzLTlZYzlVSXduRXVMUGZVQkE?oc=5",
+     "title": "‘2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최"
     }
    ],
    "origin": "rss",
@@ -1049,6 +1529,45 @@
     "r": 5,
     "dh": 0,
     "rel": 2.5
+   }
+  },
+  {
+   "id": "ba1f2d289fe1",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T05:00",
+   "title": "육군, 25㎏ 이하 드론 표준 플랫폼 개발 착수…신속·대량 도입 박차",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hVnZRMUVibjFfMy1JUjNqZHk5T1dtYThLYnZoS1lZYUhOdUVaeXAwSHpTN2hrelBuZXk1cTByMm4tYXJVa3lqQVBVMmo4QkpNWXRXaWNRbXlOZkpUTl95MWlhTGRFWEk?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "krit",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "유무인 복합"
+   ],
+   "ents": [
+    "육군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 3.0
    }
   },
   {

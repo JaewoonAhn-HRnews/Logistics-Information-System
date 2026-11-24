@@ -1,13 +1,29 @@
 {
- "at": "2026-11-24 14:31",
+ "at": "2026-11-25 04:43",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><cntrctMth>제한경쟁</cntrctMth><dcsNo>47866</dcsNo><demandYear>2026</demandYear><excutTy>용역</excutTy><orderPrearngeMt>202612</orderPrearngeMt><ornt>",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><beffatStndrdOthbcAt>미공개</beffatStndrdOthbcAt><bidMth>총액제</bidMth><budgetAmount>14591240000</budgetAmount><cntrctMth>수의계약</cntrctMth><dcsNo>0540</dcsNo><demandYear>2026</demandYear><excutTy>제조</excutTy><orderPr",
    "sample": [
+    {
+     "beffatStndrdOthbcAt": "미공개",
+     "bidMth": "총액제",
+     "budgetAmount": "14591240000",
+     "cntrctMth": "수의계약",
+     "dcsNo": "0540",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "기동총괄계약팀",
+     "orntCode": "EKA",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
+     "reprsntPrdlstNm": "(장개차용)변속장치 및 최종구동장치 조립체",
+     "spcifyPrcureAt": "N"
+    },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
@@ -36,22 +52,6 @@
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
      "reprsntPrdlstNm": "호송용 가스발사총 구매",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "단가제",
-     "budgetAmount": "3259778183",
-     "cntrctMth": "일반경쟁",
-     "dcsNo": "49941",
-     "demandYear": "2026",
-     "excutTy": "구매",
-     "orderPrearngeMt": "202612",
-     "ornt": "제1군수지원사령부",
-     "orntCode": "LGP",
-     "progrsSttus": "공고중",
-     "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "27-1차 빵류 다수품목 납품",
      "spcifyPrcureAt": "N"
     }
    ]
