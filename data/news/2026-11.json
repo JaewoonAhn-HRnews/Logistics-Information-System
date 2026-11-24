@@ -2,6 +2,85 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "794cd1acfc1f",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T08:40",
+   "title": "K-함정 수출 넘어 MRO 시장까지…14개국 해군 창원에 집결",
+   "source": "해사신문",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nWWJOYnA5MnBtZXRkc1V1a3NKc3JBYzVfQm5HTGRvWGp5cjlEQk9qVlhCM1kydzVRamlmWVdDcG10VTN1MEpxb1dnUExWVjF1RC03VzNUUDVMTWZseWVHRTBvaTVOSU84ek4w?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 3,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "4bbaf247a07e",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T05:59",
+   "title": "Labor Dispute at Weapons Site Threatens Royal Navy Submarines' Readiness",
+   "source": "The Maritime Executive",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaklTLURxVkhrd1hMam5ld2JzbWZEeURlWVFOeG5FNE9acHJXQnoxRno5ZDI2amd2aFRFdGl1akx1LS1zdXQ1U2FEZ2VLS0hKekg5d2JQVG1yQktxY0Z0V3V5S2U1aUotb0tuZkUzdDZvaEdPWV8tNzZQX1FfbXg5bWpkLWp4cXowR2FtWjVUSTcwdkRqVmxUN1l6dnB6ZWFoa2pNN3p5RTlPMzA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Navy readiness maintenance AI ships",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "d638afb5b922",
    "date": "2026-11-24",
    "ts": "2026-11-24T05:33",
@@ -42,6 +121,82 @@
    }
   },
   {
+   "id": "fd752439d2b3",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T04:52",
+   "title": "2-20 Field Artillery Accelerates Readiness with Compressed Table XV Qualification",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaS1SRG9KT2EwWmlPNHV2bzVzNm5BVnV6bV9fS2dZVlBUR3NyM3lVaTZLTXd0SjVEVzRVWEE5UmZybTFTNDg1QXBpbGlmV2pPbG5XLWRVazdyWXd5S01LUTluSVI4X29qbU9KemY1OWhBYjkyYWE3YkQtX2xuYlNqMzlxZk9wUkQ0eUtjWUZzdWl0ejdONHA0Wnl6RkpmNkkzVzVuZDB2OWxudENiV2RMaS10MVY4ZGQx0gG-AUFVX3lxTFBLdkhDODVfc1pHS1dDQ3lfWXU5Z0dfYVdNZ2h5NnhDOXRUcnk2T2lLLW5MTzJPcHN2dFZ2TFYwOEpwbUtEc25SbkxUdkJwc2VGUkl0QUwzZ28yNHZOcFhSTEZORzFjSE00My04X1YxTHRmRzhDY0t6WEJyb0V5S0N5R1RzWnpxUWJ4akJQZXJzb1ZTVW16VkthVlRLaUNORHdTTjV0cE1kWllzT01ZVEFkeW10NkJacGtrYUNZRGc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "a27cc9fe80a1",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T01:47",
+   "title": "US Army, partner nations converge at Fort Bragg for first Partnered Sustainment Conference - Americas",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSnNVY3hseFZjTGY5T2Z0VURPSUlkcE54akI1TUZaTHQ5bkxwcWgwaEp0aGZEblBnOV9QUC1kV0pkdUg1dDlaOUpJanNOTGJFaFFQcFEwbVhfYWZOVUJORnIyZXoxMjJuUG45WGZLWU9RXzJobXRRQlRzZERtNUlUWFdZTWNjVHh2NGlOMjl4Uk9fOEVqTjFhbGhFR0Z6dE1DaFpaMkNkRFhHUHk5UmxsajgxaVVKSXJuRk1RWVg3NnlpWTdvZW5sb1p0MHhHdUXSAdQBQVVfeXFMTlFIX0JLVVhDcWNvNzFXVjBPOGJRNDhyT21TWTRZRHd2YTJoWEhMQzhHbVduS0UzdE5nQ1daYkgxc3Q4WlVXZUNFRUtiMFNTX29qenRkT18zbVdqb3daQmxtVXpWUWRBNVJRWWFfQTVVZ1B4V1hVMTNXRHdpU0YtZUl6R0ZCZ1J4UUdSd1FpYXBmb0s2STNfRmdLR3lTTXVpbWpJYTl6aGlWSExIM0lGNERtQjFjSHVjUjU0a1N3WnRyV2YyVGhESk9QOVpkZ1Rha3lIU3Q?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
    "id": "4b1db6660e9d",
    "date": "2026-11-23",
    "ts": "2026-11-23T22:57",
@@ -79,6 +234,45 @@
     "r": 0.5,
     "dh": 1,
     "rel": 4.0
+   }
+  },
+  {
+   "id": "97ddd2a802ac",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T19:56",
+   "title": "'2026 국제 해군 군수 및 유지·보수·정비(MRO) 협력 포럼' 개막.....세계 14개국 유관기관 관계자 등 700여 명 참석",
+   "source": "정경시사 FOCUS",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41ZlhGMi1lSTY3LVNwcU4tYnVDbUNvekU4SDNZa0M0S3M2Z3ByZmZuNG41SE9xczAwZDFWU0JsZ0xvYlRtVFIydjJ3dWw4TlpGRGtzTXoxNmVLZTRVTVYtZGFVS1IxTHNS?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 3,
+    "rel": 5.0
    }
   },
   {
@@ -161,21 +355,108 @@
    }
   },
   {
-   "id": "331e15f0c590",
+   "id": "1134ba33104c",
    "date": "2026-11-23",
-   "ts": "2026-11-23T15:02",
-   "title": "'국제 해군 군수·MRO 협력 포럼' 창원에서 개막",
-   "source": "연합뉴스",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55U0djcDJwVzM5dnFrQjBBWXdzQlFSQnVCNTNNaXRmWmpqTVpGN1NpNmJpOFozVGZVaVZyRE1hSy1uMlBUcmlsRUY1eGt6RDBYbW5RbkllUHR4MHhqa1hjRtIBYEFVX3lxTE55U0djcDJwVzM5dnFrQjBBWXdzQlFSQnVCNTNNaXRmWmpqTVpGN1NpNmJpOFozVGZVaVZyRE1hSy1uMlBUcmlsRUY1eGt6RDBYbW5RbkllUHR4MHhqa1hjRg?oc=5",
+   "ts": "2026-11-23T16:52",
+   "title": "경남도, 해군과 함정 부품 국산화 교류회 23일 창원서 개최",
+   "source": "경남포스트",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2NEpNNndIWktCbm4tZlhEdTN0NGJ4V2hiSllRalp0N0g4ckNzbGNrRzE0VmdObXlDNUtJMWNQVDhFY3doUUxWNkJZT1o1cXl0?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "군수사령부 AI",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "국산화"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "914811dce6c1",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T16:01",
+   "title": "2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최 창원시-해군군수사 공동주최, 11월 23일~25일 창원 일원, 진해해군기지에서 개최",
+   "source": "www.sisakoreanews.kr",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJcXNHYlVTUHR5ODIwd1dPcHNqYnExWDduenlIYlUwQ1JOeUY1OWJsV0ptMlMtUXU0Rk9IUWhOMWo5S2xhQTJlekNXVQ?oc=5",
    "lang": "ko",
    "summary": "",
    "score": 5.0,
    "also": [
     {
-     "source": "동행미디어 시대",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zaXVEX01OZERzUlVfd0ZLYklxQzNYZlVPem5VbXZTUF9KUDJucTgxcF9SenRVYS1DZldBNk1vaURXbXRjWHZQRFFLWFVsVUhlYW5XNWZjNzFRekJHZlE?oc=5",
-     "title": "[창원 소식] 국제 해군군수 MRO협력 포럼 개최 등"
+     "source": "더쎈뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKM1AzcUl3MXZPZFBiemFzRl83TVhQSThZQ3JIN25kS1Vwb3gxanRDOGZGb1MxUkN4aUdaaVo4Zzg5NDJMdVM5ZG9jSVdNUGRhbWZhLXI2UDRvY1B5M2pYRk1aVFFxdEY1?oc=5",
+     "title": "창원시, '2026 국제 해군 군수·MRO 협력 포럼' 첫 개최…14개국 참가"
     },
+    {
+     "source": "시사의창",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03WHR3aFExajJwZUpoblVtU3pEXzRIOUY1SzlJWHVadmVEdHZ4aEFVajRkR0FPS0pxX3N4OWhqWkN1UW1PUndUTjUxdU03YmhScnR1UA?oc=5",
+     "title": "해군군수사령부-창원시, 국제 해군 MRO 협력 포럼 첫 개최"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 MRO",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "71a8276ef5fa",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T14:54",
+   "title": "창원서 첫 국제 해군 군수·MRO 포럼…14개국 700명 참가",
+   "source": "브레이크뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1DdmJJbE8wY1N6cDFydFR2VldiS09aZ0pJdXJLMlE5QV8wd3dFZE1XVG94bm9CSkllYnUzb0VuTzdtdk1xajdEdA?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [
     {
      "source": "뉴시스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vVEJOOHEzMjVNMXA3ZFZiT25SSHZKVnRHdnUwZ2I2bVZESEdReXNzTUZKZlNPU3JaSFZXXzdfUVR0LUt6d2w4alZtUS0zRkpWNWRLX2h6M2VFYWpXMTRTZNIBeEFVX3lxTE9lUHpaNVExek5Qby1EalBNT3NlVVJURHRhX0dRb0tyYUVrbGFCMERIQkhFY1FKOU1OVFE2c05QRGRPa2l2c2dheExuMGE1aWd5bjBTYi1IQTktZUhOT21EdkxUN0l1NnFRTENSREhLM3NBemExcGZCTg?oc=5",
@@ -185,6 +466,26 @@
      "source": "아시아투데이",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pSmFfTng2Y1FEMHlySVB1QW1fOXhPejBpeFlFcmstenhVdGZWbFpCRDBNVFFaOVduZHlBV3RqNFVZd3k4RW5qcXNuZVdfd3pEZVhxYnhvYTNFVDZNcEZGMWlmMVg3aE56VG5RS1dB?oc=5",
      "title": "창원서 첫 국제 해군 군수·MRO 포럼 14개국 700여 명 참가"
+    },
+    {
+     "source": "경남미디어",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ITlVoTXA1QUNnVG9RY3pHSzJJY1ZHcEFwT1o4WG5ZNFpFRUhqWkZDQmMtTzJyS1o2SGJ1T0RzeDJJZkt2UVpVSjZFNDdscnh4Z0thMUtFeUJhdjFLcmlZOG5ZZXliYUwyUEVN?oc=5",
+     "title": "창원서 첫 국제 해군 군수·MRO 포럼…14개국 집결"
+    },
+    {
+     "source": "https://www.newfilenews.com/",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xSzVYbVBGQ0dBb21qTkI3UWtyRnhnRGdBMDNLMkVIemNveUhyNWk5S294WW52LUZxRUZIbHpqQV9DaG1zZVdkM3pMamZhZHp1Xy1pcTRrdVhTaFl1ekJJVjBSNTdhby1obTdhT2h3?oc=5",
+     "title": "창원서 첫 국제 해군 군수·MRO 포럼 개막…14개국 700여 명 참석"
+    },
+    {
+     "source": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55U0djcDJwVzM5dnFrQjBBWXdzQlFSQnVCNTNNaXRmWmpqTVpGN1NpNmJpOFozVGZVaVZyRE1hSy1uMlBUcmlsRUY1eGt6RDBYbW5RbkllUHR4MHhqa1hjRtIBYEFVX3lxTE55U0djcDJwVzM5dnFrQjBBWXdzQlFSQnVCNTNNaXRmWmpqTVpGN1NpNmJpOFozVGZVaVZyRE1hSy1uMlBUcmlsRUY1eGt6RDBYbW5RbkllUHR4MHhqa1hjRg?oc=5",
+     "title": "'국제 해군 군수·MRO 협력 포럼' 창원에서 개막"
+    },
+    {
+     "source": "동행미디어 시대",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zaXVEX01OZERzUlVfd0ZLYklxQzNYZlVPem5VbXZTUF9KUDJucTgxcF9SenRVYS1DZldBNk1vaURXbXRjWHZQRFFLWFVsVUhlYW5XNWZjNzFRekJHZlE?oc=5",
+     "title": "[창원 소식] 국제 해군군수 MRO협력 포럼 개최 등"
     },
     {
      "source": "뉴스클레임",
@@ -212,11 +513,6 @@
      "title": "창원시-해군군수사 국제 해군 군수·MRO 협력 포럼 첫 개최 - 머니투데이"
     },
     {
-     "source": "경남미디어",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ITlVoTXA1QUNnVG9RY3pHSzJJY1ZHcEFwT1o4WG5ZNFpFRUhqWkZDQmMtTzJyS1o2SGJ1T0RzeDJJZkt2UVpVSjZFNDdscnh4Z0thMUtFeUJhdjFLcmlZOG5ZZXliYUwyUEVN?oc=5",
-     "title": "창원서 첫 국제 해군 군수·MRO 포럼…14개국 집결"
-    },
-    {
      "source": "www.sisakoreanews.kr",
      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJcXNHYlVTUHR5ODIwd1dPcHNqYnExWDduenlIYlUwQ1JOeUY1OWJsV0ptMlMtUXU0Rk9IUWhOMWo5S2xhQTJlekNXVQ?oc=5",
      "title": "2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최 창원시-해군군수사 공동주최, 11월 23일~25일 창원 일원, 진해해군기지에서 개최"
@@ -235,12 +531,32 @@
      "source": "경남포스트",
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVFE5aHBxSUxKWVJiOU8xSHJQNC1pV0hXcHhSUW9idDlDUGEtRWFjSUdqbTJGZHRKdW9oX0lhWUtlS0E2R3pSRWZ0bzBUQWhL?oc=5",
      "title": "국제 해군 MRO 포럼 창원서 23일 개막"
+    },
+    {
+     "source": "매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jU25TWWdWbnFCTjlacmlUQWVBeFl4cC1NQTZSazg2RTFqd2FaNHNoMUlIRUpyWE5mdHBzX0FrRDNORVEyQzlZbHYzejlnOWo0YVFnRTFqRmJ4T1BoUjFwRnB3?oc=5",
+     "title": "2026 국제 해군 군수 및 MRO 협력 포럼, 창원 첫 개최"
+    },
+    {
+     "source": "경남신문",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51TDdnQzMwLUxmMEJOZlRWTVVRVVg3VzNOX3I5M1JvaDZRMWhmdVBTbTJwcUJUVmtHdEE1VXk5VHpUZHJDNnk0UWNRR2xzcXAzUzI2OS16YTlTUQ?oc=5",
+     "title": "[포토뉴스] 창원서 첫 국제 해군군수·MRO포럼 개막"
+    },
+    {
+     "source": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XNFllWmlkc1ZKS2EyMXlGYVhQaHpiNnRKMlJJd0pVT3VOX1JHWS14LWZwQmtkcE5jd0V5OTVJVzFYcDhWVDB3MC1BU2hqRDA0UXRpMGE3Q2lEZw?oc=5",
+     "title": "14개국 해군 군수 책임자 창원에… ‘국제 해군 군수·MRO 포럼’ 첫 개최"
+    },
+    {
+     "source": "www.gukjenews.com",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkVHVZWHJzN0M2NjhPci1hWFRoWE9TMFFuVDNpMlU1bkFQV2RDNFVZaHcycjBSa0EydDZ2eVdEUTczMTFpWGNHVWhjRS1iQjNVeGw4bXAwblZHUDJJX1JhY011NFBVWFlVYnRSWUl3?oc=5",
+     "title": "창원·해군군수사 공동 주최, 첫 국제 해군 군수·MRO 포럼 개막"
     }
    ],
    "origin": "rss",
    "src": "gnews",
-   "hint": null,
-   "q": "국방 MRO",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
    "cats": [
     "mro"
    ],
@@ -260,7 +576,7 @@
    "conf": {
     "src": "C",
     "lv": "중간",
-    "r": 3.5,
+    "r": 6.0,
     "dh": 2,
     "rel": 5.0
    }
@@ -700,6 +1016,39 @@
     "r": 8.5,
     "dh": 1,
     "rel": 3.5
+   }
+  },
+  {
+   "id": "7a8e1bd735f7",
+   "date": "2026-11-23",
+   "ts": "2026-11-23T09:00",
+   "title": "Engineering And Logistics Support (Els) Follow-On Idiq Contract",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/e2846602082d498faed085e358b568f8/view",
+   "lang": "en",
+   "summary": "Presolicitation · N39430-27-ELS-SYNOPSIS · DEPT OF THE NAVY > NAVFAC",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
+    "rel": 2.5
    }
   },
   {
