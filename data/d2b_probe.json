@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25 13:34",
+ "at": "2026-11-26 03:52",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -25,6 +25,22 @@
      "spcifyPrcureAt": "N"
     },
     {
+     "beffatStndrdOthbcAt": "공개",
+     "bidMth": "총액제",
+     "budgetAmount": "298552136807",
+     "cntrctMth": "수의계약",
+     "dcsNo": "5101P",
+     "demandYear": "2026",
+     "excutTy": "제조",
+     "orderPrearngeMt": "202612",
+     "ornt": "우주지휘통신총괄계약팀",
+     "orntCode": "ERA",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
+     "reprsntPrdlstNm": "TICN Block Ⅰ-②(TMMR) 후속양산 2차",
+     "spcifyPrcureAt": "N"
+    },
+    {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
      "budgetAmount": "10907080",
@@ -38,21 +54,6 @@
      "progrsSttus": "공고중",
      "progrsSttusCode": "24",
      "reprsntPrdlstNm": "파이프 등 15품목(218)",
-     "spcifyPrcureAt": "N"
-    },
-    {
-     "beffatStndrdOthbcAt": "미공개",
-     "bidMth": "총액제",
-     "cntrctMth": "제한경쟁",
-     "dcsNo": "50369",
-     "demandYear": "2026",
-     "excutTy": "제조/구매",
-     "orderPrearngeMt": "202612",
-     "ornt": "공군제10전투비행단",
-     "orntCode": "HDG",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "10비 FA-00 시뮬레이터실 신축 관급자재(자동제어장비",
      "spcifyPrcureAt": "N"
     }
    ]
@@ -134,15 +135,15 @@
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-D-00부대 설계용역(B565)</cntrwkNm><cntrwkNo>2026-18779</cntrwkNo><cntrwkSe>설계용역 </cntrwkSe><orderPrearngeMt>202611</",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-A-00부대 전기공사(1602)</cntrwkNm><cntrwkNo>2026-19461</cntrwkNo><cntrwkSe>일반공사</cntrwkSe><orderPrearngeMt>202611</o",
    "sample": [
     {
      "bidMth": "총액제",
      "budgetAmount": "0",
      "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-D-00부대 설계용역(B565)",
-     "cntrwkNo": "2026-18779",
-     "cntrwkSe": "설계용역",
+     "cntrwkNm": "26-A-00부대 전기공사(1602)",
+     "cntrwkNo": "2026-19461",
+     "cntrwkSe": "일반공사",
      "orderPrearngeMt": "202611",
      "ornt": "국군재정관리단",
      "orntCode": "UMM",

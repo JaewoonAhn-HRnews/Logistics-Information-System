@@ -2,6 +2,128 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "84cc1a7eabd8",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T00:47",
+   "title": "Navy Installations Command Advances Shore Readiness Push",
+   "source": "Wisevoter",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUZVazFMYkRHRXhyQk9tS21raWxEdEVUTGpwRHlTQ2tmOUVROVp6MEt4WDJIaWFabWJXanVNX3NvajBjSGY2OERqVGpXMDJHQzZ6VkRHYk1fblRXSDNJYTRIZ2lyQ2I5OEtWbjltbFc0VkJCeXNQdHZwZFQ2ZFdmZXFmQktTTFJYZkJGOHNpdjdpR3c?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Navy readiness maintenance AI ships",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "5453910257ea",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T18:00",
+   "title": "[제4회 글로벌 ACX 초월대상] 가온플랫폼, AI 기반 발전설비 고장예측진단으로 스마트 유지보수 시장 공략",
+   "source": "전자신문",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YeUxlS1VDTEUxd21uY2h4NmxCN3FRX0JvZUh0VHZESTllc3E4WFcwNmZ2b19JMm9sV3haYnZ2ZFV1WURLWnY4V0RYaFhaQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "etnewsdef",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "sys",
+    "ai",
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "kr",
+   "domains": [
+    "lis",
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "b16c988c7d66",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T17:38",
+   "title": "커지는 국방 AI 예산… 통신·플랫폼 기업, 전담 TF 꾸리고 軍과 협력 강화",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVnRJb0tUdHNCRWNVWEY3aHUxWWhhcDhHczF1ZWZQRXVMUm5iV3duQWVlelM0Y1lIYmlIYVhheUNQZlZEcDNmLXMyZXN0NzBhaGh2Tk1abERHUlFxbU9KMGItZW1nV0NDaC1jRkFfSUxQaUUxa25VVEZVLXhCOVo1akx30gGWAUFVX3lxTE1jU2UyWmdBaUxtUWJiY1dDNjFBZC1RREpZZUsxd2tyTmk2UXFlQjVUaS1PVXBqWi1CZDFKZzVCbGFKd2xKSm9EYXR4UlJNSDA0T0dSalF4OXlmQnNGY19vTzhjaDIxdm5Ca0xTNWZpTHNialpoX2R2NkF6NEE0ZDhaaFNMeVBnd0ZNNGcxNXdtbUNwUEFxQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "sys",
+    "ai",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "policy",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "ec9c4d89e7db",
    "date": "2026-11-25",
    "ts": "2026-11-25T09:01",
@@ -38,6 +160,185 @@
     "r": 2.5,
     "dh": 1,
     "rel": 4.0
+   }
+  },
+  {
+   "id": "1a5cf2b1c052",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "E-6B Mobile Sustainment And Support System (Msass)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/c23692326486417e810813f8a94315d4/view",
+   "lang": "en",
+   "summary": "Presolicitation · N00019-26-RFPREQ-APM271-0037 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-10",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "927a5a53d96a",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "T700-Ge-401C/D Depot Level Rework/Repair/Overhaul/Upgrade/Testing",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/9d80b2d3994346789c4297ab07a33aae/view",
+   "lang": "en",
+   "summary": "Sources Sought · N00019-26-RFPREQ-APM299-0475 · DEPT OF THE NAVY > NAVAIR · 마감 2026-12-11",
+   "score": 3.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO",
+    "창정비"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 2,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "d606f9f9b5ac",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "Usns Carl Brashear (T-Ake 7) Regular Overhaul (Roh)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/9766a1214388439a8fda5aed6ef1be9b/view",
+   "lang": "en",
+   "summary": "Solicitation · N6264926RL021 · DEPT OF THE NAVY > NAVSUP · 마감 2026-12-28",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "9f31db5ab0e3",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "C-5 Flap Asymmetry Brake Overhaul",
+   "source": "SAM.gov · Dept Of The Air Force",
+   "url": "https://sam.gov/workspace/contract/opp/0d7ce0783355464fbd4035c82bc772f4/view",
+   "lang": "en",
+   "summary": "Presolicitation · FA853827RB009 · DEPT OF THE AIR FORCE > AIR FORCE MATERIEL COMMAND · 마감 2026-12-10",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "4a1fde46a578",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "Base Operations Maintenance Services Requirements",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/0240026fd48e450db6772e018a1e846c/view",
+   "lang": "en",
+   "summary": "Sources Sought · HNCBASEOPSJAN2027SS · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2027-01-06",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 2.5
    }
   },
   {
