@@ -2,6 +2,159 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "ec9c4d89e7db",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:01",
+   "title": "NAO finds Defence Investment Plan balanced on readiness cuts and post-2030 promises",
+   "source": "Navy Lookout",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVBWaGtRRmJSQlFuNGg3UnJiQnJZSnZyS0ozYzMxb2lfSXlYYlRJbkxFY2phQVpnTUwwQ1Z2NU1pRGRzUzR5Vm9BTFlmRjFJN0hJZS0tQTllakgxNDJrX3dkTU5MOFdjRi1OeUtNLXJycTBfeWJ0cmNKanJzcE55YWszb2UzR05hcFNtZG00azZtU0kzTTBxQUFTdVh0VjZWRS1qMURDVlkya0MzWi1qNjd3?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "DE&S support contract",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "4d491a474fb3",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T07:58",
+   "title": "Program looks to build shipbuilding, defense manufacturing capability in Hawaii",
+   "source": "Defense One",
+   "url": "https://www.defenseone.com/business/2026/11/program-looks-build-shipbuilding-defense-manufacturing-capability-hawaii/417440/",
+   "lang": "en",
+   "summary": "One training initiative received a $7 million investment from DOD’s Industrial Base Analysis and Sustainment program.",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defenseone",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "25c3b64e715a",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T07:26",
+   "title": "Wilsbach’s Message to Airmen After One Year as CSAF: ‘Readiness Is Fundamental’",
+   "source": "Air & Space Forces Magazine",
+   "url": "https://www.airandspaceforces.com/wilsbach-message-to-airmen-one-year-csaf-readiness/",
+   "lang": "en",
+   "summary": "In a Nov. 23 letter to Airmen marking his first year as Air Force Chief of Staff, Gen. Kenneth S. Wilsbach reemphasized his focus on improving readiness, modernizing aircraft and other systems, and upholding high standards. The post Wilsbach’s Message to Airmen After One Year as CSAF: ‘Readiness Is Fundamental’ appeared first on Air & Space Forces Magazine .",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "airforcesmag",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "e99f796f0449",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T05:59",
+   "title": "Army Software & Innovation Center advances software readiness in 2026",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ21DdUFta3VxdTNaOTFYanRMWTNCM3lLT3B1TGhJb2lfV1hmSU5NN3hKVnExb1Z0SVBuU1RQaEd4LTRIZHpSZ1RRcU9qTm9iVlJJLXdGeGZsMkxPZHNNMlB5cmRSTjVhZmYxMDA1MjhsTFY5YlNIWVVqUE94bjRCbEtfd25jUnBBdVJZR2V0NHB6Wmx0NWN1UmxTRGI0OUdXdVhjd3p4VFFVVUHSAasBQVVfeXFMT2dtQ3VBbWt1cXUzWjkxWGp0TFkzQjN5S09wdUxoSW9pX1dYZklOTTd4SlZxMW9WdElQblNUUGhHeC00SGR6UmdUUXFPak5vYlZSSS13RnhmbDJMT2RzTTJQeXJkUk41YWZmMTAwNTI4bExWOWJTSFlValBPeG40QmxLX3duY1JwQXVSWUdldDRwelpsdDVjdVJsU0RiNDlHV3VYY3d6eFRRVVVB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "a02588973540",
    "date": "2026-11-25",
    "ts": "2026-11-25T04:43",
@@ -39,6 +192,91 @@
     "r": 8.0,
     "dh": 1,
     "rel": 4.5
+   }
+  },
+  {
+   "id": "4719e3788f3a",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T04:18",
+   "title": "Strengthening the Fleet: DLA Weapons Support partners across services to secure critical H-60 readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeXdmV0VJblNlTFFsdVNoTDdra2Q2U2Utd2RUVTBzcWhOaHdPb0VXSlhHMHgxQjdCbzdhVjRhaDE3VGQ4Tjh6eTBLS3BYSDFmU3dTLVlRQmRzY1UwcEVyVDV3THRNYW5tdmJFQy1nZzlpdU92VUpZYVFRcG1kbkpwX2Z4X0ZxUGZqLUd1c3l2S0Z2Qnc3RDhDdlltWVRQWUtuem1Zclc1OUdfVHhRemU0X2hUUnpOSlJsbjAtSUU2OUZQajNLMl9LODVaQjJCSnVTNWtLaUxzX05PLW5ha0lXU1hB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "8e3db43ae52d",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T04:18",
+   "title": "DLA Distribution Susquehanna visit spotlights audit integrity, supply chain modernization, warfighter readiness",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMnZsM1lQRTRQc1cwMDByT2kzTXc3akFoMXhzMkpTMlN1ZEJTWWhzcWM5am1qT3oyc2NhMXJSc3RXS2puY2ZuTW5rYWlGSDBieXVZdmx0cGZNUTV1elFvbU53djJFNm9CUTZPRFZnV1hLNk85dXNiTzdUM3dLZUpkaVVNeDBEM0xMS1pWOHpPeWhPenViN3RTRVMtRk93V09wWnptV0wybklYQ2hNYmY1bE1yMV9WZ05fUTRnS3VoSUpzcWlmelpfazk2bTl3LUtHVXFKdmdsVVFPUFlaci1uYUdYSQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 7.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "log"
+   ],
+   "kw": [
+    "가동률·준비태세",
+    "공급망"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "policy",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 7.0
    }
   },
   {
@@ -102,6 +340,11 @@
      "source": "더쎈뉴스",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83YmlmTjd2V2QxUEo3Umd5MWtkcWROSUoyc1Rib2VFSlhfSmIwUFBOODJxTVB2NnJ2VUliOGlEV213ajJINXZ1dWYzdVM5eXlUS3A3YzNjcmVNWDhabkpiNWdzRXRIUk4z?oc=5",
      "title": "경남TP, 함정 MRO·방산 수출지원 사업 주관기관 선정…국비 38억 원"
+    },
+    {
+     "source": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iZDJnMDZWUXVUYXZxQWNpVzMyVjZ5UnBhUnJ3ODJQOUJkYUJoeW1STTRnVFZZaGZqTk1FZG40dVlmbWRoLS1pd18taWltX1h0YjZzc2tfLTV4aVJINlNhVXdweEZjY2R0SjhYaWZNUWI0Nndl0gF0QVVfeXFMT2JkMmcwNlZRdVRhdnFBY2lXMzJWNnlScGFScnc4MlA5QmRhQmh5bVJNNGdUVlloZmpOTUVkbjR1WWZtZGgtLWl3Xy1paW1fWHRiNnNza18tNXhpUkg2U2FVd3B4RmNjZHRKOFhpZk1RYjQ2d2U?oc=5",
+     "title": "경남테크노파크, 함정 MRO 보안·방산 수출지원 등 사업 수행기관 선정"
     }
    ],
    "origin": "rss",
@@ -393,6 +636,46 @@
     "r": 5.5,
     "dh": 2,
     "rel": 4.0
+   }
+  },
+  {
+   "id": "534d75e7dc8c",
+   "date": "2026-11-24",
+   "ts": "2026-11-24T09:00",
+   "title": "Usns John Lewis (T-Ao 205) Regular Overhaul/Dry-Docking Availability (Roh/Dd)",
+   "source": "SAM.gov · Dept Of The Navy",
+   "url": "https://sam.gov/workspace/contract/opp/940937c0f286418d88f08c6d81b88f63/view",
+   "lang": "en",
+   "summary": "Solicitation · N6264927RL02 · DEPT OF THE NAVY > NAVSUP · 마감 2026-12-28",
+   "score": 6.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "ram",
+    "mro"
+   ],
+   "kw": [
+    "신뢰도·가용도",
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 6.0
    }
   },
   {
