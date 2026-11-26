@@ -2,6 +2,46 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "96361e51064d",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T01:09",
+   "title": "드론·대드론 전력 전면 재정비… 민·군 손잡고 드론산업 키운다",
+   "source": "K-공감",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUFZuU3RyUlczakpnMV93Y2NVMG1EN01kMzdpOVNhNjlLcS1vZDlZNkU1eFRyaXl5S3NFWElkb08tSllnaXNXd2dIUnAzcncyaS1WOC1MbFZfcVJJMlZ3anU2Vk4wby1SYWZFN1NGNjAwTV81dDZmdmsxckV6OXdfU0tyVG1NdTMyaWlLQ1BSUlc0YmNGdVBKSTlPRnFqd3NER1JEMHY5a3FMZExpTjBtdmlDTnZHSnlTTkp6Z09scU1lVFd1eExLUGJudmotR1ZtZ1ltbHdLZ3lEM1N4Wk5hR1YtRDZJUzJqSVYzVGVvN0RkaEVMSFFNR2lqYlBYdw?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "mnd",
+   "hint": "kr",
+   "q": "",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "유무인 복합"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [
+    "unmanned"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
    "id": "223e11ad8219",
    "date": "2026-11-26",
    "ts": "2026-11-26T21:34",
@@ -395,6 +435,48 @@
     "rel": 3.5
    },
    "plat": []
+  },
+  {
+   "id": "d053022ee268",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T06:00",
+   "title": "[심층 분석] 한화에어로스페이스, 독일 기술협력 무기체계 넘어 제3국 수출기업으로…‘수룡’ KM3가 여는 K-방산 공급망의 확장",
+   "source": "뉴스밸류",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FODdzRXJieTlpd29CZjhLSXZoYTZFSTJDSGNPTE5zdnpkakhiYXUzeG5rLVNxOE5sWFBJY2JYZ2ZfdDRhOXQxbG41TDZNSDlwUnNtcVJCODhIVUNYR2hVUDMwbTRURXVMaGc?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "후속군수지원 계약",
+   "cats": [
+    "log",
+    "ind"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "한화"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "666a69be7d38",
@@ -1869,7 +1951,13 @@
    "lang": "ko",
    "summary": "",
    "score": 5.0,
-   "also": [],
+   "also": [
+    {
+     "source": "매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jU25TWWdWbnFCTjlacmlUQWVBeFl4cC1NQTZSazg2RTFqd2FaNHNoMUlIRUpyWE5mdHBzX0FrRDNORVEyQzlZbHYzejlnOWo0YVFnRTFqRmJ4T1BoUjFwRnB3?oc=5",
+     "title": "2026 국제 해군 군수 및 MRO 협력 포럼, 창원 첫 개최"
+    }
+   ],
    "origin": "rss",
    "src": "gnews",
    "hint": null,
@@ -10852,7 +10940,7 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 3.5,
    "also": [
     {
      "source": "Investing.com 한국어",
@@ -14390,7 +14478,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 6.0,
+   "score": 4.5,
    "also": [
     {
      "source": "더팩트",
@@ -14908,7 +14996,7 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TQm5LdWlpY21YdVFmQ2I2LTdiOEM3VlZVU29EQUhMQmlsM3JNMmpTS3RMUGVZMUNDWnlRNmRoSEtQejFabUJNZENZNjNDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.5,
+   "score": 4.0,
    "also": [
     {
      "source": "브릿지경제",
@@ -17186,7 +17274,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 8.5,
+   "score": 5.5,
    "also": [
     {
      "source": "메트로신문",
