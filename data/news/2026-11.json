@@ -2,6 +2,157 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "223e11ad8219",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T21:34",
+   "title": "[조달계획] 27-29-F-MCRC HW 유지보수",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 제한경쟁 · 발주예정 2026.12 · 조달판단중 · 판단번호 50905",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract",
+   "plat": [],
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.0
+   }
+  },
+  {
+   "id": "c1c9d59b2406",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T21:34",
+   "title": "[조달계획] 27-F-국지계기절차 및 비행안전 고도화체게 유지보수",
+   "source": "국방전자조달(D2B) · 국군재정관리단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군재정관리단 · 용역 · 2단계경쟁(동시) · 발주예정 2026.12 · 조달판단중 · 판단번호 50875",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract",
+   "plat": [],
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.0
+   }
+  },
+  {
+   "id": "31bbfa82fbff",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T16:01",
+   "title": "Major £8 billion investment to upgrade UK nuclear submarine availability and warfighting readiness",
+   "source": "UK Ministry of Defence",
+   "url": "https://www.gov.uk/government/news/major-8-billion-investment-to-upgrade-uk-nuclear-submarine-availability-and-warfighting-readiness",
+   "lang": "en",
+   "summary": "Royal Navy submarines will get back to sea faster under a new multi-billion contract to improve their maintenance, strengthening the UK’s nuclear deterrent while backing British jobs and skills.",
+   "score": 6.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukmod",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram",
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "신뢰도·가용도",
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "plat": [
+    "naval"
+   ],
+   "conf": {
+    "src": "A",
+    "lv": "높음",
+    "r": 7.5,
+    "dh": 3,
+    "rel": 6.0
+   }
+  },
+  {
+   "id": "4c9e0410c930",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T15:00",
+   "title": "'We must balance future technologies with present readiness’: CDS Gen NS Raja Subramani at WION Defence Pulse | Defence Partnership Days 2026",
+   "source": "شبكة تواصل الإخبارية",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVk81a1MtUDk4djlSY0JJQ0lJTldoWTdQWTRTR2o4U0d4NnZvaXpUcU8xTzRkMjBqREUzSEFTRExFR25HNC1ycFgwbzhyNDdjaUVB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "48744b65cd16",
    "date": "2026-11-26",
    "ts": "2026-11-26T12:47",
@@ -1030,6 +1181,11 @@
      "source": "이뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iZDJnMDZWUXVUYXZxQWNpVzMyVjZ5UnBhUnJ3ODJQOUJkYUJoeW1STTRnVFZZaGZqTk1FZG40dVlmbWRoLS1pd18taWltX1h0YjZzc2tfLTV4aVJINlNhVXdweEZjY2R0SjhYaWZNUWI0Nndl0gF0QVVfeXFMT2JkMmcwNlZRdVRhdnFBY2lXMzJWNnlScGFScnc4MlA5QmRhQmh5bVJNNGdUVlloZmpOTUVkbjR1WWZtZGgtLWl3Xy1paW1fWHRiNnNza18tNXhpUkg2U2FVd3B4RmNjZHRKOFhpZk1RYjQ2d2U?oc=5",
      "title": "경남테크노파크, 함정 MRO 보안·방산 수출지원 등 사업 수행기관 선정"
+    },
+    {
+     "source": "시사캐스트",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRdGlPdmVrYlBvVkZhdlNaSnV0TXBxT0wzeGpNUWR3Sm1TbzNDelVnN2xQZExLTllVUWhKcVhvemRmUWVaVlFzN3k0Sl9od2JzQmg4WUl0VTZWbm1meXdfV1JEcFBZVURI?oc=5",
+     "title": "경남TP, ‘함정 MRO 보안 및 방산 수출지원’ 사업 수행기관 선정 및 판로 개척 지원"
     }
    ],
    "origin": "rss",
@@ -1906,6 +2062,11 @@
      "source": "매일신문",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jU25TWWdWbnFCTjlacmlUQWVBeFl4cC1NQTZSazg2RTFqd2FaNHNoMUlIRUpyWE5mdHBzX0FrRDNORVEyQzlZbHYzejlnOWo0YVFnRTFqRmJ4T1BoUjFwRnB3?oc=5",
      "title": "2026 국제 해군 군수 및 MRO 협력 포럼, 창원 첫 개최"
+    },
+    {
+     "source": "경남연합일보",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CMzNsT1MwdUNsa0h4SURBajNTeEJrUWpodkt3WThlc0JpS2FCRm1KSFdGNGlJMkNtbjlpdjdHZDJWOHE3eG4tWVEwOWMxcTVkZkptMEFCbzBpQk9DLUlJak1PZVFHWWxJZ19v0gFvQVVfeXFMUEJQWTBkMkxVOWFNY1ZVcVdrVUN2dHFrOFlROHVoeTE3azd6TENPLU1OR0NFd0ZpNHAzSVVvdFJRX1pXa19ReUZXTFY4T283T2dnSi10M3hVOU9WblBCTjRVaDN5TUlJZThLZmN3ckhB?oc=5",
+     "title": "‘2026 국제 해군 군수·MRO 협력 포럼’ 3일간 창원서 개최"
     }
    ],
    "origin": "rss",
@@ -2051,6 +2212,11 @@
     {
      "source": "시사우리신문",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aUFY5MWZERk1rVHBtak5IeUtVRzdPbm9XdzRQUEZHME5XUzQzVmdEeWdkN3l0dXluQVF3ZlU4cmQzLTlZYzlVSXduRXVMUGZVQkE?oc=5",
+     "title": "‘2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최"
+    },
+    {
+     "source": "경남뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13bklTcURtMmstRmNNSm9UVFVQbTEwbkhRSWtYZDJZTkxEYjdOS0RRNFZJa1RlV3d5bXluVjhVa0JRQy1NTEVxTUxLRzFnaDhxM3lKNHpfU0NueUVsZWpXdk43WEnSAWhBVV95cUxNUm9OUFc1bjFYdEJLaWxzeVNkU0VfOGQxQ3BGcEp2ZVBlT0tvb2s1NU1zVjAySzhXZlk0VG1KLVFORHJ3YjZsUmRab0tQNGVvS3ZERUVlZE1ENEhFaENZSGcxcXVzTHZLUA?oc=5",
      "title": "‘2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최"
     }
    ],
@@ -2811,6 +2977,49 @@
    ]
   },
   {
+   "id": "b9776ac3186c",
+   "date": "2026-11-21",
+   "ts": "2026-11-21T14:31",
+   "title": "HJ중공업, 美 해군 함정 첫 MRO ‘완주’…이제 전투함 겨눈다",
+   "source": "쿠키뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CMWVXNFBpaHBXSUx0NjJMWm9IVVhzaDRraDI1clRhRTJ2Q1hhT0NrdWh2dlVnUGNzcUsxakhWX0tUY0g2ZGdhUEhQRnZINWVrb0J0dTJrSnVLM0pqcjNHQU9oSQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [
+    "해군",
+    "HJ중공업"
+   ],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [
+    "naval"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 8.0,
+    "dh": 3,
+    "rel": 5.0
+   }
+  },
+  {
    "id": "d69ded5772b2",
    "date": "2026-11-21",
    "ts": "2026-11-21T11:47",
@@ -2962,6 +3171,11 @@
      "source": "사회적경제뉴스",
      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5SU29HeGFqVDdJdkFvVmYzU1hCeWNvYU1PQWVpOVVwN05sRWRzcThBeXdSVm84MGFSVFJONmV3WQ?oc=5",
      "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주…미국 시장 입지 확대"
+    },
+    {
+     "source": "https://www.koreasprint.com/",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdjZVN25uOVFUbzBKSkZHa1FZeWZjNERTaUVhMlRKZkptYlRSOFNSQTlmdFVkTGlINm1rRnpCa0dJSDlfOW5PZmItVmxFbzV6Ymp3amlOT0JFZVdFR2tyVGI2c1pzRWFHZnR5Zzln?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
     }
    ],
    "origin": "rss",
@@ -4116,42 +4330,6 @@
    "plat": []
   },
   {
-   "id": "62e1e6018166",
-   "date": "2026-11-19",
-   "ts": "2026-11-19T23:56",
-   "title": "Army Sustainment Fall 2026",
-   "source": "Line of Departure (.mil)",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXNaSzduTFU2T05RUHJDUjZqVjk3UW83bFM4QjNhM0dmRVlHWjBrRHRVQU9selBtNlJsVjBuU2FrQUNpWnIwUTBjSkczb1dSWFNEQjBZb2pURGk5aUp3U2xJS3NPSERPRnplejJLWTExTG5vMm9yRTBoXzZjeDllbS1ENDl2YUVWVW1EaVpzbHlRa0ZvcGVKR3dyNmlDS3FFMEgwVE1R?oc=5",
-   "lang": "en",
-   "summary": "",
-   "score": 3.5,
-   "also": [],
-   "origin": "rss",
-   "src": "armymil",
-   "hint": "us",
-   "q": "",
-   "cats": [
-    "log"
-   ],
-   "kw": [],
-   "ents": [],
-   "axes": [],
-   "region": "us",
-   "domains": [
-    "wpn"
-   ],
-   "kind": "news",
-   "desc_tried": true,
-   "conf": {
-    "src": "A",
-    "lv": "낮음",
-    "r": 3.5,
-    "dh": 1,
-    "rel": 3.5
-   },
-   "plat": []
-  },
-  {
    "id": "c02a4704bd3c",
    "date": "2026-11-19",
    "ts": "2026-11-19T23:56",
@@ -4396,6 +4574,47 @@
     "rel": 4.0
    },
    "plat": []
+  },
+  {
+   "id": "6edf68eb94b1",
+   "date": "2026-11-19",
+   "ts": "2026-11-19T11:12",
+   "title": "Text - H.R.9366 - 119th Congress (2025-2026): Eastern Frontier Defense Infrastructure Readiness Act",
+   "source": "Congress.gov",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wOEZRUW5vMEFPR0hMZEtoYW5IUGhuc0tMREJ3YUp5ZkpOTEJWS19lUVE3X2tUdUI0emp2bmxNZXlMOTQ5Y0pjZTRGYXhzVWpxTHVGbi1xQ1VoQVJhX1NqeHRxOTF2TDVGYUk4S0V0RFV5emM?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "crs",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram",
+    "policy"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "0c1ae8649ed9",
@@ -6477,6 +6696,48 @@
    ]
   },
   {
+   "id": "44992f3eed2c",
+   "date": "2026-11-16",
+   "ts": "2026-11-16T17:00",
+   "title": "Army Sustainment",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBUamRjZ2NIVzNNY2FuZmJnMHNtV05NcG5iNGxXVDhaZ3ZlcXo2TmY0RXMxOEJrYVBhMG5yZlg5RF8wTmRDWUwwU2hnT3M?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [
+    {
+     "source": "Line of Departure (.mil)",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXNaSzduTFU2T05RUHJDUjZqVjk3UW83bFM4QjNhM0dmRVlHWjBrRHRVQU9selBtNlJsVjBuU2FrQUNpWnIwUTBjSkczb1dSWFNEQjBZb2pURGk5aUp3U2xJS3NPSERPRnplejJLWTExTG5vMm9yRTBoXzZjeDllbS1ENDl2YUVWVW1EaVpzbHlRa0ZvcGVKR3dyNmlDS3FFMEgwVE1R?oc=5",
+     "title": "Army Sustainment Fall 2026"
+    }
+   ],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 3.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
    "id": "29f818766033",
    "date": "2026-11-16",
    "ts": "2026-11-16T14:54",
@@ -7560,6 +7821,43 @@
     "rel": 3.5
    },
    "plat": []
+  },
+  {
+   "id": "6d8c6c24489b",
+   "date": "2026-11-13",
+   "ts": "2026-11-13T17:00",
+   "title": "Tri-services panel meets in Jabalpur to boost joint defence maintenance and logistics synergy across armed forces",
+   "source": "Defence.in",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY3RabUMyRG96enZBSVM0dThwUU5tbzBIRVNaRHVnWUVJSHkySURTOHVha2tzYk9aZzcxNzZOUHhSVzBXSFlVTldYa0dFSThHZDJfT1MxMlQ2anM2c0FuZVVuNWRrbzBEeUczaUxuR256R19EUG1aVjZfUmFiX0lieWdJQmJucU96ZDdXRW04Q3NpdzVhbkFGWTA4UERrbUNfc2dRUEpQcnJHRlJtel90NGZjT3NzTkdYNW5XX2dhTWt5Q1VhOWJrQXpQb3FsenFfRVRQMDJxcWxjblAtQUc1TA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "etc",
+   "q": "Japan Self-Defense Forces maintenance logistics",
+   "cats": [
+    "mro",
+    "log"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 5.0
+   }
   },
   {
    "id": "fc76861e53f7",
@@ -10500,6 +10798,21 @@
      "source": "디펜스투데이",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBWTRoUU45aGhBU29OUGpEMk83aWh6REFoampadW9ab0p2c3dwaU9Sd3djN2t0ZkctaW9JMFpOZm8yNVRaNURfMkM4OXZPMjZtS2Q4M0xlUGVHSTBseHkyanpjM0JBcy16V2wyM09n?oc=5",
      "title": "한화에어로스페이스-육군, 야전정비센터 K-MRO 거점화 추진"
+    },
+    {
+     "source": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd2x2M3FoYUIyUlhqRDVfbW9ZQmszd0psSmI1TWN4dzZlM1lhZUJ6R3NMeFJoU2g2dVJ4b0JyakJ4QzlXWlR1bndORENZcldyYzNMRnB6Tm92MVd3clRKT016cHVGdU5felZBbTFMY3ZGdzJFTHdxR05YV0VHWFJBZTRLUWrSAZgBQVVfeXFMTWp4SlBPdDNsRVAxWGZtQWpKNjB2Q0VIN2t0MnRvSW5hUkxkeVJySjVRbEdnTEszVGhrakdySUJ5ZGlsa2NiWkkxeTZaV0VwaDhsWXpTR2xFdXd3YUVGNE5OMVFCcDQ1WkUtRGZkalhPeGZFQnFLdDQyNko4Z1RBaERrMzY0QUdobDVYSW42Y3dCalBDZHZwQnE?oc=5",
+     "title": "한화에어로, 軍과 야전정비센터 추가 건립… 수출 무기 MRO 지원"
+    },
+    {
+     "source": "파이낸셜포스트",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WR1N2cXNQcUJ0cWhNYnJvcTc5Q1Y4SE41a2FCdzUxY05xaGlBR1RPLWlPVERkTzJZY1YyenlfWDdVcjhBWS1rcW9Hb2ZzVkZ6VmdjdkxNZndrS3Vvd2o0M3ZRLWpJQWQtc1ZiR3NsU0loejI2?oc=5",
+     "title": "한화에어로스페이스-육군, 야전정비센터 K-MRO 거점화 추진한다"
+    },
+    {
+     "source": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOdTVITzNaVFo4WjJsZzBVd2FPckpkenQwY0IteWlnQ2xqam1UcXNqc09JNjRIRy1xT0REb0l2UEEzZFVwRjlfOGxWdGt2Z0ROQlU3czhwalA5bVNXbi1yVWhkWGhRdTBzUGgxZkIwUE1sRWhfangwVWJTR09qNGNmRDlQVkItb25fV2NSWVAxdmF1UmFwNUEyQ0V4S1FHMUZSaThFWjhqU2pfSXZyZnJteU9idHlYS0NZQlEwTlViTERFeW41WDdZYjBvS1ZUb0JKdmoyc25pbFFKb2dacFJjQndkSXRxcERULUFpMW96T2pFdVFMZTllYVROc1cyWXdIN3Z5ZWh4MlZnSW5UOXliblVMdFlZRTRNYjdteGdONUdweVVhcC1HOF9zY2VsZw?oc=5",
+     "title": "한화에어로·육군, 야전정비센터 추가 건립…해외 MRO 시장 공략"
     }
    ],
    "origin": "rss",
@@ -10539,12 +10852,17 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 3.5,
+   "score": 4.0,
    "also": [
     {
      "source": "Investing.com 한국어",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44bmhGOE1uN2ExZGxEWWdCTld6S3hDVXV6QlJQcWNYUFJmRElXYi1ZSlIySDZjZkw0NHA4STRYWVg5cWd1b0RqajEwTDJ2eDlheUpObWVHV0lVQTNpRkdZNzNtM3o5ZmRmNjVObDdvek8?oc=5",
      "title": "한화에어로·육군, K-방산 ’MRO 거점’ 확대 추진 By EBN"
+    },
+    {
+     "source": "www.ebn.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaVExTOEVLdVVrd2ppT2NYeUxHdG9SbUJrTm1vRGlQMnJGRGpqVml2Y3B0M3RQel9PZlFPVW9hR1VjOHY2andPM05JdTJnOVh5S19CS1o5ZGZSdExWamc0Z1YweFIxMVpQ?oc=5",
+     "title": "한화에어로·육군, K-방산 'MRO 거점' 확대 추진"
     }
    ],
    "origin": "rss",
@@ -10661,6 +10979,11 @@
      "source": "디펜스투데이",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBWTRoUU45aGhBU29OUGpEMk83aWh6REFoampadW9ab0p2c3dwaU9Sd3djN2t0ZkctaW9JMFpOZm8yNVRaNURfMkM4OXZPMjZtS2Q4M0xlUGVHSTBseHkyanpjM0JBcy16V2wyM09n?oc=5",
      "title": "한화에어로스페이스-육군, 야전정비센터 K-MRO 거점화 추진"
+    },
+    {
+     "source": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Qd0tpRUVuWU5melBPZ0dFcW5BMXVkQkpweE1CZjdvVTMxVEFySXNVcUJqc3JLSkN4OWQydTRsRF9ZTjZUSWZxRFhuMGVVeFR1V2N0Vnpna0kzMFBqVlJzTDVYZlY?oc=5",
+     "title": "한화에어로·육군, MRO 협력 확대…동부권 정비센터 추가 건립"
     }
    ],
    "origin": "rss",
@@ -14067,7 +14390,7 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHazdaZS1BVGxSTlUtS2EwOWVYOWthYklUYzFadlM2dF9BUVdITmZfZXFqajVlT0wzd1Z1Q3FKSnUwYWtPQWtOcTdhWjB4OWtYZllVbzBDUTZhSU9MS3c?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.5,
+   "score": 6.0,
    "also": [
     {
      "source": "더팩트",
@@ -14585,7 +14908,7 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TQm5LdWlpY21YdVFmQ2I2LTdiOEM3VlZVU29EQUhMQmlsM3JNMmpTS3RMUGVZMUNDWnlRNmRoSEtQejFabUJNZENZNjNDUQ?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 4.0,
+   "score": 5.5,
    "also": [
     {
      "source": "브릿지경제",
@@ -16863,7 +17186,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jZ2dUNkhBeTVkQVZEaklSa1lTWTg5MXFhREJodWpiTjJJUHI4cEVjX0QxeFJVTWZXcGtmdThhenJkMkdaZ2Fyb1NGMWQzNUFKblVwNWZiRmtxbGJhRWp6QkZjbEFVMm42azYxcDRSYk9JUlpX0gF0QVVfeXFMTWNnZ1Q2SEF5NWRBVkRqSVJrWVNZODkxcWFEQmh1amJOMklQcjhwRWNfRDF4UlVNZldwa2Z1OGF6cmQyR1pnYXJvU0YxZDM1QUpuVXA1ZmJGa3FsYmFFanpCRmNsQVUybjZrNjFwNFJiT0lSWlc?oc=5",
    "lang": "ko",
    "summary": "",
-   "score": 5.5,
+   "score": 8.5,
    "also": [
     {
      "source": "메트로신문",

@@ -6,9 +6,9 @@
    "n": 10,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 4,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "breakingdefense": {
    "id": "breakingdefense",
@@ -16,19 +16,19 @@
    "n": 15,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 30,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "defensescoop": {
    "id": "defensescoop",
    "ok": true,
    "n": 10,
    "mode": "rss",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 47,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 48,
+   "last_ok": "2026-11-26 21:35"
   },
   "defenseone": {
    "id": "defenseone",
@@ -36,9 +36,9 @@
    "n": 23,
    "mode": "rss",
    "kept": 1,
-   "at": "2026-11-26 12:47",
-   "total_kept": 3,
-   "last_ok": "2026-11-26 12:47"
+   "at": "2026-11-26 21:35",
+   "total_kept": 4,
+   "last_ok": "2026-11-26 21:35"
   },
   "fnn": {
    "id": "fnn",
@@ -46,60 +46,60 @@
    "n": 15,
    "mode": "rss",
    "kept": 1,
-   "at": "2026-11-26 12:47",
-   "total_kept": 9,
-   "last_ok": "2026-11-26 12:47"
+   "at": "2026-11-26 21:35",
+   "total_kept": 10,
+   "last_ok": "2026-11-26 21:35"
   },
   "dla": {
    "id": "dla",
    "ok": true,
-   "n": 30,
+   "n": 100,
    "mode": "gnews",
-   "kept": 2,
-   "at": "2026-11-26 12:47",
-   "total_kept": 177,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 8,
+   "at": "2026-11-26 21:35",
+   "total_kept": 185,
+   "last_ok": "2026-11-26 21:35"
   },
   "armymil": {
    "id": "armymil",
    "ok": true,
-   "n": 80,
+   "n": 95,
    "mode": "gnews",
-   "kept": 6,
-   "at": "2026-11-26 12:47",
-   "total_kept": 536,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 13,
+   "at": "2026-11-26 21:35",
+   "total_kept": 549,
+   "last_ok": "2026-11-26 21:35"
   },
   "natdef": {
    "id": "natdef",
    "ok": true,
-   "n": 4,
+   "n": 48,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 27,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 28,
+   "last_ok": "2026-11-26 21:35"
   },
   "govconwire": {
    "id": "govconwire",
    "ok": true,
-   "n": 46,
+   "n": 100,
    "mode": "gnews",
    "rss_err": "HTTPError: HTTP Error 403: Forbidden",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 26,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 2,
+   "at": "2026-11-26 21:35",
+   "total_kept": 28,
+   "last_ok": "2026-11-26 21:35"
   },
   "gao": {
    "id": "gao",
    "ok": true,
    "n": 25,
    "mode": "rss",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 29,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 30,
+   "last_ok": "2026-11-26 21:35"
   },
   "ukdes": {
    "id": "ukdes",
@@ -107,19 +107,19 @@
    "n": 20,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "ukmod": {
    "id": "ukmod",
    "ok": true,
    "n": 20,
    "mode": "rss",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 2,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 3,
+   "last_ok": "2026-11-26 21:35"
   },
   "ukdj": {
    "id": "ukdj",
@@ -127,39 +127,39 @@
    "n": 10,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 15,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "eda": {
    "id": "eda",
    "ok": true,
-   "n": 2,
+   "n": 11,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 26,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 27,
+   "last_ok": "2026-11-26 21:35"
   },
   "defis": {
    "id": "defis",
    "ok": true,
-   "n": 6,
+   "n": 39,
    "mode": "gnews",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 25,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "nspa": {
    "id": "nspa",
    "ok": true,
-   "n": 9,
+   "n": 20,
    "mode": "gnews",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "defindeu": {
    "id": "defindeu",
@@ -167,9 +167,9 @@
    "n": 10,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 9,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "mnd": {
    "id": "mnd",
@@ -178,92 +178,91 @@
    "mode": "gnews",
    "rss_err": "HTTPError: HTTP Error 404: Not Found",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 41,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "dapa": {
    "id": "dapa",
    "ok": true,
    "n": 100,
    "mode": "gnews",
-   "rss_err": "HTTPError: HTTP Error 404: Not Found",
+   "rss_err": "RemoteDisconnected: Remote end closed connection without response",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "kookbang": {
    "id": "kookbang",
    "ok": true,
-   "n": 1,
+   "n": 9,
    "mode": "gnews",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 16,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "d2b": {
    "id": "d2b",
    "ok": true,
-   "n": 0,
+   "n": 10,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 17,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 18,
+   "last_ok": "2026-11-26 21:35"
   },
   "krit": {
    "id": "krit",
    "ok": true,
-   "n": 14,
+   "n": 34,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 88,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 3,
+   "at": "2026-11-26 21:35",
+   "total_kept": 91,
+   "last_ok": "2026-11-26 21:35"
   },
   "kida": {
    "id": "kida",
    "ok": true,
-   "n": 8,
+   "n": 59,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 221,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 31,
+   "at": "2026-11-26 21:35",
+   "total_kept": 252,
+   "last_ok": "2026-11-26 21:35"
   },
   "etnewsdef": {
    "id": "etnewsdef",
    "ok": true,
-   "n": 77,
+   "n": 100,
    "mode": "gnews",
-   "kept": 2,
-   "at": "2026-11-26 12:47",
-   "total_kept": 112,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 3,
+   "at": "2026-11-26 21:35",
+   "total_kept": 115,
+   "last_ok": "2026-11-26 21:35"
   },
   "thedefensepost": {
    "id": "thedefensepost",
    "ok": true,
-   "n": 28,
+   "n": 100,
    "mode": "gnews",
    "rss_err": "XML 파싱 실패: not well-formed (invalid token): line 120, column 14",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 13,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "defenceweb": {
    "id": "defenceweb",
    "ok": true,
-   "n": 31,
-   "mode": "gnews",
-   "rss_err": "HTTPError: HTTP Error 522: <none>",
+   "n": 50,
+   "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 12,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "amr": {
    "id": "amr",
@@ -271,19 +270,19 @@
    "n": 10,
    "mode": "rss",
    "kept": 1,
-   "at": "2026-11-26 12:47",
-   "total_kept": 7,
-   "last_ok": "2026-11-26 12:47"
+   "at": "2026-11-26 21:35",
+   "total_kept": 8,
+   "last_ok": "2026-11-26 21:35"
   },
   "audefence": {
    "id": "audefence",
    "ok": true,
-   "n": 4,
+   "n": 42,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 27,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 28,
+   "last_ok": "2026-11-26 21:35"
   },
   "armytech": {
    "id": "armytech",
@@ -291,41 +290,41 @@
    "n": 10,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "gnews-queries": {
    "id": "gnews-queries",
    "ok": true,
    "mode": "gnews",
-   "n": 436,
+   "n": 1426,
    "queries": 67,
    "queries_ok": 67,
-   "kept": 27,
-   "at": "2026-11-26 12:47",
-   "total_kept": 2339,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 90,
+   "at": "2026-11-26 21:35",
+   "total_kept": 2429,
+   "last_ok": "2026-11-26 21:35"
   },
   "samgov": {
    "id": "samgov",
    "mode": "api",
    "ok": true,
-   "n": 14,
-   "kept": 14,
-   "at": "2026-11-26 12:47",
-   "total_kept": 865,
-   "last_ok": "2026-11-26 12:47"
+   "n": 7,
+   "kept": 7,
+   "at": "2026-11-26 21:35",
+   "total_kept": 872,
+   "last_ok": "2026-11-26 21:35"
   },
   "d2b-api": {
    "id": "d2b-api",
    "mode": "api",
    "ok": true,
    "n": 300,
-   "kept": 16,
-   "at": "2026-11-26 12:47",
-   "total_kept": 1394,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 14,
+   "at": "2026-11-26 21:35",
+   "total_kept": 1408,
+   "last_ok": "2026-11-26 21:35"
   },
   "meritalk": {
    "id": "meritalk",
@@ -333,9 +332,9 @@
    "n": 135,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "nextgov": {
    "id": "nextgov",
@@ -343,29 +342,29 @@
    "n": 24,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "crs": {
    "id": "crs",
    "ok": true,
-   "n": 73,
+   "n": 58,
    "mode": "gnews",
-   "kept": 0,
-   "at": "2026-11-26 12:47",
-   "total_kept": 14,
-   "last_ok": "2026-11-26 12:47"
+   "kept": 1,
+   "at": "2026-11-26 21:35",
+   "total_kept": 15,
+   "last_ok": "2026-11-26 21:35"
   },
   "acqgov": {
    "id": "acqgov",
    "ok": true,
-   "n": 1,
+   "n": 4,
    "mode": "gnews",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "nextgendefense": {
    "id": "nextgendefense",
@@ -373,40 +372,40 @@
    "n": 10,
    "mode": "rss",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "csis": {
    "id": "csis",
    "ok": true,
-   "n": 85,
+   "n": 94,
    "mode": "gnews",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "scsp": {
    "id": "scsp",
    "ok": true,
-   "n": 0,
+   "n": 3,
    "mode": "gnews",
    "rss_err": "HTTPError: HTTP Error 403: Forbidden",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "nikkei": {
    "id": "nikkei",
    "ok": true,
-   "n": 37,
+   "n": 100,
    "mode": "gnews",
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 0,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   },
   "airforcesmag": {
    "id": "airforcesmag",
@@ -414,9 +413,9 @@
    "n": 9,
    "mode": "rss",
    "kept": 1,
-   "at": "2026-11-26 12:47",
-   "total_kept": 15,
-   "last_ok": "2026-11-26 12:47"
+   "at": "2026-11-26 21:35",
+   "total_kept": 16,
+   "last_ok": "2026-11-26 21:35"
   },
   "nlarchive": {
    "id": "nlarchive",
@@ -424,16 +423,16 @@
    "mode": "github",
    "n": 3,
    "kept": 0,
-   "at": "2026-11-26 12:47",
+   "at": "2026-11-26 21:35",
    "total_kept": 1,
-   "last_ok": "2026-11-26 12:47"
+   "last_ok": "2026-11-26 21:35"
   }
  },
- "updated": "2026-11-26 12:47",
+ "updated": "2026-11-26 21:35",
  "last_run": {
-  "raw": 1559,
-  "relevant": 71,
-  "new": 17,
-  "days": 3
+  "raw": 3081,
+  "relevant": 183,
+  "new": 50,
+  "days": 30
  }
 }

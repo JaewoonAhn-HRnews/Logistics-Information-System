@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 12:47",
+ "at": "2026-11-26 21:34",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -21,7 +21,7 @@
      "orntCode": "EQA",
      "progrsSttus": "조달판단중",
      "progrsSttusCode": "19",
-     "reprsntPrdlstNm": "항공기 지상지원장비",
+     "reprsntPrdlstNm": "지휘헬기-II 시설사업 기본계획 연구용역",
      "spcifyPrcureAt": "N"
     },
     {
@@ -35,25 +35,25 @@
      "orderPrearngeMt": "202612",
      "ornt": "헬기총괄계약팀",
      "orntCode": "EQA",
-     "progrsSttus": "조달판단중",
-     "progrsSttusCode": "19",
+     "progrsSttus": "원가계산중",
+     "progrsSttusCode": "26",
      "reprsntPrdlstNm": "소형무장헬기 최초 및 2차양산 VHF-FM무전기 암호장비",
      "spcifyPrcureAt": "N"
     },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "21342970",
+     "budgetAmount": "21538000",
      "cntrctMth": "수의계약",
-     "dcsNo": "50746",
+     "dcsNo": "50995",
      "demandYear": "2026",
-     "excutTy": "구매",
+     "excutTy": "제조/구매",
      "orderPrearngeMt": "202612",
-     "ornt": "국방부근무지원단",
-     "orntCode": "MCN",
+     "ornt": "육군본부",
+     "orntCode": "LCG",
      "progrsSttus": "공고중",
      "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "'27년 차량정비용(현대) 수리부속 구매",
+     "reprsntPrdlstNm": "26-육-320 26-1차 장성기세트 제조구매",
      "spcifyPrcureAt": "N"
     }
    ]
@@ -151,10 +151,10 @@
     },
     {
      "bidMth": "총액제",
-     "budgetAmount": "0",
+     "budgetAmount": "711624190",
      "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-A-00부대 건설사업관리용역(A406)",
-     "cntrwkNo": "2026-18709",
+     "cntrwkNm": "26-A-00부대 내진성능평가용역(A343)",
+     "cntrwkNo": "2026-19646",
      "cntrwkSe": "기타용역",
      "orderPrearngeMt": "202611",
      "ornt": "국군재정관리단",
@@ -165,8 +165,8 @@
      "bidMth": "총액제",
      "budgetAmount": "0",
      "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-A-00부대 내진성능평가용역(A342)",
-     "cntrwkNo": "2026-18394",
+     "cntrwkNm": "26-A-00부대 건설사업관리용역(A406)",
+     "cntrwkNo": "2026-18709",
      "cntrwkSe": "기타용역",
      "orderPrearngeMt": "202611",
      "ornt": "국군재정관리단",
