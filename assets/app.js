@@ -207,7 +207,7 @@
   }
 
   // ---------- router ----------
-  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports", "kb", "ux"];
+  const VIEWS = ["home", "daily", "weekly", "monthly", "yearly", "us", "eu", "kr", "etc", "compare", "sources", "topics", "network", "project", "system", "search", "db", "about", "archive", "reports", "kb", "ux", "tutorial"];
   const rendered = {};
   let cur = "home";
   function route() {
@@ -223,7 +223,7 @@
     setTimeout(() => Object.values(charts).forEach(c => c && !c.isDisposed() && c.resize()), 30);
   }
   function render(v, arg) {
-    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg), kb: () => rKB(arg), ux: rUX }[v];
+    const fn = { home: rHome, daily: () => rPeriod("day", arg), weekly: () => rPeriod("week", arg), monthly: () => rPeriod("month", arg), yearly: () => rPeriod("year", arg), us: () => rRegion("us", arg), eu: () => rRegion("eu", arg), kr: () => rRegion("kr", arg), etc: () => rRegion("etc", arg), compare: rCompare, sources: rSources, topics: rTopics, network: rNetwork, project: rProject, system: rSystem, search: rSearch, db: rDB, about: rAbout, archive: () => rArchive(arg), reports: () => rReports(arg), kb: () => rKB(arg), ux: rUX, tutorial: rTutorial }[v];
     fn && fn();
     rendered[v] = true;
   }
@@ -707,6 +707,28 @@
   }
   const arcState = { t: null, iss: 6 };
 
+
+  // ---------- 사용법 영상(튜토리얼) ----------
+  const TUT = [["0:00", 0, "소개", "사이트 이름과 한 줄 소개"], ["0:14", 14.2, "배경 및 목적", "왜 만들었는지 — 흩어진 정보를 모아 흐름과 기술·과제 연계를 판단"],
+    ["0:36", 36.5, "작동 방식", "하루 2회 자동 수집 → 분류 → AI 분석 → 보고서"], ["1:03", 63.1, "첫 화면", "지역별 동향, 일자별 요약과 착안점", "#home"],
+    ["1:15", 75.2, "주간 보고서", "3분 브리핑, PPT 다운로드, 주간 흐름 분석", "#weekly"], ["1:36", 95.8, "지역·분야", "미국·유럽·한국·그 외, 분야·무기체계 세부", "#us"],
+    ["1:48", 107.8, "기사 상세", "AI 요약, 기술·과제 연계, 아카이브 연계 추이"], ["2:16", 136.3, "아카이브·국방기술 연계", "개념별 누적 흐름, 세부기술·과제 검색", "#archive"],
+    ["2:33", 152.9, "게시판·데이터", "주간 보고서 누적, GitHub·구글 드라이브 저장, 모니터링 소스", "#reports"], ["2:52", 171.7, "활용 방법", "매일 아침 → 주말 보고 → 과제·연구 준비"]];
+  function rTutorial() {
+    const sec = $("#v-tutorial");
+    sec.innerHTML = `<div class="vhead"><div class="eyebrow">00 · Tutorial</div><h1>사용법 영상</h1>
+      <p class="lede">사이트를 만든 목적과 활용 방법, 주요 화면을 3분 15초로 소개합니다. 자막이 함께 나오며, 오른쪽 장면 목록을 누르면 그 부분으로 바로 이동합니다.</p></div>
+      <div class="tut"><div class="tut-v"><video id="tut-video" controls preload="metadata" playsinline poster="assets/video/intro-poster.jpg"><source src="assets/video/intro.mp4" type="video/mp4">이 브라우저는 영상 재생을 지원하지 않습니다. <a href="assets/video/intro.mp4">영상 파일 내려받기</a></video>
+        <div class="tut-act"><a class="btn ghost sm" href="assets/video/intro.mp4" download="군수정보인텔리전스_사용법.mp4">영상 내려받기(MP4)</a><span class="note">1080p · 한국어 내레이션·자막</span></div></div>
+      <ol class="tut-ch" id="tut-ch">${TUT.map(([t, s, h, d, go], i) => `<li data-s="${s}"><button type="button"><span class="mono">${t}</span><b>${esc(h)}</b><span class="note">${esc(d)}</span></button>${go ? `<a href="${go}" class="tut-go">화면 열기 →</a>` : ""}</li>`).join("")}</ol></div>
+      <div class="panel prose"><h2>처음 쓰는 분을 위한 3단계</h2>
+        <p><b>① 매일 아침</b> — <a href="#home">첫 화면</a>의 ‘일자별 뉴스 요약’과 착안점으로 전날 소식을 확인합니다.</p>
+        <p><b>② 매주 말</b> — <a href="#weekly">주간 정리</a>에서 3분 브리핑·전주 대비·주간 흐름을 보고, ‘PPT 파일로 다운로드’로 보고에 씁니다. 지난 보고서는 <a href="#reports">보고서 게시판</a>에 쌓입니다.</p>
+        <p><b>③ 과제·연구 준비</b> — <a href="#kb">국방기술 연계</a>에서 세부기술·과제를 검색하고, <a href="#archive">아카이브 연계</a>에서 관련 흐름을 찾습니다. 지역 화면의 ‘무기체계 세부’ 탭으로 항공기·함정·전차 등만 골라 볼 수 있습니다.</p></div>`;
+    const v = $("#tut-video"), ch = $("#tut-ch");
+    ch.onclick = e => { const li = e.target.closest("li"); if (!li || e.target.closest(".tut-go")) return; const go = () => { v.currentTime = +li.dataset.s; v.play().catch(() => {}); }; if (v.readyState >= 1) go(); else { v.addEventListener("loadedmetadata", go, { once: true }); v.load(); } };
+    v.ontimeupdate = () => { const t = v.currentTime; let k = 0; TUT.forEach((x, i) => { if (t >= x[1]) k = i; }); ch.querySelectorAll("li").forEach((li, i) => li.classList.toggle("on", i === k)); };
+  }
   // ---------- 출처·분류 신뢰도 ----------
   const TIER = { A: ["공식 기관", "정부·군·조달·감사 기관이 직접 낸 자료"], B: ["전문 매체", "국방·정부 IT 전문지, 싱크탱크, 뉴스레터"], C: ["일반 언론", "일반 언론·검색 수집 기사(사실 확인 권장)"] };
   function confBadges(a, long) {
