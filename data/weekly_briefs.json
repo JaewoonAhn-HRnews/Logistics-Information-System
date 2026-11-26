@@ -297,16 +297,16 @@
      "d": 2
     },
     {
-     "k": "eu",
-     "now": 3,
-     "prev": 3,
-     "d": 0
-    },
-    {
      "k": "etc",
      "now": 3,
      "prev": 1,
      "d": 2
+    },
+    {
+     "k": "eu",
+     "now": 3,
+     "prev": 3,
+     "d": 0
     }
    ],
    "domains": [
@@ -5416,31 +5416,58 @@
   }
  },
  "2026-W48": {
-  "core": "해군 MRO 협력 확산, 즉응태세·AI 정비 부상",
+  "core": "해군 MRO 협력 확산, 즉응태세 압박 부각",
   "themes": [
    {
     "no": 1,
-    "cat": "협력·MRO",
-    "head": "창원 국제 해군 MRO 포럼",
+    "cat": "국제협력",
+    "head": "해군 MRO 국제협력 포럼",
     "points": [
-     "14개국 700여 명, 창원서 첫 개최",
-     "K-함정 수출 넘어 MRO 시장 겨냥",
-     "경남TP 함정 MRO 보안·수출지원 선정"
+     "창원 첫 개최, 11.23~25",
+     "14개국 700여 명 참석",
+     "함정 수출에서 MRO 시장으로 확대"
     ],
     "icon": "ship",
     "refs": [
      1,
      2,
-     3,
      6,
      7
     ],
     "ids": [
      "71a8276ef5fa",
-     "ad1676423e1d",
      "914811dce6c1",
      "794cd1acfc1f",
      "97ddd2a802ac"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": []
+    }
+   },
+   {
+    "no": 2,
+    "cat": "산업·투자",
+    "head": "함정 부품 국산화·지역투자",
+    "points": [
+     "민·관·군 협력 국산화 교류회",
+     "경남도 K-방산 8,200억 투입",
+     "경남TP 함정 MRO 보안·수출지원 선정"
+    ],
+    "icon": "parts",
+    "refs": [
+     3,
+     8,
+     9,
+     25
+    ],
+    "ids": [
+     "ad1676423e1d",
+     "124f95042ccf",
+     "1134ba33104c",
+     "8686715784b0"
     ],
     "arch": {
      "l": [],
@@ -5452,154 +5479,28 @@
     }
    },
    {
-    "no": 2,
-    "cat": "산업기반",
-    "head": "함정 부품 국산화·방산투자",
-    "points": [
-     "민·관·군 협력 함정 부품 국산화 확대",
-     "경남도 K-방산 8200억 원 투입",
-     "하와이 훈련사업 IBAS 700만 달러 투자"
-    ],
-    "icon": "parts",
-    "refs": [
-     8,
-     9,
-     12,
-     22
-    ],
-    "ids": [
-     "124f95042ccf",
-     "1134ba33104c",
-     "4d491a474fb3",
-     "8686715784b0"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": []
-    }
-   },
-   {
     "no": 3,
-    "cat": "미군 군수",
-    "head": "미군 군수·즉응태세 강화",
+    "cat": "즉응태세",
+    "head": "가동률·즉응태세 압박",
     "points": [
-     "DLA, H-60 즉응태세 군 간 협력 지원",
-     "첫 미주 파트너 지속지원 회의 개최",
-     "DLA 감사 무결성·공급망 현대화 조명"
+     "캐나다 공군 가동 가능 41.9%",
+     "NATO 가용성 우려·英 즉응예산 삭감",
+     "美 해병 핵심 18개 특기 조기전역"
     ],
-    "icon": "truck",
-    "refs": [
-     4,
-     15,
-     19,
-     20,
-     25,
-     26,
-     28,
-     29
-    ],
-    "ids": [
-     "8e3db43ae52d",
-     "84cc1a7eabd8",
-     "e99f796f0449",
-     "4719e3788f3a",
-     "75fe1feb5de5",
-     "a27cc9fe80a1",
-     "fd752439d2b3",
-     "68d6657d927e"
-    ],
-    "arch": {
-     "l": [
-      {
-       "d": "2026-04-29",
-       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
-       "s": "Defense One",
-       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
-       "nl": 51,
-       "id": null,
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-09-14",
-       "t": "미 국방병참지원국(DLA), 'AI 디지털 직원' 185~190개 봇 운영 — 우크라이나·이란전 교훈 반영",
-       "s": "Government Executive",
-       "u": "https://www.govexec.com/technology/2026/09/digital-employees-are-coming-defense-logistics-agency/415963/",
-       "nl": 71,
-       "id": null,
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-10-21",
-       "t": "미 국방부, AI 기반 군수망 혁신을 위한 전군 데이터 통합 추진",
-       "s": "MeriTalk",
-       "u": "https://www.meritalk.com/articles/dod-officials-detail-push-to-make-data-ready-for-mission-ai/",
-       "nl": 76,
-       "id": null,
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-11-18",
-       "t": "DLA 재고 준비태세 검토위원회",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2dFhJMHF1MEFnTDFvZm5wdWFxUnFxUUdiNi0yMlFpSUgzS1l3T1pqMnpjQ1FBRXdjcTA3T3FiczRmQVRZS1djM0oycXNWZy1hODFSaDEzcGlNMEpFaVJJZVpZNnB5MnRCazN4ckNXclF3ZExMcHQ1ZEl3?oc=5",
-       "nl": null,
-       "id": "599d037127ab",
-       "k": [
-        "DLA"
-       ]
-      },
-      {
-       "d": "2026-11-19",
-       "t": "DLA 공급망 얼라이언스 콘퍼런스 개최",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOVBUcjdFUWxGbzBBbGs2VmVJUzVUNzVmc3R4WWNJU1J4YVB1Q3lqWTE1TnExZm9DZFNMeWQ4cW1tU1gxTW16RTJMNDZCWjg5NGdvUzJFSmxqTGkzMXFmdjV1LXVNT2tNUkxJY3lvc3kxNk5adTdxaVFmOW9yVk9IOEROOA?oc=5",
-       "nl": null,
-       "id": "33e175c88db4",
-       "k": [
-        "DLA"
-       ]
-      }
-     ],
-     "n": 34,
-     "since": "2026-04-14",
-     "terms": [
-      "DLA",
-      "미 해군"
-     ]
-    },
-    "tr": "AI·데이터 통합 추진에서 군 간·동맹 지속지원 협력으로 확장",
-    "im": "국방군수통합정보체계 데이터 표준화로 수리부속·정비수요 예측 기반 마련",
-    "ah": "7bb1e97561"
-   },
-   {
-    "no": 4,
-    "cat": "가동·태세",
-    "head": "노후화·즉응태세 압박",
-    "points": [
-     "캐나다 공군 기체 가동 가능 41.9%",
-     "영국 투자계획, 즉응태세 삭감 병행",
-     "영국 잠수함, 무기시설 노사분쟁 위협"
-    ],
-    "icon": "shield",
+    "icon": "chart",
     "refs": [
      5,
-     10,
+     16,
      17,
-     18,
+     20,
      21,
-     24
+     24,
+     27
     ],
     "ids": [
      "1f38ec2fd400",
-     "f671cdd817b3",
+     "d6e7c0e9ece0",
+     "19eafd1a2ae7",
      "ec9c4d89e7db",
      "25c3b64e715a",
      "4bbaf247a07e",
@@ -5666,30 +5567,135 @@
      "n": 33,
      "since": "2020-09-02",
      "terms": [
-      "F-35"
+      "F-35",
+      "NATO"
      ]
     },
-    "tr": "무인전력 확대 논의에서 노후 전력 가동률 압박으로 초점 이동",
-    "im": "신규 전력 도입 전 가동률 지표와 수리부속·정비인력 병목 선제 예측 필요",
-    "ah": "a2f65ed74c"
+    "tr": "신규 무인전력 확대 기조에서 기존 전력의 가동·인력 한계 부각",
+    "im": "가동률·특기 이탈 지표를 통합정보체계에 연계해 수리부속·정비인력 수요를 선제 예측",
+    "ah": "58df2db08a"
+   },
+   {
+    "no": 4,
+    "cat": "군수지원",
+    "head": "미 군수지원·공급망 협력",
+    "points": [
+     "DLA 공급망 현대화·H-60 즉응 지원",
+     "DLA 의무 공급망 회계연도 최대 실적",
+     "미주 파트너 지속지원 회의 첫 개최"
+    ],
+    "icon": "truck",
+    "refs": [
+     4,
+     18,
+     23,
+     29,
+     30,
+     31,
+     35
+    ],
+    "ids": [
+     "8e3db43ae52d",
+     "84cc1a7eabd8",
+     "4719e3788f3a",
+     "ea0b03f91adf",
+     "a27cc9fe80a1",
+     "cfcae87e54f3",
+     "68d6657d927e"
+    ],
+    "arch": {
+     "l": [
+      {
+       "d": "2026-04-29",
+       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
+       "nl": 51,
+       "id": null,
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-11-11",
+       "t": "ASC Hawley 고위공무원단 합류",
+       "s": "Army.mil",
+       "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekNlTGNycFJ3R2czcGR6QkF4VWF6eko3TFVfRWE3X3ZsR1piYkp0RWp4UmdjWE5OWnhaNFFxRU16dDVxc295UER4enlidkNNSzNvVkJYN0I1UGN0VFVNdWhET3c0aUFoaTltTldnSFNqVkhOeGVYekMyUDQ2TjVMWVloaW5TcFpXMVhTMm1WNFRUTFlTdVRhdVRjZDlRajh60gGmAUFVX3lxTE1IQmVPRE9XRl90MkNKMEoyT0JPY3JrWkVHMm9QWjhzNnpoa0x4NXJubFlvdFhhS0JhZTNWWktMM2h0R2dhY3lRV2JyVTVodGVxNGRCMWZGbG1yUFBMQWl3NFZBVjN2REtaRmQwTHd1UFNRUXZyekxHZWMxUlRncDVnNmFFYU5GNE14QUMzaGZlNGZFc1RIMVEtVGExMFlPRHJqcDJWYnc?oc=5",
+       "nl": null,
+       "id": "3468cb4d6c61",
+       "k": [
+        "육군 물자사령부"
+       ]
+      },
+      {
+       "d": "2026-11-14",
+       "t": "AMC·DLA 파트너십 강조",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KUEM2d2NHRUI0UEFseXpvRUd3QVAwUzhTOVBYMXJRQXYzc2tlNXdSX0pqQ2ZuV19uQktucmhWWG0yZVRJNnNrZ1dXTHF0bldCYUM5aURrOXRrN095cEd6ZTE4RXhjbUE?oc=5",
+       "nl": null,
+       "id": "7529b2f20d31",
+       "k": [
+        "육군 물자사령부"
+       ]
+      },
+      {
+       "d": "2026-11-18",
+       "t": "DLA 재고 준비태세 검토위원회",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2dFhJMHF1MEFnTDFvZm5wdWFxUnFxUUdiNi0yMlFpSUgzS1l3T1pqMnpjQ1FBRXdjcTA3T3FiczRmQVRZS1djM0oycXNWZy1hODFSaDEzcGlNMEpFaVJJZVpZNnB5MnRCazN4ckNXclF3ZExMcHQ1ZEl3?oc=5",
+       "nl": null,
+       "id": "599d037127ab",
+       "k": [
+        "DLA"
+       ]
+      },
+      {
+       "d": "2026-11-19",
+       "t": "DLA 공급망 얼라이언스 콘퍼런스 개최",
+       "s": "Defense Logistics Agency (DLA) (.mil)",
+       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOVBUcjdFUWxGbzBBbGs2VmVJUzVUNzVmc3R4WWNJU1J4YVB1Q3lqWTE1TnExZm9DZFNMeWQ4cW1tU1gxTW16RTJMNDZCWjg5NGdvUzJFSmxqTGkzMXFmdjV1LXVNT2tNUkxJY3lvc3kxNk5adTdxaVFmOW9yVk9IOEROOA?oc=5",
+       "nl": null,
+       "id": "33e175c88db4",
+       "k": [
+        "DLA"
+       ]
+      }
+     ],
+     "n": 34,
+     "since": "2026-04-14",
+     "terms": [
+      "DLA",
+      "미 해군",
+      "육군 물자사령부"
+     ]
+    },
+    "tr": "DLA 협의·재고 점검에서 성과 입증과 파트너 확장으로 이동",
+    "im": "재고 준비태세 점검과 동맹 지속지원 체계를 통합정보체계 수리부속 예측에 반영",
+    "ah": "871a5394bd"
    },
    {
     "no": 5,
-    "cat": "무인체계",
-    "head": "드론 표준화·야전 실증",
+    "cat": "AI·신기술",
+    "head": "국방 AI·드론 도입 가속",
     "points": [
-     "육군 25㎏ 이하 드론 표준 플랫폼 착수",
-     "제5군수지원여단·아쎄따 드론·MRO 협약",
-     "튀르키예 ALKAN FPV 보안군 인도"
+     "국방 AI 예산 확대, 기업 전담 TF",
+     "25㎏ 이하 드론 표준 플랫폼 착수",
+     "5군수지원여단 드론교육·MRO 협약"
     ],
-    "icon": "plane",
+    "icon": "robot",
     "refs": [
-     13,
-     23,
-     30
+     12,
+     14,
+     19,
+     22,
+     26,
+     36
     ],
     "ids": [
+     "5453910257ea",
      "ce344fbf3c63",
+     "b16c988c7d66",
+     "e99f796f0449",
      "4b1db6660e9d",
      "ba1f2d289fe1"
     ],
@@ -5698,6 +5704,7 @@
      "n": 0,
      "since": null,
      "terms": [
+      "국방 AI",
       "자율주행",
       "FPV 드론"
      ]
@@ -5705,117 +5712,117 @@
    },
    {
     "no": 6,
-    "cat": "AI·데이터",
-    "head": "국방 AI·예지정비 확산",
+    "cat": "제도·기반",
+    "head": "국방표준·산업기반 강화",
     "points": [
-     "국방 AI 예산 확대, 기업 전담 TF 구성",
-     "AI 발전설비 고장예측진단 시장 공략",
-     "피지컬 AI·부품 생태계 확장 강조"
+     "국방표준 법제화, 청정 부품망 구축",
+     "인도 Barak 노후화 관리 2.1억$ 계약",
+     "하와이 IBAS 700만$ 투자"
     ],
-    "icon": "data",
+    "icon": "policy",
     "refs": [
+     10,
      11,
-     16,
-     27
+     13,
+     15
     ],
     "ids": [
-     "5453910257ea",
-     "b16c988c7d66",
-     "f067d847525f"
+     "f671cdd817b3",
+     "d440a4e52a46",
+     "4d491a474fb3",
+     "faa5b6fb31a7"
     ],
     "arch": {
      "l": [],
      "n": 0,
      "since": null,
-     "terms": [
-      "국방 AI"
-     ]
+     "terms": []
     }
    }
   ],
   "recs": [
    {
     "t": "수리부속 국산화 연계",
-    "d": "함정 부품 국산화 수요를 부속 예측에 반영"
+    "d": "국산화 품목 수급을 수리부속 예측에 반영"
    },
    {
-    "t": "가동률 기반 신뢰도",
-    "d": "가동 가능 비율 지표를 신뢰도 예측에 연계"
+    "t": "가동률 지표 고도화",
+    "d": "무기체계 신뢰도·가동률을 핵심지표로 관리"
    },
    {
-    "t": "MRO·AI 정비 연동",
-    "d": "예지정비·정비인력 예측을 통합정보체계에 연계"
+    "t": "정비인력·AI 예측",
+    "d": "정비인력 수급과 고장예측 AI 적용 범위 설정"
    }
   ],
-  "h": "9b22040005",
-  "at": "2026-11-26 03:54",
-  "n": 30,
-  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 229 (char 228)",
+  "h": "fb201fc003",
+  "at": "2026-11-26 12:48",
+  "n": 36,
+  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 539 (char 538)",
   "cmp": {
    "prev": "2026-W47",
    "prev_label": "2026년 47주차(11.16~11.22)",
-   "n": 54,
+   "n": 63,
    "pn": 107,
-   "d": -53,
-   "pct": -50,
+   "d": -44,
+   "pct": -41,
    "regions": [
     {
      "k": "us",
-     "now": 33,
+     "now": 39,
      "prev": 68,
-     "d": -35
+     "d": -29
     },
     {
      "k": "kr",
-     "now": 17,
+     "now": 19,
      "prev": 33,
-     "d": -16
+     "d": -14
+    },
+    {
+     "k": "eu",
+     "now": 3,
+     "prev": 6,
+     "d": -3
     },
     {
      "k": "etc",
      "now": 2,
      "prev": 0,
      "d": 2
-    },
-    {
-     "k": "eu",
-     "now": 2,
-     "prev": 6,
-     "d": -4
     }
    ],
    "domains": [
     {
      "k": "wpn",
-     "now": 36,
+     "now": 42,
      "prev": 80,
-     "d": -44
+     "d": -38
     },
     {
      "k": "fcst",
-     "now": 12,
+     "now": 15,
      "prev": 10,
-     "d": 2
+     "d": 5
     },
     {
      "k": "lis",
-     "now": 7,
+     "now": 8,
      "prev": 13,
-     "d": -6
+     "d": -5
     }
    ],
    "kinds": [
     {
      "k": "news",
-     "now": 26,
+     "now": 32,
      "prev": 33,
-     "d": -7
+     "d": -1
     },
     {
      "k": "contract",
-     "now": 26,
+     "now": 29,
      "prev": 72,
-     "d": -46
+     "d": -43
     },
     {
      "k": "policy",
@@ -5848,18 +5855,14 @@
    "down_kw": [
     [
      "가동률·준비태세",
-     9
+     7
     ],
     [
      "창정비",
-     6
+     4
     ],
     [
      "AI",
-     3
-    ],
-    [
-     "공급망",
      3
     ],
     [
@@ -5881,12 +5884,12 @@
      "prev": null
     },
     {
-     "streak": 1,
-     "prev": null
+     "streak": 4,
+     "prev": "SW·반도체 보안"
     },
     {
-     "streak": 2,
-     "prev": "탄약·공급망"
+     "streak": 1,
+     "prev": null
     },
     {
      "streak": 1,
@@ -5895,50 +5898,50 @@
    ]
   },
   "flow": {
-   "h": "ae174fdd9a",
-   "ov": "이번 주는 창원 국제 해군 군수·MRO 포럼을 중심으로 함정 MRO·부품 국산화·보안 논의가 두드러졌다. 지난주의 가동률·공급망 관심이 이번엔 MRO 협력과 수출 연계, 국방 AI·드론 정비 협력으로 구체화됐다.",
+   "h": "2fa2a68ac1",
+   "ov": "이번 주는 창원 국제 해군 군수·MRO 포럼과 함정 부품 국산화·MRO 보안 지원이 중심에 섰다. 지난주의 지속지원·공급망 보안 논의가 해군 MRO 협력과 국방표준 법제화로 구체화됐고, 미·영·NATO의 가동률 우려와 AI 정비 사례도 이어졌다.",
    "flows": [
     {
-     "t": "함정 MRO 국제협력",
-     "d": "14개국 700명이 창원 포럼에 참가했고, 함정 수출이 MRO 시장으로 확장되는 흐름이다.",
+     "t": "해군 MRO 국제협력",
+     "d": "14개국 700명이 참가한 창원 포럼과 K-함정 수출 이후 MRO 시장 진출 논의가 이어짐",
      "dir": "신규"
     },
     {
-     "t": "부품 국산화·MRO 보안",
-     "d": "경남도·해군의 함정 부품 국산화 교류와 경남TP의 함정 MRO 보안 지원기관 선정이 이어졌다.",
+     "t": "부품 국산화·공급망 보안",
+     "d": "경남도 함정 부품 국산화 교류회, 함정 MRO 보안 기관 선정, 국방표준 법제화 보도",
      "dir": "확대"
     },
     {
-     "t": "가동률·즉응태세 지속",
-     "d": "미·영·캐나다 등에서 readiness 점검과 DLA 공급망·감사 관련 기사가 이어졌다.",
+     "t": "가동률·즉응태세 압박",
+     "d": "캐나다 공군, NATO AWACS, 영국 잠수함, 미군 readiness 기사가 계속 나옴",
      "dir": "지속"
     }
    ],
    "tech": [
     {
-     "id": "F-5-1",
-     "why": "AI 기반 발전설비 고장예측진단 기사가 정비 AI와 연결됨"
+     "id": "T-CY-69-1",
+     "why": "국방표준 법제화와 청정 부품망, 함정 MRO 보안 기사와 연계"
     },
     {
-     "id": "T-CY-69-1",
-     "why": "함정 MRO 보안과 공급망 현대화 논의와 연결됨"
+     "id": "F-5-1",
+     "why": "AI 기반 발전설비 고장예측진단 기사와 기술적으로 맞닿음"
     },
     {
      "id": "T-AI-6-3",
-     "why": "국방 AI 예산 확대와 군수·정비 지원 AI 수요와 연결됨"
+     "why": "국방 AI 예산 확대와 군수·정비 지원 AI 수요 기사와 연계"
     }
    ],
    "tasks": [
     {
      "id": "K-395",
-     "why": "드론 표준 플랫폼 개발 착수·장병 드론 교육·MRO 협력과 연계"
+     "why": "육군 25kg 이하 드론 표준 플랫폼과 군수여단 드론 MRO 협력과 연계"
     },
     {
      "id": "K-394",
-     "why": "국방 AI 확대·드론 MRO 협력과 연결되나 직접 근거는 제한적"
+     "why": "피지컬 AI·부품 생태계 기고와 모듈형 로봇·디지털 트윈 과제가 연계"
     }
    ],
-   "at": "2026-11-26 03:56"
+   "at": "2026-11-26 12:50"
   }
  }
 }

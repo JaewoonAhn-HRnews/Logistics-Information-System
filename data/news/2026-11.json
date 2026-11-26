@@ -2,6 +2,281 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "48744b65cd16",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T12:47",
+   "title": "[조달계획] '27년 차량정비용(현대) 수리부속 구매",
+   "source": "국방전자조달(D2B) · 국방부근무지원단",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국방부근무지원단 · 구매 · 수의계약 · 발주예정 2026.12 · 공고중 · 판단번호 50746",
+   "score": 5.5,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "parts",
+    "mro",
+    "policy",
+    "ind"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [
+    "국방부"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.0,
+    "dh": 1,
+    "rel": 5.5
+   }
+  },
+  {
+   "id": "d6e7c0e9ece0",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T12:31",
+   "title": "NATO Deploys E-3A AWACS to Poland as Fleet Readiness Concerns Grow",
+   "source": "Aviation A2Z",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTmtfX3ZhLVZ2WkdGT1Q0T2MwdHV6V1dEYzc0YjQxRjBua1l2UE9NQlZYV3E4UTVNUEFYVUpkYTNmb2owSVlSb2RLUl9nQlI5RjNhT1Brc1hHZk56SHR3bU1kaVc5Vk4zc2tNU2pEMzlNbC1RdEs3OFBzNU53M2t1S295R2I3Y1V6akRnQU9ZOXZmdy1VeFhQTl9xLTJzTnl1U1phenNQQ2xEYmhlcS13U0dB?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "d440a4e52a46",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T10:36",
+   "title": "軍 국방표준 법제화 \"무기 성능 극대화부터 '청정 부품망'까지 안보 방패 짠다\"",
+   "source": "파이낸셜뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wYnQybTJtRmNIZnFtR1VNMWJfZGNSdndLOHJRaWRwb2NkZWdmOHV2SkI0YnhacWRQT2xYbnpnbVlrakg5aW1jMG9nVlZXTGNmZTUyWG51bE5qQQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 군수 AI",
+   "cats": [
+    "parts"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [
+    "parts"
+   ],
+   "region": "kr",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "19eafd1a2ae7",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T09:08",
+   "title": "Marine Corps offers early exit to some enlisted troops",
+   "source": "Federal News Network (Defense)",
+   "url": "https://federalnewsnetwork.com/defense-main/2026/11/marine-corps-offers-early-exit-to-some-enlisted-troops/",
+   "lang": "en",
+   "summary": "Troops in 18 critical specialties can leave no earlier than 90 days before their contracts expire, rather than 180 days, because of “inventory shortfalls.\"",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "fnn",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "parts"
+   ],
+   "kw": [
+    "재고관리"
+   ],
+   "ents": [
+    "미 해병대"
+   ],
+   "axes": [
+    "parts"
+   ],
+   "region": "us",
+   "domains": [
+    "fcst"
+   ],
+   "kind": "news",
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "cfcae87e54f3",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T07:15",
+   "title": "DLA Troop Support Medical supply chain reports record fiscal year 2026 obligations, taxpayer savings",
+   "source": "Defense Logistics Agency (DLA) (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcjg4NV92Z1E0N2ZWaTA1Z0U0b1NxWmg3c2hHdmkxdWo5cUM0bWpxZUdCWUxVZjE4NmRVMEc3OVlwZ3FaUmdDX3p6Z0RzMVVtY2UxR2RNd3ZwQlZieDQtbVFsd0VWc1l2N3lxT2U3YnFpRWV1RTRLTWUzWlk5SFpGeHZEbE9McDBGT0lYUDRyOFJRRkkxYnNwZFdscERGNDBtb3hZUHhld1llRWlRU2E1YlZXYV9TZ0xkaENLeGFraUFEdkFETWMyMUl1Ny1QSG9weTFzX0RFTTJ2aXJucGxfeTB1aw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "dla",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [
+    "공급망"
+   ],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "ea0b03f91adf",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T06:15",
+   "title": "U.S. ARMY SUSTAINMENT COMMAND",
+   "source": "Army Sustainment Command (.mil)",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FdUhBcEhMZFpTdlU1R0VCNlhLbHNXQURoaW5sNFo3bUFpSnBkeDlFb1p6VUlvUjFYaGVTand5UlRlVlB5SS0xSTVFTGZsWmsycnpmNGM2VThBR0t6SnlzMTRWejJJS0s5Q3BfaGRQcUNTRnJTVmc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.5,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 7.5,
+    "dh": 1,
+    "rel": 3.5
+   }
+  },
+  {
+   "id": "666a69be7d38",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T04:31",
+   "title": "Decade After Grid Push, Fort Irwin Tests Readiness and Eases Outage Strain",
+   "source": "Army.mil",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbF83dFowLU0yb3hwRGk4OG0yNUJUbjBzanRTSGpYOG1ES2E2WkRFYThHLTN6MUd0UVozNHU1eWhNV3FPcTlQN19iRjVRcW5TRTJTS1RaSUl4SmlOVHlmMTUxRGlEQ3pYMGRrbUtwZWp4bUxkUHZQcHNyLU9kXzU5OU9ZSzAwY2RUMm42Q3BpQmJPNE9XbGx3Ni1iS25pTFF5alJDSGdjM0dpbWtMR1HSAbMBQVVfeXFMUFRpSW5jSjMwRkxTYm5FYVhCZFNzZUxlTG5NN295aXZxRjExeTdYZEZ5MnlhR21nRFJ1THl0M2xxNWNnVWRrTXZLTFVQZ1g4VERQODZwdnhnZ3Q0RWRiLWRETEUyT3ZkVDFBWXBTX1daUGtUcUs4RnRYMjVETjVFUmhHbFRiOFZTYTN5MV9PZTFueE5QODZoMDQxbVAzcV9tQkNQYXlXTnMxNE1RYXVLQVdZa28?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 3.0,
+   "also": [],
+   "origin": "rss",
+   "src": "armymil",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
    "id": "84cc1a7eabd8",
    "date": "2026-11-26",
    "ts": "2026-11-26T00:47",
@@ -339,6 +614,82 @@
     "r": 5.5,
     "dh": 1,
     "rel": 2.5
+   }
+  },
+  {
+   "id": "970a0eaf23db",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "Turnkey Solution For Automated Laser Stripper For Tobyhanna Army Depot",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/fb736a75ff494ca1acd89d9b757de521/view",
+   "lang": "en",
+   "summary": "Sources Sought · W51AA127TALS · DEPT OF THE ARMY > W0ML USA DEP TOBYHANNA · 마감 2026-12-09",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5.5,
+    "dh": 1,
+    "rel": 3.0
+   }
+  },
+  {
+   "id": "da69683aaea0",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T09:00",
+   "title": "Tobyhanna Army Depot Emf Range Expansion- Industry Day",
+   "source": "SAM.gov · Dept Of The Army",
+   "url": "https://sam.gov/workspace/contract/opp/575e7842bac04da3ae65195980eb49d9/view",
+   "lang": "en",
+   "summary": "Special Notice · DEPT OF THE ARMY > US ARMY CORPS OF ENGINEERS · 마감 2026-12-16",
+   "score": 3.0,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "mro"
+   ],
+   "kw": [
+    "창정비"
+   ],
+   "ents": [
+    "미 육군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 7.5,
+    "dh": 1,
+    "rel": 3.0
    }
   },
   {
@@ -1470,6 +1821,21 @@
      "source": "시사의창",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03WHR3aFExajJwZUpoblVtU3pEXzRIOUY1SzlJWHVadmVEdHZ4aEFVajRkR0FPS0pxX3N4OWhqWkN1UW1PUndUTjUxdU03YmhScnR1UA?oc=5",
      "title": "해군군수사령부-창원시, 국제 해군 MRO 협력 포럼 첫 개최"
+    },
+    {
+     "source": "불탑뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5RG9NcnNRcXlkQ2h1aWJxOXhBMGpGMmtUSUtvRlNra3RZdXB5VVh4Wmppbjl6bXU5YUdCTDVXaGotWHEwOFRxQkJPeF9tVVY0Mnk3bnZxakJWaGFyVWc?oc=5",
+     "title": "‘2026 국제 해군 군수 및 MRO 협력 포럼’ 창원에서 첫 개최"
+    },
+    {
+     "source": "시사코리아저널",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2SWFVOFQzRTlIdTdZSy1xTGpQcFQzNjVocXJNMVFIbGVPYjAyU1pXalhhdHpkYjduOE5hbTNSUWRUX2ZRVGhpdC1ob3VKaFRQMkpVQjJ0aEtpS1JqSkczOXljZ2MyVGl3?oc=5",
+     "title": "‘2026 국제 해군 군수 및 MRO 협력 포럼’ 창원서 첫 개최"
+    },
+    {
+     "source": "매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jU25TWWdWbnFCTjlacmlUQWVBeFl4cC1NQTZSazg2RTFqd2FaNHNoMUlIRUpyWE5mdHBzX0FrRDNORVEyQzlZbHYzejlnOWo0YVFnRTFqRmJ4T1BoUjFwRnB3?oc=5",
+     "title": "2026 국제 해군 군수 및 MRO 협력 포럼, 창원 첫 개최"
     }
    ],
    "origin": "rss",
@@ -2485,6 +2851,11 @@
      "source": "https://www.sisakoreanews.kr/",
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE14b1dsUzEzX3oySmN3ejhrR0owLVRGZFJMdlRvejU4S1NtRzBhY1lSNDZ2OXM4aHJfUGw4MGUyMVVFekZqM3dyX2tR?oc=5",
      "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주… 미국 시장 입지 확대"
+    },
+    {
+     "source": "사회적경제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5SU29HeGFqVDdJdkFvVmYzU1hCeWNvYU1PQWVpOVVwN05sRWRzcThBeXdSVm84MGFSVFJONmV3WQ?oc=5",
+     "title": "HD현대중공업, 미 해군 함정 MRO 4번째 수주…미국 시장 입지 확대"
     }
    ],
    "origin": "rss",
