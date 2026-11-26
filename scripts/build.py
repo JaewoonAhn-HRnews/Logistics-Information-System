@@ -875,6 +875,7 @@ def main():
             "regions": [{"id": r[0], "name": r[1], "terms": [t for t, _ in r[2]]} for r in T.REGIONS],
             "domains": [{"id": d["id"], "name": d["name"], "desc": d["desc"], "kw": d["kw"]} for d in T.DOMAINS],
             "kinds": [{"id": k, "name": n, "kw": kw} for k, n, kw in T.KINDS],
+            "platforms": [{"id": p["id"], "name": p["name"], "icon": p["icon"], "kw": p["kw"]} for p in T.PLATFORMS],
             "entities": [[e, t, syn] for e, t, syn in T.ENTITIES],
             "queries": {"ko": T.QUERIES_KO, "en": T.QUERIES_EN},
         },

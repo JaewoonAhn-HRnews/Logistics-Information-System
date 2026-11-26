@@ -98,6 +98,17 @@ def classify_domains(text):
     return [h[1] for h in hits]
 
 
+def classify_platforms(text):
+    """무기체계 세부(항공기·함정·전차/지상·유도무기/탄약·무인·우주) — 근거 키워드 수 순."""
+    hits = []
+    for pl in getattr(T, "PLATFORMS", []):
+        n = len(any_has(text, pl["kw"]))
+        if n:
+            hits.append((n, pl["id"]))
+    hits.sort(key=lambda x: -x[0])
+    return [h[1] for h in hits]
+
+
 def classify_kind(text):
     for kid, _n, terms in T.KINDS:
         if any_has(text, terms):
@@ -109,7 +120,7 @@ def full_classify(text, lang="ko", hint=None):
     cats, kws, ents, axes = classify(text)
     region, _ = classify_region(text, lang, hint)
     return {"cats": cats, "kw": kws, "ents": ents, "axes": axes, "region": region,
-            "domains": classify_domains(text), "kind": classify_kind(text)}
+            "domains": classify_domains(text), "kind": classify_kind(text), "plat": classify_platforms(text)}
 
 
 def relevance(text):

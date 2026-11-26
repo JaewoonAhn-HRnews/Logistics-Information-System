@@ -363,3 +363,27 @@ LINK_ENTITIES = [
     ("Hegseth", "인물", ["Hegseth", "헤그세스"]),
     ("Emil Michael", "인물", ["Emil Michael", "에밀 마이클"]),
 ]
+
+# 무기체계 세부 구분(플랫폼). 한 기사가 여러 플랫폼에 걸칠 수 있음
+PLATFORMS = [
+    {"id": "air", "name": "항공기", "icon": "✈", "kw": [
+        "항공기", "전투기", "헬기", "헬리콥터", "수송기", "공중급유기", "초계기", "훈련기", "경공격기", "조기경보기", "정찰기", "기동헬기", "공격헬기",
+        "F-35", "F-35A", "KF-21", "FA-50", "T-50", "F-16", "F-15", "F-15K", "F-22", "F/A-18", "수리온", "아파치", "블랙호크", "시누크", "C-130", "KC-46",
+        "KC-330", "E-7", "P-8", "B-21", "B-52", "B-1", "E-3", "C-5", "C-17", "A-10", "V-22", "aircraft", "fighter jet", "fighter", "helicopter", "airframe",
+        "Black Hawk", "Chinook", "Apache", "rotorcraft", "tanker aircraft", "bomber", "AWACS"]},
+    {"id": "naval", "name": "함정", "icon": "⚓", "kw": [
+        "함정", "군함", "구축함", "호위함", "잠수함", "상륙함", "초계함", "고속정", "항공모함", "항모", "이지스", "수상함", "함정 정비", "함정 MRO", "SPY-6", "Aegis",
+        "warship", "destroyer", "frigate", "submarine", "aircraft carrier", "amphibious", "littoral combat ship", "naval vessel", "vessel", "ship repair",
+        "shipyard", "dry dock", "drydock", "MSRA", "Virginia-class", "Columbia-class", "DDG", "LCS", "cutter"]},
+    {"id": "ground", "name": "전차·지상장비", "icon": "▣", "kw": [
+        "전차", "장갑차", "자주포", "궤도차량", "전술차량", "견인포", "지상장비", "K2", "K9", "K21", "레드백", "천마", "천무", "다련장", "기동장비", "차륜형",
+        "tank", "Abrams", "Bradley", "Stryker", "howitzer", "armored vehicle", "combat vehicle", "tactical vehicle", "JLTV", "AMPV", "Paladin", "HIMARS",
+        "M1A2", "Leopard", "ground vehicle", "wheeled vehicle", "tracked vehicle"]},
+    {"id": "missile", "name": "유도무기·탄약", "icon": "◆", "kw": [
+        "유도무기", "미사일", "방공", "요격", "천궁", "패트리어트", "사드", "현무", "신궁", "해궁", "탄약", "포탄", "탄도", "순항미사일",
+        "missile", "Patriot", "THAAD", "interceptor", "air defense", "munitions", "ammunition", "artillery shell", "155mm", "rocket motor", "SM-6", "Tomahawk", "JASSM", "PAC-3"]},
+    {"id": "unmanned", "name": "무인체계", "icon": "◎", "kw": [
+        "무인기", "드론", "무인수상정", "무인잠수정", "무인지상차량", "유무인 복합", "유·무인", "무인체계", "UAV", "UAS", "drone", "unmanned", "UGV", "USV", "UUV",
+        "MQ-9", "MQ-25", "Reaper", "Global Hawk", "loitering munition", "CCA", "collaborative combat aircraft", "counter-drone", "C-UAS"]},
+    {"id": "space", "name": "우주·위성", "icon": "✦", "kw": ["위성", "우주", "정찰위성", "satellite", "Space Force", "space-based", "launch vehicle", "GPS III"]},
+]
