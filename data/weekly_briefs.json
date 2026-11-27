@@ -4033,7 +4033,7 @@
   "h": "ce2b26d1f3",
   "at": "2026-11-26 21:36",
   "n": 40,
-  "v2_err": "HTTPError: HTTP Error 400: Bad Request",
+  "v2_err": "JSONDecodeError: Expecting ',' delimiter: line 1 column 1027 (char 1026)",
   "cmp": {
    "prev": "2026-W45",
    "prev_label": "2026년 45주차(11.2~11.8)",
@@ -5089,23 +5089,23 @@
   }
  },
  "2026-W48": {
-  "core": "해군 MRO 협력 확산, 국산화·즉응태세가 핵심 과제",
+  "core": "해군 MRO 협력 확대 속 가용성·보안 과제 부각",
   "themes": [
    {
     "no": 1,
     "cat": "국제협력",
-    "head": "창원 국제 해군 군수·MRO 포럼",
+    "head": "국제 해군 MRO 포럼 창원 개최",
     "points": [
-     "14개국 700여 명 참가한 첫 국제 포럼",
-     "창원시·해군군수사 공동 주최(11.23~25)",
-     "함정 수출을 넘어 MRO 시장 겨냥"
+     "14개국 700여 명 참가",
+     "11.23~25 창원·진해기지 개최",
+     "K-함정 수출에서 MRO 시장으로 확장"
     ],
-    "icon": "network",
+    "icon": "ship",
     "refs": [
      1,
      2,
-     5,
-     8
+     6,
+     12
     ],
     "ids": [
      "71a8276ef5fa",
@@ -5123,133 +5123,95 @@
    {
     "no": 2,
     "cat": "산업기반",
-    "head": "함정 부품 국산화·공급망",
+    "head": "함정 부품 국산화 확대",
     "points": [
-     "민·관·군 협력 함정 부품 국산화 확대",
-     "경남도 K-방산 8200억 원 투입",
-     "국방표준 법제화·청정 부품망 구축"
+     "경남도 8200억 K-방산 투입",
+     "민·관·군 국산화 교류회",
+     "국방표준 법제화·청정 부품망",
+     "경남TP 함정 MRO 보안·수출지원"
     ],
     "icon": "parts",
     "refs": [
      3,
-     9,
-     10,
-     12,
+     13,
      14,
-     16,
-     20,
-     28
+     18,
+     40
     ],
     "ids": [
      "ad1676423e1d",
      "124f95042ccf",
      "1134ba33104c",
      "d440a4e52a46",
-     "4d491a474fb3",
-     "faa5b6fb31a7",
-     "d053022ee268",
      "8686715784b0"
     ],
     "arch": {
-     "l": [
-      {
-       "d": "2026-11-09",
-       "t": "K9 수출 뒷받침 K-MRO 거점화",
-       "s": "데일리방산",
-       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZN3RUalJlb2dkc0JWYTNPU2R5U0hYWTNZTnQwXzFNQXVzOVNQRTZad1ZtYnI2TzRHS2l0T2NjLTVnN2JWVFd2NnFHQzk5RGRERERVUllpUGxGUGU3TjctaTNxZ0pBVVhQVFZRYWt5eHM?oc=5",
-       "nl": null,
-       "id": "1619c4326d6b",
-       "k": [
-        "한화"
-       ]
-      },
-      {
-       "d": "2026-11-09",
-       "t": "야전정비센터 후속군수지원 거점화",
-       "s": "엠투데이",
-       "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaXo1NFM0emFWRnBhY3YzQUZBQjFaMFBQOWZxUzIwdDFNcThad0gxeVRFeGQ4V3NpMFJDNER6cEJfdHVxa2g5WUdDcXI5S2ltbGZINGtUazR0SXc4eTlmVk12aXN0eC1PRWhZUi1OMA?oc=5",
-       "nl": null,
-       "id": "2d4361af3e26",
-       "k": [
-        "한화"
-       ]
-      },
-      {
-       "d": "2026-11-09",
-       "t": "육군과 정비 거점 확대",
-       "s": "머니투데이",
-       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUdIBckFVX3lxTFA4cHFqQXRLOW1PUmtacmtJNk4xWDVDV1FhaTRYSWFKbXVwc2l4QmZBRDltWGpBT2J5R0V0OXMzX2NscWw5bFhSTWNtUGxRR2RRQkVhcThkT2ktVm9la0h1QW5HeDJZMzBNUUcyYXhWTWZDUQ?oc=5",
-       "nl": null,
-       "id": "13de12f92ce7",
-       "k": [
-        "한화"
-       ]
-      },
-      {
-       "d": "2026-11-10",
-       "t": "육군·한화에어로 글로벌 MRO 협력",
-       "s": "뉴스투데이",
-       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jcl9FYjZCVEZVR2dlemliOVNja2VPeVhNeUU1VTU5UDlTNXMwZzJIOExIT1JlUkFfbzA5TkhLUExkcFlObnVUMXYxTDJHenE4VzZrbHlkR1FpMkhVaEE?oc=5",
-       "nl": null,
-       "id": "6940aadc5c3d",
-       "k": [
-        "한화"
-       ]
-      },
-      {
-       "d": "2026-11-17",
-       "t": "한화에어로, 동부 정비센터 추가",
-       "s": "데일리방산",
-       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fTkF0R0g5TkVwOW96U2o0MUlWbG9fV3B5VnZ1VVlQRWZmYldselJReFlKcjY3TW1QSUFGLXNrNGZILVFuWHhoc0NmWEs0MmJyVjlQb2Q5cEFEUWpiVmFaWTM4ZEM5Vm9YTUFXYk9JQTM?oc=5",
-       "nl": null,
-       "id": "7e232d3c13aa",
-       "k": [
-        "한화"
-       ]
-      }
-     ],
-     "n": 11,
-     "since": "2026-11-02",
+     "l": [],
+     "n": 0,
+     "since": null,
      "terms": [
-      "MRO 수출",
-      "한화"
+      "MRO 수출"
      ]
-    },
-    "tr": "정비 거점 확충에서 부품 국산화·표준화로 확장",
-    "im": "국방표준 부품정보를 군수통합정보체계 수리부속 수요예측에 연계",
-    "ah": "bcf8ccfb45"
+    }
    },
    {
     "no": 3,
-    "cat": "준비태세",
-    "head": "해외 즉응태세·가동률 경고",
+    "cat": "사이버보안",
+    "head": "미 공군 Cloud One 침해",
     "points": [
-     "캐나다 공군 기체 가동률 41.9%",
-     "NATO E-3A 폴란드 배치, 가용성 우려",
-     "美 해병 18개 특기 조기전역 허용"
+     "전술·인사·군수 데이터 위험",
+     "미사일 추적·방공 연계 시스템 보도",
+     "사이버사령부 피해 규모 평가 중"
     ],
-    "icon": "target",
+    "icon": "shield",
     "refs": [
-     7,
+     4,
+     10,
+     16,
      17,
-     18,
-     19,
-     21,
      24,
-     30,
-     31,
+     25
+    ],
+    "ids": [
+     "bd47e3a7f466",
+     "0093dec1edf0",
+     "928145356a45",
+     "83fd265edfb6",
+     "d84e82f7f814",
+     "6a10b4f0cf95"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": []
+    }
+   },
+   {
+    "no": 4,
+    "cat": "가용성·감사",
+    "head": "가용률·수리부속 관리",
+    "points": [
+     "펜타곤 9년 연속 감사 불합격",
+     "F-35 수리부속 최대 25억 달러 누락",
+     "캐나다 공군 가동 가능 비율 41.9%"
+    ],
+    "icon": "chart",
+    "refs": [
+     5,
+     9,
+     15,
+     23,
+     29,
      38
     ],
     "ids": [
+     "8e3db43ae52d",
      "1f38ec2fd400",
-     "4c9e0410c930",
+     "f671cdd817b3",
+     "442008ef4a21",
      "d6e7c0e9ece0",
-     "19eafd1a2ae7",
-     "84cc1a7eabd8",
-     "25c3b64e715a",
-     "fe78c30f8f32",
-     "75fe1feb5de5",
-     "fd752439d2b3"
+     "4719e3788f3a"
     ],
     "arch": {
      "l": [
@@ -5265,156 +5227,15 @@
        ]
       },
       {
-       "d": "2026-06-17",
-       "t": "미 공군 CCA Increment 1 양산 계약 — Anduril FQ-44·GA FQ-42 선정, '소프트웨어 별도 경쟁' 전략",
-       "s": "Defense One",
-       "u": "https://www.defenseone.com/defense-systems/2026/06/anduril-general-atomics-get-air-force-contracts-build-first-drone-wingmen/414266/",
-       "nl": 58,
-       "id": null,
-       "k": [
-        "F-35"
-       ]
-      },
-      {
-       "d": "2026-09-14",
-       "t": "美 공군, 2032년까지 자율 항공기 1,000대 전력화 계획",
-       "s": "MeriTalk",
-       "u": "https://www.meritalk.com/articles/air-force-plans-to-field-1000-autonomous-aircraft-by-2032/",
-       "nl": 71,
-       "id": null,
-       "k": [
-        "F-35"
-       ]
-      },
-      {
-       "d": "2026-09-15",
-       "t": "Anduril, FY27 예산 미확정 시 CCA 생산계약 착수 불가 경고",
-       "s": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/09/anduril-officials-say-company-cant-start-on-cca-production-contract-without-fy27-budget/",
-       "nl": 71,
-       "id": null,
-       "k": [
-        "F-35"
-       ]
-      },
-      {
-       "d": "2026-11-20",
-       "t": "미 해군 차관 지명자 '차세대 함재기 F/A-XX보다 CCA를 먼저 운용할 것'",
-       "s": "Defense One",
-       "u": "https://www.defenseone.com/defense-systems/2026/11/navy-will-likely-fly-ccas-sooner-f-xx-white-house-nom-says/417365/",
-       "nl": 80,
-       "id": null,
-       "k": [
-        "F-35"
-       ]
-      }
-     ],
-     "n": 33,
-     "since": "2020-09-02",
-     "terms": [
-      "F-35",
-      "NATO",
-      "미 해군"
-     ]
-    },
-    "tr": "무인기 전력화 논의에서 기존 전력 가동률 경고로 이동",
-    "im": "가동률 지표를 군수체계로 상시 추적하고 정비인력 이탈에 대비",
-    "ah": "1ff11f6173"
-   },
-   {
-    "no": 4,
-    "cat": "정비·투자",
-    "head": "노후 체계 정비·가용성 투자",
-    "points": [
-     "영국 80억 파운드 잠수함 가용성 투자",
-     "인도 Barak 노후화 관리 계약 체결",
-     "무기시설 노사분쟁, 잠수함 전비 위협"
-    ],
-    "icon": "ship",
-    "refs": [
-     6,
-     11,
-     23,
-     27
-    ],
-    "ids": [
-     "31bbfa82fbff",
-     "f671cdd817b3",
-     "ec9c4d89e7db",
-     "4bbaf247a07e"
-    ],
-    "arch": {
-     "l": [],
-     "n": 0,
-     "since": null,
-     "terms": [
-      "RAM-C"
-     ]
-    }
-   },
-   {
-    "no": 5,
-    "cat": "군수지원",
-    "head": "미군 군수지원·공급망 점검",
-    "points": [
-     "DLA 감사 무결성·공급망 현대화 조명",
-     "DLA, H-60 즉응태세 군 간 협력",
-     "미 육군 첫 미주 파트너 지속지원 회의"
-    ],
-    "icon": "truck",
-    "refs": [
-     4,
-     25,
-     26,
-     32,
-     33,
-     35,
-     36,
-     39
-    ],
-    "ids": [
-     "8e3db43ae52d",
-     "e99f796f0449",
-     "4719e3788f3a",
-     "ea0b03f91adf",
-     "a27cc9fe80a1",
-     "cfcae87e54f3",
-     "666a69be7d38",
-     "68d6657d927e"
-    ],
-    "arch": {
-     "l": [
-      {
-       "d": "2026-04-29",
-       "t": "Pentagon, GenAI.mil에 Google Gemini 3.1 Pro 추가… 사용자 130만 명 돌파",
-       "s": "Defense One",
-       "u": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/",
-       "nl": 51,
-       "id": null,
-       "k": [
-        "DLA"
-       ]
-      },
-      {
        "d": "2026-11-11",
-       "t": "ASC Hawley 고위공무원단 합류",
-       "s": "Army.mil",
-       "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekNlTGNycFJ3R2czcGR6QkF4VWF6eko3TFVfRWE3X3ZsR1piYkp0RWp4UmdjWE5OWnhaNFFxRU16dDVxc295UER4enlidkNNSzNvVkJYN0I1UGN0VFVNdWhET3c0aUFoaTltTldnSFNqVkhOeGVYekMyUDQ2TjVMWVloaW5TcFpXMVhTMm1WNFRUTFlTdVRhdVRjZDlRajh60gGmAUFVX3lxTE1IQmVPRE9XRl90MkNKMEoyT0JPY3JrWkVHMm9QWjhzNnpoa0x4NXJubFlvdFhhS0JhZTNWWktMM2h0R2dhY3lRV2JyVTVodGVxNGRCMWZGbG1yUFBMQWl3NFZBVjN2REtaRmQwTHd1UFNRUXZyekxHZWMxUlRncDVnNmFFYU5GNE14QUMzaGZlNGZFc1RIMVEtVGExMFlPRHJqcDJWYnc?oc=5",
+       "t": "F-35 부품 추적 실패 경고",
+       "s": "The Defence Blog",
+       "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3RJR18yY0o4T1dUTGNsN0VJRlVoUi12a0w5eXZjeEozSnlwNFh2ZHFXRGFSWEVMcExwQTNTTWJuWHNvRl9qeXBsTXBLZWtVajkyVFNNSDVENnE1WWoweHh2c1RUWGdSM0ZSalF5Y1ZCQkZqQncwMDA5eXRKbmpXWkpsMktPb2o2T3o4dkl4cmLSAZYBQVVfeXFMTU9pajNIZUZ5UUNhajZDU2VhZ19BQTdtcTdhVzczU0dpU1pBbmN2S0xZZmM1QVdLeVI1U3dTQnpfWmJjM1paMzhEaHl2c3FDdDRrLUlQQUlEREw1dUxDZTVfYTNCMlVmNnVUUml3d1ZRUXpQRndwdHp1UHdEekd3WlU2MWdBdFREalpaRWhFUmpGWjdZSFdn?oc=5",
        "nl": null,
-       "id": "3468cb4d6c61",
+       "id": "d205b8670cd6",
        "k": [
-        "육군 물자사령부"
-       ]
-      },
-      {
-       "d": "2026-11-14",
-       "t": "AMC·DLA 파트너십 강조",
-       "s": "Defense Logistics Agency (DLA) (.mil)",
-       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KUEM2d2NHRUI0UEFseXpvRUd3QVAwUzhTOVBYMXJRQXYzc2tlNXdSX0pqQ2ZuV19uQktucmhWWG0yZVRJNnNrZ1dXTHF0bldCYUM5aURrOXRrN095cEd6ZTE4RXhjbUE?oc=5",
-       "nl": null,
-       "id": "7529b2f20d31",
-       "k": [
-        "육군 물자사령부"
+        "GAO",
+        "F-35"
        ]
       },
       {
@@ -5438,42 +5259,87 @@
        "k": [
         "DLA"
        ]
+      },
+      {
+       "d": "2026-11-20",
+       "t": "미 해군 차관 지명자 '차세대 함재기 F/A-XX보다 CCA를 먼저 운용할 것'",
+       "s": "Defense One",
+       "u": "https://www.defenseone.com/defense-systems/2026/11/navy-will-likely-fly-ccas-sooner-f-xx-white-house-nom-says/417365/",
+       "nl": 80,
+       "id": null,
+       "k": [
+        "F-35"
+       ]
       }
      ],
-     "n": 34,
-     "since": "2026-04-14",
+     "n": 55,
+     "since": "2020-09-02",
      "terms": [
       "DLA",
-      "육군 물자사령부"
+      "F-35",
+      "GAO"
      ]
     },
-    "tr": "DLA 협력·재고 점검에서 감사·즉응태세 협력으로 확대",
-    "im": "재고 준비태세 점검을 수리부속 소요·가용성 예측과 연계",
-    "ah": "0cb5dd71cb"
+    "tr": "추적 실패 경고에서 누락 규모·가동률 수치 확인 단계로",
+    "im": "수리부속 재고·추적 정합성을 군수통합정보체계에서 점검해 가용률 예측 신뢰도 확보",
+    "ah": "3940ba196b"
+   },
+   {
+    "no": 5,
+    "cat": "조직·투자",
+    "head": "영국 잠수함 가용성 투자",
+    "points": [
+     "80억 파운드 투자, Babcock 87억 계약",
+     "대형 정비 계약으로 해상 복귀 단축",
+     "즉응태세 삭감 논란·노사분쟁 우려"
+    ],
+    "icon": "money",
+    "refs": [
+     8,
+     11,
+     27,
+     35,
+     39
+    ],
+    "ids": [
+     "31bbfa82fbff",
+     "31eb852fc2be",
+     "4cf0a6b72a56",
+     "ec9c4d89e7db",
+     "4bbaf247a07e"
+    ],
+    "arch": {
+     "l": [],
+     "n": 0,
+     "since": null,
+     "terms": [
+      "RAM-C"
+     ]
+    }
    },
    {
     "no": 6,
-    "cat": "AI·드론",
-    "head": "국방 AI·드론·예지정비",
+    "cat": "AI·디지털",
+    "head": "국방 AI·예측정비 확산",
     "points": [
-     "국방 AI 예산 확대, 기업 전담 TF 가동",
-     "육군 25㎏ 이하 드론 표준 플랫폼 착수",
-     "AI 고장예측진단 스마트 유지보수 확산"
+     "국방 AI 예산 확대, 기업 TF 구성",
+     "AI 고장예측진단 유지보수 공략",
+     "제5군수지원여단 드론·MRO 협약"
     ],
     "icon": "robot",
     "refs": [
-     13,
-     15,
-     22,
+     19,
+     21,
+     33,
      34,
-     40
+     37
     ],
     "ids": [
      "5453910257ea",
      "ce344fbf3c63",
      "b16c988c7d66",
-     "96361e51064d",
-     "ba1f2d289fe1"
+     "c33f86a3c409",
+     "e99f796f0449"
     ],
     "arch": {
      "l": [],
@@ -5481,100 +5347,352 @@
      "since": null,
      "terms": [
       "국방 AI",
-      "대드론"
+      "AI 플랫폼"
      ]
     }
    }
   ],
   "recs": [
    {
-    "t": "부품 국산화 연계",
-    "d": "국산화 품목을 수리부속 수요예측과 연동"
+    "t": "예측정비 데이터 통합",
+    "d": "군수정보체계에 가용성·부품 데이터 연계"
    },
    {
-    "t": "가동률 지표화",
-    "d": "군수통합정보체계 가동률·신뢰도 지표 표준화"
+    "t": "수리부속 기록 정합성",
+    "d": "누락 방지를 위한 재고·소요 검증 점검"
    },
    {
-    "t": "AI 예지정비 실증",
-    "d": "야전 MRO 실증으로 정비인력·부속 예측 검증"
+    "t": "군수정보 보안 강화",
+    "d": "클라우드 침해 사례 기반 접근통제 점검"
    }
   ],
-  "h": "898fb9ee19",
-  "at": "2026-11-27 03:40",
+  "h": "65c0133239",
+  "at": "2026-11-28 03:30",
   "n": 40,
-  "v2_err": "HTTPError: HTTP Error 400: Bad Request",
+  "v2": {
+   "tag": "가용성 투자 확대 × 데이터 보안·감사",
+   "groups": [
+    {
+     "g": 1,
+     "title": "국제 MRO 협력",
+     "sub": "해군 MRO 협력 확대",
+     "items": [
+      {
+       "n": 4,
+       "h": "K-함정 수출 넘어 MRO 시장",
+       "d": "14개국 해군, MRO 시장 겨냥해 창원 집결",
+       "id": "794cd1acfc1f"
+      },
+      {
+       "n": 3,
+       "h": "국제 해군 군수·MRO 포럼 개막",
+       "d": "14개국 유관기관 700여 명 참석",
+       "id": "97ddd2a802ac"
+      },
+      {
+       "n": 1,
+       "h": "창원서 첫 해군 MRO 포럼",
+       "d": "14개국 700명 참가, 창원 최초 개최",
+       "id": "71a8276ef5fa"
+      },
+      {
+       "n": 2,
+       "h": "해군군수사·창원시 공동 주최",
+       "d": "11월 23~25일 창원·진해기지 진행",
+       "id": "914811dce6c1"
+      }
+     ]
+    },
+    {
+     "g": 2,
+     "title": "함정 부품 국산화",
+     "sub": "민·관·군 협력·표준화",
+     "items": [
+      {
+       "n": 9,
+       "h": "경남도 K-방산 8200억 투입",
+       "d": "함정 국산화·무장애 관광도 속도",
+       "id": "8686715784b0"
+      },
+      {
+       "n": 6,
+       "h": "민·관·군 함정 부품 국산화",
+       "d": "경남도, 협력 통한 국산화 확대",
+       "id": "124f95042ccf"
+      },
+      {
+       "n": 8,
+       "h": "국방표준 법제화",
+       "d": "무기 성능 극대화·청정 부품망 구축",
+       "id": "d440a4e52a46"
+      },
+      {
+       "n": 5,
+       "h": "경남TP 함정 MRO 보안 기관",
+       "d": "함정 MRO 보안·방산수출 지원기관 선정",
+       "id": "ad1676423e1d"
+      },
+      {
+       "n": 7,
+       "h": "해군-경남도 국산화 교류회",
+       "d": "11월 23일 창원 개최",
+       "id": "1134ba33104c"
+      }
+     ]
+    },
+    {
+     "g": 3,
+     "title": "미 공군 클라우드 침해",
+     "sub": "군 데이터 노출 위험",
+     "items": [
+      {
+       "n": 13,
+       "h": "Cloud One 플랫폼 침해",
+       "d": "전술·인사·군수 데이터 위험",
+       "id": "83fd265edfb6"
+      },
+      {
+       "n": 15,
+       "h": "항공기·미사일 데이터 침입",
+       "d": "항공기·미사일·인사 데이터 보관 시스템",
+       "id": "6a10b4f0cf95"
+      },
+      {
+       "n": 11,
+       "h": "미사일 추적·방공 연계 노출",
+       "d": "사이버 공격으로 클라우드 시스템 노출",
+       "id": "0093dec1edf0"
+      },
+      {
+       "n": 12,
+       "h": "사이버사령부 피해 평가",
+       "d": "Cloud One 피해 규모 평가 중",
+       "id": "928145356a45"
+      },
+      {
+       "n": 14,
+       "h": "클라우드 운영 차질",
+       "d": "Cloud One 공격으로 운영 차질 보도",
+       "id": "d84e82f7f814"
+      },
+      {
+       "n": 10,
+       "h": "군 데이터 위험 노출",
+       "d": "해커의 Cloud One 침해 보도",
+       "id": "bd47e3a7f466"
+      }
+     ]
+    },
+    {
+     "g": 4,
+     "title": "가용률·수리부속",
+     "sub": "감사 무결성과 즉응태세",
+     "items": [
+      {
+       "n": 19,
+       "h": "펜타곤 9년 연속 감사 불통과",
+       "d": "F-35 수리부속 최대 25억 달러 누락",
+       "id": "442008ef4a21"
+      },
+      {
+       "n": 17,
+       "h": "캐나다 공군 가동률 41.9%",
+       "d": "노후 기체·인력 부족이 NORAD 역할 제약",
+       "id": "1f38ec2fd400"
+      },
+      {
+       "n": 18,
+       "h": "인도 Barak 1 개량 계약",
+       "d": "IAI와 노후화 관리 계약, 약 2.1억 달러",
+       "id": "f671cdd817b3"
+      },
+      {
+       "n": 20,
+       "h": "NATO E-3A 폴란드 배치",
+       "d": "함대 가용성 우려 속 배치",
+       "id": "d6e7c0e9ece0"
+      },
+      {
+       "n": 21,
+       "h": "DLA, H-60 즉응태세 지원",
+       "d": "군 간 협력으로 핵심 즉응태세 확보",
+       "id": "4719e3788f3a"
+      },
+      {
+       "n": 16,
+       "h": "DLA 서스쿼해나 센터 방문",
+       "d": "감사 무결성·공급망 현대화 조명",
+       "id": "8e3db43ae52d"
+      }
+     ]
+    },
+    {
+     "g": 5,
+     "title": "영국 잠수함 가용성",
+     "sub": "대형 정비 투자와 예산 논란",
+     "items": [
+      {
+       "n": 22,
+       "h": "영국 잠수함 가용성 80억 파운드",
+       "d": "대형 정비 계약으로 해상 복귀 앞당김",
+       "id": "31bbfa82fbff"
+      },
+      {
+       "n": 24,
+       "h": "Babcock 87억 파운드 계약",
+       "d": "영국 해군 잠수함 가용성 회복 목적",
+       "id": "4cf0a6b72a56"
+      },
+      {
+       "n": 26,
+       "h": "노사 분쟁, 잠수함 전비태세 위협",
+       "d": "무기 시설 분쟁이 왕립해군 태세 위협",
+       "id": "4bbaf247a07e"
+      },
+      {
+       "n": 25,
+       "h": "NAO, 국방투자계획 평가",
+       "d": "즉응태세 삭감과 2030년 이후 약속 균형",
+       "id": "ec9c4d89e7db"
+      },
+      {
+       "n": 23,
+       "h": "카트리지 '태세 삭감' 주장",
+       "d": "재원 격차 메우려 대비태세 축소 주장",
+       "id": "31eb852fc2be"
+      }
+     ]
+    },
+    {
+     "g": 6,
+     "title": "국방 AI·예측정비",
+     "sub": "AI 예산 확대와 정비 협력",
+     "items": [
+      {
+       "n": 29,
+       "h": "국방 AI 예산 확대, 기업 TF",
+       "d": "통신·플랫폼 기업 전담 TF로 군 협력 강화",
+       "id": "b16c988c7d66"
+      },
+      {
+       "n": 28,
+       "h": "아쎄따·제5군수지원여단 협약",
+       "d": "드론 교육·MRO·야전 실증 협력",
+       "id": "ce344fbf3c63"
+      },
+      {
+       "n": 27,
+       "h": "가온플랫폼 AI 고장예측진단",
+       "d": "발전설비 AI 고장예측으로 유지보수 시장 공략",
+       "id": "5453910257ea"
+      },
+      {
+       "n": 30,
+       "h": "K-방산, AI·플랫폼 결합",
+       "d": "전투력 극대화 위한 AI·플랫폼 결합",
+       "id": "c33f86a3c409"
+      },
+      {
+       "n": 31,
+       "h": "미 육군 SW 즉응태세 강화",
+       "d": "2026년 소프트웨어 즉응태세 제고",
+       "id": "e99f796f0449"
+      }
+     ]
+    }
+   ],
+   "imps": [
+    {
+     "t": "부속 기록 정합성",
+     "d": "F-35 부품 누락 사례, 기록 정합성 점검 필요"
+    },
+    {
+     "t": "가용률 가시화",
+     "d": "가동률 41.9% 사례, 가용률 가시화 필요"
+    },
+    {
+     "t": "통합체계 보안 강화",
+     "d": "군수 데이터 노출 사례, 접근통제 강화"
+    },
+    {
+     "t": "예측정비 기반 확충",
+     "d": "AI 예산 확대·MRO 실증 협력 활용 모색"
+    }
+   ],
+   "h": "70a36b36f4",
+   "at": "2026-11-28 03:32"
+  },
   "cmp": {
    "prev": "2026-W47",
    "prev_label": "2026년 47주차(11.16~11.22)",
-   "n": 72,
+   "n": 85,
    "pn": 109,
-   "d": -37,
-   "pct": -34,
+   "d": -24,
+   "pct": -22,
    "regions": [
     {
      "k": "us",
-     "now": 39,
+     "now": 47,
      "prev": 69,
-     "d": -30
+     "d": -22
     },
     {
      "k": "kr",
-     "now": 24,
+     "now": 26,
      "prev": 34,
-     "d": -10
+     "d": -8
     },
     {
      "k": "eu",
-     "now": 6,
+     "now": 8,
      "prev": 6,
-     "d": 0
+     "d": 2
     },
     {
      "k": "etc",
-     "now": 3,
+     "now": 4,
      "prev": 0,
-     "d": 3
+     "d": 4
     }
    ],
    "domains": [
     {
      "k": "wpn",
-     "now": 48,
+     "now": 56,
      "prev": 82,
-     "d": -34
-    },
-    {
-     "k": "fcst",
-     "now": 15,
-     "prev": 10,
-     "d": 5
+     "d": -26
     },
     {
      "k": "lis",
-     "now": 10,
+     "now": 17,
      "prev": 13,
-     "d": -3
+     "d": 4
+    },
+    {
+     "k": "fcst",
+     "now": 16,
+     "prev": 10,
+     "d": 6
     }
    ],
    "kinds": [
     {
      "k": "news",
-     "now": 37,
+     "now": 45,
      "prev": 35,
-     "d": 2
+     "d": 10
     },
     {
      "k": "contract",
-     "now": 33,
+     "now": 36,
      "prev": 72,
-     "d": -39
+     "d": -36
     },
     {
      "k": "policy",
-     "now": 2,
+     "now": 4,
      "prev": 2,
-     "d": 0
+     "d": 2
     }
    ],
    "new_kw": [
@@ -5583,6 +5701,10 @@
    "up_kw": [
     [
      "MRO",
+     3
+    ],
+    [
+     "클라우드",
      3
     ],
     [
@@ -5600,20 +5722,8 @@
    ],
    "down_kw": [
     [
-     "가동률·준비태세",
-     5
-    ],
-    [
      "창정비",
      4
-    ],
-    [
-     "AI",
-     3
-    ],
-    [
-     "클라우드",
-     3
     ]
    ],
    "themes": [
@@ -5634,8 +5744,8 @@
      "prev": null
     },
     {
-     "streak": 4,
-     "prev": "보안·공급망"
+     "streak": 1,
+     "prev": null
     },
     {
      "streak": 1,
@@ -5644,50 +5754,50 @@
    ]
   },
   "flow": {
-   "h": "4b29a035fb",
-   "ov": "이번 주는 창원 국제 해군 군수·MRO 포럼과 함정 부품 국산화 논의가 중심이었고, 미·영·나토의 장비 가용성·준비태세 이슈가 이어졌다. 지난주의 탄약·부품 가시성과 AI 군수 논의가 이번에는 MRO 국제협력과 국산화·공급망으로 넓어졌다.",
+   "h": "75e22e01a0",
+   "ov": "이번 주는 창원 국제 해군 군수·MRO 포럼과 함정 부품 국산화로 MRO 협력·산업기반 논의가 부각됐다. 지난주 가시성·AI 군수 중심에서, 미 공군 Cloud One 해킹과 영국·미국 감사에서 드러난 준비태세·부품 관리 문제까지 넓어졌다.",
    "flows": [
     {
-     "t": "함정 MRO 국제협력",
-     "d": "14개국 700명이 참가한 창원 해군 군수·MRO 포럼과 경남TP의 함정 MRO 보안·수출지원 기관 선정이 이어짐",
+     "t": "해군 MRO 협력 확대",
+     "d": "창원 첫 국제 포럼(14개국 700명)과 경남 함정 부품 국산화·MRO 보안 지원기관 선정이 맞물림",
      "dir": "신규"
     },
     {
-     "t": "부품 국산화·공급망",
-     "d": "경남도 함정 부품 국산화 교류회, 국방표준 법제화와 청정 부품망, DLA 공급망 현대화가 거론됨",
-     "dir": "확대"
+     "t": "군 클라우드 보안 위협",
+     "d": "미 공군 Cloud One 침해로 군사 데이터 노출 우려, 군 클라우드·공급망 보안 쟁점 부상",
+     "dir": "신규"
     },
     {
-     "t": "장비 가용성·준비태세",
-     "d": "영국 잠수함 가용성 투자, 나토 AWACS 정비 우려, 캐나다 공군 준비태세 지적 등 해외 사례가 이어짐",
+     "t": "준비태세·정비 투자",
+     "d": "영국 8조원대 잠수함 가동률 투자, 감사 지적(F-35 예비부품, 준비태세 삭감)이 이어짐",
      "dir": "지속"
     }
    ],
    "tech": [
     {
+     "id": "T-CY-69-1",
+     "why": "Cloud One 침해와 함정 MRO 보안 논의가 공급망 보안 필요성과 연결"
+    },
+    {
      "id": "F-5-1",
-     "why": "AI 고장예측진단 기사가 정비장비의 AI 고장진단과 직접 연결됨"
+     "why": "AI 기반 발전설비 고장예측진단 기사가 AI 고장진단과 직접 연계"
     },
     {
      "id": "T-AI-6-3",
-     "why": "준비태세·가용성 논의와 AI 군수·정비 지원 수요가 맞닿음"
-    },
-    {
-     "id": "T-CY-69-1",
-     "why": "함정 MRO 보안과 청정 부품망 논의가 공급망 보안과 연결됨"
+     "why": "AI 군수체계와 부품·재고 가시성 논의가 AI 정비 군수지원과 연계"
     }
    ],
    "tasks": [
     {
-     "id": "K-31",
-     "why": "영국 잠수함 가용성 투자와 연계해 국내 잠수함 개선·정비성 연구에 시사점"
+     "id": "K-367",
+     "why": "군 클라우드 해킹 사례는 군사시설·장비 사이버 방어 과제의 중요성을 시사"
     },
     {
-     "id": "K-394",
-     "why": "피지컬 AI·부품 생태계 기고와 연계해 디지털 트윈·로봇 정비 활용을 검토할 수 있음"
+     "id": "K-31",
+     "why": "영국 잠수함 가동률 투자와 해군 MRO 협력이 잠수함 연구와 연계"
     }
    ],
-   "at": "2026-11-27 03:45"
+   "at": "2026-11-28 03:33"
   }
  }
 }

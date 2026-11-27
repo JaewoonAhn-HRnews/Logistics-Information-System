@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 12:47",
+ "at": "2026-11-28 03:28",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -27,33 +27,33 @@
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "110531000",
-     "cntrctMth": "제한경쟁",
-     "dcsNo": "49333",
+     "budgetAmount": "44000000",
+     "cntrctMth": "수의계약",
+     "dcsNo": "51350",
      "demandYear": "2026",
      "excutTy": "구매",
      "orderPrearngeMt": "202612",
-     "ornt": "제9965부대",
-     "orntCode": "MDR",
+     "ornt": "육군본부",
+     "orntCode": "LCG",
      "progrsSttus": "공고중",
      "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "'27년 000부대 계란 등 135품목",
+     "reprsntPrdlstNm": "26-육-322 '26년 군사경찰 사고예방 VR기기 구매",
      "spcifyPrcureAt": "N"
     },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "230000140",
-     "cntrctMth": "제한경쟁",
-     "dcsNo": "49329",
+     "budgetAmount": "29201000",
+     "cntrctMth": "협상에의한계약(전자)",
+     "dcsNo": "51343",
      "demandYear": "2026",
-     "excutTy": "구매",
+     "excutTy": "용역",
      "orderPrearngeMt": "202612",
-     "ornt": "제9965부대",
-     "orntCode": "MDR",
+     "ornt": "육군본부",
+     "orntCode": "LCG",
      "progrsSttus": "공고중",
      "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "'27년 000부대 삼겹살 등 98품목",
+     "reprsntPrdlstNm": "26-육-321 미래 동원사 역할 정립 및 부대이전 타당성",
      "spcifyPrcureAt": "N"
     }
    ]
@@ -135,15 +135,15 @@
    "ok": true,
    "code": "00",
    "n": 100,
-   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-D-00부대 설계용역(B565)</cntrwkNm><cntrwkNo>2026-18779</cntrwkNo><cntrwkSe>설계용역 </cntrwkSe><orderPrearngeMt>202611</",
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><bidMth>총액제</bidMth><budgetAmount>0</budgetAmount><cntrctMth>일반경쟁</cntrctMth><cntrwkNm>26-N-오수처리시설 개선 시설공사(3213)</cntrwkNm><cntrwkNo>2026-19889</cntrwkNo><cntrwkSe>일반공사</cntrwkSe><orderPre",
    "sample": [
     {
      "bidMth": "총액제",
      "budgetAmount": "0",
      "cntrctMth": "일반경쟁",
-     "cntrwkNm": "26-D-00부대 설계용역(B565)",
-     "cntrwkNo": "2026-18779",
-     "cntrwkSe": "설계용역",
+     "cntrwkNm": "26-N-오수처리시설 개선 시설공사(3213)",
+     "cntrwkNo": "2026-19889",
+     "cntrwkSe": "일반공사",
      "orderPrearngeMt": "202611",
      "ornt": "국군재정관리단",
      "orntCode": "UMM",

@@ -2,6 +2,453 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "9d26a14c49c7",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T03:28",
+   "title": "[조달계획] 27년 VoIP교환기 유지보수용역(27-DB-009)",
+   "source": "국방전자조달(D2B) · 국군의무사령부",
+   "url": "https://www.d2b.go.kr/pdb/plan/goodsProcurePlanList.do?key=10",
+   "lang": "ko",
+   "summary": "국내 조달계획 · 국군의무사령부 · 용역 · 제한경쟁 · 발주예정 2026.12 · 조달판단중 · 판단번호 51347",
+   "score": 0.0,
+   "also": [],
+   "origin": "api",
+   "src": "d2b-api",
+   "hint": "kr",
+   "q": "d2b:getDmstcPrcurePlanList",
+   "cats": [
+    "policy"
+   ],
+   "kw": [],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [],
+   "kind": "contract",
+   "plat": [],
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 6.0,
+    "dh": 0,
+    "rel": 0.0
+   }
+  },
+  {
+   "id": "442008ef4a21",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T02:28",
+   "title": "Pentagon Fails Ninth Consecutive Audit as GAO Finds Up to $2.5 Billion in F-35 Spare Parts Missing From Records",
+   "source": "Envanter Medya",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4OU1wMGprYWxGWmtGMmxzVFZJanRjSE5tcjQzcjg4d1R4VVY5Y3djZnFWazV6VVM5eU5wVk9kOTBiWUtYNWtBS3NROHhXNGIweHFoZHBmUUlrYk5rSzluVVJka2VuUlpqVno2QXlYRkttekF1MXpNcXgwOTNVQQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "parts",
+    "policy"
+   ],
+   "kw": [
+    "수리부속"
+   ],
+   "ents": [
+    "미 국방부",
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn",
+    "fcst"
+   ],
+   "kind": "policy",
+   "plat": [
+    "air"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "928145356a45",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T01:12",
+   "title": "US Air Force Cloud One Breach: Hackers Target Major Military Cloud Platform, Cyber Command Assesses Damage",
+   "source": "Speaks Media",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOHZtS24tXzRVZFlOaTZJUktGaG5zTE5wVjJYUlNYd0xtMHVkaHdtWjJqQ0FEWWNBY3VwLVF2OUxRQ1kwX0MyVkxydFJROGwyamo3YWpWY0I5VUUtd0FoUHBWN2xDVWozOU9DMldJTXpvNnZvSFNWSFNUUlZybERUT05LMlFtcUZ3ZEJvTlp5Nm4tSGZ6c0JSdlVMYXRFWkdtU1ZnRndOTTJVWHozRUVCeWVIS3V1RzNwTWJ6MW9iZkM0U1prSkhRaWFHbw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드",
+    "사이버보안"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "0093dec1edf0",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T23:58",
+   "title": "US Air Force Hack: Cyberattack Exposes Military Cloud System Linked to Missile Tracking and Air Defense",
+   "source": "International Business Times, Singapore Edition",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeTM4WDRZNVZiYUMwaVNsdjRDMUNYUUVFeFh4R0Nib09ndnNiRkFnUVZkQm43Z2ZRWkg3cFk2bEdFYThuUFFnbHAwamREY3FnOU5iZzNxVGtwa0FJaUZFYl80ei1iVGprbmpmczM3d2ktZjl4bEdkREk3TkhEcDMyaUVzemVQcUdBSS1uLW5sc0w1eFJhbzR1Vi1PVzlmOG8yUjRJZl9hMXhjLVNLRXdIalNvNmp1NURveG5CYUhrV1p5UQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [
+    "missile"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "d84e82f7f814",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T23:49",
+   "title": "US Air Force Cloud One cyberattack disrupts military cloud operations",
+   "source": "Beinsure",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWhidkNBX3U4QmVMbW93VWtTOXBhdEpoSkd0Q2lXbFVmRHFubzdrNkg4bXhJUlFDUWt3SS1rd0FSR2xJZ0NjTjU2WTZmNTR5WUExN0FRUnJmb0F3NWhpQkxyaVZwSGIwUUl2RXlCOGdsUmRDNXc2ajVmM2Z5cmtkUmJpS0JiZGs?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "83fd265edfb6",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T23:23",
+   "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+   "source": "Defense News",
+   "url": "https://www.defensenews.com/pentagon/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+   "lang": "en",
+   "summary": "Hackers have reportedly breached the service's flagship cloud computing platform, in a development that could jeopardize a vast swathe of tactical, personnel and logistics data.",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "defensenews",
+   "hint": "us",
+   "q": "",
+   "cats": [
+    "sys",
+    "log"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "31eb852fc2be",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T23:00",
+   "title": "Cartlidge says auditors show readiness was cut for cash",
+   "source": "UK Defence Journal",
+   "url": "https://ukdefencejournal.org.uk/cartlidge-says-auditors-show-readiness-was-cut-for-cash/",
+   "lang": "en",
+   "summary": "Shadow Defence Secretary James Cartlidge says the NAO report shows the government chose to reduce the Armed Forces' readiness to close the gap in its investment plan. The post Cartlidge says auditors show readiness was cut for cash first appeared on UK Defence Journal .",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "ukdj",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "policy",
+   "plat": [],
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 4.5,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "6a10b4f0cf95",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T22:45",
+   "title": "US Air Force hacked: intruders breach military cloud holding data on aircraft, missiles and personnel",
+   "source": "London Business News",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QdjBweUtVcUc0em1aclIxVUdLM1c1Zkl6ZjJiR25ndkhfY1d5OHEtRThGUExNMXFIWExRc3pOUW0xYlBXQjdLLW5pU0JzbGpOSUs4?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "Army enterprise business systems logistics",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [
+    "air"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3.5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "d5fed48cd408",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T22:01",
+   "title": "Nearly 10 000 SANDF members demonstrate combat readiness at Ex Vukuhlome V",
+   "source": "defenceWeb",
+   "url": "https://defenceweb.co.za/sa-defence-sa-defence/nearly-10-000-sandf-members-demonstrate-combat-readiness-at-ex-vukuhlome-v/",
+   "lang": "en",
+   "summary": "Almost 10 000 members of the South African National Defence Force (SANDF) participated in this year’s Exercise Vukuhlome – the [...]",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defenceweb",
+   "hint": "etc",
+   "q": "",
+   "cats": [
+    "ram"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "etc",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "conf": {
+    "src": "B",
+    "lv": "중간",
+    "r": 2.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "bd47e3a7f466",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T21:25",
+   "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ1BBYXE3eVJOeDY4NHJocjFCQ0p2Mkp2RjhhVDFHdkh2YXJQaVp2VXdaOHFwXzUtM0pxRmgwa3p4TG1xNVdMdkdmckFfME1vWW1MQ0NZdkRBRktZTFBMMldYOGJjSWVXb3RvZGMwdmFHZTZ2NTA0SXVWeXdvNHpBNFEwY21oQ3dIUXpyTWVTd0pTLU9HNGlnbDhuZElDb21MUFZPbVNNTWtCYVVQWlRnWmF5Wm1oMkZ1TlUzNmdKLVJwY3lyV1RlY1lXeDh4eks0cDlVaUUxcVE0QdIB2gFBVV95cUxOZ1BBYXE3eVJOeDY4NHJocjFCQ0p2Mkp2RjhhVDFHdkh2YXJQaVp2VXdaOHFwXzUtM0pxRmgwa3p4TG1xNVdMdkdmckFfME1vWW1MQ0NZdkRBRktZTFBMMldYOGJjSWVXb3RvZGMwdmFHZTZ2NTA0SXVWeXdvNHpBNFEwY21oQ3dIUXpyTWVTd0pTLU9HNGlnbDhuZElDb21MUFZPbVNNTWtCYVVQWlRnWmF5Wm1oMkZ1TlUzNmdKLVJwY3lyV1RlY1lXeDh4eks0cDlVaUUxcVE0QQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "UNITED24 Media",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnVVSzczVW1ScDRoeUo4VEktUGZjeUJFWEVfM3MyQ2VLbUQwTnpCb3M1UWRPNkpaNFZoaXdoV0VnMVQzV3RMRjkwbEtSODVuY1BuQThxMFJtbnVhbHh3WldSOXF1TkNkVlM4QWEtM01xTjlsazB1c0Ztd0pvdEhGb1lick9HZGdLazhySHNDYzdyWC1jTnRPU056RVdyRVJGTGNobUhoNk1HZmhXcnNZVzktYl9DTVZLc0JKZ3lBdm9va21pYVZWQzNvc2REZFVMUnhqRDE1NV9QYmM?oc=5",
+     "title": "Hackers Breach US Air Force’s Flagship Cloud One Platform, Putting Sensitive Military Data at Risk"
+    },
+    {
+     "source": "News9live",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcVBxV1dLX0FhRWRsRV95RHdUUTlGaE1vaWs4cWQ1bkZYMjZjMlNiVVNRUTZZM09uUW82OU0wWm1aTXNPZXlfaGk1U3B4M3daajBlN0NFZFNwa0VmeHBkVU5lekswX2dmajZMR1hYajdoX2o2RHFqbF9BYkQ5LVhwdHpaejNHTU5FSU1FT1JuY1JIVzhWMWJwd3QwSlVGWW5EVDg1eV9xZks2Tm4tRjV3dnBYNUw2RlpOcERtSXE3SW5oZDhMdGfSAcsBQVVfeXFMTnRKV0ktTzRaLXFoSXA0TFA1Yk9JdW9nQzB1S0hkOXFXSUpTV3BsYkJUNTlVZzBTUC1tblZfU1R6Sk1kcnZhVUV0ZG9VQ2VMLU9Qa1JYNUxram93STdJU1N2RVY5R3JUeFRNZGFTZEY4NVV1bDdxbzZQaXh0ZkdMTVg0UF9qbWRXVkZFRXg5SVBwWnVyWkkyU180bDlBWG1Fc2JGUy1rRF9yUHJVdTl3d3NQUlVlaDdBeXB5TmIxYTRSdFpJMUIwb2pjazQ?oc=5",
+     "title": "US Air Force hacked: Hackers breach Cloud One, sensitive military data potentially at risk"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military supply chain artificial intelligence",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "4cf0a6b72a56",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T13:38",
+   "title": "UK Awards Babcock £8.7 Billion Contract to Restore Royal Navy Submarine Readiness",
+   "source": "The Defense Watch",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ216RGtpTFpseXNwenVCZGxHbWMtN2pWU2c1eloyNzk5S3g1XzhMMXl6UF9pUS1McjNhT0tKZnhEQTZxTk1jOHZGMXlvZnNUeWFvUGVsQjBhbGluXzdSSHctRTZkSTZfRERSY3JBVzRkR1ZlaGQzQXR1enQxd3lSWDhwNEgtWVM5VXdCNDZrTm5jNU9JSHVqVXlSZE5aZw?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "eu",
+   "q": "Royal Navy maintenance AI",
+   "cats": [
+    "ram",
+    "ind"
+   ],
+   "kw": [
+    "가동률·준비태세"
+   ],
+   "ents": [],
+   "axes": [
+    "ram"
+   ],
+   "region": "eu",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "contract",
+   "plat": [
+    "naval"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 7.5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "62ee4d9d2f37",
    "date": "2026-11-27",
    "ts": "2026-11-27T12:47",
@@ -36,6 +483,41 @@
     "lv": "낮음",
     "r": 6.0,
     "dh": 1,
+    "rel": 2.5
+   }
+  },
+  {
+   "id": "3871580d9dfc",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T09:00",
+   "title": "Mro - Zone 2 Europe Region",
+   "source": "SAM.gov · Defense Logistics Agency",
+   "url": "https://sam.gov/workspace/contract/opp/ede8b6e4d493447599d78ba800f28cae/view",
+   "lang": "en",
+   "summary": "Justification · SPE5B127XMRO1 · DEFENSE LOGISTICS AGENCY > TROOP SUPPORT CONSTRUCTION & EQUIPMENT",
+   "score": 2.5,
+   "also": [],
+   "origin": "api",
+   "src": "samgov",
+   "hint": "us",
+   "q": "sam",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "DLA"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [],
+   "kind": "contract",
+   "plat": [],
+   "conf": {
+    "src": "A",
+    "lv": "낮음",
+    "r": 5,
+    "dh": 0,
     "rel": 2.5
    }
   },
@@ -760,6 +1242,45 @@
     "rel": 4.0
    },
    "plat": []
+  },
+  {
+   "id": "c33f86a3c409",
+   "date": "2026-11-25",
+   "ts": "2026-11-25T16:18",
+   "title": "K-방산, AI·플랫폼 결합해 전투력 극대화 나선다",
+   "source": "www.dt.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hM3ZmOFRYQVBOcHNDbTFvZmNCdndhQ2M1bWw5X09DWkdfSDdDSFpBVUlNN2hQTDBhbDlCZU9UN2VnR1lCdU9nQmJwMFdVUQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "국방 AX 인공지능 전환",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.0
+   }
   },
   {
    "id": "ec9c4d89e7db",
