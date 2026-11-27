@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 03:39",
+ "at": "2026-11-27 12:47",
  "base": "https://apis.data.go.kr/1690000/PrcurePlanInfoService",
  "ops": {
   "getDmstcPrcurePlanList": {
@@ -27,33 +27,33 @@
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "1031120000",
-     "cntrctMth": "수의계약",
-     "dcsNo": "5510",
+     "budgetAmount": "110531000",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "49333",
      "demandYear": "2026",
-     "excutTy": "제조",
+     "excutTy": "구매",
      "orderPrearngeMt": "202612",
-     "ornt": "헬기총괄계약팀",
-     "orntCode": "EQA",
-     "progrsSttus": "원가계산중",
-     "progrsSttusCode": "26",
-     "reprsntPrdlstNm": "소형무장헬기 최초 및 2차양산 VHF-FM무전기 암호장비",
+     "ornt": "제9965부대",
+     "orntCode": "MDR",
+     "progrsSttus": "공고중",
+     "progrsSttusCode": "24",
+     "reprsntPrdlstNm": "'27년 000부대 계란 등 135품목",
      "spcifyPrcureAt": "N"
     },
     {
      "beffatStndrdOthbcAt": "미공개",
      "bidMth": "총액제",
-     "budgetAmount": "21538000",
-     "cntrctMth": "수의계약",
-     "dcsNo": "50995",
+     "budgetAmount": "230000140",
+     "cntrctMth": "제한경쟁",
+     "dcsNo": "49329",
      "demandYear": "2026",
-     "excutTy": "제조/구매",
+     "excutTy": "구매",
      "orderPrearngeMt": "202612",
-     "ornt": "육군본부",
-     "orntCode": "LCG",
+     "ornt": "제9965부대",
+     "orntCode": "MDR",
      "progrsSttus": "공고중",
      "progrsSttusCode": "24",
-     "reprsntPrdlstNm": "26-육-320 26-1차 장성기세트 제조구매",
+     "reprsntPrdlstNm": "'27년 000부대 삼겹살 등 98품목",
      "spcifyPrcureAt": "N"
     }
    ]
