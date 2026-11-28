@@ -2,6 +2,171 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "de5b50686467",
+   "date": "2026-11-29",
+   "ts": "2026-11-29T00:30",
+   "title": "AI-Armed Hackers Breach US Air Force’s Cloud One Control Plane, Exposing Pentagon’s Cyber Vulnerabilities",
+   "source": "RTV English",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1RRczltZVJhc2ZnXzFsVkJ6Z3pvTHgycmlZakpSRjdyNko0ZUZ0QmlBODVkV09oY1FPMFRSbzBfSmpnWEJzQkQ3MFVNc1NFazBNU19zQk5aN0tIOWpBbE9mYTRGa2o1bExLN0g0dkt6Tkhwa1BnRVotSkIyT2RrQU5EM3ZtMkJGZ2V6WFdUaEUxaGk3ZllMeHRGU2xFRUlNYXVRNWFRYTJjUWdfSEJXTUxjN2tTSWxPQlY3RmVhMHNNQXlEeks2X2U0SQ?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys",
+    "ai"
+   ],
+   "kw": [
+    "AI",
+    "클라우드",
+    "사이버보안"
+   ],
+   "ents": [
+    "미 국방부"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 3,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "d6a57ecbe228",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T23:59",
+   "title": "Military Cloud Security: The Control Plane Crisis - European Defence Vulnerabilities - Digital Sovereignty and NATO’s Operational Resilience Through 2031",
+   "source": "https://debuglies.com",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdmZuekt2SEt4ckppR1I0dlBvOE03eHlLODJuVExNTnJvb180SGxqOUs1SWJIdE44d2NCXzhQa3p1bnQyNEI2dk1KWkN5bVhMWEdRZUZpMmF5aXVpX1RQeG96T3oyb3o2S3RhMlEyQm50aVM2eXpXLUw3TWhSMmlHSkx6Qzkyb3hjWG1MVkk4OERzZU8yUXY2blFnZ2k2UjRraXdQZzdMcjRuYTVqTko0bmd2cEtBNk44eS1aUi1fZUpzUG1uRW8ydnRmMDFSeFc5MU9JbjFXMWZIdTgxd29OcWtBVGFpRlFObUpETDRlU2J5LUQ0U2RVRENHRWJ6U0xqcWtJcnZmLXFCMlhLV2c?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 5.0,
+   "also": [],
+   "origin": "rss",
+   "src": "defis",
+   "hint": "eu",
+   "q": "",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "eu",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "A",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 1,
+    "rel": 5.0
+   }
+  },
+  {
+   "id": "11b5beb45463",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T18:15",
+   "title": "Hackers Breach US Air Force’s Cloud Platform, Disrupt Military Computing Operations",
+   "source": "Arise News",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWkJEMlVTdXZTQ0ZOVU5nWG5PVGVsOXJNSE40WFViVDZfNGlyR0NmRmg3aVlCYWgwcEhaTEhjTUY1TUs0V2Jlay0zYndfYTJvSFE5d0hhaU1kbmI5VEk2Z0lkdG41Qy1VQVd2dHhKS1hlYkR5LUdPUk9kQkVIemdSM0FnMDA4cEQ0VDhqd20wa0NuSGx2aUprMzZVaGxEYTJtWjIxRktR?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "etc",
+   "q": "Japan Self-Defense Forces maintenance logistics",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "etc",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 1.5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "517f06cab26e",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T13:43",
+   "title": "Hackers reportedly breach US Air Force’s flagship cloud platform, putting sensitive military data at risk",
+   "source": "Profit by Pakistan Today",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMk1JX2tMb2FsNzI1RHh5M3NFRkdnU1ZtaWMxUmlLYy16aTg4UmdDd0NvN0Mwc3RKRUxMbmZUMG90RmNDaTN0cXM2OHYwaUZqbU8waXdSTW1PVlJXY0RZZ0kwMWgzLVk3WEp3STVyVWpTVTVMbVFSbUk2LUhnUWJsdjFNVjdVVjhYRFlDcFRVbjU0all4T2FsZ0pDRXhLczk2R1Bocmd1ZWQtMzNRejI4bUg3WVloTWxTSFVheTVORTV1Z1hXV2NYREhLLVpmUm5uc200ZEJGQ1BCREF2MDEzc3RrZFY?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [
+    {
+     "source": "UG Diplomat",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON1Z4M1RUUmJEUzlZQWNSaHVvNlJBNWxoQ3NYNjkybTBKT184Z2hTbzFHMnItajVWd0FLZEJxbURndU9Pcjl2TUxHaG8tcm9iWGszOVhHTWhLb1d6Y0wtRUk1bF93NzNFNVpUbWpqbWNrOFRhTUVEUTJ4Q2ZFaW54aGFQeTJCY1ItY0hjei1vdkRHZEFIQUs0NENWcG5YNXVv?oc=5",
+     "title": "Hackers Breach US Air Force Cloud Platform, Exposing Sensitive Military Data"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "921edd418017",
    "date": "2026-11-28",
    "ts": "2026-11-28T04:40",
@@ -239,6 +404,44 @@
    }
   },
   {
+   "id": "6cc8bf7a212a",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T02:43",
+   "title": "Hackers Breach U.S. Air Force Cloud One, Disrupting Military Cloud Operations: 19 outlets compared",
+   "source": "NewsCord",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeDNnSFhaem04alk3d29ZbWpxMUZxcWxMV2JYdDVfa0xGemhVQ0YzaUlkeWFVcVk0ZDVfRG5xX3Vkclc1ejZjVHFwNHEyVWF6UWRPOFoyRkdaOVJyaU9meW96TEVjV3hteWhReTAwUUhKaUlVMkYtOXZFU1FZcVJKZkFpc0UxLTZWcUZDUHcyVWlMX05XTjlYckZVdHNCRE4xa1JMSnNJUGxubnBSSHB3cGhuSmJvX2hWMjNaTWlmTTZxcmdSS1FN?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "442008ef4a21",
    "date": "2026-11-28",
    "ts": "2026-11-28T02:28",
@@ -447,6 +650,45 @@
    }
   },
   {
+   "id": "85ed4c6a5530",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T23:06",
+   "title": "Hackers Break Into U.S. Air Force Cloud Platform Used to Manage Military Operations and Data",
+   "source": "CyberSecurityNews",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55ZWJVbVBLdHE1SjI4LVNjVk95cmV0X0o0VTk2ckZSdFFHTnpTTDFBY2xrdjYtUDNjUDlBTmpnc2pSODlhcmtaOU5jczV1UlVfWDc5b3Jpd2ZJd3BWXzRsQ2taLWVrbzJtaDRSNXJRYmF1Z9IBd0FVX3lxTE5rWmhDOG01TG5XX1Y3dzlJV29JNENJZXY0TVlXOXpNcUxGT3V5RWVzTXFlN1hDT3FDZFZqVjlRQUtxelA5YVlKQ2dnMnkyLXM1ekdWd0JkbS1HaFVldlU3N3gtS203X1NDd0FjeWpOWEVfd3doZ004?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "military logistics AI",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "31eb852fc2be",
    "date": "2026-11-27",
    "ts": "2026-11-27T23:00",
@@ -527,6 +769,44 @@
    }
   },
   {
+   "id": "75d256892969",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T22:45",
+   "title": "US Air Force Cloud One Reportedly Breached, Raising Fears Over Sensitive Military and Personnel Data",
+   "source": "inkl",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTEVZVXRvOVdLSGhVNW5ZOS1sQnFKYzVxY05qRmcwNXBsYURIVWFaaWxYd0VKazZDd2RUa1FPWXA4Y3Fjdl8wRUxKUmp4LUpzVWNHYXJ2SDdFRGYxdjlKUG1uX0JYYWE5ZE5jZTVtZTR4N1BFWldZUWVaSU9ZV2FRVW00dGQ3NUk1UkdNSXJWTkNGX1VWVTg3Umo4R3FfY2NJQ0w2WHdZa0tKcDlKalYwQzV2NVZNYzJkUExRNk1LSTR6U00?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
    "id": "d5fed48cd408",
    "date": "2026-11-27",
    "ts": "2026-11-27T22:01",
@@ -566,16 +846,21 @@
    }
   },
   {
-   "id": "bd47e3a7f466",
+   "id": "e75683ea9653",
    "date": "2026-11-27",
-   "ts": "2026-11-27T21:25",
-   "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
-   "source": "South China Morning Post",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ1BBYXE3eVJOeDY4NHJocjFCQ0p2Mkp2RjhhVDFHdkh2YXJQaVp2VXdaOHFwXzUtM0pxRmgwa3p4TG1xNVdMdkdmckFfME1vWW1MQ0NZdkRBRktZTFBMMldYOGJjSWVXb3RvZGMwdmFHZTZ2NTA0SXVWeXdvNHpBNFEwY21oQ3dIUXpyTWVTd0pTLU9HNGlnbDhuZElDb21MUFZPbVNNTWtCYVVQWlRnWmF5Wm1oMkZ1TlUzNmdKLVJwY3lyV1RlY1lXeDh4eks0cDlVaUUxcVE0QdIB2gFBVV95cUxOZ1BBYXE3eVJOeDY4NHJocjFCQ0p2Mkp2RjhhVDFHdkh2YXJQaVp2VXdaOHFwXzUtM0pxRmgwa3p4TG1xNVdMdkdmckFfME1vWW1MQ0NZdkRBRktZTFBMMldYOGJjSWVXb3RvZGMwdmFHZTZ2NTA0SXVWeXdvNHpBNFEwY21oQ3dIUXpyTWVTd0pTLU9HNGlnbDhuZElDb21MUFZPbVNNTWtCYVVQWlRnWmF5Wm1oMkZ1TlUzNmdKLVJwY3lyV1RlY1lXeDh4eks0cDlVaUUxcVE0QQ?oc=5",
+   "ts": "2026-11-27T20:55",
+   "title": "The U.S. Air Force's Cloud One Platform Confirmed Hacked, Military Data at Risk",
+   "source": "KuCoin",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHRTY1gybTYySzZReUNUYklQaWJfSFlTSnA4UWg1ZkVDNXNKUlFqNVl3WlBIRVJQNE9DZXNxQ05IcGZRYjk3aGQwTS1rZzhkX3NweFB5RUVYWF9lVkxCZzNJZlE0YTgzbkpWNWl4VTFYU1FWeTBmWjRmb2dYSjN2RGlmQmlDNjZ4RXNzOGlHVzRjdXFUdXRNRHBsZmFBQ09fQ05DVFB2Z0l4QQ?oc=5",
    "lang": "en",
    "summary": "",
    "score": 4.0,
    "also": [
+    {
+     "source": "South China Morning Post",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ1BBYXE3eVJOeDY4NHJocjFCQ0p2Mkp2RjhhVDFHdkh2YXJQaVp2VXdaOHFwXzUtM0pxRmgwa3p4TG1xNVdMdkdmckFfME1vWW1MQ0NZdkRBRktZTFBMMldYOGJjSWVXb3RvZGMwdmFHZTZ2NTA0SXVWeXdvNHpBNFEwY21oQ3dIUXpyTWVTd0pTLU9HNGlnbDhuZElDb21MUFZPbVNNTWtCYVVQWlRnWmF5Wm1oMkZ1TlUzNmdKLVJwY3lyV1RlY1lXeDh4eks0cDlVaUUxcVE0QdIB2gFBVV95cUxOZ1BBYXE3eVJOeDY4NHJocjFCQ0p2Mkp2RjhhVDFHdkh2YXJQaVp2VXdaOHFwXzUtM0pxRmgwa3p4TG1xNVdMdkdmckFfME1vWW1MQ0NZdkRBRktZTFBMMldYOGJjSWVXb3RvZGMwdmFHZTZ2NTA0SXVWeXdvNHpBNFEwY21oQ3dIUXpyTWVTd0pTLU9HNGlnbDhuZElDb21MUFZPbVNNTWtCYVVQWlRnWmF5Wm1oMkZ1TlUzNmdKLVJwY3lyV1RlY1lXeDh4eks0cDlVaUUxcVE0QQ?oc=5",
+     "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk"
+    },
     {
      "source": "UNITED24 Media",
      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnVVSzczVW1ScDRoeUo4VEktUGZjeUJFWEVfM3MyQ2VLbUQwTnpCb3M1UWRPNkpaNFZoaXdoV0VnMVQzV3RMRjkwbEtSODVuY1BuQThxMFJtbnVhbHh3WldSOXF1TkNkVlM4QWEtM01xTjlsazB1c0Ztd0pvdEhGb1lick9HZGdLazhySHNDYzdyWC1jTnRPU056RVdyRVJGTGNobUhoNk1HZmhXcnNZVzktYl9DTVZLc0JKZ3lBdm9va21pYVZWQzNvc2REZFVMUnhqRDE1NV9QYmM?oc=5",
@@ -590,7 +875,7 @@
    "origin": "rss",
    "src": "gnews",
    "hint": null,
-   "q": "military supply chain artificial intelligence",
+   "q": "military logistics AI",
    "cats": [
     "sys"
    ],
@@ -609,9 +894,48 @@
    "desc_tried": true,
    "conf": {
     "src": "C",
-    "lv": "낮음",
-    "r": 1,
+    "lv": "중간",
+    "r": 5,
     "dh": 2,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "3a89bfa226d6",
+   "date": "2026-11-27",
+   "ts": "2026-11-27T18:03",
+   "title": "Hackers Breach U.S. Air Force Cloud One Platform Supporting Dozens of Military Systems",
+   "source": "SFG Media",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeTFrRHdKTVVBOTI3b1paUmVVejRTNEVqdWstR3djYmloNzQ0M3hGdV9GNFl2a3JXNzRYY0V1MEhvRG9mOXU4SHVNSVVNaXFFcTF2V0NxcmpsMjRjMUtZT0wzeTAtZVVYSUh0N2NrUUQ3ckIzTjVxRnlJdWc5VkRGTA?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "Defense Logistics Agency AI",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis",
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 5,
+    "dh": 1,
     "rel": 4.0
    }
   },
