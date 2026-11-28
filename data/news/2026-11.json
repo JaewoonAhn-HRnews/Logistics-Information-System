@@ -2,6 +2,129 @@
  "month": "2026-11",
  "articles": [
   {
+   "id": "921edd418017",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T04:40",
+   "title": "RTX’s Pratt & Whitney Receives $2.53 Billion Navy Action For F-35 Engine Sustainment",
+   "source": "Pulse 2.0",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTFY3ejBiUzYyTkdDSUJ6dWh6d2czejFsM3NhRUhXWXFCalhTYUxxa0VlM1JwOC1EajQtbHZNZF9IcFdUTXhrTzlsRFlQN28xTlZTTFlhdG9hVmxQZER6cnNqN09HZVRDb1ZKdzFjR1N1R2ZRYWdLdDBSbUFsVlFwelpVRFBvS25YNk5UeVNaSDUtYzJ2Um5nNVFPWmtSRk9NbWc?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [
+    {
+     "source": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yTzkzZUNRMndmMDJiWkZOQk5rS3BoTEZFc0VQU0VYdC15VTlrRi1lbWxreWRKOE9RQVd0UnhqanlKb0RYWTZzZlVwNnpSUFhkbW1jNlRYYjJKU2hSU09KUGNqdUc2QjF1bGpVdFNvZU1Ib0VId1E?oc=5",
+     "title": "RTX Unit Pratt & Whitney Lands $2.53B Navy F-35 Engine Sustainment Deal"
+    }
+   ],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "us",
+   "q": "F-35 sustainment spare parts",
+   "cats": [
+    "log"
+   ],
+   "kw": [],
+   "ents": [
+    "F-35"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [
+    "air"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 6.5,
+    "dh": 3,
+    "rel": 4.5
+   }
+  },
+  {
+   "id": "c94b727c58a3",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T04:32",
+   "title": "US Air Force Cloud One breach puts military systems under scrutiny",
+   "source": "Interesting Engineering",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZjVyYnhsY21FajB1b1p0c1k1N2VUOHFQRS1mZk50SWZpME1DaHlSb09mM1lnWmY1S3QzbVFOMDY2ZHJjSXFwNS10MEJYQXNjNllqS01RblhmZHZjazh6MGJBMGFHUFNhQ2hXS3g3X3dMR0NhY1UyVDRzOXJld1UyQ0VsbHo?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "e1b87cdf39a3",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T04:12",
+   "title": "Air Force Cloud One breach: 5 risks from logistics data to stalled security fixes",
+   "source": "qz.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xMFFaM0pnNFZiNmhaVmNwbEkwalAwcWM3OXBkeFpyYTNKQ0R6UWhHQVF6VGNIc2dEa2x0WExFYVRxSC1DRXQ5SzczaFhLX2FHeFBPemY0b2FESWx2Z20xeGI2c0YwS3RxYzlWM0duOGJzczcyR3c?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "sys",
+    "log"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 2,
+    "rel": 4.5
+   }
+  },
+  {
    "id": "9d26a14c49c7",
    "date": "2026-11-28",
    "ts": "2026-11-28T03:28",
@@ -32,6 +155,87 @@
     "r": 6.0,
     "dh": 0,
     "rel": 0.0
+   }
+  },
+  {
+   "id": "f3f680a50104",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T03:28",
+   "title": "Hackers Breached Air Force Cloud One, System Behind Payroll, Munition Tracking and Air Defense Radar: Report",
+   "source": "Military.com",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNEhKWUQzcTJkbFlYQkZmYmswTk9JeWxHRGdFRjhVVjJKcVBOSnpyU2pnVkpwb3FtV2FvM2w2UGp1MmZMYTZ0MllBQ0oxLXoxRTVsQnZ4MDNaNENKemNjdi1xTkdfd1JBczl0WkpsNU13SlVMdXh2NnZSMk5ObG9QYUpkWmhhbm85Q00w?oc=5",
+   "lang": "en",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "aircraft readiness maintenance data military",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "policy",
+   "plat": [
+    "missile"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "B",
+    "lv": "낮음",
+    "r": 1,
+    "dh": 1,
+    "rel": 4.0
+   }
+  },
+  {
+   "id": "a7e39d2145c9",
+   "date": "2026-11-28",
+   "ts": "2026-11-28T03:22",
+   "title": "미 공군 클라우드 원 침해 보도와 사이버 공격의 위험성",
+   "source": "InformNapalm",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VZmZxNUROQTlnTy1NTi1EQktOMl9nUHg3UmI5LUFIVDFibVhZV2pBTGNCTlUteS1XTk1XWEVUeS1JNVc2Nm8xM1EtODA3SzQ?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.5,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": null,
+   "q": "군수정보체계",
+   "cats": [
+    "sys"
+   ],
+   "kw": [
+    "클라우드",
+    "사이버보안"
+   ],
+   "ents": [
+    "공군"
+   ],
+   "axes": [],
+   "region": "us",
+   "domains": [
+    "lis"
+   ],
+   "kind": "news",
+   "plat": [],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "낮음",
+    "r": 0.5,
+    "dh": 1,
+    "rel": 4.5
    }
   },
   {
@@ -207,7 +411,13 @@
    "lang": "en",
    "summary": "Hackers have reportedly breached the service's flagship cloud computing platform, in a development that could jeopardize a vast swathe of tactical, personnel and logistics data.",
    "score": 4.5,
-   "also": [],
+   "also": [
+    {
+     "source": "Federal News Network (Defense)",
+     "url": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/",
+     "title": "Hackers breach Air Force’s “Cloud One” computing environment"
+    }
+   ],
    "origin": "rss",
    "src": "defensenews",
    "hint": "us",
@@ -878,6 +1088,47 @@
    "plat": [
     "air"
    ]
+  },
+  {
+   "id": "0da2140bd57c",
+   "date": "2026-11-26",
+   "ts": "2026-11-26T10:44",
+   "title": "경남테크노파크, 방산 중소기업 함정 MRO·수출 지원",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45R1I4OC15WWpRSWZZMldsbUFnX3VtYTE4YUdBOU1Xbmc3UV9GMnZHQVdWcDdHQ1Nmd2REb3p5cVdUYWZ0RmJYc1hCSEE1YjZMVlZ6SFlwSmlHUms?oc=5",
+   "lang": "ko",
+   "summary": "",
+   "score": 4.0,
+   "also": [],
+   "origin": "rss",
+   "src": "gnews",
+   "hint": "kr",
+   "q": "함정 MRO 한국",
+   "cats": [
+    "mro",
+    "ind"
+   ],
+   "kw": [
+    "MRO"
+   ],
+   "ents": [],
+   "axes": [],
+   "region": "kr",
+   "domains": [
+    "wpn"
+   ],
+   "kind": "news",
+   "plat": [
+    "naval"
+   ],
+   "desc_tried": true,
+   "conf": {
+    "src": "C",
+    "lv": "중간",
+    "r": 4.0,
+    "dh": 3,
+    "rel": 4.0
+   }
   },
   {
    "id": "d440a4e52a46",
